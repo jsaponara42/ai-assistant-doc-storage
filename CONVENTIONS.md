@@ -1,6 +1,6 @@
 # Vault conventions
 
-This file is the first thing any AI agent should read before interacting with this vault. It describes the folder structure, file naming rules, frontmatter schema, and tagging conventions.
+This file is the first thing any AI agent should read before interacting with this vault. It describes the folder structure, quick-capture workflow, file naming rules, frontmatter schema, and tagging conventions.
 
 ---
 
@@ -18,8 +18,10 @@ This vault is a personal knowledge base for John-Carlos. Its primary uses are:
 ```
 vault/
 ├── CONVENTIONS.md              ← this file — read first
-├── INDEX.md                    ← auto-maintained map of all notes — read second
+├── INDEX.md                    ← lightweight routing map
 ├── README.md                   ← human-facing repo description
+├── xx_needs-categorization/    ← quick-capture inbox for rough personal notes
+│   └── *.md
 ├── personal/
 │   ├── projects/               ← personal projects, one subfolder per project
 │   │   └── project-name/
@@ -42,6 +44,8 @@ vault/
 
 ### Folder placement rules
 
+- Use `xx_needs-categorization/` as the default inbox for fast personal capture. Notes here can be rough, partial, or unstructured.
+- During cleanup, move inbox notes into `personal/` or `business/` when the intent is clear.
 - Use `personal/` for anything related to private life, personal goals, hobbies, or general knowledge
 - Use `business/` for anything work, client, or professionally oriented
 - Within each context, choose the type folder:
@@ -49,6 +53,7 @@ vault/
   - `research/` — standalone reference not tied to a specific project
   - `ideas/` — low-friction capture, no minimum quality bar. Ideas that mature into projects get moved or linked via `related` field
 - `overview.md` files (one per project subfolder) do not need a date prefix
+- Do not create assistant-specific subfolders (for example `claude/`). Track assistant origin in the `ai` frontmatter field.
 
 ---
 
@@ -172,9 +177,14 @@ See also: [[personal/projects/ai-pwa/overview|AI PWA project overview]]
 
 ## INDEX.md
 
-`INDEX.md` is auto-maintained by the vault MCP server on every commit. It contains a table of all notes with their title, date, context, tags, and summary. **Do not edit INDEX.md manually.**
+`INDEX.md` is intentionally lightweight. It should help agents route quickly, not list every note.
 
-Agents should read `INDEX.md` after `CONVENTIONS.md` to get a full map of the vault before deciding which notes to read in depth.
+Use this structure:
+- Current top-level folders
+- Active projects (with links to `overview.md`)
+- Recently added notes (last 7-14 days, capped)
+
+Do not turn `INDEX.md` into a full vault dump. Full-note discovery should come from folder scans and frontmatter filtering.
 
 ---
 
@@ -183,12 +193,13 @@ Agents should read `INDEX.md` after `CONVENTIONS.md` to get a full map of the va
 If you are an AI agent reading this file:
 
 1. Read `CONVENTIONS.md` (this file) first
-2. Read `INDEX.md` to get an overview of what exists
-3. Use the `summary` frontmatter field to decide which notes are worth reading in full
+2. Check `INDEX.md` for fast routing only
+3. Use folder scans and the `summary` frontmatter field to decide which notes are worth reading in full
 4. When saving a new note, infer placement from the content:
+  - Fast personal capture with unclear destination -> `xx_needs-categorization/`
    - Personal topic → `personal/`
    - Work/professional topic → `business/`
    - Within context: tied to a named project → `projects/project-name/`, standalone reference → `research/`, speculative → `ideas/`
 5. Always populate the `summary` frontmatter field — this is the most valuable metadata for future retrieval
 6. Set `ai` field to the assistant that generated the note
-7. Never edit `INDEX.md` directly — it is auto-generated on every commit by the MCP server
+7. Never create assistant-named folders; the `ai` field is the source-of-truth
