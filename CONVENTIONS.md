@@ -22,6 +22,15 @@ vault/
 ├── README.md                   ← human-facing repo description
 ├── xx_needs-categorization/    ← quick-capture inbox for rough personal notes
 │   └── *.md
+├── tasks/                      ← task queue for humans and AI agents
+│   ├── ai-tasks/               ← tasks for AI agents to execute autonomously
+│   │   ├── COMPLETED-TASKS.md  ← running checklist log of completed tasks
+│   │   ├── archived/           ← completed task files moved here when done
+│   │   └── *.md                ← individual active task files
+│   └── jc-tasks/               ← tasks for JC to complete manually
+│       ├── COMPLETED-TASKS.md  ← running checklist log of completed tasks
+│       ├── archived/           ← completed task files moved here when done
+│       └── *.md                ← individual active task files
 ├── personal/
 │   ├── projects/               ← personal projects, one subfolder per project
 │   │   └── project-name/
@@ -57,6 +66,72 @@ vault/
 
 ---
 
+## Tasks folder
+
+The `tasks/` folder is the action queue for the vault. It has two subfolders:
+
+- `tasks/ai-tasks/` — tasks an AI agent should execute. An agent can be pointed at this folder to run autonomously.
+- `tasks/jc-tasks/` — tasks JC needs to complete manually.
+
+### Task file naming
+
+Format: `{priority}-{YYYY-MM-DD}-{short-description}.md`
+
+Examples:
+- `1-2026-04-01-update-index.md`
+- `2-2026-04-03-draft-claw-strategy.md`
+
+Priority scale: **1 = highest**, 2 = normal, 3 = low.
+
+### COMPLETED-TASKS.md
+
+Each subfolder contains a single `COMPLETED-TASKS.md` — a running checklist log of every task that has been finished.
+
+**Entry format:**
+```
+- [x] YYYY-MM-DD — [[archived/filename-without-extension|Task title]]
+```
+
+- The date is the **completion date**
+- The wikilink points into the `archived/` subfolder where the task file was moved
+- Entries are added **most-recent-first**
+- Do not delete entries or the `archived/` files they reference — this is the permanent record
+
+**Example:**
+```markdown
+## Completed
+
+- [x] 2026-03-31 — [[archived/1-2026-03-31-create-tasks-folder-structure|Create tasks folder structure]]
+- [x] 2026-04-02 — [[archived/2-2026-03-30-update-index|Update INDEX.md with new folders]]
+```
+
+### Completing a task — step by step
+
+1. Update the task file's `status` frontmatter to `archived`
+2. Move the task file into `archived/` within the same subfolder
+3. Add a line to `COMPLETED-TASKS.md` (most-recent-first, under `## Completed`)
+
+### Task frontmatter schema
+
+```yaml
+---
+title: "Human-readable task title"
+date: YYYY-MM-DD
+due-date: YYYY-MM-DD
+priority: 1 | 2 | 3
+tags: [tag1, tag2]
+ai: claude | human
+context: personal | business
+status: draft | active | archived
+related: []
+summary: "One sentence describing what this task requires."
+---
+```
+
+Both `due-date` and `priority` are required for all task files.
+
+---
+
 ## File naming
 
 Format: `YYYY-MM-DD-short-description.md`
@@ -71,6 +146,7 @@ Rules:
 - Keep the description short — 3 to 5 words
 - No spaces, no special characters
 - Exception: `overview.md` files inside project subfolders do not use a date prefix
+- Exception: task files use `{priority}-{date}-{description}.md` format (see Tasks folder above)
 
 ---
 
@@ -131,6 +207,7 @@ Use only tags from this list. Add new tags to this list when genuinely needed.
 | `pwa` | Progressive web apps |
 | `strategy` | Business strategy, planning |
 | `client` | Client-specific notes |
+| `task` | Task files in the tasks/ folder |
 
 ---
 
@@ -196,10 +273,12 @@ If you are an AI agent reading this file:
 2. Check `INDEX.md` for fast routing only
 3. Use folder scans and the `summary` frontmatter field to decide which notes are worth reading in full
 4. When saving a new note, infer placement from the content:
-  - Fast personal capture with unclear destination -> `xx_needs-categorization/`
+   - Fast personal capture with unclear destination → `xx_needs-categorization/`
    - Personal topic → `personal/`
    - Work/professional topic → `business/`
    - Within context: tied to a named project → `projects/project-name/`, standalone reference → `research/`, speculative → `ideas/`
+   - Actionable task → `tasks/ai-tasks/` or `tasks/jc-tasks/` depending on who should execute
 5. Always populate the `summary` frontmatter field — this is the most valuable metadata for future retrieval
 6. Set `ai` field to the assistant that generated the note
 7. Never create assistant-named folders; the `ai` field is the source-of-truth
+8. When completing a task: set `status: archived` in frontmatter, move the file to `archived/`, and add a line to `COMPLETED-TASKS.md`

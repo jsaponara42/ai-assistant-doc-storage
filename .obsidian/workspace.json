@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "tasks/jc-tasks/COMPLETED-TASKS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "COMPLETED-TASKS"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "tasks/jc-tasks/COMPLETED-TASKS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of COMPLETED-TASKS"
             }
           }
         ],
@@ -181,46 +181,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "fit:Sync to GitHub": false,
+      "quickadd:QuickAdd": false
     }
   },
-  "active": "96c19d77d897b7c9",
+  "active": "0305057f00d20d02",
   "lastOpenFiles": [
-    "xx_needs-categorization/2026-03-30-PERMANENT-NOTE.md",
-    "_fit/xx_needs-categorization/2026-03-30-PERMANENT-NOTE",
-    "_fit/xx_needs-categorization",
-    "xx_needs-categorization/2026-03-30-PERMANENT-NOTE",
-    "INDEX.md",
+    "CONVENTIONS.md.bbf6da2867d8dbbf2861df6b5b16c51d.tmp",
+    "tasks/jc-tasks/PERMANENT-NOTE.md",
+    "tasks/jc-tasks/TASK-LOG.md",
+    "tasks/ai-tasks/TASK-LOG.md",
+    "tasks/jc-tasks/1-2026-03-31-create-tasks-folder-structure.md",
+    "tasks/ai-tasks/archived/PERMANENT-NOTE.md",
+    "tasks/jc-tasks/archived/PERMANENT-NOTE.md",
+    "tasks/ai-tasks/archived",
+    "tasks/jc-tasks/archived",
+    "tasks/ai-tasks/COMPLETED-TASKS.md",
+    "tasks/jc-tasks/COMPLETED-TASKS.md",
+    "tasks/ai-tasks/completed/PERMANENT-NOTE.md",
+    "tasks/jc-tasks/completed/PERMANENT-NOTE.md",
+    "tasks/ai-tasks/completed",
+    "tasks/jc-tasks/completed",
     "CONVENTIONS.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
-    "_fit/personal/research/2026-03-27-getting-started.md",
-    "personal/research/2026-03-27-getting-started.md",
-    "_fit/business/research/2026-03-27-getting-started.md",
-    "_fit/business/research",
-    "business/research/2026-03-27-getting-started.md",
-    "business/research",
-    "xx_needs-categorization",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md",
-    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
-    "_fit/business/projects/blue-tusk-go-to-market/overview.md",
-    "_fit/business/projects/blue-tusk-go-to-market",
-    "_fit/business/claude/2026-03-27-getting-started.md",
-    "_fit/personal/research/2026-03-30-test-note.md",
-    "_fit/personal/claude/2026-03-27-getting-started.md",
-    "_fit/business/claude",
-    "_fit/business/projects",
-    "_fit/personal/research",
-    "_fit/CONVENTIONS.md",
-    "_fit/INDEX.md",
-    "_fit/README.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md"
+    "xx_needs-categorization/_processed_2026-03-30-skills.md",
+    "CONVENTIONS.md.bb5768fd6ef00a3969d4dde1567c6d03.tmp",
+    "INDEX.md.e9b1dda331373c28e87a2d5df643d451.tmp",
+    "xx_needs-categorization/_processed_2026-03-31-create-tasks-main-folder.md",
+    "xx_needs-categorization/_processed_2026-03-31-corporate-claw-strategy.md",
+    "xx_needs-categorization/_processed_2026-03-31-quick-voice-note.md",
+    "xx_needs-categorization/_archive_2026-03-30-skills.md",
+    "business/research/2026-03-31-corporate-claws-strategy.md",
+    "business/ideas/2026-03-31-daily-summary-for-ai-memory.md",
+    "business/ideas/2026-03-30-move-skills-repo-into-vault.md",
+    "business/ideas",
+    "tasks/ai-tasks/PERMANENT-NOTE.md",
+    "tasks/jc-tasks",
+    "tasks/ai-tasks",
+    "tasks",
+    "README.md",
+    "INDEX.md",
+    "xx_needs-categorization/2026-03-31-Create tasks main folder.md",
+    "xx_needs-categorization/2026-03-31-corporate-claw-strategy.md",
+    "xx_needs-categorization/2026-03-31 quick voice note.md"
   ]
 }
