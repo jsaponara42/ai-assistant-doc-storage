@@ -24,9 +24,13 @@ vault/
 │   └── *.md
 ├── tasks/                      ← task queue for humans and AI agents
 │   ├── ai-tasks/               ← tasks for AI agents to execute autonomously
-│   │   └── *.md
+│   │   ├── TASK-LOG.md         ← running checklist of all AI tasks (active + completed)
+│   │   ├── *.md                ← individual task files
+│   │   └── completed/          ← task files moved here when done
 │   └── jc-tasks/               ← tasks for JC to complete manually
-│       └── *.md
+│       ├── TASK-LOG.md         ← running checklist of all JC tasks (active + completed)
+│       ├── *.md                ← individual task files
+│       └── completed/          ← task files moved here when done
 ├── personal/
 │   ├── projects/               ← personal projects, one subfolder per project
 │   │   └── project-name/
@@ -78,6 +82,33 @@ Examples:
 - `2-2026-04-03-draft-claw-strategy.md`
 
 Priority scale: **1 = highest**, 2 = normal, 3 = low.
+
+### TASK-LOG.md
+
+Each subfolder contains a single `TASK-LOG.md` — the authoritative checklist for that queue.
+
+**Format for each entry:**
+```
+- [ ] YYYY-MM-DD | P{priority} | [[task-filename-without-extension]] | short description
+```
+
+**Workflow:**
+1. When a task file is created, add a line to `TASK-LOG.md` under `## Active`
+2. When a task is complete, check the box `[x]`, update the date to the completion date, and move the line to `## Completed`
+3. Move the task file itself into the `completed/` subfolder
+
+**Example TASK-LOG.md:**
+```markdown
+## Active
+
+- [ ] 2026-04-01 | P1 | [[1-2026-04-01-update-index]] | Update INDEX.md with new folders
+
+## Completed
+
+- [x] 2026-03-31 | P1 | [[completed/1-2026-03-31-create-tasks-folder-structure]] | Create tasks folder structure
+```
+
+Note: update the wikilink path to include `completed/` prefix once the file is moved.
 
 ### Task frontmatter schema
 
@@ -249,4 +280,4 @@ If you are an AI agent reading this file:
 5. Always populate the `summary` frontmatter field — this is the most valuable metadata for future retrieval
 6. Set `ai` field to the assistant that generated the note
 7. Never create assistant-named folders; the `ai` field is the source-of-truth
-8. When executing tasks from `tasks/ai-tasks/`, update the task file's `status` to `archived` when complete
+8. When a task is complete: check it off in `TASK-LOG.md`, move the entry to `## Completed`, and move the task file into `completed/`
