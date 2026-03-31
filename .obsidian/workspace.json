@@ -185,8 +185,9 @@
       "fit:Sync to GitHub": false
     }
   },
-  "active": "0305057f00d20d02",
+  "active": "96c19d77d897b7c9",
   "lastOpenFiles": [
+    "xx_needs-categorization/2026-03-30-PERMANENT-NOTE",
     "INDEX.md",
     "CONVENTIONS.md",
     "business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
@@ -221,7 +222,6 @@
     "_fit/README.md",
     "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
     "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md"
+    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md"
   ]
 }
