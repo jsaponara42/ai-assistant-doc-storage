@@ -181,12 +181,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "fit:Sync to GitHub": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "96c19d77d897b7c9",
   "lastOpenFiles": [
+    "xx_needs-categorization/2026-03-30-PERMANENT-NOTE.md",
+    "_fit/xx_needs-categorization/2026-03-30-PERMANENT-NOTE",
+    "_fit/xx_needs-categorization",
     "xx_needs-categorization/2026-03-30-PERMANENT-NOTE",
     "INDEX.md",
     "CONVENTIONS.md",
@@ -214,9 +216,6 @@
     "_fit/business/claude",
     "_fit/business/projects",
     "_fit/personal/research",
-    "_fit/personal/claude",
-    "_fit/business",
-    "_fit/personal",
     "_fit/CONVENTIONS.md",
     "_fit/INDEX.md",
     "_fit/README.md",
