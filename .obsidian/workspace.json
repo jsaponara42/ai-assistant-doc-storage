@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-30-pre-call-screening-survey"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-03-30-pre-call-screening-survey"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-03-30-pre-call-screening-survey"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,27 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-03-30-pre-call-screening-survey"
-            }
-          },
-          {
-            "id": "2396ea06d8e62a95",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of README"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -191,21 +181,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "fit:Sync to GitHub": false
     }
   },
   "active": "0305057f00d20d02",
   "lastOpenFiles": [
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md",
-    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow.md",
-    "README.md",
-    "Untitled.base",
+    "INDEX.md",
     "CONVENTIONS.md",
-    "INDEX.md"
+    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow.md",
+    "business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+    "_fit/personal/research/2026-03-27-getting-started.md",
+    "personal/research/2026-03-27-getting-started.md",
+    "_fit/business/research/2026-03-27-getting-started.md",
+    "_fit/business/research",
+    "business/research/2026-03-27-getting-started.md",
+    "business/research",
+    "xx_needs-categorization",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-blog-writing-prompt.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md",
+    "_fit/business/projects/blue-tusk-go-to-market/2026-03-30-pre-call-screening-survey.md",
+    "_fit/business/projects/blue-tusk-go-to-market/overview.md",
+    "_fit/business/projects/blue-tusk-go-to-market",
+    "_fit/business/claude/2026-03-27-getting-started.md",
+    "_fit/personal/research/2026-03-30-test-note.md",
+    "_fit/personal/claude/2026-03-27-getting-started.md",
+    "_fit/business/claude",
+    "_fit/business/projects",
+    "_fit/personal/research",
+    "_fit/personal/claude",
+    "_fit/business",
+    "_fit/personal",
+    "_fit/CONVENTIONS.md",
+    "_fit/INDEX.md",
+    "_fit/README.md",
+    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants.md",
+    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md",
+    "business/projects/blue-tusk-go-to-market/2026-03-30-blog-instructionbot-prompt.md",
+    "business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md"
   ]
 }
