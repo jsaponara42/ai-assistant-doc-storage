@@ -24,13 +24,13 @@ vault/
 │   └── *.md
 ├── tasks/                      ← task queue for humans and AI agents
 │   ├── ai-tasks/               ← tasks for AI agents to execute autonomously
-│   │   ├── TASK-LOG.md         ← running checklist of all AI tasks (active + completed)
-│   │   ├── *.md                ← individual task files
-│   │   └── completed/          ← task files moved here when done
+│   │   ├── COMPLETED-TASKS.md  ← running checklist log of completed tasks
+│   │   ├── archived/           ← completed task files moved here when done
+│   │   └── *.md                ← individual active task files
 │   └── jc-tasks/               ← tasks for JC to complete manually
-│       ├── TASK-LOG.md         ← running checklist of all JC tasks (active + completed)
-│       ├── *.md                ← individual task files
-│       └── completed/          ← task files moved here when done
+│       ├── COMPLETED-TASKS.md  ← running checklist log of completed tasks
+│       ├── archived/           ← completed task files moved here when done
+│       └── *.md                ← individual active task files
 ├── personal/
 │   ├── projects/               ← personal projects, one subfolder per project
 │   │   └── project-name/
@@ -83,32 +83,33 @@ Examples:
 
 Priority scale: **1 = highest**, 2 = normal, 3 = low.
 
-### TASK-LOG.md
+### COMPLETED-TASKS.md
 
-Each subfolder contains a single `TASK-LOG.md` — the authoritative checklist for that queue.
+Each subfolder contains a single `COMPLETED-TASKS.md` — a running checklist log of every task that has been finished.
 
-**Format for each entry:**
+**Entry format:**
 ```
-- [ ] YYYY-MM-DD | P{priority} | [[task-filename-without-extension]] | short description
+- [x] YYYY-MM-DD — [[archived/filename-without-extension|Task title]]
 ```
 
-**Workflow:**
-1. When a task file is created, add a line to `TASK-LOG.md` under `## Active`
-2. When a task is complete, check the box `[x]`, update the date to the completion date, and move the line to `## Completed`
-3. Move the task file itself into the `completed/` subfolder
+- The date is the **completion date**
+- The wikilink points into the `archived/` subfolder where the task file was moved
+- Entries are added **most-recent-first**
+- Do not delete entries or the `archived/` files they reference — this is the permanent record
 
-**Example TASK-LOG.md:**
+**Example:**
 ```markdown
-## Active
-
-- [ ] 2026-04-01 | P1 | [[1-2026-04-01-update-index]] | Update INDEX.md with new folders
-
 ## Completed
 
-- [x] 2026-03-31 | P1 | [[completed/1-2026-03-31-create-tasks-folder-structure]] | Create tasks folder structure
+- [x] 2026-03-31 — [[archived/1-2026-03-31-create-tasks-folder-structure|Create tasks folder structure]]
+- [x] 2026-04-02 — [[archived/2-2026-03-30-update-index|Update INDEX.md with new folders]]
 ```
 
-Note: update the wikilink path to include `completed/` prefix once the file is moved.
+### Completing a task — step by step
+
+1. Update the task file's `status` frontmatter to `archived`
+2. Move the task file into `archived/` within the same subfolder
+3. Add a line to `COMPLETED-TASKS.md` (most-recent-first, under `## Completed`)
 
 ### Task frontmatter schema
 
@@ -280,4 +281,4 @@ If you are an AI agent reading this file:
 5. Always populate the `summary` frontmatter field — this is the most valuable metadata for future retrieval
 6. Set `ai` field to the assistant that generated the note
 7. Never create assistant-named folders; the `ai` field is the source-of-truth
-8. When a task is complete: check it off in `TASK-LOG.md`, move the entry to `## Completed`, and move the task file into `completed/`
+8. When completing a task: set `status: archived` in frontmatter, move the file to `archived/`, and add a line to `COMPLETED-TASKS.md`
