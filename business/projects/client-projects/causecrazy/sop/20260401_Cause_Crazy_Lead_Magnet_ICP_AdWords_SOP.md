@@ -128,13 +128,13 @@ After a lead is converted to a contact in Zoho, verify:
 
 ## 9. Common Issues and Fixes
 
-| Problem                                                 | Likely Cause                                                                                                           | What to Do                                                                                                                                                                                              |
-| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lead record not created in Zoho after form submission   | Make.com connection to Zoho may have broken, or Zoho access was changed                                                | Contact Blue Tusk immediately. Do not attempt to fix in Make.com.                                                                                                                                       |
-| Purpose Pathway document not generated                  | OpenAI API key may have expired, or the Cover Page file is missing from the master folder                              | Check that the Cover Page file exists in the master folder. If yes, contact Blue Tusk.                                                                                                                  |
-| Lead did not receive email after two days               | The `jotform@causecrazy.com` email account may have a problem, or the Make.com automation failed                       | Check the email account is active. Check `jotform@causecrazy.com` "Sent" emails for an email that matches the email address the lead submitted the form with. Contact Blue Tusk if the account is fine. |
-| ICP/AdWords docs not created after converting a contact | Zoho webhook may not have fired, or Make.com flow failed. Often caused by a change to Zoho access or folder structure. | Contact Blue Tusk. Do not click Convert again on the same record.                                                                                                                                       |
-| Google Drive link not appearing on Zoho record          | Make.com step that writes the link may have failed                                                                     | Check the Google Drive folder for the document. If it exists, contact Blue Tusk to fix the Zoho link write step.                                                                                        |
+| Problem                                                 | Likely Cause                                                                                                             | What to Do                                                                                                                                                                                              |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lead record not created in Zoho after form submission   | Make.com connection to Zoho may have broken, or Zoho access was changed                                                  | Contact Blue Tusk immediately. Do not attempt to fix in Make.com.                                                                                                                                       |
+| Purpose Pathway document not generated                  | OpenAI API key may have expired, or the Cover Page file is missing from the master folder                                | Check that the Cover Page file exists in the master folder. If yes, contact Blue Tusk.                                                                                                                  |
+| Lead did not receive email after two days               | The `jotform@causecrazy.com` email account may have a problem, or the Make.com automation failed                         | Check the email account is active. Check `jotform@causecrazy.com` "Sent" emails for an email that matches the email address the lead submitted the form with. Contact Blue Tusk if the account is fine. |
+| ICP/AdWords docs not created after converting a contact | Zoho webhook may not have fired, or Make.com flow failed.  Can be caused by a change to Zoho access or folder structure. | Contact Blue Tusk. Do not click Convert again on the same record.                                                                                                                                       |
+| Google Drive link not appearing on Zoho record          | Make.com step that writes the link may have failed                                                                       | Check the Google Drive folder for the document. If it exists, contact Blue Tusk to fix the Zoho link write step.                                                                                        |
 
 ---
 
@@ -144,17 +144,17 @@ After a lead is converted to a contact in Zoho, verify:
 >
 > The following items keep both automations working. Changing any of them without first contacting Blue Tusk **will break the automation.**
 
-1. **OpenAI API Keys** — Stored under the Cause Crazy account. If they expire, are revoked, or are changed, document generation will stop. Do not rotate or change these keys without Blue Tusk's involvement.
+1. **OpenAI API Keys** — Stored under the Cause Crazy account. If they expire, are revoked, billing fails, or are changed, document generation will stop. Do not rotate or change these keys without Blue Tusk's involvement.
 
-2. **Google Drive Folder Structure** — The folder `causecrazyaiautomation` and its two subfolders (`01 Leads`, `02 ICP and AdWords Docs`) must remain exactly as they are. Do not rename, move, or delete any folder.
+2. **Google Drive Folder Structure** — The folder `Cause Crazy AI Automations with Blue Tusk` and its two subfolders (`01-Leads`, `02-ICP + AdWords Docs`) must remain exactly as they are. Do not rename, move, or delete any folder.
 
 3. **Purpose Pathway Cover Page** — This file must always exist inside the master Google Drive folder. Do not delete or move it.
 
-4. **Zoho CRM Access (jotform@causecrazy.com)** — Make.com connects to Zoho using this account. Any change to this account's permissions, password, or access will break both automations.
+4. **Zoho CRM Access (jotform@causecrazy.com)** — Make.com connects to Zoho using this account. Any change to this account's permissions, password, billing, or access will break both automations.
 
 5. **Zoho Webhook** — A webhook inside Zoho triggers the ICP/AdWords flow when a lead is converted. Do not delete or modify this webhook. If Zoho is reconfigured, contact Blue Tusk first.
 
-6. **Email Account (jotform@causecrazy.com)** — The two-day follow-up email is sent through this account. If this account is changed, suspended, or its password is updated, the email step will fail.
+6. **Email (Gmail) Account (jotform@causecrazy.com)** — The two-day follow-up email is sent through this account. If this account is changed, suspended, or its password is updated, the email step will fail.
 
 **Safe-change procedure:** If any of the above items must change, notify Blue Tusk before making the change. Blue Tusk will update the automation connections and test them before the change goes live.
 
