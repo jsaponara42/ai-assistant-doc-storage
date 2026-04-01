@@ -90,7 +90,7 @@ This phase begins only when a human takes an action in Zoho CRM. The full Purpos
 | 12  | Make.com uses the OpenAI API to write two new documents: an **ICP (Ideal Customer Profile) document** and a **Google AdWords strategy document**, based on the Purpose Pathway content. | Automatic (OpenAI API)                                  | Two new documents are created.                                               |
 | 13  | A new subfolder for this contact is created inside the **02 ICP + AdWords Docs** folder in Google Drive. Both documents are saved there.                                                | Automatic (Make.com)                                    | Subfolder created and documents saved.                                       |
 | 14  | The share link for the new folder is generated and added to the contact's record in Zoho CRM.                                                                                           | Automatic (Make.com + Zoho)                             | The contact record in Zoho now shows a link to their ICP and AdWords folder. |
-| 15  |                                                                                                                                                                                         |                                                         |                                                                              |
+| 15  | A quality assurance task is created and assigned to `Brandie Lamprou` to review the ICP + AdWords documents before they are sent to the client                                          | Automatic (Make.com + Zoho)                             | A task is created in Zoho assigned to `Brandie Lamprou`                      |
 
 ---
 
@@ -155,7 +155,9 @@ After a lead is converted to a contact in Zoho, verify:
 
 5. **Zoho Webhook** — A webhook inside Zoho triggers the ICP/AdWords flow when a lead is converted. Do not delete or modify this webhook. If Zoho is reconfigured, contact Blue Tusk first.
 
-6. **Email (Gmail) Account (jotform@causecrazy.com)** — The two-day follow-up email is sent through this account. If this account is changed, suspended, or its password is updated, the email step will fail.
+6. **Zoho Task Assignment** — If the person who this task is assigned to is no longer a Zoho user, the task assignment will fail.
+
+7. **Email (Gmail) Account (jotform@causecrazy.com)** — The two-day follow-up email is sent through this account. If this account is changed, suspended, or its password is updated, the email step will fail.
 
 **Safe-change procedure:** If any of the above items must change, notify Blue Tusk before making the change. Blue Tusk will update the automation connections and test them before the change goes live.
 
