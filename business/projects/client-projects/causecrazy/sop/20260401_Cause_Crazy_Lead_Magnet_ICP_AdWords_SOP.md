@@ -90,6 +90,7 @@ This phase begins only when a human takes an action in Zoho CRM. The full Purpos
 | 12  | Make.com uses the OpenAI API to write two new documents: an **ICP (Ideal Customer Profile) document** and a **Google AdWords strategy document**, based on the Purpose Pathway content. | Automatic (OpenAI API)                                  | Two new documents are created.                                               |
 | 13  | A new subfolder for this contact is created inside the **02 ICP + AdWords Docs** folder in Google Drive. Both documents are saved there.                                                | Automatic (Make.com)                                    | Subfolder created and documents saved.                                       |
 | 14  | The share link for the new folder is generated and added to the contact's record in Zoho CRM.                                                                                           | Automatic (Make.com + Zoho)                             | The contact record in Zoho now shows a link to their ICP and AdWords folder. |
+| 15  |                                                                                                                                                                                         |                                                         |                                                                              |
 
 ---
 
