@@ -55,9 +55,9 @@ You do not need to be technical to follow this SOP. It explains what happens aut
 Before using or monitoring this system, confirm the following:
 
 - [ ] You have access to Zoho CRM using the `jotform@causecrazy.com` account
-- [ ] The Google Drive shared folder (`causecrazyaiautomation`) is visible and accessible
+- [ ] The Google Drive shared folder `Cause Crazy AI Automations with Blue Tusk` (https://drive.google.com/drive/folders/186d0v4DDA70zBl94wjTGiNasLZRjaJGD?usp=sharing) is visible and accessible
 - [ ] The Purpose Pathway Cover Page file exists inside the master folder
-- [ ] You know who to contact (Blue Tusk) if something looks wrong
+- [ ] You know who to contact (Blue Tusk - John-Carlos Saponara) if something looks wrong
 
 ---
 
