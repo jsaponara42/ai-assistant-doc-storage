@@ -39,12 +39,12 @@ You do not need to be technical to follow this SOP. It explains what happens aut
 
 ## 4. Files and Folders Used
 
-| Item | Description |
-|---|---|
-| **Master Folder (Google Drive)** | `causecrazyaiautomation` — shared between Cause Crazy and Blue Tusk. All generated files live here. |
-| **01 Leads subfolder** | Inside the master folder. One subfolder is created here for each new lead. Contains their Purpose Pathway document. |
-| **02 ICP and AdWords Docs subfolder** | Inside the master folder. One subfolder is created here for each converted contact. Contains their ICP and AdWords documents. |
-| **Purpose Pathway Cover Page** | A cover page file in the master folder (`causecrazyaiautomation`). Must always exist here — it is pulled in every time a Purpose Pathway is created. |
+| Item                                | Description                                                                                                                                                                                                   |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Master Folder (Google Drive)**    | `Cause Crazy AI Automations with Blue Tusk` (https://drive.google.com/drive/folders/186d0v4DDA70zBl94wjTGiNasLZRjaJGD?usp=sharing) — shared between Cause Crazy and Blue Tusk. All generated files live here. |
+| **01-Leads subfolder**              | Inside the master folder. One subfolder is created here for each new lead. Contains their Purpose Pathway document.                                                                                           |
+| **02-ICP + AdWords Docs subfolder** | Inside the master folder. One subfolder is created here for each converted contact. Contains their ICP and AdWords documents.                                                                                 |
+| **Purpose Pathway Cover Page**      | A cover page file in the master folder (`causecrazyaiautomation`). Must always exist here — it is pulled in every time a Purpose Pathway is created.                                                          |
 
 > ⚠️ **CRITICAL:** The Google Drive folder structure above must not be changed, renamed, or moved. The Purpose Pathway Cover Page file must remain in the master folder at all times. If any folder or file needs to change, contact Blue Tusk first.
 
