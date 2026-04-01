@@ -26,14 +26,14 @@ You do not need to be technical to follow this SOP. It explains what happens aut
 
 ## 3. Tools and Access Required
 
-| Tool | Role in This Process |
-|---|---|
-| **JotForm** | Lead intake form (Purpose Pathway form). Collects lead information and triggers the first automation. |
-| **Make.com** | The automation platform. Runs both workflows: Lead Magnet creation and ICP/AdWords creation. |
-| **OpenAI API** | Generates the Purpose Pathway document content. Connected under the Cause Crazy account. |
-| **Google Drive** | Stores all generated documents in a shared drive. Folder name: `causecrazyaiautomation` (shared with Blue Tusk). |
-| **Zoho CRM** | Manages leads and contacts. Stores share links for generated documents. Account: `jotform@causecrazy.com` |
-| **Email (jotform@causecrazy.com)** | Sends the Purpose Pathway email to the lead two business days after form submission. |
+| Tool                               | Role in This Process                                                                                                                |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **JotForm**                        | Lead intake form (Purpose Pathway form). Collects lead information and triggers the first automation.                               |
+| **Make.com**                       | The automation platform. Runs both workflows: Lead Magnet creation and ICP/AdWords creation.                                        |
+| **OpenAI API**                     | Generates the Purpose Pathway document content. Connected under the Cause Crazy account.                                            |
+| **Google Drive**                   | Stores all generated documents in a shared drive. Folder name: `Cause Crazy AI Automations with Blue Tusk` (shared with Blue Tusk). |
+| **Zoho CRM**                       | Manages leads and contacts. Stores share links for generated documents. Account: `jotform@causecrazy.com`                           |
+| **Email (jotform@causecrazy.com)** | Sends the Purpose Pathway email to the lead two business days after form submission.                                                |
 
 ---
 
@@ -162,15 +162,15 @@ After a lead is converted to a contact in Zoho, verify:
 
 ## 11. Change Log and Ownership
 
-| Field | Value |
-|---|---|
-| **Automation Owner** | Blue Tusk (John-Carlos) |
-| **Client** | Rocky Fisher / Cause Crazy |
-| **Zoho Account Used** | jotform@causecrazy.com |
-| **Make.com Flows** | Cause Lead Magnet JotForm · ICP and AdWords Creation Zoho Trigger |
+| Field                          | Value                                                             |
+| ------------------------------ | ----------------------------------------------------------------- |
+| **Automation Owner**           | Blue Tusk (John-Carlos)                                           |
+| **Client**                     | Rocky Fisher / Cause Crazy                                        |
+| **Zoho Account Used**          | jotform@causecrazy.com                                            |
+| **Make.com Flows**             | Cause Lead Magnet JotForm · ICP and AdWords Creation Zoho Trigger |
 | **Google Drive Shared Folder** | causecrazyaiautomation (shared between Cause Crazy and Blue Tusk) |
-| **Document Version** | 1.0 |
-| **Date Created** | April 1, 2026 |
-| **Last Updated** | April 1, 2026 |
+| **Document Version**           | 1.0                                                               |
+| **Date Created**               | April 1, 2026                                                     |
+| **Last Updated**               | April 1, 2026                                                     |
 
 To request changes or report issues, contact Blue Tusk directly. Do not attempt to modify Make.com flows, Zoho webhooks, or Google Drive folder structures without Blue Tusk's involvement.
