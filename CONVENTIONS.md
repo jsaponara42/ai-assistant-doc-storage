@@ -19,16 +19,11 @@
 title: ""
 date: YYYY-MM-DD
 tags: []
-ai: claude | chatgpt | gemini | human
-context: personal | business
-status: draft | active | archived
-related: []
-summary: ""
+ai: claude | human
+status: needs-attention | ok | archived
 ---
 ```
-- `summary` is the most important field — 1–2 sentences, self-contained
-- `context` must match top-level folder
-- Add `updated: YYYY-MM-DD` when revising
+Tasks also include `due-date: YYYY-MM-DD` (omit field if no date specified)
 
 ## Tags
 `ai` `project` `research` `idea` `tool` `strategy` `client` `task`

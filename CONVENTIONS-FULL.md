@@ -80,23 +80,16 @@ Format: `YYYY-MM-DD-short-description.md`
 title: "Human-readable title"
 date: YYYY-MM-DD
 tags: [tag1, tag2]
-ai: claude | chatgpt | gemini | human
-context: personal | business
-status: draft | active | archived
-related: []
-summary: "1–2 sentences. Self-contained description of what this note contains."
+ai: claude | human
+status: needs-attention | ok | archived
 ---
 ```
 
-When revising, add: `updated: YYYY-MM-DD`
-
 ### Field notes
 
-- `summary` — most important field. An agent reading only frontmatter should understand the note without opening it.
-- `context` — must match the top-level folder the file lives in.
-- `ai` — use `human` for manually written notes.
-- `related` — list of relative vault paths. Empty array if none.
-- `status` — `draft` = new/incomplete, `active` = current reference, `archived` = superseded or completed task.
+- `ai` — which assistant wrote it. Use `human` if JC wrote it manually.
+- `status` — `needs-attention` = requires review/action, `ok` = current and good, `archived` = superseded or completed.
+- Tasks also include `due-date: YYYY-MM-DD` (omit the field entirely if no date has been specified).
 
 ---
 
@@ -149,14 +142,10 @@ On completion, check the box, update the date to completion date, move the line 
 ---
 title: ""
 date: YYYY-MM-DD
-due-date: YYYY-MM-DD
-priority: 1 | 2 | 3
+due-date: YYYY-MM-DD   # omit if no date specified
 tags: [task]
 ai: claude | human
-context: personal | business
-status: draft | active | archived
-related: []
-summary: ""
+status: needs-attention | ok | archived
 ---
 ```
 
