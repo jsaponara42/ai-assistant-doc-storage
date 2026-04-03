@@ -1,9 +1,8 @@
 ---
-date: 2026-02-08
+date: 2026-04-03
 tags:
   - agp
 ai: human
-updated: 2026-04-03
 ---
 **Visual:**
 
@@ -18,9 +17,9 @@ updated: 2026-04-03
 
 - Bold text (large, centered): "Free Workflow Waste Audit"
 
-- Subtext: "Delivered in 72 Hours"
+- Subtext: "Delivered in 3 Days"
 
-**Script (0:12-0:22):** "Here's what I do: I offer a free workflow audit for PI firms. One call, and within 72 hours I send you a report showing exactly where your firm is bleeding hours and what it's costing you in real numbers."
+**Script (0:12-0:22):** "Here's what I do: I offer a free workflow audit for PI firms. One call, and within 3 daysI send you a report showing exactly where your firm is bleeding hours and what it's costing you in real numbers."
 
 ---
 **Visual:**
@@ -58,16 +57,16 @@ updated: 2026-04-03
 
 - Subtext: "Ranked by Impact + ROI Estimates"
 
-- Bottom: "Delivered in 72 Hours"
+- Bottom: "Delivered in 3 days"
 
-**Script (0:58-1:10):** "You walk away with your top three automation opportunities, what each one is costing you, and a recommended first step — all within 72 hours of our call."
+**Script (0:58-1:10):** "You walk away with your top three automation opportunities, what each one is costing you, and a recommended first step — all within 3 days of our call."
 
 ---
 **Visual:**
 
 - Text: "Is This Right For You?"
 
-- Checkmarks: ✓ 20+ Leads/Month ✓ 2–15 Staff ✓ Using Clio, Lawmatics, or Similar
+- Checkmarks: ✓ 20+ Leads/Month ✓ 2–15 Staff ✓ Using Clio, Filevine, Lawmatics, or Similar
 
 **Script (1:10-1:25):** "This works best for PI firms generating at least 20 leads a month with two to fifteen staff — firms that are busy but feel like they're working harder than their revenue reflects. If that's you, let's talk."
 
