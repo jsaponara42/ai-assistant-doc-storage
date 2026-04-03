@@ -31,7 +31,7 @@ summary: ""
 - Add `updated: YYYY-MM-DD` when revising
 
 ## Tags
-`ai` `obsidian` `pkm` `github` `project` `research` `idea` `tool` `setup` `mobile` `pwa` `strategy` `client` `task`
+`ai` `project` `research` `idea` `tool` `strategy` `client` `task`
 
 ## Task workflow
 1. Create task file in `tasks/ai-tasks/` or `tasks/jc-tasks/`
