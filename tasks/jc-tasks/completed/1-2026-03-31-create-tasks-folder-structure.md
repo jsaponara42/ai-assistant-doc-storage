@@ -1,14 +1,17 @@
 ---
-title: "Create tasks folder structure in vault"
+title: Create tasks folder structure in vault
 date: 2026-03-31
 due-date: 2026-04-03
 priority: 1
-tags: [pkm, obsidian, setup]
+tags:
+  - pkm
+  - obsidian
+  - setup
 ai: claude
 context: personal
-status: active
+status: complete
 related: []
-summary: "Task to create a top-level tasks/ folder in the vault with ai-tasks/ and jc-tasks/ subfolders. Each task file should have due-date and priority (1–3) in frontmatter, with priority and date in the filename."
+summary: Task to create a top-level tasks/ folder in the vault with ai-tasks/ and jc-tasks/ subfolders. Each task file should have due-date and priority (1–3) in frontmatter, with priority and date in the filename.
 ---
 
 ## Summary
