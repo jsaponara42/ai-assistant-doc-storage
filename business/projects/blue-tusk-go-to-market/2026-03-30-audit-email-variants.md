@@ -210,3 +210,7 @@ Blue Tusk LLC
 **Email 5:** A vs B tests an open exit vs. a low-friction yes/no close. B will likely produce more replies. Track whether those replies convert to calls at the same rate as A before declaring a winner.
 
 **Sequence compatibility:** every variant is written to stand alone. None reference specific things said in previous emails, so any combination works without contradiction.
+
+# References
+[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants|2026-03-30-audit-email-variants]]

@@ -185,3 +185,6 @@ Had a strong cup of coffee and here I am. If you ever want to see how the audit 
 
 John-Carlos
 Blue Tusk
+
+# References
+[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
