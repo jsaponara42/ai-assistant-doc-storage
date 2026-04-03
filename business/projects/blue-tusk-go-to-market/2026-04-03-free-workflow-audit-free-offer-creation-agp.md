@@ -7,7 +7,7 @@ tags:
 
 ## 1) Offer Summary
 
-- **Positioning:** A free, no-commitment audit that shows PI firms exactly where their intake and case management is leaking time and money — delivered in 72 hours.
+- **Positioning:** A free, no-commitment audit that shows PI firms exactly where their intake and case management is leaking time and money — delivered in 3 days.
 - **Ideal Client:** PI firms with 2–15 staff, actively running paid ads or generating consistent lead flow, feeling like they're working harder than their revenue reflects.
 - **Delivery Model:** Advisory leading into implementation. Audit is free; quick win implementation folds into a $2,500–$5,000/month retainer.
 - **Core Promise:** In 72 hours we'll show you the exact workflows bleeding your firm's time and money, ranked by impact — no cost, no obligation.
