@@ -10,7 +10,7 @@ tags:
 - **Positioning:** A free, no-commitment audit that shows PI firms exactly where their intake and case management is leaking time and money — delivered in 3 days.
 - **Ideal Client:** PI firms with 2–15 staff, actively running paid ads or generating consistent lead flow, feeling like they're working harder than their revenue reflects.
 - **Delivery Model:** Advisory leading into implementation. Audit is free; quick win implementation folds into a $2,500–$5,000/month retainer.
-- **Core Promise:** In 72 hours we'll show you the exact workflows bleeding your firm's time and money, ranked by impact — no cost, no obligation.
+- **Core Promise:** In 3 days we'll show you the exact workflows bleeding your firm's time and money, ranked by impact — no cost, no obligation.
 
 ---
 
@@ -91,7 +91,7 @@ tags:
 
 ### Step 2: Outcome Definition
 
-**What is the big promise?** In 72 hours we'll map exactly where your firm is leaking time and money — and hand you a prioritized plan to fix it, free.
+**What is the big promise?** In 3 days we'll map exactly where your firm is leaking time and money — and hand you a prioritized plan to fix it, free.
 
 **How can you make this tangible?** The average PI firm with 3–5 staff spends 15–25 hours per week on tasks that could be automated — intake follow-up, status update calls, document chasing, onboarding paperwork. At a fully-loaded staff cost of $30–$50/hour, that's $23,000–$65,000 per year in labor doing work a system could handle for a fraction of the cost.
 
@@ -120,7 +120,7 @@ tags:
 
 **Why does it take this long?**
 
-- 45–60 minute discovery call to map current tools, workflows, and pain points (day 1)
+- 30 minute discovery call to map current tools, workflows, and pain points (day 1)
 - Analysis and opportunity prioritization with rough ROI estimates (day 1–2)
 - Building the audit report PDF and quick win recommendation (day 2–3)
 - Internal review before delivery to ensure recommendations are implementable (day 3)
@@ -130,7 +130,6 @@ tags:
 - Standardized pre-call intake form so discovery call is focused, not exploratory
 - Pre-built audit report template in Notion with fill-in sections
 - A library of pre-written opportunity descriptions for the most common PI firm bottlenecks (intake delay, status call volume, onboarding paperwork, referral follow-up)
-- Loom video walkthrough of the report delivered async instead of scheduling a second call
 
 ---
 
@@ -139,28 +138,25 @@ tags:
 **Core components:**
 
 - Pre-call intake form (captures current tools, staff size, lead volume, biggest stated pain)
-- 45-minute discovery call (structured, not open-ended — Blue Tusk leads with specific questions)
+- 30-minute discovery call (structured, not open-ended — Blue Tusk leads with specific questions)
 - Workflow Waste Audit report (PDF, 2–3 pages, covers current state, identified gaps, top 3 opportunities ranked by impact, ROI estimates, recommended quick win)
-- Optional: 15-minute async Loom video walking the attorney through the report findings
 
 **How do these components achieve the outcome?**
 
 - Pre-call form makes the discovery call efficient and ensures no critical context is missed
 - Structured discovery call creates a complete picture of their operation in under an hour
 - The report is the deliverable that demonstrates Blue Tusk's competence before any money changes hands — it does the selling
-- The Loom video adds a personal touch that differentiates from generic consulting decks
 
 **Full steps in detail:**
 
 1. Cold email sent, prospect replies or books call directly
 2. Prospect completes pre-call intake form
 3. Blue Tusk reviews form and prepares call agenda
-4. 45-minute discovery call conducted — tools, workflow, pain points, lead volume, staff roles
+4. 30-minute discovery call conducted — tools, workflow, pain points, lead volume, staff roles
 5. Blue Tusk analyzes findings and maps against common PI automation opportunities
 6. Audit report drafted using Notion template, exported as PDF
-7. Loom video recorded walking through key findings
-8. Report and Loom delivered via email within 72 hours of discovery call
-9. Follow-up call scheduled to discuss findings and present retainer options
+7. Report delivered in a follow-up call within 3 days of discovery call
+8. Follow-up call scheduled to discuss findings and present retainer options
 
 **Most important steps:**
 
@@ -169,19 +165,19 @@ tags:
 
 **Least important:**
 
-- Loom video (valuable but optional if time-constrained)
+- Loom video (takes time and misses closing meeting opportunity)
 
-**Can least important be removed?** Yes — the report alone is sufficient. Loom is an upgrade that improves conversion but isn't required.
+**Can least important be removed?** Yes — the report alone is sufficient. 
 
 **Simplified steps (6–9 words each):**
 
 1. Send cold email, prospect books a call
 2. Prospect fills out pre-call intake form
 3. Blue Tusk reviews form before the call
-4. Run 45-minute structured discovery call
+4. Run 30-minute structured discovery call
 5. Analyze workflow and identify top opportunities
 6. Build audit report with ROI estimates
-7. Deliver report and Loom within 72 hours
+7. Deliver report in a follow up call within 3 days 
 8. Follow up to present retainer options
 
 **10-year-old version:**
@@ -213,7 +209,7 @@ tags:
 
 **The guarantee:**
 
-> _We'll audit your firm's workflows for free and deliver a prioritized action plan in 72 hours — no cost, no obligation. If you move forward and the first automation we build doesn't produce a measurable result within 30 days, we work free until it does._
+> _We'll audit your firm's workflows for free and deliver a prioritized action plan in 3 days — no cost, no obligation. If you move forward and the first automation we build doesn't produce a measurable result within 30 days, we work free until it does._
 
 ---
 
