@@ -142,3 +142,6 @@ bluetuskllc.com
 | Q3: Fewer than 20 leads/month | Proceed but note low volume in report. Temper ROI estimates. |
 | Q5: Mostly automated | Proceed. Audit may surface metrics/dashboard gap even if quick wins are minimal. |
 | All other combinations | Fully qualified. Proceed normally. |
+# References
+[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow]]

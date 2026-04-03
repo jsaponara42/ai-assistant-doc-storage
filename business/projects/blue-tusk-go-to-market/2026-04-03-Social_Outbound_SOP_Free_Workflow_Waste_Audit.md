@@ -4,19 +4,19 @@
 
 ## Introduction
 
-Use this resource to store all SOPs and resources for the Social Outbound System for the Free Workflow Waste Audit offer. This is the entry-point offer for PI law firms — a free, no-commitment audit that shows exactly where their intake and case management is leaking time and money, delivered in 72 hours.
+Use this resource to store all SOPs and resources for the Social Outbound System for the Free Workflow Waste Audit offer. This is the entry-point offer for PI law firms — a free, no-commitment audit that shows exactly where their intake and case management is leaking time and money, delivered in 3 days.
 
 ---
 
 ## Creation Checklist
 
-- [ ] Initial Audio/Video Messages
-- [ ] Initial Follow-Ups (x1)
+- [x] Initial Audio/Video Messages
+- [x] Initial Follow-Ups (x1)
 - [ ] Mini-VSL
-- [ ] Engaged Follow-Ups (x7)
+- [x] Engaged Follow-Ups (x7)
 - [ ] Calendly Link
-- [ ] Calendly Message
-- [ ] Calendly'd Follow-Ups (x7)
+- [x] Calendly Message
+- [x] Calendly'd Follow-Ups (x7)
 
 ---
 
@@ -30,7 +30,7 @@ Hey [NAME], hope you're doing good man.
 
 Just a quick one — reaching out because I work with PI firms and I've been seeing the same thing over and over. Firms that are bringing in cases, doing the work, but somewhere in the intake or case management process there's a real leak — time, leads, money — and it's hard to see from the inside.
 
-I do a free workflow audit. Takes about 45 minutes of your time on a call, and within 72 hours I send you a report that shows exactly where your firm is bleeding hours and what it's costing you in real numbers.
+I do a free workflow audit. Takes about 30 minutes of your time on a call, and within 3 days I send you a report that shows exactly where your firm is bleeding hours and what it's costing you in real numbers.
 
 No pitch, no obligation. You get the report whether you work with us or not.
 
@@ -44,7 +44,7 @@ If that's something you're open to [NAME], just give me a thumbs up down below a
 
 Hey [NAME], hope you're well! (SEND)
 
-Quick one — I do free workflow audits for PI firms. 45-minute call, 72-hour turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
+Quick one — I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
 
 Seen some things working in other firms your size that I think could be relevant. Send me a thumbs up if you want me to send some info through. (SEND)
 
@@ -63,7 +63,7 @@ Seen some things working in other firms your size that I think could be relevant
 
 - [Mini VSL — link TBD]
 
-*Note: VSL should cover: the problem (PI firms losing time and leads to manual workflows), the mechanism (free audit, 72-hour turnaround, prioritized report), and the offer (no cost, no obligation, just book the call).*
+*Note: VSL should cover: the problem (PI firms losing time and leads to manual workflows), the mechanism (free audit, 3-day turnaround, prioritized report), and the offer (no cost, no obligation, just book the call).*
 
 ---
 
@@ -82,13 +82,13 @@ Seen some things working in other firms your size that I think could be relevant
 
 ### Calendly Link
 
-[https://calendly.com/bluetuskllc/30bluetusk](https://calendly.com/bluetuskllc/30bluetusk)
+https://calendly.com/bluetuskllc/blue-tusk-workflow-audit
 
 ---
 
 ### Calendly Message
 
-Perfect. Use this link to grab a time — it's a 45-minute call where I'll ask you some questions about how your firm currently runs. No pitch on the call itself. Within 72 hours after, I'll send you the audit report with your top opportunities ranked by impact and what each one is costing you.
+Perfect. Use this link to grab a time — it's a 30-minute call where I'll ask you some questions about how your firm currently runs. No pitch on the call itself. Within 3-days, I'll send you the audit report with your top opportunities ranked by impact and what each one is costing you.
 
 ---
 
@@ -105,19 +105,6 @@ Perfect. Use this link to grab a time — it's a 45-minute call where I'll ask y
 4. [CalendlyMeme2](https://drive.google.com/file/d/1QMwCAHVtMwcQRg3haLZfbFpQ8cJQBSyv/view?usp=sharing) — ":smiling emoji:"
 5. [Escobar Waiting gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZzMWd2MXRoa29tZWJrY2NmdjZlOWhiNWV5M29pYXMxZDR0azFmeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/H6cmWzp6LGFvqjidB7/giphy.gif) — "Me hoping you'll book a time for us"
 
----
 
-## Offer Context (Internal Reference)
-
-**Core Promise:** In 72 hours we'll show you the exact workflows bleeding your firm's time and money, ranked by impact — no cost, no obligation.
-
-**Ideal Client:** PI firms with 2–15 staff, running paid ads or generating consistent lead flow, feeling like they're working harder than their revenue reflects.
-
-**What they get from the audit:**
-- A clear, prioritized list of their top 3 automation opportunities
-- A dollar estimate of what each inefficiency is currently costing them
-- A specific recommended first step with a realistic implementation path
-
-**Guarantee:** If the first automation we build doesn't produce a measurable result within 30 days of going live, we work free until it does.
-
-**Converts to:** $2,500–$5,000/month retainer starting with a quick win implementation in month one.
+# References
+[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
