@@ -33,8 +33,34 @@ status: needs-attention
 - [ ] Speed or volume shift
 - [ ] Sensory preference words (visual / auditory / kinesthetic)
 
-**Needs / suffering**
-- [ ] Spotted a dominant need
+**Needs — check any you spotted, note which person**
+
+*Primary*
+- [ ] Appreciation — does things for others, seeks to be noticed for it
+- [ ] Acceptance — changes behavior/dress/speech to fit a group
+- [ ] Approval — changes position when challenged, coaxes compliments
+
+*Secondary*
+- [ ] Intelligence — references education, facts, achievements
+- [ ] Pity — surfaces tragedies and misfortunes for sympathy
+- [ ] Admiration — showcases property, achievements, life circumstances
+- [ ] Power — needs to FEEL powerful and be SEEN as such
+
+*Extended*
+- [ ] Protection — will sacrifice resources to feel safe
+- [ ] Freedom — resists constraints, autonomy is a lever
+- [ ] Strength — seeks social/authoritative confirmation of strength
+- [ ] Respect — fears ego death, seeks confirmation of respect
+- [ ] Pleasure — avoids discomfort at significant personal cost
+- [ ] Comfort — avoids drastic change and conflict
+- [ ] Privacy — will comply to remain undisturbed
+- [ ] Pity — allows control once pity is confirmed and nurtured
+- [ ] Caretaker — needs to be seen as an unmatched provider
+- [ ] Attractiveness — off-balance when attractiveness isn't confirmed
+- [ ] Uniqueness — goes to extreme lengths to stand out
+- [ ] Success — compromises values to stay ahead
+
+**Suffering**
 - [ ] Noticed how they mask or hide suffering
 
 **What I observed:**
@@ -95,4 +121,3 @@ status: needs-attention
 ## Summary
 
 > Distilled from raw notes — key observations, what to adjust next time.
-
