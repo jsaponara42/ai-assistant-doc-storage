@@ -12,7 +12,7 @@ Tiered practice plan for The Ellipsis Manual techniques, built from the book sum
 
 ## Context
 
-Cross-referenced: `2026-04-08-elipsis-manual-partial-summary.md`, `2026-04-03-ellipsis-manual-novelty-authority.md`, and JC's personal attempt notes from Jun–Dec 2025.
+Cross-referenced: [[2026-04-08-elipsis-manual-partial-summary]], [[2026-04-03-ellipsis-manual-novelty-authority.md]], and JC's personal attempt notes from Jun–Dec 2025.
 
 ## Content
 
