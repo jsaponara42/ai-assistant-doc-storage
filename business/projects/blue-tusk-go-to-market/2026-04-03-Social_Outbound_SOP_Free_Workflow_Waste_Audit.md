@@ -30,13 +30,11 @@ Hey [NAME], hope you're doing good man.
 
 Just a quick one — reaching out because I work with PI firms and I've been seeing the same thing over and over. Firms that are bringing in cases, doing the work, but somewhere in the intake or case management process there's a real leak — time, leads, money — and it's hard to see from the inside.
 
-I do a free workflow audit. Takes about 30 minutes of your time on a call, and within 3 days I send you a report that shows exactly where your firm is bleeding hours and what it's costing you in real numbers.
+Don't want to pitch you without your permission though — so I'm not gonna do that.
 
-No pitch, no obligation. You get the report whether you work with us or not.
+What I do is a free workflow audit. Takes about 30 minutes of your time on a call and within 3 days I send you a report showing exactly where your firm is losing time and leads — ranked by what it's actually costing you. No obligation, you get the report either way.
 
-Don't want to just fire this at you without a heads up though — so I'm not gonna do that.
-
-If that's something you're open to [NAME], just give me a thumbs up down below and I'll send some info through. If not, no worries at all.
+Would love to send you a bit more info on it, so if that's okay with you [NAME], just give me a thumbs up down below and I'll shoot it through. If not, no worries at all.
 
 ---
 
