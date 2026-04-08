@@ -16,7 +16,7 @@ Then export as PDF, and film the mini VSL for use in social outbound
 ## Steps
 
 - [x] Open Gamma and import/recreate the updated Mini VSL script
-- [ ] Export to Google Slides
-- [ ] Clean up slide formatting, fonts, and visuals in Google Slides
+- [x] Export to Google Slides
+- [x] Clean up slide formatting, fonts, and visuals in Google Slides
 - [ ] Save final version to Drive and link here
 - [ ] Film MiniVSL
