@@ -42,9 +42,10 @@ Would love to send you some more information though, so if that's okay with you 
 
 Hey [NAME], hope you're well! (SEND)
 
-Quick one — I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
+I know you get these all the time so I'll keep it short. I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money (stuff like onboarding troubles and case status updates). No cost, no obligation. (SEND)
 
-Seen some things working in other firms your size that I think could be relevant. Send me a thumbs up if you want me to send some info through. (SEND)
+Seen some things working in other firms your size that I think could be relevant. Just send me a thumbs up if you want me to send some info through. (SEND)
+
 
 ---
 
