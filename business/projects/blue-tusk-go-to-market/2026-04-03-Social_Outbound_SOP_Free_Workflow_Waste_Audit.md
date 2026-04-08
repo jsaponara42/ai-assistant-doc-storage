@@ -28,13 +28,13 @@ Use this resource to store all SOPs and resources for the Social Outbound System
 
 Hey [NAME], hope you're doing good man.
 
-Just a quick one — reaching out because I work with PI firms and I've been seeing the same thing over and over. Firms that are bringing in cases, doing the work, but somewhere in the intake or case management process there's a real leak — time, leads, money — and it's hard to see from the inside.
+Just a quick one — reaching out to see if your staff are still manually calling clients to update them on their case status.
 
-Don't want to pitch you without your permission though — so I'm not gonna do that.
+Cuz if that's something that's on your radar, I've got something I'd genuinely love to show you. I really do think it could help. Seen it work in some other firms like yours.
 
-What I do is a free workflow audit. Takes about 30 minutes of your time on a call and within 3 days I send you a report showing exactly where your firm is losing time and leads — ranked by what it's actually costing you. No obligation, you get the report either way.
+But don't want to be annoying and just pitch right off the bat without permission, so I'm not gonna do that.
 
-Would love to send you a bit more info on it, so if that's okay with you [NAME], just give me a thumbs up down below and I'll shoot it through. If not, no worries at all.
+Would love to send you some more information though, so if that's okay with you [NAME], let me know. Just give me a little thumbs up down below and I'll send some through. If not, don't worry about it.
 
 ---
 
