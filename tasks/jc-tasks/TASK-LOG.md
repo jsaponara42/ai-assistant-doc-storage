@@ -10,6 +10,7 @@ Running checklist of all JC tasks. Add a line when a task is created. Check it o
 
 - [ ] 2026-03-31 | P1 | [[1-2026-03-31-create-tasks-folder-structure]] | Create tasks folder structure and conventions
 - [ ] 2026-04-03 | P2 | [[2-2026-04-03-clean-up-mini-vsl-google-slides-gamma]] | Clean up Mini VSL export to Google Slides from Gamma
+- [ ] 2026-04-08 | P3 | [[3-2026-04-08-build-ellipsis-log-system]] | Build Ellipsis Manual practice log habit
 
 ---
 
