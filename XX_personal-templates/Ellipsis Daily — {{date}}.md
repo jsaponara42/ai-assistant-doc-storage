@@ -1,7 +1,9 @@
 ---
-title: "Ellipsis Daily — YYYY-MM-DD"
-date: YYYY-MM-DD
-tags: [strategy, research]
+date: "{{date}}"
+tags:
+  - strategy
+  - research
+  - elipsis
 ai: human
 status: needs-attention
 ---
