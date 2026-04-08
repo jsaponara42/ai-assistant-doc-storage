@@ -19,7 +19,7 @@ ai: claude
 
 - Subtext: "Delivered in 3 Days"
 
-**Script (0:12-0:22):** "Here's what I do: I offer a free workflow audit for PI firms. One call, and within 3 daysI send you a report showing exactly where your firm is bleeding hours and what it's costing you in real numbers."
+**Script (0:12-0:22):** "Here's what I do: I offer a free workflow audit for PI firms. One call, and within 3 days I send you a report showing exactly where your firm is bleeding hours and what it's costing you in real numbers."
 
 ---
 **Visual:**
@@ -30,7 +30,7 @@ ai: claude
 
 - Subtext: "You Get the Report Either Way"
 
-**Script (0:22-0:32):** "There's no pitch on the call and no obligation after. You get the audit report whether you work with us or not. You literally can't lose."
+**Script (0:22-0:32):** "There's no pitch on the call and no obligation after. You get the audit report whether you work with us or not."
 
 ---
 **Visual:**
