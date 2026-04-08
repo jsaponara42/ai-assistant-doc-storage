@@ -1,7 +1,10 @@
 ---
-title: "Ellipsis Training Planner — Knowledge Base"
+title: Ellipsis Training Planner — Knowledge Base
 date: 2026-04-08
-tags: [research, strategy]
+tags:
+  - research
+  - strategy
+  - elipsis
 ai: claude
 status: ok
 ---

@@ -7,7 +7,12 @@ tags:
 ai: human
 status: needs-attention
 ---
+Ellipsis Daily — {{date}}
 
+# Reference
+[[2026-04-08-ellipsis-needs-fears-weaknesses]]
+[[2026-04-08-ellipsis-training-planner-knowledge-base]]
+[[2026-04-08-ellipsis-practice-plan]]
 ## Observation
 
 > Log what you noticed — no interpretation required. Just saw it.

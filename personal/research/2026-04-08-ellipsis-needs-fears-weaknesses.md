@@ -1,7 +1,10 @@
 ---
-title: "Ellipsis — Human Needs, Fears, and Weaknesses"
+title: Ellipsis — Human Needs, Fears, and Weaknesses
 date: 2026-04-08
-tags: [research, strategy]
+tags:
+  - research
+  - strategy
+  - elipsis
 ai: claude
 status: ok
 ---
