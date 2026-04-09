@@ -48,12 +48,12 @@ Ellipsis Daily - 2026-04-08
 *Secondary*
 - [ ] Intelligence — references education, facts, achievements
 - [ ] Pity — surfaces tragedies and misfortunes for sympathy
-- [ ] Admiration — showcases property, achievements, life circumstances
+- [x] Admiration — showcases property, achievements, life circumstances
 - [ ] Power — needs to FEEL powerful and be SEEN as such
 
 *Extended*
 - [ ] Protection — will sacrifice resources to feel safe
-- [ ] Freedom — resists constraints, autonomy is a lever
+- [x] Freedom — resists constraints, autonomy is a lever
 - [ ] Strength — seeks social/authoritative confirmation of strength
 - [ ] Respect — fears ego death, seeks confirmation of respect
 - [ ] Pleasure — avoids discomfort at significant personal cost
@@ -78,7 +78,7 @@ Ellipsis Daily - 2026-04-08
 > Check everything you tried, regardless of outcome.
 
 **Tier 1 — Observation**
-- [ ] Observed behavior without interpreting (just saw it)
+- [x] Observed behavior without interpreting (just saw it)
 - [ ] Identified at least one need or emotion from behavior
 
 **Tier 1 — Language**
@@ -119,7 +119,7 @@ Ellipsis Daily - 2026-04-08
 
 > Paste voice transcription here unedited.
 
-
+Yesterday I was at work today I was at summer Founders in Delaware at the Venture Development Center I was around a couple people this is I wasn't paying attention as much I need I need some sort of constant regular reminder to like be looking out for these things until it becomes a habit because I'll get lost in conversation and I won't observe and I'll forget to observe and I'll forget all these things I can start in the very beginning but then it goes away very easily so I did very little very minimal just kind of at the very beginning observation and then it went away once I got into a flow and I stopped noticing 
 
 ---
 
