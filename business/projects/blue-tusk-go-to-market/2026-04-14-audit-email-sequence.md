@@ -4,6 +4,7 @@ date: 2026-04-14
 tags: [strategy, project]
 ai: claude
 status: ok
+instantly_campaign_id: bee4471b-7231-46cd-9366-761c538214a4
 ---
 
 # Cold Email Sequence
@@ -11,6 +12,8 @@ status: ok
 
 v1: [[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence]]
 *v2 — Updated 2026-04-14. Changes: added scarcity signal, blunter benefit framing, full-service cost context, consistency hook, and attention-first variants. See [[2026-04-14-social-outreach-persuasion-upgrades]].*
+
+**Instantly Campaign ID:** `bee4471b-7231-46cd-9366-761c538214a4`
 
 ---
 
@@ -92,7 +95,7 @@ Is your intake process documented well enough that a new hire would run it the s
 
 For most PI firms the answer is no. The process lives in people's heads, which means it changes depending on who's working, what else is happening, and how busy the week is.
 
-Simplifying the workflow and automating away the inconsistency — that's what the audit is for. Firms that already invest in their team and their operations find it's a natural next step.
+Simplifying the workflow and automating away the inconsistency. That's what the audit is for. Firms that already invest in their team and their operations find it's a natural next step.
 
 Worth chatting about?
 
