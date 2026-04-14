@@ -116,7 +116,7 @@ PI firms typically spend 20ish hours a week on intake follow-up, status calls, d
 
 The tasks need to be done. They just don't need a human to do them.
 
-The audit finds exactly which tasks those are in your firm, and what fixing them is worth. Free, one call. I'm doing 3 this month.
+The audit finds exactly which tasks those are in your firm, and what fixing them is worth. Free, one call. I'm only doing 3 this month.
 
 Worth a quick call?
 
