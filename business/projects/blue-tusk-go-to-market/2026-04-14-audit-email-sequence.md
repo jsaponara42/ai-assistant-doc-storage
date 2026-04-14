@@ -9,6 +9,7 @@ status: ok
 # Cold Email Sequence
 **Blue Tusk LLC · Free Workflow Waste Audit for PI Firms · 6 emails over 18 days**
 
+v1: [[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence]]
 *v2 — Updated 2026-04-14. Changes: added scarcity signal, blunter benefit framing, full-service cost context, consistency hook, and attention-first variants. See [[2026-04-14-social-outreach-persuasion-upgrades]].*
 
 ---
@@ -50,7 +51,7 @@ Founder, Blue Tusk LLC
 
 Need your attention for one second because I think this is worth your time.
 
-We do free workflow audits for PI firms. Making money and saving money with AI and automation. Before I can help anyone, I need to know what I'm working with — so I audit first.
+We do free workflow audits for PI firms. Making money and saving money with AI and automation. Before I can help anyone, I need to know what I'm working with, and whether it's worth either of our time - so I audit first.
 
 The full engagement runs $2,500–$5,000/month. The audit's free. I'm only doing 3 this month.
 

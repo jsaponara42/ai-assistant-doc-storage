@@ -5,7 +5,7 @@ tags: [strategy, project]
 ai: claude
 status: ok
 ---
-
+v1: [[2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
 # Social Outbound SOP — Free Workflow Waste Audit
 
 ---
