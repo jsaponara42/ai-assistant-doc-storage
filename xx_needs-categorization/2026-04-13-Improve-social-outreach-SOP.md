@@ -7,3 +7,5 @@ Maybe also worth adding some sort of consistency messaging. How does them agreei
 Use "because". "I'd like them to book a meeting *because*... "
 
 Maybe mention how the full service can get expensive? So they don't feel like it's cheap
+
+I want to try a variation that is a bit more aggressive in the sense of "Let's find some time to talk", or "Need something from you", or "Need your attention". And then follow with a "because". 
