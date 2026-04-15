@@ -8,7 +8,7 @@ ai: claude
 status: needs-attention
 platforms:
   - linkedin
-posted?: no
+posted?: scheduled
 ---
 ## Final
 
