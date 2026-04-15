@@ -1,9 +1,14 @@
 ---
 title: "Post: My AI workflow stack — Claude, Obsidian, a local MCP server, and git"
 date: 2026-04-15
-tags: [strategy, idea]
+tags:
+  - strategy
+  - idea
 ai: claude
 status: needs-attention
+platforms:
+  - linkedin
+posted?: no
 ---
 ## Final
 
@@ -65,6 +70,9 @@ If you want to set something like this up, Claude can walk you through it. Happy
 - This post is longer than the voice notes one — consider cutting the Obsidian and git sections to two sentences each if it reads long on mobile
 - The closer references the previous voice notes post implicitly — works best when posted second in the sequence
 - "Inside baseball" framing at the top sets expectations without apologizing for the content
+
+[[README]]
+[[CONVENTIONS-FULL]]
 
 ---
 
