@@ -54,7 +54,7 @@ Hey [NAME] — need something from you real quick.
 
 I do free workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit in the first place.
 
-I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you specifically.
+I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you to make sure you got an opportunity to book one.
 
 Thumbs up if you want me to send some info. That's all I need.
 
