@@ -34,49 +34,47 @@ Use this resource to store all SOPs and resources for the Social Outbound System
 
 ### Initial Audio/Video Messages
 
-**SCRIPT (Standard):**
+**SCRIPT A — Direct/blunt:**
 
-Hey [NAME], hope you're doing good man.
+Hey [NAME], hope you're doing good.
 
-Just a quick one — reaching out to see if your staff are still manually calling clients to update them on their case status.
+I'll keep it quick — I'd like to send you some info about a free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month.
 
-Cuz if that's something that's on your radar, I've got something I'd genuinely love to show you. I really do think it could help. Seen it work in some other firms like yours.
+It's a 30-minute call, 3-day turnaround, and I'll send you a full report on where your firm is losing time and money and exactly what to do about it. The full engagement runs $2,500–$5,000/month. The audit's free because I need to know what I'm working with before we talk about any of that.
 
-But don't want to be annoying and just pitch right off the bat without permission, so I'm not gonna do that.
-
-Would love to send you some more information though, so if that's okay with you [NAME], let me know. Just give me a little thumbs up down below and I'll send some through. If not, don't worry about it.
+Just give me a thumbs up and I'll send some info through. That's all I need.
 
 ---
 
-**SCRIPT (Direct/Attention-First Variant):**
+**SCRIPT B — Intro/warm:**
 
-Hey [NAME] — need something from you real quick.
+Hey [NAME], you don't know me, but we should know each other.
 
-I do free workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit in the first place.
+My name's John-Carlos. I run a company called Blue Tusk — we help PI firms save money and grow faster with AI and automation.
 
-I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you to make sure you got an opportunity to book one.
+I'd like to send you some info because we're doing a free workflow audit for PI firms right now and your firm looks like a good fit. It's one call, 3-day turnaround, and you get a prioritized report on where the time and money is going — and exactly what to do about it. We've only got a few spots left this month.
 
-Thumbs up if you want me to send some info. That's all I need.
-
----
-
-**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Standard):**
-
-Hey [NAME], hope you're well! (SEND)
-
-I know you get these all the time so I'll keep it short. I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
-
-Seen some things working in other firms your size that I think could be relevant. I'm only doing 3 of these this month. Just send me a thumbs up if you want me to send some info through. (SEND)
+Thumbs up if you want me to send some info through and I'll get that over to you.
 
 ---
 
-**[FALLBACK] TEXT-BASED OUTREACH (Direct/Blunt Variant):**
+**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH — Script A:**
 
 Hey [NAME]. (SEND)
 
-Making money and saving money with AI and automation in your firm. That's the pitch. Before I can help you, I need to know what you're working with — so I offer a free audit first. 30 minutes, 3-day turnaround, full report on what it's costing you. I usually charge for this. Right now I'm not. (SEND)
+I'd like to send you some info about a free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month. (SEND)
 
-Worth knowing more? Thumbs up and I'll send details. Only doing 3 this month. (SEND)
+30-minute call, 3-day turnaround, full report on where your firm is losing time and money and what to do about it. The full service runs $2,500–$5,000/month — the audit's free. Just send me a thumbs up and I'll get you the details. (SEND)
+
+---
+
+**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH — Script B:**
+
+Hey [NAME], you don't know me but we should know each other. My name's John-Carlos — I run Blue Tusk, we help PI firms save money and grow faster with AI and automation. (SEND)
+
+I'd like to send you some info because we're doing a free workflow audit for PI firms right now and your firm looks like a good fit. One call, 3-day turnaround, you get a prioritized report on what it's costing you and what to fix first. Only a few spots left this month. (SEND)
+
+Thumbs up and I'll send it through. (SEND)
 
 ---
 
@@ -93,7 +91,7 @@ Worth knowing more? Thumbs up and I'll send details. Only doing 3 this month. (S
 
 - [Mini VSL — link TBD]
 
-*Note: VSL should cover: the problem (PI firms losing time and leads to manual workflows), the mechanism (free audit, 3-day turnaround, prioritized report), and the offer (no cost, no obligation, just book the call). Consider adding the capacity constraint and the full-service cost signal — "this is what we offer before firms commit to a full engagement, which can run $2,500–$5,000/month."*
+*Note: VSL should cover: the problem (PI firms losing time and leads to manual workflows), the mechanism (free audit, 3-day turnaround, prioritized report), and the offer (no cost, no obligation, just book the call). Include the capacity constraint and the full-service cost signal — "this is what we offer before firms commit to a full engagement, which can run $2,500–$5,000/month."*
 
 ---
 
@@ -120,7 +118,7 @@ https://calendly.com/bluetuskllc/blue-tusk-workflow-audit
 
 Perfect. Use this link to grab a time — it's a 30-minute call where I'll ask you some questions about how your firm currently runs. No pitch on the call itself. Within 3 days, I'll send you the audit report with your top opportunities ranked by impact and what each one is costing you.
 
-Worth mentioning: the full engagement typically runs $2,500–$5,000/month. The audit is free because I want to know what I'm working with before we talk about any of that.
+Worth mentioning: the full engagement typically runs $2,500–$5,000/month. The audit is free because I want to know whether the investment makes sense for you before we talk about any of that.
 
 ---
 
