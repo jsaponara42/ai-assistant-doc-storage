@@ -32,6 +32,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 - [ ] [[business/marketing/writing/post-react-google-notebooklm|React to a Google NotebookLM or Gemini update relevant to knowledge work]] — "I tested this on [specific use case] — here's what actually happened"
 - [ ] [[business/marketing/writing/post-react-ai-legal-tool|React to a new AI tool built for a specific vertical (legal, comms, agency, etc.)]] — "This is interesting. Here's what it does well and where I'd still use automation instead"
 - [ ] [[business/marketing/writing/post-react-benchmark-or-study|React to a benchmark, study, or stat about AI adoption in professional services]] — anchor to a real number, give your interpretation, invite disagreement
+- [ ] [[React to "Corporate Claws" article]] - [[2026-03-31-corporate-claws-strategy]]
 
 ### Hot take
 > Should feel slightly uncomfortable to post. If it doesn't create some tension, it's not a hot take.
