@@ -6,7 +6,7 @@ tags:
   - idea
 ai: claude
 status: needs-attention
-posted?: no
+posted?: yes
 platforms:
   - linkedin
 ---

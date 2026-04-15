@@ -46,7 +46,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 ### Story
 > Specific, concrete, first-person. The more specific the detail, the more it lands. Draw from M+P, Omnicom, and Blue Tusk.
 
-- [ ] [[business/marketing/writing/post-story-voice-notes-ai|"I use voice notes to make my AI use feel way more natural"]] — how dictating to a notes app and then asking Claude to read it and take action changed the quality and speed of JC's AI interactions; this feels like a personal assistant
+- [x] [[business/marketing/writing/post-story-voice-notes-ai|"I use voice notes to make my AI use feel way more natural"]] — how dictating to a notes app and then asking Claude to read it and take action changed the quality and speed of JC's AI interactions; this feels like a personal assistant
 - [ ] [[business/marketing/writing/post-story-ai-workflow-stack|"My AI workflow stack: Claude, Obsidian, a local MCP server, and git"]] — specific breakdown of the setup: voice notes or chat → Claude → local MCP writes to markdown files in an Obsidian vault → git keeps it synced; why this over Claude Code; the philosophy of owning your own context layer
 - [ ] [[business/marketing/writing/post-story-iteration-not-plug-and-play|"Everyone thinks AI is plug and play. Here's how many iterations it actually took."]] — walk through a real build at M+P or Blue Tusk; show the testing, the dead ends, the socialization process inside a real org
 - [ ] [[business/marketing/writing/post-story-what-sops-taught-me|"I didn't understand SOPs until I had to automate without one"]] — what writing and enforcing SOPs at M+P taught JC about process discipline, and why they're load-bearing for any automation that lasts
