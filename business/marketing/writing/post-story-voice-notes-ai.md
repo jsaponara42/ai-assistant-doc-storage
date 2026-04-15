@@ -24,15 +24,15 @@ When I started speaking, I stopped editing. Two or three minutes of thinking out
 
 The note doesn't have to be clean. It doesn't have to be coherent. It just has to exist somewhere my AI can get to it.
 
-That last part is where most AI workflows get annoying. The AI is great when it knows what you want and where you want it. But there's a ideas live and where the AI can act on them. Copy this, paste it there, now what do I do with the output. Every extra step is a place the workflow dies.
+That last part is where most AI workflows get annoying. The AI is great when it knows what you want and where you want it. But there's a time consuming and high-friction gap between where ideas live and where the AI can act on them. Copy this context, paste it there, now there's an output in the chat, should I paste it into a doc if I want to save it? Every extra step is time that I spend on organizing documents instead of doing the actual work.
 
-I collapsed that gap. My notes, my tasks, my drafts — one place. AI reads it, acts on it, writes back to the same place. Voice is just how I get things in faster.
+I slashed that organization time. My notes, my tasks, my drafts — one place. AI reads it, acts on it, writes back to the same place. Voice is just how I get things in faster.
 
-Next post: the actual stack. Simpler than you think, costs nothing, and you're not locked into any platform.
+Next post: the actual tools I use to do this. Simpler than you think, costs nothing, and you're not locked into any platform.
 
 ---
 
-*How are you getting ideas into your AI tools right now? Curious what's working.*
+*How are you getting ideas into your AI tools right now? Curious what's working for you. Knowing myself, I probably overcomplicated it and could've just used Google Drive*
 
 ---
 
