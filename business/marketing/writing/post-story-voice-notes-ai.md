@@ -1,5 +1,44 @@
-Preserve this original transcript at the bottom of this note. Add to the note above this original transcript
+---
+title: "Post: I use voice notes to make my AI use feel way more natural"
+date: 2026-04-15
+tags: [strategy, idea]
+ai: claude
+status: needs-attention
+---
 
+## Draft
+
+I don't type my prompts anymore. I talk them.
+
+Not into some fancy AI voice interface. Just my phone's built-in speech-to-text, into a note that my AI can read and act on.
+
+Here's why it changed everything for me:
+
+When I was typing prompts, I was editing myself in real time. Trying to sound precise. Trying to structure the ask before I even knew what I wanted. That friction slowed me down — and honestly made the output feel less like me.
+
+When I started speaking, I stopped editing. I just talked through the idea. Two, three minutes of thinking out loud. And because I'm not trying to write perfectly, I actually think better.
+
+The note doesn't have to be clean. It doesn't have to be coherent. It just has to exist somewhere my AI can get to it.
+
+That last part matters more than people realize. The reason most AI workflows break down isn't the AI — it's the gap between where ideas live and where the AI can act on them. Copy this, paste it there, now what do I do with the output. Every extra step is a place the workflow dies.
+
+I collapsed that gap. My notes, my tasks, my drafts — one place. AI reads it, acts on it, writes back to the same place. Voice is just how I get things in faster.
+
+(In my next post I'll break down the actual stack — it's simpler than you think, costs nothing, and you don't get locked into any platform.)
+
+---
+
+*Who else has ditched typing for something that actually fits how you think? Curious what others are using.*
+
+---
+
+## Notes
+- Status is `needs-attention` — review before publishing
+- The parenthetical at the end is a soft teaser for the workflow stack post; remove if posting these out of order
+- Tone check: reads like JC talking, not like AI wrote a LinkedIn post
+- Could cut the last italicized line if it feels like too much of a CTA
+
+---
 
 # Original Transcript:
 Okay this is a voice note recording I need this to be cleaned up probably main story beats up top and then we will kind of flush it out so I'm just going to kind of talk about what I'd like to talk about here again it has to be a LinkedIn post so it has to be relatively short punchy a very obvious who the audience is and and write to them as well as kind of provide value as much as possible 
@@ -14,4 +53,4 @@ For this reason I've pretty much entirely been creating through voice and what I
 
 So this might sound silly but here's a little review of my stack and this actually might want to should go at the end of the article or maybe have people reach out or or comment if they want me to talk to them about what I how I build the stack but basically I just use the normal voice to text component of my smartphone I don't have to use anything special almost every smartphone has you can speak and then it'll type you know it's not nothing new very very well established technology and then I use a notepad my preference for this notepad is an app called obsidian which I have both on my phone and my computer and I have these sink online and so everything is synced between and that's it I just create a new note I title the note with whatever I think the idea is going to be and I just start speaking 
 
-This article is written with the with the complete assistance of this voice note technology not even technology this this system and because of that I'm taking 5 minutes to talk about all my ideas everything that I want in here instead of trying to structure this out or asking AI to help me structure it out because if I asked AI to structure it out it would sound like everything else it would sound like AI created a structure and then I wrote within it but no I'm I'm talking I'm using my own voice to create this structure to create this vibe to create this this content that is more like me speaking rather than AI than now suddenly giving me a structure and me riding within it and it sounds like everything else and it feels like everything else could be very big for writers I'm certainly not a writer Some People definitely might work better on paper and you know maybe those are the writers and maybe this is great for non-riders who move fast and and can speak their ideas but have trouble getting it down but don't want to sound like a bunch of AI 
+This article is written with the with the complete assistance of this voice note technology not even technology this this system and because of that I'm taking 5 minutes to talk about all my ideas everything that I want in here instead of trying to structure this out or asking AI to help me structure it out because if I asked AI to structure it out it would sound like everything else it would sound like AI created a structure and then I wrote within it but no I'm I'm talking I'm using my own voice to create this structure to create this vibe to create this this content that is more like me speaking rather than AI than now suddenly giving me a structure and me riding within it and it sounds like everything else and it feels like everything else could be very big for writers I'm certainly not a writer Some People definitely might work better on paper and you know maybe those are the writers and maybe this is great for non-riders who move fast and and can speak their ideas but have trouble getting it down but don't want to sound like a bunch of AI
