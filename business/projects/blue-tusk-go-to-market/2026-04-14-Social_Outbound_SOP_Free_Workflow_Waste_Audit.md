@@ -52,7 +52,7 @@ Would love to send you some more information though, so if that's okay with you 
 
 Hey [NAME] — need something from you real quick.
 
-I do free workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit.
+I do free workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit in the first place.
 
 I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you specifically.
 
