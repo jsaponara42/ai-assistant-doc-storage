@@ -25,13 +25,9 @@ Here's how it works:
 
 **Git** keeps everything synced. It's version control software, mostly used by developers, but it works for notes just as well. My files sync to GitHub for free and show up on every device I own — including my phone, where I'm recording those voice notes. Nothing lives in Google Drive. Nothing requires a subscription. The files are mine, in a format that will be readable forever.
 
-The whole point is reducing the gap between "Claude produced something" and "I can use it." That gap is where using AI makes you feel like . This one doesn't have it.
+The whole point is reducing the gap between "Claude produced something" and "I can use it." Closing that gap makes AI feel like your assistant instead of the other way around. It's a nice side effect that you can do it all for free and in tools that will never get old.
 
-If you want to set something like this up, Claude can walk you through it. Happy to share the specifics if there's interest — drop a comment.
-
----
-
-*What does your AI output workflow look like right now? Still living in Google Docs?*
+If you want to set something like this up... paste this post and let Claude walk you through it. Happy to share the specifics if there's interest — drop a comment.
 
 
 ## Draft
