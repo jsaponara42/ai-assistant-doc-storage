@@ -1,8 +1,50 @@
+---
+title: "Post: My AI workflow stack — Claude, Obsidian, a local MCP server, and git"
+date: 2026-04-15
+tags: [strategy, idea]
+ai: claude
+status: needs-attention
+---
+
+## Draft
+
+Fair warning: this one's a little inside baseball.
+
+In my last post I talked about using voice notes to get ideas into my AI faster. I promised I'd talk about the setup behind it. Here's the full stack.
+
+The problem I was solving: I kept copy-pasting context back and forth between tools. Claude produces something, I paste it into a Google Doc, the doc pile grows, and now I have a graveyard of AI outputs I'm not sure what to do with. Every output lived somewhere that wasn't connected to anything else.
+
+So I rebuilt it around a simple idea. My notes, my tasks, and my AI outputs all live in the same place. Claude can read and write there directly. I can edit anything right in the file without prompting Claude to regenerate it.
+
+Here's how it works:
+
+**The files** are just markdown on my computer. Normal folders, normal subfolders. Markdown is plain text with light formatting — if you've ever typed a hashtag to make a heading or a dash to start a list, you already know it. AI reads and writes markdown natively.
+
+**Claude gets access** through a local MCP server — a small piece of software that gives Claude read and write access to one specific folder on my machine. Nothing else. When Claude creates a file, it writes directly to that folder. No downloading, no copy-pasting.
+
+**Obsidian** is how I read and navigate those files. It's a free app that makes markdown look clean and lets me move between notes easily. I keep it simple — there are people who spend months customizing Obsidian and I'd recommend against it. Use it as a nice reader and move on.
+
+**Git** keeps everything synced. It's version control software, mostly used by developers, but it works for notes just as well. My files sync to GitHub for free and show up on every device I own — including my phone, where I'm recording those voice notes. Nothing lives in Google Drive. Nothing requires a subscription. The files are mine, in a format that will be readable forever.
+
+The whole point is reducing the gap between "Claude produced something" and "I can use it." That gap is where most AI workflows die. This one doesn't have it.
+
+If you want to set something like this up, Claude can walk you through it. Happy to share the specifics if there's interest — drop a comment.
+
+---
+
+*What does your AI output workflow look like right now? Still living in Google Docs?*
+
+---
+
+## Notes
+- Status is `needs-attention` — review before publishing
+- This post is longer than the voice notes one — consider cutting the Obsidian and git sections to two sentences each if it reads long on mobile
+- The closer references the previous voice notes post implicitly — works best when posted second in the sequence
+- "Inside baseball" framing at the top sets expectations without apologizing for the content
+
+---
 
 # Original Transcript:
-Preserve this transcript in its entirety at the bottom of the piece 
-
-
 okay so this is a follow-up for the story voice notes AI post which talks about my workflow stack and what I'm using today so I'll just get right into it if people want to understand why this is useful to me I think I probably have to start with that probably start with why this is valuable for people to read it all so maybe let's say we got to figure out like the the least friction aI like this this is the least friction that I've like that I've been using AI like AI is now a personal assistant that I don't have to think about helping because it helps itself and I've designed it so that it helps itself so instead of me kind of having to guide it and feed it and and do a lot of administrative organizational work to make sure it has the right information it just has it now and that has freed up a lot of my time to do the away from the organization part of things and just focus on doing work and so that's the value and that should be the value of front of why people would want to continue reading so I'm going to go through the stack and we can go through the specific tools this is also kind of check 00 underscore LinkedIn post ideas because that has the kind of mini synopsis of what I want to work with here but for the most part at my AI of choice right now is Claude I use Claude I have the desktop app I have caught in my phone and whenever I'm doing any real work I'm at my computer anyway and so the way that I treat my workflow for the most part is that I am setting myself up so that when I'm back at my computer I can do high value work very quickly and very efficiently so I have Claude set up on my desktop and I have essentially ran into the problem that everyone has which is I'm copy and pasting context back and forth I get out put some Claude and my pasting into a Google doc am I having a create a Google doc and then I'm having my kind of Google docs be bloated and full of stuff that the AI has created whether or not I really want it there as finalized versions or whatever whether I'm writing LinkedIn posts whether I'm writing whatever do I want all of that on Google because if I'm going to be the only one accessing it anyway why does it why am I feeling in my Google Docs and messing with folders that it doesn't make much sense so essentially what I do now is I use a normal file system on my computer and I fill it with normal folders as you would expect to have folders and subfolders and within those folders are just normal markdown files. MD files this is just a file format that looks very much like normal text and if you've ever used something like not or even Google Docs now supports markdown where if you type let's say a hashtag or two hashtags you turn your text into a heading for that line so it makes the text bigger or you type a dash and it starts creating a bulleted list for you you're probably familiar with markdown even if you've never heard of the file format you've probably used it or seen it in some other place it's it's not a complex to use so now that we're creating markdown files which is something the AI really thrives on reading and using then we move to how the AI is interacting with these markdown files on my computer 
 
 Okay so what we're doing is if I need to provide context or I need to have the AI create something I ask for it to create a markdown file okay that's fine that's normal that makes sense that's nothing new but usually that markdown file would be created and then it just lives in like it lives in the in the quad desktop files and it's kind of annoying to access especially if you're starting to try to create some sort of organization and so I need Claude to be able to read and write to various folders but I don't want to give it access to everything like with Claude code this can also be done with Claude code as a caveat but for most things when I'm not coding I prefer not to work in Cloud code and it also Burns tokens a lot faster and burns usage a lot faster so for the most part I like to have my chat history and I like to have the the user interface of the normal clawed chat and then I need to give that the access to the portion of my file system that I'm okay with it touching cuz I don't want to give it everything that's a security nightmare so what I do is this 
@@ -19,4 +61,4 @@ So now the question is okay well now this lives on my computer how do I get it e
 
 What git allows you to do is it allows you to sync your files directly to any device any computer just by subscribing to the get I use GitHub specifically and what this does is it means that the files live on any device that you are using it on not on the cloud so it's it's on the devices it's not anything you have to subscribe to is completely free and you'll never have to subscribe to it as long as you're using some version of of get at GitHub is going to be free as long as you use kind of you're not using any business here and you can store more notes and and you can store everything you can store everything this is this is not a point that I actually want to include I want it I just want it to be free open source forever type thing 
 
-So with this allows me to do is it allows me to sync my files directly to my phone with Git and through obsidian so that when I want to create a note on my phone I just use the voice notes again referencing t the past article that I've written and so that's all I do i speak into my phone and then everything is synced everywhere all at once super lightweight always free always accessible to AI in a format that it understands with a version control system that is widely widely recognized and free forever and yeah so what this basically allows me to do is to have the least amount of friction between getting AI to produce something for me and then editing it doing whatever I need to do with it moving it wherever I need to move it because it's all machine readable and it's all instantly accessible readable editable by me without having to copy and paste or create a file in in some sort of thing like Google Drive now I have to clutter my own Google drive file system with the outputs and creating a bunch of Google docs which now you're locked into the Google ecosystem I just want my things to be accessible forever because things change and now things in AI are changing and Technology change every single day and I want to make sure that wherever it goes I continue to have access and use out of my tools I don't want to suddenly have Google Drive be a bad place to have all my notes cuz now I'm screwed I just want marked down which is text for the most part a file system that is just a file system on my computer which should always be relevant and then get which is not going anywhere so overall this is a significantly more technical kind of Insider baseball type article that this is going to be which should probably be acknowledged at the beginning about me nerding out a little bit about what this is and yeah so let's leave it there 
+So with this allows me to do is it allows me to sync my files directly to my phone with Git and through obsidian so that when I want to create a note on my phone I just use the voice notes again referencing t the past article that I've written and so that's all I do i speak into my phone and then everything is synced everywhere all at once super lightweight always free always accessible to AI in a format that it understands with a version control system that is widely widely recognized and free forever and yeah so what this basically allows me to do is to have the least amount of friction between getting AI to produce something for me and then editing it doing whatever I need to do with it moving it wherever I need to move it because it's all machine readable and it's all instantly accessible readable editable by me without having to copy and paste or create a file in in some sort of thing like Google Drive now I have to clutter my own Google drive file system with the outputs and creating a bunch of Google docs which now you're locked into the Google ecosystem I just want my things to be accessible forever because things change and now things in AI are changing and Technology change every single day and I want to make sure that wherever it goes I continue to have access and use out of my tools I don't want to suddenly have Google Drive be a bad place to have all my notes cuz now I'm screwed I just want marked down which is text for the most part a file system that is just a file system on my computer which should always be relevant and then get which is not going anywhere so overall this is a significantly more technical kind of Insider baseball type article that this is going to be which should probably be acknowledged at the beginning about me nerding out a little bit about what this is and yeah so let's leave it there
