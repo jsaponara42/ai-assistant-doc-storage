@@ -1,10 +1,41 @@
 ---
 title: "Post: I use voice notes to make my AI use feel way more natural"
 date: 2026-04-15
-tags: [strategy, idea]
+tags:
+  - strategy
+  - idea
 ai: claude
 status: needs-attention
+posted?: no
+platforms:
+  - linkedin
 ---
+## Final
+
+I don't type most of my big prompts anymore. I talk them.
+
+Not into some fancy voice interface. Just my phone's speech-to-text, into a note my AI can read and act on. The same speech to text you'd never use to send a real text to your friends.
+
+When I typed prompts, I edited myself in real time. Trying to sound precise. Trying to structure the ask before I knew what I wanted. I don't think that way. I think as I speak, and the direction I want to go changes mid sentence. 
+
+That friction slowed me down. It also made the output feel less like me.
+
+When I started speaking, I stopped editing. Two or three minutes of thinking out loud. I'm not trying to write perfectly, so I actually think better.
+
+The note doesn't have to be clean. It doesn't have to be coherent. It just has to exist somewhere my AI can get to it.
+
+That last part is where most AI workflows get annoying. The AI is great when it knows what you want and where you want it. But there's a ideas live and where the AI can act on them. Copy this, paste it there, now what do I do with the output. Every extra step is a place the workflow dies.
+
+I collapsed that gap. My notes, my tasks, my drafts — one place. AI reads it, acts on it, writes back to the same place. Voice is just how I get things in faster.
+
+Next post: the actual stack. Simpler than you think, costs nothing, and you're not locked into any platform.
+
+---
+
+*How are you getting ideas into your AI tools right now? Curious what's working.*
+
+---
+
 
 ## Draft
 
