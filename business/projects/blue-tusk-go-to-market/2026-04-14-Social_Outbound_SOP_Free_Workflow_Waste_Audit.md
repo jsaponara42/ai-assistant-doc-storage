@@ -65,6 +65,7 @@ We do an automation audit to figure out if it's worth either of our time. I usua
 
 - Hey [NAME], would that be alright?
 - Hey [NAME], did that video come through okay?
+- (If video not sent): Hey [NAME], make sense?
 
 ---
 
@@ -97,9 +98,9 @@ https://calendly.com/bluetuskllc/blue-tusk-workflow-audit
 
 ### Calendly Message
 
-Perfect. Use this link to grab a time — it's a 30-minute call where I'll ask you some questions about how your firm currently runs. No pitch on the call itself. Within 3 days, I'll send you the audit report with your top opportunities ranked by impact and what each one is costing you.
+Perfect. Use this link to grab a time — it's a 30-minute call where I'll ask you some questions about how your firm currently runs. No pitch on the call itself. Within 3 days, I'll create the audit report with your top opportunities ranked by impact and what each one is costing you.
 
-Worth mentioning: the full engagement typically runs $2,500–$5,000/month. The audit is free because I want to know whether the investment makes sense for you before we talk about any of that.
+Worth mentioning: the full engagement typically runs $2,500–$7,500/month depending on scope. The audit is free because I want to know whether the investment makes sense for you before we talk about any of that.
 
 ---
 
