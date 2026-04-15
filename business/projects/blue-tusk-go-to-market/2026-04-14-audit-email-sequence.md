@@ -11,7 +11,7 @@ instantly_campaign_id: bee4471b-7231-46cd-9366-761c538214a4
 **Blue Tusk LLC · Free Workflow Waste Audit for PI Firms · 6 emails over 18 days**
 
 v1: [[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence]]
-*v2 — Updated 2026-04-14. v2.1 — 2026-04-15: JC edited live copy toward more direct/blunt tone, added variants on steps 1, 3, 4, 5.*
+*v2 — Created 2026-04-14. v2.1 — 2026-04-15: Final copy locked in Instantly.*
 
 **Instantly Campaign ID:** `bee4471b-7231-46cd-9366-761c538214a4`
 
@@ -19,7 +19,7 @@ v1: [[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence|2
 
 ## Email 1 · Day 3
 
-### Variant A — Direct/attention-first
+### Variant A
 
 **Subject:** need something from you
 
@@ -42,23 +42,21 @@ Founder, Blue Tusk LLC
 
 ---
 
-### Variant B — Peer question opener
+### Variant B
 
-*Tests: blunt attention-first vs. curious question opener. Same directness level, different entry point.*
-
-**Subject:** had a thought about your intake
-
-**Preview:** {{firstName}}, do you know how much time your staff spends on things that could be automated?
+**Subject:** want to hold you a spot
 
 ---
 
-{{firstName}},
+Hey {{firstName}},
 
-Quick question: do you have a clear picture of how many hours your staff spends each week on follow-up calls, status updates, and chasing documents?
+You don't know me, but we should know each other. I'm John-Carlos Saponara. Founder of Blue Tusk. We've been helping PI firms like yours save money and grow faster with automation.
 
-Asking because we build automation systems for PI firms, and we offer a free workflow audit for firms that look like a good fit. One call, 3-day turnaround, you get a prioritized report on where the time and money is going.
+Let me know if this is worth your time because I want to make sure you're able to grab a spot this month.
 
-Only doing 3 this month. Worth 30 minutes?
+We build automation systems for PI firms, and we offer a free AI and automation workflow audit for firms that look like a good fit. One call, 3-day turnaround, you get a prioritized report on where the time and money is going - and exactly what to do about it.
+
+Only doing 3 this month. Worth 30 minutes over the next couple weeks?
 
 ,John-Carlos Saponara
 Founder, Blue Tusk LLC
@@ -83,8 +81,6 @@ Just shoot me a quick note and we'll get something scheduled.
 
 ## Email 3 · Day 6
 
-### Variant A — Financial waste framing
-
 **Subject:** hey, might be worth knowing
 
 **Preview:** {{firstName}}, most PI firms are losing $20-70k a year they don't know about.
@@ -107,35 +103,9 @@ Want to set up some time sometime in the next few weeks?
 
 ---
 
-### Variant B — Process inconsistency angle
-
-*Tests: dollar-loss framing vs. process/people inconsistency pain. Same "worth knowing either way" close.*
-
-**Subject:** quick question about your team
-
-**Preview:** {{firstName}}, is your intake process the same whether it's your best or your newest hire?
-
----
-
-{{firstName}},
-
-Is your intake documented well enough that a new hire runs it the same way your most experienced person does?
-
-For most PI firms the answer is no. The process lives in people's heads, which means it changes depending on who's working and how busy the week is.
-
-That inconsistency is usually where the money goes. The audit maps it, prices it, and tells you what to fix first.
-
-Free, one call. Worth it good or bad to know what you're working with.
-
-Want to find some time in the next few weeks?
-
-,John-Carlos
-
----
-
 ## Email 4 · Day 10
 
-### Variant A — Growth/hiring objection
+### Variant A
 
 **Subject:** {{firstName}} - are you growing?
 
@@ -157,31 +127,25 @@ Think it's worth a quick chat?
 
 ---
 
-### Variant B — "Things don't calm down" pattern recognition
+### Variant B
 
-*Tests: growth/hiring framing vs. the "I'll get to it" normalization pattern. Different objection, same directness.*
-
-**Subject:** this might not apply to you, but let me know
+**Subject:** this might not apply to you
 
 ---
 
 I've been talking with PI firm owners. Curious if you're seeing the same thing.
 
-They know the systems need work. They'll get to it when things calm down.
+They know there's potential for automation in the firm. They'll get to it when things calm down. Things don't calm down and the same problems get another 12 months of being normalized.
 
-Things don't calm down. The caseload fills the time available for it, and the same problems get another 12 months of being normalized.
+If that feels familiar we should talk because I'd like to help. Free AI and automation workflow audit, one call. You leave knowing exactly what it's costing you and what to fix first.
 
-If that feels familiar, I'd like to help. Free audit, one call. You leave knowing exactly what it's costing you and what to fix first.
-
-Just shoot me a "hello" if the timing is ever right.
+Just say hey and we'll get something scheduled. Looking forward to it.
 
 ,John-Carlos
 
 ---
 
 ## Email 5 · Day 14
-
-### Variant A — Explicit binary ask
 
 **Subject:** response requested
 
@@ -190,25 +154,6 @@ Just shoot me a "hello" if the timing is ever right.
 Last note from me. Please let me know your answer to this question because I don't want to be wasting your time if this isn't relevant. Is lowering your firm's costs, and boosting top-end revenue with AI and automation something you're thinking about right now, or is the timing just not there?
 
 Either answer is genuinely fine. If it's not the right time, I'll leave you alone. If it's on your radar, the audit is probably the lowest-effort way to get a clear picture of where to start.
-
-,John-Carlos Saponara
-Blue Tusk LLC
-
----
-
-### Variant B — Soft open-door close
-
-*Tests: explicit "please respond" direct ask vs. low-pressure leave-the-door-open close.*
-
-**Subject:** alright, last one
-
----
-
-Last email. Don't want to keep showing up if the timing is off.
-
-If your workflows are running the way you want them to, ignore this. But if there's a feeling that you and your staff are working harder than your revenue reflects, that's usually what the audit surfaces.
-
-I keep my threads open. Reply whenever it makes sense.
 
 ,John-Carlos Saponara
 Blue Tusk LLC
