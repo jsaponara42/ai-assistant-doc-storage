@@ -21,11 +21,11 @@ Here's how it works:
 
 **Claude gets access** through a local MCP server — a small piece of software that gives Claude read and write access to one specific folder on my machine. Nothing else. When Claude creates a file, it writes directly to that folder. No downloading, no copy-pasting.
 
-**Obsidian** is how I read and navigate those files. It's a free app that makes markdown look clean and lets me move between notes easily. I keep it simple — there are people who spend months customizing Obsidian and I'd recommend against it. Use it as a nice reader and move on.
+**Obsidian** is how I read and navigate those files. It's a free app that makes markdown look clean and lets me move between notes easily. I keep it simple — there are people who spend months customizing Obsidian and I'd recommend against it for this use case. Use it as a nice reader and move on.
 
 **Git** keeps everything synced. It's version control software, mostly used by developers, but it works for notes just as well. My files sync to GitHub for free and show up on every device I own — including my phone, where I'm recording those voice notes. Nothing lives in Google Drive. Nothing requires a subscription. The files are mine, in a format that will be readable forever.
 
-The whole point is reducing the gap between "Claude produced something" and "I can use it." That gap is where most AI workflows die. This one doesn't have it.
+The whole point is reducing the gap between "Claude produced something" and "I can use it." That gap is where using AI makes you feel like . This one doesn't have it.
 
 If you want to set something like this up, Claude can walk you through it. Happy to share the specifics if there's interest — drop a comment.
 
