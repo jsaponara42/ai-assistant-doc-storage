@@ -5,6 +5,34 @@ tags: [strategy, idea]
 ai: claude
 status: needs-attention
 ---
+## Final
+
+Fair warning: this one's a little inside baseball.
+
+In my last post I talked about using voice notes to get ideas into my AI faster. I promised I'd talk about the setup behind it. Here's the full stack.
+
+The problem I was solving: I kept copy-pasting context back and forth between tools. Claude produces something, I paste it into a Google Doc, the doc pile grows, and now I have a graveyard of AI outputs I'm not sure what to do with. Every output lived somewhere that wasn't connected to anything else.
+
+So I rebuilt it around a simple idea. My notes, my tasks, and my AI outputs all live in the same place. Claude can read and write there directly. I can edit anything right in the file without prompting Claude to regenerate it.
+
+Here's how it works:
+
+**The files** are just markdown on my computer. Normal folders, normal subfolders. Markdown is plain text with light formatting — if you've ever typed a hashtag to make a heading or a dash to start a list, you already know it. AI reads and writes markdown natively.
+
+**Claude gets access** through a local MCP server — a small piece of software that gives Claude read and write access to one specific folder on my machine. Nothing else. When Claude creates a file, it writes directly to that folder. No downloading, no copy-pasting.
+
+**Obsidian** is how I read and navigate those files. It's a free app that makes markdown look clean and lets me move between notes easily. I keep it simple — there are people who spend months customizing Obsidian and I'd recommend against it. Use it as a nice reader and move on.
+
+**Git** keeps everything synced. It's version control software, mostly used by developers, but it works for notes just as well. My files sync to GitHub for free and show up on every device I own — including my phone, where I'm recording those voice notes. Nothing lives in Google Drive. Nothing requires a subscription. The files are mine, in a format that will be readable forever.
+
+The whole point is reducing the gap between "Claude produced something" and "I can use it." That gap is where most AI workflows die. This one doesn't have it.
+
+If you want to set something like this up, Claude can walk you through it. Happy to share the specifics if there's interest — drop a comment.
+
+---
+
+*What does your AI output workflow look like right now? Still living in Google Docs?*
+
 
 ## Draft
 
