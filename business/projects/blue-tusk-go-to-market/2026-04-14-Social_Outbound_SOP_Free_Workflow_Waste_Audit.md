@@ -50,11 +50,12 @@ If not, don't worry about it.
 
 **[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Standard):**
 
-Hey [NAME], hope you're well! (SEND)
 
-I know you get these all the time so I'll keep it short. I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
+Hey [NAME] - need something from you real quick. (SEND)
 
-Seen some things working in other firms your size that I think could be relevant. I'm only doing 3 of these this month. Just send me a thumbs up if you want me to send some info through. (SEND)
+I do free automation workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit. (SEND) 
+
+I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you specifically. Thumbs up if you want me to send some info. That's all I need.
 
 ---
 
