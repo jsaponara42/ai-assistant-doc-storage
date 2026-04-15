@@ -10,33 +10,33 @@ status: needs-attention
 
 I don't type my prompts anymore. I talk them.
 
-Not into some fancy AI voice interface. Just my phone's built-in speech-to-text, into a note that my AI can read and act on.
+Not into some fancy voice interface. Just my phone's speech-to-text, into a note my AI can read and act on.
 
-Here's why it changed everything for me:
+When I typed prompts, I edited myself in real time. Trying to sound precise. Trying to structure the ask before I knew what I wanted. That friction slowed me down. It also made the output feel less like me.
 
-When I was typing prompts, I was editing myself in real time. Trying to sound precise. Trying to structure the ask before I even knew what I wanted. That friction slowed me down — and honestly made the output feel less like me.
-
-When I started speaking, I stopped editing. I just talked through the idea. Two, three minutes of thinking out loud. And because I'm not trying to write perfectly, I actually think better.
+When I started speaking, I stopped editing. Two or three minutes of thinking out loud. I'm not trying to write perfectly, so I actually think better.
 
 The note doesn't have to be clean. It doesn't have to be coherent. It just has to exist somewhere my AI can get to it.
 
-That last part matters more than people realize. The reason most AI workflows break down isn't the AI — it's the gap between where ideas live and where the AI can act on them. Copy this, paste it there, now what do I do with the output. Every extra step is a place the workflow dies.
+That last part is where most AI workflows break. The problem isn't the AI. It's the gap between where ideas live and where the AI can act on them. Copy this, paste it there, now what do I do with the output. Every extra step is a place the workflow dies.
 
 I collapsed that gap. My notes, my tasks, my drafts — one place. AI reads it, acts on it, writes back to the same place. Voice is just how I get things in faster.
 
-(In my next post I'll break down the actual stack — it's simpler than you think, costs nothing, and you don't get locked into any platform.)
+Next post: the actual stack. Simpler than you think, costs nothing, and you're not locked into any platform.
 
 ---
 
-*Who else has ditched typing for something that actually fits how you think? Curious what others are using.*
+*How are you getting ideas into your AI tools right now? Curious what's working.*
 
 ---
 
 ## Notes
 - Status is `needs-attention` — review before publishing
-- The parenthetical at the end is a soft teaser for the workflow stack post; remove if posting these out of order
-- Tone check: reads like JC talking, not like AI wrote a LinkedIn post
-- Could cut the last italicized line if it feels like too much of a CTA
+- The last line teases the workflow stack post; remove if posting out of order
+- Removed all em-dashes, replaced with periods
+- Removed "changed everything" (vague value claim)
+- Removed "fancy" (weak qualifier)
+- Tightened the closer — removed "(In my next post I'll break down..." framing in favor of a direct statement
 
 ---
 

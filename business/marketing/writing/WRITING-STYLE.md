@@ -1,8 +1,14 @@
+---
+title: Writing Style Guide"
+date: 2026-04-15
+tags:
+  - strategy
+  - tool
+---
 
+# Writing Style Guide — Blue Tusk
 
-# Writing Style Guide — Blue Tusk Cold Email
-
-This guide applies to all cold email copy written for Blue Tusk LLC. Read it before writing any email body, subject line, or preview text.
+This guide applies to all copy written for Blue Tusk LLC. Read it before writing client facing, or marketing text.
 
 ---
 
