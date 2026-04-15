@@ -48,24 +48,14 @@ If not, don't worry about it.
 
 ---
 
-**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Standard):**
+**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH:**
 
 
-Hey [NAME] - need something from you real quick. (SEND)
+Hey [NAME] - need something from you real quick. Please read to the end because I don't want you to miss out if a chat makes sense. (SEND)
 
-I do free automation workflow audits for PI firms. Making money and saving money with AI and automation in your firm. Before I can help you, I need to know what I'm working with and whether we're a good fit. (SEND) 
+I'm the owner of Blue Tusk. We do automation for PI firms. Making money and saving money with AI and automation. Before I can help you, I need to know what I'm working with and whether we're a good fit. (SEND) 
 
-I usually charge for this. I'm not right now. I'm only doing 3 this month and I wanted to reach out to you specifically. Thumbs up if you want me to send some info. That's all I need.
-
----
-
-**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Direct/Blunt Variant):**
-
-Hey [NAME]. (SEND)
-
-Making money and saving money with AI and automation in your firm. That's the pitch. Before I can help you, I need to know what you're working with — so I offer a free audit first. 30 minutes, 3-day turnaround, full report on what it's costing you. I usually charge for this. Right now I'm not. (SEND)
-
-Worth knowing more? Thumbs up and I'll send details. Only doing 3 this month. (SEND)
+We do an automation audit to figure out if it's worth either of our time. I usually charge for this but we're doing 3 free this month and I wanted to reach out to you directly. Thumbs up if you want me to send some info. That's all I need.
 
 ---
 
