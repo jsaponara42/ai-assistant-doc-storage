@@ -70,6 +70,7 @@ If you want to set something like this up, Claude can walk you through it. Happy
 - This post is longer than the voice notes one — consider cutting the Obsidian and git sections to two sentences each if it reads long on mobile
 - The closer references the previous voice notes post implicitly — works best when posted second in the sequence
 - "Inside baseball" framing at the top sets expectations without apologizing for the content
+- A simple recommendation instead of coding and troubleshooting own MCP may be :obsidian://show-plugin?id=mcp-tools
 
 [[README]]
 [[CONVENTIONS-FULL]]
