@@ -40,7 +40,9 @@ Hey [NAME], hope you're doing good.
 
 I'll keep it quick — I'd like to send you some info about a free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month.
 
-It's a 30-minute call, 3-day turnaround, and I'll send you a full report on where your firm is losing time and money and exactly what to do about it. The full engagement runs $2,500–$5,000/month. The audit's free because I need to know what I'm working with before we talk about any of that.
+I'm not gonna go into details now .
+
+Would love to send you some more information though, so if that's okay with you [NAME], let me know. Just give me a little thumbs up down below and I'll send some through. If not, don't worry about it.
 
 Just give me a thumbs up and I'll send some info through. That's all I need.
 
