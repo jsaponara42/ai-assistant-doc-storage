@@ -34,49 +34,37 @@ Use this resource to store all SOPs and resources for the Social Outbound System
 
 ### Initial Audio/Video Messages
 
-**SCRIPT A — Direct/blunt:**
+**SCRIPT:**
 
 Hey [NAME], hope you're doing good.
 
-I'll keep it quick — I'd like to send you some info about a free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month.
+I'll keep it quick — I'd like to send you some info about a fast, free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month.
 
-I'm not gonna go into details now .
+I'm not gonna go into details now.
 
-Would love to send you some more information though, so if that's okay with you [NAME], let me know. Just give me a little thumbs up down below and I'll send some through. If not, don't worry about it.
+I would love to send you some more information though, so if that's okay with you [NAME]. Just give me a little thumbs up down below and I'll send some through.
 
-Just give me a thumbs up and I'll send some info through. That's all I need.
-
----
-
-**SCRIPT B — Intro/warm:**
-
-Hey [NAME], you don't know me, but we should know each other.
-
-My name's John-Carlos. I run a company called Blue Tusk — we help PI firms save money and grow faster with AI and automation.
-
-I'd like to send you some info because we're doing a free workflow audit for PI firms right now and your firm looks like a good fit. It's one call, 3-day turnaround, and you get a prioritized report on where the time and money is going — and exactly what to do about it. We've only got a few spots left this month.
-
-Thumbs up if you want me to send some info through and I'll get that over to you.
+If not, don't worry about it.
 
 ---
 
-**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH — Script A:**
+**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Standard):**
+
+Hey [NAME], hope you're well! (SEND)
+
+I know you get these all the time so I'll keep it short. I do free workflow audits for PI firms. 30-minute call, 3-day turnaround, and I send you a report showing exactly where your intake and case management is leaking time and money. No cost, no obligation. (SEND)
+
+Seen some things working in other firms your size that I think could be relevant. I'm only doing 3 of these this month. Just send me a thumbs up if you want me to send some info through. (SEND)
+
+---
+
+**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH (Direct/Blunt Variant):**
 
 Hey [NAME]. (SEND)
 
-I'd like to send you some info about a free AI and automation audit we're doing for PI firms right now, because it seems like your firm could be a good fit and we've only got a few spots left this month. (SEND)
+Making money and saving money with AI and automation in your firm. That's the pitch. Before I can help you, I need to know what you're working with — so I offer a free audit first. 30 minutes, 3-day turnaround, full report on what it's costing you. I usually charge for this. Right now I'm not. (SEND)
 
-30-minute call, 3-day turnaround, full report on where your firm is losing time and money and what to do about it. The full service runs $2,500–$5,000/month — the audit's free. Just send me a thumbs up and I'll get you the details. (SEND)
-
----
-
-**[FALLBACK IF VIDEO DOESN'T WORK] TEXT-BASED OUTREACH — Script B:**
-
-Hey [NAME], you don't know me but we should know each other. My name's John-Carlos — I run Blue Tusk, we help PI firms save money and grow faster with AI and automation. (SEND)
-
-I'd like to send you some info because we're doing a free workflow audit for PI firms right now and your firm looks like a good fit. One call, 3-day turnaround, you get a prioritized report on what it's costing you and what to fix first. Only a few spots left this month. (SEND)
-
-Thumbs up and I'll send it through. (SEND)
+Worth knowing more? Thumbs up and I'll send details. Only doing 3 this month. (SEND)
 
 ---
 
