@@ -15,7 +15,7 @@ JC needs to build a personal brand as an authority in AI/automation to attract P
 ## Content
 
 ### Active assets
-- [[business/marketing/writing/linkedin-post-ideas|LinkedIn Post Ideas]] — evergreen tracker with categories and stub links to individual post drafts
+- [[00_linkedin-post-ideas|LinkedIn Post Ideas]] — evergreen tracker with categories and stub links to individual post drafts
 
 ### Strategy
 - Posts should stay broad: automation, AI, workflow design, legal ops — not Blue Tusk-specific
@@ -23,5 +23,5 @@ JC needs to build a personal brand as an authority in AI/automation to attract P
 - Post categories in use: reaction to news, controversial take, personal story, how-to/tip, anonymized case study
 
 ## Next steps
-- Pick first post draft to write from [[business/marketing/writing/linkedin-post-ideas]]
+- Pick first post draft to write from [[00_linkedin-post-ideas]]
 - Publish cadence TBD — start with 1x/week
