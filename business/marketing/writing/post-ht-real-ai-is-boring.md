@@ -1,5 +1,52 @@
-# Original Transcript:
-Preserve this original transcript in its entirety at the bottom of the document
+---
+title: "Post: The AI that actually works is boring"
+date: 2026-04-17
+tags:
+  - strategy
+  - idea
+ai: claude
+status: needs-attention
+platforms:
+  - linkedin
+posted?: no
+---
+
+## Draft
+
+The AI integrations that actually work are boring.
+
+Not boring like useless. Boring like: one step in a ten-step workflow just got faster. That's it.
+
+You have a process that takes twenty minutes at step four because someone has to read a document, pull out a few fields, and move them somewhere else. Now an LLM does that in seconds. Steps one through three are the same. Steps five through ten are the same. But step four is no longer the bottleneck.
+
+That's real AI adoption. It looks nothing like the demos.
+
+The reason automation used to fail in smaller businesses wasn't the automation itself. It was the preprocessing. You needed clean, structured inputs with consistent tags and labels before anything could run reliably. That data engineering step was too expensive, so the automation never got adopted.
+
+LLMs removed that step. They can interpret messy input and pass something usable to the next step. The workflow doesn't change. The friction in the middle does.
+
+Think of those moving walkways in airports. You still have to walk. You still have to go through the terminal. But for one stretch, you're moving faster without extra effort. That's the thing. It's not a teleporter. It's just useful.
+
+The flashy stuff gets the attention. The boring stuff gets the hours back.
+
+---
+
+*What's the most unglamorous AI integration you've seen actually work?*
+
+---
+
+## Notes
+
+- "How-to" framing in the filename but this reads more as a reframe/perspective post. That's fine, the category is just a rough label.
+- The airport metaphor is straight from the transcript. It's good. Kept it tight.
+- Avoided the "it's not X, it's Y" construction throughout even though the transcript leans on contrast. Used positive statements instead.
+- The preprocessing/data engineering paragraph is the most technical moment. Worth reviewing to confirm it lands for the target audience (PI firm operators, not developers).
+- Closing question is open-ended and invites specifics, which tends to get real answers in comments.
+- Under 220 words.
+
+---
+
+# Original Transcript
 
 Is the voice transcription for this post this post is about how real AI usage the ones that actually end up working and end up saving time and saving money is boring for the most part when I say boring it's that it's not some magic solve everything Super Genius part of your business it is one tool in a massive tool kit of of various computer things that are being done in your business that allows one process to move forward by one meaningful step 
 
