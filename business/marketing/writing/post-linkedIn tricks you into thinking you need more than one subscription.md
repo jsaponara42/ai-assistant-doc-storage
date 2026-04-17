@@ -15,7 +15,7 @@ Every time a new model drops, the posts flood in. This time its Opus 4.7.
 
 "I use Claude for writing. GPT for research. Gemini for data. Perplexity for search."
 
-These posts are written by people trying to attract other people writing posts like that. The person who actually wants to use AI more isn't the audience. They're just the collateral damage.
+The only people who like these posts are the other people writing the same types of posts. The person who actually wants to use AI more only gets discouraged.
 
 Here's what I tell anyone who asks where to start:
 
