@@ -31,7 +31,7 @@ The tool matters less than the habit. Pick one. Use it often. That's it.
 
 ---
 
-*What tool did you start with?*
+*What's your daily driver these days?*
 
 ## Draft
 
