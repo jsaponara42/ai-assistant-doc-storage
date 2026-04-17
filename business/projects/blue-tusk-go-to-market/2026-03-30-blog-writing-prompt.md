@@ -1,14 +1,18 @@
 ---
-title: "Blue Tusk Blog — Article Writing Prompt"
+title: Blue Tusk Blog — Article Writing Prompt
 date: 2026-03-30
-tags: [project, ai, strategy, client]
+tags:
+  - project
+  - ai
+  - strategy
+  - client
 ai: claude
 context: business
-status: active
+status: ok
 related:
   - overview.md
   - 2026-03-30-blog-instructionbot-prompt.md
-summary: "Full system prompt for writing Blue Tusk SEO blog articles. Produces 800–900 word articles with 4 keyword placements targeting PI law firm owners. Configured for the Workflow Waste Audit offer and four quick win areas."
+summary: Full system prompt for writing Blue Tusk SEO blog articles. Produces 800–900 word articles with 4 keyword placements targeting PI law firm owners. Configured for the Workflow Waste Audit offer and four quick win areas.
 ---
 
 # Blue Tusk Blog — Article Writing Prompt

@@ -1,14 +1,18 @@
 ---
-title: "Workflow Waste Audit — Notion Report Skill"
+title: Workflow Waste Audit — Notion Report Skill
 date: 2026-03-30
-tags: [project, ai, client, tool]
+tags:
+  - project
+  - ai
+  - client
+  - tool
 ai: claude
 context: business
-status: active
+status: ok
 related:
   - overview.md
   - 2026-03-30-audit-call-flow.md
-summary: "Claude skill specification for generating a Notion-ready markdown audit report from a PI firm discovery call transcript. Includes the full report structure, Mermaid flowchart syntax, quick win scoring logic, and cost estimation formulas."
+summary: Claude skill specification for generating a Notion-ready markdown audit report from a PI firm discovery call transcript. Includes the full report structure, Mermaid flowchart syntax, quick win scoring logic, and cost estimation formulas.
 ---
 
 # Audit Report — Notion Markdown Generator Skill

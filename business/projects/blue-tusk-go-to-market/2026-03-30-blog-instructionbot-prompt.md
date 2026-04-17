@@ -1,10 +1,14 @@
 ---
-title: "Blue Tusk Blog — InstructionBot Prompt"
+title: Blue Tusk Blog — InstructionBot Prompt
 date: 2026-03-30
-tags: [project, ai, strategy, client]
+tags:
+  - project
+  - ai
+  - strategy
+  - client
 ai: claude
 context: business
-status: active
+status: ok
 related:
   - overview.md
   - 2026-03-30-blog-writing-prompt.md

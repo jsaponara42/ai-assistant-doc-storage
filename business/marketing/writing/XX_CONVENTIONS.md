@@ -32,14 +32,14 @@ platforms:
 
 ### Field notes
 
-| Field | Rules |
-|---|---|
-| `title` | Always prefix with `"Post: "` followed by the post title as it would appear publicly. Use the actual working title, not the filename. |
-| `date` | Creation date. Do not update on edits. |
-| `tags` | Use existing tags from the vault tag vocabulary. Default for post drafts: `strategy`, `idea`. |
-| `ai` | Set to `claude` if AI wrote or drafted it. Set to `human` if JC wrote it without AI assistance. |
-| `status` | `needs-attention` = draft, not ready to publish. `ok` = reviewed and approved. `archived` = published or abandoned. |
-| `platforms` | List of intended publishing platforms. Default: `linkedin`. |
+| Field       | Rules                                                                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`     | Always prefix with `"Post: "` followed by the post title as it would appear publicly. Use the actual working title, not the filename. |
+| `date`      | Creation date. Do not update on edits.                                                                                                |
+| `tags`      | Use existing tags from the vault tag vocabulary. Default for post drafts: `strategy`, `idea`.                                         |
+| `ai`        | Set to `claude` if AI wrote or drafted it. Set to `human` if JC wrote it without AI assistance.                                       |
+| `status`    | `needs-attention` = draft, not ready to publish. `ok` = reviewed and approved. `archived` = published or abandoned.                   |
+| `platforms` | List of intended publishing platforms. Default: `linkedin`.                                                                           |
 
 ---
 

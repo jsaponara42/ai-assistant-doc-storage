@@ -1,12 +1,15 @@
 ---
-title: "Corporate Claws strategy — Blue Tusk positioning"
+title: Corporate Claws strategy — Blue Tusk positioning
 date: 2026-03-31
-tags: [ai, strategy, tool]
+tags:
+  - ai
+  - strategy
+  - tool
 ai: human
 context: business
-status: draft
+status: ok
 related: []
-summary: "Strategic note on 'Corporate Claws' (autonomous AI agents embedded in business operations). Covers how Blue Tusk should develop its own internal claws, how to deliver claw-compatible work to clients, and what this means for service design."
+summary: Strategic note on 'Corporate Claws' (autonomous AI agents embedded in business operations). Covers how Blue Tusk should develop its own internal claws, how to deliver claw-compatible work to clients, and what this means for service design.
 ---
 
 ## Summary
