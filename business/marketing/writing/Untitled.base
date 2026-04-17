@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.path.contains("_fit")'
+    order:
+      - file.name
+      - file.ctime
+      - platforms
+      - posted?
+      - status
