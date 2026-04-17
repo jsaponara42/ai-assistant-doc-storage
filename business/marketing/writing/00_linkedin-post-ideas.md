@@ -57,8 +57,8 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 - [ ] [[business/marketing/writing/post-story-first-automation-win|"The first automation I built at work that actually saved someone real time"]] — specific, concrete, outcome-first — no buzzwords
 - [ ] [[business/marketing/writing/post-story-moment-i-got-it|"The moment I understood what automation was actually for"]] — a specific before/after realization, not a general statement about AI
 - [ ] [[business/marketing/writing/post-story-client-skeptic|"The most skeptical person in the room ended up being the one who got it fastest"]] — story about a reluctant stakeholder who became the internal champion
-- [ ] [[business/marketing/writing/post-story-mistake-i-made|"I automated the wrong thing first — and it cost me two weeks"]] — vulnerability post; shows process thinking, not just wins
-- [ ] [[business/marketing/writing/post-story-what-i-learned-discovery|"What I've learned from doing discovery with teams that think they don't need automation"]] — pattern recognition from real conversations, anonymized
+- [x] [[business/marketing/writing/post-story-mistake-i-made|"I automated the wrong thing first — and it cost me two weeks"]] — vulnerability post; shows process thinking, not just wins
+- [x] [[business/marketing/writing/post-story-what-i-learned-discovery|"What I've learned from doing discovery with teams that think they don't need automation"]] — pattern recognition from real conversations, anonymized
 - [ ] [[business/marketing/writing/post-story-weekend-project|"I spent a Saturday morning solving a problem that was taking someone 3 hours a week"]] — shows what's possible at low effort; builds intrigue without overselling
 
 ### How-to
