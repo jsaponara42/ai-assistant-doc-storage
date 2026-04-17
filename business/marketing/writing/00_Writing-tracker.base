@@ -29,7 +29,7 @@ views:
       - posted-date
     sort:
       - property: posted-date
-        direction: ASC
+        direction: DESC
   - type: table
     name: Drafts
     filters:
@@ -42,3 +42,6 @@ views:
       - posted?
       - status
       - posted-date
+    sort:
+      - property: posted-date
+        direction: DESC
