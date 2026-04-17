@@ -1,12 +1,37 @@
 views:
   - type: table
-    name: Table
+    name: Unwritten
     filters:
       and:
         - '!file.path.contains("_fit")'
+        - file.folder == "business/marketing/writing"
+        - status.isEmpty()
     order:
       - file.name
       - file.ctime
       - platforms
+      - posted?
+      - status
+  - type: table
+    name: Posted
+    filters:
+      and:
+        - '!file.path.contains("_fit")'
+        - status.containsAny("ok")
+        - note["posted?"] == "yes"
+    order:
+      - file.name
+      - file.ctime
+      - posted?
+      - status
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - '!file.path.contains("_fit")'
+        - note["posted?"].containsAny("no", "scheduled")
+    order:
+      - file.name
+      - file.ctime
       - posted?
       - status
