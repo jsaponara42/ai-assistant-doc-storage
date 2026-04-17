@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!status.isEmpty()"
+    order:
+      - file.name
+      - file.folder
+      - status
+      - title
+      - file.ctime

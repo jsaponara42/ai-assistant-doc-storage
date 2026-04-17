@@ -97,7 +97,7 @@ Every post file follows this section order:
 
 ## Style
 
-All post copy follows the style guide in `WRITING-STYLE.md.md`. The short version:
+All post copy follows the style guide in `WRITING-STYLE.md`. The short version:
 
 - No em-dashes. Use a period or a comma.
 - No rule of three. One strong word beats three weak ones.
@@ -112,7 +112,7 @@ All post copy follows the style guide in `WRITING-STYLE.md.md`. The short versio
 ## Workflow
 
 1. JC drops a voice note or brief into the post file under `# Original Transcript`
-2. Agent reads the transcript, reads this file and `WRITING-STYLE.md.md`, then writes the `## Draft` section
+2. Agent reads the transcript, reads this file and `WRITING-STYLE.md`, then writes the `## Draft` section
 3. Agent sets `status: needs-attention` in frontmatter
 4. JC reviews, edits the file directly, then sets `status: ok` when approved
 5. After publishing, JC sets `status: archived` and checks off the entry in `00_linkedin-post-ideas.md`
