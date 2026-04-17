@@ -40,6 +40,7 @@ platforms:
 | `ai`        | Set to `claude` if AI wrote or drafted it. Set to `human` if JC wrote it without AI assistance.                                       |
 | `status`    | `needs-attention` = draft, not ready to publish. `ok` = reviewed and approved. `archived` = published or abandoned.                   |
 | `platforms` | List of intended publishing platforms. Default: `linkedin`.                                                                           |
+| `posted?`   | `ye`                                                                                                                                  |
 
 ---
 
