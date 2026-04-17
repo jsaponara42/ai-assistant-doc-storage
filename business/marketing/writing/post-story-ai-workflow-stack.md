@@ -5,7 +5,7 @@ tags:
   - strategy
   - idea
 ai: claude
-status: needs-attention
+status: done
 platforms:
   - linkedin
 posted?: scheduled
