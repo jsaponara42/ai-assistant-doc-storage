@@ -43,6 +43,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 - [ ] [[business/marketing/writing/post-ht-coo-before-automation|"You need someone who thinks like a COO before you can automate anything meaningful"]] — automation exposes every gap in your operations; without a process-minded owner, you're just building technical debt faster
 - [ ] [[business/marketing/writing/post-ht-ai-wont-save-bad-process|"AI won't save your org. It'll just make your bad process faster."]] — firms and agencies buying AI tools without fixing workflow first are accelerating their own dysfunction
 - [ ] [[business/marketing/writing/post-ht-automation-consultants-lie|"Most automation consultants are lying to you — including the ones who don't know it"]] — the industry defaults to selling complexity; simple solutions get dismissed because they're not billable enough
+- [ ] [[post-linkedIn tricks you into thinking you need more than one subscription]] - if you're new. Just pick one AI and use it. Don't fall for the LinkedIn "different tools for different things"
 
 ### Story
 > Specific, concrete, first-person. The more specific the detail, the more it lands. Draw from M+P, Omnicom, and Blue Tusk.
