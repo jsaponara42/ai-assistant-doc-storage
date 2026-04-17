@@ -1,3 +1,6 @@
+# Original Transcript:
+Preserve this original transcript in its entirety at the bottom of the document
+
 Is the voice transcription for this post this post is about how real AI usage the ones that actually end up working and end up saving time and saving money is boring for the most part when I say boring it's that it's not some magic solve everything Super Genius part of your business it is one tool in a massive tool kit of of various computer things that are being done in your business that allows one process to move forward by one meaningful step 
 
 This is an AI plugged in in a 10-step workflow for your product delivery for your who knows your Finance reporting it is an AI plugged into one step that used to be difficult to do before and now that one step in that multi-step 10 step 20 step workflow is has gone from 1 hour to 5 minutes and it's not completely taking over the entire workflow and if you're trying to get an AI to do that for the most part it doesn't turn out well and it's quite inconsi so the AI integration that actually works is the is the step-by-step integration into an existing successful workflow knowing what you put in what you get out and what you want out of the job process 

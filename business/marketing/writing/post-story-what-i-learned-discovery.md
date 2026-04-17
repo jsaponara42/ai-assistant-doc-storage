@@ -1,3 +1,6 @@
+# Original Transcript:
+Preserve this original transcript in its entirety at the bottom of the document
+
 This is a voice note transcription for the article to be written 
 
 Okay so for the most part when doing discovery for a new project A new challenge and new client a new person for the most part what I've seen is that the major pain point the first gut pain point is usually accurate and you might say okay great if I know what I need to automate because my first gut pain point is accurate then why why can't I just go with that 

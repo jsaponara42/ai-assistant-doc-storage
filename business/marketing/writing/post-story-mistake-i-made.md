@@ -1,3 +1,6 @@
+# Original Transcript:
+Preserve this original transcript in its entirety at the bottom of the document
+
 This is a voice note transcription that will eventually become a post 
 
 When you try to hire an automator on a project by project basis you better have a very very clear idea of exactly what you want and you better be sure that that process that you're automating is not going to change anytime soon and that's why I recommend that if you are going to enter into some sort of long-term automation type of contract that there is some sort of flexibility built in for when or if that workflow changes or evolves in the time that even the the automation is being built because that that few months might be enough for that workflow to change and that few months might be enough for that work footage enough that the scope of work that you initially agree to has changed and if you're if the person you've hired or the person that you are directing to do this automation has spent months building this thing and then the workflow changes that time and that energy and that effort just gets erased immediately 

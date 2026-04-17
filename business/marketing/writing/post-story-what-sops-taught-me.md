@@ -1,3 +1,6 @@
+# Original Transcript:
+Preserve this original transcript in its entirety at the bottom of the document
+
 Cases of voice transcript of this post of what Sops taught me in what and and the title would be I don't know the title is the same as the title and the other document that has LinkedIn posts basically what I want to cover is that a story for myself let's call it of how important it is for a business before they start automating before they do any automation how important it is for an sop to exist some sort of standard procedure for how to do one thing the same way every time 
 
 And this seems kind of counterintuitive if you're thinking about I want to automate this process because this process stinks and we all hate doing i that is a fair start but the only way to automate a process is to understand what the inputs to that process are and then what their desired outputs are and what needs to happen at each step right there's it's very difficult to figure out what to automate and how to automate something if the team doesn't even have a standard way of doing that without automation 
