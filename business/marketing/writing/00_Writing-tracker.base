@@ -6,6 +6,8 @@ views:
         - '!file.path.contains("_fit")'
         - file.folder == "business/marketing/writing"
         - status.isEmpty()
+        - file.basename != "00_Writing-tracker"
+        - '!file.name.startsWith("XX")'
     order:
       - file.name
       - file.ctime
@@ -24,6 +26,10 @@ views:
       - file.ctime
       - posted?
       - status
+      - posted-date
+    sort:
+      - property: posted-date
+        direction: ASC
   - type: table
     name: Drafts
     filters:
@@ -35,3 +41,4 @@ views:
       - file.ctime
       - posted?
       - status
+      - posted-date

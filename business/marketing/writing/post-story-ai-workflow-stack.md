@@ -9,6 +9,7 @@ status: done
 platforms:
   - linkedin
 posted?: scheduled
+posted-date: 2026-04-20
 ---
 ## Final
 
