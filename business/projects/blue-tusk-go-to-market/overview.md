@@ -1,17 +1,20 @@
 ---
-title: "Blue Tusk Go-To-Market — Project Overview"
+title: Blue Tusk Go-To-Market — Project Overview
 date: 2026-03-30
-tags: [project, strategy, client]
+tags:
+  - project
+  - strategy
+  - client
 ai: claude
 context: business
-status: active
+status: ok
 related:
   - 2026-03-30-audit-call-flow.md
   - 2026-03-30-pre-call-screening-survey.md
   - 2026-03-30-audit-report-skill.md
   - 2026-03-30-blog-instructionbot-prompt.md
   - 2026-03-30-blog-writing-prompt.md
-summary: "Complete go-to-market system for Blue Tusk's Free Workflow Waste Audit offer targeting PI law firms. Covers cold email, Calendly event, discovery call flow, audit report delivery, and blog content infrastructure."
+summary: Complete go-to-market system for Blue Tusk's Free Workflow Waste Audit offer targeting PI law firms. Covers cold email, Calendly event, discovery call flow, audit report delivery, and blog content infrastructure.
 ---
 
 ## Summary

@@ -1,12 +1,16 @@
 ---
 title: "Idea: Move skills repo into vault"
 date: 2026-03-30
-tags: [ai, pkm, tool, idea]
+tags:
+  - ai
+  - pkm
+  - tool
+  - idea
 ai: human
 context: business
-status: draft
+status: ok
 related: []
-summary: "Idea to consolidate the external LLM skills repo (llm-agent-skills on GitHub) into this vault for simplicity and single-source-of-truth access."
+summary: Idea to consolidate the external LLM skills repo (llm-agent-skills on GitHub) into this vault for simplicity and single-source-of-truth access.
 ---
 
 ## Summary

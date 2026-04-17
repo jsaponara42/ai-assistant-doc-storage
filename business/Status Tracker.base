@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: All Statuses
+    filters:
+      and:
+        - "!status.isEmpty()"
+        - '!file.path.contains("_fit")'
+    order:
+      - file.name
+      - file.folder
+      - status
+      - file.ctime
+      - title
+  - type: table
+    name: Working
+    filters:
+      and:
+        - '!file.path.contains("_fit")'
+        - "!status.isEmpty()"
+        - status.containsAny("active", "draft", "needs-attention")
+    order:
+      - file.name
+      - file.ctime
+      - file.path
+      - status
+      - title

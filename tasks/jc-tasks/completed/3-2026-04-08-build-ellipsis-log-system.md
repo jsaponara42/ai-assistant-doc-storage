@@ -1,9 +1,12 @@
 ---
-title: "Build Ellipsis Log Practice System"
+title: Build Ellipsis Log Practice System
 date: 2026-04-08
-tags: [task, strategy, research]
+tags:
+  - task
+  - strategy
+  - research
 ai: claude
-status: needs-attention
+status: ok
 due-date:
 ---
 

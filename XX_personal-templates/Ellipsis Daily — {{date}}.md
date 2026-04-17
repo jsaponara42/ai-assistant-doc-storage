@@ -5,7 +5,7 @@ tags:
   - research
   - elipsis
 ai: human
-status: needs-attention
+status: ok
 ---
 Ellipsis Daily — {{date}}
 
