@@ -9,6 +9,29 @@ status: needs-attention
 platforms:
   - linkedin
 ---
+## Final
+
+Every time a new model drops, the posts flood in. This time its Opus 4.7.
+
+"I use Claude for writing. GPT for research. Gemini for data. Perplexity for search."
+
+These posts are written by people trying to attract other people writing posts like that. The person who actually wants to use AI more isn't the audience. They're just the collateral damage.
+
+Here's what I tell anyone who asks where to start:
+
+Pick one. Use it for everything.
+
+You will get 90% of the same result from almost any model for almost any task. The gap between them is real but it's not the gap these posts describe. And for someone who isn't in a dedicated AI workflow yet, juggling four subscriptions isn't optimization. It's just more friction.
+
+Find the one you like. Learn what it's good at by actually using it. When you're comfortable, go deeper.
+
+My personal pick is Claude. I find the interface to be clean and it's nice to work with if you're new to this.
+
+The tool matters less than the habit. Pick one. Use it often. That's it.
+
+---
+
+*What tool did you start with?*
 
 ## Draft
 
