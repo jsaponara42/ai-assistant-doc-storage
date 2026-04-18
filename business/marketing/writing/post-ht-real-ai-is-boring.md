@@ -11,7 +11,27 @@ platforms:
 posted?: no
 posted-date:
 ---
+## Final
 
+The AI integrations that actually work are boring.
+
+Not boring like useless. Boring like: one step in a ten-step workflow just got faster. That's it.
+
+You have a process that takes twenty minutes at step four because someone has to read a document, pull out a few fields, and move them somewhere else. Now an LLM does that in seconds. Steps one through three are the same. Steps five through ten are the same. But step four is no longer the bottleneck.
+
+That's real AI adoption. It looks nothing like the demos.
+
+The reason automation used to fail in smaller businesses wasn't the automation itself. It was the preprocessing. You needed clean, structured inputs with consistent tags and labels before anything could run reliably. That data engineering step was too expensive, so the automation never got adopted.
+
+LLMs removed that step. They can interpret messy input and pass something usable to the next step. The workflow doesn't change. The friction in the middle does.
+
+Think of those moving walkways in airports. You still have to walk. You still have to go through the terminal. But for one stretch, you're moving faster without extra effort. That's the thing. It's not a teleporter. It's just useful.
+
+The flashy stuff gets the attention. The boring stuff gets the hours back.
+
+---
+
+*What's the most unglamorous AI integration you've seen actually work?*
 ## Draft
 
 The AI integrations that actually work are boring.
