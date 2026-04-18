@@ -17,17 +17,15 @@ I spent months building an automation for a client. By the time it was done, the
 
 Some of the work was recoverable. A lot wasn't.
 
-Here's what I learned: before you automate anything, make sure the process you're automating isn't going anywhere. If the workflow is still evolving, the automation will be obsolete before it's finished. And if you're hiring someone on a project basis, they're going to build the thing and hand it to you, whether it's still relevant when they do or not.
+Here's what I learned: before you automate anything, make sure the process you're automating isn't going anywhere. If the workflow is still evolving, the automation will be obsolete before it's finished. 
+
+If you're hiring someone on a project basis, they're going to build the thing and hand it to you, whether it's still relevant when they do or not.
 
 The mistake I kept making was treating automation like a one-time deliverable instead of something that has to grow with the business. A fast-growing company by definition is changing. The process that made sense six months ago might not be the process today.
 
 There are two ways around this. Either you automate something so locked-in and stable that it's not going anywhere, or you work with someone who understands the business well enough to catch when the scope has shifted before you've sunk months into the wrong thing.
 
-The second option requires a different kind of engagement. Not a Fiverr job. Not a fixed scope. Someone who knows what you're building toward, not just what you asked for.
-
-I got here through a mistake. Most people get here the same way.
-
----
+The second option requires a different kind of engagement. Not a cheap one-off job. Not a fixed scope. Someone who knows what you're building toward, not just what you asked for.
 
 *Have you ever had a project go sideways because the target moved mid-build?*
 ## Draft
