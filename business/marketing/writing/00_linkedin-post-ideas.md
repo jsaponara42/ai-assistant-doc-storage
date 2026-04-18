@@ -63,7 +63,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 ### How-to
 - [ ] [[business/marketing/writing/post-map-your-workflow|"How to map a broken workflow in 20 minutes (no tools required)"]] — sticky, practical, shareable; positions JC as a process thinker
 - [ ] [[business/marketing/writing/post-five-signs-manual-process|"5 signs a manual process is costing you more than you think"]] — diagnostic framing, resonates with ops-minded readers
-- [ ] [[business/marketing/writing/post-react-openai-operator|"How I use voicenotes and AI to write SOPs fast"]] - SOPs are important, but they can be frustrating to make. There's a way to get a very solid draft done in under an hour.
+- [ ] [[business/marketing/writing/post-react-openai-operator|"How I use voice notes and AI to write SOPs fast"]] - SOPs are important, but they can be frustrating to make. There's a way to get a very solid draft done in under an hour.
 
 ### Case study
 > Anonymized. Draw from M+P, Omnicom, or Blue Tusk client work.
