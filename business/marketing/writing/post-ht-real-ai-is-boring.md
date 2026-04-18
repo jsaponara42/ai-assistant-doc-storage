@@ -25,13 +25,14 @@ The reason automation used to fail in smaller businesses wasn't the automation i
 
 LLMs removed that step. They can interpret messy input and pass something usable to the next step. The workflow doesn't change. The friction in the middle does.
 
-Think of those moving walkways in airports. You still have to walk. You still have to go through the terminal. But for one stretch, you're moving faster without extra effort. That's the thing. It's not a teleporter. It's just useful.
+Think of those moving walkways in airports. You still have to walk. You still have to go through the terminal. But for one stretch, you're moving faster without extra effort. That's the thing. It's not a magic AI teleporter. It's just useful.
 
 The flashy stuff gets the attention. The boring stuff gets the hours back.
 
 ---
 
 *What's the most unglamorous AI integration you've seen actually work?*
+
 ## Draft
 
 The AI integrations that actually work are boring.
