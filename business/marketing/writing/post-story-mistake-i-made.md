@@ -1,5 +1,50 @@
-# Original Transcript:
-Preserve this original transcript in its entirety at the bottom of the document
+---
+title: "Post: A mistake I made so you don't have to"
+date: 2026-04-17
+tags:
+  - strategy
+  - idea
+ai: claude
+status: needs-attention
+platforms:
+  - linkedin
+posted?: no
+posted-date:
+---
+
+## Draft
+
+I spent months building an automation for a client. By the time it was done, the workflow it was built for had changed enough that we couldn't move forward without restarting.
+
+Some of the work was recoverable. Most wasn't.
+
+Here's what I learned: before you automate anything, make sure the process you're automating isn't going anywhere. If the workflow is still evolving, the automation will be obsolete before it's finished. And if you're hiring someone on a project basis, they're going to build the thing and hand it to you, whether it's still relevant when they do or not.
+
+The mistake I kept making was treating automation like a one-time deliverable instead of something that has to grow with the business. A fast-growing company by definition is changing. The process that made sense six months ago might not be the process today.
+
+There are two ways around this. Either you automate something so locked-in and stable that it's not going anywhere, or you work with someone who understands the business well enough to catch when the scope has shifted before you've sunk months into the wrong thing.
+
+The second option requires a different kind of engagement. Not a Fiverr job. Not a fixed scope. Someone who knows what you're building toward, not just what you asked for.
+
+I got here through a mistake. Most people get here the same way.
+
+---
+
+*Have you ever had a project go sideways because the target moved mid-build?*
+
+---
+
+## Notes
+
+- Story framing is tight. JC as someone who made this mistake is more credible than JC as someone giving advice about it. Kept that POV throughout.
+- The implicit pitch at the end (longer-term engagement vs. one-off job) is there but not pushed. It surfaces naturally from the lesson. Review whether you want it more explicit or if the current level is right for where you are in the content sequence.
+- This post pairs well with the SOPs post. Consider sequencing them close together, SOP post first, then this one a few days later. The SOPs post is the setup; this one is the consequence of skipping it.
+- The Fiverr mention is specific and might read as punching at a platform. Easy to cut or soften if needed ("hiring someone for a one-off job" works just as well).
+- Under 240 words.
+
+---
+
+# Original Transcript
 
 This is a voice note transcription that will eventually become a post 
 
