@@ -25,17 +25,18 @@ To automate a process, you need to know the inputs, the outputs, and what has to
 
 That's not enough to build on.
 
-So the first thing I ask clients now is: do you have an SOP for this? Not a perfect one. Not a finished one. Just something written down that describes how it gets done the same way every time.
+So the first thing I ask now is: do you have an SOP for this? Not a perfect one. Not a finished one. Just something written down that describes how it gets done the same way every time.
 
 And here's the part that surprised me: even if you never automate, the SOP is worth it.
 
-Writing the process down forces you to look at it. You find the steps that don't make sense. You find the places where one person's version doesn't match another's. You find the inefficiency you'd been doing for two years without noticing.
+There's a happy side-effect of an SOP. Writing the process down forces you to look at it. You find the steps that don't make sense. You find the places where one person's version doesn't match another's. You find the inefficiency you'd been doing for two years without noticing.
 
 Sometimes that's more useful than any automation you could build.
 
 ---
 
-*Does your team have SOPs for your most repeated processes?*
+*Would you like to hear about the voice recording + AI process I've been using to speed through SOP creation?*
+
 ## Draft
 
 Before you automate anything, write down how you do it now.
