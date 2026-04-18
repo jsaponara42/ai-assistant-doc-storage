@@ -15,7 +15,7 @@ posted-date:
 
 Before you automate anything, write down how you do it now.
 
-I learned this the hard way coming into client projects as an outside automator. I'd show up ready to build something and realize nobody had ever written down what the process actually was. Different people did it differently. Nobody expected anyone else to have to do it, so nobody documented it.
+I learned this the hard way coming into projects as an outside automator. I'd show up ready to build something and realize nobody had ever written down what the process actually was. Different people and teams did it differently. Nobody expected anyone cared how they did it as long as it got done, so nobody documented it.
 
 That's not a criticism. Growing businesses move fast. Processes evolve. People figure things out and keep moving.
 
