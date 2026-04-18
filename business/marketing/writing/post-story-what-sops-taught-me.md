@@ -11,7 +11,31 @@ platforms:
 posted?: no
 posted-date:
 ---
+## Final
 
+Before you automate anything, write down how you do it now.
+
+I learned this the hard way coming into client projects as an outside automator. I'd show up ready to build something and realize nobody had ever written down what the process actually was. Different people did it differently. Nobody expected anyone else to have to do it, so nobody documented it.
+
+That's not a criticism. Growing businesses move fast. Processes evolve. People figure things out and keep moving.
+
+But it makes automation nearly impossible.
+
+To automate a process, you need to know the inputs, the outputs, and what has to happen at each step in between. If the team doesn't have a consistent way of doing it manually, there's nothing to automate. There's just a general sense that things could be better.
+
+That's not enough to build on.
+
+So the first thing I ask clients now is: do you have an SOP for this? Not a perfect one. Not a finished one. Just something written down that describes how it gets done the same way every time.
+
+And here's the part that surprised me: even if you never automate, the SOP is worth it.
+
+Writing the process down forces you to look at it. You find the steps that don't make sense. You find the places where one person's version doesn't match another's. You find the inefficiency you'd been doing for two years without noticing.
+
+Sometimes that's more useful than any automation you could build.
+
+---
+
+*Does your team have SOPs for your most repeated processes?*
 ## Draft
 
 Before you automate anything, write down how you do it now.
