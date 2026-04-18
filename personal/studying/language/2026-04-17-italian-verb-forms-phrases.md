@@ -6,7 +6,7 @@ tags:
 ai: claude
 status: ok
 ---
-
+[[2026-04-17-italian-verb-forms-anki]]
 ## Summary
 
 This is a context-first approach to learning Italian verb conjugation. Instead of memorizing tables, you learn each verb form through phrases you'd actually say — about work, travel, family, hobbies, and daily life. Each phrase is labeled with the verb form it demonstrates so patterns emerge naturally through use.
