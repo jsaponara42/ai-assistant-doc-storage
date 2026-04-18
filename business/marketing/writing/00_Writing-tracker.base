@@ -44,4 +44,4 @@ views:
       - posted-date
     sort:
       - property: posted-date
-        direction: DESC
+        direction: ASC
