@@ -88,11 +88,9 @@ Tailored roadmap identifying high-ROI opportunities with phased implementation s
 - Core pain: Leads going cold, manual case management, attorney as bottleneck
 - **Full ICP detail:** `business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp.md`
 
-### Secondary: Construction / General Contracting
+### Secondary: Agencies and consultants
 - *(to fill in)*
 
-### Secondary: Research Firms
-- *(to fill in)*
 
 ### Ideal client characteristics (general)
 - Struggling with inefficiencies, repetitive tasks, or high labor costs
@@ -136,7 +134,7 @@ Quantify the cost of lost leads and wasted time.
 
 ### Lead generation channels
 - Cold email (primary — 7-part sequences targeting PI firms and general contractors)
-- Fiverr gigs (AI consulting, chatbot setup, automation workflows, custom GPTs)
+- Cold LinkedIn (Sending video messages and consistent follow ups to ICP)
 - Content marketing via JC's personal LinkedIn
 
 ### Lead magnets
@@ -149,7 +147,7 @@ Quantify the cost of lost leads and wasted time.
 3. 30-minute discovery call
 4. Audit delivered in 3 days
 5. Follow-up call → retainer offer
-- **Full SOP:** `business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit.md`
+- **Full SOP:** [[business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit|2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
 
 ---
 
@@ -159,7 +157,7 @@ Quantify the cost of lost leads and wasted time.
 - *(to fill in — CRM, outreach platform, automation stack, etc.)*
 
 ### Internal AI strategy
-Blue Tusk is building toward "claw-compatible" operations — AI agents that run autonomously inside the business for lead gen, client delivery tracking, and task execution. See `business/research/2026-03-31-corporate-claws-strategy.md`.
+Blue Tusk is building toward "claw-compatible" operations — AI agents that run autonomously inside the business for lead gen, client delivery tracking, and task execution. See [[business/research/2026-03-31-corporate-claws-strategy|2026-03-31-corporate-claws-strategy]].
 
 ---
 
