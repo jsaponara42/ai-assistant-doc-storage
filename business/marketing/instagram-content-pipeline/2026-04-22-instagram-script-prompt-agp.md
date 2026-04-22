@@ -167,3 +167,6 @@ Generate:
 4. If an Instagram post, an optimized caption labeled under: **## Caption**
 
 Do not explain your reasoning or process. Deliver the script and suggestions cleanly and directly.
+
+
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp|2026-04-03-free-workflow-audit-free-offer-creation-agp]]
