@@ -1,13 +1,13 @@
 # Vault index
 
 > Lightweight routing map for humans and agents.
-> Last updated: 2026-03-31
+> Last updated: 2026-04-22
 
 ## Top-level folders
 
 - `xx_needs-categorization/` — quick-capture inbox for rough notes
 - `personal/` — personal projects and research
-- `business/` — business projects, research, and ideas
+- `business/` — business projects, research, ideas, marketing, and sales
 - `tasks/` — task queue; see subfolders below
 
 ## Tasks folders
@@ -16,22 +16,29 @@
 - `tasks/jc-tasks/` — tasks for JC to complete manually
 
 Task file naming: `{priority}-{YYYY-MM-DD}-{short-description}.md`
-Required frontmatter: `due-date`, `priority` (1–3, 1 = highest)
+Priority: 1 = highest, 2 = normal, 3 = low
+
+## Business folder structure
+
+- `business/ideas/` — low-friction brainstorms, speculative thinking
+- `business/marketing/` — content strategy and brand materials
+  - `business/marketing/instagram-content-pipeline/` — modular video strategy, script prompts, Instagram content
+  - `business/marketing/writing/` — LinkedIn posts, long-form written content
+- `business/projects/` — named client or internal projects (each gets a kebab-case subfolder + `overview.md`)
+- `business/research/` — standalone reference material
+- `business/sales/` — outbound strategy, offer creation, cold email sequences, go-to-market SOPs (formerly `blue-tusk-go-to-market`)
 
 ## Active projects
 
-- `business/projects/blue-tusk-go-to-market/overview.md`
+- `business/projects/blue-tusk-go-to-market/overview.md` ← to be relocated to `business/sales/`
 
-## Recent notes (sample)
+## Recent notes
 
-- `tasks/jc-tasks/1-2026-03-31-create-tasks-folder-structure.md`
-- `business/ideas/2026-03-31-daily-summary-for-ai-memory.md`
-- `business/research/2026-03-31-corporate-claws-strategy.md`
-- `business/ideas/2026-03-30-move-skills-repo-into-vault.md`
-- `business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow.md`
-- `business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence.md`
-- `business/projects/blue-tusk-go-to-market/2026-03-30-audit-report-skill.md`
+- `business/marketing/instagram-content-pipeline/2026-04-22-instagram-modular-video-strategy.md`
+- `business/marketing/instagram-content-pipeline/2026-04-22-instagram-script-prompt-agp.md`
+- `business/ideas/2026-04-14-social-outreach-persuasion-upgrades.md`
+- `business/marketing/writing/00_linkedin-post-ideas.md`
 
 ## Retrieval guidance
 
-Start with folder-level targeting, then read frontmatter `summary` fields before opening full note bodies.
+Start with folder-level targeting, then read frontmatter before opening full note bodies. For sales and go-to-market materials, check `business/sales/` first.

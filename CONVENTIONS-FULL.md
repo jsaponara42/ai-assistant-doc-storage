@@ -39,11 +39,15 @@ vault/
 │   ├── research/
 │   └── ideas/
 └── business/
+    ├── ideas/
+    ├── marketing/
+    │   ├── instagram-content-pipeline/
+    │   └── writing/
     ├── projects/project-name/
     │   ├── overview.md
     │   └── *.md
     ├── research/
-    └── ideas/
+    └── sales/
 ```
 
 ### Folder placement rules
@@ -52,10 +56,18 @@ vault/
 - During cleanup, move inbox notes into `personal/` or `business/` when intent is clear.
 - `personal/` — private life, personal goals, hobbies, general knowledge
 - `business/` — work, client, or professional topics
-- Within each context:
-  - `projects/` — tied to a named effort with more than one note. Use a kebab-case subfolder.
+- Within `business/`:
+  - `ideas/` — low-friction capture, no quality bar. Mature into projects or sales when ready.
+  - `marketing/` — content strategy, campaigns, and brand materials.
+    - `instagram-content-pipeline/` — modular video strategy, scripts, and prompts for Instagram
+    - `writing/` — long-form posts, LinkedIn articles, written content pieces
+  - `projects/` — named client or internal projects with more than one note. Use a kebab-case subfolder. Each gets an `overview.md`.
   - `research/` — standalone reference not tied to a specific project
-  - `ideas/` — low-friction capture, no quality bar. Mature into projects when ready.
+  - `sales/` — formerly `blue-tusk-go-to-market`. All outbound sales strategy, offer creation, cold email sequences, SOPs, and go-to-market materials.
+- Within `personal/`:
+  - `projects/` — personal named efforts
+  - `research/` — personal reference material
+  - `ideas/` — personal brainstorms
 - `overview.md` files (one per project subfolder) do not use a date prefix
 - Do not create assistant-named subfolders. Use the `ai` frontmatter field instead.
 

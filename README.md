@@ -18,22 +18,34 @@ personal/
   research/
   ideas/
 business/
+  ideas/
+  marketing/
+    instagram-content-pipeline/
+    writing/
   projects/
   research/
-  ideas/
-CONVENTIONS.md    ← structure, naming rules, frontmatter schema (read this)
-INDEX.md          ← auto-maintained map of all notes
-README.md         ← this file
+  sales/
+CONVENTIONS.md        ← structure, naming rules, frontmatter schema (read this)
+CONVENTIONS-FULL.md   ← full rationale and examples
+INDEX.md              ← routing map of folders and active projects
+README.md             ← this file
 ```
 
 | Folder | Purpose |
 |--------|---------|
-| `xx_needs-categorization/` | Quick-capture inbox for rough personal notes before AI-assisted cleanup and recategorization |
+| `xx_needs-categorization/` | Quick-capture inbox for rough notes before cleanup and recategorization |
 | `personal/` | Personal topics, hobbies, learning, health, side projects |
 | `business/` | Work, clients, strategy, professional projects |
-| `*/projects/` | Notes tied to a specific named effort |
-| `*/research/` | Reference material, technology evaluations, deep dives |
-| `*/ideas/` | Brainstorms, half-formed thoughts, future possibilities |
+| `business/ideas/` | Brainstorms, half-formed thoughts, future possibilities |
+| `business/marketing/` | Content strategy, campaigns, and brand materials |
+| `business/marketing/instagram-content-pipeline/` | Modular video strategy, script prompts, and Instagram content assets |
+| `business/marketing/writing/` | LinkedIn posts, long-form articles, written content pieces |
+| `business/projects/` | Named client or internal projects (each in a kebab-case subfolder with an `overview.md`) |
+| `business/research/` | Reference material, technology evaluations, deep dives |
+| `business/sales/` | Outbound sales strategy, offer creation, cold email sequences, go-to-market SOPs |
+| `personal/projects/` | Personal named efforts |
+| `personal/research/` | Personal reference material |
+| `personal/ideas/` | Personal brainstorms |
 
 ---
 
@@ -41,7 +53,7 @@ README.md         ← this file
 
 Format: `YYYY-MM-DD-short-description.md`
 
-Example: `2026-03-30-obsidian-git-setup.md`
+Example: `2026-04-22-instagram-script-prompt-agp.md`
 
 ---
 
@@ -54,10 +66,8 @@ Every note must have a YAML frontmatter block. See [CONVENTIONS.md](./CONVENTION
 title: "Human-readable title"
 date: YYYY-MM-DD
 tags: [tag1, tag2]
-ai: claude
-context: personal | business
-status: draft | active | archived
-summary: "One sentence summary."
+ai: claude | human
+status: needs-attention | ok | archived
 ---
 ```
 
