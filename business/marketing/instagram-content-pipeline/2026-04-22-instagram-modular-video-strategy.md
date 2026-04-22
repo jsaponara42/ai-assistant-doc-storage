@@ -40,8 +40,8 @@ Closing calls to action. Examples: follow for more, DM if this resonates, check 
 - Film everything in one session (continuity)
 
 ## Next Steps
-- [ ] Write hook scripts (10–15 variations targeting PI lawyer pain points)
-- [ ] Write middle content scripts (10 topics)
-- [ ] Write CTA scripts (5 variations)
+- [x] Write hook scripts (10–15 variations targeting PI lawyer pain points)
+- [x] Write middle content scripts (10 topics)
+- [x] Write CTA scripts (5 variations)
 - [ ] Build or find a video stitching tool
 - [ ] Plan a filming session (same day, same outfit, same background)
