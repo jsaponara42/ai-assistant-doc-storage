@@ -143,5 +143,5 @@ bluetuskllc.com
 | Q5: Mostly automated | Proceed. Audit may surface metrics/dashboard gap even if quick wins are minimal. |
 | All other combinations | Fully qualified. Proceed normally. |
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
-[[business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow]]

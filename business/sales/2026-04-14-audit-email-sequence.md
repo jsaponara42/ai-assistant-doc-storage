@@ -10,7 +10,7 @@ instantly_campaign_id: bee4471b-7231-46cd-9366-761c538214a4
 # Cold Email Sequence
 **Blue Tusk LLC · Free Workflow Waste Audit for PI Firms · 6 emails over 18 days**
 
-v1: [[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence]]
+v1: [[business/sales/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence]]
 *v2 — Created 2026-04-14. v2.1 — 2026-04-15: Final copy locked in Instantly.*
 
 **Instantly Campaign ID:** `bee4471b-7231-46cd-9366-761c538214a4`
@@ -178,5 +178,5 @@ Blue Tusk
 ---
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
 [[2026-04-14-social-outreach-persuasion-upgrades]]

@@ -187,4 +187,4 @@ John-Carlos
 Blue Tusk
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]

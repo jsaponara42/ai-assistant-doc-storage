@@ -44,5 +44,5 @@ JC captured these notes as raw thoughts for improving the existing outreach syst
 - Tests a different persona: confident and clear vs. warm and peer-to-peer.
 
 ## Next Steps
-- Applied to: [[2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
-- Applied to: [[2026-04-14-audit-email-sequence]]
+- Applied to: [[business/sales/2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
+- Applied to: [[business/sales/2026-04-14-audit-email-sequence]]

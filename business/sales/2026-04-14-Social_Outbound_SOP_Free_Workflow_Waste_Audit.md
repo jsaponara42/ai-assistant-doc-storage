@@ -5,7 +5,7 @@ tags: [strategy, project]
 ai: claude
 status: ok
 ---
-v1: [[2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
+v1: [[business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit]]
 # Social Outbound SOP — Free Workflow Waste Audit
 
 ---
@@ -120,5 +120,5 @@ Worth mentioning: the full engagement typically runs $2,500–$7,500/month depen
 ---
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
 [[2026-04-14-social-outreach-persuasion-upgrades]]

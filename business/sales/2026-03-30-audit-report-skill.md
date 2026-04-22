@@ -88,5 +88,5 @@ Show estimation math inline: *(assumed: X hrs/week × $35/hr × 50 weeks = $Y/yr
 The packaged `.skill` file for this is saved as `audit-report-notion-skill.skill` in outputs. Install via Claude settings → Skills.
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
-[[business/projects/blue-tusk-go-to-market/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow]]

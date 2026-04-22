@@ -212,5 +212,5 @@ Blue Tusk LLC
 **Sequence compatibility:** every variant is written to stand alone. None reference specific things said in previous emails, so any combination works without contradiction.
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
-[[business/projects/blue-tusk-go-to-market/2026-03-30-audit-email-variants|2026-03-30-audit-email-variants]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-03-30-audit-email-variants|2026-03-30-audit-email-variants]]

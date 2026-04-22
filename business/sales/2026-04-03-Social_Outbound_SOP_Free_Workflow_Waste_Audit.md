@@ -106,4 +106,4 @@ Perfect. Use this link to grab a time — it's a 30-minute call where I'll ask y
 
 
 # References
-[[2026-04-03-free-workflow-audit-free-offer-creation-agp]]
+[[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp]]
