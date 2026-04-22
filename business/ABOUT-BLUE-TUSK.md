@@ -163,12 +163,12 @@ Blue Tusk is building toward "claw-compatible" operations — AI agents that run
 
 ## Vault navigation
 
-| What you need | Where to look |
-|---|---|
-| Current primary offer (PI firms) | `business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp.md` |
-| Sales SOPs and email sequences | `business/sales/` |
-| Marketing strategy | `business/marketing/overview.md` |
-| Instagram content pipeline | `business/marketing/instagram-content-pipeline/` |
-| LinkedIn writing | `business/marketing/writing/` |
-| Client projects | `business/projects/` |
-| Strategic research | `business/research/` |
+| What you need                    | Where to look                                                                                                                     |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Current primary offer (PI firms) | [[business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp\|2026-04-03-free-workflow-audit-free-offer-creation-agp]] |
+| Sales SOPs and email sequences   | `business/sales/`                                                                                                                 |
+| Marketing strategy               | [[business/marketing/overview\|overview]]                                                                                         |
+| Instagram content pipeline       | `business/marketing/instagram-content-pipeline/`                                                                                  |
+| LinkedIn writing                 | `business/marketing/writing/`                                                                                                     |
+| Client projects                  | `business/projects/`                                                                                                              |
+| Strategic research               | `business/research/`                                                                                                              |
