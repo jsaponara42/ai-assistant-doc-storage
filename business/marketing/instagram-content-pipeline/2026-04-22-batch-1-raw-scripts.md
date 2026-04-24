@@ -63,9 +63,7 @@ Most PI firms are not losing money on bad cases. They're losing it on a part of 
 
 [Meat 1 — Lead Leakage | Source: Present | Retain: Story + Fact]
 
-Here's something that surprised me when I first started looking at it.
-
-The average PI firm converts somewhere between five and ten percent of their inbound leads. Which means for every hundred people who reach out — ninety of them never become clients.
+Most personal injury firms convert somewhere between five and ten percent of their inbound leads. Which means for every hundred people who reach out — ninety of them never become clients. That number surprised me the first time I really sat with it.
 
 And when I dig into why, it's almost never the leads. The leads are fine. People are calling because they got hurt and they need a lawyer. The intent is real.
 
@@ -103,7 +101,7 @@ It's worth asking the question before you post the job.
 
 [Meat 3 — The Attorney as Bottleneck | Source: Present | Retain: Story + List]
 
-Something I run into almost every time I talk to a PI firm — the attorney is involved in things that don't need a law degree.
+In almost every PI firm I've worked with, the attorney ends up involved in things that don't need a law degree.
 
 Approving small decisions. Answering client check-in calls. Chasing down a missing document. Reviewing something a paralegal could have handled.
 
@@ -139,13 +137,13 @@ The tool was never the issue. Ownership was.
 
 [Meat 5 — Speed to Contact | Source: Present | Retain: Fact + Story]
 
-There's a number I come back to a lot when I'm talking to PI firms about lead conversion.
+There's a stat about PI lead conversion that I keep coming back to.
 
 If you contact a lead within the first minute of them reaching out — one minute — they're about four times more likely to convert than if you wait five minutes. Not an hour. Five minutes.
 
 Four times more likely.
 
-And I think most PI attorneys hear that and think — okay, I need to be faster. But here's the thing. The problem isn't effort. Nobody is slow on purpose.
+And I think most PI attorneys hear that and think — okay, I need to be faster. But the problem isn't effort. Nobody is slow on purpose.
 
 The problem is the system. Someone has to notice the form came in. Decide it's worth calling right now. Find a break between whatever else is happening. Pick up the phone.
 
@@ -181,7 +179,7 @@ That's not the cost of automation. That's what the manual approach is already co
 
 [Meat 7 — The Firm That Runs Without You | Source: Far Past | Retain: Story + Steps]
 
-When I first started working inside businesses that had real systems — not just good people — I remember noticing something that felt almost strange.
+When I first started working inside businesses that had real systems — not just good people — I noticed something that felt almost strange.
 
 Things happened without anyone being asked.
 
@@ -217,13 +215,13 @@ Memory is not a system. It's a risk.
 
 [Meat 9 — "We Already Tried This" | Source: Recent Past | Retain: List + Story]
 
-Almost every PI firm owner I talk to has some version of the same line early in the conversation.
+A lot of PI firm owners I talk to have already written off automation. And when I ask why, it almost always comes back to the same experience.
 
-"We tried automation. It didn't work for us."
+They tried a tool. It didn't work. And the conclusion they drew was that automation doesn't work for firms like theirs.
 
-And I always believe them — because they're right. It didn't work.
+I understand that conclusion. But in most cases, it's wrong.
 
-What I try to figure out is why. And after enough of these conversations, it's almost always one of three things.
+What I try to figure out is what actually happened. And after enough of these conversations, it's almost always one of three things.
 
 The tool wasn't configured for how their firm actually works — it was set up generically and expected to fit.
 
