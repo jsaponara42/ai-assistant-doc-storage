@@ -1,0 +1,7 @@
+- learn name
+	- listen - actually listen
+	- repeat - 2x if possible "Chris nice to meet you Chris"
+	- reply - how to spell it. Pay a compliment while saying the name. Connect to somebody else I know. 
+	- all in under 10 seconds
+- try to find the emotion behind the original response, ask questions about their surface response to uncover the emotion. Then relate to something you've experienced
+- needs map (ellipsis)
