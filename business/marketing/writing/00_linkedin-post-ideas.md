@@ -59,6 +59,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 - [ ] [[business/marketing/writing/post-story-mistake-i-made|"I automated the wrong thing first — and it cost me two weeks"]] — vulnerability post; shows process thinking, not just wins
 - [ ] [[business/marketing/writing/post-story-what-i-learned-discovery|"What I've learned from doing discovery with teams that think they don't need automation"]] — pattern recognition from real conversations, anonymized
 - [ ] [[business/marketing/writing/post-story-weekend-project|"I spent a Saturday morning solving a problem that was taking someone 3 hours a week"]] — shows what's possible at low effort; builds intrigue without overselling
+- [ ] [[business/marketing/writing/post-instagram-content-strategy | "My modular instagram content strategy"]] - 
 
 ### How-to
 - [ ] [[business/marketing/writing/post-map-your-workflow|"How to map a broken workflow in 20 minutes (no tools required)"]] — sticky, practical, shareable; positions JC as a process thinker
