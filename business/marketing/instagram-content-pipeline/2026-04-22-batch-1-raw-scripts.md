@@ -5,7 +5,7 @@ tags: [strategy, ai, project]
 ai: claude
 status: ok
 ---
- 
+  
 ## Summary
 Revised first batch of modular video scripts. Written for complete strangers — no assumed familiarity with JC or Blue Tusk. Contains 12 hooks (with components labeled), 10 meat scripts (with source type and retain method labeled), and 5 CTAs. Ready to record as-is or lightly adjust before filming.
 
