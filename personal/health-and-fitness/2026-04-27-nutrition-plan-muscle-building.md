@@ -10,9 +10,11 @@ status: ok
 
 A calorie-surplus nutrition plan tailored for a very lean beginner (5'7", 125 lbs, hard gainer) focused on maximizing muscle growth. Based on science-backed targets: ~2% bodyweight gain/month, 1.6 g protein/kg, and a meaningful calorie surplus. Includes daily calorie targets, macro breakdown, meal timing, and supplement guidance.
 
+Related training plan: [[2026-04-27-training-plan-intensity-method]]
+
 ## Context
 
-Based on the science-backed muscle building research note (2026-04-27). At >20% body fat, a recomposition (deficit) approach works. But at 5'7" / 125 lbs, body fat is very low — this profile benefits most from a **calorie surplus** to fuel muscle growth. As a beginner, the body is highly responsive to training stimulus, so gains come faster now than at any future point. Don't waste the window.
+Based on the science-backed muscle building research note [[2026-04-27-muscle-building-science-backed]]. At >20% body fat, a recomposition (deficit) approach works. But at 5'7" / 125 lbs, body fat is very low — this profile benefits most from a **calorie surplus** to fuel muscle growth. As a beginner, the body is highly responsive to training stimulus, so gains come faster now than at any future point. Don't waste the window.
 
 ---
 

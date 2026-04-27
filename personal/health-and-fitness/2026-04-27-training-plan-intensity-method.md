@@ -10,9 +10,11 @@ status: ok
 
 A 3-day beginner training plan using the Intensity Method: low weekly sets (5–8 per muscle group) taken to absolute failure. Designed for Planet Fitness access (~3 hrs/week gym time) plus one optional home bodyweight session. Built for a very lean beginner focused on maximizing muscle growth from scratch.
 
+Related nutrition plan [[2026-04-27-nutrition-plan-muscle-building]]
+
 ## Context
 
-Based on the science-backed muscle building research note (2026-04-27). Intensity Method: fewer sets (5–8/muscle/week), every set pushed to complete failure — the point where you physically cannot move the weight another inch. As a beginner, the six core movement patterns (push, pull, hinge, squat, carry, rotation) are the focus. Compound lifts 3x/week with muscle groups hit at least 2x/week.
+Based on the science-backed muscle building research note [[2026-04-27-muscle-building-science-backed]]. Intensity Method: fewer sets (5–8/muscle/week), every set pushed to complete failure — the point where you physically cannot move the weight another inch. As a beginner, the six core movement patterns (push, pull, hinge, squat, carry, rotation) are the focus. Compound lifts 3x/week with muscle groups hit at least 2x/week.
 
 ---
 
