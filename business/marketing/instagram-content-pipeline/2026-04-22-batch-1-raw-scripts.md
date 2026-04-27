@@ -79,6 +79,59 @@ The leads aren't the problem. What happens right after the lead comes in — tha
 
 ---
 
+**Caption A — Short/Punchy (drives comments)**
+Most PI firms convert 5–10% of inbound leads.
+
+For every 100 people who reach out — 90 never become clients.
+
+It's almost never the leads. The intent is real. The follow-up is where it breaks.
+
+If you called every lead within 60 seconds of them reaching out — what would your conversion rate look like?
+
+#PersonalInjuryLaw #PIFirm #LeadConversion #IntakeProcess #LawFirmGrowth
+
+---
+
+**Caption B — Story-driven (drives saves)**
+Most personal injury firms convert somewhere between 5 and 10% of inbound leads.
+
+Which means for every 100 people who reach out — 90 never become clients.
+
+And when I dig into why, it's almost never the leads. People are calling because they got hurt and need a lawyer. The intent is real.
+
+What's happening is the follow-up. It's slow. Inconsistent. Sometimes it just doesn't happen.
+
+Here's the stat I keep coming back to: contact a lead within the first minute of them reaching out, and they're four times more likely to hire you than if you wait an hour.
+
+Most firms aren't calling in a minute. They're calling in hours — because someone has to see the form, decide it's a priority, and find a break between other things.
+
+By the time that happens, that person has already talked to two or three other attorneys.
+
+The leads aren't the problem. What happens right after — that's where the money is.
+
+Save this if you want to revisit your intake process.
+
+#PIAttorney #PersonalInjuryMarketing #LegalMarketing #IntakeProcess #LawFirmSystems
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Where 90% of PI firm revenue leaks — and it's not the marketing:
+
+→ Leads come in with real intent
+→ Follow-up is slow, inconsistent, or missing entirely
+→ Contact within 1 minute = 4x more likely to convert vs. waiting an hour
+→ Most firms are calling in hours, not minutes
+→ By then, the client has hired someone else
+
+5–10% conversion on inbound is the industry average.
+
+That gap is almost never a lead quality problem. It's a follow-up problem.
+
+#PersonalInjuryLaw #LeadConversion #PIFirm #LegalAutomation #LawFirmGrowth
+
+---
+
 [Meat 2 — The Hiring Myth | Source: Recent Past | Retain: List + Story]
 
 I had a conversation recently with a PI firm owner who was about to hire their third intake coordinator in two years.
@@ -99,6 +152,54 @@ It's worth asking the question before you post the job.
 
 ---
 
+**Caption A — Short/Punchy (drives comments)**
+Most PI firms don't have a hiring problem. They have a process problem — and they keep solving it with headcount.
+
+Before you post the next job listing, ask what this person will actually spend their day doing. If the answer is chasing docs, copying data, or sending status updates — that's not a people gap. That's a systems gap.
+
+A bad process plus a new hire equals a more expensive bad process.
+
+Is this something you've run into?
+
+#PersonalInjuryLaw #PIFirm #LawFirmGrowth #LegalOperations #LawFirmManagement
+
+---
+
+**Caption B — Story-driven (drives saves)**
+I asked a PI firm owner one question before they hired their third intake coordinator in two years.
+
+"What does this person actually spend most of their time on?"
+
+The answer: chasing clients for documents. Copying info between systems. Sending the same status update over and over.
+
+That's not intake work. That's work that exists because no one ever built a system to handle it.
+
+Every hire like that adds salary, benefits, onboarding time, and management load — and solves the symptom without touching the cause.
+
+Fix the process once. Or pay for the workaround every month forever.
+
+Save this if you're about to post a job and want to revisit it first.
+
+#PIAttorney #LawFirmOperations #PersonalInjuryMarketing #LegalAutomation #LawFirmSystems
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Signs your next hire is actually a systems problem:
+
+→ They'll spend most of their time on repetitive, manual tasks
+→ You've hired for this role before and the issue keeps coming back
+→ The work doesn't require judgment — just execution
+→ You can't explain what "done" looks like for this person's job
+
+Hiring is a monthly cost that compounds. Fixing the process is a one-time thing.
+
+Ask the question before you post the listing.
+
+#PersonalInjuryLaw #LegalOps #PIFirm #LawFirmAutomation #LawFirmGrowth
+
+---
+
 [Meat 3 — The Attorney as Bottleneck | Source: Present | Retain: Story + List]
 
 In almost every PI firm I've worked with, the attorney ends up involved in things that don't need a law degree.
@@ -114,6 +215,54 @@ You have someone who spent a decade getting licensed, who can negotiate a six-fi
 And there's a ceiling. There's a hard limit on how many cases a firm can carry when the attorney is in the critical path of daily operations. You can't grow past it without removing yourself from those decisions first.
 
 That's not a hiring problem. That's a systems problem.
+
+---
+
+**Caption A — Short/Punchy (drives comments)**
+There's a ceiling in every PI firm where the attorney is in the critical path of daily operations.
+
+You can't grow past it. Not by working harder. Not by hiring more. Only by removing yourself from decisions that don't need you.
+
+What's one thing in your firm that still runs through you — that probably shouldn't?
+
+#PIAttorney #PersonalInjuryLaw #LawFirmGrowth #AttorneyLife #LegalLeadership
+
+---
+
+**Caption B — Story-driven (drives saves)**
+Almost every PI firm I've worked with has the same quiet problem.
+
+The attorney ends up in things that don't need a law degree.
+
+Approving small decisions. Answering client check-in calls. Chasing a missing document. Reviewing something a paralegal could've handled.
+
+Not because they want to. Because the systems around them were never built out — so everything defaults to them.
+
+Here's what that actually costs: you have someone who can negotiate a six-figure settlement spending part of their day on tasks that could run automatically — or be handled by someone earning a fraction of their rate.
+
+And there's a hard ceiling on how many cases a firm can carry this way.
+
+You can't grow past the bottleneck without removing yourself from it.
+
+Save this one if you want to come back to it.
+
+#PersonalInjuryAttorney #LawFirmSystems #PIFirm #LegalOperations #LawFirmManagement
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Things PI attorneys are doing that a system could handle:
+
+→ Approving decisions that have a clear right answer
+→ Fielding case status calls from clients
+→ Chasing down missing medical records
+→ Re-explaining the same process to staff
+
+None of this requires a law degree. All of it eats the time of someone who has one.
+
+That's not a staffing problem. That's a systems problem.
+
+#PILaw #LawFirmEfficiency #PersonalInjuryMarketing #LegalAutomation #AttorneyLife
 
 ---
 
