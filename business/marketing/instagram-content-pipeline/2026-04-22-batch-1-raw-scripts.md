@@ -509,6 +509,62 @@ Nobody gets there in a month. But the firms that get there at all started by rem
 
 ---
 
+**Caption A — Short/Punchy (drives comments)**
+The version of your firm that runs without you isn't built in one overhaul.
+
+It's built one small removal at a time.
+
+You stop being the one who approves that one thing. You build one follow-up sequence so you don't have to remember. You document one handoff so the next person doesn't need to find you.
+
+One thing. Then the next.
+
+What's one decision in your firm that still runs through you — that probably shouldn't?
+
+#PIAttorney #PersonalInjuryLaw #LawFirmSystems #LawFirmGrowth #AttorneyLife
+
+---
+
+**Caption B — Story-driven (drives saves)**
+The first time I worked inside a business with real systems, something felt almost strange.
+
+Things happened without anyone being asked.
+
+Not because the people were extraordinary. Because the process was clear enough that ordinary people could follow it without direction.
+
+That's the version of a firm most PI attorneys say they want.
+
+And when I ask what it looks like day to day — there's usually a pause. The goal is clear. The path isn't.
+
+What I've seen work isn't one big overhaul. It's a series of small removals.
+
+You stop approving that one small thing. You build a follow-up so you don't have to remember to call. You document the handoff so the next person doesn't need to find you.
+
+One thing at a time. Each one is boring. Together they add up to something that starts running without you at the center.
+
+Nobody gets there in a month. But the firms that get there at all started with one small removal — and then the next.
+
+Save this if the goal resonates but the path doesn't.
+
+#PersonalInjuryAttorney #LawFirmOperations #LegalLeadership #LawFirmSystems #PIFirm
+
+---
+
+**Caption C — Insight/List (drives shares)**
+How PI firms get to running without the attorney at the center:
+
+→ Stop being the approver of things that have a clear right answer
+→ Build automated follow-up so cases don't depend on someone remembering
+→ Document handoffs so new staff don't need to find you
+→ Remove yourself from one small daily decision — then the next
+
+No single step is dramatic. Together they add up to something that actually scales.
+
+The firms that get there started by removing themselves from one thing. Then the next.
+
+#PILaw #LawFirmGrowth #PersonalInjuryMarketing #LegalOps #LawFirmAutomation
+
+---
+
 [Meat 8 — The Case That Slips | Source: Recent Past | Retain: Story]
 
 I heard a version of this story recently from a PI attorney, and I've heard variations of it more times than I can count.
@@ -522,6 +578,60 @@ And the attorney wasn't careless. They were managing thirty other things at the 
 In a contingency practice, that kind of slip doesn't just affect one case. It affects the revenue that case was supposed to generate. It affects the client's outcome. And it's almost always avoidable — not by working harder or being more careful, but by building a system where the small things don't depend on someone remembering them.
 
 Memory is not a system. It's a risk.
+
+---
+
+**Caption A — Short/Punchy (drives comments)**
+Memory is not a system. It's a risk.
+
+In a contingency practice, one missed follow-up or one uncollected document doesn't just affect one case — it affects the revenue that case was supposed to generate.
+
+And it's almost always avoidable. Not by being more careful. By building a process where the small things don't depend on someone remembering them.
+
+Have you had a version of this happen in your firm?
+
+#PersonalInjuryLaw #PIFirm #LawFirmSystems #PIAttorney #LegalOperations
+
+---
+
+**Caption B — Story-driven (drives saves)**
+I heard a version of this story from a PI attorney recently. I've heard variations more times than I can count.
+
+A case was moving along. No red flags. Good liability, decent damages.
+
+Then something small got missed — a follow-up that didn't happen, a document never collected, a deadline that slipped in a busy week.
+
+It didn't kill the case. But it cost them. Lower settlement. Prolonged timeline. The client's trust took a hit.
+
+And the attorney wasn't careless. They were managing thirty other things at the same time.
+
+In a contingency practice, that slip doesn't just affect one case. It affects the revenue the case was supposed to generate.
+
+Almost always avoidable — not by working harder, but by building a system where small things don't depend on someone remembering them.
+
+Memory is not a system. It's a risk.
+
+Save this if you want to think about where your firm relies on memory instead of process.
+
+#PIAttorney #PersonalInjuryLaw #LawFirmSystems #LegalOps #LawFirmManagement
+
+---
+
+**Caption C — Insight/List (drives shares)**
+How cases quietly lose value in PI firms:
+
+→ A follow-up call that didn't happen
+→ A medical record that was never chased
+→ A deadline that slipped during a busy week
+→ A client who stopped trusting because nobody checked in
+
+None of it required negligence. Just a process that depended on someone remembering.
+
+In contingency, the slip doesn't just hurt the case — it hurts the revenue the case was supposed to generate.
+
+Memory is not a system.
+
+#PersonalInjuryLaw #PIFirm #LawFirmGrowth #LegalAutomation #IntakeProcess
 
 ---
 
@@ -547,6 +657,61 @@ The conclusion was wrong. The history was real.
 
 ---
 
+**Caption A — Short/Punchy (drives comments)**
+"We tried automation. It didn't work for us."
+
+I hear this a lot from PI firms. And in almost every case, the conclusion was wrong — even though the experience was real.
+
+The tool wasn't the problem. What didn't work was the implementation.
+
+Have you written off automation based on one bad experience? What happened?
+
+#PIFirm #LegalTech #PersonalInjuryLaw #LawFirmAutomation #LegalOperations
+
+---
+
+**Caption B — Story-driven (drives saves)**
+A lot of PI firm owners I talk to have already written off automation.
+
+And when I ask why, it almost always comes back to the same experience: they tried a tool. It didn't work. They concluded automation doesn't work for firms like theirs.
+
+I understand that conclusion. But in most cases, it's wrong.
+
+When I dig into what actually happened, it's almost always one of three things.
+
+The tool was configured generically — not mapped to how the firm actually works.
+
+Nobody owned the implementation. It got handed to a paralegal already at capacity and never got finished.
+
+Or it got built once and never maintained — and as the firm evolved, the system stopped matching reality.
+
+None of those are reasons automation doesn't work. They're reasons that specific attempt didn't work.
+
+The conclusion was wrong. The history was real.
+
+Save this if you've been there — there's a different version of this story.
+
+#PIAttorney #LegalAutomation #LawFirmSystems #PersonalInjuryMarketing #LegalOps
+
+---
+
+**Caption C — Insight/List (drives shares)**
+3 reasons legal automation fails in PI firms (and none of them are the technology):
+
+1. It was configured generically — not built around how the firm actually operates
+2. Nobody owned the implementation — it landed on someone already at capacity
+3. It was built once and never updated as the firm changed
+
+The conclusion most firms draw: automation doesn't work for us.
+
+The more accurate conclusion: that attempt didn't work. The approach was wrong.
+
+Those aren't the same thing.
+
+#PersonalInjuryLaw #PIFirm #LawFirmAutomation #LegalTech #LawFirmGrowth
+
+---
+
 [Meat 10 — Why More Ad Spend Doesn't Fix It | Source: Present | Retain: Story + Fact]
 
 There's a pattern I've noticed in PI firms that have hit a revenue plateau.
@@ -562,6 +727,58 @@ Before you buy more traffic, it's worth understanding what's happening to the tr
 In a lot of cases I've looked at, improving what happens after a lead comes in produces more revenue than buying more leads — and it costs less.
 
 More leads into a broken process is just a more expensive version of the same problem.
+
+---
+
+**Caption A — Short/Punchy (drives comments)**
+Doubling your lead volume when you're converting 7% of inbound doesn't fix the problem.
+
+It just means double the unconverted leads — at twice the cost.
+
+More leads into a broken intake process is a more expensive version of the same problem.
+
+What's your current lead-to-client conversion rate? Most firms don't know.
+
+#PersonalInjuryLaw #PIFirm #LeadConversion #LegalMarketing #LawFirmGrowth
+
+---
+
+**Caption B — Story-driven (drives saves)**
+There's a pattern I keep seeing in PI firms that have hit a revenue plateau.
+
+The instinct is always the same: spend more on leads. More ads, more SEO, more referral outreach.
+
+The logic makes sense — more leads should mean more cases.
+
+But if a firm is converting seven or eight percent of inbound leads, doubling the volume just means double the unconverted leads. The math doesn't change.
+
+I've seen firms spend significantly more on advertising and barely move revenue — because the intake process couldn't keep up with what it was already getting, let alone more.
+
+Before you buy more traffic, it's worth understanding what's happening to the traffic you already have.
+
+In most cases I've looked at, fixing what happens after a lead comes in produces more revenue than buying more leads — and costs less.
+
+More leads into a broken process is a more expensive version of the same problem.
+
+Save this if you're about to increase your ad budget.
+
+#PIAttorney #PersonalInjuryMarketing #LegalMarketing #LawFirmGrowth #LeadConversion
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Why more ad spend isn't moving the needle for your PI firm:
+
+→ You're converting 7–8% of inbound leads
+→ Doubling volume = double the unconverted leads
+→ The intake process can't keep up with what it already has
+→ More traffic into a broken process = more expensive broken process
+
+Fix what happens after the lead comes in first.
+
+In most cases, improving intake conversion produces more revenue than buying more leads — and costs less.
+
+#PersonalInjuryLaw #PIFirm #LegalMarketing #LeadGeneration #LawFirmSystems
 
 ---
 
