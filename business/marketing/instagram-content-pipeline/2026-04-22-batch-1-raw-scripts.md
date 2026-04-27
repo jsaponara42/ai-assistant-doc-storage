@@ -284,6 +284,52 @@ The tool was never the issue. Ownership was.
 
 ---
 
+**Caption A — Short/Punchy (drives comments)**
+The tool wasn't the problem. The implementation was.
+
+Clio, Lawmatics, Leaddocket — solid tools. Most firms that write them off didn't fail because of the software. They failed because no one owned making it work.
+
+What tool have you written off that might not actually have been the tool's fault?
+
+#PIAttorney #LegalTech #LawFirmTools #PersonalInjuryLaw #LawFirmGrowth
+
+---
+
+**Caption B — Story-driven (drives saves)**
+"We tried that. It didn't work for us."
+
+I've heard that line from PI firm owners about Clio, Lawmatics, Leaddocket — and almost every time, the story is the same.
+
+The tool got half-built. Staff used it inconsistently. It became another thing to manage on top of everything else. And eventually it got written off.
+
+But when I dig into it — the tool almost never failed because it was the wrong tool.
+
+It failed because a complex implementation got dropped on an already-full workload with no one responsible for making it succeed.
+
+Ownership was the issue. Not the software.
+
+If you've written off a tool and you're not sure it was actually the tool's fault — save this and think about it.
+
+#LegalOps #PIFirm #LegalTech #LawFirmSystems #PersonalInjuryMarketing
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Why legal software fails in PI firms (and it's rarely the software):
+
+→ It was configured generically — not mapped to how the firm actually works
+→ Nobody owned the implementation — it got handed to someone already at capacity
+→ It got built once and never maintained as the firm evolved
+→ Staff weren't trained, so adoption was inconsistent from day one
+
+The conclusion most firms draw: "Automation doesn't work for us."
+
+The more accurate conclusion: that specific attempt didn't work. The approach was wrong. Not the idea.
+
+#PersonalInjuryLaw #LawFirmAutomation #LegalTech #PIAttorney #LawFirmOperations
+
+---
+
 [Meat 5 — Speed to Contact | Source: Present | Retain: Fact + Story]
 
 There's a stat about PI lead conversion that I keep coming back to.
@@ -301,6 +347,65 @@ That chain has friction in it. And in the time that friction takes — that pers
 Most people reaching out to a PI attorney after an accident are not waiting for the best lawyer. They're hiring the first one who makes them feel heard.
 
 Speed isn't a nice-to-have. In this practice area, it's the competition.
+
+---
+
+**Caption A — Short/Punchy (drives comments)**
+Contact a PI lead within one minute of them reaching out — they're four times more likely to convert than if you wait five minutes.
+
+Not an hour. Five minutes.
+
+Most firms aren't calling in a minute. They're calling in hours — because the process has friction in it.
+
+In the time that friction takes, that person has already called two other attorneys.
+
+How fast is your firm's current response time?
+
+#PersonalInjuryLaw #PIFirm #LeadConversion #LawFirmGrowth #LegalMarketing
+
+---
+
+**Caption B — Story-driven (drives saves)**
+There's a stat about PI lead conversion I keep coming back to.
+
+Contact a lead within the first minute — one minute — and they're about four times more likely to hire you than if you wait five minutes.
+
+Not an hour. Five minutes.
+
+Most attorneys hear that and think: "I need to be faster."
+
+But the problem isn't effort. Nobody is slow on purpose.
+
+The problem is the system. Someone has to notice the form came in. Decide it's worth calling right now. Find a break. Pick up the phone.
+
+That chain has friction in it. And in the time that friction takes — that person has already talked to two or three other firms.
+
+Most people calling after an accident aren't waiting for the best attorney. They're hiring the first one who makes them feel heard.
+
+Speed isn't a nice-to-have. In this practice area, it's the competition.
+
+Save this if you want to revisit your intake flow.
+
+#PIAttorney #PersonalInjuryMarketing #LeadConversion #LawFirmSystems #IntakeProcess
+
+---
+
+**Caption C — Insight/List (drives shares)**
+Where most PI firms lose leads — and it's not the leads:
+
+→ Form comes in
+→ Someone has to notice it
+→ Decide it's worth calling now
+→ Find a gap between other things
+→ Pick up the phone
+
+By the time that chain completes, that person has already hired someone else.
+
+4x more likely to convert in the first minute vs. five minutes.
+
+The intent was there. The system wasn't.
+
+#PersonalInjuryLaw #PIFirm #LegalMarketing #LawFirmGrowth #LawFirmAutomation
 
 ---
 
@@ -323,6 +428,64 @@ But a task that takes ten hours a week at thirty dollars an hour fully loaded is
 And most firms have three, four, five of those running at the same time.
 
 That's not the cost of automation. That's what the manual approach is already costing — quietly, every year, without ever showing up as a line item.
+
+---
+
+**Caption A — Short/Punchy (drives comments)**
+A task that takes 10 hours a week at $30/hour fully loaded is $15,000 a year.
+
+For one task.
+
+Most PI firms have three or four of those running at the same time — and none of them show up as a line item.
+
+What's yours?
+
+#PIFirm #LawFirmOperations #LegalAutomation #PersonalInjuryLaw #LawFirmGrowth
+
+---
+
+**Caption B — Story-driven (drives saves)**
+Here's a quick exercise I walk PI firms through when we first start talking.
+
+Pick one task your staff does manually every week. Something repetitive — sending a status update, chasing a document, entering data from one system into another.
+
+Estimate how many hours a week that takes across your whole team.
+
+Multiply by your fully-loaded staff cost per hour — salary plus benefits.
+
+Multiply by 52.
+
+Most firms get a number that surprises them. Not because the task felt expensive. It felt like just part of the job.
+
+But a task that takes 10 hours a week at $30/hour is $15,000 a year. For one task.
+
+And most firms have three, four, five of those running simultaneously.
+
+That's not the cost of automation. That's what the manual approach is already costing — quietly, every year, without ever showing up as a line item.
+
+Save this if you want to run the math on your own.
+
+#LawFirmOperations #PIAttorney #LegalOps #LawFirmAutomation #PersonalInjuryMarketing
+
+---
+
+**Caption C — Insight/List (drives shares)**
+The hidden cost formula most PI firms never run:
+
+1. Pick one repetitive task your team does every week
+2. Estimate hours across the whole team
+3. Multiply by fully-loaded staff cost per hour
+4. Multiply by 52
+
+A 10-hour-a-week task at $30/hr = $15,600/year.
+
+For one task. Most firms have several.
+
+It never shows up as a line item. So it never gets questioned.
+
+Run the math before assuming automation is expensive.
+
+#PersonalInjuryLaw #PIFirm #LegalAutomation #LawFirmGrowth #LawFirmSystems
 
 ---
 
