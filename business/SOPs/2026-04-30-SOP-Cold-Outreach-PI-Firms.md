@@ -2,6 +2,7 @@
 title: SOP — Cold Outreach to PI Firms
 date: 2026-04-30
 last-updated: 2026-04-30
+changelog: Updated email sequence (Steps 3–5) — replaced blank ask + attachment flow with 3-email teaser sequence to protect sender reputation and improve reply rate.
 tags:
   - strategy
   - sales
@@ -70,39 +71,45 @@ The skill researches the firm using publicly available data (website, Google rev
 - No gap is repeated across the three
 - Every gap has a concrete cost estimate
 
-### Step 3 — Send the outreach email
+### Step 3 — Send the outreach email sequence
 
-**Email 1 — the ask (do not attach the snapshot yet):**
+The `pi-firm-snapshot` skill generates copy for all three emails via the widget. Use the **"Copy Teaser Email"** button for Email 1, and the **"Copy Full Snapshot"** button when building Email 3.
 
-> [First name] —
->
-> I put together a short workflow snapshot for [Firm Name] based on what I could see externally — three specific gaps, rough cost estimates on each. Want me to send it over?
->
-> John-Carlos Saponara
-> Blue Tusk LLC
+**Do not automate this send.** Each email goes out manually. The snapshot is personalized — the outreach must feel the same way. No attachments at any stage until Email 3.
 
-Subject line options (pick based on what was most specific in the research):
-- "what I found looking at [Firm Name]'s intake flow"
-- "short external look at [Firm Name]"
-- "[Firm Name] — three things I noticed"
+---
 
-**Do not automate this send.** Each email is sent manually. The snapshot is personalized — the outreach email must feel the same way.
+**Email 1 — Teaser (Day 1)**
 
-### Step 4 — If they reply yes, send the snapshot
+Send Gap 1 only — the single strongest finding from the research. Do not include the full snapshot or any attachment. Ask if they want the other two findings.
 
-Copy the snapshot plain text from the card widget and paste it into a reply. No additional pitch. No price mention. Just the snapshot.
+The skill generates this copy. Use the **"Copy Teaser Email"** button from the widget. It includes a subject line, preview text, and body under 100 words.
 
-Close with:
+*Why no attachment:* Attachments on cold outreach damage sender reputation and trigger spam filters. The teaser earns the reply before any file is sent.
 
-> This is based on what's publicly visible — a 30-minute call with your internal intake and case flow data would let me give you specific numbers on what each of these is actually costing the firm. Happy to do that if it would be useful.
+---
 
-### Step 5 — If no reply, one follow-up only
+**Email 2 — Follow-up if no reply (Day 4)**
 
-Send 5–7 days after the first email:
+One short nudge. Under 60 words. Must not reference Email 1 directly. One question, no pressure. Leave the door open.
 
-> Still happy to send it over if useful — just say the word.
+The skill generates this copy as part of the widget output.
 
-One follow-up maximum. Do not continue the sequence after that. Move on.
+One follow-up maximum. If no reply after Email 2, move on.
+
+---
+
+**Email 3 — Full snapshot delivery + CTA (Day 8)**
+
+Send only if: (a) they replied yes to Email 1, or (b) as the final touch in a non-reply sequence.
+
+All 3 gaps are delivered **inline in the email body** — no attachment. Each gap gets one short paragraph with the cost estimate included. Close with a single sentence inviting a call and a calendar link.
+
+Use the **"Copy Full Snapshot"** button from the widget and paste into this email. The skill formats it as plain text ready for an email client.
+
+Subject line for Email 3 (if sending as a reply, keep the thread — no new subject needed):
+- "the other two findings on [Firm Name]"
+- "here's what I pulled on [Firm Name]"
 
 ### Step 6 — If they book a call
 
