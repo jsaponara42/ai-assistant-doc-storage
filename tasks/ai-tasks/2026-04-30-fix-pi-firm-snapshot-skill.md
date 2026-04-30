@@ -1,0 +1,1 @@
+Right now the PI firm snapshot gives its response in a widget format, but I want it just to write out the 3 email sequence directly in the chat in a markdown format.
