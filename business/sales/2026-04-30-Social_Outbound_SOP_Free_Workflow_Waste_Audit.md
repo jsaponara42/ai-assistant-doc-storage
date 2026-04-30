@@ -58,7 +58,9 @@ Thumbs up if you want the info. That's it.
 
 Hey [NAME] — need something from you real quick. Read to the end. (SEND)
 
-I run Blue Tusk. We do AI and automation for PI firms — intake, case management, the repetitive work that eats your team's hours. This month I'm doing 3 free workflow audits for firms I think could benefit. Three days, no obligation. You'll get a prioritized report of your top workflow leaks and what each one is probably costing you. No pitch on the call. I charge for this normally — it's free because I want to know if we're a real fit before either of us commits to anything. Thumbs up if you want the info. (SEND)
+I run Blue Tusk. We do AI and automation for PI firms — intake, case management, the repetitive work that eats your team's hours. This month I'm doing 3 free workflow audits for firms I think could benefit. (SEND)
+
+Three days, no obligation. You'll get a prioritized report of your top workflow leaks and what each one is probably costing you. No pitch on the call. I charge for this normally — it's free because I want to know if we're a real fit before either of us commits to anything. Thumbs up if you want the info. (SEND)
 
 ---
 
