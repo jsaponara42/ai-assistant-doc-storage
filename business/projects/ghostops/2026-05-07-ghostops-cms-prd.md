@@ -459,7 +459,7 @@ Sidebar
 ├── Contacts
 ├── Calendar
 ├── Documents
-├── Reports (post-MVP)
+├── Reports (Phase 2)
 └── Settings (admin only)
 ```
 
@@ -528,6 +528,7 @@ Timeline Tab
 | Search | `/api/v1/search` | Full-text search across cases, notes, contacts |
 | Webhooks | `/api/v1/webhooks` | Register/manage event webhooks |
 | AI | `/api/v1/ai` | Trigger AI actions (draft, summarize, extract) |
+| Reports | `/api/v1/reports` | Reporting and analytics queries (Phase 2) |
 
 #### 5.7.3 Webhook Events
 
@@ -660,6 +661,179 @@ Full-text search across:
 Search is powered by PostgreSQL full-text search (MVP) with a path to Elasticsearch if scale demands it.
 
 Results are ranked by relevance and recency. Each result shows type, case link, and a content snippet.
+
+---
+
+### 5.11 Analytics & Reporting
+
+*Target: Phase 2. Not included in MVP.*
+
+The reporting system gives firm leadership and administrators a real-time view into firm health, case performance, and financial outcomes. All metrics are computed from live case, note, and financial data already captured in the system — no manual data entry required for reporting.
+
+Reports are filterable by date range, practice area, assigned attorney, and team. All reports are exportable to CSV. The reporting API (`/api/v1/reports`) exposes the same data programmatically so AI agents and external dashboards can consume it.
+
+---
+
+#### 5.11.1 Operational Case Metrics (Per-Case)
+
+These metrics surface on the case list and case detail page, computed automatically from case data:
+
+| Metric | Description |
+|---|---|
+| Days in Phase | Number of days the case has been in its current phase |
+| Days Since Incident | Number of days elapsed since the incident date |
+| Days Until SOL | Remaining days before the statute of limitations expires |
+| MRI Complete or Waived | Boolean flag — has MRI been completed or formally waived? |
+| Days to Complete File Building | Days elapsed from case open to file set-up completion |
+| Client Communication Compliance | Boolean or score — has the required communication cadence been met? |
+| Client Communication Due Soon | Alert flag — client contact is overdue or due within a configurable window |
+
+**Phase automation flags** (tracked as computed fields, not manual entries):
+
+- **Client Treatment Concluded** — triggered when case moves out of any treatment phase
+- **Automatically Update Treatment Phase** — system flag indicating whether the treatment phase should auto-advance based on days-since-incident thresholds
+
+---
+
+#### 5.11.2 Inventory Metrics
+
+Firm-wide snapshot of the current caseload, broken down by type:
+
+| Metric | Description |
+|---|---|
+| Total Cases — Auto | Active auto accident cases |
+| Total Cases — In-House Non-Auto | Active non-auto PI cases handled in-house |
+| Total Cases — Referral | Active cases referred in from other firms |
+| Total Cases — Mass Torts | Active mass tort matters |
+| Total Current Cases | All active cases across all categories |
+
+---
+
+#### 5.11.3 Income & Fee Revenue
+
+Financial performance tracking by case type and fee category. All figures are drawn from the settlement and fee fields on closed case records.
+
+**Fee Revenue by Case Type:**
+
+| Metric | Description |
+|---|---|
+| Auto Fees | Total attorney fees from auto accident cases |
+| General PI Fees | Total fees from general personal injury cases |
+| Med Mal Fees | Total fees from medical malpractice cases |
+| Workers' Comp Fees | Total fees from WC cases |
+| Mass Tort Fees | Total fees from mass tort matters |
+| Other Fees | Fees from all other case types |
+| **Total Income** | Sum of all fee revenue across all case types |
+
+**Referral Fees Paid (by case type):**
+
+| Metric | Description |
+|---|---|
+| REF — Auto | Referral fees paid out on auto cases |
+| REF — General PI | Referral fees paid out on GPI cases |
+| REF — Med Mal | Referral fees paid out on med mal cases |
+| REF — Nursing Home | Referral fees paid out on nursing home cases |
+| REF — Non-Contingency | Referral fees paid on non-contingency matters |
+| REF — Mass Tort | Referral fees paid out on mass tort cases |
+| REF — Other | All other referral fees paid |
+| **Total Referral Fees** | Sum of all referral fees paid across all case types |
+
+---
+
+#### 5.11.4 Revenue by Employee
+
+| Metric | Description |
+|---|---|
+| Revenue Per Partner | Total fee revenue attributed to each equity partner |
+| Revenue Per Attorney | Total fee revenue attributed to each attorney |
+| Revenue Per Team Member | Fee revenue attributed per team member (including support staff) |
+
+Attribution is based on the assigned attorney on the closed case record.
+
+---
+
+#### 5.11.5 Average Fee Information
+
+Benchmarking metrics that track average case value over time, broken down by case type and litigation status:
+
+| Metric | Description |
+|---|---|
+| Average Pre-Lit Auto Fee | Average attorney fee on auto cases resolved before litigation |
+| Average Litigated Auto Fee | Average attorney fee on auto cases that went to suit |
+| Avg Lit & Pre-Lit Auto Combined | Blended average across all closed auto cases |
+| Average Pre-Lit GPI Fee | Average fee on general PI cases resolved pre-lit |
+| Average Litigated GPI Fee | Average fee on litigated GPI cases |
+| Avg Lit & Pre-Lit GPI Combined | Blended average across all closed GPI cases |
+| Average Pre-Lit WC Fee | Average fee on WC cases resolved pre-lit |
+| Average Litigated WC Fee | Average fee on litigated WC cases |
+| Avg Lit & Pre-Lit WC Combined | Blended average across all closed WC cases |
+| Average Pre-Lit Other Fee | Average fee on other case types resolved pre-lit |
+| Average Litigated Other Fee | Average fee on litigated other cases |
+| Avg Lit & Pre-Lit Other Combined | Blended average across all other closed cases |
+| **Avg Fee — All Case Types** | Blended average attorney fee across all closed cases |
+
+A case is classified as "litigated" if it passed through any litigation phase (`lawsuit_filed` or later) before closing.
+
+---
+
+#### 5.11.6 Case Metrics by Practice Area
+
+The following metric set is tracked independently for each practice area: **Auto**, **General PI**, **Workers' Comp**, **Mass Torts**, **Other**, and a **Total In-House** rollup. The same schema applies to each.
+
+**Acquisition & Cost:**
+
+| Metric | Description |
+|---|---|
+| % of Total Inventory | This practice area's share of the firm's current active caseload |
+| Advertising / Acquisition Cost | Marketing spend attributable to this case type (entered by admin) |
+| Referral Fees Paid | Total referral fees paid out on cases of this type |
+| Total Cost of Acquisition | Advertising cost + referral fees paid |
+
+**Intake & Conversion Funnel:**
+
+| Metric | Description |
+|---|---|
+| Leads | Total inquiries / intake contacts for this case type in the period |
+| Wanted Leads | Leads the firm evaluated and decided to pursue |
+| Total Signed | Leads that converted to signed retainer agreements |
+| Want % | Wanted Leads ÷ Total Leads |
+| First Call Close % | Cases signed on the first intake call ÷ Total Signed |
+| Conversion % | Total Signed ÷ Wanted Leads |
+| Signed % | Total Signed ÷ Total Leads |
+| Referred Out Total | Cases evaluated and referred to another firm |
+| Lost (Wanted) | Cases the firm wanted but did not sign |
+| Returned Rate | Cases that were referred out or closed and later returned to the firm |
+| Termination / Fired % | Cases terminated by client or withdrawn by firm ÷ Total Signed |
+
+**Closed Case Performance:**
+
+| Metric | Description |
+|---|---|
+| Total Cases Closed | All cases of this type closed in the period |
+| Closed With Fee | Cases that closed with a positive attorney fee |
+| Closed No Fee | Cases that closed with no attorney fee (dismissed, declined, etc.) |
+| Average Fee | Mean attorney fee across all cases closed with fee |
+| Fee Revenue | Total attorney fees collected from closed cases |
+| Avg Time on Desk — Pre-Lit | Average days from open to close for pre-litigation cases |
+| Avg Time on Desk — Lit | Average days from open to close for litigated cases |
+| Avg Time on Desk — Combined | Blended average across all closed cases of this type |
+
+---
+
+#### 5.11.7 Data Requirements for Reporting
+
+Reporting accuracy depends on the following fields being consistently populated on case records:
+
+- `incident_type` / practice area classification
+- `incident_date` (for Days Since Incident)
+- `statute_of_limitations` (for Days Until SOL)
+- `settlement_amount` and `attorney_fee_amount` (for all fee metrics)
+- `referral_fee_paid` and `referral_source_type` (for referral fee tracking)
+- `date_opened` and `date_closed` (for time-on-desk metrics)
+- Phase transition timestamps (auto-captured from `system_event` notes)
+- Lead source / intake contact records (for conversion funnel metrics)
+
+**Implementation note:** Several reporting metrics — particularly the intake funnel (Leads, Wanted, Signed, Conversion %) — require a lightweight **lead / intake record** that exists before a full case is created. This means the data model needs a `leads` table or pre-case intake object in Phase 2 to support funnel reporting accurately. Cases that are signed convert from a lead record; cases that are declined or referred out close as leads without becoming full case records.
 
 ---
 
@@ -839,22 +1013,25 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] Basic role-based access control
 
 **Not in MVP:**
+- Analytics & reporting dashboard (§5.11)
+- Lead / intake record (pre-case object — required for funnel metrics)
 - Custom phase management (add, rename, reorder, deactivate phases)
 - SSO / SAML
 - AI drafting and document analysis
 - Third-party integrations (except webhook scaffolding)
 - Data migration tooling
-- Reporting / analytics
 - Client portal
 - Mobile native app
 
 ---
 
-### Phase 2 — AI & Automation
+### Phase 2 — AI, Automation & Reporting
 
-**Goal:** Layer in AI capabilities that save legal staff hours per case.
+**Goal:** Layer in AI capabilities that save legal staff hours per case, and give firm leadership the metrics they need to run the business.
 
 **Scope:**
+
+*AI & Automation:*
 - [ ] AI document drafting (demand letter, records request, client letter)
 - [ ] Medical record summarization
 - [ ] Police report extraction
@@ -862,6 +1039,22 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] AI agent role + programmatic access hardening
 - [ ] Background job infrastructure (SQS + Celery)
 - [ ] Webhook system (outbound events)
+- [ ] Automated treatment phase advancement based on days-since-incident
+
+*Analytics & Reporting (§5.11):*
+- [ ] Lead / intake record (pre-case object for funnel tracking)
+- [ ] Reporting API (`/api/v1/reports`)
+- [ ] Reports UI — firm admin dashboard
+- [ ] Operational case metrics (Days in Phase, Days Since Incident, SOL countdown, client comms compliance)
+- [ ] Inventory snapshot (cases by type — Auto, Non-Auto, Referral, Mass Tort, Total)
+- [ ] Income & fee revenue by case type
+- [ ] Referral fees paid by case type
+- [ ] Revenue by employee (partner, attorney, team member)
+- [ ] Average fee benchmarks by case type and lit status
+- [ ] Case metrics by practice area: acquisition cost, intake funnel, conversion rates, closed case performance, time on desk
+- [ ] Total In-House rollup metrics
+- [ ] CSV export for all reports
+- [ ] Date range, practice area, and attorney filters on all reports
 
 ---
 
@@ -888,7 +1081,6 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] SOC 2 Type II audit preparation and certification
 - [ ] SSO / SAML 2.0
 - [ ] Elasticsearch migration (if needed)
-- [ ] Reporting and analytics dashboard
 - [ ] Client portal (read-only case status for clients)
 - [ ] Multi-AZ full redundancy hardening
 - [ ] SLA monitoring and uptime dashboard
@@ -909,6 +1101,8 @@ These items require a decision before or during MVP development:
 | 6 | Pricing model? | Outside scope of PRD — needs separate business doc |
 | 7 | Custom field storage: JSONB vs EAV table? | **Recommendation: JSONB** — simpler, indexed, PostgreSQL native |
 | 8 | Which LeadDocket and SmartAdvocate export formats are available? | Needs discovery with target firm |
+| 9 | How are advertising/acquisition costs entered? | Manual admin entry per period, or integration with ad platforms? Needs decision before Phase 2 reporting build |
+| 10 | How are attorney fee amounts captured? | Field on case record at close, or from a disbursement/settlement statement object? Needs data model decision before Phase 2 |
 
 ---
 
