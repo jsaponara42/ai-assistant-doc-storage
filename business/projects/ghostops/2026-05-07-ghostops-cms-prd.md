@@ -12,7 +12,7 @@ Formal PRD for the GhostOps Case Management System (CMS) — a legal case manage
 
 ## Context
 
-Derived from the initial product voice note (`2026-05-07-ghostops-cms-braindump.md`). This document is the authoritative product requirements reference for all GhostOps CMS development. It covers product vision, target user, feature requirements, data model, technical architecture, compliance requirements, and phased delivery plan.
+Derived from the initial product voice note ([[2026-05-07-ghostops-cms-braindump]]). This document is the authoritative product requirements reference for all GhostOps CMS development. It covers product vision, target user, feature requirements, data model, technical architecture, compliance requirements, and phased delivery plan.
 
 ---
 
