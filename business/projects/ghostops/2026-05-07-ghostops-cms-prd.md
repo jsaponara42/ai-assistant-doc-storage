@@ -823,16 +823,16 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 
 These items require a decision before or during MVP development:
 
-| # | Question | Status |
-|---|---|---|
-| 1 | Flask vs FastAPI for backend? | **Recommendation: FastAPI** — async, auto OpenAPI, better DX |
-| 2 | Custom JWT auth vs AWS Cognito? | Lean toward custom JWT for MVP; Cognito for SSO later |
-| 3 | Which LLM provider for AI features? | OpenAI GPT-4o or Anthropic Claude — evaluate on demand quality |
-| 4 | Elasticsearch now or PG FTS first? | PG FTS for MVP; revisit at 10k+ cases |
-| 5 | Self-hosted vs SaaS (multi-tenant) model? | SaaS multi-tenant — single deployment, per-firm data isolation |
-| 6 | Pricing model? | Outside scope of PRD — needs separate business doc |
-| 7 | Custom field storage: JSONB vs EAV table? | **Recommendation: JSONB** — simpler, indexed, PostgreSQL native |
-| 8 | Which LeadDocket and SmartAdvocate export formats are available? | Needs discovery with target firm |
+| #   | Question                                                         | Status                                                          |
+| --- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
+| 1   | Flask vs FastAPI for backend?                                    | **Recommendation: FastAPI** — async, auto OpenAPI, better DX    |
+| 2   | Custom JWT auth vs AWS Cognito?                                  | Lean toward custom JWT for MVP; Cognito for SSO later           |
+| 3   | Which LLM provider for AI features?                              | OpenAI GPT-5.5 or Anthropic Claude — evaluate on demand quality |
+| 4   | Elasticsearch now or PG FTS first?                               | PG FTS for MVP; revisit at 10k+ cases                           |
+| 5   | Self-hosted vs SaaS (multi-tenant) model?                        | SaaS multi-tenant — single deployment, per-firm data isolation  |
+| 6   | Pricing model?                                                   | Outside scope of PRD — needs separate business doc              |
+| 7   | Custom field storage: JSONB vs EAV table?                        | **Recommendation: JSONB** — simpler, indexed, PostgreSQL native |
+| 8   | Which LeadDocket and SmartAdvocate export formats are available? | Needs discovery with target firm                                |
 
 ---
 
