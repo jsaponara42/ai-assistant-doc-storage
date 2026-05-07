@@ -101,7 +101,7 @@ Every case is a first-class object with a unique ID. A case record contains:
 | `case_number` | String | Firm-assigned or court-assigned |
 | `practice_area` | Enum | PI, workers comp, mass tort, etc. |
 | `status` | Enum | See §5.1.2 |
-| `phase` | Enum | See §5.1.2 |
+| `phase` | FK → Phase | See §5.1.2 |
 | `date_opened` | Date | |
 | `date_closed` | Date | Nullable |
 | `assigned_attorney` | FK → User | |
@@ -142,7 +142,7 @@ Every case is a first-class object with a unique ID. A case record contains:
 
 #### 5.1.2 Case Status & Phase Model
 
-Cases move through a defined lifecycle. Status and phase are separate concepts:
+Cases move through a defined lifecycle. Status and phase are separate concepts.
 
 **Status** (is the case active?):
 
@@ -156,22 +156,96 @@ Cases move through a defined lifecycle. Status and phase are separate concepts:
 
 **Phase** (where is the case in its lifecycle?):
 
-For PI cases:
+Phases are stored as rows in a `phases` table with an explicit `sort_order` integer that controls display sequence in the UI picker. Phase names are clean and human-readable — no numeric prefixes needed (those exist in systems like FileVine only to work around the lack of configurable ordering). The UI groups phases by category for easier navigation.
 
-1. `intake` — initial contact, evaluation, sign-up
-2. `treatment` — client is treating; records being gathered
-3. `demand_prep` — treatment complete; building demand package
-4. `demand_sent` — demand letter sent to carrier
-5. `negotiation` — negotiating settlement
-6. `litigation` — filed suit
-7. `discovery` — in discovery
-8. `pre_trial` — trial prep, motions
-9. `trial` — active trial
-10. `post_trial` — verdict rendered, post-trial motions
-11. `resolution` — settlement/verdict finalized, disbursements
-12. `closed` — file closed
+The default PI phase set, in display order:
 
-Phase transitions are logged automatically as a note (type: `system_event`). Firms can customize phase labels per practice area without changing the underlying enum keys.
+**Intake & Early Case**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| New File | `new_file` | Case just created; not yet assigned or actively worked |
+| File Set-Up | `file_setup` | Retainer signed; contacts, insurance, and incident info being entered |
+| Investigation Only | `investigation_only` | Liability investigation underway; no full sign-up yet |
+| DV/PD Only | `dv_pd_only` | Diminished value or property damage only; no bodily injury claim |
+
+**Treatment**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Treatment < 90 | `treatment_lt_90` | Client in active treatment; fewer than 90 days since incident |
+| Treatment > 90 | `treatment_gt_90` | Client in active treatment; 90–180 days since incident |
+| Treatment > 180 | `treatment_gt_180` | Client in active treatment; 180–360 days since incident |
+| Treatment > 360 | `treatment_gt_360` | Client in active treatment; 360–540 days since incident |
+| Treatment > 540 | `treatment_gt_540` | Client in active treatment; over 540 days since incident |
+| Released Pending Records | `released_pending_records` | Client discharged from treatment; awaiting medical records |
+| Ready for Demand | `ready_for_demand` | All records received; case ready to build demand package |
+
+**Demand — Liability (Third-Party)**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Demand Approval (Liab) | `demand_approval_liab` | Demand package complete; pending attorney review and approval before sending |
+| Demand in Prep (Liab) | `demand_prep_liab` | Demand letter being drafted against liability carrier |
+| Demand Sent (Liab) | `demand_sent_liab` | Demand sent to liability carrier; awaiting response |
+| Negotiations (Liab) | `negotiations_liab` | Active settlement negotiations with liability carrier |
+
+**Demand — UM/UIM (Uninsured/Underinsured Motorist)**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Demand Approval (UM/UIM) | `demand_approval_umuim` | Demand package complete; pending attorney review and approval before sending |
+| Demand in Prep (UM/UIM) | `demand_prep_umuim` | Demand letter being drafted against UM/UIM carrier |
+| Demand Sent (UM/UIM) | `demand_sent_umuim` | Demand sent to UM/UIM carrier; awaiting response |
+| Negotiations (UM/UIM) | `negotiations_umuim` | Active settlement negotiations with UM/UIM carrier |
+
+**Settlement & Resolution**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Settlement | `settlement` | Settlement agreement reached; finalizing terms |
+| Settlement Statement Prep | `settlement_statement_prep` | Preparing settlement statement and disbursement breakdown |
+| Lien Resolution | `lien_resolution` | Negotiating and resolving outstanding liens before disbursement |
+| Disbursement Ready | `disbursement_ready` | All liens resolved; cleared to disburse funds |
+| Disbursement | `disbursement` | Funds actively being disbursed to client and lien holders |
+
+**Litigation**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Lawsuit Prep | `lawsuit_prep` | Preparing complaint and litigation documents |
+| Lawsuit Filed | `lawsuit_filed` | Complaint filed with the court |
+| Lawsuit Pending Service | `lawsuit_pending_service` | Complaint filed; awaiting service of process on defendant(s) |
+| Defendant Answer Due | `defendant_answer_due` | Defendant served; answer deadline pending |
+| Written Discovery | `written_discovery` | Written discovery underway (interrogatories, RFPs, RFAs) |
+| Depositions | `depositions` | Deposition phase active |
+| Mediation | `mediation` | Case referred to mediation |
+| Pre-Trial Motions | `pre_trial_motions` | Motions in limine, summary judgment, and other pre-trial motions |
+| Trial | `trial` | Active trial |
+| Appeal | `appeal` | Post-verdict appeal filed |
+
+**Referred Out**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Referred Out Pre-Lit | `referred_out_pre_lit` | Case referred to another firm before litigation was filed |
+| Referred Out | `referred_out` | Case referred to another firm (general) |
+| Referred Out Lit | `referred_out_lit` | Case referred out while in active litigation |
+| Referred Out Settlement | `referred_out_settlement` | Case referred out during settlement phase |
+| Referred Out Mass Torts | `referred_out_mass_torts` | Case referred to a mass tort firm |
+
+**Closed / Terminal**
+
+| Phase Name | Key | Description |
+|---|---|---|
+| Withdrawal by Firm | `withdrawal_by_firm` | Firm withdrew from representation |
+| Terminated by Client | `terminated_by_client` | Client terminated the firm's representation |
+| Always Open | `always_open` | Administrative or evergreen matter; no expected close date |
+| Archived | `archived` | Case fully closed and archived |
+
+**MVP note:** The phase list above ships as the fixed default PI template and is not user-editable in MVP. Custom phase management — adding, renaming, reordering, or deactivating phases — is a post-MVP feature. Because display order is stored as an explicit `sort_order` field on each phase record (not derived from the name or key), enabling custom ordering post-MVP requires no data migration or schema change.
+
+Phase transitions are logged automatically as a `system_event` note on the case timeline. The UI phase picker displays phases in `sort_order` sequence, visually grouped by category.
 
 #### 5.1.3 Case List & Sorting
 
@@ -750,7 +824,7 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] User authentication (email/password + MFA)
 - [ ] Firm and user management
 - [ ] Case record with PI metadata template
-- [ ] Case status and phase model
+- [ ] Case status and phase model (default PI phase set, fixed)
 - [ ] SOL tracking and alerts
 - [ ] Note system (all core types)
 - [ ] Task management + My Tasks view
@@ -765,6 +839,7 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] Basic role-based access control
 
 **Not in MVP:**
+- Custom phase management (add, rename, reorder, deactivate phases)
 - SSO / SAML
 - AI drafting and document analysis
 - Third-party integrations (except webhook scaffolding)
@@ -801,6 +876,7 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 - [ ] Google Calendar sync
 - [ ] DocuSign integration
 - [ ] Zapier / Make webhook support
+- [ ] Custom phase management (add, rename, reorder, deactivate)
 
 ---
 
@@ -823,16 +899,16 @@ Migration from legacy systems is a critical GTM requirement. The migration tooli
 
 These items require a decision before or during MVP development:
 
-| #   | Question                                                         | Status                                                          |
-| --- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
-| 1   | Flask vs FastAPI for backend?                                    | **Recommendation: FastAPI** — async, auto OpenAPI, better DX    |
-| 2   | Custom JWT auth vs AWS Cognito?                                  | Lean toward custom JWT for MVP; Cognito for SSO later           |
-| 3   | Which LLM provider for AI features?                              | OpenAI GPT-5.5 or Anthropic Claude — evaluate on demand quality |
-| 4   | Elasticsearch now or PG FTS first?                               | PG FTS for MVP; revisit at 10k+ cases                           |
-| 5   | Self-hosted vs SaaS (multi-tenant) model?                        | SaaS multi-tenant — single deployment, per-firm data isolation  |
-| 6   | Pricing model?                                                   | Outside scope of PRD — needs separate business doc              |
-| 7   | Custom field storage: JSONB vs EAV table?                        | **Recommendation: JSONB** — simpler, indexed, PostgreSQL native |
-| 8   | Which LeadDocket and SmartAdvocate export formats are available? | Needs discovery with target firm                                |
+| # | Question | Status |
+|---|---|---|
+| 1 | Flask vs FastAPI for backend? | **Recommendation: FastAPI** — async, auto OpenAPI, better DX |
+| 2 | Custom JWT auth vs AWS Cognito? | Lean toward custom JWT for MVP; Cognito for SSO later |
+| 3 | Which LLM provider for AI features? | OpenAI GPT-4o or Anthropic Claude — evaluate on demand quality |
+| 4 | Elasticsearch now or PG FTS first? | PG FTS for MVP; revisit at 10k+ cases |
+| 5 | Self-hosted vs SaaS (multi-tenant) model? | SaaS multi-tenant — single deployment, per-firm data isolation |
+| 6 | Pricing model? | Outside scope of PRD — needs separate business doc |
+| 7 | Custom field storage: JSONB vs EAV table? | **Recommendation: JSONB** — simpler, indexed, PostgreSQL native |
+| 8 | Which LeadDocket and SmartAdvocate export formats are available? | Needs discovery with target firm |
 
 ---
 
