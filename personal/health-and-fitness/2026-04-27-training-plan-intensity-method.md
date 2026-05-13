@@ -51,12 +51,12 @@ Based on the science-backed muscle building research note [[2026-04-27-muscle-bu
 
 **Target:** ~45–55 min
 
-| # | Exercise | Sets | Reps | Notes |
-|---|---|---|---|---|
-| 1 | **Barbell or Smith Machine Squat** | 2 | 6–10 to failure | Go to complete failure. Rack safely. |
-| 2 | **Seated Cable Row** (shoulder-width grip) | 2 | 8–12 to failure | Drive elbows back, squeeze. |
-| 3 | **Dumbbell Bench Press** | 2 | 8–12 to failure | Full range of motion. |
-| 4 | **Romanian Deadlift (RDL)** | 2 | 8–12 to failure | Hinge from hips, slight knee bend, bar close to legs. |
+| #   | Exercise                                   | Sets | Reps            | Notes                                                 | Weight (evolving)        |
+| --- | ------------------------------------------ | ---- | --------------- | ----------------------------------------------------- | ------------------------ |
+| 1   | **Barbell or Smith Machine Squat**         | 2    | 6–10 to failure | Go to complete failure. Rack safely.                  | Hack squat. 90lbs.2 sets |
+| 2   | **Seated Cable Row** (shoulder-width grip) | 2    | 8–12 to failure | Drive elbows back, squeeze.                           |                          |
+| 3   | **Dumbbell Bench Press**                   | 2    | 8–12 to failure | Full range of motion.                                 |                          |
+| 4   | **Romanian Deadlift (RDL)**                | 2    | 8–12 to failure | Hinge from hips, slight knee bend, bar close to legs. |                          |
 
 **Total sets:** 8 sets | **Muscles:** Quads, glutes, lats, chest, hamstrings
 
@@ -68,12 +68,12 @@ Based on the science-backed muscle building research note [[2026-04-27-muscle-bu
 
 **Target:** ~45–55 min
 
-| # | Exercise | Sets | Reps | Notes |
-|---|---|---|---|---|
-| 1 | **Leg Press** | 2 | 8–12 to failure | Feet shoulder-width, full range. |
-| 2 | **Lat Pulldown** (shoulder-width, pronated grip) | 2 | 8–12 to failure | Pull to upper chest, control the return. |
-| 3 | **Dumbbell Shoulder Press** | 2 | 8–12 to failure | Seated or standing. Full extension at top. |
-| 4 | **Dumbbell Romanian Deadlift** | 2 | 8–12 to failure | Same hinge pattern as A, now with dumbbells. |
+| #   | Exercise                                         | Sets | Reps            | Notes                                        | Weight (evolving)                               |
+| --- | ------------------------------------------------ | ---- | --------------- | -------------------------------------------- | ----------------------------------------------- |
+| 1   | **Leg Press**                                    | 2    | 8–12 to failure | Feet shoulder-width, full range.             | 160lbs, 17 reps, 2 sets                         |
+| 2   | **Lat Pulldown** (shoulder-width, pronated grip) | 2    | 8–12 to failure | Pull to upper chest, control the return.     | 70lbs, 17 reps, 3 sets                          |
+| 3   | **Dumbbell Shoulder Press**                      | 2    | 8–12 to failure | Seated or standing. Full extension at top.   | 15lbs, 25 reps, 3 sets. Last set got to 11 reps |
+| 4   | **Dumbbell Romanian Deadlift**                   | 2    | 8–12 to failure | Same hinge pattern as A, now with dumbbells. |                                                 |
 
 **Total sets:** 8 sets | **Muscles:** Quads, glutes, lats, delts, hamstrings
 
