@@ -53,9 +53,9 @@ Based on the science-backed muscle building research note [[2026-04-27-muscle-bu
 
 | #   | Exercise                                   | Sets | Reps            | Notes                                                 | Weight (evolving)        |
 | --- | ------------------------------------------ | ---- | --------------- | ----------------------------------------------------- | ------------------------ |
-| 1   | **Barbell or Smith Machine Squat**         | 2    | 6–10 to failure | Go to complete failure. Rack safely.                  | Hack squat. 90lbs.2 sets |
-| 2   | **Seated Cable Row** (shoulder-width grip) | 2    | 8–12 to failure | Drive elbows back, squeeze.                           |                          |
-| 3   | **Dumbbell Bench Press**                   | 2    | 8–12 to failure | Full range of motion.                                 | 55lbs                    |
+| 1   | **Barbell or Smith Machine Squat**         | 2    | 6–10 to failure | Go to complete failure. Rack safely.                  | Hack squat. 50lbs.2 sets |
+| 2   | **Seated Cable Row** (shoulder-width grip) | 2    | 8–12 to failure | Drive elbows back, squeeze.                           | 140lbs, 10 reps, 2 sets  |
+| 3   | **Dumbbell Bench Press**                   | 2    | 8–12 to failure | Full range of motion.                                 | 55lbs, 8 reps, 2 sets    |
 | 4   | **Romanian Deadlift (RDL)**                | 2    | 8–12 to failure | Hinge from hips, slight knee bend, bar close to legs. |                          |
 
 **Total sets:** 8 sets | **Muscles:** Quads, glutes, lats, chest, hamstrings
