@@ -53,13 +53,13 @@ Print one double-sided card per table (or one per 6–8 guests). Each card has 3
 
 **Suggested games to print on the card:**
 
-| Game | Description | Bilingual? |
-|---|---|---|
-| **Two Truths One Lie** / *Due verità una bugia* | Each person says 3 things, table guesses which is false | ✅ Easy to translate |
-| **Wedding Predictions** / *Previsioni di nozze* | Fill in: "In 10 years, the couple will…" — read aloud at end | ✅ |
-| **Table Trivia** / *Trivia del tavolo* | 5 questions about the couple (answers revealed by MC/host) | ✅ Print EN+IT side by side |
-| **The Emoji Story** / *La storia emoji* | Write a 5-emoji "story" of how you know the couple | ✅ Universal |
-| **Wishes for the couple** / *Auguri agli sposi* | One line each, fold and drop in a jar | ✅ |
+| Game                                            | Description                                                  | Bilingual?                 |     |
+| ----------------------------------------------- | ------------------------------------------------------------ | -------------------------- | --- |
+| **Two Truths One Lie** / *Due verità una bugia* | Each person says 3 things, table guesses which is false      | ✅ Easy to translate        |     |
+| **Wedding Predictions** / *Previsioni di nozze* | Fill in: "In 10 years, the couple will…" — read aloud at end | ✅                          |     |
+| **Table Trivia** / *Trivia del tavolo*          | 5 questions about the couple (answers revealed by MC/host)   | ✅ Print EN+IT side by side |     |
+| **The Emoji Story** / *La storia emoji*         | Write a 5-emoji "story" of how you know the couple           | ✅ Universal                |     |
+| **Wishes for the couple** / *Auguri agli sposi* | One line each, fold and drop in a jar                        | ✅                          |     |
 
 **Print strategy:** One card per table, double-sided. No individual handouts needed. Laminate if budget allows (reusable prototype for future events).
 
