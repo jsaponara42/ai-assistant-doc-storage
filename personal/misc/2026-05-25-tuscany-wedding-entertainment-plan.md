@@ -3,121 +3,57 @@ title: "Tuscany Wedding Entertainment Plan"
 date: 2026-05-25
 tags: [personal, research]
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 ## Summary
-Entertainment planning for a Tuscan hillside outdoor wedding at sunset. Three focus areas: after-midnight party accessories, offline bilingual table games, and offline photo sharing — all designed for a long Italian dinner where guests circulate and mingle.
+Finalized entertainment plan for a Tuscan hillside outdoor wedding at sunset. Three areas: after-midnight party accessories, bilingual table card with games and scavenger hunt, and post-wedding photo sharing.
 
 ## Context
 - **Venue:** Outdoor, Tuscan hills, sunset setting
 - **Format:** Long Italian dinner (multi-hour), guests walk around and mingle
 - **Constraint:** No reliable internet connection in the hills
-- **Languages:** English + Italian (bilingual required for games)
-- **Goals:** Keep people entertained passively during dinner without constant coordination
+- **Languages:** English + Italian (bilingual required for table card)
 
 ---
 
 ## Content
 
-### 1. 🕛 After-Midnight Party Accessories (Cheap & Disposable)
+### 1. 🕛 After-Midnight Party Accessories
 
-These are meant to ignite energy on the dance floor after the dinner winds down.
-
-| Item | Notes | Est. Cost |
-|---|---|---|
-| Glow sticks / necklaces | Bulk packs, classic crowd pleaser | ~€15–25 for 100 |
-| LED foam glow sticks | More durable than chemical ones, reusable through the night | ~€20–30 for 50 |
-| Metallic balloon confetti | Scatter on tables/floor at midnight | ~€10–15 |
-| Silly string (colored) | Messy fun, use sparingly outdoors | ~€10 for 10 cans |
-| Mini plastic horns / blowers | Great for midnight moment | ~€8–12 for 50 |
-| Feather boas (assorted colors) | Instant costume, great photos | ~€15–20 for 10 |
-| Oversized sunglasses (novelty shapes) | Photo booth-style fun | ~€15–25 for 20 pairs |
-| Mini sparklers | Dramatic outdoor effect at midnight; check venue rules | ~€10–15 for box |
-| Inflatable instruments (guitars, saxes) | Fun for dance floor | ~€15–20 for 10 |
-| Photo booth props (lips, mustaches, signs) | Printed cardboard on sticks | ~€10–15 DIY or buy |
-
-**Tips:**
-- Pack in a basket or crate and reveal/open at midnight for a "party starter" moment
-- Glow sticks + sparklers work especially well outdoors in the dark Tuscan night
-- Confirm sparkler rules with venue ahead of time
+| Item | Notes |
+|---|---|
+| Glow sticks | Bulk pack |
+| LED foam glow sticks | More durable through the night |
+| Feather boas | Assorted colors |
+| Socks | Handed out right before going down to the party room |
 
 ---
 
-### 2. 🎲 Offline Bilingual Table Games
+### 2. 🎲 Table Card (Double-Sided, One Per Table, EN + IT)
 
-**Goal:** Easy, no-wifi, minimal printing, multilingual (EN/IT), works during a long circulating dinner.
+#### Two Truths & a Lie / *Due Verità, Una Bugia*
+Each person says 3 things about themselves — the table guesses which one is false.
 
-#### Option A — Table Cards with Games Printed On Them (Minimal Print)
-Print one double-sided card per table (or one per 6–8 guests). Each card has 3–4 micro-games:
+#### Couple Trivia / *Trivia degli Sposi*
+5 questions about the couple. Answers revealed by the MC at the end of dinner.
 
-**Suggested games to print on the card:**
+#### Conversation Starters / *Spunti di Conversazione*
+- What did you believe as a kid that turned out to be completely wrong? / *Cosa credevi da bambino che si è rivelato completamente sbagliato?*
+- What's your most controversial food opinion? / *Qual è la tua opinione culinaria più controversa?*
+- Pineapple on pizza: yes or no? / *Ananas sulla pizza: sì o no?*
 
-| Game                                            | Description                                                  | Bilingual?                 |     |
-| ----------------------------------------------- | ------------------------------------------------------------ | -------------------------- | --- |
-| **Two Truths One Lie** / *Due verità una bugia* | Each person says 3 things, table guesses which is false      | ✅ Easy to translate        |     |
-| **Wedding Predictions** / *Previsioni di nozze* | Fill in: "In 10 years, the couple will…" — read aloud at end | ✅                          |     |
-| **Table Trivia** / *Trivia del tavolo*          | 5 questions about the couple (answers revealed by MC/host)   | ✅ Print EN+IT side by side |     |
-| **The Emoji Story** / *La storia emoji*         | Write a 5-emoji "story" of how you know the couple           | ✅ Universal                |     |
-| **Wishes for the couple** / *Auguri agli sposi* | One line each, fold and drop in a jar                        | ✅                          |     |
+#### Venue Scavenger Hunt / *Caccia al Tesoro*
+Explore the property and take a photo at each spot. No winner — just your own memories.
 
-**Print strategy:** One card per table, double-sided. No individual handouts needed. Laminate if budget allows (reusable prototype for future events).
-
-#### Option B — Conversation Starter Dice
-Buy or DIY wooden dice with prompts on each face (EN/IT). Roll at any time during dinner. Low maintenance, no paper.
-
-**Sources:** Amazon IT, Etsy IT — search "conversation starter dice wedding" or make with wooden cube + sticker labels
-
-#### Option C — Scavenger Hunt Card (One Per Table)
-One printed list per table. Find items or do tasks during the dinner. Example:
-
-- Get a signature from someone who flew in from another country / *Ottieni la firma di qualcuno venuto dall'estero*
-- Take a selfie with 3 people you just met / *Scatta un selfie con 3 persone che hai appena conosciuto*
-- Find someone who shares your birth month / *Trova qualcuno con il tuo stesso mese di nascita*
-- Get a dance move demo from one of the grandparents / *Chiedi a uno dei nonni di mostrarti una mossa di danza*
-
-**Winner:** First table to complete the list wins a small prize (bottle of local wine, olive oil, etc.)
-
-**Print total estimate:** 1 card per table × number of tables = very low print volume ✅
+- 📸 The olive trees / *Gli ulivi*
+- 📸 The vineyard / *Il vigneto*
+- 📸 The wine cellar / *La cantina*
+- 📸 The priest's house / *La casa del prete*
+- 📸 Your favorite dinner course / *Il tuo piatto preferito della cena*
+- 📸 The villa with your whole table / *La villa con il tuo tavolo*
 
 ---
 
-### 3. 📷 Offline Photo Sharing (No Internet)
-
-Since WiFi/data is unreliable in the Tuscan hills, upload-to-drive won't work. Better offline alternatives:
-
-#### Option A — Disposable Film Cameras (Best Vibe Match)
-- Place 1–2 per table
-- Guests shoot freely all evening
-- Collect at end of night, develop after wedding
-- **Pros:** Analog aesthetic perfectly matches Tuscany hillside setting; creates anticipation; candid shots
-- **Cons:** Development cost + time; can't share digitally until after
-- **Cost:** ~€8–12 per camera × 8–10 cameras = €80–120 total
-- **Buy:** Fujifilm QuickSnap or Kodak FunSaver — available in Italian supermarkets/photo shops
-
-#### Option B — Local WiFi Hotspot / Mini Router
-- Rent or buy a portable travel router
-- Set it up as a LOCAL network (no internet needed)
-- Use a local file-sharing app like **Snapdrop** (runs on LAN) or **LANDrop**
-- Guests connect to the local network and share photos directly
-- **Pros:** Digital, instant, no internet needed
-- **Cons:** Requires setup, guests need to know how to use it, tech support on the day
-
-#### Option C — Shared Google Drive (Pre-Downloaded Offline)
-- Not truly workable without internet for uploading
-
-#### Option D — Hybrid (Recommended)
-- Disposable cameras on tables for ambient/candid shots during dinner
-- After-midnight: set up a dedicated phone or tablet as a "photo drop station" where guests can AirDrop or Bluetooth transfer their favorites to one device
-- Collect and share after the event via Google Drive once back in range
-
-**Recommended approach:** Disposable cameras + post-event digital share link (send via email/WhatsApp after honeymoon)
-
----
-
-## Next steps
-- [ ] Decide on number of tables to determine card print quantity
-- [ ] Confirm venue rules on sparklers/open flames
-- [ ] Order disposable cameras (allow 2–3 weeks for delivery in Italy)
-- [ ] Design bilingual table card — can use Canva with EN/IT layout
-- [ ] Decide on party accessories basket reveal moment (coordinate with DJ/MC)
+### 3. 📷 Photo Sharing
+Post-wedding Google Drive link sent to all guests once back in range.
