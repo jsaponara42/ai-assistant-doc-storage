@@ -1,3 +1,51 @@
+---
+title: "Post: What I've learned from doing discovery with teams that think they don't need automation"
+date: 2026-05-26
+tags:
+  - strategy
+  - idea
+ai: claude
+status: needs-attention
+platforms:
+  - linkedin
+posted?: no
+posted-date:
+---
+
+## Draft
+
+Here's something I've noticed doing discovery conversations with businesses.
+
+The first thing they tell me is usually right. The gut pain point, the thing that made them pick up the phone, is almost always a real problem worth solving.
+
+But it's rarely the most valuable thing to fix.
+
+Not because they don't know their business. They know their business better than I ever will. It's that they don't know what's possible. And that's completely reasonable. You're not supposed to know what automation tools exist and what they can do. That's not your job.
+
+I think about it like going to the doctor. You know your arm hurts. You might even know you need an X-ray. But the doctor asks about your shoulder, your sleep, your stress. Things you never thought to mention because you came in for your arm. And sometimes that's where the real answer is.
+
+Discovery works the same way. Someone comes in knowing one problem. The conversation surfaces three more they didn't expect, and one of them is costing them significantly more than the thing they called about.
+
+The gut instinct points at a real problem. The discovery conversation finds the expensive one.
+
+This is why one-off automations often underdeliver. You patch the problem you can see and leave the bigger one running in the background. Working with someone who takes the time to understand the whole operation before recommending anything isn't slower. It's just how you avoid fixing the wrong thing.
+
+---
+
+*What made you start a conversation about automation at your org? Was it the right place to start?*
+
+---
+
+## Notes
+
+- The doctor analogy is from the transcript and it's strong. Kept it tight, one paragraph, didn't overwork it.
+- Closing question is designed to surface discovery stories in comments. "Was it the right place to start?" invites honest reflection, not just agreement.
+- The implicit pitch (work with someone you trust, not a one-off vendor) is present but earned by the argument. Not pushed.
+- This pairs well with post-story-what-sops-taught-me and post-story-mistake-i-made as a loose trilogy about what good process thinking actually looks like before automation starts.
+- Under 260 words.
+
+---
+
 # Original Transcript:
 Preserve this original transcript in its entirety at the bottom of the document
 
@@ -11,4 +59,4 @@ And the reason this is is not because people don't understand their business if 
 
 And so when you are doing a consultation or an audit or some Discovery for a business in a process and a workflow in a in a in a business unit yes you can usually get one of the options correct because maybe you've heard of it and that's why you're even having the discovery conversation at all but a lot of times there are things that you'll never know until you do the discovery conversation in the first place and that's why it's valuable and worthwhile to have these conversations and have somebody that you trust to have these conversations with to advise you on maybe what you should be looking at for the future of automating in your business for the future of AI in your business for the future of your relationship as a business with automated processes and it has nothing to do with you not knowing your business you know your business more than anybody and just like you know how your body feels better than the doctor ever could but you have to tell the doctor what you're feeling in order for them to dri certain conclusion from what you've said and the best course of action and so what I've learned from these conversations 
 
-What I've learned from these conversations is that you have to take into account the more holistic understanding of the business and the feeling that is through multiple different processes of the business you have to if you're the doctor you have to ask about not just the arm but the shoulder and the mental health and the the chest and the the Sleep Cycle all of these things that you never thought to bring up if you were never asked questions about them and a lot of the times they're linked to a more valuable area of Automation and AI integration and healing let's use healing and quotes there then you expected or thought in the first place and so that's why it's so important to work with somebody that you trust as an advisor that that actually takes the time to understand your business instead of just selling you a quick one-off automation integration because most of the time it's not about that most of the time there's more under the hood and if you're only patching the problem that you know exists then you might be missing a lot more that might be costing you a lot more if you don't do anything about it 
+What I've learned from these conversations is that you have to take into account the more holistic understanding of the business and the feeling that is through multiple different processes of the business you have to if you're the doctor you have to ask about not just the arm but the shoulder and the mental health and the the chest and the the Sleep Cycle all of these things that you never thought to bring up if you were never asked questions about them and a lot of the times they're linked to a more valuable area of Automation and AI integration and healing let's use healing and quotes there then you expected or thought in the first place and so that's why it's so important to work with somebody that you trust as an advisor that that actually takes the time to understand your business instead of just selling you a quick one-off automation integration because most of the time it's not about that most of the time there's more under the hood and if you're only patching the problem that you know exists then you might be missing a lot more that might be costing you a lot more if you don't do anything about it

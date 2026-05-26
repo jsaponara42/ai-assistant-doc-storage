@@ -5,11 +5,11 @@ tags:
   - strategy
   - idea
 ai: claude
-status: needs-attention
+status: ok
 platforms:
   - linkedin
-posted?: no
-posted-date:
+posted?: yes
+posted-date: 2026-05-26
 ---
 
 ## Draft
