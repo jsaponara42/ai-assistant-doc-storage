@@ -14,7 +14,7 @@ posted-date:
 
 ## Draft
 
-I get this question a lot. "I want to get into AI. Where do I start?"
+I get this career question a lot. "I want to get into AI. Where do I start?"
 
 It's a hard question to answer because it's too broad. It's like someone in 1995 saying they want to get into computers. Okay. What sector? What do you care about? What problem do you want to solve?
 
@@ -24,7 +24,7 @@ But the answer is not to learn Python or pivot into machine learning. That path 
 
 Here's what I actually tell people.
 
-Find a company doing something interesting with AI in a space you already understand. Then figure out what roles they need that aren't engineering roles. Product. Operations. Client work. Research. Writing. These companies are full of non-technical jobs and they're struggling to find people who understand both the industry and how AI fits into it.
+Find a company doing something interesting with AI in a space you already understand or you're interested in. Then figure out what roles they need that aren't engineering roles. Product. Operations. Client work. Research. These companies are full of non-technical jobs and they're struggling to find people who understand both the industry and how AI fits into it.
 
 That's the gap. Not "I know AI." It's "I know healthcare and I understand what AI can and can't do in a clinical workflow."
 
