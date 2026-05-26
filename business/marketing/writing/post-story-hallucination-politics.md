@@ -16,7 +16,7 @@ posted-date:
 
 I got caught by a hallucination recently. And I use AI every day.
 
-A friend and I were talking about politics. We got into a discussion about presidential history and I wanted to add some context. I asked Claude a question off the top of my head: how many times has a president from a different party than their predecessor won the White House, not counting someone who took over through death or resignation?
+A friend and I were talking about politics. We got into a discussion about presidential history and I wanted to add some context. I asked Gemini a question off the top of my head: how many times has a president from the same party as their predecessor won the White House, not counting someone who took over through death or resignation?
 
 It told me it had never happened.
 
