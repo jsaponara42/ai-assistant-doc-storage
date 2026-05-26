@@ -8,7 +8,7 @@ ai: claude
 status: ok
 platforms:
   - linkedin
-posted?: scheduled
+posted?: yes
 posted-date: 2026-05-05
 ---
 ## Final
