@@ -8,8 +8,8 @@ ai: claude
 status: needs-attention
 platforms:
   - linkedin
-posted?: no
-posted-date:
+posted?: scheduled
+posted-date: 2026-05-28
 ---
 
 ## Draft

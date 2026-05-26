@@ -28,7 +28,7 @@ This isn't a new problem. Scope creep is as old as projects. But AI accelerates 
 
 The discipline required to ship an MVP with AI is higher than it used to be, not lower. You have to be more decisive about what's out of scope, not less. You have to be willing to say "not yet" when everything feels possible.
 
-The tool is fast. The thinking still has to be slow.
+The tool is fast. So you have to be able to say.
 
 ---
 
