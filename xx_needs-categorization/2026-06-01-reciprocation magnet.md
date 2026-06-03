@@ -2,4 +2,4 @@ This is about the principle of reciprocation and how humans reciprocate and will
 
 I'm thinking of opening this up more generally not to a specific industry but a little more generally so that I can get out of the pi law and lawyer space that's just been impossible to Market to these people so I have to figure out a different group that is more receptive to marketing
 
-I am going to go back to my roots of Steve Blank and do some customer interviews with
+I am going to go back to my roots of Steve Blank and do some customer interviews with various people in different industries and give them some of my free insight while asking them questions and providing them some free value. I'm going to do this to get some consulting projects, build some cashflow, and then through the process productize.
