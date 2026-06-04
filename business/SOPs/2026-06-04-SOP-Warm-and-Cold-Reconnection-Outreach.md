@@ -31,7 +31,20 @@ Use this sequence for people JC has had at least one real prior interaction with
 
 1. Before writing, recall or look up one specific, concrete thing about them — a project they mentioned, a company move, something they were building. This is the anchor for the opening line.
 
-2. Send Email 1 — The Re-engagement Ping:
+2. Choose your channel based on whether you have their number:
+
+   - **Have their number → Start with SMS** (step 2a), then email if no reply
+   - **No number → Start with email** (step 2b)
+
+   **2a. SMS — The Casual Ping:**
+
+   > Hey [First name]! [One sentence referencing something specific — e.g., "Was just thinking about that waste facility you were building — did that ever get off the ground?"] Hope you're doing well man.
+
+   Keep it to 2–3 sentences max. Conversational, no punctuation pressure, no signature. This should read like a text from a normal person, not a business contact. No ask, no pitch.
+
+   Wait 3–5 days. If they reply, great — pick up the conversation naturally and work toward the reciprocal share (step 4). If no reply, move to email (step 2b).
+
+   **2b. Email 1 — The Re-engagement Ping:**
 
    > Subject: [First name] — checking in
    >
@@ -57,7 +70,7 @@ Use this sequence for people JC has had at least one real prior interaction with
 
    If still no reply after another 7 days, mark as dormant and move on. Do not push further.
 
-4. Reply to their response — Email 2 — The Reciprocal Share:
+4. Reply to their response — The Reciprocal Share:
 
    Respond to what they shared. Acknowledge it specifically. Then share a relevant update of your own — keep it honest, including the rough parts (low trust markets, pivoting, figuring things out). This signals you're a real person, not a pitch machine.
 
@@ -69,7 +82,7 @@ Use this sequence for people JC has had at least one real prior interaction with
 
    > I'm doing some free discovery conversations with operators in different industries — happy to share what I'm seeing if it's useful for what you're building.
 
-   This is the reciprocation trigger: you're offering value, not asking for a sale.
+   This is the reciprocation trigger: you're offering value, not asking for a sale. Deliver this via whatever channel the conversation is already happening in — SMS if it started there, email if not.
 
 5. If they express interest or refer you to someone, move to the discovery call process (not in scope here — see below).
 
@@ -139,6 +152,7 @@ For every contact (warm or cold), log the following:
 - **Name and company**
 - **Source:** warm or cold
 - **Industry / vertical**
+- **Channel used:** SMS / email
 - **Date of first outreach**
 - **Reply received:** yes / no
 - **Call completed:** yes / no / not applicable
