@@ -33,7 +33,7 @@ I'm in active discovery mode. I've been doing this work in one industry and I wa
 1. **A discovery conversation** — We map your biggest operational pain points, both client-facing and internal.
 2. **Prioritized opportunities** — Ranked by ease of implementation and impact on the business.
 3. **An AI Roadmap document** — Written recommendations with expected ROI for each item.
-4. **Free implementation** — If there's something straightforward enough that I can build it in roughly 10 hours, I will. Scope is agreed on together before I start anything.
+4. **Free implementation** — If there's something high-value and straightforward enough that I can build it in roughly 10 hours, I will. Scope is agreed on together before I start anything.
 
 ---
 
