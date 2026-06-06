@@ -16,62 +16,48 @@ bluetuskllc.com · jcsaponara@bluetuskllc.com
 
 ## What This Is
 
-A free, no-obligation consultation for small and mid-sized businesses that want to understand how AI and automation can work in their operation — without launching blind.
+A free consultation for business owners who want to understand where AI and automation can actually move the needle in their operation — before committing to anything.
 
-The output is a practical **AI Roadmap**: a clear picture of where automation can help you, which fixes to prioritize first, and what the realistic return looks like.
+The output is an **AI Roadmap**: a written document that identifies where automation can help, what to go after first, and what a realistic return looks like.
 
 ---
 
 ## Why Free?
 
-Blue Tusk is expanding into new industries. I've built a track record helping businesses in one vertical, and I'm doing a focused round of discovery consultations to apply those patterns to new types of operations — brick and mortar, service businesses, IT and infrastructure firms, and similar.
-
-You get real, experienced perspective at no cost. I get to learn your industry. It's a fair trade.
+I'm in active discovery mode. I've been doing this work in one industry and I want to learn how the same patterns apply in others. In exchange for your time and candor, you get an honest outside perspective and a concrete plan — no sales pitch, no invoice.
 
 ---
 
 ## What You Get
 
-1. **Discovery conversation** — We spend time understanding your biggest pain points: client-facing operations, internal backend, or both.
-2. **Prioritized automation opportunities** — Ranked by ease of implementation and business impact.
-3. **AI Roadmap document** — A written summary of recommended next steps with expected ROI for each.
-4. **Optional quick win implementation** — For simple fixes, I may build one or two automations for you as part of the engagement, at no charge. Scope is mutually agreed upon in advance and capped at a defined number of hours.
+1. **A discovery conversation** — We map your biggest operational pain points, both client-facing and internal.
+2. **Prioritized opportunities** — Ranked by ease of implementation and impact on the business.
+3. **An AI Roadmap document** — Written recommendations with expected ROI for each item.
+4. **Free implementation** — If there's something straightforward enough that I can build it in roughly 10 hours, I will. Scope is agreed on together before I start anything.
 
 ---
 
 ## How It Works
 
-| Step | What Happens |
-|------|-------------|
-| **1. Intro call** | 20–30 minutes. I learn about your business and you decide if this is a fit. |
-| **2. Discovery** | We map your value drivers and the manual processes slowing you down. |
-| **3. Roadmap delivery** | You receive the AI Roadmap document with prioritized recommendations. |
-| **4. Quick wins (optional)** | If there are fast, simple automations to build, we agree on scope and I build them. |
+The full engagement runs a couple of weeks and two or three conversations — an intro call to see if it's a fit, a discovery session to go deep on the operation, and a final call to walk through the Roadmap together.
 
 ---
 
-## Who This Is For
+## About Me
 
-- Small to mid-sized businesses with clear operational workflows
-- Companies that know they need to adopt AI but don't know where to start
-- Operators who are skeptical of hype and want practical, revenue-connected recommendations
-- Teams where manual processes are visibly slowing down growth or eating staff time
+I'm John-Carlos Saponara, founder of Blue Tusk LLC. I've spent the last several years working on AI and automation across businesses of very different sizes — from solo operators running everything themselves to enterprise teams with complex workflows. What I focus on is finding where manual work is costing the most time or money, and figuring out what's actually automatable versus what just sounds like it should be.
 
----
-
-## Background
-
-John-Carlos Saponara is the founder of Blue Tusk LLC, an AI and automation consultancy. He works full-time in a marketing holding company environment and consults independently on automation strategy and implementation for SMBs. His approach is grounded in real operations — every recommendation ties back to measurable business impact.
+Right now I'm helping businesses get their first real wins with automation — things like intake, follow-up, reporting, and internal communication — and building out their longer-term roadmap from there. I want to bring that same work to new types of operations, which is why I'm offering this free.
 
 ---
 
 ## Next Step
 
-Reach out directly to schedule an intro call:
+Reach out to schedule an intro call:
 
 **Email:** jcsaponara@bluetuskllc.com
 **Site:** bluetuskllc.com
 
 ---
 
-*Design note (for when this becomes a designed asset): Deep Navy (`#061E3A`) header block, Cream White (`#FAF9F3`) body, Antique Gold (`#C29D48`) table accents and dividers, Emerald Green (`#2DA444`) for step numbers or checkmarks. Playfair Display for the title, Open Sans for body. Blue Tusk logo top-right in the header.*
+*Design note: Deep Navy (`#061E3A`) header block, Cream White (`#FAF9F3`) body, Antique Gold (`#C29D48`) table accents and dividers, Emerald Green (`#2DA444`) for step numbers. Playfair Display for the title, Open Sans for body. Blue Tusk logo top-right in the header.*
