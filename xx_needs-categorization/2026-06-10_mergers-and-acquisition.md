@@ -1,0 +1,1 @@
+This is a voice note I want to get better at the fundamentals and the basics of mergers and Acquisitions and corporate finance I want to be prepared for when eventually I will be either buying or selling a business I want to be very prepared for understanding the financials and anything else that goes along with this I want to set up some sort of plan to learn naturally 
