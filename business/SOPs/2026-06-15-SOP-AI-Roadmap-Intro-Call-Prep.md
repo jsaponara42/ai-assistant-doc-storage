@@ -11,7 +11,11 @@ status: ok
 
 ## Summary
 
-This SOP governs how to prepare for the initial intro call in the Free AI Roadmap Consultation offer. The consultation is industry-agnostic — prospects come from any sector — so the prep process must be adaptable while remaining systematic. The goal of prep is to walk into the intro call already knowing who you're talking to, what the company does operationally, and what pain points are most likely present before anyone says a word. This is the first documented version of this process.
+This SOP governs how to prepare for the initial intro call in the Free AI Roadmap Consultation offer. The consultation is industry-agnostic — prospects come from any sector — so the prep process must be adaptable while remaining systematic. The goal of prep is to walk into the intro call already knowing who you're talking to, what the company does operationally, and what pain points are most likely present before anyone says a word.
+
+The AI-assisted implementation of this process is handled by the `ai-roadmap-call-prep` skill. Provide it with a company name, website, and the names and titles of the people attending, and it will execute all four stages and produce the Call Brief automatically. See [[business/SKILLS/ai-roadmap-call-prep/SKILL.md]].
+
+This is the first documented version of this process.
 
 ## Previous Methods (Superseded)
 
