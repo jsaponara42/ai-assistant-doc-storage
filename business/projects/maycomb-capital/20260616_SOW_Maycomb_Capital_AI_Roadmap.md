@@ -32,7 +32,7 @@ Blue Tusk will conduct discovery with Maycomb Capital and deliver a written AI R
 - Identification and prioritization of automation opportunities, ranked by ease of implementation and impact
 - An AI Roadmap document with written recommendations and expected ROI for each opportunity
 
-**Format:** Up to two to three working sessions — an intro call, a discovery session, and a session to walk through the completed Roadmap.
+**Format:**  2 to 4 working sessions — an intro call, 1-2 discovery sessions, and a session to walk through the completed Roadmap.
 
 **Deliverable:** Written AI Roadmap document, delivered digitally.
 
