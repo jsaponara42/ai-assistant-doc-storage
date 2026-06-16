@@ -1,5 +1,5 @@
 # Call Brief — Maycomb Capital
-**Date:** TBD
+**Date:** 2026-06-16
 **Industry:** Impact investing / private credit (fund manager)
 
 ---
