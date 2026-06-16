@@ -23,7 +23,6 @@ Alternative asset manager / fund manager operating a management company structur
 - **Headcount:** 12 full-time people.
 - **Corporate structure:** Four limited partnership vehicles (the funds), one single-member LLC, and a two-member LLC that serves as the management company / operating business. Business matters are run through the operating company for operational and financial simplicity; expenses and revenue are generated primarily by the fund entities and a little by the single-member LLC.
 - **Principal contact for this engagement:** Ariella Rotenberg, COO/CFO *(inferred from context — she speaks to AP runs, budget-to-actuals, and cash management with CFO-level ownership)*. Email: arotenberg@maycombcapital.com.
-> ⚠️ NEEDS INPUT: Confirm Ariella's exact title (COO, CFO, or combined COO/CFO) and headquarters address / main phone.
 - **Connection source:** Introduced by Barry Porozni (mutual connection, also does Maycomb's IT).
 > ⚠️ NEEDS INPUT: Barry's company/role beyond "does their IT" — full title and whether he's internal or a vendor.
 
