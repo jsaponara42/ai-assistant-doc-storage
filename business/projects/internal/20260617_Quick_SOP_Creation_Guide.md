@@ -6,13 +6,17 @@ ai: claude
 status: ok
 ---
 
+# Quick SOP Creation Guide
+
+*A Blue Tusk LLC resource — practical automation for small businesses and law firms.*
+
 ## Summary
 
-A simple, repeatable method for creating a Standard Operating Procedure (SOP) quickly by recording yourself walking through a workflow, then using an AI tool to clean it up into a polished document. The goal is an SOP detailed enough that someone could step in and take over the role end-to-end — and a clear-enough record of the process to spot automation potential.
+A simple, repeatable method for creating a Standard Operating Procedure (SOP) quickly: record yourself walking through a workflow, then let an AI tool clean it up into a polished document. The goal is an SOP detailed enough that someone could step in and take over the role end-to-end — and a clear-enough record of the process to spot automation potential.
 
 ## Context
 
-SOPs are the foundation for finding automation opportunities: you can't automate a process you haven't documented. Writing an SOP from a blank page is slow and people avoid it. Talking through a process out loud is fast and natural. This guide pairs voice transcription with an AI assistant so the heavy lifting — structuring, cleaning, and clarifying — happens automatically.
+SOPs are the foundation for finding automation opportunities: you can't automate a process you haven't documented. Writing an SOP from a blank page is slow, so people avoid it. Talking through a process out loud is fast and natural. This guide pairs voice transcription with an AI assistant so the heavy lifting — structuring, cleaning, and clarifying — happens automatically.
 
 You can use whichever AI tool is already in your stack — **ChatGPT, Claude, Gemini, or Microsoft Copilot** all work well for this. Use the one you already have access to and trust with your business context.
 
@@ -20,9 +24,24 @@ You can use whichever AI tool is already in your stack — **ChatGPT, Claude, Ge
 
 ### Step 1 — Set up transcription
 
-Open Microsoft Word and start the [Transcribe feature](https://support.microsoft.com/en-us/word/transcribe-your-recordings). This records your voice and converts it to text as you talk.
+Pick whichever transcription option fits your setup. The first is the most reliable; the rest are solid fallbacks.
 
-> **Tip:** Before you start recording, paste the bolded prompt from Step 3 at the top of your Word document. That way it's ready to go the moment you finish, and it reminds you of the level of detail to aim for while you talk.
+**Best option — Microsoft Word Transcribe**
+Open Microsoft Word and start the [Transcribe feature](https://support.microsoft.com/en-us/word/transcribe-your-recordings). It records your voice and converts it to text, and it handles longer recordings cleanly.
+
+**No Word? — Google Docs Voice Typing**
+Open a document in Google Docs (in Chrome) and go to **Tools → Voice typing**, then click the microphone. It's free and works well for live dictation. Note that it runs only in Chrome on desktop and stops listening after a short silence, so you may need to restart it during a long brain-dump.
+
+**Secondary option — built-in accessibility dictation (Windows & Apple)**
+Most computers have voice typing built in. It works in almost any text field, but it tends to miss some punctuation and formatting — which makes it a secondary choice, not a bad one. Just clean it up afterward (the AI will help with that too).
+
+- **Windows:** Click into any text field and press **Win + H** to open the voice typing toolbar. Turn on auto-punctuation from the toolbar's gear icon for cleaner results.
+- **Apple (Mac):** Enable dictation under **System Settings → Keyboard → Dictation**, then start it with the dictation shortcut (by default, pressing the microphone/Fn key). It types into any text field.
+
+**If you're more comfortable on your phone**
+You can use the voice typing/dictation feature on your phone's keyboard (the microphone icon on iPhone or Android). It's the least reliable of these options — expect more cleanup — but it works if that's where you'd rather talk.
+
+> **Tip:** Before you start recording, paste the bolded prompt from Step 3 at the top of your document. That way it's ready the moment you finish, and it reminds you of the level of detail to aim for while you talk.
 
 ### Step 2 — Talk through the entire workflow
 
@@ -58,3 +77,7 @@ Once the SOP reads cleanly and covers the whole process, save it to a document. 
 - Repeat this process for each core workflow in the role.
 - Where an SOP references another process, flag it as a future SOP to create.
 - Review completed SOPs for repetitive, rules-based steps — these are your strongest automation candidates.
+
+---
+
+*Built by **Blue Tusk LLC** — we help small businesses and law firms turn documented workflows into real, measurable automation. Found this useful? Share it. Want help acting on the automation potential you uncover? Reach out at [bluetuskllc.com](https://bluetuskllc.com).*
