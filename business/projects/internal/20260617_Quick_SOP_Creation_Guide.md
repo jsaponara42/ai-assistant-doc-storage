@@ -8,7 +8,7 @@ status: ok
 
 # Quick SOP Creation Guide
 
-*A Blue Tusk LLC resource — practical automation for small businesses and law firms.*
+*A Blue Tusk LLC resource — practical automation businesses.*
 
 ## Summary
 
@@ -58,17 +58,19 @@ As you go, be as detailed as possible about:
 
 The more specific you are here, the more useful the SOP — and the easier it becomes to spot steps worth automating.
 
-### Step 3 — Hand the transcript to your AI tool
+## Step 3 — Hand the transcript to your AI tool
 
 Once you've recorded the full workflow, open your AI assistant of choice (**ChatGPT, Claude, Gemini, or Copilot**) and paste in the prompt below along with your complete transcript:
 
 > I want to create an SOP for my role so that if someone needed to step in and take over my job in its entirety, they could do so. I am the **[your title]** at **[company name]**. I will provide you with context about my company and my role. You will ask me as many clarifying questions as needed. Assume that whoever is taking over my role understands the basics, but not any corporate jargon. If necessary, the SOP can point to other SOPs that I should create or may already exist.
 
-### Step 4 — Answer the AI's clarifying questions
+
+## Step 4 — Answer the AI's clarifying questions
 
 The AI will ask follow-up questions to fill gaps and remove ambiguity. Answer them until you're satisfied that the SOP is complete and accurate. This back-and-forth is where the document goes from "rough notes" to "someone could actually follow this."
 
-### Step 5 — Save the finished SOP
+
+## Step 5 — Save the finished SOP
 
 Once the SOP reads cleanly and covers the whole process, save it to a document. You now have a shareable SOP — and a clear map of the workflow you can review for automation opportunities.
 
@@ -80,4 +82,4 @@ Once the SOP reads cleanly and covers the whole process, save it to a document. 
 
 ---
 
-*Built by **Blue Tusk LLC** — we help small businesses and law firms turn documented workflows into real, measurable automation. Found this useful? Share it. Want help acting on the automation potential you uncover? Reach out at [bluetuskllc.com](https://bluetuskllc.com).*
+*Built by **Blue Tusk LLC** — we help businesses turn documented workflows into real, measurable automation. Found this useful? Share it. Want help acting on the automation potential you uncover? Reach out at [bluetuskllc.com](https://bluetuskllc.com).*
