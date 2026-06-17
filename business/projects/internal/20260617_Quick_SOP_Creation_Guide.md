@@ -42,7 +42,8 @@ You can use the voice typing/dictation feature on your phone's keyboard (the mic
 
 > **Tip:** Before you start recording, paste the bolded prompt from Step 3 at the top of your document. That way it's ready the moment you finish, and it reminds you of the level of detail to aim for while you talk.
 
-### Step 2 — Talk through the entire workflow
+
+## Step 2 — Talk through the entire workflow
 
 Dump everything. Don't worry about stutters, filler words, or "um"s — the AI will clean all of that up later. Just keep talking until the whole process is captured.
 
