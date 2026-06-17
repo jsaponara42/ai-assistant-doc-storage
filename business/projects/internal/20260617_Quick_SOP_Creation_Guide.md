@@ -20,9 +20,8 @@ SOPs are the foundation for finding automation opportunities: you can't automate
 
 You can use whichever AI tool is already in your stack — **ChatGPT, Claude, Gemini, or Microsoft Copilot** all work well for this. Use the one you already have access to and trust with your business context.
 
-## Content
 
-### Step 1 — Set up transcription
+## Step 1 — Set up transcription
 
 Pick whichever transcription option fits your setup. The first is the most reliable; the rest are solid fallbacks.
 
