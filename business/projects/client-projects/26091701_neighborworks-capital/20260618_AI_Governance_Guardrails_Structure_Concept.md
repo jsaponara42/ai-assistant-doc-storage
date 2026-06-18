@@ -16,6 +16,31 @@ status: needs-attention
 
 ---
 
+## Executive Summary
+*For leadership review and approval*
+
+NeighborWorks Capital is beginning a structured, deliberate approach to AI adoption. This document defines how that happens safely.
+
+The framework has four components:
+
+**1. A clear position on AI and jobs.** The organization's stated intent is to use AI to free staff from repetitive, low-value work and redirect that capacity toward higher-value priorities — growing the lending pipeline, deeper analysis, stronger borrower relationships. This position is communicated explicitly and repeatedly so staff can engage with the initiative honestly rather than defensively.
+
+**2. A channel for ideas and complaints.** Staff submit workflow frustrations through a low-barrier shared list — no justification required. A designated owner converts submissions into time or dollar estimates. Leadership reviews the prioritized backlog on a recurring cadence and decides what to act on. Nothing gets lost; nothing gets acted on without a decision.
+
+**3. A tiered system for safe experimentation.** Staff can explore AI freely as long as no real organizational data is involved — no approval, no barriers. As data sensitivity increases, so does the approval requirement. High-sensitivity work and anything client-facing requires sign-off from the Chief Risk Officer. A designated group of AI champions has a faster lane for early-stage experimentation, enabling grassroots discovery without exposing the organization to data risk.
+
+**4. A data and tool reference.** A single document tells any staff member exactly which tools are permitted for which types of data — and walks them through a step-by-step decision flowchart when the answer is not a simple yes or no. This replaces ad-hoc judgment calls with a consistent, documented standard.
+
+**What leadership is asked to approve:**
+- The principle that AI adoption is a capacity investment, not a headcount reduction — and the willingness to state this directly to staff.
+- The tiered framework as the governing structure for AI use across the organization.
+- The Chief Risk Officer as the sign-off authority for high-sensitivity and client-facing AI use.
+- A recurring review of the prioritized idea backlog at an existing leadership forum (cadence to be confirmed).
+
+The detailed structure behind each component follows in the sections below.
+
+---
+
 ## 0. The Premise: What This Is For
 
 Before any rules or tiers, the org needs a shared, explicit answer to the question sitting underneath all of this: **does AI take people's jobs, or does it give people back their time?**
