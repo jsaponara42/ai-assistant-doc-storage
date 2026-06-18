@@ -296,5 +296,6 @@ Leadership reviews the quantified idea backlog (from Section 1) on a recurring c
 
 1. Confirm the IT steering committee's actual meeting cadence, and whether the quarterly review attaches to it or needs a separate slot.
 2. Build the Data & Tool reference matrix once the full tech stack and each tool's data-handling terms are known.
+	1. Include coding tools like Claude code or replit
 3. Decide who owns quantifying submitted ideas day-to-day (proposed: Tiana, or the AI/automation function).
 4. Decide the specific mechanism/tool for the idea-submission list (Teams channel, SharePoint list, form, etc.) — should be whatever has the lowest friction for this team.
