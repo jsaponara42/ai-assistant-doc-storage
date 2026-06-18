@@ -87,12 +87,12 @@ This matrix is the single source of truth for what data can go into which tool. 
 
 ### Tool columns
 
-| Tool | What it is | Trains on your data? |
-|---|---|---|
-| Free / personal AI accounts | Any consumer-tier AI tool (ChatGPT free, Claude free, Gemini free, etc.) | **Yes** — never use with NWC data |
-| Microsoft Copilot (free) | The free-tier Copilot experience available to Microsoft 365 users | Unclear / not covered by enterprise terms — treat as risky |
-| Microsoft Copilot (paid) | The Microsoft 365 Copilot tenant managed by NWC | **No** — Microsoft enterprise terms exclude org data from training |
-| New / unevaluated tool | Any tool not yet reviewed and approved by the AI/automation owner | Unknown — must be evaluated before use with any NWC data |
+| Tool                        | What it is                                                               | Trains on your data?                                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| Free / personal AI accounts | Any consumer-tier AI tool (ChatGPT free, Claude free, Gemini free, etc.) | **Yes** — never use with NWC data                                                                                                 |
+| Microsoft Copilot (free)    | The free-tier Copilot experience available to Microsoft 365 users        | Unclear / not covered by enterprise terms — treat as risky                                                                        |
+| Microsoft Copilot (paid)    | The Microsoft 365 Copilot tenant managed by NWC                          | **No** — Microsoft enterprise terms exclude org data from training                                                                |
+| New / unevaluated tool      | Any tool not yet reviewed and approved by the AI/automation owner        | Unknown — must be evaluated before use with any NWC data. Enterprise agreements with Claude and ChatGPT don't train on your data. |
 
 ---
 
