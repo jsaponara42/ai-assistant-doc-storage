@@ -161,6 +161,7 @@ The engagement entered through "Barry," who introduced John-Carlos (owner of Blu
 - **Current Thinking:** Risk is currently controlled by locking down access to tools while use cases are still unclear.
 - **Reframe:** With defined use cases, an enclosed system, and clear data boundaries, AI can be enabled safely without signing away data rights. Rules-based automation is often the safer, deterministic answer over an LLM.
 - **Approach:** Tie every recommendation to expectations, ROI, and data protection; prefer enclosed tooling (Copilot) and rules-based solutions where appropriate; respect the existing AI policy. **Status: In progress** (ongoing constraint on the whole engagement).
+  → See `20260617_AI_Governance_Guardrails_Structure_Concept.md` for the proposed structure (tiered experimentation, idea-surfacing culture, data/tool reference, quarterly review).
 
 ### P-005 — No standard operating procedures / documented workflows
 - **Area:** Processes
@@ -207,6 +208,7 @@ The engagement entered through "Barry," who introduced John-Carlos (owner of Blu
 - **What it involves:** Define what data may be fed to which tool; confirm enclosed-system boundaries; build approval framing for the Chief Risk Officer.
 - **Key Result:** A clear, CRO-approved data-governance boundary for AI use.
 - **Timeline:** Foundational; runs across all workstreams.
+- **Proposed structure:** See `20260617_AI_Governance_Guardrails_Structure_Concept.md` — covers the capacity-not-headcount premise, an always-on idea/complaint pipeline, tiered experimentation (with a champion fast lane), the data/tool reference matrix, and a quarterly review folded into the IT steering committee.
 
 **Recommended sequence**
 1. Sign MSA (and SOW) — gates everything.
