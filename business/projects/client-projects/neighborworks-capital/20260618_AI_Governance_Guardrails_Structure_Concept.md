@@ -12,7 +12,7 @@ status: needs-attention
 
 > This is a structural concept for how NeighborWorks Capital can govern AI experimentation and adoption safely while still encouraging the team to surface ideas freely. It is designed to fit a risk-averse, finance-adjacent culture without slowing down the discovery of good use cases.
 >
-> Companion document: `20260617_NeighborWorks_Capital_Brief.md` (see Problem P-004 and Workstream D for how this fits into the overall engagement).
+> Companion document: [[20260617_NeighborWorks_Capital_Brief]] (see Problem P-004 and Workstream D for how this fits into the overall engagement).
 
 ---
 
