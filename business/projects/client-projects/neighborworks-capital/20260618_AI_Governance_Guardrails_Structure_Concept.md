@@ -79,11 +79,173 @@ Tiers are defined primarily by **what data is involved**, not by who's doing the
 
 ## 3. Data & Tool Reference (the operational backbone)
 
-A simple reference matrix — data types down one side, approved tools across the top, cells marked allowed / conditional / not allowed. This becomes the single source of truth that Tiers 2 and 3 check against, instead of re-deciding the same question every time a similar request comes up.
+This matrix is the single source of truth for what data can go into which tool. Check it before starting any AI-assisted task that involves real NWC data. Cells marked **Conditional** are followed by a flowchart that walks you through the approval decision step by step.
 
-This is also the direct answer to the question already raised internally about whether company data trains a third-party model — each tool's entry in the matrix should state plainly what happens to data put into it.
+**A note on data training:** "Free / personal AI accounts" covers any consumer-tier product — ChatGPT (free), Claude (free), Gemini (free), or similar. These tools train on user input by default and are **never permitted for any NWC data.** Microsoft 365 Copilot (paid, tenant-managed) does not train on organizational data by default — this is why it is the preferred tool for internal and borrower-related work.
 
-> ⚠️ To be built once the full technology stack and each tool's data-handling terms are confirmed (see open items in the main client brief).
+---
+
+### Tool columns
+
+| Tool | What it is | Trains on your data? |
+|---|---|---|
+| Free / personal AI accounts | Any consumer-tier AI tool (ChatGPT free, Claude free, Gemini free, etc.) | **Yes** — never use with NWC data |
+| Microsoft Copilot (free) | The free-tier Copilot experience available to Microsoft 365 users | Unclear / not covered by enterprise terms — treat as risky |
+| Microsoft Copilot (paid) | The Microsoft 365 Copilot tenant managed by NWC | **No** — Microsoft enterprise terms exclude org data from training |
+| New / unevaluated tool | Any tool not yet reviewed and approved by the AI/automation owner | Unknown — must be evaluated before use with any NWC data |
+
+---
+
+### The matrix
+
+**Key:** ✓ Allowed &nbsp;|&nbsp; ⚡ Conditional (see flowchart below) &nbsp;|&nbsp; ✗ Never allowed
+
+#### Group A — No real data (Tier 1 — anyone, no approval needed)
+
+> *Examples of data in this group:*
+> _(Add examples here — e.g. publicly available housing market statistics, made-up borrower names for testing, a draft email with no NWC-specific content)_
+
+| Data type | Free / personal AI | Copilot (free) | Copilot (paid) | New / unevaluated tool |
+|---|:---:|:---:|:---:|:---:|
+| Public information & general knowledge | ✓ | ✓ | ✓ | ⚡ |
+| Synthetic / made-up examples | ✓ | ✓ | ✓ | ⚡ |
+| Your own writing with no NWC content | ✓ | ✓ | ✓ | ⚡ |
+
+---
+
+#### Group B — Internal organizational data (Tier 1.5 for champions / Tier 2 for all staff)
+
+> *Examples of data in this group:*
+> _(Add examples here — e.g. NWC lending policy documents, internal meeting agendas, draft staff communications, procedure guides)_
+
+| Data type | Free / personal AI | Copilot (free) | Copilot (paid) | New / unevaluated tool |
+|---|:---:|:---:|:---:|:---:|
+| NWC policies & procedures | ✗ | ⚡ | ✓ | ✗ |
+| Internal drafts & working documents | ✗ | ⚡ | ✓ | ✗ |
+| Staff communications & meeting notes | ✗ | ⚡ | ✓ | ✗ |
+
+---
+
+#### Group C — Borrower-related data (Tier 2 → Tier 3 depending on use)
+
+> *Examples of data in this group:*
+> _(Add examples here — e.g. borrower organization names, credit memos stored in SharePoint, loan term sheets, draw request documentation, closing checklists)_
+
+| Data type | Free / personal AI | Copilot (free) | Copilot (paid) | New / unevaluated tool |
+|---|:---:|:---:|:---:|:---:|
+| Borrower names & identifying details | ✗ | ✗ | ⚡ | ✗ |
+| Credit memos & loan history (SharePoint) | ✗ | ✗ | ⚡ | ✗ |
+| Loan terms & financial conditions | ✗ | ✗ | ⚡ | ✗ |
+| Draw requests & closing documents | ✗ | ✗ | ⚡ | ✗ |
+
+---
+
+#### Group D — High-sensitivity data (Tier 3 — CRO sign-off required in all cases)
+
+> *Examples of data in this group:*
+> _(Add examples here — e.g. NWC's own audited financials, data being used as direct input to a credit decision, any output going to a borrower or external funder)_
+
+| Data type | Free / personal AI | Copilot (free) | Copilot (paid) | New / unevaluated tool |
+|---|:---:|:---:|:---:|:---:|
+| NWC's own financial data | ✗ | ✗ | ⚡ | ✗ |
+| Data entering a credit decision | ✗ | ✗ | ⚡ | ✗ |
+| Client-facing or external output | ✗ | ✗ | ⚡ | ✗ |
+
+---
+
+### Conditional flowcharts
+
+For every ⚡ Conditional cell in the matrix, follow the flowchart below that matches your situation. Work through each question top to bottom and stop when you reach an outcome.
+
+---
+
+#### FC-1: New / unevaluated tool — Group A data only (public / no real NWC data)
+
+**Q1. Are you a designated AI team member (champion)?**
+
+- **Yes →** You may use the tool for Tier 1 sandbox work only. No NWC data of any kind may be used. Log a brief note for the team on what you tried and what you found. ✓ Proceed.
+- **No →** Stick to approved tools (Copilot) for now. Flag the new tool to the AI/automation owner — if it looks promising it can go through evaluation. ✗ Stop.
+
+---
+
+#### FC-2: Microsoft Copilot (free tier) — Group B internal data
+
+**Q1. Are you a designated AI team member (champion)?**
+
+- **Yes →** Permitted as a Tier 1.5 experiment with low-sensitivity internal data only (policies, procedures, meeting notes — nothing borrower-related). Document what you tried and report findings back to the team. ✓ Proceed.
+- **No →** Use the paid Copilot tenant instead — it has the correct enterprise data controls. Free Copilot is not covered by NWC's Microsoft enterprise agreement. → Use paid Copilot.
+
+---
+
+#### FC-3: Microsoft Copilot (paid) — Group C, borrower names & identifiers
+
+**Q1. Is the output for internal use only?**
+*(i.e. an internal summary or draft note — not going to the borrower or any external party)*
+
+- **Yes →** Permitted at Tier 2. If you are unsure whether this specific use case has already been approved, check with the AI/automation owner before proceeding. ✓ Proceed.
+- **No →** This is Tier 3. A use-case write-up and CRO (Beth O'Leary) sign-off are required before proceeding. ✗ Stop — go to Tier 3 sign-off.
+
+---
+
+#### FC-4: Microsoft Copilot (paid) — Group C, credit memos & loan history
+
+**Q1. Are you a designated AI team member (champion)?**
+
+- **Yes →** Go to Q2.
+- **No →** This use case is not yet open to all staff. Raise it through the idea pipeline. If it has already been approved, the AI/automation owner can confirm. ✗ Stop.
+
+**Q2. Is the output for internal review only?**
+*(Not going to the borrower or any external party)*
+
+- **Yes →** Permitted at Tier 2 under the credit memo automation workstream. Use the approved Copilot tenant only. A qualified staff member must review the output before it is acted on. ✓ Proceed.
+- **No →** Tier 3 required. Submit a use-case write-up to Beth O'Leary covering: the task, data involved, tool used, pros and cons, and the fallback if the AI output is wrong. Wait for explicit written approval. ✗ Stop — go to Tier 3 sign-off.
+
+---
+
+#### FC-5: Microsoft Copilot (paid) — Group C, loan terms, financial conditions, draw requests & closing docs
+
+**Q1. Is this for internal drafting or summarisation only?**
+*(Output stays inside the organisation)*
+
+- **Yes →** Go to Q2.
+- **No →** Tier 3. Use-case write-up and CRO sign-off required before proceeding. ✗ Stop — go to Tier 3 sign-off.
+
+**Q2. Does the output feed directly into a credit decision?**
+*(i.e. it is used as supporting evidence, not just background reading)*
+
+- **Yes →** Tier 3 regardless of internal/external. Submit to Beth O'Leary. AI output must be reviewed and approved by a qualified staff member before it enters the decision record. ✗ Stop — go to Tier 3 sign-off.
+- **No →** Permitted at Tier 2 for internal drafting and background use. A qualified staff member must review the AI output before it is acted on. ✓ Proceed.
+
+---
+
+#### FC-6: Microsoft Copilot (paid) — Group D, all high-sensitivity data
+
+This data group requires Tier 3 sign-off in all cases. There is no conditional path to a lower tier.
+
+**Required steps before proceeding:**
+
+1. Write up the use case: the task, the data involved, the tool, the pros, the cons, and the fallback if the AI output is wrong.
+2. Confirm that the output will be reviewed by a qualified staff member before it is used.
+3. Submit the write-up to Beth O'Leary (Chief Risk Officer) and wait for explicit written approval.
+4. Do not proceed until approval is confirmed.
+
+✗ Stop — complete all four steps above before using AI with this data.
+
+---
+
+### Tier 3 sign-off: use-case write-up template
+
+When a flowchart directs you to Tier 3, submit this to the Chief Risk Officer before proceeding.
+
+| Field | Your answer |
+|---|---|
+| What is the task? | |
+| What data is involved? | |
+| Which tool will be used? | |
+| What are the benefits? | |
+| What are the risks or failure modes? | |
+| What is the fallback if the AI output is wrong? | |
+| Who will review the output before it is used? | |
 
 ---
 
