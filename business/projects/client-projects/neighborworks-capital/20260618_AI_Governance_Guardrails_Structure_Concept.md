@@ -98,7 +98,7 @@ This matrix is the single source of truth for what data can go into which tool. 
 
 ### The matrix
 
-**Key:** ✓ Allowed &nbsp;|&nbsp; ⚡ Conditional (see flowchart below) &nbsp;|&nbsp; ✗ Never allowed
+**Key:** ✓ Allowed ; ⚡ Conditional (see flowchart below); ✗ Never allowed
 
 #### Group A — No real data (Tier 1 — anyone, no approval needed)
 
