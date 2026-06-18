@@ -1,1 +1,0 @@
-One thing I think will be useful to ask is "What processes exist because they truly drive value for the business, and what exists only because it is the precursor, or the "
