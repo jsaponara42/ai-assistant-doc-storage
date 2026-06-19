@@ -18,7 +18,7 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** [[20260612_discovery-brief-capital-financing]] and the first intro call transcript. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
+> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript, and a 2026-06 ops call between Christy and Josh. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
 >
 > **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Fixes are not designed here.
 
@@ -48,6 +48,42 @@ status: needs-attention
 
 ---
 
+# Shared Sub-Layer — Intake Support
+
+**Confirmed via 2026-06 ops call (Christy + Josh).** This is not a sixth workflow — it's a shared resource layer that both Workflow 1 (pre-settlement) and Workflow 2 (case expense) draw on at their intake/docs steps. Mapped separately here because the canvas would otherwise show duplicate logic on both spines.
+
+**Roles in this layer:**
+- **Christy** — Intake & Underwriting lead. Owns the underwriting assessment for both workflows; the underwriting heuristic and tiering below is hers.
+- **Rayna** — Intake Lead, ~4 years tenure. Currently doing ~98% of the full pre-settlement approval workflow already (per Christy); only the final 2% — communicating the approval/denial decision to the firm — is held back from her.
+- **Leifert** — Intake support, ~3 years tenure. Same growth track as Rayna.
+- **Two VAs ($13/hr, contract)** — Hired specifically as intake document-collection support, separate from Rayna/Leifert. Onboarding ~4 weeks in at time of this call. Trained to do internet searches for child support records, bankruptcy discharge records, police reports, IDs, photos, and basic firm-provided information, then enter it into Mighty and Salesforce.
+- **Tammy** — Prospective part-time underwriter (10am–2pm M–F), interviewed but not yet vetted/approved to make underwriting decisions; status as of this call is undecided pending a 90-day probationary period. Wants underwriting only, not intake — Christy is resisting Howie's push to also use her for contracting, training, and case-expense onboarding calls, since those overlap with other people's roles (contracting = Yasmin's department; training = Christy's responsibility).
+
+### Sub-Step A — Document Collection (VA layer)
+- **In:** Case referred for funding (from W1 Step 1 or W2 Step 1); firm-provided basics.
+- **Out:** Collected supporting documents — internet-sourced (child support, bankruptcy discharge records) plus firm-sourced (police reports, IDs, photos) — entered into Mighty and Salesforce.
+- **Owner/System:** The two $13/hr VAs / manual research + Mighty + Salesforce data entry.
+- **⚠** Confirmed clunky: "a lot of steps... it's a little clunky" — manual, multi-system entry with no automation between research, Mighty, and Salesforce.
+- **⚠** This layer exists specifically *because* W1 (pre-settlement) volume has outgrown the core intake team's capacity — it's surge capacity, not a permanent staffing solution as currently scoped.
+
+### Sub-Step B — Underwriting Tiering (Christy's layer)
+- **In:** Assembled case file (post Sub-Step A); requested amount.
+- **Out:** Routed to the appropriate underwriting tier:
+  - **Tier 1 — Basic ($500–$2,000):** Simple formulaic cases — liability clear, accepted, policy limits and medicals straightforward. Currently being trained up to Rayna and Leifert as a growth pathway; costs the company effectively nothing per Howie's own framing ("why do I care if I lose $2,000").
+  - **Tier 2 — Complex / high-dollar:** Cases requiring judgment beyond the formula — this is where Christy and a future second underwriter (Tammy, if she works out) operate. Case-expense funding requests frequently run "way out of [Tier 1] range," sometimes into the hundreds of thousands.
+- **Owner/System:** Christy (all tiers, oversight); Rayna/Leifert (Tier 1, in training); Tammy (Tier 2, prospective, unvetted).
+- **Underwriting heuristic (confirmed):** Christy does not take attorney-provided case facts at face value — "it's not my job to always agree that the attorney is being truthful." Attorneys are financially incentivized to oversell cases since funding is non-recourse (firm keeps the money even if the case loses). Christy performs an assessment pass even on the "simple" tier rather than rubber-stamping attorney representations. This is the underwriting logic that was previously `[TO CONFIRM]` — it is judgment-based, held by Christy, not a documented scoring model.
+- **⚠ PO-001 still applies:** the *judgment* (vetting attorney claims) is Christy's alone; Tier 1 formulaic cases are now distributable to Rayna/Leifert, but Tier 2 complex judgment remains single-threaded through Christy pending Tammy's unproven status.
+
+### Sub-Step C — Case-Expense Onboarding Calls (sales-adjacent, currently broken)
+- **In:** New case-expense relationship with a law firm.
+- **Out:** Firm onboarded with a clear understanding of what Capital Financing needs submitted and how.
+- **Owner/System:** Sales team (Audrey and others) / in-person or call-based, no standard format. `[TO CONFIRM: is there a standard onboarding script/checklist, or is it fully ad hoc per consultant?]`
+- **⚠ Confirmed breakpoint, not previously documented:** Onboarding is inconsistent person-to-person — "whatever Audrey did in her in-person meeting with one law firm did not transition well." A contact at one firm who was never trained submitted 20 case-expense files in a single day, none formatted correctly, creating a 20-out/20-back-in rework loop between Capital Financing and the firm.
+- **⚠** Sales team is explicitly described as weak at these calls ("our sales team, they're not great at this. They're awful at having these calls") — proposed fix (having Tammy support onboarding calls) is unresolved as of this call.
+
+---
+
 # Workflow 1 — Plaintiff / Pre-Settlement Financing
 
 **Spine:** `Referral → Intake → Docs → Underwrite → Offer → Execute → Disburse → Track`
@@ -64,25 +100,30 @@ status: needs-attention
 ### Core Step 2 — Intake Collected
 - **In:** Plaintiff + case details. `[TO CONFIRM: required fields — plaintiff identity/contact, attorney/firm, case type, accident date, defendant/insurer, requested amount, est. settlement value, liens]`
 - **Out:** Completed intake packet. `[TO CONFIRM: format — emailed template, PDF, CRM record]`
-- **Owner/System:** `[TO CONFIRM]` / Emailed templates
+- **Owner/System:** Rayna / Leifert (intake team) handle the core packet; the two VAs handle document collection (see **Shared Sub-Layer — Intake Support, Sub-Step A**) / Emailed templates, then Mighty + Salesforce.
 - **⚠** Manual, template-driven; no validation; quality depends on sender.
+- **⚠ Confirmed (2026-06):** volume spikes break this step. A single untrained firm contact submitted 20 case files in one day with none formatted correctly — see Sub-Step C — triggering a 20-out/20-back-in rework loop. Pre-settlement *volume in* (inquiries, calls, voicemails, partial submissions) is meaningfully higher than *volume approved*, which is the only number currently tracked/reported — so intake load is undercounted at the leadership level.
 
 ### Core Step 3 — Case Docs Gathered
-- **In:** Supporting docs requested from firm. `[TO CONFIRM: which — police report, medical records, demand package, policy limits, representation confirmation]`
+- **In:** Supporting docs requested from firm. `[TO CONFIRM: which — police report, medical records, demand package, policy limits, representation confirmation]` Confirmed additions: child support records, bankruptcy discharge records, IDs, photos.
 - **Out:** Assembled underwriting file.
-- **Owner/System:** Underwriting (Christy) / `[TO CONFIRM: email, shared drive, Mighty]`
-- **⚠** `[TO CONFIRM: document chase / follow-up with firms a manual bottleneck?]`
+- **Owner/System:** The two $13/hr VAs (document collection, confirmed) under Christy's oversight / manual internet research + Mighty + Salesforce entry. See **Shared Sub-Layer — Intake Support, Sub-Step A**.
+- **⚠** Confirmed clunky multi-system process — research, then manual entry into both Mighty and Salesforce, no automation between them.
 
 ### Core Step 4 — Underwriting Assessment
-- **In:** Underwriting file; case merits; est. settlement value; existing liens.
-- **Out:** Decision (approve / decline / conditional) + approved advance amount. `[TO CONFIRM: criteria / scoring / checklist]`
-- **Owner/System:** Christy (Sr. Underwriter) / `[TO CONFIRM: Mighty, spreadsheet, judgment]`. `[TO CONFIRM: approval authority thresholds]`
-- **⚠** `[TO CONFIRM: logic documented or held in Christy's head]` — PO-001 single-point-of-failure.
+- **In:** Underwriting file; case merits; est. settlement value; existing liens; requested amount.
+- **Out:** Decision (approve / decline / conditional) + approved advance amount.
+- **Owner/System:** Tiered — see **Shared Sub-Layer — Intake Support, Sub-Step B**. Tier 1 ($500–$2,000, formulaic) routed to Rayna/Leifert (in training); Tier 2 (complex/high-dollar) held by Christy, with Tammy a prospective but unvetted second underwriter.
+- **Underwriting heuristic (confirmed):** Christy assumes attorney-provided facts may be incomplete or inaccurate and are financially incentivized to oversell cases (funding is non-recourse — firm keeps the advance even if the case loses); she performs an independent assessment rather than approving on attorney representation alone. Previously `[TO CONFIRM]`; now confirmed as judgment-based, not a documented scoring model.
+- **⚠** `[TO CONFIRM: approval authority thresholds for Tier 1 vs. Tier 2, formally]`
+- **⚠ New, confirmed breakpoint:** The CEO has personally intervened directly in live underwriting files — approving or attempting to approve funding before the attorney of record had signed off. This breaks the workflow at Core Step 5 (the attorney/plaintiff must approve funding — "attorneys want to approve the funding") and creates account-risk and team rework. Flagged in **Cross-Workflow Observations** below as a structural, not one-off, issue.
+- **⚠** PO-001 single-point-of-failure persists for Tier 2 (Christy alone) pending Tammy's probationary outcome.
 
 ### Core Step 5 — Offer / Agreement Issued
 - **In:** Approved amount + terms (fees terminate 12 mo, 1x max multiple, no compounding).
 - **Out:** Funding agreement sent to plaintiff/attorney for signature.
 - **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM: e-sign platform, emailed PDF]`
+- **⚠ Confirmed:** Attorney sign-off on funding is required before approval is finalized — this is the step the CEO's direct file intervention (Core Step 4 breakpoint) has bypassed, with account-loss risk as the explicit concern raised internally.
 
 ### Core Step 6 — Agreement Executed
 - **In:** Signed agreement returned. `[TO CONFIRM: attorney acknowledgment / lien letter required?]`
@@ -114,18 +155,19 @@ status: needs-attention
 - **In:** Firm requests case-expense funding on a matter. `[TO CONFIRM: channel; existing relationship vs. cold referral]`
 - **Out:** Case-expense opportunity. `[TO CONFIRM: CRM record created?]`
 - **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM]`
+- **⚠ Confirmed (2026-06):** This step depends on the firm having been properly onboarded first — see **Shared Sub-Layer — Intake Support, Sub-Step C**. Onboarding quality is inconsistent per-consultant, and a poorly onboarded firm contact produces malformed bulk submissions (e.g., 20 in a day) instead of clean individual requests.
 
 ### Core Step 2 — Case & Expense Details Collected
 - **In:** Case info + specific expenses. `[TO CONFIRM: required fields — matter identity, attorney, expense type(s), vendor(s), amounts, est. settlement value]`
 - **Out:** Funding request packet.
-- **Owner/System:** Underwriting / `[TO CONFIRM]`
-- **⚠** `[TO CONFIRM: likely same manual template intake as W1]`
+- **Owner/System:** Underwriting (Christy) / document collection support per **Shared Sub-Layer — Intake Support, Sub-Step A** where applicable.
+- **⚠** Same manual template intake pattern as W1 — confirmed, not just inferred. Case-expense requests are described as frequently "way out of [Tier 1] range," sometimes into the hundreds of thousands — meaning this step usually routes straight to Tier 2 complex underwriting (Christy), bypassing the Rayna/Leifert Tier 1 track entirely.
 
 ### Core Step 3 — Underwriting / Approval
 - **In:** Case merits; expense schedule; est. settlement value.
-- **Out:** Approval + approved amount per expense/vendor. `[TO CONFIRM: criteria, authority thresholds]`
-- **Owner/System:** Christy (Sr. Underwriter) / `[TO CONFIRM]`
-- **⚠** `[TO CONFIRM: documented criteria vs. judgment — PO-001 risk]`
+- **Out:** Approval + approved amount per expense/vendor.
+- **Owner/System:** Christy (Sr. Underwriter) — Tier 2 by default given typical case-expense dollar amounts. See **Shared Sub-Layer — Intake Support, Sub-Step B** for the underwriting heuristic (attorney claims are independently vetted, not taken at face value).
+- **⚠** `[TO CONFIRM: formal authority thresholds]` — PO-001 risk is more acute here than in W1, since case-expense amounts skew complex/high-dollar and stay with Christy rather than being distributable to Rayna/Leifert.
 
 ### Core Step 4 — Funding Agreement Issued
 - **In:** Approved terms (non-recourse, repayable at settlement).
@@ -218,6 +260,7 @@ status: needs-attention
 - **Out:** Follow-up attempts (calls/emails). `[TO CONFIRM: expected cadence — none currently defined]`
 - **Owner/System:** Consultant / `[TO CONFIRM: Salesforce activities, personal email/phone]`
 - **⚠** Consultants not following up on segmented lists; no activity minimums, no reporting cadence, no pipeline ownership.
+- **⚠ Confirmed (2026-06):** Case-expense onboarding calls specifically — a Workflow 4/Shared-Layer crossover point — are weak: "our sales team... they're awful at having these calls." This is a named, confirmed skill gap, not just a process gap. See **Shared Sub-Layer — Intake Support, Sub-Step C**.
 
 ### Core Step 4 — Pipeline Progression
 - **In:** Prospect responses; qualification.
@@ -236,6 +279,7 @@ status: needs-attention
 - **Out:** Lead marked converted (→ funding W1/W2), in-pipeline, or dead. `[TO CONFIRM: hand-off mechanism from closed sales lead into funding intake]`
 - **Owner/System:** Consultant / CEO / Salesforce.
 - **⚠** `[TO CONFIRM: the bridge from "sales closed" to "funding intake begins" is undocumented — likely the seam connecting W4 → W1/W2 in the Overall flow]`
+- **⚠ Confirmed seam detail:** For case-expense specifically, this close step now confirmed to flow into **Shared Sub-Layer Sub-Step C** (firm onboarding) before Workflow 2 Core Step 1 — onboarding quality at this hand-off directly determines whether the firm's future submissions are clean or become rework (see W2 Step 1 breakpoint).
 
 ---
 
@@ -280,14 +324,31 @@ status: needs-attention
 
 # Overall Workflow (Placeholder — to be strung together)
 
-Once each spine above is on the canvas, the **Overall** flow links them end-to-end. The likely connective seams (all `[TO CONFIRM]`):
+Once each spine above is on the canvas, the **Overall** flow links them end-to-end. The likely connective seams (all `[TO CONFIRM]` unless noted):
 
 `W5 Conference → W4 Sales Handling` — segmented event lists feed consultant follow-up (W5 Step 5 → W4 Step 1).
 `W3 Outbound → W4 Sales Handling` — interested replies should become tracked leads (W3 Step 4 → W4 Step 1). ⚠ link not confirmed today.
-`W4 Sales Handling → W1 / W2 Funding` — a closed firm/plaintiff triggers funding intake (W4 Step 6 → W1 Step 1 / W2 Step 1). ⚠ **the undocumented bridge** — the single most important seam to define.
+`W4 Sales Handling → Shared Sub-Layer Sub-Step C → W2 Funding` — **confirmed seam for case expense:** a closed firm relationship (W4 Step 6) leads to firm onboarding (Sub-Step C), and onboarding quality directly determines whether the firm's first W2 submission is clean or malformed.
+`W4 Sales Handling → W1 Funding` — the pre-settlement equivalent bridge remains **undocumented** — the single most important seam still to define for the plaintiff side.
 `W1 / W2 → (loop back)` — funded relationships feed referral thank-yous and repeat case-expense requests, reinforcing the stickier firm relationships.
 
-> Build note: the Overall spine is **not** a sixth workflow to map from scratch — it's the join of the five existing spines at these seams. Confirm each seam's actual hand-off mechanism before drawing the connectors.
+> Build note: the Overall spine is **not** a sixth workflow to map from scratch — it's the join of the five existing spines (plus the Shared Sub-Layer) at these seams. Confirm each seam's actual hand-off mechanism before drawing the connectors.
+
+---
+
+# Cross-Workflow Observations — Organizational Context
+
+These are not workflow steps. They're governance and management dynamics, confirmed via the 2026-06 ops call, that materially affect *how* the workflows above actually execute day to day. Recorded here because they explain several of the breakpoints already noted in the workflow steps, but they are not themselves automatable process — they're a management/authority layer the AI & automation plan needs to account for, not solve directly.
+
+1. **CEO direct intervention in live underwriting files.** Confirmed, recurring pattern (Christy: "he does this... every single time"): the CEO bypasses the underwriting and attorney-approval steps by entering files directly and attempting to approve funding before the attorney of record has signed off. This creates account-loss risk (attorneys may fire Capital Financing over unauthorized approvals), generates emotional/rework fallout across the team, and undermines the very underwriting structure (tiering, heuristic) documented in the Shared Sub-Layer above. This is the direct cause of the Core Step 4/5 breakpoint flagged in Workflow 1.
+
+2. **Volume is undercounted at the leadership level.** The CEO's volume metric tracks *approved* funding only. Christy's actual workload includes total *inbound* volume — emails, voicemails, calls, partial/incorrect submissions, and the rework loop from poorly onboarded firms — which is materially higher and growing into the firm's busy season. This mismatch is the root cause of recurring staffing disputes (see #3) and likely understates true operating load across Workflows 1, 2, and the Shared Sub-Layer.
+
+3. **Contested authority over intake/underwriting staffing decisions.** A recurring pattern, per Christy, of the CEO proposing a new hire (most recently Tammy) as a wholesale replacement for an existing staffing plan (the two VAs, and the Rayna/Leifert Tier 1 underwriting growth path) rather than as additive capacity — then reversing or denying prior commitments when challenged (e.g., disputing that Tier 1 underwriting training for Rayna/Leifert had ever been promised, twice). Christy frames this as a recurring pattern across multiple past hires, not a one-off. Net effect: staffing plans for the Shared Sub-Layer are unstable and subject to reversal outside the documented growth/tiering structure.
+
+4. **Unclear management authority outside the CEO/Christy reporting line.** A separate department (Yasmin's team, which includes contracting) operates partly outside Christy's ability to manage directly — attempts to manage Yasmin in the past resulted in informal escalation to Danielle (part-owner) and friction that affected Christy's working relationship with the CEO's circle. Danielle has independently made management decisions affecting Yasmin's team (e.g., promoting a team member to manager with an office) without consulting Christy or, per the call, without a clear documented process behind the decision. This is relevant context for any automation work that touches contracting or Yasmin's department, since the actual decision-making authority there is not where the org chart would suggest.
+
+5. **Net effect on the automation plan.** None of the above are workflow inefficiencies that automation fixes directly — they're authority and communication patterns that will determine whether any process change (tiering, onboarding scripts, CRM discipline, etc.) actually sticks once implemented. Worth surfacing explicitly in the opportunity map as a "process governance" risk alongside the technical opportunities, since a clean automated workflow can still be broken by ad hoc file intervention or reversed staffing decisions.
 
 ---
 
@@ -296,13 +357,17 @@ Once each spine above is on the canvas, the **Overall** flow links them end-to-e
 Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CRM mechanics).
 
 **Funding intake & underwriting (W1, W2)**
-- Exact required intake fields (plaintiff + case-expense)
-- Required supporting documents and how they're chased
+- Exact required intake fields (plaintiff + case-expense) — partially confirmed; format (CRM vs. email-only) still open
+- How supporting docs are chased when a firm is slow to respond
 - When a Salesforce record is created vs. email-only
-- Underwriting criteria/scoring — documented or judgment-based
-- Approval authority thresholds and sign-off
+- Formal Tier 1 vs. Tier 2 approval authority thresholds (heuristic confirmed; thresholds not)
 - Disbursement mechanics and system of record in Mighty
 - How settlement status and repayment are monitored
+
+**Shared Intake Support layer**
+- Standard onboarding script/checklist for case-expense firm onboarding calls — does one exist, or is it fully ad hoc per consultant?
+- Tammy's resolution: did the 90-day probationary period happen, and with what scope (underwriting only, per Christy's request)?
+- Whether the VA layer is intended to become permanent or is explicitly surge-only
 
 **Outbound cadence (W3)**
 - Prospect list source and who refreshes it
@@ -318,7 +383,7 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - Conference contact capture method and import path to Salesforce
 
 **Overall seams**
-- The hand-off from closed sales lead → funding intake (W4 → W1/W2)
+- The hand-off from closed sales lead → pre-settlement funding intake (W4 → W1) — still undocumented
 - Whether outbound replies (W3) connect to the CRM lead flow (W4)
 
 ---
