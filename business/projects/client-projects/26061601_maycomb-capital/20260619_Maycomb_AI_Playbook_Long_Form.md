@@ -25,7 +25,7 @@ You now have Claude (the enterprise version) available to the whole team. That's
 It's written for the people who'll actually use Claude day to day — not as a rulebook to memorize, but as a guide to three things:
 
 1. **How to experiment** without worrying you'll do something wrong.
-2. **What to check** before you point Claude at real Maycomb information.
+2. **When to slow down** and double-check what Claude gives you before you rely on it.
 3. **How to share** the stuff that works, so a good idea one person finds becomes something the whole team gets to use.
 
 The whole thing fits on a few pages on purpose. If a rule here ever feels heavier than the work it's protecting, that's a bug — tell the AI owner (more on that role below) and we'll fix it.
@@ -65,34 +65,39 @@ Two things make this list do double duty for Maycomb specifically:
 
 ---
 
-## 2. Two lanes for experimenting
+## 2. The question to ask before you trust an answer
 
-Whether you need anyone's sign-off comes down to one question: **are you using real Maycomb information, or not?**
+Claude is genuinely good, which is exactly where the risk hides. It produces a clean, confident, plausible-looking answer every time — including the times it's wrong. The danger isn't that Claude makes mistakes; it's that a mistake can look just as polished as the truth, and get trusted and acted on before anyone checks.
 
-That's it. Two lanes.
+So the one habit that matters most isn't about *what you put in* — it's about *how much you lean on what comes out.* Before you treat a Claude answer as fact, send it to someone, or drop it into real work, ask:
 
-### 🟢 Green lane — no real data. Just go.
+> **If this is wrong, what does it cost us? Do we lose a borrower's trust? Is there legal or financial exposure? Or is it no big deal?**
 
-If you're not putting any real Maycomb, borrower, fund, or investor information into Claude, you need **no permission and no process.** Go wild. This covers:
+That single question sorts everything into two buckets.
 
-- Learning how Claude works and what it's good at.
-- Public information and general questions.
-- Made-up or generic examples ("draft a template quarterly investor update for a fictional fund").
-- Your own writing that contains nothing Maycomb-specific.
+### 🟢 Low stakes — use it, with a sanity-check
 
-This is where you build skill and where the best ideas get discovered — cheaply, with zero cost to "failing." The more time the team spends here, the more good workflows surface. **Most of your experimenting should live in this lane.**
+If a wrong answer would be easy to catch and cheap to fix, go fast and lean on Claude freely. This is most of what you'll do:
 
-### 🟡 Real-data lane — using actual Maycomb information. Check first.
+- Drafts and first cuts you're going to read and edit anyway.
+- Brainstorming, summarizing, reformatting, explaining.
+- Internal notes where you'd notice an error before it mattered.
 
-The moment real Maycomb information is involved — a borrower's details, a real credit memo, the fund's actual numbers, anything headed to an investor — you're in the second lane. The rule here is simple and short:
+Give it the obvious once-over — does this look right? — and move on. No process, no sign-off. **Most of your work lives here, and that's the point — this is where the time savings come from.**
 
-- **Use the enterprise version of Claude only.** It's set up so your inputs aren't used to train the model. (See Section 4.)
-- **Never** put real Maycomb information into a free or personal AI account (free ChatGPT, free Claude, free Gemini, etc.). Those can learn from what you type.
-- **For the genuinely sensitive cases, loop in the AI owner first** — a quick check, not a formal review. "Sensitive" means things like: anything feeding a real credit decision, anything going outside the firm to a borrower or investor, or the fund's own financials. (Section 4 covers this; the full list gets finalized once we've confirmed your tools.)
+### 🟡 High stakes — you own it, not Claude
 
-That's the whole gate. Not four tiers, not a sign-off committee — just *"no real data → go"* and *"real data → use enterprise Claude, and check before the sensitive stuff."*
+The moment a wrong answer would actually hurt — a real credit decision, anything going to a borrower or investor, the fund's own numbers, anything that touches the firm's reputation, money, or legal standing — the rule is one sentence:
 
-> ⚠️ *Design note for JC: deliberately collapsed NeighborWorks' 4 tiers + CRO sign-off into 2 lanes. At 12 people with no compliance officer, tiers are theater. The "champion fast lane" also drops as a formal thing — at this size everyone's already in the fast lane.*
+> **You are accountable for what goes out. Claude drafted it; you're signing it.**
+
+That means a qualified person actually checks the substance — not skims it because it reads well — before it's trusted, acted on, or sent. Claude is a very fast assistant here, never the decision-maker. If you're not in a position to personally stand behind the output, it's not ready to leave your hands. When in doubt about whether something clears this bar, that's exactly the moment to loop in the AI owner.
+
+The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent.*
+
+**One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 4.)
+
+> ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
 
 ---
 
@@ -125,17 +130,17 @@ Once you've got a real stack of proven workflows and a clear sense of which ones
 
 The graduation path across the whole playbook, in one line:
 
-> **Gripe (§1) → experiment in the green lane (§2) → it works → capture as a Phase 1 Project/prompt (§3) → if it matters, package it as a SKILL (§3, Phase 2).**
+> **Gripe (§1) → try it low-stakes (§2) → it works → capture as a Phase 1 Project/prompt (§3) → if it matters, package it as a SKILL (§3, Phase 2).**
 
 ---
 
 ## 4. Which tools for which data
 
-The full version of this section is a simple reference: *what data is OK in which tool.* The core principle is already clear, and it's short:
+This section is about *where* real Maycomb information is allowed to go — a separate question from the "how much do I trust the output" gate in Section 2. The core principle is short:
 
 - **Enterprise Claude is the sanctioned tool for real Maycomb information.** It's configured so your inputs aren't used to train the model.
-- **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. Totally fine for green-lane / no-real-data work; never for the real thing.
-- **Pause and check with the AI owner when data is genuinely sensitive** — feeding a credit decision, going outside the firm, or the fund's own financials.
+- **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. Fine for low-stakes, no-real-data work; never for the real thing.
+- **The output still has to clear the Section 2 bar.** Using the right tool keeps the data safe; it does *not* make the answer correct. A high-stakes output drafted in enterprise Claude still needs a qualified person to own it before it's trusted or sent.
 
 > ⚠️ **NEEDS INPUT before this section can be finalized:** the full tool-by-data reference (and any decision flowchart for the in-between cases) gets built once we've confirmed Maycomb's actual stack — accounting/ERP, investor portal or CRM, document management, e-signature, and any other AI tools already in use. Until then this stays at the principle level on purpose, rather than inventing a matrix around tools we haven't verified you use. *(This is the one component intentionally left minimal pending stack confirmation.)*
 
@@ -168,7 +173,7 @@ This is written as a **role, not a person**, on purpose. The expectation is that
 You don't have to absorb all of this at once. Three things to actually do:
 
 1. **Add one gripe to the list.** The most annoying recurring task you can think of. That's the whole on-ramp.
-2. **Try one thing in the green lane.** Anything, as long as it's not real Maycomb data. Get a feel for it.
+2. **Try one thing with Claude.** Anything low-stakes — a draft, a summary, a question. Get a feel for it.
 3. **If something works, say so.** Tell the AI owner or drop it in the "prompts that work" doc. That's how it spreads.
 
 Everything else in here grows out of those three habits.
@@ -179,7 +184,7 @@ Everything else in here grows out of those three habits.
 
 1. **The premise (§0)** sets the tone — this is about getting time back, not cutting jobs.
 2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
-3. **The two lanes (§2)** let you act on curiosity safely, with real friction only where real data is involved.
+3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent.
 4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
 5. **The data reference (§4)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
 6. **The monthly look (§5)** is where the list actually turns into decisions.

@@ -21,21 +21,24 @@ status: needs-attention
 ## Do these three things
 
 1. **Annoyed by a task? Add it to the list.** No justification needed.
-2. **Experiment freely** — as long as it's not real Maycomb data.
+2. **Experiment freely** — lean on Claude for anything low-stakes.
 3. **Found something that works? Share it.**
 
 ---
 
-## The two lanes
+## Before you trust an answer, ask one thing
 
-| | 🟢 **Green lane** | 🟡 **Real-data lane** |
+> **If this is wrong, what does it cost us?** Reputation? Legal? Money? Or no big deal?
+
+Claude always sounds confident — including when it's wrong. That question sorts your work in two:
+
+| | 🟢 **Low stakes** | 🟡 **High stakes** |
 |---|---|---|
-| **When** | No real Maycomb data | Real borrower / fund / investor data |
-| **Examples** | Learning, public info, made-up examples, your own non-Maycomb writing | A real credit memo, actual fund numbers, anything going to an investor |
-| **What to do** | Just go. No permission, no process. | Use **enterprise Claude only**. Never a free/personal AI account. |
-| **Sensitive stuff** | — | Check with the AI owner first → credit decisions, anything client/investor-facing, the fund's own financials |
+| **Wrong answer would…** | be easy to catch, cheap to fix | actually hurt — trust, money, legal |
+| **Examples** | drafts, brainstorms, reformatting, internal summaries | a real credit call, anything to a borrower/investor, fund financials |
+| **What to do** | sanity-check it and go | **you own it** — verify before it's trusted or sent |
 
-**The test:** *Am I putting real Maycomb information into Claude?* No → go. Yes → enterprise Claude, check before the sensitive stuff.
+**High stakes = you're accountable, not Claude.** It drafted it; you're signing it. If you can't stand behind it, it's not ready to leave your hands. Unsure if something clears the bar? Ask the AI owner.
 
 ---
 
@@ -58,11 +61,11 @@ Nothing's too small or too ridiculous. Filtering happens later, not by you. *(Bo
 
 ---
 
-## Tools & data — the short rule
+## Tools & data — one separate rule
 
-- ✅ **Enterprise Claude** → OK for real Maycomb data (doesn't train on your inputs).
-- ❌ **Free / personal AI accounts** → never for real Maycomb data (they can learn from it). Fine for green-lane only.
-- ⏸️ **Sensitive data** → pause, check the AI owner. *(Full tool list to be finalized once the stack is confirmed.)*
+- ✅ **Real Maycomb data → enterprise Claude only** (it doesn't train on your inputs).
+- ❌ **Never a free / personal AI account** for real data — those can learn from it. Low-stakes, non-data work only.
+- ⚠️ Right tool keeps the data *safe* — it doesn't make the answer *correct*. The Section-above trust check still applies. *(Full tool list TBD once the stack is confirmed.)*
 
 ---
 
@@ -74,4 +77,4 @@ Nothing's too small or too ridiculous. Filtering happens later, not by you. *(Bo
 
 ---
 
-> **The flow, end to end:** gripe → try it in the green lane → it works → save it as a Project/prompt → if it matters, make it a SKILL.
+> **The flow, end to end:** gripe → try it low-stakes → it works → save it as a Project/prompt → if it matters, make it a SKILL.
