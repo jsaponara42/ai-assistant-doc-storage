@@ -29,7 +29,8 @@ status: needs-attention
 - **Core Step** — a node on the horizontal spine.
 - **→** — sequence / hand-off to the next step.
 - **In / Out** — data, document, or trigger consumed / produced by a step.
-- **Owner** — role responsible. **System** — where it happens.
+- **Owner** — role responsible. 
+- **System** — where it happens.
 - **`[TO CONFIRM]`** — not specified in source; verify next pass.
 - **⚠** — known breakpoint / friction in the current state.
 
@@ -37,13 +38,13 @@ status: needs-attention
 
 # Workflow Index
 
-| # | Workflow | Spine (core steps, left → right) | Final Deliverable |
-|---|----------|----------------------------------|-------------------|
-| 1 | Plaintiff / Pre-Settlement Financing | Referral → Intake → Docs → Underwrite → Offer → Execute → Disburse → Track | Funded advance to plaintiff |
-| 2 | Case Expense Financing | Request → Intake → Underwrite → Agreement → Execute → Pay Vendor → Track | Vendor paid / firm reimbursed |
-| 3 | Outbound Email & Social Cadence | Source List → Prepare → Send → Handle Replies → Thank-Yous → Social | Sent outreach + handled responses |
-| 4 | Sales Consultant Lead Handling | Lead In → Assign → Follow-Up → Progress → Log → Close | Worked lead logged in CRM |
-| 5 | Conference Marketing | Select Event → Attend → Capture → Segment → Assign Follow-Up | Segmented list handed to consultants |
+| #   | Workflow                             | Spine (core steps, left → right)                                           | Final Deliverable                    |
+| --- | ------------------------------------ | -------------------------------------------------------------------------- | ------------------------------------ |
+| 1   | Plaintiff / Pre-Settlement Financing | Referral → Intake → Docs → Underwrite → Offer → Execute → Disburse → Track | Funded advance to plaintiff          |
+| 2   | Case Expense Financing               | Request → Intake → Underwrite → Agreement → Execute → Pay Vendor → Track   | Vendor paid / firm reimbursed        |
+| 3   | Outbound Email & Social Cadence      | Source List → Prepare → Send → Handle Replies → Thank-Yous → Social        | Sent outreach + handled responses    |
+| 4   | Sales Consultant Lead Handling       | Lead In → Assign → Follow-Up → Progress → Log → Close                      | Worked lead logged in CRM            |
+| 5   | Conference Marketing                 | Select Event → Attend → Capture → Segment → Assign Follow-Up               | Segmented list handed to consultants |
 
 ---
 
