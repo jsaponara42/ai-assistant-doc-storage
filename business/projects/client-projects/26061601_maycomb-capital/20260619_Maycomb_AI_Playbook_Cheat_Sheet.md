@@ -40,6 +40,8 @@ Claude always sounds confident — including when it's wrong. That question sort
 
 **High stakes = you're accountable, not Claude.** It drafted it; you're signing it. If you can't stand behind it, it's not ready to leave your hands. Unsure if something clears the bar? Ask the AI owner.
 
+**New high-stakes use case?** Give the AI owner a heads-up *before* the first run — not for permission, just so someone's in the loop — and make that first run a proof run (check it against a known answer) together. Once proven, it's normal work. Repeat only if the use case changes a lot.
+
 ---
 
 ## The gripe list — 30 seconds, 3 things
@@ -71,7 +73,7 @@ Nothing's too small or too ridiculous. Filtering happens later, not by you. *(Bo
 
 ## The rhythm
 
-**Once a month, ~30 min:** the AI owner reviews the gripe list, sizes up each item, picks what to act on. Nothing sits forgotten.
+**Once a month, ~30 min:** the AI owner reviews the gripe list, sizes up each item, picks what to act on. Nothing sits forgotten. *(Also: takes the heads-up and runs the first proof run when a new high-stakes use case starts.)*
 
 **The AI owner** = a role, inherited by the incoming Director of Finance & Ops. *(Interim holder TBD until that hire lands.)*
 

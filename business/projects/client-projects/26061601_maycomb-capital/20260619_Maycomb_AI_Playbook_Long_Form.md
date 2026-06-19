@@ -93,11 +93,13 @@ The moment a wrong answer would actually hurt — a real credit decision, anythi
 
 That means a qualified person actually checks the substance — not skims it because it reads well — before it's trusted, acted on, or sent. Claude is a very fast assistant here, never the decision-maker. If you're not in a position to personally stand behind the output, it's not ready to leave your hands. When in doubt about whether something clears this bar, that's exactly the moment to loop in the AI owner.
 
-The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent.*
+**The one time to give the AI owner a heads-up first.** When you're about to use Claude for a *new* high-stakes use case — or one that's changed enough that it's effectively new — tell the AI owner before the first real run, not after. This isn't asking permission and it isn't a block; it's a heads-up so someone in the loop knows a sensitive workflow is starting. Then the **first run is a proof run, done together (or with the owner aware):** instead of relying on that first output, you check it against something you already know the answer to, or verify it fully by hand, to confirm the workflow actually holds up. Once it's proven that first time, it's just normal high-stakes work — own it and go, no heads-up needed each time. The trigger to repeat this is only if the use case materially changes again.
+
+The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent; new high-stakes use case → give the AI owner a heads-up and prove it once, together.*
 
 **One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 4.)
 
-> ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
+> ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Added a notify-and-prove-once step for new/materially-changed high-stakes use cases: heads-up to the owner first, first run done together as a proof run — deliberately a notification, not a sign-off gate. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
 
 ---
 
@@ -160,7 +162,7 @@ Monthly rather than quarterly, on purpose — during the current transition thin
 
 ## A note on who owns this — "the AI owner"
 
-Throughout this playbook, a few jobs point to **the AI owner**: triaging the gripe list, the quick check before sensitive real-data work, blessing a workflow as a standard SKILL, running the monthly look.
+Throughout this playbook, a few jobs point to **the AI owner**: triaging the gripe list, taking the heads-up (and running the first proof run) when someone starts a new high-stakes use case, blessing a workflow as a standard SKILL, running the monthly look.
 
 This is written as a **role, not a person**, on purpose. The expectation is that the **incoming Director of Finance & Operations inherits it** as part of that seat. That way the playbook still works the day after any one person leaves — which, given the current transition, is the entire point.
 
@@ -184,7 +186,7 @@ Everything else in here grows out of those three habits.
 
 1. **The premise (§0)** sets the tone — this is about getting time back, not cutting jobs.
 2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
-3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent.
+3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
 4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
 5. **The data reference (§4)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
 6. **The monthly look (§5)** is where the list actually turns into decisions.
