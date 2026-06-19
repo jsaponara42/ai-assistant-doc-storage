@@ -18,7 +18,7 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** Discovery Brief (2026-06-12) and the first intro call transcript. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
+> **Source basis.** [[20260612_discovery-brief-capital-financing]] and the first intro call transcript. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
 >
 > **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Fixes are not designed here.
 
