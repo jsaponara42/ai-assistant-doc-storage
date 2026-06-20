@@ -18,7 +18,7 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript, and a 2026-06 ops call between Christy and Josh. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
+> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript (Howie + John-Carlos), a 2026-06 ops call between Christy and Josh, and Christy's process-trunk roster. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
 >
 > **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Fixes are not designed here.
 
@@ -48,14 +48,38 @@ status: needs-attention
 
 ---
 
+# Process Trunks & Ownership (Christy's side)
+
+**Source: Christy's process-trunk roster.** These are the main operational trunks on the funding/operations side of the business, with current staff ownership. The five workflow spines above are the *front-of-house* flow (how a case or lead comes in and gets funded); these trunks are the *back-of-house* operations that carry a funded deal through to repayment. Several trunks map directly onto the later Core Steps of Workflows 1 and 2 (which were previously `[TO CONFIRM]` for ownership) and are cross-referenced there.
+
+| Trunk | Owner(s) | Maps onto |
+| --- | --- | --- |
+| **Intake Support** | Rayna (intake lead); Alejandro | Shared Sub-Layer; W1/W2 Intake + Docs steps |
+| **Underwriting** | Christy (only) | Shared Sub-Layer Sub-Step B; W1 Step 4 / W2 Step 3 |
+| **Contracting** | Yasmin — with Audra, Chanel, Diana | W1 Steps 5–6 / W2 Steps 4–5 (agreement issue + execution) |
+| **Funding** | Danielle, Audra | W1 Step 7 / W2 Step 6 (disbursement / vendor payment) |
+| **Accounts Receivable** | Jalicia, Diana, Chanel (moved off Audra) | W1 Step 8 / W2 Step 7 (record-keeping + repayment tracking) |
+| **Collections** | Yasmin | Post-funding repayment recovery (not yet a mapped spine) |
+| **Payoffs** | Diana, Jalicia, Audra, Chanel, Yasmin | Settlement-time repayment resolution (not yet a mapped spine) |
+
+**Notes on the roster:**
+- **Underwriting is Christy alone** — confirms the PO-001 single-point-of-failure at the trunk level, not just within a single workflow step. Everything else has at least two people; underwriting has one.
+- **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. `[TO CONFIRM: is Leifert the same person as Alejandro under a different name, a separate person, or no longer in this seat? The ops-call references to Rayna/Leifert and the roster's Rayna/Alejandro need reconciling.]`
+- **Audra appears across four trunks** (Contracting, Funding, Payoffs) but was explicitly *removed* from Accounts Receivable. This matches the 2026-06 ops call's account of work being repeatedly taken off Audra. `[TO CONFIRM: is Audra overloaded, being narrowed deliberately, or being managed out of certain functions?]`
+- **Yasmin owns both Contracting and Collections** and also appears in Payoffs — a heavy concentration on the back end, and the same Yasmin who (per the ops call) sits partly outside Christy's direct management authority. Relevant to any automation touching contracting, collections, or payoffs.
+- **Two trunks — Collections and Payoffs — are not yet represented as workflow spines** above. They are post-funding repayment functions that the current five-workflow map does not cover. See the note in the Overall Workflow section.
+
+---
+
 # Shared Sub-Layer — Intake Support
 
 **Confirmed via 2026-06 ops call (Christy + Josh).** This is not a sixth workflow — it's a shared resource layer that both Workflow 1 (pre-settlement) and Workflow 2 (case expense) draw on at their intake/docs steps. Mapped separately here because the canvas would otherwise show duplicate logic on both spines.
 
 **Roles in this layer:**
 - **Christy** — Intake & Underwriting lead. Owns the underwriting assessment for both workflows; the underwriting heuristic and tiering below is hers.
-- **Rayna** — Intake Lead, ~4 years tenure. Currently doing ~98% of the full pre-settlement approval workflow already (per Christy); only the final 2% — communicating the approval/denial decision to the firm — is held back from her.
-- **Leifert** — Intake support, ~3 years tenure. Same growth track as Rayna.
+- **Rayna** — Intake Lead, ~4 years tenure, and owner of the **Intake Support** trunk. Currently doing ~98% of the full pre-settlement approval workflow already (per Christy); only the final 2% — communicating the approval/denial decision to the firm — is held back from her.
+- **Alejandro** — Intake support, on the Intake Support trunk with Rayna (per Christy's roster).
+- **Leifert** — named in the 2026-06 ops call as being trained up on Tier 1 underwriting alongside Rayna, ~3 years tenure. `[TO CONFIRM: Leifert does not appear on Christy's trunk roster (which lists Rayna + Alejandro for Intake); reconcile whether Leifert = Alejandro, a separate person, or no longer in seat.]`
 - **Two VAs ($13/hr, contract)** — Hired specifically as intake document-collection support, separate from Rayna/Leifert. Onboarding ~4 weeks in at time of this call. Trained to do internet searches for child support records, bankruptcy discharge records, police reports, IDs, photos, and basic firm-provided information, then enter it into Mighty and Salesforce.
 - **Tammy** — Prospective part-time underwriter (10am–2pm M–F), interviewed but not yet vetted/approved to make underwriting decisions; status as of this call is undecided pending a 90-day probationary period. Wants underwriting only, not intake — Christy is resisting Howie's push to also use her for contracting, training, and case-expense onboarding calls, since those overlap with other people's roles (contracting = Yasmin's department; training = Christy's responsibility).
 
@@ -122,24 +146,24 @@ status: needs-attention
 ### Core Step 5 — Offer / Agreement Issued
 - **In:** Approved amount + terms (fees terminate 12 mo, 1x max multiple, no compounding).
 - **Out:** Funding agreement sent to plaintiff/attorney for signature.
-- **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM: e-sign platform, emailed PDF]`
+- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / `[TO CONFIRM: e-sign platform, emailed PDF]`
 - **⚠ Confirmed:** Attorney sign-off on funding is required before approval is finalized — this is the step the CEO's direct file intervention (Core Step 4 breakpoint) has bypassed, with account-loss risk as the explicit concern raised internally.
 
 ### Core Step 6 — Agreement Executed
 - **In:** Signed agreement returned. `[TO CONFIRM: attorney acknowledgment / lien letter required?]`
 - **Out:** Fully executed funding agreement.
-- **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM]`
+- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / `[TO CONFIRM: system]`
 
 ### Core Step 7 — Disbursement
 - **In:** Executed agreement; plaintiff payment details.
 - **Out:** Funds disbursed; advance recorded against the case.
-- **Owner/System:** `[TO CONFIRM: finance/ops]` / Mighty `[TO CONFIRM]`
+- **Owner/System:** **Funding trunk** — Danielle, Audra / Mighty `[TO CONFIRM: payment rails / method]`
 - **⚠** Mighty is static, no API, no Salesforce integration — funding records don't flow to the CRM.
 
 ### Core Step 8 — Record-Keeping & Repayment Tracking
 - **In:** Funded terms; settlement timeline.
 - **Out:** Advance tracked to settlement; repayment recovered at settlement. `[TO CONFIRM: how settlement status is monitored, by whom]`
-- **Owner/System:** `[TO CONFIRM]` / Mighty `[TO CONFIRM]`
+- **Owner/System:** **Accounts Receivable trunk** — Jalicia, Diana, Chanel / Mighty `[TO CONFIRM]`. Settlement-time repayment resolution runs through the **Payoffs trunk** (Diana, Jalicia, Audra, Chanel, Yasmin); overdue recovery escalates to the **Collections trunk** (Yasmin). See Process Trunks table.
 
 ---
 
@@ -172,23 +196,23 @@ status: needs-attention
 ### Core Step 4 — Funding Agreement Issued
 - **In:** Approved terms (non-recourse, repayable at settlement).
 - **Out:** Case-expense agreement sent to firm.
-- **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM]`
+- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / `[TO CONFIRM: system]`
 
 ### Core Step 5 — Agreement Executed
 - **In:** Signed agreement returned from firm.
 - **Out:** Executed agreement authorizing disbursement.
-- **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM]`
+- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / `[TO CONFIRM: system]`
 
 ### Core Step 6 — Vendor Payment / Firm Reimbursement
 - **In:** Executed agreement; vendor invoices / firm expense docs. `[TO CONFIRM: how invoices are received and verified]`
 - **Out:** Payment to vendor directly, or reimbursement to firm.
-- **Owner/System:** `[TO CONFIRM: finance/ops]` / Mighty `[TO CONFIRM]`
+- **Owner/System:** **Funding trunk** — Danielle, Audra / Mighty `[TO CONFIRM: payment rails / method]`
 - **⚠** Mighty isolation — no automated flow of payment data to CRM or firm-relationship records.
 
 ### Core Step 7 — Record-Keeping & Repayment Tracking
 - **In:** Funded expense amounts; settlement timeline.
 - **Out:** Expenses tracked to settlement; repayment recovered at settlement.
-- **Owner/System:** `[TO CONFIRM]` / Mighty `[TO CONFIRM]`
+- **Owner/System:** **Accounts Receivable trunk** — Jalicia, Diana, Chanel / Mighty `[TO CONFIRM]`. Settlement-time resolution via the **Payoffs trunk**; overdue recovery via **Collections** (Yasmin). See Process Trunks table.
 
 ---
 
@@ -334,6 +358,12 @@ Once each spine above is on the canvas, the **Overall** flow links them end-to-e
 
 > Build note: the Overall spine is **not** a sixth workflow to map from scratch — it's the join of the five existing spines (plus the Shared Sub-Layer) at these seams. Confirm each seam's actual hand-off mechanism before drawing the connectors.
 
+**Post-funding tail not yet mapped as spines.** Christy's trunk roster surfaces two operational functions that sit *after* W1 Step 8 / W2 Step 7 and are not yet drawn as workflow spines:
+- **Payoffs** (Diana, Jalicia, Audra, Chanel, Yasmin) — resolving repayment at settlement.
+- **Collections** (Yasmin) — recovering overdue/at-risk repayments.
+
+These likely warrant their own spine — call it **Workflow 6 — Repayment / Payoffs / Collections** — once mapped, since they're where the money actually comes back and where revenue leakage would show up. `[TO CONFIRM: trigger (settlement notice?), steps, systems, and how a case moves from AR → Payoffs → Collections.]`
+
 ---
 
 # Cross-Workflow Observations — Organizational Context
@@ -361,8 +391,14 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - How supporting docs are chased when a firm is slow to respond
 - When a Salesforce record is created vs. email-only
 - Formal Tier 1 vs. Tier 2 approval authority thresholds (heuristic confirmed; thresholds not)
-- Disbursement mechanics and system of record in Mighty
-- How settlement status and repayment are monitored
+- Disbursement mechanics and system of record in Mighty (Funding trunk owners now known: Danielle, Audra)
+- How settlement status and repayment are monitored (AR trunk owners now known: Jalicia, Diana, Chanel)
+
+**Process trunks & roster reconciliation**
+- Reconcile Leifert (ops call) vs. Alejandro (roster) for the Intake Support trunk — same person, separate, or vacated seat?
+- Audra's load: she's across Contracting, Funding, and Payoffs but was removed from AR — overloaded, being narrowed, or managed out?
+- Map the post-funding tail (Payoffs, Collections) as Workflow 6: trigger, steps, systems, AR → Payoffs → Collections hand-offs
+- Confirm e-sign/contracting system used by the Contracting trunk (Yasmin's team)
 
 **Shared Intake Support layer**
 - Standard onboarding script/checklist for case-expense firm onboarding calls — does one exist, or is it fully ad hoc per consultant?
