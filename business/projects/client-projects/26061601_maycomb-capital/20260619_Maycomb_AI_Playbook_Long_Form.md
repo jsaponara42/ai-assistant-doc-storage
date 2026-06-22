@@ -195,9 +195,10 @@ Everything else in here grows out of those three habits.
 
 ## Open items (for JC / Maycomb, not the team-facing version)
 
-1. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
-2. Confirm Maycomb's full tool stack so Section 4 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
-3. Confirm whether the monthly review can attach to an existing meeting.
-4. Confirm interim AI-owner arrangement until the Director of Finance & Ops is hired.
-5. Decide final altitude/voice once JC reviews — this draft leans warm and team-facing per the brief.
-6. Branding pass: apply Blue Tusk palette/typography when this moves from markdown to a styled HTML/PDF/slide deliverable.
+1. Add a "when to use which model and when" section. To increase speed and reduce cost
+2. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
+3. Confirm Maycomb's full tool stack so Section 4 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
+4. Confirm whether the monthly review can attach to an existing meeting.
+5. Confirm interim AI-owner arrangement until the Director of Finance & Ops is hired.
+6. Decide final altitude/voice once JC reviews — this draft leans warm and team-facing per the brief.
+7. Branding pass: apply Blue Tusk palette/typography when this moves from markdown to a styled HTML/PDF/slide deliverable.
