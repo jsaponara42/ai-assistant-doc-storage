@@ -20,7 +20,7 @@ status: needs-attention
 
 ## What this is
 
-You now have Claude (the enterprise version) available to the whole team. That's the hard part done. This playbook is the short answer to the next question: *now what?*
+You now have Claude (the enterprise version) available to the whole team. That's the first step done. This playbook is the short answer to the next question: *now what?*
 
 It's written for the people who'll actually use Claude day to day — not as a rulebook to memorize, but as a guide to three things:
 
@@ -34,7 +34,7 @@ The whole thing fits on a few pages on purpose. If a rule here ever feels heavie
 
 ## 0. The one idea underneath all of this
 
-You were hired because you're good at what you do. And yet a real share of the week probably goes to work that doesn't need much of that talent — tracking which fund a legal bill belongs to, rebuilding the same invoice every quarter, hand-checking a budget variance line by line. Necessary work. Just not the work you're actually here for.
+You were hired because you're good at what you do. And yet a real share of the week probably goes to work that doesn't need much of that talent. It's necessary work. Just not the work you're actually here for.
 
 That's the point of bringing Claude in. **Not to remove the person doing the task — to remove the part of the task that wastes the person.** The hours you get back go toward the things only a person can do: judgment, relationships, the analysis that actually moves a fund forward.
 
