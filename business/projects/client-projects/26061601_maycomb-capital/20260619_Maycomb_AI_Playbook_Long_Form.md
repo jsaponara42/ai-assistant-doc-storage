@@ -107,7 +107,7 @@ The whole gate, in one line: *low stakes → use it and sanity-check; high stake
 
 This is the part that turns one person's lucky find into something the whole team owns.
 
-Here's the failure mode we're heading off: someone figures out a genuinely great way to get Claude to draft the quarterly borrower invoice. They use it. It saves them an hour every quarter. And **nobody else ever finds out** — so the other eleven of you keep doing it the slow way, or worse, each invent your own slightly different version. Multiply that across every task and the team fragments into a dozen private workflows.
+Here's the failure mode we're heading off: someone figures out a genuinely great way to get Claude to draft a common document. They use it. It saves them an hour every quarter. And **nobody else ever finds out** — so the other eleven of you keep doing it the slow way, or worse, each invent your own slightly different version. Multiply that across every task and the team fragments into a dozen private workflows.
 
 The fix is a simple loop: **find it → standardize it → share it.**
 
@@ -141,7 +141,7 @@ The graduation path across the whole playbook, in one line:
 This section is about *where* real Maycomb information is allowed to go — a separate question from the "how much do I trust the output" gate in Section 2. The core principle is short:
 
 - **Enterprise Claude is the sanctioned tool for real Maycomb information.** It's configured so your inputs aren't used to train the model.
-- **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. Fine for low-stakes, no-real-data work; never for the real thing.
+- **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. With the Enterprise Claude subscription, the only reason you'd ever need to use a different account is image generation.
 - **The output still has to clear the Section 2 bar.** Using the right tool keeps the data safe; it does *not* make the answer correct. A high-stakes output drafted in enterprise Claude still needs a qualified person to own it before it's trusted or sent.
 
 > ⚠️ **NEEDS INPUT before this section can be finalized:** the full tool-by-data reference (and any decision flowchart for the in-between cases) gets built once we've confirmed Maycomb's actual stack — accounting/ERP, investor portal or CRM, document management, e-signature, and any other AI tools already in use. Until then this stays at the principle level on purpose, rather than inventing a matrix around tools we haven't verified you use. *(This is the one component intentionally left minimal pending stack confirmation.)*
