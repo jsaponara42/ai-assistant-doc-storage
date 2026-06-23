@@ -75,6 +75,16 @@ Don't leave it parked on the most powerful model out of habit — slower and pri
 
 ---
 
+## Claude Code & Cowork — disabled by default
+
+These tools take real-world actions (executing code, modifying files, automating your machine). A mistake isn't just a wrong answer — it's a change that's already happened.
+
+> **Both are disabled at the org level through Claude's enterprise admin controls. You can't access them until the AI owner approves a use case and enables access.**
+
+One approval per use case — not per session. Once cleared, access stays on unless the use case changes significantly. When you bring a use case, know: what it'll do, what it'll touch, and what undo looks like.
+
+---
+
 ## Tools & data — one separate rule
 
 - ✅ **Real Maycomb data → enterprise Claude only** (it doesn't train on your inputs).

@@ -97,7 +97,7 @@ That means a qualified person actually checks the substance — not skims it bec
 
 The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent; new high-stakes use case → give the AI owner a heads-up and prove it once, together.*
 
-**One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 5.)
+**One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 6.)
 
 > ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Added a notify-and-prove-once step for new/materially-changed high-stakes use cases: heads-up to the owner first, first run done together as a proof run — deliberately a notification, not a sign-off gate. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
 
@@ -161,7 +161,30 @@ A couple of practical notes:
 
 ---
 
-## 5. Which tools for which data
+## 5. Tools & access — Claude Code and Cowork
+
+The Claude you use every day in the chat interface is a conversational tool — you ask, it answers, you decide what to do with the output. **Claude Code** and **Claude Cowork** are different in kind, not just degree. They can take actions in the real world: executing code, writing and modifying files, running commands, automating tasks directly on your machine. That's genuinely useful, but it also means a mistake isn't just a wrong answer you can ignore — it can be a change that's already happened.
+
+For that reason, both tools are **disabled at the org level by default** — this isn't a policy on the honor system, it's enforced through Claude's enterprise admin controls (global toggle and group-based restrictions). You won't be able to access either tool until a use case has been approved.
+
+The process is simple:
+
+> **Bring a specific use case to the AI owner. Once approved, the AI owner enables access — either org-wide or for the relevant group — and you proceed.**
+
+The AI owner isn't evaluating whether you're trustworthy; they're making sure the use case is well-scoped, that someone understands what the tool will actually do, and that there's a plan if something needs to be reversed. Once a use case is approved, it's approved — access stays on and you don't re-clear it every time. The trigger to revisit is only if the use case changes significantly.
+
+What to bring to the AI owner when you have a use case:
+- **What you want the tool to do** — specifically, not just "automate some stuff."
+- **What it would touch** — which files, folders, systems, or processes.
+- **What "undo" looks like** — what happens if it goes wrong and how you'd recover.
+
+If you're not sure whether something counts as Claude Code or Cowork territory, a good heuristic: if it involves Claude *doing* something rather than *telling you* something, bring it to the AI owner first.
+
+> ⚠️ *Design note for JC: enforcement is at the admin level (global toggle + group-based restrictions in Claude enterprise), not just a policy norm. The playbook explains the why and the process; the admin controls do the enforcing. AI owner is both the approver and the person who flips the switch. Worth confirming with Barry which admin controls are currently configured and who holds the admin seat.*
+
+---
+
+## 6. Which tools for which data
 
 This section is about *where* real Maycomb information is allowed to go — a separate question from the "how much do I trust the output" gate in Section 2. The core principle is short:
 
@@ -173,7 +196,7 @@ This section is about *where* real Maycomb information is allowed to go — a se
 
 ---
 
-## 6. A 30-minute look, once a month
+## 7. A 30-minute look, once a month
 
 For the list in Section 1 to matter, someone has to actually look at it and decide what to do.
 
@@ -214,15 +237,16 @@ Everything else in here grows out of those three habits.
 3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
 4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
 5. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
-6. **The data reference (§5)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
-7. **The monthly look (§6)** is where the list actually turns into decisions.
+6. **Tools & access (§5)** keeps the higher-risk tools — Claude Code and Cowork — off by default until the AI owner approves a specific use case.
+7. **The data reference (§6)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
+8. **The monthly look (§7)** is where the list actually turns into decisions.
 
 ---
 
 ## Open items (for JC / Maycomb, not the team-facing version)
 
 1. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
-2. Confirm Maycomb's full tool stack so Section 5 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
+2. Confirm Maycomb's full tool stack so Section 6 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
 3. Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus), and any pre-set default, so Section 4 matches what the team sees.
 4. Confirm whether the monthly review can attach to an existing meeting.
 5. Confirm interim AI-owner arrangement until the Director of Finance & Ops is hired.
