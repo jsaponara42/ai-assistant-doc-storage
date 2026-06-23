@@ -63,6 +63,18 @@ Nothing's too small or too ridiculous. Filtering happens later, not by you. *(Bo
 
 ---
 
+## Which Claude to pick
+
+Don't leave it parked on the most powerful model out of habit — slower and pricier for no gain. Match it to the job:
+
+- 🟦 **Sonnet — default.** Smart + fast. Drafting, editing, summarizing, most everything. Unsure? Pick this.
+- ⚡ **Haiku — quick + cheap.** Simple, high-volume stuff: lookups, tagging, short rewrites.
+- 🧠 **Opus — heavy hitter.** Save for genuinely hard reasoning/analysis. Powerful but slower and costlier.
+
+> **Default to Sonnet · Haiku for simple bulk · Opus only when it's truly hard.** *("How hard" ≠ "how high-stakes" — a high-stakes but simple task still runs on Sonnet, just verify it.)*
+
+---
+
 ## Tools & data — one separate rule
 
 - ✅ **Real Maycomb data → enterprise Claude only** (it doesn't train on your inputs).

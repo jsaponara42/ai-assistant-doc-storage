@@ -97,7 +97,7 @@ That means a qualified person actually checks the substance — not skims it bec
 
 The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent; new high-stakes use case → give the AI owner a heads-up and prove it once, together.*
 
-**One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 4.)
+**One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 5.)
 
 > ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Added a notify-and-prove-once step for new/materially-changed high-stakes use cases: heads-up to the owner first, first run done together as a proof run — deliberately a notification, not a sign-off gate. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
 
@@ -136,7 +136,32 @@ The graduation path across the whole playbook, in one line:
 
 ---
 
-## 4. Which tools for which data
+## 4. Which Claude to use — Haiku, Sonnet, or Opus
+
+Inside your Claude instance you can pick which model answers you. They're named **Haiku**, **Sonnet**, and **Opus**, and they trade off speed, cost, and raw power. It's tempting to just leave it on the most powerful one all the time — but that's like taking a freight truck to pick up a coffee. Slower, more expensive, and no better at the actual errand. Matching the model to the job makes your work faster *and* keeps the firm's usage costs down.
+
+Here's the plain-English version:
+
+- **Sonnet — your default.** The balanced one: smart and fast, good for the large majority of what you'll do. Drafting, editing, summarizing, normal questions, working through a document. If you're not sure which to pick, pick Sonnet. Most people never need anything else.
+- **Haiku — the quick one.** Fastest and lightest. Reach for it when the task is simple and you're doing a lot of it: quick lookups, sorting or tagging a list, short straightforward rewrites, anything where you want an answer instantly and the work isn't subtle. Using Haiku for the easy, high-volume stuff keeps it instant and cheap.
+- **Opus — the heavy hitter.** The most capable and the most expensive to run. Save it for the genuinely hard things where the extra horsepower changes the answer: dense multi-step reasoning, untangling a complicated problem, careful analysis where being a bit sharper actually matters. Powerful, but overkill for everyday tasks — and noticeably slower and costlier, so don't leave everything parked on it out of habit.
+
+The one-line rule:
+
+> **Default to Sonnet. Drop to Haiku for simple, high-volume work. Step up to Opus only when the task is genuinely hard.**
+
+A couple of practical notes:
+
+- **This pairs with the trust check in Section 2.** A high-stakes task isn't automatically an Opus task — "how much it matters if it's wrong" (do I verify and own it?) is a separate question from "how hard is it to get right" (which model). A high-stakes but straightforward task can run on Sonnet and still get carefully checked by you.
+- **You can switch mid-task.** Start in Sonnet, and if it's clearly struggling with something genuinely hard, move up to Opus for that piece. You're not locked in.
+
+> ⚠️ *Design note for JC: written for the Claude.ai/enterprise app picker, not the API — so no $/token tables (the team can't see those and it's not their decision surface). Guidance is relative speed/cost/capability. Current app lineup as of writing: Haiku 4.5, Sonnet 4.6, Opus 4.8. Which models actually appear in their picker depends on the enterprise plan — worth confirming Maycomb's plan exposes all three before this ships, in case Haiku or Opus isn't available to them.*
+
+> ⚠️ *NEEDS INPUT: confirm which models Maycomb's enterprise plan actually surfaces in the picker (and whether any default is pre-set), so the three-way choice above matches what the team really sees.*
+
+---
+
+## 5. Which tools for which data
 
 This section is about *where* real Maycomb information is allowed to go — a separate question from the "how much do I trust the output" gate in Section 2. The core principle is short:
 
@@ -148,7 +173,7 @@ This section is about *where* real Maycomb information is allowed to go — a se
 
 ---
 
-## 5. A 30-minute look, once a month
+## 6. A 30-minute look, once a month
 
 For the list in Section 1 to matter, someone has to actually look at it and decide what to do.
 
@@ -188,16 +213,17 @@ Everything else in here grows out of those three habits.
 2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
 3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
 4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
-5. **The data reference (§4)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
-6. **The monthly look (§5)** is where the list actually turns into decisions.
+5. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
+6. **The data reference (§5)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
+7. **The monthly look (§6)** is where the list actually turns into decisions.
 
 ---
 
 ## Open items (for JC / Maycomb, not the team-facing version)
 
-1. Add a "when to use which model and when" section. To increase speed and reduce cost
-2. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
-3. Confirm Maycomb's full tool stack so Section 4 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
+1. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
+2. Confirm Maycomb's full tool stack so Section 5 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
+3. Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus), and any pre-set default, so Section 4 matches what the team sees.
 4. Confirm whether the monthly review can attach to an existing meeting.
 5. Confirm interim AI-owner arrangement until the Director of Finance & Ops is hired.
 6. Decide final altitude/voice once JC reviews — this draft leans warm and team-facing per the brief.
