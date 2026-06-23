@@ -58,7 +58,7 @@ You do **not** have to justify it. You don't have to prove it's worth automating
 
 Two things make this list do double duty for Maycomb specifically:
 
-- **It's also how we capture how the work actually gets done.** Every "I hate doing X" is a process worth writing down — which matters a lot right now, with Danielle and Ariella moving on. A gripe captured today is institutional knowledge that doesn't walk out the door.
+- **It's also how we capture how the work actually gets done.** Every "I hate doing X" is a process worth writing down. A gripe captured today is institutional knowledge that doesn't walk out the door.
 - **It's the front of the pipeline.** Everything in the rest of this playbook — the experiments, the shared SKILLS, the monthly review — starts from this list. No list, nothing to work from.
 
 > **Norm to set explicitly:** adding a complaint here is a *valued* act, not venting. Surfacing friction is the job, not a distraction from it.
