@@ -39,26 +39,26 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 - [ ] Should the fund administrator be looped into the engagement directly?
 
 **Process & SOPs**
-- [ ] Existing SOPs already drafted internally — requested from Maycomb, awaiting delivery
+- [x] Existing SOPs already drafted internally — **ANSWERED: 3 SOPs delivered (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Budget-to-actuals SOP still to be made.**
 
 **Technology stack**
-- [ ] Any other systems in use beyond Claude/Excel/GL — accounting/ERP platform name, investor portal or CRM for LP communications, document management for legal bills/contracts, e-signature tool for MSAs
+- [x] Any other systems in use — **ANSWERED: Affinity (CRM, replacing Salesforce), Slack, Teams (video), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint (fund admin), internal Excel loan servicing model**
 
 ### From: [[20260619_Maycomb_AI_Playbook_Long_Form]]
 
 - [x] Pick the lowest-friction home for the gripe/idea list (Claude Project, shared doc, Teams/Slack channel?)
 - [x] Confirm Maycomb's full tool stack so Section 6 (tools-by-data reference) can be built out — accounting/ERP, CRM/investor portal, document management, e-signature, other AI tools in use
-- [ ] Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus) and any pre-set default, so Section 4 matches what the team actually sees
-- [ ] Confirm whether the monthly review can attach to an existing recurring meeting (so it isn't a new standing ritual)
-- [ ] Confirm the interim AI-owner arrangement until the Director of Finance & Ops is hired (internal person, Barry, or Blue Tusk interim)
+- [x] Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus) and any pre-set default, so Section 4 matches what the team actually sees — **ANSWERED: all three confirmed available (Haiku, Sonnet, Opus)**
+- [x] Confirm whether the monthly review can attach to an existing recurring meeting — **ANSWERED: yes, bi-weekly Roadmap Meeting**
+- [x] Confirm the interim AI-owner arrangement until the Director of Finance & Ops is hired — **ANSWERED: Varenka (office manager)**
 - [ ] Decide final altitude/voice once JC reviews the draft (currently leans warm/team-facing)
 - [ ] Branding pass: apply Blue Tusk palette/typography when this moves from markdown to a styled HTML/PDF/slide deliverable
 - [ ] Confirm with Barry which Claude enterprise admin controls are currently configured (global toggle, group restrictions) and who holds the admin seat
 
 ### From: [[20260619_Maycomb_AI_Playbook_Cheat_Sheet]]]
 
-- [ ] Full tool list is TBD pending stack confirmation (ties to the Long Form stack question above)
-- [ ] Confirm who holds the interim "AI owner" role until the Director of Finance & Ops lands (ties to the Long Form interim-owner question above)
+- [x] Full tool list is TBD pending stack confirmation — **ANSWERED: Affinity, Slack, Teams (video only), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint, Excel loan servicing model**
+- [x] Confirm who holds the interim "AI owner" role — **ANSWERED: Varenka**
 
 ### From: [[20260616_SOW_Maycomb_Capital_AI_Roadmap]]
 
@@ -82,11 +82,12 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 - [ ] Walk through the quarterly borrower invoicing process — how amounts are derived from loan terms (P-002)
 - [ ] What does her manual deep review for the quarterly budget-to-actuals actually involve? (P-004)
 - [ ] Any SOPs she's already drafted, or can draft, before June 29
-- [x] Which other systems/tools she touches day-to-day (feeds the stack-confirmation question)
+- [x] Which other systems/tools she touches day-to-day — **ANSWERED (full stack confirmed, see above)**
 - [x] Where she'd put the gripe list so the team would actually use it
-- [ ] Outcome-data collection/validation from providers and government partners (her hands-on view)
+- [ ] Outcome-data collection/validation from providers and government partners — **NOT on Danielle's plate; reserve for Ariella / deal team**
 
 ## Next steps
-- Use the Danielle section as the live checklist on tomorrow's call.
-- Reserve the Ariella-specific items (advisory continuity, AP allocation rules, fund admin contact) for a session before July 10.
-- Check items off here as answers come in; promote anything that becomes a task into `tasks/`.
+- Danielle's call complete. See [[20260624_outstanding-questions-answered]] for all answers from the workflow deep-dive call.
+- Reserve remaining open items for Ariella session before July 10 (MSA signature is the highest priority — blocks SOW).
+- Confirm with Barry: Claude Enterprise admin config (who holds seat, what's toggled, shared mailbox setup).
+- Promote any task items into `tasks/`.
