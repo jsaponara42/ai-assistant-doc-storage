@@ -46,7 +46,7 @@ So when you read the rest of this, read it as an invitation, not a warning. The 
 
 **The single most useful habit this whole playbook asks of you: when something annoys you, write it down.**
 
-There's one shared list (⚠️ *NEEDS INPUT: pick the lowest-friction home for this — a Claude Project, a shared doc, a Teams/Slack channel, whatever the team already opens without thinking*). When a task irritates you, drop it on the list. That's it. Three things, thirty seconds:
+There's one shared list — **Slack** (confirmed by Danielle as the lowest-friction home for this; anonymous posting is available in Slack but not required — Danielle noted people should put their names on items so follow-up questions can be asked). When a task irritates you, drop it on the list. That's it. Three things, thirty seconds:
 
 - **What's the task or annoyance?**
 - **Roughly how often does it happen?**
@@ -155,9 +155,7 @@ A couple of practical notes:
 - **This pairs with the trust check in Section 2.** A high-stakes task isn't automatically an Opus task — "how much it matters if it's wrong" (do I verify and own it?) is a separate question from "how hard is it to get right" (which model). A high-stakes but straightforward task can run on Sonnet and still get carefully checked by you.
 - **You can switch mid-task.** Start in Sonnet, and if it's clearly struggling with something genuinely hard, move up to Opus for that piece. You're not locked in.
 
-> ⚠️ *Design note for JC: written for the Claude.ai/enterprise app picker, not the API — so no $/token tables (the team can't see those and it's not their decision surface). Guidance is relative speed/cost/capability. Current app lineup as of writing: Haiku 4.5, Sonnet 4.6, Opus 4.8. Which models actually appear in their picker depends on the enterprise plan — worth confirming Maycomb's plan exposes all three before this ships, in case Haiku or Opus isn't available to them.*
-
-> ⚠️ *NEEDS INPUT: confirm which models Maycomb's enterprise plan actually surfaces in the picker (and whether any default is pre-set), so the three-way choice above matches what the team really sees.*
+> *Design note for JC: written for the Claude.ai/enterprise app picker, not the API — so no $/token tables (the team can't see those and it's not their decision surface). Guidance is relative speed/cost/capability. Current app lineup as of writing: Haiku 4.5, Sonnet 4.6, Opus 4.8. **All three models confirmed available in Maycomb's enterprise plan.**_
 
 ---
 
@@ -180,7 +178,7 @@ What to bring to the AI owner when you have a use case:
 
 If you're not sure whether something counts as Claude Code or Cowork territory, a good heuristic: if it involves Claude *doing* something rather than *telling you* something, bring it to the AI owner first.
 
-> ⚠️ *Design note for JC: enforcement is at the admin level (global toggle + group-based restrictions in Claude enterprise), not just a policy norm. The playbook explains the why and the process; the admin controls do the enforcing. AI owner is both the approver and the person who flips the switch. Worth confirming with Barry which admin controls are currently configured and who holds the admin seat.*
+> *Design note for JC: enforcement is at the admin level (global toggle + group-based restrictions in Claude enterprise), not just a policy norm. The playbook explains the why and the process; the admin controls do the enforcing. AI owner is both the approver and the person who flips the switch. **Confirmed on the workflow deep-dive call (June 23–24):** JC recommended disabling Cowork and Claude Code by default at the org level for cybersecurity reasons; Barry affirmed. Still to confirm with Barry: who holds the admin seat and what is currently configured.*
 
 ---
 
@@ -192,7 +190,7 @@ This section is about *where* real Maycomb information is allowed to go — a se
 - **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. With the Enterprise Claude subscription, the only reason you'd ever need to use a different account is image generation.
 - **The output still has to clear the Section 2 bar.** Using the right tool keeps the data safe; it does *not* make the answer correct. A high-stakes output drafted in enterprise Claude still needs a qualified person to own it before it's trusted or sent.
 
-> ⚠️ **NEEDS INPUT before this section can be finalized:** the full tool-by-data reference (and any decision flowchart for the in-between cases) gets built once we've confirmed Maycomb's actual stack — accounting/ERP, investor portal or CRM, document management, e-signature, and any other AI tools already in use. Until then this stays at the principle level on purpose, rather than inventing a matrix around tools we haven't verified you use. *(This is the one component intentionally left minimal pending stack confirmation.)*
+> ⚠️ **NEEDS INPUT before this section can be finalized:** ~~the full tool-by-data reference (and any decision flowchart for the in-between cases) gets built once we've confirmed Maycomb's actual stack~~. **Stack now confirmed:** Claude (Enterprise), Excel/loan servicing model, LeverPoint (fund admin), Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. This section can now be built out into a full tool-by-data reference matrix. *(Enterprise Claude is the sanctioned tool for real Maycomb information; free/personal AI accounts are never for real Maycomb data.)*
 
 ---
 
@@ -204,7 +202,7 @@ Once a month, the AI owner spends about half an hour on the gripe list: rough ou
 
 Monthly rather than quarterly, on purpose — during the current transition things are moving fast, and a full quarter is too long to let a good idea or a painful gripe sit untouched. Once things settle, this can stretch out.
 
-> ⚠️ *NEEDS INPUT: confirm whether there's an existing recurring meeting this can attach to, so it doesn't become a new standing ritual.*
+**Confirmed venue:** this review attaches to Maycomb's existing **bi-weekly Roadmap Meeting** — no new standing ritual needed.
 
 ---
 
@@ -214,7 +212,7 @@ Throughout this playbook, a few jobs point to **the AI owner**: triaging the gri
 
 This is written as a **role, not a person**, on purpose. The expectation is that the **incoming Director of Finance & Operations inherits it** as part of that seat. That way the playbook still works the day after any one person leaves — which, given the current transition, is the entire point.
 
-> ⚠️ **Interim gap to close:** until the Director of Finance & Ops is hired, someone has to hold this role on a temporary basis — an internal person, Barry, or Blue Tusk on an interim basis. *(JC: this is a natural place to position the ongoing advisory retainer without baking Blue Tusk into the framework itself.)*
+**Interim holder confirmed: Varenka** (office manager), who is already taking over the AP run and being looped into broader operations. Danielle named Varenka as the point person until the Director of Finance & Ops is hired, with a target of the new analyst being fully onboarded by August.
 
 ---
 
@@ -245,10 +243,11 @@ Everything else in here grows out of those three habits.
 
 ## Open items (for JC / Maycomb, not the team-facing version)
 
-1. Pick the lowest-friction home for the gripe list (Claude Project, shared doc, Teams/Slack channel?).
-2. Confirm Maycomb's full tool stack so Section 6 can be built out (accounting/ERP, CRM/investor portal, doc management, e-signature, other AI tools in use).
-3. Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus), and any pre-set default, so Section 4 matches what the team sees.
-4. Confirm whether the monthly review can attach to an existing meeting.
-5. Confirm interim AI-owner arrangement until the Director of Finance & Ops is hired.
+1. ~~Pick the lowest-friction home for the gripe list~~ — **RESOLVED: Slack** (confirmed by Danielle).
+2. ~~Confirm Maycomb's full tool stack~~ — **RESOLVED:** Claude (Enterprise), Excel/loan servicing model, LeverPoint, Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. Section 6 can now be built out.
+3. ~~Confirm which models Maycomb's enterprise plan surfaces~~ — **RESOLVED: Haiku, Sonnet, and Opus all confirmed available.**
+4. ~~Confirm whether the monthly review can attach to an existing meeting~~ — **RESOLVED: bi-weekly Roadmap Meeting** (confirmed by Danielle).
+5. ~~Confirm interim AI-owner arrangement~~ — **RESOLVED: Varenka** (office manager) until the Director of Finance & Ops is hired.
 6. Decide final altitude/voice once JC reviews — this draft leans warm and team-facing per the brief.
 7. Branding pass: apply Blue Tusk palette/typography when this moves from markdown to a styled HTML/PDF/slide deliverable.
+8. Confirm with Barry: who holds the Claude Enterprise admin seat and what controls are currently configured. Cowork and Claude Code to be disabled by default — affirmed on call.

@@ -12,19 +12,19 @@ Alternative asset manager / fund manager operating a management company structur
 
 **Primary internal contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com
 > ⚠️ NEEDS INPUT: Ariella's phone and mobile.
-> ⚠️ NEEDS INPUT (task, not gap): Capture Ariella's personal/forwarding contact info before her July 10 departure to retain the relationship.
+> ⚠️ NEEDS INPUT (task, not gap): Capture Ariella's personal/forwarding contact info before her July 10 departure to retain the relationship. Ariella was out the week of the workflow deep-dive call (June 23–24) — follow up on return.
 
 ---
 
 ## 1. Client and Organization
 
 - **Name:** Maycomb Capital.
-> ⚠️ NEEDS INPUT: Confirm legal entity name(s) and any trade name, if different from "Maycomb Capital."
+> ⚠️ NEEDS INPUT: Confirm legal entity name(s) and any trade name, if different from "Maycomb Capital." *(Reserve for Ariella session.)*
 - **Headcount:** 12 full-time people.
 - **Corporate structure:** Four limited partnership vehicles (the funds), one single-member LLC, and a two-member LLC that serves as the management company / operating business. Business matters are run through the operating company for operational and financial simplicity; expenses and revenue are generated primarily by the fund entities and a little by the single-member LLC.
 - **Principal contact for this engagement:** Ariella Rotenberg, COO/CFO *(inferred from context — she speaks to AP runs, budget-to-actuals, and cash management with CFO-level ownership)*. Email: arotenberg@maycombcapital.com.
 - **Connection source:** Introduced by Barry Porozni (mutual connection, also does Maycomb's IT).
-> ⚠️ NEEDS INPUT: Barry's company/role beyond "does their IT" — full title and whether he's internal or a vendor.
+> ⚠️ NEEDS INPUT: Barry's exact title and contact details. Confirmed on the workflow deep-dive call (June 23–24): outside IT vendor (not internal staff). IT scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls — Barry affirmed the recommendation to disable Cowork and Claude Code by default at the org level.
 
 ---
 
@@ -32,7 +32,7 @@ Alternative asset manager / fund manager operating a management company structur
 
 Maycomb Capital is an alternative asset manager that lends to portfolio companies/borrowers through a multi-fund structure (four LP vehicles plus a single-member LLC), with a separate two-member LLC management company functioning as the operating business. The fund entities and single-member LLC generate the revenue and expenses; the management company runs all the business matters and pays the bills, requiring an internal cross-entity allocation system. Maycomb appears to operate in an impact or mission-aligned lending space — borrowers are tracked against outcome metrics tied to grants or government-linked reporting (self-reported by borrowers, with deal teams providing high-touch oversight, sometimes supplemented by outsourced tracking).
 
-Maycomb outsources core fund administration (fund accounting, AP run estimates, draft budget-to-actuals) to a third-party fund administrator, which the team describes as having become reliable ("almost always right now") after past turnover required restarting processes. Maycomb just stood up an enterprise Claude instance the week of this call, with a fresh, evolving set of internal usage guidelines — the engagement enters at the very beginning of Maycomb's formal AI adoption, before any strategic roadmap has been built around it.
+Maycomb outsources core fund administration (fund accounting, AP run estimates, draft budget-to-actuals) to **LeverPoint** (their fund administrator, also referred to as "Ultimis" interchangeably by the team). LeverPoint handles bank account access and payment execution — Maycomb has no direct bank access by design, as a cash control measure. The team describes LeverPoint as having become reliable after past turnover required restarting processes. Maycomb just stood up an enterprise Claude instance the week of this call, with a fresh, evolving set of internal usage guidelines — the engagement enters at the very beginning of Maycomb's formal AI adoption, before any strategic roadmap has been built around it.
 
 The business is in a leadership transition: both COO/CFO Ariella Rotenberg and Analyst Danielle Schweitzer are exiting within weeks of this call (see Section 4), creating urgency to document standard operating procedures before institutional knowledge leaves with them. The engagement entered via referral (Barry Porozni connecting John-Carlos to Maycomb) and is structured as a free, in-kind discovery/diagnostic engagement, with the expectation of a paid scope of work if it expands beyond the initial engagement.
 
@@ -65,36 +65,40 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 
 ### Danielle Schweitzer — Analyst
 - **Working Style:** Hands-on, detail-driven; manually executes the legal bill tracking and quarterly borrower invoicing in Excel. Candid about pain points ("pile it on") and motivated to document/automate processes before she leaves so successors don't inherit the same grind.
-- **Tenure / Transition:** Last full-time day confirmed as June 29. Part-time through July and August.
+- **Tenure / Transition:** Last full-time day is **Monday June 30** (corrected from June 29). Part-time through July and August, then intends to stay involved in this engagement when she returns part-time. Has explicitly said she won't disappear.
 - **Owns:** Legal bills tracking process (Excel-based), quarterly borrower invoicing for interest and principal payments, investor correspondence (capital account statement questions), deep manual review supporting the quarterly budget-to-actuals analysis.
-- **Relevance:** Richest source of process detail for this engagement; a flight risk to institutional knowledge if SOPs aren't captured before her part-time period ends in August.
+- **Relevance:** Richest source of process detail for this engagement; a flight risk to institutional knowledge if SOPs aren't captured before her part-time period ends in August. Three SOPs delivered as of the workflow deep-dive call — see Section 6 / P-006.
 - **Contact:** dschweitzer@maycombcapital.com.
 > ⚠️ NEEDS INPUT: Phone and mobile.
 
-### Barry Porozni — IT (role to confirm)
-- **Working Style:** Not directly discussed; functioned in this call mainly as connector/introducer, with a brief comment validating the timing of the engagement and flagging that AI "don'ts" can be costly.
-- **Relevance:** Mutual connection who introduced John-Carlos to Maycomb; also handles Maycomb's IT as an outside vendor. Confirmed: outside IT vendor (not internal staff).
-> ⚠️ NEEDS INPUT: Barry's exact title/role and scope of IT vendor engagement; contact details.
+### Barry Porozni — IT (outside vendor)
+- **Working Style:** Present on the workflow deep-dive call (June 23–24) alongside Danielle. Participated actively — flagged the shared mailbox as a quick-win infrastructure improvement and agreed to help implement it (SharePoint, shared mailbox setup). Affirmed the recommendation to disable Cowork and Claude Code at the org level for cybersecurity reasons.
+- **Relevance:** Mutual connection who introduced John-Carlos to Maycomb; handles Maycomb's IT as an outside vendor. Scope confirmed to include: SharePoint, shared mailbox/storage infrastructure, and Claude Enterprise admin controls.
+- **Contact:** Not yet captured.
+> ⚠️ NEEDS INPUT: Barry's exact title, company name, and contact details. Also confirm: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions).
 
-### Incoming roles (not yet hired)
-- **Interim fractional COO** — to hold strategic initiatives during the transition. Not yet identified.
-- **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope.
-- **Analyst (finance and ops)** — planned full-time hire to succeed much of Danielle's scope.
-> ⚠️ NEEDS INPUT: Timeline/status for these hires, and whether the engagement should plan to onboard them directly once in place.
+### Incoming roles
+- **Interim fractional COO** — to hold strategic initiatives during the transition. Status unknown — reserve for Ariella.
+- **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope. Timeline unknown — reserve for Ariella. This role is the intended permanent holder of the AI-owner role.
+- **Analyst (finance and ops)** — Maycomb is actively hiring. Danielle expects the new analyst to be fully onboarded by August and intends to personally transition them.
+- **Varenka (office manager)** — confirmed interim operations lead. Taking over the AP run and being looped into broader operations. Named by Danielle as the interim AI owner and process champion until the Director of Finance & Ops is hired. Also identified as interim approval holder for AP run sign-offs (alongside Miljana) after Ariella's departure.
+- **Miljana** — named as one of the people who will handle AP run approval sign-offs after Ariella leaves. Described as having deeper business knowledge in certain areas.
+> ⚠️ NEEDS INPUT: Timeline for interim fractional COO and Director of Finance & Ops hires. Confirm whether engagement should plan to onboard them directly once in place.
 
 ---
 
 ## 5. Key People — External (Vendors & Partners)
 
-### Outsourced Fund Administrator (name not given)
-- **Role:** Handles fund accounting across all of Maycomb's entities; generates AP run estimates and a draft monthly budget-to-actuals report that flows from the general ledger.
-- **Current state:** Described as having become reliable ("almost always right now") after a period of staff turnover that required restarting some processes from square one. Maycomb still manually reviews and adjusts the fund admin's output rather than using it directly.
-- **Relationship to engagement:** Likely a required collaborator — Ariella explicitly said automating AP/budget workflows would probably be "a team effort between us and that group as well." Any automation touching AP allocation or budget-to-actuals will need to interface with or complement this vendor's data feed.
-> ⚠️ NEEDS INPUT: Fund administrator's name and primary contact, and whether they should be looped into the engagement directly.
+### LeverPoint (outsourced fund administrator)
+- **Role:** Handles fund accounting across all of Maycomb's entities; generates AP run estimates and a draft monthly budget-to-actuals report that flows from the general ledger. Critically: LeverPoint holds bank account access and executes all payments — Maycomb has no direct bank access by design (cash control).
+- **Current state:** Described as having become reliable after a period of staff turnover. Maycomb still manually reviews and adjusts their output. Currently receives all invoices from Danielle (forwarded one by one), maintains their own tracking list, and sets up payments bi-weekly. Also referred to as "Ultimis" by the team — may be a historical name or platform name.
+- **AP run mechanics:** Maycomb sends invoices to LeverPoint, LeverPoint tracks them, sends back a reconciliation list every two weeks, Maycomb compares against their own tracker, resolves discrepancies, then seeks management approval before instructing LeverPoint to release payments.
+- **Relationship to engagement:** A required collaborator for any AP run or budget-to-actuals automation. Any process change (e.g., Maycomb tracking allocations internally and sending a single approved list directly) involves LeverPoint.
+> ⚠️ NEEDS INPUT: LeverPoint primary contact name. Confirm with Ariella whether LeverPoint should be looped into the engagement directly.
 
-### Barry Porozni — IT
-- Confirmed outside IT vendor (not Maycomb staff). Functions as both a personal connector and Maycomb's outside IT vendor; exact title and scope of IT engagement unconfirmed.
-> ⚠️ NEEDS INPUT: What does his IT scope cover (security review, infrastructure, the Claude enterprise rollout)? Exact title and contact details.
+### Barry Porozni — IT (outside vendor)
+- Confirmed outside IT vendor (not Maycomb staff). Functions as both a personal connector and Maycomb's outside IT vendor. Scope confirmed to include: SharePoint, shared mailbox/storage infrastructure, and Claude Enterprise admin controls. Present and participating on the workflow deep-dive call.
+> ⚠️ NEEDS INPUT: Exact title, company name, and contact details. Confirm who holds the Claude Enterprise admin seat and what controls are currently configured.
 
 ---
 
@@ -103,17 +107,48 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 ### Claude (Enterprise instance)
 - **What it is:** Enterprise Claude instance, set up by Danielle the week prior to this call, intended as Maycomb's primary AI tool.
 - **Current state:** Freshly deployed ("open sandbox") with a draft set of usage guidelines expected to evolve monthly/quarterly. No strategic plan yet for proactive, function-specific use — staff have access but no structured direction on how to leverage it for actual workflow improvement.
+- **Models available:** Haiku, Sonnet, and Opus — all three confirmed accessible in their enterprise plan.
+- **Admin:** Cowork and Claude Code recommended to be disabled at the org level by default (cybersecurity — both access the terminal). Barry affirmed this. Confirm with Barry who holds the admin seat and what is currently configured.
 - **Gap:** No standardization process yet for capturing and scaling individual employees' successful use patterns across the 12-person team.
 
-### Excel
-- **What it is:** Primary tool for legal bill tracking (manual log of incoming bills, payment status, and which fund/borrower they're allocated to) and for the broader back-office workflow described.
-- **Current state:** Fully manual; described as "a big pain" at current scale, expected to break down further as volume grows.
+### Excel / Loan Servicing Model
+- **What it is:** Primary tool for legal bill tracking (manual log of incoming bills, payment status, and which fund/borrower they're allocated to). Also the basis for a custom-built internal **loan servicing model** — an Excel workbook with a tab per borrower tracking all cash flows and accrued interest. This is the source of truth for quarterly borrower invoice amounts.
+- **Current state:** Fully manual. Legal bill tracker described as a pain. The loan servicing model was built by Danielle specifically to give Maycomb internal visibility, since they didn't want to rely solely on LeverPoint's tracking.
+- **Loan servicing software:** Maycomb evaluated dedicated loan servicing software (with borrower portal and auto-invoicing) but put it on hold due to the leadership transition. Estimated approximately one year out.
 
-### General Ledger (managed via fund administrator)
+### Affinity (CRM)
+- **What it is:** New CRM, recently selected after a full evaluation process, replacing Salesforce. Official onboarding just started at the time of this call.
+- **Current state:** Salesforce was very underutilized — described as "not the right fit." Affinity is expected to become a major part of day-to-day operations once fully onboarded.
+
+### LeverPoint (fund administrator platform)
+- See Section 5 — External Vendors. LeverPoint handles fund accounting, AP run payment execution, and maintains their own invoice tracking. Maycomb does not have direct bank access.
+
+### SharePoint
+- **What it is:** Document storage platform, in use. Also a candidate for shared mailbox / invoice storage infrastructure under the proposed AP run process improvement.
+
+### ShareFile
+- **What it is:** Secure file sharing tool, in use. Likely used for external sharing with LeverPoint, legal vendors, and others.
+
+### Slack
+- **What it is:** Primary internal messaging and collaboration tool. Used for deal-specific channels and formal internal comms.
+- **Current state:** Sticky — the full team has resisted moving to Teams despite Maycomb paying for it. Identified as the home for the **gripe list**. Anonymous posting is available but not required.
+- **Roadmap meeting:** Bi-weekly meeting confirmed as the right venue for surfacing and actioning gripe list items.
+
+### Microsoft Teams
+- **What it is:** In use for video calls only. Maycomb pays for Teams but the team has not adopted it for messaging — Slack remains the de facto tool.
+
+### DocuSign
+- **What it is:** E-signature platform, confirmed in use.
+
+### Adobe
+- **What it is:** In use (likely Acrobat or similar) — relevant to PDF handling of legal bills and invoices.
+
+### Expensify
+- **What it is:** Employee expense reporting platform. Team members with company credit cards submit expenses through Expensify; expenses go through the same allocation process (expense category) and are approved by their manager monthly.
+
+### General Ledger (managed via LeverPoint)
 - **What it is:** Central financial record fed by the AP run; underlies both the budget-to-actuals reporting and the cash/revenue allocation across entities.
-- **Current state:** Maintained by the outsourced fund admin; Maycomb receives draft output monthly but does not treat it as accurate enough to act on directly — requires manual quarterly deep review by Danielle and Ariella.
-
-> ⚠️ NEEDS INPUT: Any other systems in use — accounting/ERP platform name, investor portal or CRM for LP communications, document management for legal bills/contracts, e-signature tool for MSAs. None were named in the transcript but are likely to exist.
+- **Current state:** Maintained by LeverPoint; Maycomb receives draft output monthly but does not treat it as accurate enough to act on directly — requires manual quarterly deep review by Danielle and Ariella.
 
 ---
 
@@ -124,21 +159,48 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Problem:** Legal bills arrive from outside counsel and must be manually logged in Excel, then manually allocated to the correct fund or borrower, tracked for incoming payment (sometimes from a borrower), and tracked again to confirm Maycomb pays the bill once reimbursed. This is fully manual, cross-referencing conversations with colleagues to determine responsibility, and described by Danielle as her least favorite recurring task.
 - **Current Thinking:** This is treated as a bespoke, judgment-heavy process because it spans multiple funds and payment-responsibility scenarios, so it has stayed in Excel rather than being systematized.
 - **Reframe:** The allocation logic (which fund/borrower, payment-then-reimbursement sequencing) is a rules-based workflow that can be encoded once and applied consistently — it doesn't require fresh judgment each time, only correct intake and tagging.
-- **Approach:** Map the full bill lifecycle (intake → allocation → payment tracking → reimbursement tracking) and build a structured tracker/workflow to replace the Excel process. Status: Not started.
+- **Approach:** Map the full bill lifecycle (intake → allocation → payment tracking → reimbursement tracking) and build a structured tracker/workflow to replace the Excel process. Status: SOP delivered by Danielle. Workflow deep-dive completed (June 23–24).
+- **Key findings from workflow deep-dive:**
+  - Legal bills arrive approximately **weekly**.
+  - Three allocation categories, each with different escalation needs:
+    1. **Management company** — immediately determinable by Danielle; essentially 0% revision rate.
+    2. **Fund responsibility** — also relatively clear; paid by management company, then allocated/reimbursed quarterly by the fund. Exception: Fund Two has hit a legal fee cap in a specific category, so certain Fund Two bills that would normally go to the fund must be allocated to the management company instead.
+    3. **Deal/borrower level** — requires deal team confirmation every time; approximately **50% revision rate** after deal team review. Borrower sensitivity (e.g., financial hardship) often overrides the initial recommendation.
+  - For deal-level bills where the borrower is responsible: Maycomb pays the legal vendor and waits for reimbursement (invoice to borrower or withheld from a disbursement). **Maycomb does not pay the vendor until reimbursement is received.** Tracking this reimbursement — and nudging when it hasn't arrived — is the most friction-heavy ongoing piece.
+  - Approval routing: fund and management company bills → Ariella or Miljana (after Ariella departs). Deal-level → deal team, and typically Andy if unclear.
+  - Danielle recommended a voice memo to flesh out the allocation rules more explicitly, as a precursor to any automation or flow chart.
 
 ### P-002 — Manual Quarterly Borrower Invoicing (Processes)
 - **Area:** Processes.
 - **Problem:** Danielle manually creates and sends invoices to borrowers each quarter for interest and principal payments. Not yet breaking at current volume, but expected to as the portfolio grows.
 - **Current Thinking:** Treated as low priority since it's "not at the scale that it is really breaking things" yet.
 - **Reframe:** This is a templated, calculation-driven task (amounts are derivable from loan terms) that is cheap to automate now, before volume growth makes it urgent — an easy, low-risk win.
-- **Approach:** Identify or build a recurring invoice generation tool tied to loan/payment schedule data. Status: Not started.
+- **Approach:** Identify or build a recurring invoice generation tool tied to loan/payment schedule data. Status: SOP delivered by Danielle. Workflow deep-dive completed (June 23–24).
+- **Key findings from workflow deep-dive:**
+  - Approximately **15 active borrowers** currently receive quarterly invoices (some legacy borrowers do not have quarterly invoices yet — Maycomb is standardizing this).
+  - Invoice amounts are pulled from the **Excel loan servicing model** (accrued interest tab, per-borrower tab).
+  - Process: pull number from model → copy prior quarter's invoice → update dates, amount → send. Contact info typically stays the same.
+  - **Deal team check happens before invoices are drafted** — confirms any fee adjustments, skipped quarters, or deal-specific quirks. This is the high-touch piece.
+  - Total time once deal team confirms: approximately **1 hour** for all 15 invoices.
+  - Danielle described the most time-consuming part as going into the loan servicing model to pull and verify the correct number.
 
 ### P-003 — Cross-Entity AP Run and Cash Allocation (Systems / Processes)
 - **Area:** Systems / Processes.
 - **Problem:** The biweekly AP run must allocate bills correctly across four LP funds, a single-member LLC, and the two-member management company, while also ensuring revenue earned by each fund/LLC is paid up to the management company (at least quarterly) so the management company can pay bills. This requires deep institutional knowledge of the corporate structure, even though the underlying payments are mostly fixed or easily calculable.
 - **Current Thinking:** Because it requires "intimate knowledge of how the business works," it's assumed to need a skilled human running point each cycle.
 - **Reframe:** The complexity is structural, not judgment-heavy — once the entity/allocation rules are documented, the mapping from bill → entity → payment source is mechanical and can be automated or semi-automated, even if a human still approves the run.
-- **Approach:** Document the entity/allocation rules as an explicit rule set (in partnership with the fund administrator), then evaluate automating the allocation step ahead of the existing AP run. Status: Not started.
+- **Approach:** Document the entity/allocation rules as an explicit rule set (in partnership with LeverPoint), then evaluate automating the allocation step ahead of the existing AP run. Status: SOP delivered by Danielle. Workflow deep-dive completed (June 23–24).
+- **Key findings from workflow deep-dive:**
+  - AP runs are **bi-weekly**. Typical volume: **10–20 invoices per run**.
+  - Every invoice hits Danielle's inbox first — she sanity-checks it, logs it in her own tracker, and forwards it to LeverPoint. LeverPoint also tracks everything and sets up payments on the bank account (Maycomb has no direct bank access).
+  - Every two weeks, LeverPoint sends back a reconciliation list; Danielle compares against her own tracker, resolves discrepancies, and finalizes the list. **Current double-tracking system was identified on the call as likely redundant work.**
+  - Danielle's review of the finalized list and allocations: approximately **10 minutes**.
+  - Biggest bottleneck: **management approval** (Ariella/Miljana) — described as a constant nudging process; this is what extends a 3-day process to potentially a week.
+  - After approval, Danielle instructs LeverPoint to release payments (a few hours). Then payment portal approval — another round of nudging, as Danielle has no authority to approve payments herself.
+  - Total elapsed time, start to payments released: **approximately 3 days** when smooth; **up to a week** when approvals lag.
+  - **Quick win identified (no AI required):** A shared mailbox for invoices would eliminate the double-tracking step, create a single source of truth, and ease the transition to Varenka. JC recommended this; Barry confirmed he can implement it. Danielle also flagged this as critical for the vendor transition (some vendors only have her email).
+  - Expense category allocation: LeverPoint applies Maycomb's expense categories (set annually via a detailed budget submission). For regular/known vendors they categorize well; new vendors require Danielle to flag the category. A rules-based auto-categorization from invoice/vendor data was identified as a potential future automation.
+  - AP run SOP notes this process is connected to the legal bill tracking process — legal bills feed into the AP run once the allocation/reimbursement situation is resolved.
 
 ### P-004 — Budget-to-Actuals Review and Variance Reporting (Processes / Systems)
 - **Area:** Processes / Systems.
@@ -156,10 +218,10 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 
 ### P-006 — Institutional Knowledge Walking Out the Door (People)
 - **Area:** People.
-- **Problem:** Ariella (COO/CFO) and Danielle (Analyst) — the two people who hold the most detailed knowledge of the back/middle-office processes above — are both exiting within weeks of each other (June 29 and July 10 last days), before a Director of Finance & Ops or Analyst replacement is hired.
+- **Problem:** Ariella (COO/CFO) and Danielle (Analyst) — the two people who hold the most detailed knowledge of the back/middle-office processes above — are both exiting within weeks of each other (June 30 and July 10 last days), before a Director of Finance & Ops or Analyst replacement is hired.
 - **Current Thinking:** Treated as an unplanned, "deeply concerning" coincidence to be managed with an interim fractional COO bridging the gap.
 - **Reframe:** The departures, while risky, create a forcing function: process documentation has to happen now regardless of automation plans, and that documentation work is the same work this engagement needs anyway — the transition and the diagnostic/automation engagement can directly reinforce each other if SOP capture happens immediately.
-- **Approach:** Prioritize capturing or co-developing SOPs for the processes in P-001 through P-004 before June 29 (Danielle's last full-time day), using any SOPs already drafted internally as a starting point. Status: Not started — first ask already made of John-Carlos to request any existing SOP drafts.
+- **Approach:** Prioritize capturing or co-developing SOPs for the processes in P-001 through P-004 before June 30 (Danielle's last full-time day), using any SOPs already drafted internally as a starting point. Status: **Three SOPs delivered** (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Workflow deep-dive completed June 23–24. Budget-to-actuals SOP still to be created — Danielle noted this is less urgent (happens twice a year) and is more of an Ariella conversation. Danielle used Claude's transcript-to-SOP tool for two of the three SOPs — a direct use case example she found highly effective.
 
 ---
 
@@ -246,13 +308,14 @@ Six diagnosed problems, two of which (P-003 AP allocation, P-004 budget variance
 
 ## Open Questions for Maycomb
 
-1. Ariella's phone and mobile *(email confirmed: arotenberg@maycombcapital.com)*. Also: capture her personal/forwarding contact before July 10 to retain the relationship.
+1. Ariella's phone and mobile *(email confirmed: arotenberg@maycombcapital.com)*. Also: capture her personal/forwarding contact before July 10 to retain the relationship. Ariella was out the week of June 23–24 — follow up on return.
 2. Danielle's phone and mobile *(email confirmed: dschweitzer@maycombcapital.com)*.
-3. Barry Porozni's exact title/role and scope of IT vendor engagement, and his contact details *(confirmed: outside IT vendor, not internal staff)*.
+3. Barry Porozni's exact title, company name, and contact details *(confirmed: outside IT vendor, not internal staff; scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls)*.
 4. Confirm Maycomb Capital's legal entity name(s) / any trade name, plus headquarters address and main phone.
-5. Name and primary contact for the outsourced fund administrator, and whether they should be looped into the engagement directly.
-6. Status/timeline for hiring the interim fractional COO, Director of Finance & Ops, and Analyst — should the engagement plan to onboard them once in place? *(Ariella's and Danielle's final dates are confirmed; new-hire dates are still unknown.)*
-7. Existing SOPs already drafted internally — *requested from Maycomb, awaiting delivery.*
-8. Any additional systems in use not mentioned on the call (accounting/ERP platform, investor portal/CRM, document management, e-signature tool for MSAs).
-9. MSA confidentiality clause — *confirmed, MSA sent.*
+5. LeverPoint primary contact name, and whether they should be looped into the engagement directly *(fund administrator name confirmed: LeverPoint, also referred to as Ultimis)*.
+6. Status/timeline for hiring the interim fractional COO, Director of Finance & Ops, and Analyst — should the engagement plan to onboard them once in place? *(Analyst hire targeted by August per Danielle; other timelines unknown.)*
+7. ~~Existing SOPs already drafted internally~~ — **RESOLVED: Three SOPs delivered (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Budget-to-actuals SOP to follow — Ariella conversation.**
+8. ~~Any additional systems in use~~ — **RESOLVED: Full stack confirmed — Affinity (CRM), Slack, Teams (video only), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint, internal Excel loan servicing model.**
+9. MSA confidentiality clause — *confirmed, MSA sent. MSA not yet signed as of June 23–24 — Ariella was out. Follow up on return.*
 10. Pricing tiers/rate structure — *not needed yet; revisit if scope expands beyond the free engagement.*
+11. Confirm with Barry: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions). Recommendation to disable Cowork and Claude Code by default was affirmed on the call.
