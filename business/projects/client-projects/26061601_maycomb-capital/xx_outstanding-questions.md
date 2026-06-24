@@ -46,8 +46,8 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 
 ### From: [[20260619_Maycomb_AI_Playbook_Long_Form]]
 
-- [ ] Pick the lowest-friction home for the gripe/idea list (Claude Project, shared doc, Teams/Slack channel?)
-- [ ] Confirm Maycomb's full tool stack so Section 6 (tools-by-data reference) can be built out — accounting/ERP, CRM/investor portal, document management, e-signature, other AI tools in use
+- [x] Pick the lowest-friction home for the gripe/idea list (Claude Project, shared doc, Teams/Slack channel?)
+- [x] Confirm Maycomb's full tool stack so Section 6 (tools-by-data reference) can be built out — accounting/ERP, CRM/investor portal, document management, e-signature, other AI tools in use
 - [ ] Confirm which models Maycomb's enterprise plan surfaces in the picker (Haiku / Sonnet / Opus) and any pre-set default, so Section 4 matches what the team actually sees
 - [ ] Confirm whether the monthly review can attach to an existing recurring meeting (so it isn't a new standing ritual)
 - [ ] Confirm the interim AI-owner arrangement until the Director of Finance & Ops is hired (internal person, Barry, or Blue Tusk interim)
@@ -83,7 +83,7 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 - [ ] What does her manual deep review for the quarterly budget-to-actuals actually involve? (P-004)
 - [ ] Any SOPs she's already drafted, or can draft, before June 29
 - [x] Which other systems/tools she touches day-to-day (feeds the stack-confirmation question)
-- [ ] Where she'd put the gripe list so the team would actually use it
+- [x] Where she'd put the gripe list so the team would actually use it
 - [ ] Outcome-data collection/validation from providers and government partners (her hands-on view)
 
 ## Next steps
