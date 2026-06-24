@@ -82,7 +82,7 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 - [ ] Walk through the quarterly borrower invoicing process — how amounts are derived from loan terms (P-002)
 - [ ] What does her manual deep review for the quarterly budget-to-actuals actually involve? (P-004)
 - [ ] Any SOPs she's already drafted, or can draft, before June 29
-- [ ] Which other systems/tools she touches day-to-day (feeds the stack-confirmation question)
+- [x] Which other systems/tools she touches day-to-day (feeds the stack-confirmation question)
 - [ ] Where she'd put the gripe list so the team would actually use it
 - [ ] Outcome-data collection/validation from providers and government partners (her hands-on view)
 
