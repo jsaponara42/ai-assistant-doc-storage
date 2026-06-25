@@ -18,7 +18,7 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** The four Maycomb-authored SOPs ([[Maycomb_Capital_Legal_Bills_SOP]], [[Maycomb_Capital_AP_Run_SOP]], [[Maycomb_Capital_Quarterly_Invoicing_SOP]], [[Maycomb_Capital_Budgeting_SOP]]) and the 2026-06 workflow deep-dive call (Danielle Schweitzer + Barry Porozni + John-Carlos). Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Danielle through her part-time period; Varenka as she assumes the AP run; Ariella/Andi for approval-layer questions before July 10).
+> **Source basis.** The four Maycomb-authored SOPs ([Maycomb_Capital_Legal_Bills_SOP], [Maycomb_Capital_AP_Run_SOP], [Maycomb_Capital_Quarterly_Invoicing_SOP], [Maycomb_Capital_Budgeting_SOP]) and the 2026-06 workflow deep-dive call (Danielle Schweitzer + Barry Porozni + John-Carlos). Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Danielle through her part-time period; Varenka as she assumes the AP run; Ariella/Andi for approval-layer questions before July 10).
 >
 > **As-is, including dysfunction.** Breakpoints (manual gaps, redundancies, failure modes) are marked **⚠** where they exist today. Fixes are not designed here — the reframes and automation approaches live in the discovery brief's Problem Register (P-001 through P-004).
 >
