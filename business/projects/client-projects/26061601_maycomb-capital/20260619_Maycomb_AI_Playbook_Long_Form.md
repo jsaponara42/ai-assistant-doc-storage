@@ -99,7 +99,6 @@ The whole gate, in one line: *low stakes → use it and sanity-check; high stake
 
 **One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 6.)
 
-> ⚠️ *Design note for JC: reframed per your steer — the gate is now consequence-of-wrong (over-trust risk), not data-sensitivity. High-stakes lane leads with accountability ("you own it") rather than "go verify," to put responsibility on the person. Added a notify-and-prove-once step for new/materially-changed high-stakes use cases: heads-up to the owner first, first run done together as a proof run — deliberately a notification, not a sign-off gate. Data/free-account rule demoted to a one-liner but kept. Still collapses NeighborWorks' 4 tiers + CRO sign-off — no formal tiers at 12 people.*
 
 ---
 
