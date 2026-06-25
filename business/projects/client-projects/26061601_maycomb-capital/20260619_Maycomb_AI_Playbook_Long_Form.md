@@ -162,7 +162,7 @@ A couple of practical notes:
 
 The Claude you use every day in the chat interface is a conversational tool — you ask, it answers, you decide what to do with the output. **Claude Code** and **Claude Cowork** are different in kind, not just degree. They can take actions in the real world: executing code, writing and modifying files, running commands, automating tasks directly on your machine. That's genuinely useful, but it also means a mistake isn't just a wrong answer you can ignore — it can be a change that's already happened.
 
-For that reason, both tools are **disabled at the org level by default** — this isn't a policy on the honor system, it's enforced through Claude's enterprise admin controls (global toggle and group-based restrictions). You won't be able to access either tool until a use case has been approved.
+For that reason, both tools are **disabled at the org level by default** — enforced through Claude's enterprise admin controls (global toggle and group-based restrictions). You won't be able to access either tool until a use case has been approved.
 
 The process is simple:
 
