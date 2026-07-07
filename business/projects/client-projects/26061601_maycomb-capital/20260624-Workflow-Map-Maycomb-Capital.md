@@ -16,6 +16,8 @@ status: needs-attention
 >
 > **Source basis.** This map is a direct translation of the four Maycomb-authored SOPs ([[Maycomb_Capital_Legal_Bills_SOP]], [[Maycomb_Capital_AP_Run_SOP]], [[Maycomb_Capital_Quarterly_Invoicing_SOP]], [[Maycomb_Capital_Budgeting_SOP]] — full copies in the `SOPs/` subfolder), with live nuance and pain points from the 2026-06 workflow deep-dive call (Danielle Schweitzer + Barry Porozni + John-Carlos) layered on as annotations.
 >
+> **Placeholders (added July 7, 2026).** Workflows 5–8 are revenue/value-driver-side processes surfaced on the July 7, 2026 value-drivers call with Ariella Rotenberg and Martina Madrid Sebring. They have no SOP source yet, so they appear only as brief placeholder stubs pointing back to [[20260616_discovery-brief-maycomb-capital]] Section 11 — not full spines like Workflows 1–4.
+>
 > **Annotation layers on top of the SOP content:**
 > - **⚠** — a known breakpoint / friction / redundancy in the current state (mostly surfaced on the call; the SOPs describe the process as intended, the ⚠ notes describe where it strains in practice).
 > - **`[TO CONFIRM]`** — not specified in source, or a place where the SOP and transcript diverge; verify next pass. These double as the interview checklist at the foot of the document.
@@ -43,6 +45,12 @@ status: needs-attention
 | 2   | AP Run (Biweekly)                 | Receive & Forward → Log Internally → Receive AP List → Verify → MD Approval → Confirm to Admin → Verify in Bank & Notify → Dual Release | Vendor payments released, allocated        |
 | 3   | Quarterly Borrower Invoicing      | Build Borrower List → Draft Invoices → Deal-Team Review → Send to Borrowers → Track Payments     | Borrowers invoiced, payments reconciled    |
 | 4   | Annual Budget & Budget-to-Actuals | Build Budget → Monthly Monitor → Mid-Year Right-Size → Year-End Right-Size                       | Approved budget, kept accurate all year    |
+| 5   | Deal Sourcing & Capital Deployment *(placeholder)* | Not yet mapped | TBD |
+| 6   | Investor Relations & Capital Raising *(placeholder)* | Not yet mapped | TBD |
+| 7   | Borrower Asset Management / Portfolio Support *(placeholder)* | Not yet mapped | TBD |
+| 8   | Outcome Data Collection & Annual Impact Reporting *(placeholder — see P-007)* | Not yet mapped | TBD |
+
+> Workflows 5–8 are revenue/value-driver-side processes identified July 7, 2026 (see [[20260616_discovery-brief-maycomb-capital]] Section 11). Unlike Workflows 1–4, they are not yet built from SOPs — placeholders only, to be scoped once source material (deal-team interviews, Martina's input, or the incoming Investor Relations hire starting August 3) is available.
 
 ---
 
@@ -405,6 +413,38 @@ After approval, the relevant payment instructions are followed for each bill. Th
 
 ---
 
+# Workflow 5 — Deal Sourcing & Capital Deployment *(PLACEHOLDER — not yet mapped)*
+
+**Status:** Not yet SOP-mapped. Identified as a value driver on the July 7, 2026 call with Ariella Rotenberg and Martina Madrid Sebring — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-1.
+**What we know so far:** Two-person deal teams per portfolio company; diligence process is a named value driver; underwriting gate requires borrowers to already have outcome-measurement systems in place; field/market-building work (e.g., government/county engagement) treated as adjacent to sourcing even without direct deal outcomes.
+**Next step:** Scope with the deal team (likely via Martina) to map sourcing → diligence → structuring → close as an actual spine, the way Workflows 1–4 are mapped from SOPs.
+
+---
+
+# Workflow 6 — Investor Relations & Capital Raising *(PLACEHOLDER — not yet mapped)*
+
+**Status:** Not yet SOP-mapped. Identified July 7, 2026 — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-3.
+**What we know so far:** Distinct from but related to the deal/investment workflow. Rough structure per Ariella: (1) wholesale marketing/positioning (conferences, collateral, value proposition), (2) bespoke sales process per investor, (3) structuring & closing, (4) ongoing investor relationship management and reporting. Fund Two fundraising is complete; current focus is relationship nurturing and sourcing future investors.
+**Next step:** Scope with Ariella (light-touch, if available) or Martina/deal team once further along in the transition.
+
+---
+
+# Workflow 7 — Borrower Asset Management / Portfolio Support *(PLACEHOLDER — not yet mapped)*
+
+**Status:** Not yet SOP-mapped. Identified July 7, 2026 — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-2.
+**What we know so far:** Support intensity varies widely by borrower — some need minimal touch (already have strong reporting infrastructure), others need deep support (financial management, revenue booking, navigating difficult periods). Framed as an ongoing "client success" function, similar in spirit to a tech company's customer success team.
+**Next step:** Scope with the deal team — likely needs borrower-tier segmentation (low-touch vs. high-touch) before a single workflow spine makes sense.
+
+---
+
+# Workflow 8 — Outcome Data Collection & Annual Impact Reporting *(PLACEHOLDER — not yet mapped; see P-007)*
+
+**Status:** Not yet SOP-mapped, but the clearest and most concretely painful of the new value-driver items — promoted to Problem Register **P-007** in [[20260616_discovery-brief-maycomb-capital]] Section 7. See also Section 11, VD-4.
+**What we know so far:** Portfolio companies already measure outcome data (required as an underwriting prerequisite), but transferring that data into Maycomb's annual impact report (published end of Q1) is manual and, per Ariella directly, unnecessarily difficult. Maycomb's new Investor Relations hire starts **August 3, 2026** and is expected to make overhauling impact measurement/management and the report itself his first major project — natural point to scope this workflow properly once he's onboarded.
+**Next step:** Revisit once the Investor Relations hire is onboarded and has initial thoughts on the current process; map the current data-collection-to-report pipeline the same way Workflows 1–4 were mapped from SOPs.
+
+---
+
 # Overall Workflow (Placeholder — to be strung together)
 
 Once each spine is on the canvas, the **Overall** flow links them where they actually connect (all seams confirmed in the SOPs):
@@ -418,6 +458,8 @@ Once each spine is on the canvas, the **Overall** flow links them where they act
 `W1 Quarterly Reconciliation ↔ Fund "Due From" settlement` — the W1 Core Step 7 quarterly allocation review runs **before** Due-to-Manager balances are paid, tying legal-bill allocation accuracy to the inter-entity cash settlement that also underlies W2 allocations.
 
 > Build note: the Overall spine is **not** a fifth workflow — it's the join of the four spines at these seams, with the entity/allocation structure (see Cross-Workflow Foundations) as the shared backbone. The AP Run is the central hub: W1 feeds into it, and it feeds W4.
+>
+> **Note (July 7, 2026):** Workflows 5–8 (deal sourcing, investor relations, borrower asset management, outcome data/impact reporting) are revenue-side and not yet integrated into this seam map — they don't currently touch the back-office entity/allocation backbone the way W1–W4 do. Revisit once they're scoped.
 
 ---
 
