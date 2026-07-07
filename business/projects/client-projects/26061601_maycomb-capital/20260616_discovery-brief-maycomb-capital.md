@@ -12,9 +12,10 @@ status: needs-attention
 
 Alternative asset manager / fund manager operating a management company structure over multiple fund vehicles, with an outsourced fund administrator handling back-office fund accounting.
 
-**Primary internal contact (as of July 7, 2026):** Martina Madrid Sebring — Interim/Fractional COO, and Barry Porozni — IT (outside vendor). Per Ariella's direction on the July 7 value-drivers call, all engagement correspondence now goes to Martina and Barry (CC Danielle Schweitzer through end of August for visibility; leave Ariella off — see below).
+**Primary internal contact (as of July 7, 2026):** Martina Madrid Sebring — Interim/Fractional COO,  martina@madridops.com, and Barry Porozni — IT (outside vendor), bporozni@maycombcapital.com. Per Ariella's direction on the July 7 value-drivers call, all engagement correspondence now goes to Martina and Barry (CC Danielle Schweitzer through end of August for visibility; leave Ariella off — see below).
+
 **Prior primary contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com, phone (651) 341-5992. Last day July 10, 2026; continues afterward as a light-touch strategic/institutional-knowledge advisor to Maycomb's CEO, but explicitly not engaged in this work day to day going forward.
-> ✅ RESOLVED July 7, 2026: Ariella's phone (651) 341-5992 and personal/forwarding contact captured ahead of her July 10 departure.
+
 
 ---
 
