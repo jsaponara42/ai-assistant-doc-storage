@@ -3,10 +3,12 @@ title: "Maycomb Capital — Outstanding Questions"
 date: 2026-06-23
 tags: [client, project]
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 # Maycomb Capital — Outstanding Questions
+
+> **Update July 7, 2026:** MSA signed this morning (SOW now authorized). Ariella's phone + forwarding contact and Maycomb's HQ address captured (see below). Budget-to-actuals SOP delivered (`SOPs/Maycomb_Capital_Budgeting_SOP`) — all four back-office SOPs now complete. Remaining open items are low-priority (Barry contact/admin config, LeverPoint contact, entity legal name, interim COO / Director of Finance & Ops hire timelines).
 
 ## Summary
 A consolidated checklist of every open question, "NEEDS INPUT" flag, and unconfirmed item pulled from all documents in the Maycomb project folder as of 2026-06-23. Organized by source document so each item can be traced and checked off as answers come in. Prepared ahead of the call with Danielle.
@@ -19,8 +21,8 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 ### From: [[20260616_discovery-brief-maycomb-capital]]
 
 **Contacts & people**
-- [ ] Ariella's phone and mobile (email confirmed: arotenberg@maycombcapital.com)
-- [ ] Ariella's personal/forwarding contact info — capture before her July 10 departure to retain the relationship
+- [x] Ariella's phone and mobile — **ANSWERED: (651) 341-5992** (email confirmed: arotenberg@maycombcapital.com)
+- [x] Ariella's personal/forwarding contact info — **CAPTURED July 7, 2026** ahead of her July 10 departure
 - [ ] Danielle's phone and mobile (email confirmed: dschweitzer@maycombcapital.com)
 - [ ] Barry Porozni's exact title/role and the scope of his IT vendor engagement (confirmed: outside vendor, not internal)
 - [ ] Barry's contact details
@@ -28,7 +30,7 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 
 **Entity & org**
 - [ ] Confirm Maycomb Capital's legal entity name(s) and any trade name, if different from "Maycomb Capital"
-- [ ] Maycomb's headquarters address and main phone
+- [x] Maycomb's headquarters address — **ANSWERED: 235 Duffield Street, 18th Floor, Brooklyn, NY 11201** (main phone still open)
 
 **Hiring & transition**
 - [ ] Timeline/status for hiring the interim fractional COO, Director of Finance & Ops, and Analyst
@@ -62,7 +64,7 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 
 ### From: [[20260616_SOW_Maycomb_Capital_AI_Roadmap]]
 
-- [ ] MSA — sent for signature; confirm it has been signed (signing the MSA constitutes acceptance of the SOW and authorizes discovery to begin)
+- [x] MSA — **SIGNED July 7, 2026.** SOW accepted, discovery fully authorized.
 
 ### From: [[20260615_call-brief-maycomb-capital]]
 
@@ -80,7 +82,7 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 - [ ] Danielle's phone/mobile and (if she's open to it) a forwarding contact for after her transition
 - [ ] Walk through the legal bill tracking lifecycle: intake → fund/borrower allocation → payment tracking → reimbursement tracking (P-001)
 - [ ] Walk through the quarterly borrower invoicing process — how amounts are derived from loan terms (P-002)
-- [ ] What does her manual deep review for the quarterly budget-to-actuals actually involve? (P-004)
+- [x] What does her manual deep review for the quarterly budget-to-actuals actually involve? (P-004) — **RESOLVED: captured as `SOPs/Maycomb_Capital_Budgeting_SOP`**
 - [ ] Any SOPs she's already drafted, or can draft, before June 29
 - [x] Which other systems/tools she touches day-to-day — **ANSWERED (full stack confirmed, see above)**
 - [x] Where she'd put the gripe list so the team would actually use it
@@ -88,6 +90,8 @@ This is the working punch-list for the next conversations with Maycomb (Danielle
 
 ## Next steps
 - Danielle's call complete. See [[20260624_outstanding-questions-answered]] for all answers from the workflow deep-dive call.
-- Reserve remaining open items for Ariella session before July 10 (MSA signature is the highest priority — blocks SOW).
-- Confirm with Barry: Claude Enterprise admin config (who holds seat, what's toggled, shared mailbox setup).
+- ~~Reserve remaining open items for Ariella session before July 10 (MSA signature highest priority — blocks SOW).~~ **DONE July 7:** MSA signed, Ariella contact + HQ captured, budget SOP delivered.
+- Confirm with Barry: Claude Enterprise admin config (who holds seat, what's toggled, shared mailbox setup). *(Still open — low urgency.)*
+- Remaining low-priority open items: LeverPoint primary contact, Maycomb legal entity name + main phone, interim fractional COO status, Director of Finance & Ops hire timeline.
 - Promote any task items into `tasks/`.
+- **Engagement has shifted from discovery to production — next up: assemble the AI Roadmap deliverable (the core SOW deliverable), finish Playbook Section 6, render the Workflow Map to canvas.**

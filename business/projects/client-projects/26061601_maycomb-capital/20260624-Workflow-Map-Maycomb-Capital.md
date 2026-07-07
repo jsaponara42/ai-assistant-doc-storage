@@ -351,7 +351,9 @@ After approval, the relevant payment instructions are followed for each bill. Th
 **Cadence:** Annual budget built in January; mid-year review in June; year-end review in December; monthly monitoring throughout.
 **Document Owner:** Finance & Operations Associate. **Key Collaborators:** COO; Managing Partner (Andi). **External:** Ultimus (tracks actuals, produces monthly statements; does not build the budget).
 
-> **Transcript priority note:** Danielle deprioritized this workflow for the engagement — it runs twice a year, Ultimus does much of the underlying work, and it's "more of an Ariella conversation." The budget-to-actuals *automation* opportunity (discovery brief P-004) is Ariella-owned; she was absent for the call.
+> **Transcript priority note:** Danielle deprioritized this workflow for the engagement — it runs twice a year, Ultimus does much of the underlying work, and it's "more of an Ariella conversation." The budget-to-actuals *automation* opportunity (discovery brief P-004) is Ariella-owned.
+>
+> **Update July 7, 2026:** The Budget-to-Actuals SOP has now been captured (`SOPs/Maycomb_Capital_Budgeting_SOP`) and is the source basis for this Workflow 4 spine above. W4 is no longer blocked on Ariella's availability for documentation; the remaining Ariella-dependent item is the *variance-threshold logic* for the P-004 automation (see checklist below).
 
 ### Core Step 1 — Build the Annual Budget (January)
 - **Inputs:** (1) Prior-year actuals (Ultimus's final year-end financial statements). (2) Knowledge of upcoming-year activities: planned hires, events (AGM, team retreat), software changes, contractor updates, pricing changes for existing vendors.
@@ -457,8 +459,8 @@ Grouped for an efficient interview (Danielle through her part-time period; Varen
 - Whether principal/fee amounts are reliably in the loan servicing model or routinely need deal-team confirmation.
 
 **Budget (W4)**
-- Confirm Andi owns budget approval; reconcile with the COO collaboration role and Ariella's historical ownership.
-- The variance-threshold logic Ariella applies in her deep review (needed for P-004) — capture before July 10.
+- Confirm Andi owns budget approval; reconcile with the COO collaboration role and Ariella's historical ownership. *(Partly resolved: the Budget SOP confirms Andi (Managing Partner) approves all budgets and the COO co-builds — see `SOPs/Maycomb_Capital_Budgeting_SOP` §3.)*
+- The variance-threshold logic Ariella applies in her deep review (needed for the P-004 automation) — the SOP documents the *process* but not her specific numeric thresholds; capture from Ariella before July 10 if the P-004 build proceeds. *(Discovery brief notes she floated >50% and >$10,000 — confirm.)*
 
 **Loan servicing software (future, cross-workflow)**
 - Status of the paused loan-servicing-software evaluation (borrower portal + auto-invoicing) — confirmed ~1 year out; revisit timing.

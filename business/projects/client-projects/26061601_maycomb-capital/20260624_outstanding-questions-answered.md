@@ -3,10 +3,12 @@ title: "Maycomb Capital — Outstanding Questions: Answered from Workflow Deep D
 date: 2026-06-24
 tags: [client, project]
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 # Maycomb Capital — Outstanding Questions: Answered from Workflow Deep Dive Call
+
+> **Update July 7, 2026 (from Ariella emails / MSA):** MSA **signed** July 7 — SOW authorized. Ariella's phone **(651) 341-5992** and forwarding contact captured. Maycomb HQ: **235 Duffield Street, 18th Floor, Brooklyn, NY 11201**. Budget-to-actuals SOP delivered (`SOPs/Maycomb_Capital_Budgeting_SOP`). See updated carry-forward table at the foot of this doc.
 
 ## Summary
 Answers pulled directly from the workflow deep dive call transcript (Danielle Schweitzer + Barry Porozni + JC, ~June 23–24, 2026). Each item maps back to its source in `xx_outstanding-questions.md`. Unanswered items are carried forward with a note on who can answer them.
@@ -90,7 +92,7 @@ Answers pulled directly from the workflow deep dive call transcript (Danielle Sc
 
 ## From: [[20260616_SOW_Maycomb_Capital_AI_Roadmap]]
 
-- **MSA — confirm it has been signed** — Not confirmed on this call. JC mentioned at the end: *"Once Ariella gets back, if she can just sign the MSA, that's great."* Ariella was out the week of this call. **MSA still unsigned.** Follow up with Ariella as soon as she's back.
+- **MSA — confirm it has been signed** — **RESOLVED July 7, 2026: MSA SIGNED.** SOW accepted, discovery fully authorized. (Was unsigned at the time of this call because Ariella was out; signed on her return.)
 
 ---
 
@@ -153,19 +155,19 @@ LeverPoint does not receive invoices directly from vendors. Danielle receives ev
 
 | Item | Who Can Answer | Priority |
 |------|---------------|----------|
-| Ariella's phone/mobile | Ariella | Medium |
-| Ariella's personal/forwarding contact info | Ariella (before July 10) | High |
+| ~~Ariella's phone/mobile~~ | ~~Ariella~~ | **DONE July 7: (651) 341-5992** |
+| ~~Ariella's personal/forwarding contact info~~ | ~~Ariella (before July 10)~~ | **DONE July 7** |
 | Barry's contact details and exact IT scope | Barry | Medium |
 | Legal entity name(s) / trade name | Ariella | Low |
-| HQ address and main phone | Ariella | Low |
+| ~~HQ address~~ / main phone | Ariella | **HQ DONE July 7** (235 Duffield St, 18th Fl, Brooklyn NY 11201); phone still Low |
 | Interim fractional COO status | Ariella | Medium |
 | Director of Finance & Ops hire timeline | Ariella | Medium |
 | Fund administrator (LeverPoint) primary contact | Ariella or Danielle | Medium |
 | Should LeverPoint be looped into the engagement? | Ariella | High |
-| MSA signature | Ariella (on return from absence) | High — blocks SOW |
+| ~~MSA signature~~ | ~~Ariella~~ | **DONE July 7: SIGNED** |
 | Outcome data collection/validation from providers | Ariella or deal team | Medium |
 | Quarterly investor/impact reporting process | Ariella | Medium |
 | Accelerator Fund intake triage | Ariella or deal team | Low |
 | Claude Enterprise admin configuration (who holds seat, current toggles) | Barry | Medium |
-| Budget-to-actuals SOP | Ariella + Danielle | Medium |
+| ~~Budget-to-actuals SOP~~ | ~~Ariella + Danielle~~ | **DONE: `SOPs/Maycomb_Capital_Budgeting_SOP`** |
 

@@ -56,7 +56,7 @@ Roadmap delivery is targeted within 2–3 weeks of the discovery session, contin
 
 This Statement of Work operates under the Master Services Agreement (MSA) between Blue Tusk LLC and Maycomb Capital. The MSA will be sent separately for signature and governs all terms and conditions applicable to this engagement, including confidentiality, liability, and ownership.
 
-> **Status as of June 24, 2026:** MSA sent to Ariella Rotenberg for signature. Not yet signed — Ariella was out the week of June 23–24. Follow up on her return. Signing the MSA constitutes acceptance of this SOW and authorizes discovery to begin.
+> **Status as of July 7, 2026:** MSA signed by Ariella Rotenberg on the morning of July 7, 2026. SOW is accepted and discovery is fully authorized. (Prior status: sent June 24; Ariella was out the week of June 23–24, signed on return.)
 
 ## Investment
 

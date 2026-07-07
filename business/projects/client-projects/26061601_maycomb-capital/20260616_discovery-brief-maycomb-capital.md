@@ -10,16 +10,16 @@ status: needs-attention
 
 Alternative asset manager / fund manager operating a management company structure over multiple fund vehicles, with an outsourced fund administrator handling back-office fund accounting.
 
-**Primary internal contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com
-> ⚠️ NEEDS INPUT: Ariella's phone and mobile.
-> ⚠️ NEEDS INPUT (task, not gap): Capture Ariella's personal/forwarding contact info before her July 10 departure to retain the relationship. Ariella was out the week of the workflow deep-dive call (June 23–24) — follow up on return.
+**Primary internal contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com, phone (651) 341-5992
+> ✅ RESOLVED July 7, 2026: Ariella's phone (651) 341-5992 and personal/forwarding contact captured ahead of her July 10 departure.
 
 ---
 
 ## 1. Client and Organization
 
 - **Name:** Maycomb Capital.
-> ⚠️ NEEDS INPUT: Confirm legal entity name(s) and any trade name, if different from "Maycomb Capital." *(Reserve for Ariella session.)*
+- **Headquarters:** 235 Duffield Street, 18th Floor, Brooklyn, NY 11201 *(confirmed July 7, 2026)*.
+> ⚠️ NEEDS INPUT: Confirm legal entity name(s) and any trade name, if different from "Maycomb Capital," plus main phone. *(Low priority.)*
 - **Headcount:** 12 full-time people.
 - **Corporate structure:** Four limited partnership vehicles (the funds), one single-member LLC, and a two-member LLC that serves as the management company / operating business. Business matters are run through the operating company for operational and financial simplicity; expenses and revenue are generated primarily by the fund entities and a little by the single-member LLC.
 - **Principal contact for this engagement:** Ariella Rotenberg, COO/CFO *(inferred from context — she speaks to AP runs, budget-to-actuals, and cash management with CFO-level ownership)*. Email: arotenberg@maycombcapital.com.
@@ -59,9 +59,7 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Tenure / Transition:** Last day confirmed as July 10. Will continue afterward as a senior advisor.
 - **Owns:** AP run / cash allocation across entities, budget-to-actuals analysis, overall financial operations strategy.
 - **Relevance:** Primary internal champion and likely main point of contact for the engagement; departing but staying on in an advisory capacity, so continuity risk is partially mitigated.
-- **Contact:** arotenberg@maycombcapital.com.
-> ⚠️ NEEDS INPUT: Phone and mobile.
-> ⚠️ NEEDS INPUT: Personal/forwarding contact info to capture before July 10 departure, to retain the relationship.
+- **Contact:** arotenberg@maycombcapital.com; phone (651) 341-5992 *(confirmed July 7, 2026)*. Personal/forwarding contact captured July 7 ahead of the July 10 departure.
 
 ### Danielle Schweitzer — Analyst
 - **Working Style:** Hands-on, detail-driven; manually executes the legal bill tracking and quarterly borrower invoicing in Excel. Candid about pain points ("pile it on") and motivated to document/automate processes before she leaves so successors don't inherit the same grind.
@@ -207,7 +205,7 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Problem:** The fund administrator sends a monthly budget-to-actuals report, but it's "not accurate enough really to use" as-is. Maycomb instead does a manual quarterly deep review where Ariella works through variances by hand to decide whether to adjust the budget, which line items matter, and why — described as relying on her judgment ("amazing mind") rather than a defined process.
 - **Current Thinking:** Variance review is assumed to require expert manual interpretation each quarter because line items vary in importance and the fund admin's draft isn't trustworthy.
 - **Reframe:** Most of this can be reduced to explicit threshold rules (e.g., flag variances >50% and >$10,000) plus a model that drafts a recommendation off historical variance patterns — leaving the human only to approve or override a generated suggestion, rather than build the analysis from scratch.
-- **Approach:** Build a rules-based variance flagging report against the fund admin's monthly actuals, then layer an LLM-generated narrative/recommendation on flagged items for human sign-off, aiming to compress the quarterly review into a short approval meeting. Status: Not started.
+- **Approach:** Build a rules-based variance flagging report against the fund admin's monthly actuals, then layer an LLM-generated narrative/recommendation on flagged items for human sign-off, aiming to compress the quarterly review into a short approval meeting. Status: SOP delivered (`SOPs/Maycomb_Capital_Budgeting_SOP`, July 7). Automation build not yet started.
 
 ### P-005 — No AI/Automation Roadmap Behind the New Claude Rollout (People / Processes)
 - **Area:** People / Processes.
@@ -221,7 +219,7 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Problem:** Ariella (COO/CFO) and Danielle (Analyst) — the two people who hold the most detailed knowledge of the back/middle-office processes above — are both exiting within weeks of each other (June 30 and July 10 last days), before a Director of Finance & Ops or Analyst replacement is hired.
 - **Current Thinking:** Treated as an unplanned, "deeply concerning" coincidence to be managed with an interim fractional COO bridging the gap.
 - **Reframe:** The departures, while risky, create a forcing function: process documentation has to happen now regardless of automation plans, and that documentation work is the same work this engagement needs anyway — the transition and the diagnostic/automation engagement can directly reinforce each other if SOP capture happens immediately.
-- **Approach:** Prioritize capturing or co-developing SOPs for the processes in P-001 through P-004 before June 30 (Danielle's last full-time day), using any SOPs already drafted internally as a starting point. Status: **Three SOPs delivered** (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Workflow deep-dive completed June 23–24. Budget-to-actuals SOP still to be created — Danielle noted this is less urgent (happens twice a year) and is more of an Ariella conversation. Danielle used Claude's transcript-to-SOP tool for two of the three SOPs — a direct use case example she found highly effective.
+- **Approach:** Prioritize capturing or co-developing SOPs for the processes in P-001 through P-004 before June 30 (Danielle's last full-time day), using any SOPs already drafted internally as a starting point. Status: **Three SOPs delivered** (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Workflow deep-dive completed June 23–24. Budget-to-actuals SOP **delivered July 7, 2026** (`SOPs/Maycomb_Capital_Budgeting_SOP`) — completing the full four-SOP set. Danielle used Claude's transcript-to-SOP tool for two of the three operational SOPs — a direct use case example she found highly effective.
 
 ---
 
@@ -308,14 +306,14 @@ Six diagnosed problems, two of which (P-003 AP allocation, P-004 budget variance
 
 ## Open Questions for Maycomb
 
-1. Ariella's phone and mobile *(email confirmed: arotenberg@maycombcapital.com)*. Also: capture her personal/forwarding contact before July 10 to retain the relationship. Ariella was out the week of June 23–24 — follow up on return.
+1. ~~Ariella's phone and mobile; capture her personal/forwarding contact before July 10~~ — **RESOLVED July 7, 2026: phone (651) 341-5992, forwarding contact captured.**
 2. Danielle's phone and mobile *(email confirmed: dschweitzer@maycombcapital.com)*.
 3. Barry Porozni's exact title, company name, and contact details *(confirmed: outside IT vendor, not internal staff; scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls)*.
-4. Confirm Maycomb Capital's legal entity name(s) / any trade name, plus headquarters address and main phone.
+4. Confirm Maycomb Capital's legal entity name(s) / any trade name, plus main phone. *(HQ address **RESOLVED July 7**: 235 Duffield Street, 18th Floor, Brooklyn, NY 11201.)*
 5. LeverPoint primary contact name, and whether they should be looped into the engagement directly *(fund administrator name confirmed: LeverPoint, also referred to as Ultimis)*.
 6. Status/timeline for hiring the interim fractional COO, Director of Finance & Ops, and Analyst — should the engagement plan to onboard them once in place? *(Analyst hire targeted by August per Danielle; other timelines unknown.)*
-7. ~~Existing SOPs already drafted internally~~ — **RESOLVED: Three SOPs delivered (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Budget-to-actuals SOP to follow — Ariella conversation.**
+7. ~~Existing SOPs already drafted internally~~ — **RESOLVED: All four SOPs delivered (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing, and Budget-to-Actuals as of July 7). Full set in the `SOPs/` subfolder.**
 8. ~~Any additional systems in use~~ — **RESOLVED: Full stack confirmed — Affinity (CRM), Slack, Teams (video only), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint, internal Excel loan servicing model.**
-9. MSA confidentiality clause — *confirmed, MSA sent. MSA not yet signed as of June 23–24 — Ariella was out. Follow up on return.*
+9. MSA — ~~confirmed sent; not yet signed as of June 23–24~~ **SIGNED July 7, 2026. SOW accepted, discovery fully authorized.**
 10. Pricing tiers/rate structure — *not needed yet; revisit if scope expands beyond the free engagement.*
 11. Confirm with Barry: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions). Recommendation to disable Cowork and Claude Code by default was affirmed on the call.
