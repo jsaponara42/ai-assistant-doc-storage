@@ -76,12 +76,20 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 > ⚠️ NEEDS INPUT: Barry's exact title, company name, and contact details. Also confirm: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions).
 
 ### Incoming roles
-- **Interim fractional COO** — to hold strategic initiatives during the transition. Status unknown — reserve for Ariella.
+- **Interim fractional COO** — to hold strategic initiatives during the transition. **Very likely Martina Madrid Sebring** (see below) — confirm on the July 7 value-drivers call. Status/start-date otherwise unconfirmed — reserve for Ariella.
 - **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope. Timeline unknown — reserve for Ariella. This role is the intended permanent holder of the AI-owner role.
 - **Analyst (finance and ops)** — Maycomb is actively hiring. Danielle expects the new analyst to be fully onboarded by August and intends to personally transition them.
 - **Varenka (office manager)** — confirmed interim operations lead. Taking over the AP run and being looped into broader operations. Named by Danielle as the interim AI owner and process champion until the Director of Finance & Ops is hired. Also identified as interim approval holder for AP run sign-offs (alongside Miljana) after Ariella's departure.
 - **Miljana** — named as one of the people who will handle AP run approval sign-offs after Ariella leaves. Described as having deeper business knowledge in certain areas.
 > ⚠️ NEEDS INPUT: Timeline for interim fractional COO and Director of Finance & Ops hires. Confirm whether engagement should plan to onboard them directly once in place.
+
+### Martina Madrid Sebring — Interim Fractional COO (incoming, likely)
+- **Status:** Joining the July 7, 2026 value-drivers call. JC confirmed the attendee is Martina Madrid Sebring; her specific Maycomb role/title is to be confirmed live, but she is almost certainly the incoming interim fractional COO flagged above.
+- **Background (from public sources, mid-2026):** Operates as a **Fractional COO & Chief of Staff**, coming into growing organizations to build operational structure during scaling or transition. Purdue University background; based in Escondido, CA (likely remote for Maycomb). Active in the **Glue Club**, a peer community of startup/scaling-company operations leaders. Author of ***Scale with Purpose***, on scaling intentionally through better systems and leadership rather than more hours ("Growth doesn't break businesses. Unclear leadership and weak systems do.").
+- **Working Style / Values:** Systems- and structure-oriented; prioritizes operational clarity, clear ownership/accountability, and sustainable pace over one-person heroics. This aligns closely with the engagement's core thesis (remove single-person dependency, document SOPs before knowledge leaves) — a natural ally for the roadmap and playbook.
+- **Relevance:** Likely the **post-July-10 continuity contact** — the person the roadmap and Playbook get delivered to and lived with after Ariella departs. Treat as a future primary decision-maker, not a passive observer. Ariella including her on this call signals a warm handoff of the engagement relationship.
+- **Watch-outs:** No confirmed impact-investing / fund-administration background in her public footprint (it's startup / nonprofit / service-business operations) — she'll grasp operations and systems language immediately but may need Maycomb's cross-entity fund structure and LeverPoint dynamics spelled out. Public record is thin and doesn't reference Maycomb directly, so treat this profile as well-supported inference; confirm role, mandate, and contact details live.
+> ⚠️ NEEDS INPUT: Confirm Martina's exact title/role at Maycomb, start date, mandate, and contact details. Confirm whether she inherits the engagement-relationship / AI-owner-adjacent responsibilities after July 10.
 
 ---
 
