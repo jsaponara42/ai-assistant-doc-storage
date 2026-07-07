@@ -8,9 +8,12 @@ status: needs-attention
 
 # Maycomb Capital
 
+> **Update July 7, 2026:** Value-drivers call held with Ariella Rotenberg and incoming interim/fractional COO Martina Madrid Sebring. Primary engagement contact going forward is Martina + Barry Porozni (see below) — Ariella is off distribution. New Problem Register item P-007 added (outcome data / annual impact report); Section 11 captures the full set of raw revenue-side findings from the call.
+
 Alternative asset manager / fund manager operating a management company structure over multiple fund vehicles, with an outsourced fund administrator handling back-office fund accounting.
 
-**Primary internal contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com, phone (651) 341-5992
+**Primary internal contact (as of July 7, 2026):** Martina Madrid Sebring — Interim/Fractional COO, and Barry Porozni — IT (outside vendor). Per Ariella's direction on the July 7 value-drivers call, all engagement correspondence now goes to Martina and Barry (CC Danielle Schweitzer through end of August for visibility; leave Ariella off — see below).
+**Prior primary contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com, phone (651) 341-5992. Last day July 10, 2026; continues afterward as a light-touch strategic/institutional-knowledge advisor to Maycomb's CEO, but explicitly not engaged in this work day to day going forward.
 > ✅ RESOLVED July 7, 2026: Ariella's phone (651) 341-5992 and personal/forwarding contact captured ahead of her July 10 departure.
 
 ---
@@ -22,7 +25,7 @@ Alternative asset manager / fund manager operating a management company structur
 > ⚠️ NEEDS INPUT: Confirm legal entity name(s) and any trade name, if different from "Maycomb Capital," plus main phone. *(Low priority.)*
 - **Headcount:** 12 full-time people.
 - **Corporate structure:** Four limited partnership vehicles (the funds), one single-member LLC, and a two-member LLC that serves as the management company / operating business. Business matters are run through the operating company for operational and financial simplicity; expenses and revenue are generated primarily by the fund entities and a little by the single-member LLC.
-- **Principal contact for this engagement:** Ariella Rotenberg, COO/CFO *(inferred from context — she speaks to AP runs, budget-to-actuals, and cash management with CFO-level ownership)*. Email: arotenberg@maycombcapital.com.
+- **Principal contact for this engagement (as of July 7, 2026):** Martina Madrid Sebring, Interim/Fractional COO, and Barry Porozni, IT (outside vendor) — both CC'd on all engagement correspondence per Ariella's direction. Danielle Schweitzer CC'd through end of August for visibility. Ariella Rotenberg (former principal contact, COO/CFO, inferred from context — she spoke to AP runs, budget-to-actuals, and cash management with CFO-level ownership) is off the distribution going forward.
 - **Connection source:** Introduced by Barry Porozni (mutual connection, also does Maycomb's IT).
 > ⚠️ NEEDS INPUT: Barry's exact title and contact details. Confirmed on the workflow deep-dive call (June 23–24): outside IT vendor (not internal staff). IT scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls — Barry affirmed the recommendation to disable Cowork and Claude Code by default at the org level.
 
@@ -49,6 +52,8 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - Standardize whatever automation/AI usage patterns are found to work, so that early-adopter behavior doesn't fragment into inconsistent practices across the 12-person team.
 - Use the transition (both Ariella and Danielle departing) as an opportunity to formalize SOPs that the incoming fractional COO, Director of Finance & Ops, and Analyst can inherit cleanly.
 - Possibly extend automation engagement to portfolio companies that struggle with their own outcome-reporting processes.
+- **NEW (July 7, 2026 — Ariella, on the value-drivers call):** Look beyond cost-reduction/back-office efficiency to the actions that actually *drive value* for the business — deal sourcing and capital deployment speed, borrower asset-management support, investor relations and capital raising, and outcome-data collection/impact reporting. See Section 11.
+- **NEW (July 7, 2026):** Make the annual impact report and portfolio-company outcome-data transfer meaningfully less painful — Ariella described the current process as unnecessarily difficult. Natural collaboration point with the incoming Investor Relations hire (starts August 3, 2026).
 
 ---
 
@@ -60,6 +65,7 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Owns:** AP run / cash allocation across entities, budget-to-actuals analysis, overall financial operations strategy.
 - **Relevance:** Primary internal champion and likely main point of contact for the engagement; departing but staying on in an advisory capacity, so continuity risk is partially mitigated.
 - **Contact:** arotenberg@maycombcapital.com; phone (651) 341-5992 *(confirmed July 7, 2026)*. Personal/forwarding contact captured July 7 ahead of the July 10 departure.
+- **Post-departure role (confirmed July 7, 2026):** Maintaining a "very light touch" strategic advisory position with Maycomb — high-level institutional knowledge and a sounding board for Maycomb's CEO during the transition. Explicitly stated this won't reach into the day-to-day of this engagement, and asked to be left off further engagement correspondence.
 
 ### Danielle Schweitzer — Analyst
 - **Working Style:** Hands-on, detail-driven; manually executes the legal bill tracking and quarterly borrower invoicing in Excel. Candid about pain points ("pile it on") and motivated to document/automate processes before she leaves so successors don't inherit the same grind.
@@ -76,20 +82,23 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 > ⚠️ NEEDS INPUT: Barry's exact title, company name, and contact details. Also confirm: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions).
 
 ### Incoming roles
-- **Interim fractional COO** — to hold strategic initiatives during the transition. **Very likely Martina Madrid Sebring** (see below) — confirm on the July 7 value-drivers call. Status/start-date otherwise unconfirmed — reserve for Ariella.
-- **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope. Timeline unknown — reserve for Ariella. This role is the intended permanent holder of the AI-owner role.
+- **Interim / Fractional COO** — **CONFIRMED July 7, 2026: Martina Madrid Sebring** (full profile below). Holds strategic and operational priorities during the transition until the Director of Finance & Ops and Analyst are hired.
+- **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope. Timeline unknown — reserve for Martina/Barry going forward (Ariella off distribution). This role is the intended permanent holder of the AI-owner role.
 - **Analyst (finance and ops)** — Maycomb is actively hiring. Danielle expects the new analyst to be fully onboarded by August and intends to personally transition them.
+- **Investor Relations (new hire, confirmed July 7, 2026)** — Already hired; starts **August 3, 2026**. First major project expected to be overhauling Maycomb's impact measurement/management systems and the annual impact report (published end of Q1) — direct link to P-007, Section 7.
 - **Varenka (office manager)** — confirmed interim operations lead. Taking over the AP run and being looped into broader operations. Named by Danielle as the interim AI owner and process champion until the Director of Finance & Ops is hired. Also identified as interim approval holder for AP run sign-offs (alongside Miljana) after Ariella's departure.
 - **Miljana** — named as one of the people who will handle AP run approval sign-offs after Ariella leaves. Described as having deeper business knowledge in certain areas.
-> ⚠️ NEEDS INPUT: Timeline for interim fractional COO and Director of Finance & Ops hires. Confirm whether engagement should plan to onboard them directly once in place.
+> ⚠️ NEEDS INPUT: Timeline for Director of Finance & Ops and Analyst hires (fractional COO now confirmed — see Martina, below). Name and contact details for the new Investor Relations hire.
 
-### Martina Madrid Sebring — Interim Fractional COO (incoming, likely)
-- **Status:** Joining the July 7, 2026 value-drivers call. JC confirmed the attendee is Martina Madrid Sebring; her specific Maycomb role/title is to be confirmed live, but she is almost certainly the incoming interim fractional COO flagged above.
-- **Background (from public sources, mid-2026):** Operates as a **Fractional COO & Chief of Staff**, coming into growing organizations to build operational structure during scaling or transition. Purdue University background; based in Escondido, CA (likely remote for Maycomb). Active in the **Glue Club**, a peer community of startup/scaling-company operations leaders. Author of ***Scale with Purpose***, on scaling intentionally through better systems and leadership rather than more hours ("Growth doesn't break businesses. Unclear leadership and weak systems do.").
-- **Working Style / Values:** Systems- and structure-oriented; prioritizes operational clarity, clear ownership/accountability, and sustainable pace over one-person heroics. This aligns closely with the engagement's core thesis (remove single-person dependency, document SOPs before knowledge leaves) — a natural ally for the roadmap and playbook.
-- **Relevance:** Likely the **post-July-10 continuity contact** — the person the roadmap and Playbook get delivered to and lived with after Ariella departs. Treat as a future primary decision-maker, not a passive observer. Ariella including her on this call signals a warm handoff of the engagement relationship.
-- **Watch-outs:** No confirmed impact-investing / fund-administration background in her public footprint (it's startup / nonprofit / service-business operations) — she'll grasp operations and systems language immediately but may need Maycomb's cross-entity fund structure and LeverPoint dynamics spelled out. Public record is thin and doesn't reference Maycomb directly, so treat this profile as well-supported inference; confirm role, mandate, and contact details live.
-> ⚠️ NEEDS INPUT: Confirm Martina's exact title/role at Maycomb, start date, mandate, and contact details. Confirm whether she inherits the engagement-relationship / AI-owner-adjacent responsibilities after July 10.
+### Martina Madrid Sebring — Interim / Fractional COO (CONFIRMED July 7, 2026)
+- **Status:** Confirmed on the July 7, 2026 value-drivers call as Maycomb's interim/fractional COO, holding operational priorities for the company while Maycomb searches for, hires, and onboards the permanent Director of Finance & Ops and Analyst (who will be the long-term owners of this work). Introduced by Barry, who described her as someone who "can wear multiple hats and do a good job on any hat she's under."
+- **Location:** Based in **San Diego, CA** *(corrected — prior research suggested Escondido)*. Currently doing similar fractional-COO / AI-automation work with other clients concurrently.
+- **Relevant background (confirmed on call):** Has already done AI and automation transformation work for another company she helps run — directly relevant experience for this engagement. JC noted the fit is well-timed given her existing familiarity with workflow-focused automation work ("you kind of need a clean workflow to have a good automation").
+- **Background (from public sources, mid-2026 — prior research, held lightly):** Operates as a Fractional COO & Chief of Staff; Purdue University background; active in the Glue Club peer community of startup/scaling-company operations leaders; author of *Scale with Purpose*, on scaling through better systems and leadership rather than more hours.
+- **Working Style / Values:** Systems- and structure-oriented; prioritizes operational clarity and sustainable pace. Confirmed alignment with the engagement's thesis on the call — she actively connected Ariella's answers to patterns from her own prior automation work as the conversation went on.
+- **Relevance:** Primary point of contact for the engagement going forward (see updated contact info above). CC'd on every engagement email alongside Barry.
+- **Watch-outs:** Confirmed she does not have deep pre-existing Maycomb institutional or fund-structure knowledge — she is learning Maycomb's specifics in real time (was on the value-drivers call specifically to absorb this). Continue spelling out fund-structure/entity context rather than assuming familiarity.
+> ⚠️ NEEDS INPUT: Martina's contact details (email, phone) and exact start date.
 
 ---
 
@@ -229,6 +238,14 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Reframe:** The departures, while risky, create a forcing function: process documentation has to happen now regardless of automation plans, and that documentation work is the same work this engagement needs anyway — the transition and the diagnostic/automation engagement can directly reinforce each other if SOP capture happens immediately.
 - **Approach:** Prioritize capturing or co-developing SOPs for the processes in P-001 through P-004 before June 30 (Danielle's last full-time day), using any SOPs already drafted internally as a starting point. Status: **Three SOPs delivered** (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing). Workflow deep-dive completed June 23–24. Budget-to-actuals SOP **delivered July 7, 2026** (`SOPs/Maycomb_Capital_Budgeting_SOP`) — completing the full four-SOP set. Danielle used Claude's transcript-to-SOP tool for two of the three operational SOPs — a direct use case example she found highly effective.
 
+### P-007 — Outcome Data Collection & Annual Impact Report (Processes / People) — NEW, July 7, 2026
+- **Area:** Processes / People (revenue-side — distinct scope from the back-office P-001–P-006).
+- **Problem:** Portfolio companies already track outcome data as an underwriting prerequisite, but getting that data from portfolio companies into Maycomb's annual impact report is manual and effortful. Ariella described the process directly as "such a difficult process" that "doesn't need to be" that hard. The report is published at the end of Q1 each year.
+- **Current Thinking:** Treated as an unavoidable, effortful annual lift given how bespoke each portfolio company's own reporting can be.
+- **Reframe:** Since portfolio companies are already collecting this data (they had to, to qualify for underwriting), the friction is in the *transfer and assembly*, not the underlying measurement. A more frictionless intake mechanism — a structured submission format or lightweight tool portfolio companies use to hand off what they already track — could remove most of the manual burden while preserving the live conversation for judgment calls and follow-up.
+- **Approach:** Not yet scoped in detail — flagged for a follow-up conversation, likely once the new Investor Relations hire (starts August 3, 2026) is onboarded, since overhauling impact measurement/management and the report itself is expected to be his first major project.
+- **Status:** Identified July 7, 2026 (value-drivers call with Ariella and Martina). See Section 11, VD-4. Not yet planned into the Action Plan sequence below.
+
 ---
 
 ## 8. Action Plan
@@ -292,6 +309,8 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 5. Cross-Entity AP Allocation Rules (Systems) — starts once SOP capture is complete and fund admin coordination begins.
 6. Budget Variance Flagging and Recommendation Engine (Systems) — starts after #5, since it depends on the same allocation/entity data.
 
+**Not yet sequenced:** P-007 (Outcome Data Collection & Annual Impact Report) and the broader Value Drivers findings (Section 11) surfaced July 7, 2026 — after this Action Plan was built. They represent revenue-side scope distinct from the back-office workstreams above and need their own scoping pass, likely in coordination with Martina and the incoming Investor Relations hire, before they can be sequenced.
+
 ---
 
 ## 9. Engagement Metrics
@@ -312,6 +331,39 @@ Six diagnosed problems, two of which (P-003 AP allocation, P-004 budget variance
 
 ---
 
+## 11. Value Drivers — Revenue-Side Workflows (New, July 7, 2026 Call)
+
+Sourced from the value-drivers conversation with Ariella Rotenberg and Martina Madrid Sebring. Distinct from the back-office Problem Register (P-001–P-006): this section maps the actions that actually *drive revenue and value* for Maycomb, per Ariella's own framing — "not the internal processes, but more what drives value for the business." Raw findings below; not yet scoped into full problem statements except where noted (P-007).
+
+### VD-1 — Deal Sourcing & Capital Deployment
+- Diligence process was named directly as a major value driver for borrowers.
+- Two-person deal teams per portfolio company; formal quarterly check-in calls, but continuous informal contact intended so nothing is heard "for the first time" on a quarterly call.
+- A healthy deal pipeline is itself seen as a value driver for fundraising — attractive to investors.
+- **Underwriting gate:** Maycomb will not underwrite a borrower without an existing track record of outcome measurement (borrowers must already have the data systems in place). This causes pipeline to fall out at the diligence stage — a possible opportunity to refer or support prospective borrowers in building measurement capability before they qualify.
+- **Field/market-building work** — e.g., presenting to ~60 county commissioners at a large urban county caucus on procurement reform tied to outcomes-based funding — is treated as valuable even with zero resulting deals. Described as sometimes needing to "make" deals (educate the market) rather than only find them; a mission/brand-building value driver distinct from direct sourcing.
+
+### VD-2 — Borrower Asset Management / Portfolio Support
+- Maycomb positions itself as "a lender that acts like a venture investor," in contrast to typical low-touch lenders.
+- Support intensity varies widely by borrower: some already have strong reporting infrastructure (low-touch, "clipping the coupon"); others need deep support (financial management, revenue booking practices, weathering difficult periods).
+- Described as an ongoing "client success" dynamic, similar to a tech company's customer success function — occurs at both the borrower and investor level.
+
+### VD-3 — Investor Relations & Capital Raising
+- A distinct but related workflow to the investment/deal workflow — "you can't invest capital if you don't raise capital." Fund Two fundraising is complete, but relationship nurturing and sourcing future investors continues.
+- Mirrors the deal workflow's structure: (1) wholesale marketing/positioning (conferences, collateral, value proposition), (2) bespoke sales process tailored to each investor, (3) structuring and closing, (4) ongoing investor relationship management and reporting.
+
+### VD-4 — Outcome Data Collection & Annual Impact Reporting — see P-007
+- Portfolio companies already measure outcome data (required as an underwriting prerequisite), but transferring that data into Maycomb's annual impact report is manual and, per Ariella directly, "such a difficult process" that "doesn't need to be" that hard.
+- Opportunity: a more frictionless intake mechanism from portfolio companies for data they're already collecting, preserving live conversation for judgment calls but streamlining the raw transfer.
+- Organizational tailwind: Maycomb's new Investor Relations hire starts **August 3, 2026**; his first major project is expected to be overhauling impact measurement/management systems and the report itself (published end of Q1).
+
+### VD-5 — Government / Field-Building Relationships
+- Same territory as VD-1's field-building point, called out separately because it was framed as a potential brand asset: a repeatable, easy-to-explain system for measuring against whatever outcome metric a government body assigns, marketed as part of Maycomb's identity ("we know we can measure things, and when we measure them, they get done").
+- Floated as an idea on the call, unscoped — flagged for a follow-up conversation rather than acted on yet.
+
+**Next steps:** VD-4 is the clearest, most concretely painful item and has been promoted to the Problem Register as P-007. VD-1, VD-2, VD-3, and VD-5 need further scoping (likely with Martina and/or the deal team) before they can be written as problem statements with a reframe and approach.
+
+---
+
 ## Open Questions for Maycomb
 
 1. ~~Ariella's phone and mobile; capture her personal/forwarding contact before July 10~~ — **RESOLVED July 7, 2026: phone (651) 341-5992, forwarding contact captured.**
@@ -319,9 +371,11 @@ Six diagnosed problems, two of which (P-003 AP allocation, P-004 budget variance
 3. Barry Porozni's exact title, company name, and contact details *(confirmed: outside IT vendor, not internal staff; scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls)*.
 4. Confirm Maycomb Capital's legal entity name(s) / any trade name, plus main phone. *(HQ address **RESOLVED July 7**: 235 Duffield Street, 18th Floor, Brooklyn, NY 11201.)*
 5. LeverPoint primary contact name, and whether they should be looped into the engagement directly *(fund administrator name confirmed: LeverPoint, also referred to as Ultimis)*.
-6. Status/timeline for hiring the interim fractional COO, Director of Finance & Ops, and Analyst — should the engagement plan to onboard them once in place? *(Analyst hire targeted by August per Danielle; other timelines unknown.)*
+6. ~~Status/timeline for hiring the interim fractional COO~~ — **RESOLVED July 7, 2026: Martina Madrid Sebring confirmed** (see Section 4). Director of Finance & Ops and Analyst hire timelines still unknown — should the engagement plan to onboard them once in place? *(Analyst hire targeted by August per Danielle; other timelines unknown.)*
 7. ~~Existing SOPs already drafted internally~~ — **RESOLVED: All four SOPs delivered (Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing, and Budget-to-Actuals as of July 7). Full set in the `SOPs/` subfolder.**
 8. ~~Any additional systems in use~~ — **RESOLVED: Full stack confirmed — Affinity (CRM), Slack, Teams (video only), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint, internal Excel loan servicing model.**
 9. MSA — ~~confirmed sent; not yet signed as of June 23–24~~ **SIGNED July 7, 2026. SOW accepted, discovery fully authorized.**
 10. Pricing tiers/rate structure — *not needed yet; revisit if scope expands beyond the free engagement.*
 11. Confirm with Barry: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions). Recommendation to disable Cowork and Claude Code by default was affirmed on the call.
+12. Martina Madrid Sebring's contact details (email, phone) and exact start date.
+13. Name and contact details for the new Investor Relations hire (starts August 3, 2026) — confirm whether to loop him into the P-007 outcome-data/impact-reporting workstream once onboarded.
