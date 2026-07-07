@@ -19,6 +19,41 @@ MSA is signed and the back-office SOP set (legal bills, AP run, invoicing, budge
 
 ## Content
 
+### Attendees
+- **Ariella Rotenberg** — COO/CFO, departing July 10 (stays on as advisor). Primary relationship.
+- **Martina Madrid Sebring** — NEW to this call. Almost certainly the incoming **interim fractional COO** (the transition seat flagged in the discovery brief). Profile and approach below. *(Confirmed by JC that the attendee is Martina Madrid Sebring; her specific Maycomb role/title is still to be confirmed live.)*
+
+---
+
+### Attendee spotlight — Martina Madrid Sebring
+
+**Who she is (from public sources, as of mid-2026):**
+- Operates as a **Fractional COO & Chief of Staff**. Her clients are described as founders and CEOs leading growing organizations — i.e., she comes in to bring operational structure during scaling or transition. That maps cleanly onto Maycomb's need: hold strategic initiatives steady while Ariella and Danielle exit.
+- Based in **Escondido, CA** (so likely joining remotely; relevant for the video setup and for the fact she won't have Maycomb institutional history).
+- **Purdue University** background. Active member of the **Glue Club** — a peer community of startup/scaling-company operations leaders (COOs, heads of ops). This is a community membership, not an employer; it signals she identifies with and networks among serious operators.
+- Author of **_Scale with Purpose_**, a book for business owners, service-based entrepreneurs, and nonprofit leaders on scaling intentionally "without burning out their teams or sacrificing client experience." Her stated thesis: *"Growth doesn't break businesses. Unclear leadership and weak systems do."* and *"You don't need more hours; you need a smarter structure."*
+
+**What this tells us about her wants & values:**
+- **Systems and operational clarity over heroics.** Her whole message is that durable growth comes from clear structure and documented systems, not from one talented person grinding. This is *exactly* the framing of the engagement (removing single-person dependency, capturing SOPs before knowledge walks out) — she should be a natural ally. Lead into that alignment.
+- **Sustainable pace / anti-burnout.** She explicitly values scaling without burning people out. The Playbook's core premise (§0: "remove the part of the task that wastes the person," get time back for higher-value work) will resonate strongly — worth echoing that language.
+- **Accountability and ownership.** Her book centers leadership accountability and "who owns what." She'll likely care about the AI-owner role, clear process ownership, and the approval/governance structure in the Playbook.
+
+**Why she's likely on THIS call:**
+- A value-drivers/strategy conversation is precisely what an incoming fractional COO wants visibility into. Ariella bringing her signals a **warm handoff of the relationship** before July 10 — Martina is probably the person the roadmap and playbook actually get delivered to and lived with after Ariella goes. Treat her as a **future primary decision-maker and continuity contact**, not a passive observer.
+
+**Watch-outs:**
+- **No confirmed Maycomb-specific or impact-investing/fund-management background surfaced.** Her public footprint is startup/nonprofit/service-business operations, not alternative asset management or fund finance. Don't assume she knows Maycomb's cross-entity fund structure, LeverPoint dynamics, or the specifics of the four back-office workflows yet. Pitch at the right altitude — she'll grasp operations and systems language immediately, but may need the fund-structure context spelled out.
+- **Thin public record.** Details above are assembled from a modest online footprint and none of it references Maycomb directly. Hold them lightly; confirm her actual role and mandate from her own mouth early in the call rather than assuming.
+- **She's new — don't let the call become a re-briefing.** Orient her efficiently without spending the whole 30 minutes catching her up. Offer a separate onboarding/handoff touchpoint if she needs the full picture.
+- **Relationship continuity is the real prize here.** If she's the post-July-10 owner, capture her contact info and offer to loop her in directly on deliverables. This partly answers the open "who inherits the engagement relationship" question.
+
+**Opening move (first ~30 seconds):**
+> "Martina, so I can make this genuinely useful for you — what's your role coming into Maycomb, and what are you most focused on through the transition?"
+
+This confirms her role/mandate, signals you're building the relationship (not just delivering to Ariella), and lets you calibrate altitude for the rest of the call.
+
+---
+
 ### Suggested time allocation (30 min)
 - **~18–20 min — Value drivers** (primary focus)
 - **~5–6 min — Claude Enterprise Playbook governance/cost items**
