@@ -80,7 +80,7 @@ Impact and effort estimates below are directional, based on the frequencies and 
 | **Quick Win**                            | Auto-draft quarterly borrower invoices                           | Low–Medium           | Medium–High                       |
 | **Quick Win / Governance**               | AI Playbook rollout (gripe list, SKILLS Phase 1, monthly review) | Low                  | Medium                            |
 | **Strategic Investment**                 | Legal bill tracker rebuild (allocation rules engine)             | Medium–High          | Medium                            |
-| **Strategic Investment**                 | Full cross-entity AP allocation automation                       | High                 | Medium                            |
+| **Strategic Investment**                 | Full cross-entity AP allocation automation                       | High                 | Mediu                             |
 | **Strategic Investment**                 | Budget variance flagging & recommendation engine                 | Medium–High          | High                              |
 | **Strategic Investment (needs scoping)** | Outcome data collection / impact report frictionless intake      | Medium (once scoped) | High                              |
 | **Exploratory (needs discovery)**        | Deal sourcing & capital deployment                               | Unknown              | Potentially High                  |
