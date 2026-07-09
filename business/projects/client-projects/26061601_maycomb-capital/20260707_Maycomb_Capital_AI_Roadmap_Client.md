@@ -34,6 +34,18 @@ That last piece is often skipped in engagements like this one. Most automation w
 
 ---
 
+## What We Believe This Should Look Like
+
+The goal of AI and automation at Maycomb isn't to replace judgment — it's to stop spending judgment on work that doesn't need it. Almost everywhere we looked, the same pattern held: real expertise was being spent on manual lookups, duplicate tracking, and rebuilding numbers that already existed somewhere else in the system. That's not a skills gap. It's misallocated attention.
+
+Three things are worth building toward:
+
+- **Free up capacity for the work only a person can do.** Nearly every process we looked at has a mechanical core — data entry, lookups, formatting — and a judgment core: does this allocation make sense, should this budget line be adjusted, is this borrower relationship healthy. Automation should absorb the first, so your team can spend its attention on the second.
+- **Build resilience, not dependency.** The transition your team is navigating right now is a live example of what happens when process knowledge lives in one or two people. Getting the mechanical layer documented and automated means the next transition — and there will be one — is far less disruptive.
+- **Extend the same thinking beyond the back office.** Most firms stop at cost centers. What actually differentiates Maycomb — how you source deals, support borrowers, and report on outcomes — deserves the same discipline, and arguably matters more.
+
+---
+
 ## Where We See the Clearest Opportunities
 
 ### Quick, Low-Risk Wins
