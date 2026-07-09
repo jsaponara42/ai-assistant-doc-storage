@@ -18,9 +18,9 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript (Howie + John-Carlos), a 2026-06 ops call between Christy and Josh, and Christy's process-trunk roster. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
+> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript (Howie + John-Carlos), a 2026-06 ops call between Christy and Josh, Christy's process-trunk roster, and CEO strategic conversation (2026-06) on sales accountability, KPI implementation, operations oversight, and staffing performance. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
 >
-> **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Fixes are not designed here.
+> **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Management/authority dynamics and accountability frameworks that determine execution are documented in **Cross-Workflow Observations** and **Sales Performance & Accountability**. Fixes are not designed here.
 
 ---
 
@@ -63,11 +63,17 @@ status: needs-attention
 | **Payoffs** | Diana, Jalicia, Audra, Chanel, Yasmin | Settlement-time repayment resolution (not yet a mapped spine) |
 
 **Notes on the roster:**
-- **Underwriting is Christy alone** — confirms the PO-001 single-point-of-failure at the trunk level, not just within a single workflow step. Everything else has at least two people; underwriting has one.
-- **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. `[TO CONFIRM: is Leifert the same person as Alejandro under a different name, a separate person, or no longer in this seat? The ops-call references to Rayna/Leifert and the roster's Rayna/Alejandro need reconciling.]`
-- **Audra appears across four trunks** (Contracting, Funding, Payoffs) but was explicitly *removed* from Accounts Receivable. This matches the 2026-06 ops call's account of work being repeatedly taken off Audra. `[TO CONFIRM: is Audra overloaded, being narrowed deliberately, or being managed out of certain functions?]`
-- **Yasmin owns both Contracting and Collections** and also appears in Payoffs — a heavy concentration on the back end, and the same Yasmin who (per the ops call) sits partly outside Christy's direct management authority. Relevant to any automation touching contracting, collections, or payoffs.
+- **Underwriting is Christy alone** — confirms the PO-001 single-point-of-failure at the trunk level, not just within a single workflow step. Everything else has at least two people; underwriting has one. CEO notes: Christy is highly professional, thorough (5–7% bad-debt rate annually), protective of company interests, and extremely conservative in approvals. However, training new intake staff is inefficient (~6 months ramp-up); root cause is free-form Mighty data entry (no structured fields) rather than using pre-built field schema. Christy is open to oversight but asserts "this is the only way to do it" without external validation of assumptions.
+
+- **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. `[TO CONFIRM: is Leifert the same person as Alejandro under a different name, a separate person, or no longer in this seat? The ops-call references to Rayna/Leifert and the roster's Rayna/Alejandro need reconciling.]` Per Christy, Rayna is already doing ~98% of pre-settlement approval workflow; only the final 2% (approval/denial communication to firm) is withheld from her.
+
+- **Audra appears across four trunks** (Contracting, Funding, Payoffs) but was explicitly *removed* from Accounts Receivable. This matches the 2026-06 ops call's account of work being repeatedly taken off Audra. `[TO CONFIRM: is Audra overloaded, being narrowed deliberately, or being managed out of certain functions?]` Suggests possible performance management dynamic or workload balancing in progress.
+
+- **Yasmin owns both Contracting and Collections** and also appears in Payoffs — a heavy concentration on the back end. Per CEO: Yasmin is detail-oriented but weaker in communication and leadership; she is a "follower and doer" rather than a leader. She works closely with Christy and Danielle, handling behind-the-scenes tasks. Yasmin sits partly outside Christy's direct management authority; past attempts to manage Yasmin resulted in informal escalation to Danielle (part-owner). Relevant context for any automation touching contracting, collections, or payoffs, since actual decision-making authority may not follow the org chart.
+
 - **Two trunks — Collections and Payoffs — are not yet represented as workflow spines** above. They are post-funding repayment functions that the current five-workflow map does not cover. See the note in the Overall Workflow section.
+
+- **Danielle** — Part owner, professional, and territorial about her role. Per CEO: "Danielle's a professional. Danielle's a part owner. Danielle's going to be very territorial." However, she supports bringing in external expertise for process improvement and is encouraging Michael (Injury Specialists client) to engage the same advisor. She has made independent management decisions (e.g., promoting a team member) without consulting Christy.
 
 ---
 
@@ -380,6 +386,63 @@ These are not workflow steps. They're governance and management dynamics, confir
 
 5. **Net effect on the automation plan.** None of the above are workflow inefficiencies that automation fixes directly — they're authority and communication patterns that will determine whether any process change (tiering, onboarding scripts, CRM discipline, etc.) actually sticks once implemented. Worth surfacing explicitly in the opportunity map as a "process governance" risk alongside the technical opportunities, since a clean automated workflow can still be broken by ad hoc file intervention or reversed staffing decisions.
 
+6. **New institutional knowledge infrastructure.** CEO is implementing SharePoint as "institutional knowledge bank" for all processes and documentation. All team members are being trained on SharePoint structure and usage, with enforcement to come. Clear benefit: distributed knowledge capture reduces tribal knowledge dependency on individual staffers (e.g., Christy's free-form Mighty approach). Risk: SharePoint adoption has historically been weak at Capital Financing ("It's not very user-friendly... staff can't find it"), so training and ongoing discipline will be critical to success. This is the first layer of a broader accountability framework (see #7).
+
+7. **New accountability and measurement framework rolling out.** CEO is formalizing KPIs, goals, and performance metrics for all roles (currently mostly absent). Monthly one-on-one reviews by CEO with each team member will become the enforcement mechanism. Tone is results-focused and non-negotiable: missing goals leads to performance management conversation; repeated non-compliance leads to termination. This is a material shift from the current state and will directly affect workflow compliance. Example: sales team follow-up (W4/W5) is currently weak because accountability is loose; new measurement layer will make follow-up discipline a tracked metric with consequences. Early warning: this may surface additional breakpoints as workflows are measured rigorously for the first time.
+
+---
+
+# Sales Performance & Accountability Framework (CEO Directive)
+
+Based on CEO strategic conversation (2026-06), a new accountability and measurement layer is being implemented across the sales team. This is a **management context** that will materially affect how Workflows 3, 4, and 5 (Outbound, Sales Handling, Conferences) are tracked and executed going forward.
+
+## Sales Team Current State & Expectations
+
+**Audrey** — Sales Consultant, ~3.5 years tenure
+- **Performance:** $1M+ in business generated; should be $2M
+- **Volume:** 12–15 plaintiff loans/month; target is 50/month
+- **Issue:** Despite conference attendance and lead lists, follow-up is inconsistent (CEO caught her not following up with recent prospect, "Parrish")
+- **Conflict of interest:** Side business in diminished-value consulting; gives business cards at Capital Financing–funded conferences, creating confusion about whose business she's promoting
+- **CEO directive:** Establish clear guardrails on side business; do open-ended diagnostics on barriers to higher production; improve follow-up discipline
+- **Accountability measure:** Track number of law-firm relationships (should grow from current baseline), number of outreach attempts per month, follow-up closure rate per lead source
+- **Guardrail framework:** Side business permitted *only if* it does not bleed into Capital Financing territory or time; first violation = termination
+
+**Brian** — Sales Consultant, new hire (brand new, ~1 month tenure)
+- **Performance:** Great potential; good communicator; strong lead generation (returned from conference with significant leads)
+- **Issue:** Over-focused on case expense (7x lower volume than pre-settlement), poor professional judgment (appeared on video call with prospect wearing baseball cap)
+- **CEO directive:** Refocus on balanced portfolio (pre-settlement and case expense equally important); implement structured tracking and accountability guardrails; professional conduct expectations
+- **Accountability measure:** Track case-expense vs. pre-settlement lead ratio (should be 1:7 to match CEO's business split); opportunity conversion rate; pass-through execution rate (if CEO passes him opportunity, measure whether he executes)
+- **Framework:** Early-stage coaching on professional judgment; escalate non-compliance to CEO immediately
+
+**Victoria** — Sales Consultant, 3+ years tenure
+- **Performance:** ~$250K/year in business; no account growth; geographically constrained (South Florida only, except 2 accounts)
+- **Issue:** Lacks motivation and accountability; serial non-compliance (missed commission submissions 4–6 months at a time); ignores direction ("yesses to death, then doesn't do it"); no drive to expand geographically despite repeated requests; posts gym photos on social media daily but makes no outreach effort
+- **CEO directive:** Set immediate, hard expectations; first non-compliance = termination or conversion to independent contractor status
+- **Accountability measure:** Commission submission deadline compliance (weekly, mandatory); geographic expansion metrics (trips booked, new-market prospect list); activity logs (calls, meetings)
+- **Current status:** On commission-only pay (no salary); no longer has salary leverage; CEO considering removing company credit card and making her true 1099 independent contractor
+
+**New Performance Measurement Layer — All Sales**
+- CEO is implementing a **shared KPI dashboard** across sales team (currently absent)
+- Expected outputs: law-firm relationship growth (volume), outreach attempt counts, follow-up closure rates, conference lead quality, product-line balance (pre-settlement vs. case expense)
+- **Accountability mechanism:** CEO conducting monthly one-on-one calls with each sales consultant to review performance against expectations
+- **Non-negotiables:** Goals will be documented and communicated; missing goals = performance management conversation; repeated non-compliance = termination
+- **Tone:** Results-focused; CEO is "all about results" and "all about volume"; flexibility on how/when work is done as long as metrics are hit; no patience for excuses
+
+## Staffing Decisions & Their Workflow Impact
+
+- **Lisa** (sales consultant) — terminated after 2 months; departure imminent
+- **Victoria** — flagged for immediate performance improvement plan or separation; likely to affect W4 and W5 output/follow-up rates in short term
+- **Brian** — growth track, but early; execution tracking will be critical
+- **Audrey** — retention goal; need to unlock higher production without losing her to side business
+- CEO notes: "I need more Brians" — better salespeople with balanced focus and execution discipline are the stated hiring priority
+
+## Workflow Impact
+
+These sales performance dynamics directly affect:
+- **W3 (Outbound Email & Cadence)** — someone must own consistency of send/response/thank-you cycle; currently may be dropping due to consultant overload or unclear accountability
+- **W4 (Sales Consultant Lead Handling)** — major documented breakpoint: leads generated but not followed up (Victoria); assignments made but not executed (Brian's passed opportunities); relationship ownership unclear when house accounts call CEO instead of assigned consultant (Audrey's accounts)
+- **W5 (Conference Marketing)** — high spend (~$20K per event), low conversion; follows into W4 (lead assignment) where follow-up discipline is lowest
+
 ---
 
 # `[TO CONFIRM]` Checklist — Next Discovery Pass
@@ -422,6 +485,19 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - The hand-off from closed sales lead → pre-settlement funding intake (W4 → W1) — still undocumented
 - Whether outbound replies (W3) connect to the CRM lead flow (W4)
 
+**Sales performance & accountability (new layer, CEO directive)**
+- Exact KPIs for each sales role (Audrey, Brian, Victoria) — partially defined by CEO; need formalized dashboard
+- Law-firm relationship growth baseline and growth targets (currently unmeasured)
+- Follow-up closure rate definition (what counts as "followed up"? time to first contact? completion of all cadence steps?)
+- Lead quality metrics per source (conferences, internet, referral, outbound email)
+- Executive decision points: Victoria performance improvement plan timeline and exit criteria; Brian guardrails escalation path; Audrey side-business boundary enforcement
+
+**SharePoint institutional knowledge rollout (new layer, CEO directive)**
+- Training email template and rollout schedule (CEO sending training to all staff; enforcement TBD)
+- SharePoint folder structure and governance: where different artifact types live (process docs, SOPs, team notes, client data)
+- Accountability mechanism: how CEO will verify team is *using* SharePoint for knowledge capture vs. ad hoc email/chat
+- Tools for easy access on mobile/desktop (CEO noted: "I'm not a techie. I'm not really good with cloud services... SharePoint is not very user-friendly")
+
 ---
 
-*End of current-state map. Next artifact: visual linear flow per workflow on the canvas, then the Overall flow joining the five spines.*
+*End of current-state map. Next artifact: visual linear flow per workflow on the canvas, then the Overall flow joining the five spines. This document will be refreshed post-onboarding as new accountability metrics and SharePoint governance take effect.*
