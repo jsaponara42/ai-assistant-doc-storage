@@ -19,7 +19,7 @@ status: needs-attention
 
 ## Executive Summary
 
-Maycomb Capital enters its AI and automation journey at a pivotal moment: a fresh Claude Enterprise rollout, a full leadership transition (Ariella Rotenberg and Danielle Schweitzer both departing within weeks of each other), and a new interim fractional COO, Martina Madrid Sebring, stepping in to hold operational continuity. This roadmap turns six weeks of discovery — four documented back-office workflows, a completed workflow deep-dive, and a dedicated value-drivers conversation — into a concrete, sequenced plan.
+Maycomb Capital enters its AI and automation journey at a pivotal moment: a fresh Claude Enterprise rollout, a leadership transition, and a new interim fractional COO, Martina Sebring, stepping in to hold operational continuity. This roadmap turns six weeks of discovery — four documented back-office workflows, a completed workflow deep-dive, and a dedicated value-drivers conversation — into a concrete, sequenced plan.
 
 Two things distinguish this roadmap from a typical back-office efficiency exercise. First, Maycomb's four core financial operations processes (legal bill tracking, the biweekly AP run, quarterly borrower invoicing, and annual budgeting) are now fully documented in Standard Operating Procedures — an unusually strong foundation that lowers automation risk and was captured just in time, before Danielle's and Ariella's institutional knowledge left with them. Second, this roadmap looks past pure cost-reduction to the actions that actually *drive value* for Maycomb — deal sourcing, borrower support, investor relations, and outcome-data collection — territory most automation engagements never reach because it isn't where people first look for automation.
 
