@@ -12,6 +12,8 @@ status: needs-attention
 **Prepared for Maycomb Capital by Blue Tusk LLC**
 **July 2026**
 
+*Practical AI and automation, built around how your business actually works.*
+
 > *Draft in markdown — content locked pending JC review; branding pass (Blue Tusk palette/typography) happens after. Target length: 2–4 pages once formatted.*
 
 ---
@@ -24,7 +26,7 @@ Over the past several weeks, we've spent real time inside your operations — wo
 
 ---
 
-## What We Learned About Your Operations
+## What We Found When We Looked Closely
 
 Your back-office financial operations — legal bill tracking, your biweekly AP run across four fund entities and a management company, quarterly borrower invoicing, and your budget-to-actuals process — are now fully documented for the first time, based on how your team actually works rather than how a process is assumed to work. That documentation alone is a meaningful asset heading into your leadership transition: institutional knowledge that used to live in one or two people's heads is now written down.
 
@@ -34,7 +36,7 @@ That last piece is often skipped in engagements like this one. Most automation w
 
 ---
 
-## What We Believe This Should Look Like
+## Our Point of View
 
 The goal of AI and automation at Maycomb isn't to replace judgment — it's to stop spending judgment on work that doesn't need it. Almost everywhere we looked, the same pattern held: real expertise was being spent on manual lookups, duplicate tracking, and rebuilding numbers that already existed somewhere else in the system. That's not a skills gap. It's misallocated attention.
 
@@ -46,9 +48,9 @@ Three things are worth building toward:
 
 ---
 
-## Where We See the Clearest Opportunities
+## The Opportunities We See
 
-### Quick, Low-Risk Wins
+### Quick Wins
 
 A handful of opportunities stood out as low-risk and ready to move on quickly:
 
@@ -58,7 +60,7 @@ A handful of opportunities stood out as low-risk and ready to move on quickly:
 
 None of these require rethinking how your team works. They reduce time spent and reduce dependency on any one person's memory of "how we've always done it" — which matters more than usual given who's transitioning out.
 
-### Bigger, Higher-Value Opportunities
+### The Bigger Plays
 
 A second set of opportunities is more involved, but addresses the parts of your operations that create real strain today:
 
@@ -66,7 +68,7 @@ A second set of opportunities is more involved, but addresses the parts of your 
 - **Cross-entity AP allocation** — your biweekly payment cycle currently stretches anywhere from three days to a full week depending on how quickly approvals move. There's real room to tighten that without loosening any of your financial controls. Expect to see your cycle move consistently toward the faster end of that range, with the same people approving the same things.
 - **Budget-to-actuals review** — currently a manual, judgment-heavy quarterly deep dive. Your own team has already identified the goal here clearly: turning this into something closer to a single approval meeting rather than a multi-day process. That goal is achievable. Expect to see your quarterly review shrink from a multi-day undertaking to something much closer to that single approval meeting.
 
-### Where We Believe the Real Opportunity Lives
+### Where the Real Opportunity Lives
 
 The conversations that surprised us most weren't about your back office at all — they were about how you source deals, how you support borrowers once you've invested in them, how you raise and nurture investor relationships, and how you collect the outcome data that underpins your annual impact report.
 
@@ -84,6 +86,14 @@ We've put together practical guidance for your team on this, but guidance on pap
 
 ---
 
-## Where We Go From Here
+## This Picture Doesn't Reset
+
+Everything in this document came from real time spent inside your operations — working sessions, process walkthroughs, and a conversation about what actually drives value for your business. That's not a one-time snapshot on our end. It's the start of a working picture of Maycomb that we keep, and that gets sharper the longer we're involved.
+
+That matters practically, not just relationally. Any future work benefits from context we've already built, rather than starting over from a blank page each time — less time spent re-explaining how your entities are structured, how your team actually works, or what you've already tried. An ongoing relationship compounds in value for exactly that reason.
+
+---
+
+## What's Next
 
 We've genuinely enjoyed getting this deep into how Maycomb operates, and we think there's real work still ahead — particularly on the revenue and mission side of your business, which most firms never get to. We'd welcome a conversation about what continuing this work together could look like, whenever the timing is right for your team.
