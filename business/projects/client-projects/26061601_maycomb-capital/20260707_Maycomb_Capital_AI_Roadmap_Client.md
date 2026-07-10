@@ -76,7 +76,7 @@ None of this requires rethinking how your team works. It reduces time spent, and
 
 ### Where the Real Opportunity Lies
 
-The conversations that surprised us weren't about your back office. They were about how you source and diligence deals, support borrowers after you've invested, raise and nurture investor relationships, and collect the outcome data behind your annual impact report.
+The conversations that surprised us weren't about your back office. They were about deal sourcing, diligence, how you support borrowers after you've invested, how you raise and nurture investor relationships, and how you collect the outcome data behind your annual impact report.
 
 These are the parts of Maycomb that actually drive revenue and mission impact. Most firms never look here. What we heard suggests real opportunity, especially in how outcome data moves from your portfolio companies into your hands each year. Your own team called that process harder than it needs to be.
 
