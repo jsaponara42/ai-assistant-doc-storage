@@ -90,6 +90,8 @@ A good process on paper isn't the same as an adopted habit. Claude access alone 
 
 We built practical guidance for your team. Guidance on paper and adoption in practice are two different things.
 
+See: Maycomb AI Playbook
+
 ---
 
 ## This Picture Doesn't Reset
@@ -107,7 +109,7 @@ You now have something most firms in your position don't: a documented back offi
 That work also surfaced problems you didn't have named before. Four of them.
 
 1. **Deal sourcing and capital deployment isn't mapped.** You know it's a value driver. You don't yet know where the friction actually is.
-2. **Investor relations and capital raising runs on instinct, not process.** That's fine today. It won't scale past the current team.
+2. **Investor relations and capital raising runs on instinct, not process.** That's fine today. It's difficult to scale past the current team.
 3. **Outcome data collection is the most painful process nobody's redesigned.** Your new Investor Relations hire starts August 3 and inherits it as-is.
 4. **Nobody owns AI adoption.** Without a steward, usage fragments the way it always does on a twelve-person team mid-transition.
 
