@@ -45,7 +45,7 @@ status: needs-attention
 | 2   | AP Run (Biweekly)                 | Receive & Forward → Log Internally → Receive AP List → Verify → MD Approval → Confirm to Admin → Verify in Bank & Notify → Dual Release | Vendor payments released, allocated        |
 | 3   | Quarterly Borrower Invoicing      | Build Borrower List → Draft Invoices → Deal-Team Review → Send to Borrowers → Track Payments     | Borrowers invoiced, payments reconciled    |
 | 4   | Annual Budget & Budget-to-Actuals | Build Budget → Monthly Monitor → Mid-Year Right-Size → Year-End Right-Size                       | Approved budget, kept accurate all year    |
-| 5   | Deal Sourcing & Capital Deployment *(placeholder)* | Not yet mapped | TBD |
+| 5   | Deal Sourcing & Diligence *(placeholder)* | Not yet mapped | TBD |
 | 6   | Investor Relations & Capital Raising *(placeholder)* | Not yet mapped | TBD |
 | 7   | Borrower Asset Management / Portfolio Support *(placeholder)* | Not yet mapped | TBD |
 | 8   | Outcome Data Collection & Annual Impact Reporting *(placeholder — see P-007)* | Not yet mapped | TBD |
@@ -413,10 +413,10 @@ After approval, the relevant payment instructions are followed for each bill. Th
 
 ---
 
-# Workflow 5 — Deal Sourcing & Capital Deployment *(PLACEHOLDER — not yet mapped)*
+# Workflow 5 — Deal Sourcing & Diligence *(PLACEHOLDER — not yet mapped)*
 
-**Status:** Not yet SOP-mapped. Identified as a value driver on the July 7, 2026 call with Ariella Rotenberg and Martina Madrid Sebring — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-1.
-**What we know so far:** Two-person deal teams per portfolio company; diligence process is a named value driver; underwriting gate requires borrowers to already have outcome-measurement systems in place; field/market-building work (e.g., government/county engagement) treated as adjacent to sourcing even without direct deal outcomes.
+**Status:** Not yet SOP-mapped. Identified as two distinct value drivers on the July 7, 2026 call with Ariella Rotenberg and Martina Madrid Sebring — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-1.
+**What we know so far:** Sourcing and diligence were named separately by Ariella, not as one combined step. Sourcing is "an important value driver"; diligence "drives tremendous value for our borrowers" in its own right. Two-person deal teams per portfolio company; underwriting gate requires borrowers to already have outcome-measurement systems in place; field/market-building work (e.g., government/county engagement) treated as adjacent to sourcing even without direct deal outcomes. Shares a three-stage structure (wholesale marketing, bespoke sales, structuring & closing) with Workflow 6 — Ariella described both workflows as following this same pattern.
 **Next step:** Scope with the deal team (likely via Martina) to map sourcing → diligence → structuring → close as an actual spine, the way Workflows 1–4 are mapped from SOPs.
 
 ---
@@ -424,7 +424,7 @@ After approval, the relevant payment instructions are followed for each bill. Th
 # Workflow 6 — Investor Relations & Capital Raising *(PLACEHOLDER — not yet mapped)*
 
 **Status:** Not yet SOP-mapped. Identified July 7, 2026 — see [[20260616_discovery-brief-maycomb-capital]] Section 11, VD-3.
-**What we know so far:** Distinct from but related to the deal/investment workflow. Rough structure per Ariella: (1) wholesale marketing/positioning (conferences, collateral, value proposition), (2) bespoke sales process per investor, (3) structuring & closing, (4) ongoing investor relationship management and reporting. Fund Two fundraising is complete; current focus is relationship nurturing and sourcing future investors.
+**What we know so far:** Distinct from but related to the deal/investment workflow (Workflow 5). Shares the same three-stage structure: (1) wholesale marketing/positioning (conferences, collateral, value proposition), (2) bespoke sales process per investor, (3) structuring & closing, (4) ongoing investor relationship management and reporting. Fund Two fundraising is complete; current focus is relationship nurturing and sourcing future investors. As part of closing, prospective investors complete their own due diligence process on Maycomb itself — a distinct diligence event from Workflow 5's borrower/deal diligence, not the same step.
 **Next step:** Scope with Ariella (light-touch, if available) or Martina/deal team once further along in the transition.
 
 ---

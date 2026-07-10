@@ -336,21 +336,25 @@ Six diagnosed problems, two of which (P-003 AP allocation, P-004 budget variance
 
 Sourced from the value-drivers conversation with Ariella Rotenberg and Martina Madrid Sebring. Distinct from the back-office Problem Register (P-001–P-006): this section maps the actions that actually *drive revenue and value* for Maycomb, per Ariella's own framing — "not the internal processes, but more what drives value for the business." Raw findings below; not yet scoped into full problem statements except where noted (P-007).
 
-### VD-1 — Deal Sourcing & Capital Deployment
-- Diligence process was named directly as a major value driver for borrowers.
+### VD-1 — Deal Sourcing & Diligence
+- **Sourcing** was named directly as "definitely an important value driver."
+- **Diligence** was named separately, as its own value driver, not a sub-step of sourcing. Ariella's words: the diligence process "drives tremendous value for our borrowers."
 - Two-person deal teams per portfolio company; formal quarterly check-in calls, but continuous informal contact intended so nothing is heard "for the first time" on a quarterly call.
 - A healthy deal pipeline is itself seen as a value driver for fundraising — attractive to investors.
 - **Underwriting gate:** Maycomb will not underwrite a borrower without an existing track record of outcome measurement (borrowers must already have the data systems in place). This causes pipeline to fall out at the diligence stage — a possible opportunity to refer or support prospective borrowers in building measurement capability before they qualify.
 - **Field/market-building work** — e.g., presenting to ~60 county commissioners at a large urban county caucus on procurement reform tied to outcomes-based funding — is treated as valuable even with zero resulting deals. Described as sometimes needing to "make" deals (educate the market) rather than only find them; a mission/brand-building value driver distinct from direct sourcing.
+- **Shared structure with VD-3:** Ariella described both this workflow and the investor-relations/capital-raising workflow as following the same three-stage pattern — "to date, both processes I would say have" (1) a wholesale marketing/positioning stage (which conferences to attend, what collateral to build, how to explain Maycomb's value proposition), (2) a bespoke, audience-specific sales process, and (3) structuring and closing.
 
 ### VD-2 — Borrower Asset Management / Portfolio Support
 - Maycomb positions itself as "a lender that acts like a venture investor," in contrast to typical low-touch lenders.
 - Support intensity varies widely by borrower: some already have strong reporting infrastructure (low-touch, "clipping the coupon"); others need deep support (financial management, revenue booking practices, weathering difficult periods).
 - Described as an ongoing "client success" dynamic, similar to a tech company's customer success function — occurs at both the borrower and investor level.
+- **Part of a larger chain, per Ariella:** how borrowers track and measure their own success flows into how Maycomb tracks the success of its investments, financially and against impact, which flows into how that information is packaged and sent to investors. Ariella called this directly "a whole chain" — VD-2, VD-4, and investor reporting are connected stages of one flow, not separate workstreams.
 
 ### VD-3 — Investor Relations & Capital Raising
 - A distinct but related workflow to the investment/deal workflow — "you can't invest capital if you don't raise capital." Fund Two fundraising is complete, but relationship nurturing and sourcing future investors continues.
-- Mirrors the deal workflow's structure: (1) wholesale marketing/positioning (conferences, collateral, value proposition), (2) bespoke sales process tailored to each investor, (3) structuring and closing, (4) ongoing investor relationship management and reporting.
+- Mirrors the deal workflow's structure (see VD-1): (1) wholesale marketing/positioning, (2) bespoke sales process tailored to each investor, (3) structuring and closing, (4) ongoing investor relationship management and reporting.
+- **Investor due diligence, distinct from VD-1's diligence:** as part of closing a commitment, prospective investors complete their own due diligence process on Maycomb itself, before the relationship moves to a closed commitment. This is a separate diligence event from the diligence Maycomb runs on borrowers.
 
 ### VD-4 — Outcome Data Collection & Annual Impact Reporting — see P-007
 - Portfolio companies already measure outcome data (required as an underwriting prerequisite), but transferring that data into Maycomb's annual impact report is manual and, per Ariella directly, "such a difficult process" that "doesn't need to be" that hard.
