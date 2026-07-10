@@ -52,9 +52,9 @@ Three things are worth building toward:
 
 A handful of opportunities stood out as low-risk and ready to move on quickly:
 
-- **Eliminating duplicate invoice tracking** between your team and LeverPoint — right now, the same information is tracked twice, purely to be reconciled against itself every two weeks.
-- **Reducing manual judgment calls in AP expense categorization** — new vendors currently require someone to remember the right category from experience; that dependency doesn't need to exist.
-- **Speeding up your quarterly borrower invoicing** — the most time-consuming part of this process today is manually pulling the same figures from your loan servicing model each quarter; that lookup can largely disappear.
+- **Eliminating duplicate invoice tracking** between your team and LeverPoint — right now, the same information is tracked twice, purely to be reconciled against itself every two weeks. Expect to see less time spent reconciling records that shouldn't have needed reconciling in the first place, and a smoother handoff as new team members take over the AP run.
+- **Reducing manual judgment calls in AP expense categorization** — new vendors currently require someone to remember the right category from experience; that dependency doesn't need to exist. Expect to see fewer back-and-forth corrections with LeverPoint on new vendors, and less reliance on any one person's memory of how things have always been done.
+- **Speeding up your quarterly borrower invoicing** — the most time-consuming part of this process today is manually pulling the same figures from your loan servicing model each quarter; that lookup can largely disappear. Expect to see this drop from roughly an hour of manual work each quarter to a quick review and send — with the time saved growing as your borrower portfolio does.
 
 None of these require rethinking how your team works. They reduce time spent and reduce dependency on any one person's memory of "how we've always done it" — which matters more than usual given who's transitioning out.
 
@@ -62,9 +62,9 @@ None of these require rethinking how your team works. They reduce time spent and
 
 A second set of opportunities is more involved, but addresses the parts of your operations that create real strain today:
 
-- **Legal bill allocation and reimbursement tracking** — a weekly process today, with real complexity in the roughly half of cases that need deal-team judgment. Getting this right reduces one of the more persistent sources of manual back-and-forth on your team.
-- **Cross-entity AP allocation** — your biweekly payment cycle currently stretches anywhere from three days to a full week depending on how quickly approvals move. There's real room to tighten that without loosening any of your financial controls.
-- **Budget-to-actuals review** — currently a manual, judgment-heavy quarterly deep dive. Your own team has already identified the goal here clearly: turning this into something closer to a single approval meeting rather than a multi-day process. That goal is achievable.
+- **Legal bill allocation and reimbursement tracking** — a weekly process today, with real complexity in the roughly half of cases that need deal-team judgment. Getting this right reduces one of the more persistent sources of manual back-and-forth on your team. Expect to see meaningfully less of that back-and-forth on the judgment-call cases, plus a cleaner, easier-to-audit reimbursement trail.
+- **Cross-entity AP allocation** — your biweekly payment cycle currently stretches anywhere from three days to a full week depending on how quickly approvals move. There's real room to tighten that without loosening any of your financial controls. Expect to see your cycle move consistently toward the faster end of that range, with the same people approving the same things.
+- **Budget-to-actuals review** — currently a manual, judgment-heavy quarterly deep dive. Your own team has already identified the goal here clearly: turning this into something closer to a single approval meeting rather than a multi-day process. That goal is achievable. Expect to see your quarterly review shrink from a multi-day undertaking to something much closer to that single approval meeting.
 
 ### Where We Believe the Real Opportunity Lives
 
