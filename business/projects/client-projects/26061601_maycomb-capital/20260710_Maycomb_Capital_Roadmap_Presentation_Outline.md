@@ -84,7 +84,7 @@ Prepared by Blue Tusk LLC, July 2026
 
 ---
 
-## Slide 8 — Where the Real Opportunity Lies
+## Slide 8 — Where the Biggest Opportunity Lies
 
 - Deal sourcing & diligence
 - Investor relations & capital raising
