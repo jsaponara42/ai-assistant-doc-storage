@@ -37,8 +37,23 @@ Different problem for humans vs. agents.
 - **Humans**: Obsidian Templater plugin — auto-inserts correct frontmatter/structure on "new note," removes reliance on memory.
 - **At team scale**: pre-commit git hook or CI check validating frontmatter schema, naming pattern, and folder placement — catches drift at commit time instead of relying on someone having read the doc once.
 
+### 5. Team direct-edit workflow (VPS + GitHub as source of truth)
+- Converges on the workflow JC already uses solo: each teammate clones the GitHub repo, opens it in Obsidian, uses the **Obsidian Git plugin** to pull before editing and push after.
+- The VPS-hosted MCP becomes just another "clone" Claude works against — pull latest before reading, commit + push after writing.
+- Everyone (human and AI) converges on GitHub as the real source of truth, so option 2's conflict discipline (small commits, pull-before-edit) is what actually prevents collisions — hosting on a VPS doesn't remove the need for that discipline, it just centralizes where the repo lives.
+
+### 6. Slack as the interface layer, scoped per channel
+Idea: run team access through Slack, where each channel maps to its own folder (plus a few global reference folders), rather than exposing the whole vault to everyone.
+- **Cost/search efficiency — real win.** Scoping the MCP's visible root to a channel's folder means much smaller `directory_tree` calls and less to search across per request. Directly addresses the AI-cost concern.
+- **Simultaneous-edit awareness — partial win.** Solves it for *Slack-mediated* edits: if two people are both asking Claude-in-Slack to touch the same file, channel activity makes that visible. It does **not** cover someone editing the file directly in Obsidian (option 5's workflow) at the same time someone else asks Slack-Claude to edit it — that's a different access path into the same repo. Git discipline from option 2 is still the real backstop, not a replacement.
+- **Needs a mapping file**: channel → allowed folder(s), same pattern as `CONVENTIONS.md`/`CLIENT-PROJECTS.md` — a small reference doc (e.g. `SLACK-CHANNEL-MAP.md`) the agent reads before acting, rather than hardcoded logic.
+- **Open question**: how cross-project work gets handled if scoping is strict (e.g. "compare workflow maps across all clients") — may need a broader-access admin/analytics channel as an escape hatch.
+- Also naturally gives permissioning for free (Slack channel membership = folder access) and a built-in audit trail (thread history) alongside git history.
+
 ## Next steps
 - Decide how many people realistically need write access before over-building infra.
 - Prototype self-hosted LiveSync vs. Obsidian Sync cost/effort tradeoff.
 - Scope what a Notion-hybrid layer would actually look like if team collab material moves there.
 - If pre-commit validation is worth it, define the checks (frontmatter fields present, naming regex, folder whitelist) before building the hook.
+- Stand up the VPS + GitHub source-of-truth and test the pull/push discipline with just JC + one other person before wider rollout.
+- Draft a channel → folder mapping doc and test Slack-scoped search cost savings on one active client channel.
