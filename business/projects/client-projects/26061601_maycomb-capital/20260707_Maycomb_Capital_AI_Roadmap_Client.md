@@ -76,7 +76,7 @@ We haven't mapped these the way we've mapped your back-office processes yet. Doi
 
 ---
 
-## Making This Stick
+## Making AI Use Stick
 
 A documented process and a good idea aren't the same thing as an adopted habit. Claude access alone doesn't create consistent, effective use across a twelve-person team — especially one absorbing new hires and a new operating rhythm at the same time. Left alone, usage patterns tend to fragment: a few people build genuinely useful habits, most don't, and it becomes harder to standardize the longer it goes unmanaged.
 
