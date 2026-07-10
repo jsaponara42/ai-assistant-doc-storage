@@ -86,7 +86,7 @@ Prepared by Blue Tusk LLC, July 2026
 
 ## Slide 8 — Where the Real Opportunity Lies
 
-- Deal sourcing & capital deployment
+- Deal sourcing & diligence
 - Investor relations & capital raising
 - Borrower asset management support
 - Outcome data & annual impact reporting
