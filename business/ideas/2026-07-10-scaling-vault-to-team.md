@@ -15,9 +15,11 @@ The current system (OneDrive-synced Obsidian vault, git for versioning, a `files
 ## Content
 
 ### 1. Hosting + shared MCP access
-- **Synced-folder, N local MCPs**: each teammate runs their own local `filesystem` MCP against their own synced copy (OneDrive/Dropbox/Syncthing). No server to stand up, but it's today's setup × N people — sync races scale with headcount.
-- **One remote MCP server**: host the vault on a VPS/NAS, run a single remote/SSE `filesystem` MCP instance everyone connects to. Vault becomes single-source-of-truth instead of N synced copies; can add auth in front. Real infra to maintain.
-- **Git-as-source-of-truth**: keep a private GitHub/GitLab repo as the real store; MCP layer reads/writes through git rather than raw disk. Gets PR review, history, rollback for free.
+- **Rejected: N local MCPs.** Each teammate running their own local `filesystem` MCP against their own clone means N different configs (paths, setup steps, staleness) to maintain and debug. Explicitly not worth it — config drift scales with headcount.
+- **One remote MCP server (the actual reason for a VPS).** Host a single `filesystem` MCP instance on a VPS, backed by its own clone of the GitHub repo — it pulls before reads, commits + pushes after writes. Every teammate's Claude (desktop/CLI, and later a Slack bot) points at the *same* remote endpoint with the *same* config. One thing to set up and maintain instead of N.
+- **Git-as-source-of-truth**: a private GitHub/GitLab repo is the real store underneath; the VPS-hosted MCP is just the one canonical client that reads/writes through it. Gets PR review, history, rollback for free.
+- This is separate from how humans edit markdown directly (see option 5) — that path never touches the MCP at all.
+- If a Slack bot gets added later (option 6), it's just another client of this same server — the always-on requirement is already satisfied by centralizing for config consistency, so Slack doesn't add a new infra requirement on top.
 
 ### 2. Avoiding merge conflicts
 Raw git isn't built for real-time concurrent editing — conflicts happen when two people touch the same lines between commits.
@@ -37,10 +39,10 @@ Different problem for humans vs. agents.
 - **Humans**: Obsidian Templater plugin — auto-inserts correct frontmatter/structure on "new note," removes reliance on memory.
 - **At team scale**: pre-commit git hook or CI check validating frontmatter schema, naming pattern, and folder placement — catches drift at commit time instead of relying on someone having read the doc once.
 
-### 5. Team direct-edit workflow (VPS + GitHub as source of truth)
+### 5. Team direct-edit workflow (independent of the MCP)
 - Converges on the workflow JC already uses solo: each teammate clones the GitHub repo, opens it in Obsidian, uses the **Obsidian Git plugin** to pull before editing and push after.
-- The VPS-hosted MCP becomes just another "clone" Claude works against — pull latest before reading, commit + push after writing.
-- Everyone (human and AI) converges on GitHub as the real source of truth, so option 2's conflict discipline (small commits, pull-before-edit) is what actually prevents collisions — hosting on a VPS doesn't remove the need for that discipline, it just centralizes where the repo lives.
+- This never touches the filesystem MCP — it's a second, independent access path into the same GitHub repo, running alongside the one centralized MCP from option 1. Two paths, one source of truth.
+- Everyone (human and AI) converges on GitHub as the real source of truth, so option 2's conflict discipline (small commits, pull-before-edit) is what actually prevents collisions between the two paths.
 
 ### 6. Slack as the interface layer, scoped per channel
 Idea: run team access through Slack, where each channel maps to its own folder (plus a few global reference folders), rather than exposing the whole vault to everyone.
