@@ -14,39 +14,47 @@ status: needs-attention
 
 *Practical AI and automation, built around how your business actually works.*
 
-> *Draft in markdown — content locked pending JC review; branding pass (Blue Tusk palette/typography) happens after. Target length: 2–4 pages once formatted.*
+> *Draft in markdown. Content locked pending JC review. Branding pass happens after. Target length: 2 to 4 pages once formatted.*
 
 ---
 
 ## Where You Stand Today
 
-Maycomb Capital is navigating a significant leadership transition — a new interim COO stepping in, a permanent Director of Finance & Operations and Analyst on the way — at the same time as rolling out Claude across the firm for the first time. That's an unusual amount of change to hold at once, and it's exactly the kind of moment where a clear-eyed view of where AI and automation can genuinely help, and where it can't, matters most.
+Maycomb is mid-transition. A new interim COO. A new Director of Finance and Operations on the way. A new Analyst. A brand new Claude rollout, all at once.
 
-Over the past several weeks, we've spent real time inside your operations — working sessions with your team, a full review of how your core financial processes actually run day to day, and a conversation specifically about what drives value for your business, not just what costs you time. This document summarizes what we found and where we see the clearest opportunities ahead.
+That's a lot to hold. It's also exactly when a clear view of what AI can and can't do for you matters most.
 
----
+We spent the last several weeks inside your operations: working sessions with your team, a full walkthrough of how your core financial processes actually run, and a conversation about what drives value for your business, not just what costs you time.
 
-## Blue Tusk Discovery Summary
-
-Your back-office financial operations — legal bill tracking, your biweekly AP run across four fund entities and a management company, quarterly borrower invoicing, and your budget-to-actuals process — are now fully documented for the first time, based on how your team actually works rather than how a process is assumed to work. 
-
-That documentation alone is a meaningful asset heading into your leadership transition: institutional knowledge that used to live in one or two people's heads is now written down.
-
-We also spent time understanding your technology environment — your Claude Enterprise rollout, your relationship with LeverPoint as fund administrator, your recent move to Affinity as your CRM — and, just as important, we spent time understanding what actually drives value for Maycomb as a business: how you source deals, how you support your borrowers, how you raise and steward investor capital, and how you collect and report on the outcomes that matter to your mission.
-
-That last piece is often skipped in engagements like this one. Most automation work stops at cost reduction. We wanted to look further.
+This document is what we found.
 
 ---
 
-## Maycomb Capital - AI Vision and Goals
+## What We Found When We Looked Closely
 
-The goal of AI and automation at Maycomb isn't to replace judgment — it's to stop spending judgment on work that doesn't need it. Almost everywhere we looked, the same pattern held: real expertise was being spent on manual lookups, duplicate tracking, and rebuilding numbers that already existed somewhere else in the system. That's not a skills gap. It's misallocated attention.
+Your back office finance runs on four processes: legal bill tracking, the biweekly AP run across four funds and a management company, quarterly borrower invoicing, and budget-to-actuals. All four are now documented for the first time, based on how your team actually works. 
+
+That documentation is worth something on its own. Knowledge that used to live in one or two people's heads is now written down, right as those people are leaving.
+
+We also looked at your tools: Claude Enterprise, LeverPoint as your fund administrator, Affinity as your new CRM. 
+
+And we looked past the tools, at what actually drives value for Maycomb: how you source deals, how you support borrowers, how you raise and steward investor capital, how you collect and report on outcomes.
+
+Most automation work stops at cost reduction. We didn't stop there.
+
+---
+
+## A Vision and Goals for AI at Maycomb
+
+**AI shouldn't replace judgment. It should stop wasting judgment on work that doesn't need it.**
+
+Almost everywhere we looked, the same pattern showed up. Real expertise was going into manual lookups and rebuilding numbers that already existed somewhere else in the system. That's not a skills gap. That's misallocated attention.
 
 Three things are worth building toward:
 
-- **Free up capacity for the work only a person can do.** Nearly every process we looked at has a mechanical core — data entry, lookups, formatting — and a judgment core: does this allocation make sense, should this budget line be adjusted, is this borrower relationship healthy. Automation should absorb the first, so your team can spend its attention on the second.
-- **Build resilience, not dependency.** The transition your team is navigating right now is a live example of what happens when process knowledge lives in one or two people. Getting the mechanical layer documented and automated means the next transition — and there will be one — is far less disruptive.
-- **Extend the same thinking beyond the back office.** Most firms stop at cost centers. What actually differentiates Maycomb — how you source deals, support borrowers, and report on outcomes — deserves the same discipline, and arguably matters more.
+- **Free up capacity for the work only a person can do.** Every process we looked at has a mechanical core, data entry, lookups, formatting, and a judgment core: does this allocation make sense, is this budget line right. Automation should handle the first. Your team should handle the second.
+- **Build resilience, not dependency.** Your current transition is a live example of what happens when process knowledge lives in one or two people. Document and automate the mechanical layer, and the next transition costs you far less.
+- **Go beyond the back office.** Most firms stop at cost centers. What sets Maycomb apart, how you source deals, support borrowers, and report on outcomes, deserves the same discipline. It probably matters more.
 
 ---
 
@@ -54,48 +62,57 @@ Three things are worth building toward:
 
 ### Quick Wins
 
-A handful of opportunities stood out as low-risk and ready to move on quickly:
+- **Stop tracking invoices twice.** Right now the same invoice gets tracked by your team and by LeverPoint, then reconciled against itself every two weeks. One shared record fixes that. Expect less reconciliation time and an easier handoff as Varenka takes over the AP run.
+- **Stop re-deciding expense categories.** New vendors currently need someone to remember the right category from memory. That shouldn't depend on any one person. Expect fewer corrections with LeverPoint, and less reliance on memory that's leaving with Ariella and Danielle.
+- **Cut quarterly invoicing to minutes.** Pulling accrued interest for 15 borrowers from your loan servicing model is the slow part today, not the drafting. Automate the pull. Expect quarterly invoicing to drop from about an hour of manual work to a quick review and send.
 
-- **Eliminating duplicate invoice tracking** between your team and LeverPoint — right now, the same information is tracked twice, purely to be reconciled against itself every two weeks. Expect to see less time spent reconciling records that shouldn't have needed reconciling in the first place, and a smoother handoff as new team members take over the AP run.
-- **Reducing manual judgment calls in AP expense categorization** — new vendors currently require someone to remember the right category from experience; that dependency doesn't need to exist. Expect to see fewer back-and-forth corrections with LeverPoint on new vendors, and less reliance on any one person's memory of how things have always been done.
-- **Speeding up your quarterly borrower invoicing** — the most time-consuming part of this process today is manually pulling the same figures from your loan servicing model each quarter; that lookup can largely disappear. Expect to see this drop from roughly an hour of manual work each quarter to a quick review and send — with the time saved growing as your borrower portfolio does.
-
-None of these require rethinking how your team works. They reduce time spent and reduce dependency on any one person's memory of "how we've always done it" — which matters more than usual given who's transitioning out.
+None of this requires rethinking how your team works. It reduces time spent, and it reduces dependency on any one person's memory, which matters more than usual right now.
 
 ### The Bigger Plays
 
-A second set of opportunities is more involved, but addresses the parts of your operations that create real strain today:
+- **Legal bill allocation and reimbursement tracking.** About half of deal-level bills need a judgment call today. Get that right and you cut the back-and-forth that eats into your week. Expect a cleaner reimbursement trail too.
+- **Cross-entity AP allocation.** Your payment cycle now takes three days to a week, depending on how fast approvals move. Expect that to land consistently at the fast end, with the same people approving the same things.
+- **Budget-to-actuals.** Your quarterly review is a multi-day, judgment-heavy process today. Your team already named the goal: one approval meeting instead. Expect to get there.
 
-- **Legal bill allocation and reimbursement tracking** — a weekly process today, with real complexity in the roughly half of cases that need deal-team judgment. Getting this right reduces one of the more persistent sources of manual back-and-forth on your team. Expect to see meaningfully less of that back-and-forth on the judgment-call cases, plus a cleaner, easier-to-audit reimbursement trail.
-- **Cross-entity AP allocation** — your biweekly payment cycle currently stretches anywhere from three days to a full week depending on how quickly approvals move. There's real room to tighten that without loosening any of your financial controls. Expect to see your cycle move consistently toward the faster end of that range, with the same people approving the same things.
-- **Budget-to-actuals review** — currently a manual, judgment-heavy quarterly deep dive. Your own team has already identified the goal here clearly: turning this into something closer to a single approval meeting rather than a multi-day process. That goal is achievable. Expect to see your quarterly review shrink from a multi-day undertaking to something much closer to that single approval meeting.
+### Where the Real Opportunity Lies
 
-### Where the Real Opportunity Lives
+The conversations that surprised us weren't about your back office. They were about how you source deals, support borrowers after you've invested, raise and nurture investor relationships, and collect the outcome data behind your annual impact report.
 
-The conversations that surprised us most weren't about your back office at all — they were about how you source deals, how you support borrowers once you've invested in them, how you raise and nurture investor relationships, and how you collect the outcome data that underpins your annual impact report.
+These are the parts of Maycomb that actually drive revenue and mission impact. Most firms never look here. What we heard suggests real opportunity, especially in how outcome data moves from your portfolio companies into your hands each year. Your own team called that process harder than it needs to be.
 
-These are the parts of Maycomb that actually drive revenue and mission impact, and they're almost never where firms look when they think about automation. What we heard from your team suggests genuine, meaningful opportunity here — particularly around how outcome data moves from your portfolio companies into your hands each year, which your own team described as more painful than it needs to be.
-
-We haven't mapped these the way we've mapped your back-office processes yet. Doing that properly is a deeper undertaking than what we've done so far — but based on what we've already heard, we believe it's where the most valuable work still ahead of you actually is.
+We haven't mapped these the way we've mapped your back office. That's a bigger project than what we've done so far.
 
 ---
 
-## Making AI Use Stick
+## Making This Stick
 
-A documented process and a good idea aren't the same thing as an adopted habit. Claude access alone doesn't create consistent, effective use across a twelve-person team — especially one absorbing new hires and a new operating rhythm at the same time. Left alone, usage patterns tend to fragment: a few people build genuinely useful habits, most don't, and it becomes harder to standardize the longer it goes unmanaged.
+A good process on paper isn't the same as an adopted habit. Claude access alone won't create consistent use across twelve people, especially while you're onboarding new hires. Left alone, usage fragments. A few people get good at it. Most don't. The gap grows the longer it sits unmanaged.
 
-We've put together practical guidance for your team on this, but guidance on paper and adoption in practice are two different things, particularly during a transition like the one you're in.
+We built practical guidance for your team. Guidance on paper and adoption in practice are two different things.
 
 ---
 
 ## This Picture Doesn't Reset
 
-Everything in this document came from real time spent inside your operations — working sessions, process walkthroughs, and a conversation about what actually drives value for your business. That's not a one-time snapshot on our end. It's the start of a working picture of Maycomb that we keep, and that gets sharper the longer we're involved.
+Everything here came from real time inside your operations. That's not a snapshot. It's the start of a picture of Maycomb that we keep, and it gets sharper the longer we work together.
 
-That matters practically, not just relationally. Any future work benefits from context we've already built, rather than starting over from a blank page each time — less time spent re-explaining how your entities are structured, how your team actually works, or what you've already tried. An ongoing relationship compounds in value for exactly that reason.
+That matters practically. Future work starts from what we already know, not a blank page. Less time re-explaining your entity structure, your team, what you've already tried.
 
 ---
 
 ## What's Next
 
-We've genuinely enjoyed getting this deep into how Maycomb operates, and we think there's real work still ahead — particularly on the revenue and mission side of your business, which most firms never get to. We'd welcome a conversation about what continuing this work together could look like, whenever the timing is right for your team.
+You now have something most firms in your position don't: a documented back office, a clear set of automation opportunities, and a real point of view on where AI fits at Maycomb.
+
+That work also surfaced problems you didn't have named before. Four of them.
+
+1. **Deal sourcing and capital deployment isn't mapped.** You know it's a value driver. You don't yet know where the friction actually is.
+2. **Investor relations and capital raising runs on instinct, not process.** That's fine today. It won't scale past the current team.
+3. **Outcome data collection is the most painful process nobody's redesigned.** Your new Investor Relations hire starts August 3 and inherits it as-is.
+4. **Nobody owns AI adoption.** Without a steward, usage fragments the way it always does on a twelve-person team mid-transition.
+
+Here's how we'd tackle each one. For the first three, we'd run the same kind of structured discovery we ran on your back office: working sessions with the right people, mapped into a clear current-state picture, then a prioritized set of opportunities, the way this document was built.
+
+For the fourth, we're proposing something more hands-on: **Blue Tusk as your ongoing AI steward.** We'd keep an eye on your team's Slack gripe channel, catch what's actually going wrong before it becomes a pattern nobody addresses, and build out training resources as new hires come on board. That's the difference between a Playbook that gets read once and one that actually holds.
+
+We'd like to talk about what this looks like as a next engagement. Let us know when.
