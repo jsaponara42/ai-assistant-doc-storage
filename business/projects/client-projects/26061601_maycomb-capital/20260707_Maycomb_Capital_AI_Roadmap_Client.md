@@ -26,9 +26,11 @@ Over the past several weeks, we've spent real time inside your operations — wo
 
 ---
 
-## What We Found When We Looked Closely
+## Blue Tusk Discovery Summary
 
-Your back-office financial operations — legal bill tracking, your biweekly AP run across four fund entities and a management company, quarterly borrower invoicing, and your budget-to-actuals process — are now fully documented for the first time, based on how your team actually works rather than how a process is assumed to work. That documentation alone is a meaningful asset heading into your leadership transition: institutional knowledge that used to live in one or two people's heads is now written down.
+Your back-office financial operations — legal bill tracking, your biweekly AP run across four fund entities and a management company, quarterly borrower invoicing, and your budget-to-actuals process — are now fully documented for the first time, based on how your team actually works rather than how a process is assumed to work. 
+
+That documentation alone is a meaningful asset heading into your leadership transition: institutional knowledge that used to live in one or two people's heads is now written down.
 
 We also spent time understanding your technology environment — your Claude Enterprise rollout, your relationship with LeverPoint as fund administrator, your recent move to Affinity as your CRM — and, just as important, we spent time understanding what actually drives value for Maycomb as a business: how you source deals, how you support your borrowers, how you raise and steward investor capital, and how you collect and report on the outcomes that matter to your mission.
 
@@ -36,7 +38,7 @@ That last piece is often skipped in engagements like this one. Most automation w
 
 ---
 
-## Our Point of View
+## Maycomb Capital - AI Vision and Goals
 
 The goal of AI and automation at Maycomb isn't to replace judgment — it's to stop spending judgment on work that doesn't need it. Almost everywhere we looked, the same pattern held: real expertise was being spent on manual lookups, duplicate tracking, and rebuilding numbers that already existed somewhere else in the system. That's not a skills gap. It's misallocated attention.
 
