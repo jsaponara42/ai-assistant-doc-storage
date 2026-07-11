@@ -1,1 +1,3 @@
-I have to figure out how to productize what I can offer better. 
+I have to figure out how to productize what I can offer better. Potentially self guided ways of doing? Or just reducing the level of skill to be able to do what I'm doing.
+
+We should take a look at the maycomb capital project folder to analyze what I did for them and how we can productize what I've done so far. Eventually also capital financing. Because they are at an even earlier stage, and may benefit even from an introduction to Claude or "team AI plan". 
