@@ -12,7 +12,7 @@ status: needs-attention
 Execution plan for Track A (QW-1 through QW-4) once the upsell closes. Roughly 5-6 weeks, sequenced by dependency, working the same way Blue Tusk already works with CauseCrazy: a shared task board, confirmation before starting each item, Maycomb provides access as needed, biweekly check-ins folded into the existing Roadmap Meeting rather than a new standing call.
 
 ## Context
-Pricing and pitch sequencing for this track live in [[20260710_Maycomb_Upsell_Pricing_and_Pitch_Prep]]. Scope and impact reasoning for each item live in [[xx_Maycomb_AI_Automation_Roadmap_INTERNAL]], Section 3. This document is the "how," not the "why" or the "how much."
+Pricing and pitch sequencing for this track live in [[20260710_Maycomb_Upsell_Pricing_and_Pitch_Prep]]. Scope and impact reasoning for each item live in [[xx_Maycomb_AI_Automation_Roadmap_INTERNAL]] , Section 3. This document is the "how," not the "why" or the "how much."
 
 ---
 
