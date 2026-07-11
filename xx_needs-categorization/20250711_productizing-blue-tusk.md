@@ -1,0 +1,1 @@
+I have to figure out how to productize what I can offer better. 

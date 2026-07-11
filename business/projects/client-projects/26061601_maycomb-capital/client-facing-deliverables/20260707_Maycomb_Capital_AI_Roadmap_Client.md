@@ -44,7 +44,7 @@ Most automation work stops at cost reduction. We didn't stop there.
 
 ---
 
-## A Vision and Goals for AI at Maycomb
+## Vision and Goals for AI at Maycomb
 
 **AI shouldn't replace judgment. It should stop wasting judgment on work that doesn't need it.**
 

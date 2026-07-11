@@ -52,7 +52,7 @@ Prepared by Blue Tusk LLC, July 2026
 
 ---
 
-## Slide 5 — Our Point of View
+## Slide 5 — AI Vision and Goals
 
 "AI shouldn't replace judgment. It should stop wasting judgment on work that doesn't need it."
 
