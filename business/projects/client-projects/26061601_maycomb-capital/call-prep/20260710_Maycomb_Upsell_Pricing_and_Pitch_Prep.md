@@ -68,12 +68,32 @@ One thing to flag before pricing: **Andi Phillips (Managing Partner) approves al
 
 ---
 
+### Track E — Portfolio Company Referral Pipeline (not Maycomb revenue)
+
+**What it is:** Ariella raised this herself, unprompted, on the original June 16, 2026 kickoff call: since Danielle's SOP work was already happening as she prepared to leave, and some portfolio companies likely have similar operational pain, Ariella floated introducing Blue Tusk to portfolio companies that are struggling. Her exact words left it deliberately open, not committed: *"we can have more conversations about whether or not it makes sense to be introduced to portfolio companies and how that might work."*
+
+**Why this isn't like the other four tracks:** No revenue from Maycomb here. Any paid work would be a new, separate engagement directly with the portfolio company. This is a referral channel, not an upsell.
+
+**What's changed since she said it:** Ariella's gone. Martina, the current primary contact, wasn't in that room and has no reason to know this was ever discussed. Treat it as needing to be reintroduced, not as something still live.
+
+**Two conditions Ariella put on it herself, worth respecting:**
+1. Scoped to companies that are *struggling*, not a blanket intro across the whole portfolio.
+2. Maycomb cares openly about confidentiality (came up on the same call, re: the MSA). Any introduction needs Maycomb's active blessing per company, not a standing open door Blue Tusk works independently.
+
+**The smooth way in:** Don't pitch this as its own ask in the upsell conversation, it'll read as padding. It surfaces naturally as a byproduct of Track C, specifically VD-2 (borrower asset management). If that discovery work maps which portfolio companies are struggling operationally, that's the exact moment Ariella herself described as the right one for an introduction. Let the work create the opening rather than asking for it upfront.
+
+**If it's worth a light mention sooner:** One low-pressure line is enough, something like: *"Early on, Ariella mentioned that if we ever came across portfolio companies that seemed to be struggling with similar things, an introduction might make sense. Just flagging that's still on the table whenever it's useful, no rush."* That reopens the door without asking for anything now.
+
+---
+
 ## Likelihood to Land, Ranked
 
 1. **Track D (Steward)** — lowest dollar amount, directly answers a named gap, natural fit for Martina, likely doesn't need Andi.
 2. **Track A (Quick Wins)** — bounded, fixed price, urgency is real and visible, easy yes even mid-transition.
 3. **Track C (Value Drivers)** — highest ceiling, but slower, plant the seed now, expect to close later.
 4. **Track B (Strategic Investments)** — hold. Revisit once the Director of Finance & Ops is hired.
+
+Track E doesn't compete with the above for Maycomb's budget, since nothing is billed to them. It isn't a standalone pitch, it resurfaces on its own once Track C work is underway.
 
 ---
 
@@ -87,3 +107,4 @@ Suggested order: open with Track D (cheapest, most obviously needed), confirm it
 - Confirm Martina's actual spending authority before pitching anything above ~$1,500/month.
 - Decide whether to offer the mailbox quick win free (discretionary, per SOW) as a trust-builder ahead of this conversation.
 - Draft the actual pricing one-pager or proposal once JC confirms these ranges.
+- Hold Track E out of this pitch entirely. Revisit once Track C discovery is underway and a struggling portfolio company actually surfaces.
