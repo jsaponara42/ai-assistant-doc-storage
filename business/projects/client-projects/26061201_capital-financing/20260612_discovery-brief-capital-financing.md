@@ -22,7 +22,7 @@ status: ok
 ## Scope of Services (from signed order form)
 
 - [ ] Ongoing AI & Automation advisory access — Howie's standing personal resource for AI/automation questions, concerns, ideas, and personal AI use *(ongoing service, not a discrete deliverable — ping as needed)*
-- [x] Map current state of tech stack and workflows (Josh as key resource)
+- [ ] Map current state of tech stack and workflows (Josh as key resource)
   - [x] Discovery call brief completed — see dossier below
   - [x] Current-state workflow map (5 core workflows + Shared Intake Support sub-layer) — see [[20260616-Workflow-Map-Capital-Financing-merged]]
   - [ ] Workflow 6 — Repayment / Payoffs / Collections spine (flagged in workflow map as not yet mapped)
@@ -36,7 +36,7 @@ status: ok
   - [ ] ROI estimate attached to each opportunity
   - [ ] Prioritization/sequencing confirmed with Howie and Christy
 - [ ] Quick win automations addressed immediately as discovered
-  - [x] SOPs drafted from raw dictation as first quick-win documentation captures — see `SOPs/` (Conference Process, Task Follow-Up)
+  - [ ] SOPs drafted from raw dictation as first quick-win documentation captures — see `SOPs/` (Conference Process, Task Follow-Up)
   - [ ] *(log further quick wins here as they're identified/shipped)*
 - [ ] Long-term AI and automation vision for Capital Financing (map)
 - [ ] End of Month 4 — re-evaluate need for AI engineer hire based on progress
