@@ -8,6 +8,41 @@ ai: claude
 status: ok
 ---
 
+# Statement of Work & Project Structure
+
+**MSA:** HGCP11XX260518
+**Scope:** AI and Automation Advisory Services — 4-month process automation mapping engagement
+**Pricing:** $2,500.00/month
+**Payment link:** https://ghostops.consulting/pay
+**Engagement start:** `[TO CONFIRM exact start date]`
+**Month 4 checkpoint:** Re-evaluate need for AI engineer hire based on progress to date
+
+> Note: this SOW is the signed, billed scope. The **Preliminary MSE Plan** later in this document (People/Process/Tools/Systems/Resources, Phantom Outputs, Sprint sequencing) is the broader Ghost.Ops Method diagnostic output produced *under* this SOW — not a separate contracted scope. Use this checklist for "what's contracted and where it stands"; use the MSE Plan for "what the diagnostic recommends."
+
+## Scope of Services (from signed order form)
+
+- [ ] Ongoing AI & Automation advisory access — Howie's standing personal resource for AI/automation questions, concerns, ideas, and personal AI use *(ongoing service, not a discrete deliverable — ping as needed)*
+- [x] Map current state of tech stack and workflows (Josh as key resource)
+  - [x] Discovery call brief completed — see dossier below
+  - [x] Current-state workflow map (5 core workflows + Shared Intake Support sub-layer) — see [[20260616-Workflow-Map-Capital-Financing-merged]]
+  - [ ] Workflow 6 — Repayment / Payoffs / Collections spine (flagged in workflow map as not yet mapped)
+  - [ ] Reconcile open `[TO CONFIRM]` items from workflow map (Leifert vs. Alejandro, Audra's role load, case-expense onboarding script, CRM/pipeline stage structure, etc.)
+- [ ] Visual map of AI and automation opportunities for current tech stack
+  - [ ] Visual linear flow per workflow rendered on canvas (workflow map's "next artifact")
+  - [ ] Overall flow joining the five workflow spines at their confirmed hand-off seams
+  - [ ] AI/automation opportunity overlay identifying where automation applies on the canvas
+- [ ] Prioritized list of automation opportunities, with expected ROI for each
+  - [ ] Opportunity list drafted
+  - [ ] ROI estimate attached to each opportunity
+  - [ ] Prioritization/sequencing confirmed with Howie and Christy
+- [ ] Quick win automations addressed immediately as discovered
+  - [x] SOPs drafted from raw dictation as first quick-win documentation captures — see `SOPs/` (Conference Process, Task Follow-Up)
+  - [ ] *(log further quick wins here as they're identified/shipped)*
+- [ ] Long-term AI and automation vision for Capital Financing (map)
+- [ ] End of Month 4 — re-evaluate need for AI engineer hire based on progress
+
+---
+
 # HGPP11XX260515 PROJECT BRIEF
 
 **Christy Drake Imbriale**
