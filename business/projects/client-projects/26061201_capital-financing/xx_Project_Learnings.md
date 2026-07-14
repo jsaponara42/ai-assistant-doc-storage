@@ -26,4 +26,8 @@ Cause Crazy started as a $4,000 project-based fee, then converted to a $2,500/mo
 
 Once you're introduced to the company, the steps should be crystal clear. People should not have to think about their part in it. In this instance, we gave people access to claude, and now everyone is trying it an asking troubleshooting questions. We need a system for that. 
 
-Also there are many people asking about the Easy SOP process, and Howie wants much more guidance. What we will do next time is on introduction, we will set up a meeting with an
+Also there are many people asking about the Easy SOP process, and Howie wants much more guidance. What we will do next time is on introduction, we will set up a meeting with anyone who needs to go through the Easy SOP process and guide them through it along with how to do it in AI and what they need to send.
+
+Ideally, they never feel the need to check in on what their role in all this is. They should be comfortable waiting for us to reach out and go about their normal days until we do. Maybe worth getting this straight with the owner so that they don't do like Howie and introduce us in a big fashion that seemingly creating a stir.
+
+I also have to be more careful of the basic technological capability of people. Clearly I overestimated and there are many basic things that I need to dumb down to the level of. 
