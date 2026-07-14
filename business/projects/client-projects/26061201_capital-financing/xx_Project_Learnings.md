@@ -21,3 +21,9 @@ Cause Crazy started as a $4,000 project-based fee, then converted to a $2,500/mo
 **Takeaway to apply here:** get a real MSA in place before any project-to-retainer conversion, define what "earning" a retainer means upfront, especially when delays are client-caused, and confirm a reliable payment method before the first month, not after one already fails.
 
 *(open for further notes)*
+
+### 2026-07-14 - Make the steps much clearer. Don't let people think.
+
+Once you're introduced to the company, the steps should be crystal clear. People should not have to think about their part in it. In this instance, we gave people access to claude, and now everyone is trying it an asking troubleshooting questions. We need a system for that. 
+
+Also there are many people asking about the Easy SOP process, and Howie wants much more guidance. What we will do next time is on introduction, we will set up a meeting with an
