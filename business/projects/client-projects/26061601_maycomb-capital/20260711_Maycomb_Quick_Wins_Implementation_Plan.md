@@ -18,11 +18,15 @@ Pricing and pitch sequencing for this track live in [[20260710_Maycomb_Upsell_Pr
 
 ## Working Model
 
-- **Board:** Set up a shared Kanban board (or reuse Maycomb's existing tooling if they have a preference) with one card per quick win, broken into sub-tasks. Martina and Barry get visibility into status without needing a status-update call.
-- **Confirmation to start:** Don't start build on any item without written or verbal confirmation, same standard as the CauseCrazy engagement. Given the bundle is being sold as one fixed-fee package, this mainly applies to sequencing decisions (e.g., "start QW-3 build early even though QW-2 review is still pending") rather than per-item go-aheads.
-- **Check-ins:** Fold progress review into the existing bi-weekly Roadmap Meeting rather than adding a new call. One agenda slot, five minutes, board link shared beforehand.
+- **Progress doc, not a live board.** One running doc, shared with Martina and Barry, updated every two weeks. No live check-in call by default, calls are available by request, not a standing part of this engagement.
+- **Fixed update format, every time:**
+  1. *Since last update* — what moved, however small.
+  2. *In progress* — what's actively being worked.
+  3. *Waiting on you* — anything blocked on Maycomb, named and dated.
+  4. *Next* — what's coming in the following two weeks.
+- **Quiet periods get reported honestly, not skipped.** If nothing shipped because an access request is still pending, that goes under "Waiting on you," dated. That's a real update, not an admission of nothing happening, and it puts any delay where it actually belongs.
 - **Access:** Maycomb provides access as each item needs it, not all upfront. See per-item access lists below.
-- **Documentation:** Every automation ships with a short plain-language SOP, what happens automatically, what needs a human, what must never be changed without looping in Blue Tusk, same pattern as the Cause Crazy automation SOPs. This also directly serves QW-4's institutional-resilience goal.
+- **Documentation:** Every automation ships with a short plain-language SOP, what happens automatically, what needs a human, what must never be changed without looping in Blue Tusk. This also directly serves QW-4's institutional-resilience goal.
 
 ---
 
