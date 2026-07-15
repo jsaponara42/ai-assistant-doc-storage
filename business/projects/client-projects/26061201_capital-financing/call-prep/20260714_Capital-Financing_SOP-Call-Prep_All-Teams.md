@@ -149,7 +149,6 @@ What her dictation should cover:
 ## Next steps
 
 - Fill in the actual email/submission channel before Thursday's call.
-- **Superseded files:** [[20260714_Capital-Financing_Team-SOP-Session-Format]], [[20260716_Capital-Financing_SOP-Call-Prep_Ops-Team]], and [[20260717_Capital-Financing_SOP-Call-Prep_BDR-Team]] are now folded into this doc. There's no delete tool on this connector — JC should remove or archive those three manually when convenient.
 - After both sessions, fold any completed SOPs into `SOPs/` following existing naming (`YYYYMMDD_Capital-Financing_[Process-Name]_SOP.md`).
 - After the call, check completed SOPs against the open `[TO CONFIRM]` items in [[20260616-Workflow-Map-Capital-Financing-merged]] and close out whichever ones got answered.
 - Treat Audrey's onboarding-call description as a first draft of the standard script flagged as missing in [[20260616-Workflow-Map-Capital-Financing-merged]] (Shared Sub-Layer, Sub-Step C).
