@@ -17,7 +17,6 @@ Single combined prep doc for both sessions (replaces the three separate session-
 
 ## Context
 
-
 Thursday's group owns three consecutive steps of the core funding spine — Underwrite → Agreement → Execute/Disburse (Workflow 1 Steps 4–7 / Workflow 2 Steps 3–6 in [[20260616-Workflow-Map-Capital-Financing-merged]]). Friday's group is the three financial consultants — Workflow 4 (Sales Consultant Lead Handling), Workflow 5 (Conference Marketing), and the case-expense firm onboarding calls (Shared Sub-Layer, Sub-Step C). In both cases, the "priority order" below is which workflow JC should tell each person to dictate *first* once they're working independently — not something that happens during the call itself.
 
 ## Content
@@ -57,6 +56,7 @@ Walk through what happens after they paste it: they talk, Claude asks follow-ups
 **4. Claude Team setup — last, ~5 minutes, do not troubleshoot live**
 
 Share the join link and have everyone click through and log in during the call, since they'll need this to actually go do the work afterward:
+
 
 ```
 https://claude.ai/join/org/Ccg9eZuKOphA-dMY23rWKw
