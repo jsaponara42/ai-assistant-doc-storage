@@ -21,6 +21,10 @@ Thursday's group owns three consecutive steps of the core funding spine — Unde
 
 ## Content
 
+**Materials for this call:**
+- [Blue Tusk — Easy SOP (guide, Google Doc)](https://docs.google.com/document/d/1nYTs5hZgV-_UmZvY5DPsKvB7PTh95JVlPKlP0pza7Ws/edit) — the source guide behind the dictation method; same content as the vault's [[20260617_Quick_SOP_Creation_Guide]].
+- [Blue Tusk — Easy SOP Transcript Example (Google Doc)](https://docs.google.com/document/d/1_Ug-nWvjY2JFze9SuDcZDSt8AVX6zQGRPEJx-BMNN74/edit) — JC's own worked example (a pre-call/prospect-call workflow dictation), used to show the group what a real dictation sounds like before they go do their own.
+
 ---
 
 ### Session Flow (shared shape, both days)
@@ -31,7 +35,7 @@ Frame it simply: *"We're documenting how you actually do your job today — not 
 
 **2. Explain the dictation process — the most important part of the call**
 
-This is the core of the call. Explain the method so each person can go do it solo afterward, correctly, without JC in the room:
+This is the core of the call. Explain the method so each person can go do it solo afterward, correctly, without JC in the room. Walk through the [Easy SOP guide](https://docs.google.com/document/d/1nYTs5hZgV-_UmZvY5DPsKvB7PTh95JVlPKlP0pza7Ws/edit) at a high level, then use the [transcript example](https://docs.google.com/document/d/1_Ug-nWvjY2JFze9SuDcZDSt8AVX6zQGRPEJx-BMNN74/edit) to show what a real dictation actually sounds like — rough, spoken, unpolished — so nobody feels like they need to "write" something perfect out loud.
 
 - **What "dictating" means here:** talking through their role and how they currently handle a given workflow, out loud, in as much real detail as they'd naturally describe it to a new hire — not a polished or idealized version.
 - **The six things to cover** (give this as a checklist people can keep in mind while they talk, not a form to fill out line by line):
