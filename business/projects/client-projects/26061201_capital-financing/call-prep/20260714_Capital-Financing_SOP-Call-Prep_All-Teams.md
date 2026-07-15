@@ -17,7 +17,6 @@ Single combined prep doc for both sessions (replaces the three separate session-
 
 ## Context
 
-Built from three source docs, now merged: the reusable [[20260714_Capital-Financing_Team-SOP-Session-Format]] script, and the day-specific priority-order docs for [[20260716_Capital-Financing_SOP-Call-Prep_Ops-Team]] and [[20260717_Capital-Financing_SOP-Call-Prep_BDR-Team]]. Those three files are superseded by this one — flagged in Next steps for JC to archive/remove manually, since there's no delete capability on this connector.
 
 Thursday's group owns three consecutive steps of the core funding spine — Underwrite → Agreement → Execute/Disburse (Workflow 1 Steps 4–7 / Workflow 2 Steps 3–6 in [[20260616-Workflow-Map-Capital-Financing-merged]]). Friday's group is the three financial consultants — Workflow 4 (Sales Consultant Lead Handling), Workflow 5 (Conference Marketing), and the case-expense firm onboarding calls (Shared Sub-Layer, Sub-Step C). In both cases, the "priority order" below is which workflow JC should tell each person to dictate *first* once they're working independently — not something that happens during the call itself.
 
