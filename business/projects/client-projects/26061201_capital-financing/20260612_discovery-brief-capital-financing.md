@@ -329,3 +329,67 @@ Cumulative Grade: Ungraded — Phase One. Baseline established at plan delivery.
 ## Recommended Service Tier
 
 **Tier 2: Standard Service — $5,000–$10,000/month.** Multiple Phantom Outputs active across four operational areas. Two concurrent Sprints minimum required from the start. People area requires active coaching through HR framework build and both hire onboards. Christy's capacity as execution anchor needs regular check-in support. CRM and AI decisions are time-sensitive and will benefit from embedded guidance. Vendor coordination across Kaz, LeAP, Margarita, and Alex requires ongoing Ghost.Ops presence as integration layer, not periodic check-ins.
+
+---
+
+# Org Chart
+
+## Capital Financing
+
+- Dr. Howie Golden — CEO
+- Michael Wax — Managing Partner
+- Mark Gagne — Minority Partner Advisor
+- Christy Imbriale — Director of Operations
+
+## Underwriting
+
+- Christy Imbriale
+
+### Intake (under Underwriting)
+
+- Leaford Grayson
+- Reyna Carcamo
+- Myia Strozier
+- Alejandro Restrepo
+- Note: 2 additional intake hires, just started — Christy can discuss
+
+## Contracting and Servicing
+
+- Yasmine Swain — Director of Contracting and Servicing
+
+### Contracting (under Contracting and Servicing)
+
+- Audra Milton
+- Yasmine Swain
+- Chanel White
+
+### Sr. Consultants (under Contracting and Servicing)
+
+- Victoria Connelli
+- Audrey Salazar
+- Brian Gillard
+- Lisa Craig
+
+## Controller and Accounting
+
+- Danielle Gild
+
+---
+
+# MSE Architect Claude Prompt for Howie
+
+- File: `Warren_MSE_Architect_Capital_Financing.md`
+- [Systematize Onboarding Requirements & Process](https://app.notion.com/p/Systematize-Onboarding-Requirements-Process-37abe8fd2b558048a32dc333852a166a?pvs=21)
+- [Howie updates to process](https://app.notion.com/p/Howie-updates-to-process-37abe8fd2b55802dacc0c42667f3580d?pvs=21)
+- [AI Engineer Onboarding Roadmap](https://app.notion.com/p/AI-Engineer-Onboarding-Roadmap-374be8fd2b5580459c4aff7d6d1f8208?pvs=21)
+
+---
+
+# Margarita Onboarding — In Progress
+
+- Internal marketing stakeholders: Howie, Julius, Kaz (Salesforce)
+- Need marketing account login information
+- Onboarding meeting assets to have on hand: logo, any pictures and video, and passwords before the call (Google My Business, Website, Google Analytics, etc.)
+- Marketing Boss Share Folder: https://drive.google.com/drive/folders/1Gj-pLN4omNITA7J4-1qs1UzYpK48D_Tb
+- Christy — set up Capital Financing LastPass account (https://www.lastpass.com/pricing)
+- SEO vendor — get info and make connection to Marketing Boss
