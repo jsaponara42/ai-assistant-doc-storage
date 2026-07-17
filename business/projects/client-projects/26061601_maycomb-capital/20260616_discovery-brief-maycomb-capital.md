@@ -9,12 +9,16 @@ status: needs-attention
 # Maycomb Capital
 
 > **Update July 7, 2026:** Value-drivers call held with Ariella Rotenberg and incoming interim/fractional COO Martina Madrid Sebring. Primary engagement contact going forward is Martina + Barry Porozni (see below) — Ariella is off distribution. New Problem Register item P-007 added (outcome data / annual impact report); Section 11 captures the full set of raw revenue-side findings from the call.
+>
+> **Update July 17, 2026 (Danielle, by email):** Maycomb confirmed on the **Claude Team plan** (not Enterprise — corrects the working assumption used throughout Section 6 and the Playbook; see Section 6 for plan-specific watch-outs still to be finalized with Barry). Varenka remains interim AI owner alongside Martina, expected to work the role jointly (Varenka's email still not provided — see Open Questions). Playbook enforcement authority for the team confirmed: **Andi Phillips, Barry Porozni, Martina Sebring, and Varenka Giordani** (full name now known). Roadmap delivery meeting attendee list confirmed: Danielle Schweitzer, Barry Porozni, martina@madridops.com, and Martina Sebring (MSebring@maycombcapital.com).
 
 Alternative asset manager / fund manager operating a management company structure over multiple fund vehicles, with an outsourced fund administrator handling back-office fund accounting.
 
 **Primary internal contact (as of July 7, 2026):** Martina Madrid Sebring — Interim/Fractional COO,  martina@madridops.com, and Barry Porozni — IT (outside vendor), bporozni@maycombcapital.com. Per Ariella's direction on the July 7 value-drivers call, all engagement correspondence now goes to Martina and Barry (CC Danielle Schweitzer through end of August for visibility; leave Ariella off — see below).
 
 **Prior primary contact:** Ariella Rotenberg — COO/CFO, arotenberg@maycombcapital.com, phone (651) 341-5992. Last day July 10, 2026; continues afterward as a light-touch strategic/institutional-knowledge advisor to Maycomb's CEO, but explicitly not engaged in this work day to day going forward.
+
+**Roadmap delivery meeting — confirmed attendee list (July 17, 2026):** Once the Roadmap is compiled, formatted, and ready to deliver, Danielle asked that everyone on the email thread be included in the review/next-steps meeting: Danielle Schweitzer (dschweitzer@maycombcapital.com), Barry Porozni (bporozni@maycombcapital.com), martina@madridops.com, and Martina Sebring (MSebring@maycombcapital.com). Note Martina appears twice, under two different email addresses — confirm which is her preferred address for the invite, or send to both.
 
 
 ---
@@ -87,9 +91,17 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 - **Director of Finance and Ops** — planned full-time hire to succeed much of Ariella's and Danielle's combined scope. Timeline unknown — reserve for Martina/Barry going forward (Ariella off distribution). This role is the intended permanent holder of the AI-owner role.
 - **Analyst (finance and ops)** — Maycomb is actively hiring. Danielle expects the new analyst to be fully onboarded by August and intends to personally transition them.
 - **Investor Relations (new hire, confirmed July 7, 2026)** — Already hired; starts **August 3, 2026**. First major project expected to be overhauling Maycomb's impact measurement/management systems and the annual impact report (published end of Q1) — direct link to P-007, Section 7.
-- **Varenka (office manager)** — confirmed interim operations lead. Taking over the AP run and being looped into broader operations. Named by Danielle as the interim AI owner and process champion until the Director of Finance & Ops is hired. Also identified as interim approval holder for AP run sign-offs (alongside Miljana) after Ariella's departure.
+- **Varenka Giordani (office manager)** — confirmed interim operations lead. Taking over the AP run and being looped into broader operations. Named by Danielle as the interim AI owner and process champion until the Director of Finance & Ops is hired. Also identified as interim approval holder for AP run sign-offs (alongside Miljana) after Ariella's departure. **Confirmed July 17, 2026 (Danielle):** remains interim AI owner even with Martina now on board — Danielle expects Varenka and Martina to work the role jointly, with either able to jump in if that's not how it plays out day to day. Also confirmed as one of four people with authority to enforce the finalized AI Playbook for the team (see below). Full surname now known (Giordani).
+> ⚠️ NEEDS INPUT: Varenka's email address — asked for directly on July 17 but not included in Danielle's reply. Still needed before Varenka can be looped into playbook distribution/enforcement directly.
 - **Miljana** — named as one of the people who will handle AP run approval sign-offs after Ariella leaves. Described as having deeper business knowledge in certain areas.
 > ⚠️ NEEDS INPUT: Timeline for Director of Finance & Ops and Analyst hires (fractional COO now confirmed — see Martina, below). Name and contact details for the new Investor Relations hire.
+
+### Andi Phillips — Playbook enforcement authority (NEW, confirmed July 17, 2026)
+- **Status:** Named by Danielle, alongside Barry Porozni, Martina Sebring, and Varenka Giordani, as one of four people who will hold the authority to enforce the AI Playbook for the team once it's finalized. Not previously mentioned in any prior call or document.
+> ⚠️ NEEDS INPUT: Andi Phillips's title/role, relationship to Maycomb (staff, board, advisor?), and contact details — all unknown at this time.
+
+### Playbook Enforcement Authority (NEW, confirmed July 17, 2026)
+Once the AI Playbook is finalized, **Andi Phillips, Barry Porozni, Martina Sebring, and Varenka Giordani** will hold the authority to enforce it for the team. This is distinct from the **AI owner** role (day-to-day triage of the gripe list, proof runs, monthly review — see P-005 and the Playbook's "A note on who owns this" section), which is held jointly by Varenka and Martina. Enforcement authority is a broader group of four; the AI owner role is a narrower, two-person operational one.
 
 ### Martina Madrid Sebring — Interim / Fractional COO (CONFIRMED July 7, 2026)
 - **Status:** Confirmed on the July 7, 2026 value-drivers call as Maycomb's interim/fractional COO, holding operational priorities for the company while Maycomb searches for, hires, and onboards the permanent Director of Finance & Ops and Analyst (who will be the long-term owners of this work). Introduced by Barry, who described her as someone who "can wear multiple hats and do a good job on any hat she's under."
@@ -120,11 +132,14 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 
 ## 6. Technology Stack
 
-### Claude (Enterprise instance)
-- **What it is:** Enterprise Claude instance, set up by Danielle the week prior to this call, intended as Maycomb's primary AI tool.
+### Claude (Team plan — corrected July 17, 2026, was previously assumed Enterprise)
+- **What it is:** Claude **Team plan** instance, set up by Danielle the week prior to the June 16 kickoff call, intended as Maycomb's primary AI tool. **Plan confirmed by Danielle on July 17, 2026** — corrects the working assumption of "Enterprise" used throughout the discovery brief, Playbook, and Cheat Sheet to date. All prior references to "Claude Enterprise" in this project's documents should be read as Team plan going forward; text is being corrected across documents.
 - **Current state:** Freshly deployed ("open sandbox") with a draft set of usage guidelines expected to evolve monthly/quarterly. No strategic plan yet for proactive, function-specific use — staff have access but no structured direction on how to leverage it for actual workflow improvement.
-- **Models available:** Haiku, Sonnet, and Opus — all three confirmed accessible in their enterprise plan.
-- **Admin:** Cowork and Claude Code recommended to be disabled at the org level by default (cybersecurity — both access the terminal). Barry affirmed this. Confirm with Barry who holds the admin seat and what is currently configured.
+- **Models available:** Haiku, Sonnet, and Opus — all three confirmed accessible on their plan (this holds true on Team; not affected by the Enterprise correction).
+- **Admin — plan-specific watch-outs (Team, not Enterprise):** JC and Barry agreed on the workflow deep-dive call that Cowork and Claude Code should be disabled by default org-wide (cybersecurity — both can access the terminal). On a **Team plan**, this is more constrained than on Enterprise:
+  - **Cowork** has a single organization-wide on/off toggle (Organization settings → Capabilities) — straightforward for Barry to switch off, but it's all-or-nothing; there's no way to grant it to specific people or groups without turning it on for everyone (that per-group granularity is an Enterprise-only feature).
+  - **Claude Code** is included by default with Team plan seats and does not have an equivalent simple admin toggle. Restricting it requires Barry to deploy managed configuration (a `managed-settings.json` policy file or MDM push) — a heavier IT lift than flipping a switch, and worth scoping with Barry directly given his SharePoint/shared-mailbox bandwidth.
+  - ⚠️ **NEEDS INPUT / ACTION:** Confirm with Barry (a) who holds the admin seat, (b) whether the Cowork toggle has actually been switched off yet, and (c) whether he has capacity to deploy the Claude Code managed-policy restriction, or whether the Playbook should instead rely on the honor-system "bring a use case to the AI owner first" process without a technical backstop for Claude Code specifically.
 - **Gap:** No standardization process yet for capturing and scaling individual employees' successful use patterns across the 12-person team.
 
 ### Excel / Loan Servicing Model
@@ -381,6 +396,9 @@ Sourced from the value-drivers conversation with Ariella Rotenberg and Martina M
 8. ~~Any additional systems in use~~ — **RESOLVED: Full stack confirmed — Affinity (CRM), Slack, Teams (video only), SharePoint, ShareFile, DocuSign, Adobe, Expensify, LeverPoint, internal Excel loan servicing model.**
 9. MSA — ~~confirmed sent; not yet signed as of June 23–24~~ **SIGNED July 7, 2026. SOW accepted, discovery fully authorized.**
 10. Pricing tiers/rate structure — *not needed yet; revisit if scope expands beyond the free engagement.*
-11. Confirm with Barry: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions). Recommendation to disable Cowork and Claude Code by default was affirmed on the call.
+11. Confirm with Barry: who holds the Claude admin seat and what controls are currently configured. **Plan corrected July 17, 2026: Team, not Enterprise** — this changes the answer here materially. On Team, Cowork has a simple org-wide toggle but no group-based restrictions (Enterprise-only); Claude Code has no equivalent simple toggle and would need a managed-policy deployment from Barry. Recommendation to disable both by default was affirmed on the call, but whether that's technically in place yet still needs to be confirmed with Barry.
 12. Martina Madrid Sebring's contact details (email, phone) and exact start date.
 13. Name and contact details for the new Investor Relations hire (starts August 3, 2026) — confirm whether to loop him into the P-007 outcome-data/impact-reporting workstream once onboarded.
+14. ~~Which Claude plan Maycomb is on (Team vs. Enterprise)~~ — **RESOLVED July 17, 2026: Team plan**, confirmed by Danielle. Corrects the working assumption used across the discovery brief and client-facing deliverables to date.
+15. Varenka Giordani's email address — asked for directly on July 17 but not provided in Danielle's reply. Still needed.
+16. Andi Phillips's title/role and contact details — newly named (July 17, 2026) as one of four people with authority to enforce the finalized AI Playbook; no other information available yet.

@@ -154,7 +154,7 @@ A couple of practical notes:
 - **This pairs with the trust check in Section 2.** A high-stakes task isn't automatically an Opus task — "how much it matters if it's wrong" (do I verify and own it?) is a separate question from "how hard is it to get right" (which model). A high-stakes but straightforward task can run on Sonnet and still get carefully checked by you.
 - **You can switch mid-task.** Start in Sonnet, and if it's clearly struggling with something genuinely hard, move up to Opus for that piece. You're not locked in.
 
-> *Design note for JC: written for the Claude.ai/enterprise app picker, not the API — so no $/token tables (the team can't see those and it's not their decision surface). Guidance is relative speed/cost/capability. Current app lineup as of writing: Haiku 4.5, Sonnet 4.6, Opus 4.8. **All three models confirmed available in Maycomb's enterprise plan.**_
+> *Design note for JC: written for the Claude.ai app picker, not the API — so no $/token tables (the team can't see those and it's not their decision surface). Guidance is relative speed/cost/capability. Current app lineup as of writing: Haiku 4.5, Sonnet 4.6, Opus 4.8. **All three models confirmed available on Maycomb's plan — corrected July 17, 2026: this is a Team plan, not Enterprise, but the model availability confirmation from the June 23–24 call still holds; Team plans separately include access to all available models by default.**_
 
 ---
 
@@ -162,13 +162,20 @@ A couple of practical notes:
 
 The Claude you use every day in the chat interface is a conversational tool — you ask, it answers, you decide what to do with the output. **Claude Code** and **Claude Cowork** are different in kind, not just degree. They can take actions in the real world: executing code, writing and modifying files, running commands, automating tasks directly on your machine. That's genuinely useful, but it also means a mistake isn't just a wrong answer you can ignore — it can be a change that's already happened.
 
-For that reason, both tools are **disabled at the org level by default** — enforced through Claude's enterprise admin controls (global toggle and group-based restrictions). You won't be able to access either tool until a use case has been approved.
+For that reason, both tools are meant to be **disabled at the org level by default**, with access opened up only once a use case has been approved. **Corrected July 17, 2026: Maycomb is confirmed on a Claude Team plan, not Enterprise — the two tools aren't controlled quite the same way.**
+
+- **Cowork** has a single organization-wide on/off switch (Organization settings → Capabilities). Barry can flip this off in a couple of clicks. The one limitation: it's all-or-nothing — there's no way to leave it on for a specific approved use case while keeping it off for everyone else. Team plans don't have the group-based / per-role restrictions that Enterprise plans do.
+- **Claude Code** is included by default with every seat on a Team plan and doesn't have an equivalent simple toggle in the admin console. Turning it off (or restricting what it can do) takes a deployed managed-policy file or an MDM push — a real but heavier IT task, not a checkbox. This is worth putting in front of Barry directly, since it changes what "disabled by default" can mean in practice until that's set up.
+
+Until Barry confirms both are actually configured this way, treat the process below as the operating norm (bring a use case first) rather than something with a technical backstop already in place for Claude Code specifically.
 
 The process is simple:
 
-> **Bring a specific use case to the AI owner. Once approved, the AI owner enables access — either org-wide or for the relevant group — and you proceed.**
+> **Bring a specific use case to the AI owner. Once approved, the AI owner (with Barry) enables access, and you proceed.**
 
 The AI owner isn't evaluating whether you're trustworthy; they're making sure the use case is well-scoped, that someone understands what the tool will actually do, and that there's a plan if something needs to be reversed. Once a use case is approved, it's approved — access stays on and you don't re-clear it every time. The trigger to revisit is only if the use case changes significantly.
+
+**On Cowork specifically:** because the toggle is org-wide only on our plan, approving one use case currently means switching Cowork on for the whole team, not just the approved person — worth being upfront about when weighing whether a use case is worth it. **On Claude Code:** since there's no simple toggle, "approved" for now effectively means "the AI owner knows and has signed off," not "technically walled off for everyone else" — until Barry has a managed-policy restriction in place, this section leans more on the honor system than the Cowork process does.
 
 What to bring to the AI owner when you have a use case:
 - **What you want the tool to do** — specifically, not just "automate some stuff."
@@ -177,7 +184,7 @@ What to bring to the AI owner when you have a use case:
 
 If you're not sure whether something counts as Claude Code or Cowork territory, a good heuristic: if it involves Claude *doing* something rather than *telling you* something, bring it to the AI owner first.
 
-> *Design note for JC: enforcement is at the admin level (global toggle + group-based restrictions in Claude enterprise), not just a policy norm. The playbook explains the why and the process; the admin controls do the enforcing. AI owner is both the approver and the person who flips the switch. **Confirmed on the workflow deep-dive call (June 23–24):** JC recommended disabling Cowork and Claude Code by default at the org level for cybersecurity reasons; Barry affirmed. Still to confirm with Barry: who holds the admin seat and what is currently configured.*
+> *Design note for JC: originally written assuming Enterprise-style enforcement (global toggle + group-based restrictions). **Corrected July 17, 2026: Maycomb is on a Team plan.** Cowork still has a clean org-wide toggle (Organization settings → Capabilities), so that half of the enforcement story holds. Claude Code does not have an equivalent admin-console toggle on Team — restricting it requires a managed-settings.json policy or MDM deployment, which is a real ask of Barry's time, not a switch he flips in passing. Recommend deciding with JC whether to (a) prioritize getting Barry to actually deploy the Claude Code restriction, or (b) accept that Claude Code enforcement is process-based (AI owner approval) rather than technical for now, and say so plainly in the playbook rather than implying a technical backstop that isn't there yet. **Confirmed on the workflow deep-dive call (June 23–24):** JC recommended disabling Cowork and Claude Code by default at the org level for cybersecurity reasons; Barry affirmed. Still to confirm with Barry: who holds the admin seat, whether the Cowork toggle is actually off yet, and whether he has bandwidth for the Claude Code managed-policy work.*
 
 ---
 

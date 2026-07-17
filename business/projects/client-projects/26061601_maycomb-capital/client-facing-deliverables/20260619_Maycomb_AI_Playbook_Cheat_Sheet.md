@@ -79,7 +79,7 @@ Don't leave it parked on the most powerful model out of habit — slower and pri
 
 These tools take real-world actions (executing code, modifying files, automating your machine). A mistake isn't just a wrong answer — it's a change that's already happened.
 
-> **Both are disabled at the org level through Claude's enterprise admin controls. You can't access them until the AI owner approves a use case and enables access.**
+> **The goal is both switched off by default until the AI owner approves a use case. Cowork is a simple org-wide switch; Claude Code takes a bit more setup on our plan — check with the AI owner if you're not sure it's actually off yet.**
 
 One approval per use case — not per session. Once cleared, access stays on unless the use case changes significantly. When you bring a use case, know: what it'll do, what it'll touch, and what undo looks like.
 
@@ -87,11 +87,11 @@ One approval per use case — not per session. Once cleared, access stays on unl
 
 ## Tools & data — one separate rule
 
-- ✅ **Real Maycomb data → enterprise Claude only** (it doesn't train on your inputs).
+- ✅ **Real Maycomb data → our Team-plan Claude only** (it doesn't train on your inputs).
 - ❌ **Never a free / personal AI account** for real data — those can learn from it. Low-stakes, non-data work only.
 - ⚠️ Right tool keeps the data *safe* — it doesn't make the answer *correct*. The Section-above trust check still applies.
 
-**Confirmed tool stack:** Claude (Enterprise), Excel/loan servicing model, LeverPoint, Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. Full tool-by-data reference matrix to follow in the Long Form playbook (Section 6).
+**Confirmed tool stack:** Claude (Team plan), Excel/loan servicing model, LeverPoint, Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. Full tool-by-data reference matrix to follow in the Long Form playbook (Section 6).
 
 ---
 
@@ -99,7 +99,9 @@ One approval per use case — not per session. Once cleared, access stays on unl
 
 **Once a month, ~30 min:** the AI owner reviews the gripe list, sizes up each item, picks what to act on. Nothing sits forgotten. Confirmed venue: **bi-weekly Roadmap Meeting** — no new standing ritual needed. *(Also: takes the heads-up and runs the first proof run when a new high-stakes use case starts.)*
 
-**The AI owner** = a role, inherited by the incoming Director of Finance & Ops. **Interim holder: Varenka** (office manager) until that hire lands.
+**The AI owner** = a role, inherited by the incoming Director of Finance & Ops. **Interim holders: Varenka Giordani and Martina Sebring**, working the role jointly, until that hire lands.
+
+**Who can enforce this playbook:** Andi Phillips, Barry Porozni, Martina Sebring, and Varenka Giordani.
 
 ---
 
