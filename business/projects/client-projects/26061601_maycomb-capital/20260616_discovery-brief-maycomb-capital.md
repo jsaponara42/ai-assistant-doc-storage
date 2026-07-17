@@ -32,7 +32,7 @@ Alternative asset manager / fund manager operating a management company structur
 - **Corporate structure:** Four limited partnership vehicles (the funds), one single-member LLC, and a two-member LLC that serves as the management company / operating business. Business matters are run through the operating company for operational and financial simplicity; expenses and revenue are generated primarily by the fund entities and a little by the single-member LLC.
 - **Principal contact for this engagement (as of July 7, 2026):** Martina Madrid Sebring, Interim/Fractional COO, and Barry Porozni, IT (outside vendor) — both CC'd on all engagement correspondence per Ariella's direction. Danielle Schweitzer CC'd through end of August for visibility. Ariella Rotenberg (former principal contact, COO/CFO, inferred from context — she spoke to AP runs, budget-to-actuals, and cash management with CFO-level ownership) is off the distribution going forward.
 - **Connection source:** Introduced by Barry Porozni (mutual connection, also does Maycomb's IT).
-> ⚠️ NEEDS INPUT: Barry's exact title and contact details. Confirmed on the workflow deep-dive call (June 23–24): outside IT vendor (not internal staff). IT scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls — Barry affirmed the recommendation to disable Cowork and Claude Code by default at the org level.
+> ⚠️ NEEDS INPUT: Barry's exact title and contact details. Confirmed on the workflow deep-dive call (June 23–24): outside IT vendor (not internal staff). IT scope includes SharePoint, shared mailbox infrastructure, and Claude admin controls *(plan corrected July 17, 2026: Team, not Enterprise — see Section 6)* — Barry affirmed the recommendation to disable Cowork and Claude Code by default at the org level.
 
 ---
 
@@ -40,7 +40,7 @@ Alternative asset manager / fund manager operating a management company structur
 
 Maycomb Capital is an alternative asset manager that lends to portfolio companies/borrowers through a multi-fund structure (four LP vehicles plus a single-member LLC), with a separate two-member LLC management company functioning as the operating business. The fund entities and single-member LLC generate the revenue and expenses; the management company runs all the business matters and pays the bills, requiring an internal cross-entity allocation system. Maycomb appears to operate in an impact or mission-aligned lending space — borrowers are tracked against outcome metrics tied to grants or government-linked reporting (self-reported by borrowers, with deal teams providing high-touch oversight, sometimes supplemented by outsourced tracking).
 
-Maycomb outsources core fund administration (fund accounting, AP run estimates, draft budget-to-actuals) to **LeverPoint** (their fund administrator, also referred to as "Ultimis" interchangeably by the team). LeverPoint handles bank account access and payment execution — Maycomb has no direct bank access by design, as a cash control measure. The team describes LeverPoint as having become reliable after past turnover required restarting processes. Maycomb just stood up an enterprise Claude instance the week of this call, with a fresh, evolving set of internal usage guidelines — the engagement enters at the very beginning of Maycomb's formal AI adoption, before any strategic roadmap has been built around it.
+Maycomb outsources core fund administration (fund accounting, AP run estimates, draft budget-to-actuals) to **LeverPoint** (their fund administrator, also referred to as "Ultimis" interchangeably by the team). LeverPoint handles bank account access and payment execution — Maycomb has no direct bank access by design, as a cash control measure. The team describes LeverPoint as having become reliable after past turnover required restarting processes. Maycomb just stood up a Team-plan Claude instance the week of this call *(corrected July 17, 2026 — previously assumed Enterprise)*, with a fresh, evolving set of internal usage guidelines — the engagement enters at the very beginning of Maycomb's formal AI adoption, before any strategic roadmap has been built around it.
 
 The business is in a leadership transition: both COO/CFO Ariella Rotenberg and Analyst Danielle Schweitzer are exiting within weeks of this call (see Section 4), creating urgency to document standard operating procedures before institutional knowledge leaves with them. The engagement entered via referral (Barry Porozni connecting John-Carlos to Maycomb) and is structured as a free, in-kind discovery/diagnostic engagement, with the expectation of a paid scope of work if it expands beyond the initial engagement.
 
@@ -82,9 +82,9 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 
 ### Barry Porozni — IT (outside vendor)
 - **Working Style:** Present on the workflow deep-dive call (June 23–24) alongside Danielle. Participated actively — flagged the shared mailbox as a quick-win infrastructure improvement and agreed to help implement it (SharePoint, shared mailbox setup). Affirmed the recommendation to disable Cowork and Claude Code at the org level for cybersecurity reasons.
-- **Relevance:** Mutual connection who introduced John-Carlos to Maycomb; handles Maycomb's IT as an outside vendor. Scope confirmed to include: SharePoint, shared mailbox/storage infrastructure, and Claude Enterprise admin controls.
+- **Relevance:** Mutual connection who introduced John-Carlos to Maycomb; handles Maycomb's IT as an outside vendor. Scope confirmed to include: SharePoint, shared mailbox/storage infrastructure, and Claude admin controls *(plan corrected July 17, 2026: Team, not Enterprise)*.
 - **Contact:** Not yet captured.
-> ⚠️ NEEDS INPUT: Barry's exact title, company name, and contact details. Also confirm: who holds the Claude Enterprise admin seat and what controls are currently configured (global toggle, group restrictions).
+> ⚠️ NEEDS INPUT: Barry's exact title, company name, and contact details. Also confirm: who holds the Claude admin seat and what controls are currently configured — note this is now a Team-plan question (org-wide Cowork toggle, no group-based restrictions; Claude Code needs a managed-policy deployment rather than a toggle), not the Enterprise-style setup originally assumed. See Section 6 for detail.
 
 ### Incoming roles
 - **Interim / Fractional COO** — **CONFIRMED July 7, 2026: Martina Madrid Sebring** (full profile below). Holds strategic and operational priorities during the transition until the Director of Finance & Ops and Analyst are hired.
@@ -242,7 +242,7 @@ Once the AI Playbook is finalized, **Andi Phillips, Barry Porozni, Martina Sebri
 
 ### P-005 — No AI/Automation Roadmap Behind the New Claude Rollout (People / Processes)
 - **Area:** People / Processes.
-- **Problem:** Maycomb just opened enterprise Claude access to staff with usage guidelines but no strategic plan for how different functions should actually use it, and no process to capture and standardize what individual employees discover works.
+- **Problem:** Maycomb just opened Team-plan Claude access to staff with usage guidelines but no strategic plan for how different functions should actually use it, and no process to capture and standardize what individual employees discover works.
 - **Current Thinking:** Rollout is treated as step one ("opening the sandbox"); the assumption is that letting people experiment freely is sufficient for now.
 - **Reframe:** Without a standardization loop, usage will fragment — some staff will become heavy "early adopters" building ad hoc solutions, others will barely use the tool, and inconsistent practice becomes harder to unwind the longer it runs. A lightweight surfacing-and-standardizing process needs to exist alongside the freedom to experiment.
 - **Approach:** Design a simple internal process for surfacing effective individual AI usage patterns and promoting them to team standard practice; pair with the do's/don'ts guidance already drafted. Status: Not started.
@@ -333,7 +333,7 @@ Once the AI Playbook is finalized, **Andi Phillips, Barry Porozni, Martina Sebri
 
 - **Comprehension:** Ungraded — baseline. Maycomb leadership clearly understands the problem space and articulated specific automatable rules unprompted (e.g., variance thresholds); comprehension appears high going in.
 - **Adherence:** Ungraded — baseline.
-- **Adoption:** Ungraded — baseline. Watch-point: Claude enterprise rollout is brand new with no usage standard yet, so early adoption signal is not yet measurable.
+- **Adoption:** Ungraded — baseline. Watch-point: Claude rollout (Team plan) is brand new with no usage standard yet, so early adoption signal is not yet measurable.
 - **Velocity:** Ungraded — baseline. Watch-point: the June 29 / July 10 departure timeline creates real time pressure that could push velocity expectations beyond what the engagement can support if SOP capture slips.
 - **Volume:** Ungraded — baseline. Six problems identified in a single discovery call; volume is moderate-to-high for a free, exploratory engagement and may need prioritization if scope expands.
 
@@ -388,7 +388,7 @@ Sourced from the value-drivers conversation with Ariella Rotenberg and Martina M
 
 1. ~~Ariella's phone and mobile; capture her personal/forwarding contact before July 10~~ — **RESOLVED July 7, 2026: phone (651) 341-5992, forwarding contact captured.**
 2. Danielle's phone and mobile *(email confirmed: dschweitzer@maycombcapital.com)*.
-3. Barry Porozni's exact title, company name, and contact details *(confirmed: outside IT vendor, not internal staff; scope includes SharePoint, shared mailbox infrastructure, and Claude Enterprise admin controls)*.
+3. Barry Porozni's exact title, company name, and contact details *(confirmed: outside IT vendor, not internal staff; scope includes SharePoint, shared mailbox infrastructure, and Claude admin controls — plan corrected July 17, 2026 to Team, not Enterprise)*.
 4. Confirm Maycomb Capital's legal entity name(s) / any trade name, plus main phone. *(HQ address **RESOLVED July 7**: 235 Duffield Street, 18th Floor, Brooklyn, NY 11201.)*
 5. LeverPoint primary contact name, and whether they should be looped into the engagement directly *(fund administrator name confirmed: LeverPoint, also referred to as Ultimis)*.
 6. ~~Status/timeline for hiring the interim fractional COO~~ — **RESOLVED July 7, 2026: Martina Madrid Sebring confirmed** (see Section 4). Director of Finance & Ops and Analyst hire timelines still unknown — should the engagement plan to onboard them once in place? *(Analyst hire targeted by August per Danielle; other timelines unknown.)*
