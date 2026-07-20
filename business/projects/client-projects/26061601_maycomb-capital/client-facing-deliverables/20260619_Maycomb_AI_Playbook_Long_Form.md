@@ -113,7 +113,7 @@ new high-stakes use case → give the AI owner a heads-up and prove it once, tog
 
 This is the part that turns one person's lucky find into something the whole team owns.
 
-Here's the failure mode we're heading off: someone figures out a genuinely great way to get Claude to draft a common document. They use it. It saves them an hour every quarter. And **nobody else ever finds out** — so the other eleven of you keep doing it the slow way, or worse, each invent your own slightly different version. Multiply that across every task and the team fragments into a dozen private workflows.
+Here's the failure mode we're heading off: someone figures out a genuinely great way to get Claude to draft a common document. They use it. It saves them an hour every week. And **nobody else ever finds out** — so the other eleven of you keep doing it the slow way, or worse, each invent your own slightly different version. Multiply that across every task and the team fragments into a dozen private workflows.
 
 The fix is a simple loop: **find it → standardize it → share it.**
 
