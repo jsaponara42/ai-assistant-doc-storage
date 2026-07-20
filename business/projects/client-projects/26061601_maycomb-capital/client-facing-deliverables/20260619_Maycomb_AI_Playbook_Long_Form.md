@@ -38,7 +38,7 @@ Maycomb Capital hires people because they're good at what they do. And yet a rea
 
 That's the point of bringing in AI and automation. **Not to remove the person doing the task — to remove the part of the task that wastes the person.** The hours you get back go toward the things only a person can do: judgment, relationships, the analysis that actually moves a fund forward.
 
-So when you read the rest of this, read it as an invitation, not a warning. The goal is more experimenting, not less — with just enough structure that the good ideas don't get lost and the sensitive stuff stays safe.
+So when you read the rest of this, read it as an invitation. The goal is more experimentation, not less — with just enough structure that the good ideas don't get lost and the sensitive stuff stays safe.
 
 ---
 
