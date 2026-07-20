@@ -91,11 +91,18 @@ The moment a wrong answer would actually hurt — a real credit decision, anythi
 
 > **You are accountable for what goes out. Claude drafted it; you're signing it.**
 
-That means a qualified person actually checks the substance — not skims it because it reads well — before it's trusted, acted on, or sent. Claude is a very fast assistant here, never the decision-maker. If you're not in a position to personally stand behind the output, it's not ready to leave your hands. When in doubt about whether something clears this bar, that's exactly the moment to loop in the AI owner.
+That means a qualified person actually checks the substance — not skims it because it reads well — before it's trusted, acted on, or sent. 
 
-**The one time to give the AI owner a heads-up first.** When you're about to use Claude for a *new* high-stakes use case — or one that's changed enough that it's effectively new — tell the AI owner before the first real run, not after. This isn't asking permission and it isn't a block; it's a heads-up so someone in the loop knows a sensitive workflow is starting. Then the **first run is a proof run, done together (or with the owner aware):** instead of relying on that first output, you check it against something you already know the answer to, or verify it fully by hand, to confirm the workflow actually holds up. Once it's proven that first time, it's just normal high-stakes work — own it and go, no heads-up needed each time. The trigger to repeat this is only if the use case materially changes again.
+Claude is a very fast assistant here, never the decision-maker. If you're not in a position to personally stand behind the output, it's not ready to leave your hands. When in doubt about whether something clears this bar, that's exactly the moment to loop in the AI owner.
 
-The whole gate, in one line: *low stakes → use it and sanity-check; high stakes → you own it, verify before it's trusted or sent; new high-stakes use case → give the AI owner a heads-up and prove it once, together.*
+**The one time to give the AI owner a heads-up first.** When you're about to use Claude for a *new* high-stakes use case — or one that's changed enough that it's effectively new — tell the AI owner before the first real run, not after. 
+
+This is a heads-up so someone in the loop knows a sensitive workflow is starting. Then the **first run is a proof run, done together (or with the owner aware):** instead of relying on that first output, you check it against something you already know the answer to, or verify it fully by hand, to confirm the workflow actually holds up. Once it's proven that first time, it's just normal high-stakes work — own it and go, no heads-up needed each time. The trigger to repeat this is only if the use case materially changes again.
+
+The whole gate, in 3 lines: 
+*low stakes → use it and sanity-check; 
+high stakes → you own it, verify before it's trusted or sent; 
+new high-stakes use case → give the AI owner a heads-up and prove it once, together.*
 
 **One separate rule, regardless of stakes:** when real Maycomb information is involved, use the **enterprise version of Claude only** — never a free or personal AI account (free ChatGPT, Claude, Gemini, etc.), since those can learn from what you type. Enterprise Claude is set up so your inputs aren't used to train the model, which is why it's safe for the real thing. (More in Section 6.)
 
