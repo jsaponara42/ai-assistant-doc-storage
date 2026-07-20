@@ -1,9 +1,14 @@
 ---
-title: "Maycomb Capital — AI Playbook (Long Form, Working Draft)"
+title: Maycomb Capital — AI Playbook (Long Form, Working Draft)
 date: 2026-06-19
-tags: [client, project, deliverable-concept, governance]
+tags:
+  - client
+  - project
+  - deliverable-concept
+  - governance
 ai: claude
 status: needs-attention
+final-document: https://docs.google.com/document/d/1p9PwKfLY_6EvJM2A2BAYjG-1FSqgkSJGoGVbh6JxJtk/edit?usp=sharing
 ---
 
 # Maycomb Capital — AI Playbook (Long Form)

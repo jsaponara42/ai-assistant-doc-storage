@@ -1,9 +1,14 @@
 ---
-title: "Maycomb Capital — AI Playbook (Cheat Sheet)"
+title: Maycomb Capital — AI Playbook (Cheat Sheet)
 date: 2026-06-19
-tags: [client, project, deliverable-concept, governance]
+tags:
+  - client
+  - project
+  - deliverable-concept
+  - governance
 ai: claude
 status: needs-attention
+final-document: https://docs.google.com/document/d/1c5jyPf9YHGlxVhhon3NuTKWuTA4WnW9gOdpnTOw2Zu0/edit?usp=sharing
 ---
 
 # Maycomb AI Cheat Sheet
@@ -101,7 +106,6 @@ One approval per use case — not per session. Once cleared, access stays on unl
 - ❌ **Never a free / personal AI account** for real data — those can learn from it. Low-stakes, non-data work only.
 - ⚠️ Right tool keeps the data *safe* — it doesn't make the answer *correct*. The Section-above trust check still applies.
 
-**Confirmed tool stack:** Claude (Team plan), Excel/loan servicing model, LeverPoint, Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. Full tool-by-data reference matrix to follow in the Long Form playbook (Section 6).
 
 ---
 
