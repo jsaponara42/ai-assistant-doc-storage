@@ -199,15 +199,15 @@ For that reason, both tools are meant to be **disabled at the org level by defau
 - **Cowork** has a single organization-wide on/off switch (Organization settings → Capabilities). The Claude Admin can flip this off in a couple of clicks. The one limitation: it's all-or-nothing — there's no way to leave it on for a specific approved use case while keeping it off for everyone else. Team plans don't have the group-based / per-role restrictions that Enterprise plans do.
 - **Claude Code** is included by default with every seat on a Team plan and doesn't have an equivalent simple toggle in the admin console. Turning it off (or restricting what it can do) takes a deployed managed-policy file or an MDM push — a real but heavier IT task, not a checkbox. This is worth putting in front of Barry directly, since it changes what "disabled by default" can mean in practice until that's set up.
 
-Until Barry confirms both are actually configured this way, treat the process below as the operating norm (bring a use case first) rather than something with a technical backstop already in place for Claude Code specifically.
+Treat the process below as the operating norm (bring a use case first) rather than something with a technical backstop already in place for Claude Code specifically.
 
 The process is simple:
 
-> **Bring a specific use case to the AI owner. Once approved, the AI owner (with Barry) enables access, and you proceed.**
+> **Bring a specific use case to the AI owner. Once approved, the Claude Admin enables access, and you proceed.**
 
 The AI owner isn't evaluating whether you're trustworthy; they're making sure the use case is well-scoped, that someone understands what the tool will actually do, and that there's a plan if something needs to be reversed. Once a use case is approved, it's approved — access stays on and you don't re-clear it every time. The trigger to revisit is only if the use case changes significantly.
 
-**On Cowork specifically:** because the toggle is org-wide only on our plan, approving one use case currently means switching Cowork on for the whole team, not just the approved person — worth being upfront about when weighing whether a use case is worth it. **On Claude Code:** since there's no simple toggle, "approved" for now effectively means "the AI owner knows and has signed off," not "technically walled off for everyone else" — until Barry has a managed-policy restriction in place, this section leans more on the honor system than the Cowork process does.
+**On Cowork specifically:** because the toggle is org-wide only on our plan, approving one use case currently means switching Cowork on for the whole team, not just the approved person — worth being upfront about when weighing whether a use case is worth it. **On Claude Code:** since there's no simple toggle, "approved" for now effectively means "the AI owner knows and has signed off," not "technically walled off for everyone else" — until a managed-policy restriction has been put in place, this section leans more on the honor system than the Cowork process does.
 
 What to bring to the AI owner when you have a use case:
 - **What you want the tool to do** — specifically, not just "automate some stuff."
