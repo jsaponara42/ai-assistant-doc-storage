@@ -270,15 +270,15 @@ Everything else in here grows out of those three habits.
 
 ## How the pieces fit together
 
-1. **The premise (§0)** sets the tone — this is about getting time back, not cutting jobs.
-2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
+1. **The premise (0)** sets the tone — this is about getting time back, not cutting jobs.
+2. **The idea & gripe list (1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
 3. **Prompt modules** run alongside the gripe list as a second, separate habit — reusable background context (about you, your role, Maycomb, borrowers, investors) written once so it never has to be re-explained.
-4. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
-5. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
-6. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
-7. **Tools & access (§5)** keeps the higher-risk tools — Claude Code and Cowork — off by default until the AI owner approves a specific use case.
-8. **The data reference (§6)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
-9. **The monthly look (§7)** is where the list actually turns into decisions.
+4. **The trust question (2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
+5. **SKILLS (3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
+6. **Picking the model (4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
+7. **Tools & access (5)** keeps the higher-risk tools — Claude Code and Cowork — off by default until the AI owner approves a specific use case.
+8. **The data reference (6)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
+9. **The monthly look (7)** is where the list actually turns into decisions.
 
 ---
 
