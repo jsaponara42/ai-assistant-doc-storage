@@ -1,9 +1,12 @@
 ---
-title: "Maycomb Capital — AI Roadmap Presentation Outline (Gamma)"
+title: Maycomb Capital — AI Roadmap Presentation Outline (Gamma)
 date: 2026-07-07
-tags: [client, deliverable]
+tags:
+  - client
+  - deliverable
 ai: claude
 status: needs-attention
+final-document: https://docs.google.com/presentation/d/15I6AdPv2Wt0xkFYHQKTFdcN30yh6vAdBTSklFBuXPMQ/edit?usp=sharing
 ---
 
 # Maycomb Capital — Presentation Outline

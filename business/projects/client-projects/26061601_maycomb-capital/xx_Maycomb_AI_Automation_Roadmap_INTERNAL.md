@@ -56,7 +56,21 @@ This vision is operationalized day to day through the **AI Playbook** ([[2026061
 - **Organization:** Alternative asset manager / impact lender. Four LP fund vehicles, one single-member LLC, one two-member LLC management company. 12 full-time staff, based in Brooklyn, NY.
 - **Leadership transition:** Ariella Rotenberg (COO/CFO) departed July 10; Danielle Schweitzer (Analyst) went part-time June 30. Martina Madrid Sebring is now the interim/fractional COO and primary engagement contact, alongside Barry Porozni (outside IT). A permanent Director of Finance & Ops and a new Analyst are being hired; a new Investor Relations hire starts August 3, 2026.
 - **Documentation status:** All four core back-office processes are now captured as SOPs — Legal Bill Tracking, AP Run, Quarterly Borrower Invoicing, and Budget-to-Actuals (delivered July 7, 2026, completing the set). This is an unusually strong documentation baseline for a 12-person firm.
-- **Technology stack:** Claude Enterprise (Haiku, Sonnet, Opus available), Excel/loan servicing model, LeverPoint (outsourced fund administrator — handles bank access and payment execution; Maycomb has no direct bank access by design), Affinity (CRM, replacing Salesforce), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify.
+- **Technology stack:**
+
+| Tool | Role |
+|---|---|
+| Claude Enterprise | AI assistant (Haiku, Sonnet, Opus available) |
+| Excel | Loan servicing model |
+| LeverPoint | Outsourced fund administrator — handles bank access and payment execution; Maycomb has no direct bank access by design |
+| Affinity | CRM (replacing Salesforce) |
+| SharePoint | Document/file storage |
+| ShareFile | File sharing |
+| Slack | Team messaging |
+| Teams | Video calls only |
+| DocuSign | Document signing |
+| Adobe | Document tools |
+| Expensify | Expense management |
 - **Claude rollout status:** Enterprise instance stood up the week before this engagement began. No standardization process yet for capturing and scaling effective usage patterns across the team — addressed by the AI Playbook (Section 6 below).
 - **MSA/SOW status:** Signed July 7, 2026. Engagement fully authorized.
 
