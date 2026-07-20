@@ -54,6 +54,16 @@ Nothing's too small or too ridiculous. Filtering happens later, not by you. *(Bo
 
 ---
 
+## Prompt modules — the context you don't want to retype
+
+Write it once, paste it into any chat or Project instructions, done.
+
+- **About me** · **About my role** · **About Maycomb Capital** · **About our borrowers** · **About our investors**
+
+Most of these barely change — set and forget. A few drift (a new fund, a role change) — flag it stale at the Roadmap Meeting like a gripe, and the AI owner keeps the shared copy current. Full detail and a starter draft in the Long Form playbook.
+
+---
+
 ## When something works → make it a SKILL
 
 **Find it → standardize it → share it.** Don't keep a good workflow to yourself — flag it so the whole team gets it.

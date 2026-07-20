@@ -163,7 +163,7 @@ Once you've got a real stack of proven workflows and a clear sense of which ones
 
 The graduation path across the whole playbook, in one line:
 
-> **Gripe (§1) → try it low-stakes (§2) → it works → capture as a Phase 1 Project/prompt (§3) → if it matters, package it as a SKILL (§3, Phase 2).**
+> **Gripe (1) → try it low-stakes (2) → it works → capture as a Phase 1 Project/prompt (3, Phase 1) → if it matters, package it as a SKILL (3, Phase 2).**
 
 ---
 
@@ -194,9 +194,9 @@ A couple of practical notes:
 
 The Claude you use every day in the chat interface is a conversational tool — you ask, it answers, you decide what to do with the output. **Claude Code** and **Claude Cowork** are different in kind, not just degree. They can take actions in the real world: executing code, writing and modifying files, running commands, automating tasks directly on your machine. That's genuinely useful, but it also means a mistake isn't just a wrong answer you can ignore — it can be a change that's already happened.
 
-For that reason, both tools are meant to be **disabled at the org level by default**, with access opened up only once a use case has been approved. **Corrected July 17, 2026: Maycomb is confirmed on a Claude Team plan, not Enterprise — the two tools aren't controlled quite the same way.**
+For that reason, both tools are meant to be **disabled at the org level by default**, with access opened up only once a use case has been approved. 
 
-- **Cowork** has a single organization-wide on/off switch (Organization settings → Capabilities). Barry can flip this off in a couple of clicks. The one limitation: it's all-or-nothing — there's no way to leave it on for a specific approved use case while keeping it off for everyone else. Team plans don't have the group-based / per-role restrictions that Enterprise plans do.
+- **Cowork** has a single organization-wide on/off switch (Organization settings → Capabilities). The Claude Admin can flip this off in a couple of clicks. The one limitation: it's all-or-nothing — there's no way to leave it on for a specific approved use case while keeping it off for everyone else. Team plans don't have the group-based / per-role restrictions that Enterprise plans do.
 - **Claude Code** is included by default with every seat on a Team plan and doesn't have an equivalent simple toggle in the admin console. Turning it off (or restricting what it can do) takes a deployed managed-policy file or an MDM push — a real but heavier IT task, not a checkbox. This is worth putting in front of Barry directly, since it changes what "disabled by default" can mean in practice until that's set up.
 
 Until Barry confirms both are actually configured this way, treat the process below as the operating norm (bring a use case first) rather than something with a technical backstop already in place for Claude Code specifically.
@@ -273,12 +273,12 @@ Everything else in here grows out of those three habits.
 1. **The premise (§0)** sets the tone — this is about getting time back, not cutting jobs.
 2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
 3. **Prompt modules** run alongside the gripe list as a second, separate habit — reusable background context (about you, your role, Maycomb, borrowers, investors) written once so it never has to be re-explained.
-3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
-4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
-5. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
-6. **Tools & access (§5)** keeps the higher-risk tools — Claude Code and Cowork — off by default until the AI owner approves a specific use case.
-7. **The data reference (§6)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
-8. **The monthly look (§7)** is where the list actually turns into decisions.
+4. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
+5. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
+6. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
+7. **Tools & access (§5)** keeps the higher-risk tools — Claude Code and Cowork — off by default until the AI owner approves a specific use case.
+8. **The data reference (§6)** keeps real-data decisions fast and consistent — to be completed once the stack is confirmed.
+9. **The monthly look (§7)** is where the list actually turns into decisions.
 
 ---
 
@@ -296,3 +296,4 @@ Everything else in here grows out of those three habits.
 10. **Claude Fable in Section 4 (model guidance) — updated July 17, 2026 for the Team plan correction.** Fable launched June 9, 2026 as a Mythos-tier model built for long-running, complex agentic tasks, not everyday drafting or chat, and it carries premium pricing. With the plan now confirmed as Team (bundled usage allowance, not metered from the first token), the "surprise bill" risk from item 9 is softer than originally assumed — but the core recommendation is unchanged: **almost no one at Maycomb should reach for Fable by default.** Stick with Sonnet as the default, escalate to Opus for genuinely hard tasks, and treat Fable as a rare, deliberate choice for the AI owner to approve. ⚠️ Not yet confirmed whether Fable even appears in Maycomb's Team-plan model picker — worth a quick check before this makes it into the final Section 4 language, since a caveat about a model nobody can actually select is dead weight.
 11. **NEW, July 17, 2026 — Playbook enforcement authority.** Andi Phillips, Barry Porozni, Martina Sebring, and Varenka Giordani were named as the people with authority to enforce the finalized playbook for the team. Added to the "AI owner" section as a related-but-separate concept. Andi Phillips is a new name with no other context yet — role/title/relationship to Maycomb unconfirmed, flagged in the discovery brief.
 12. **NEW, July 17, 2026 — Varenka's email still outstanding.** Asked for directly; Danielle's reply didn't include it. Needed before Varenka can be looped into playbook distribution or the gripe-list/Roadmap-Meeting process directly.
+13. **NEW, July 20, 2026 — Prompt modules concept added (JC).** New section inserted after §1: reusable, write-once context blocks ("about me," "about my role," "about Maycomb Capital," "about our borrowers," "about our investors"). A first-draft "About Maycomb Capital" module is included, built from existing discovery documentation. Needs: (a) JC's sign-off on scope/framing before this goes to Maycomb, (b) Martina/deal-team review of the borrower and investor modules once drafted, since that content leans on Ariella's July 7 framing and she's off the account, (c) a decision on whether this gets its own numbered section (renumbering §2–§7) or stays as-is for the working draft — currently unnumbered to avoid a disruptive renumber mid-review.
