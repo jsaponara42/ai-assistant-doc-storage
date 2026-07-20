@@ -65,6 +65,31 @@ Two things make this list do double duty for Maycomb specifically:
 
 ---
 
+## Prompt modules — write once, reuse everywhere
+
+Some background information is worth typing out well one time and never again. A **prompt module** is a short, ready-to-paste block of context — a paragraph or a few bullets — that gives Claude the background it needs without you re-explaining it in every conversation. Drop it into a chat, or bake it into a Project's instructions, and Claude starts from the same footing your best-informed colleague would.
+
+This is a different kind of reuse than a SKILL (§3, below). A SKILL captures *how to do a task*. A prompt module captures *what Claude should already know* before you even ask it to do anything.
+
+**Starter set for Maycomb:**
+- **About me** — your role, what you own day to day, how you like things summarized or formatted, anything Claude should assume about your working style.
+- **About my role** — the function you sit in (e.g., "I'm on the deal team," "I run AP") and the kind of work it touches, so Claude calibrates its answers to that lens.
+- **About Maycomb Capital** — the entity structure, funds, management company, and how the pieces fit together.
+- **About our borrowers** — how the borrower relationship works, what impact-aligned lending means in practice, the underwriting gate on outcome data.
+- **About our investors** — who Maycomb's investors are as a category, what they expect in reporting, how the capital-raising relationship works.
+
+> **Example — "About Maycomb Capital" starter draft**, built from what's already documented in the engagement (confirm accuracy with the team before this gets shared):
+>
+> *Maycomb Capital is an alternative asset manager and impact-aligned lender, operating a management-company structure over four limited partnership fund vehicles plus a single-member LLC. A separate two-member LLC serves as the management company and runs day-to-day business matters; the funds and the single-member LLC generate the revenue and expenses that flow up to it. Fund administration — accounting, AP run estimates, draft budget-to-actuals — is outsourced to LeverPoint, which also holds bank account access; Maycomb has no direct bank access by design, as a cash-control measure. Maycomb lends to borrowers who are tracked against outcome/impact metrics as an underwriting prerequisite, and describes itself as "a lender that acts like a venture investor" rather than a low-touch lender. Headquarters: 235 Duffield Street, 18th Floor, Brooklyn, NY 11201.*
+
+**Write-once vs. living:** Most of these are genuinely write-once — the entity structure or your "about me" won't change week to week. A few will drift and need a light touch periodically (a new fund closes, your role shifts, a new investor type joins the mix). Treat the living ones the same way the gripe list gets reviewed: flag it as stale at the monthly Roadmap Meeting, and whoever holds the AI-owner role keeps the shared copy current.
+
+**Where they live:** Same home as the Phase 1 SKILLS infrastructure (§3) — the shared Projects library or the "prompts that work" doc. No new tooling needed; this is a content habit, not a new system.
+
+> ⚠️ *Open item for JC/Maycomb: "About me" and "about my role" are inherently personal — each team member should draft their own rather than Blue Tusk writing a generic one. "About Maycomb Capital," "about our borrowers," and "about our investors" are better candidates for a first draft handed to the team to review and correct rather than built from scratch — the Maycomb Capital draft above is a starting point; borrowers and investors would draw on Section 11 (Value Drivers) of the discovery brief but need Martina or the deal team's sign-off before publishing, since some of that came from Ariella, who's since left the day-to-day.*
+
+---
+
 ## 2. The question to ask before you trust an answer
 
 Claude is genuinely good, which is exactly where the risk hides. It produces a clean, confident, plausible-looking answer every time — including the times it's wrong. The danger isn't that Claude makes mistakes; it's that a mistake can look just as polished as the truth, and get trusted and acted on before anyone checks.
@@ -247,6 +272,7 @@ Everything else in here grows out of those three habits.
 
 1. **The premise (§0)** sets the tone — this is about getting time back, not cutting jobs.
 2. **The idea & gripe list (§1)** is the always-on input — nothing's too small, and it doubles as capturing how the work gets done.
+3. **Prompt modules** run alongside the gripe list as a second, separate habit — reusable background context (about you, your role, Maycomb, borrowers, investors) written once so it never has to be re-explained.
 3. **The trust question (§2)** is the core safety habit — low stakes, sanity-check and go; high stakes, you own the output before it's trusted or sent, and a new high-stakes use case gets a heads-up to the owner plus a proof run the first time.
 4. **SKILLS (§3)** turn one person's win into the team's standard — light now (Projects + prompts doc), fuller later (packaged SKILLS).
 5. **Picking the model (§4)** keeps work fast and costs down — default to Sonnet, Haiku for simple bulk, Opus for the genuinely hard.
