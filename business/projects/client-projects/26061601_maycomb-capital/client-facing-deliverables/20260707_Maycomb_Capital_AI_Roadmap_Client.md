@@ -18,6 +18,22 @@ status: needs-attention
 
 ---
 
+## Executive Summary
+
+Over six weeks we documented how Maycomb's back office actually runs, mapped what drives revenue and mission impact, and built a working point of view on where AI fits during your transition.
+
+**What we found:**
+- Four core back-office processes, documented for the first time: legal bills, the AP run, quarterly invoicing, and budget-to-actuals.
+- Three quick wins, ready to build now, each tied to a departure already underway.
+- Three bigger automation opportunities that solve real recurring pain, including the single-approval-meeting goal your own team already named.
+- Real, unmapped opportunity in the work that actually drives revenue and mission impact: deal sourcing, investor relations, borrower support, and outcome-data collection.
+
+**What we recommend:** start with the quick wins. They're bounded, low-risk, and solve problems tied directly to people who are currently leaving. From there, the clearest next step is going deeper on the revenue-driving opportunities above, and putting a steward in place so AI adoption doesn't fragment as your team grows.
+
+Everything below backs this up in detail. If you read nothing else, read "What's Next" at the end.
+
+---
+
 ## Where You Stand Today
 
 Maycomb is mid-transition. A new interim COO. A new Director of Finance and Operations on the way. A new Analyst. A brand new Claude rollout, all at once.
