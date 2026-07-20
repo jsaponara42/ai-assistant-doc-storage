@@ -216,7 +216,6 @@ What to bring to the AI owner when you have a use case:
 
 If you're not sure whether something counts as Claude Code or Cowork territory, a good heuristic: if it involves Claude *doing* something rather than *telling you* something, bring it to the AI owner first.
 
-> *Design note for JC: originally written assuming Enterprise-style enforcement (global toggle + group-based restrictions). **Corrected July 17, 2026: Maycomb is on a Team plan.** Cowork still has a clean org-wide toggle (Organization settings → Capabilities), so that half of the enforcement story holds. Claude Code does not have an equivalent admin-console toggle on Team — restricting it requires a managed-settings.json policy or MDM deployment, which is a real ask of Barry's time, not a switch he flips in passing. Recommend deciding with JC whether to (a) prioritize getting Barry to actually deploy the Claude Code restriction, or (b) accept that Claude Code enforcement is process-based (AI owner approval) rather than technical for now, and say so plainly in the playbook rather than implying a technical backstop that isn't there yet. **Confirmed on the workflow deep-dive call (June 23–24):** JC recommended disabling Cowork and Claude Code by default at the org level for cybersecurity reasons; Barry affirmed. Still to confirm with Barry: who holds the admin seat, whether the Cowork toggle is actually off yet, and whether he has bandwidth for the Claude Code managed-policy work.*
 
 ---
 
