@@ -46,7 +46,7 @@ This document is what we found.
 
 ---
 
-## What We Found When We Looked Closely
+## What We Found
 
 Your back office finance runs on four processes: legal bill tracking, the biweekly AP run across four funds and a management company, quarterly borrower invoicing, and budget-to-actuals. All four are now documented for the first time, based on how your team actually works. 
 
@@ -76,6 +76,18 @@ Three things are worth building toward:
 
 ## The Opportunities We See
 
+**At a glance:**
+
+| Type | Opportunity | Why It Matters |
+|---|---|---|
+| Quick Win | Stop tracking invoices twice | Eases Varenka's handoff into the AP run |
+| Quick Win | Automate AP expense categorization | Removes a dependency on Danielle's memory |
+| Quick Win | Auto-draft quarterly borrower invoices | Cuts about an hour of manual work to a quick review |
+| Bigger Play | Legal bill allocation and reimbursement tracking | Cuts the weekly back-and-forth on judgment calls |
+| Bigger Play | Cross-entity AP allocation | Tightens a payment cycle that now runs 3 days to a week |
+| Bigger Play | Budget-to-actuals | Turns a multi-day review into one approval meeting |
+| Real Opportunity | Deal sourcing, diligence, investor relations, borrower support, outcome data | Where we believe the biggest value is, not yet mapped |
+
 ### Quick Wins
 
 - **Stop tracking invoices twice.** Right now the same invoice gets tracked by your team and by LeverPoint, then reconciled against itself every two weeks. One shared record fixes that. Expect less reconciliation time and an easier handoff as Varenka takes over the AP run.
@@ -100,7 +112,7 @@ We haven't mapped these the way we've mapped your back office. That's a bigger p
 
 ---
 
-## Making This Stick
+## Adoption and Governance
 
 A good process on paper isn't the same as an adopted habit. Claude access alone won't create consistent use across twelve people, especially while you're onboarding new hires. Left alone, usage fragments. A few people get good at it. Most don't. The gap grows the longer it sits unmanaged.
 
@@ -110,7 +122,7 @@ See: Maycomb AI Playbook
 
 ---
 
-## This Picture Doesn't Reset
+## An Ongoing Relationship
 
 Everything here came from real time inside your operations. That's not a snapshot. It's the start of a picture of Maycomb that we keep, and it gets sharper the longer we work together.
 
