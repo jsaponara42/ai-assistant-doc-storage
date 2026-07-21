@@ -9,6 +9,8 @@ status: ok
 # Maycomb Capital — Outstanding Questions
 
 > **Update July 7, 2026:** MSA signed this morning (SOW now authorized). Ariella's phone + forwarding contact and Maycomb's HQ address captured (see below). Budget-to-actuals SOP delivered (`SOPs/Maycomb_Capital_Budgeting_SOP`) — all four back-office SOPs now complete. Remaining open items are low-priority (Barry contact/admin config, LeverPoint contact, entity legal name, interim COO / Director of Finance & Ops hire timelines).
+>
+> **Update July 21, 2026: this file is now significantly behind [[20260616_discovery-brief-maycomb-capital]].** Between the July 7 value-drivers call, a July 14 check-in call, and a July 17 email exchange with Danielle, most of what's below has been resolved, superseded, or corrected (notably: Claude plan corrected to Team, not Enterprise; interim AI-owner arrangement is now Varenka + Martina jointly, not Varenka alone; Playbook enforcement authority named as Andi Phillips, Barry, Martina, and Varenka; Danielle's exact departure timeline confirmed). Treat the discovery brief's own "Open Questions for Maycomb" section as the current live list going forward — this file is kept for historical record of the June 23 punch-list, not actively maintained past that point.
 
 ## Summary
 A consolidated checklist of every open question, "NEEDS INPUT" flag, and unconfirmed item pulled from all documents in the Maycomb project folder as of 2026-06-23. Organized by source document so each item can be traced and checked off as answers come in. Prepared ahead of the call with Danielle.
