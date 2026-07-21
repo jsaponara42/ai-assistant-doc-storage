@@ -20,6 +20,8 @@ Alternative asset manager / fund manager operating a management company structur
 
 **Roadmap delivery meeting — confirmed attendee list (July 17, 2026):** Once the Roadmap is compiled, formatted, and ready to deliver, Danielle asked that everyone on the email thread be included in the review/next-steps meeting: Danielle Schweitzer (dschweitzer@maycombcapital.com), Barry Porozni (bporozni@maycombcapital.com), martina@madridops.com, and Martina Sebring (MSebring@maycombcapital.com). Note Martina appears twice, under two different email addresses — confirm which is her preferred address for the invite, or send to both.
 
+**Proposed timing (from the July 14, 2026 call, still to be finalized against the July 17 attendee list above):** JC proposed the week of August 3 for this meeting, coordinating directly with Martina to get everyone included. Varenka and Andi Phillips were both raised as possible additional attendees during that call, Martina named Andi herself, unprompted, before JC could raise it. Worth confirming whether either should be added to the confirmed list above.
+
 
 ---
 
@@ -74,7 +76,8 @@ The business is in a leadership transition: both COO/CFO Ariella Rotenberg and A
 
 ### Danielle Schweitzer — Analyst
 - **Working Style:** Hands-on, detail-driven; manually executes the legal bill tracking and quarterly borrower invoicing in Excel. Candid about pain points ("pile it on") and motivated to document/automate processes before she leaves so successors don't inherit the same grind.
-- **Tenure / Transition:** Last full-time day is **Monday June 30** (corrected from June 29). Part-time through July and August, then intends to stay involved in this engagement when she returns part-time. Has explicitly said she won't disappear.
+- **Tenure / Transition (updated July 14, 2026 call — supersedes the June 30 estimate below):** Part-time through August, official last day **August 28**. Fully out the week immediately following the July 14 check-in call; otherwise around roughly 2–3 days in August (out specifically August 13, 14, and 17). Working officially 3–4 hours/day, flexible. A replacement candidate was being extended an offer as of July 14 (not yet confirmed accepted), hoped-for August start; if accepted, Danielle and the replacement would overlap for about a month before full transition.
+- **Tenure / Transition (original, June 23–24 estimate — superseded above):** Last full-time day is **Monday June 30** (corrected from June 29). Part-time through July and August, then intends to stay involved in this engagement when she returns part-time. Has explicitly said she won't disappear.
 - **Owns:** Legal bills tracking process (Excel-based), quarterly borrower invoicing for interest and principal payments, investor correspondence (capital account statement questions), deep manual review supporting the quarterly budget-to-actuals analysis.
 - **Relevance:** Richest source of process detail for this engagement; a flight risk to institutional knowledge if SOPs aren't captured before her part-time period ends in August. Three SOPs delivered as of the workflow deep-dive call — see Section 6 / P-006.
 - **Contact:** dschweitzer@maycombcapital.com.
@@ -163,7 +166,8 @@ Once the AI Playbook is finalized, **Andi Phillips, Barry Porozni, Martina Sebri
 ### Slack
 - **What it is:** Primary internal messaging and collaboration tool. Used for deal-specific channels and formal internal comms.
 - **Current state:** Sticky — the full team has resisted moving to Teams despite Maycomb paying for it. Identified as the home for the **gripe list**. Anonymous posting is available but not required.
-- **Roadmap meeting:** Bi-weekly meeting confirmed as the right venue for surfacing and actioning gripe list items.
+- **Gripe list channel (decided live on the July 14, 2026 call):** Rather than use an existing channel, Martina and Danielle agreed a **new, dedicated Slack channel** should be created specifically for the gripe list — an existing/general channel would get "bombarded." Not yet confirmed whether this channel has actually been created.
+- **Roadmap meeting:** Bi-weekly meeting confirmed as the right venue for surfacing and actioning gripe list items. Current attendees: Barry and Danielle (Danielle's replacement inherits her seat once onboarded). **Open action item (July 14, 2026):** Martina is looking for an "easily excitable" champion voice among remaining staff, someone who'll naturally flag automation opportunities the way Ariella and Danielle did, to help build momentum in these meetings going forward. Not yet identified as of the call.
 
 ### Microsoft Teams
 - **What it is:** In use for video calls only. Maycomb pays for Teams but the team has not adopted it for messaging — Slack remains the de facto tool.
