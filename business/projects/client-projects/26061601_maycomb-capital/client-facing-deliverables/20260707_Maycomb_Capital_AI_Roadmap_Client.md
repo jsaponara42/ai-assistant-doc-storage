@@ -50,7 +50,7 @@ Your back office finance runs on four processes: legal bill tracking, the biweek
 
 That documentation is worth something on its own. Knowledge that used to live in one or two people's heads is now written down, right as those people are leaving.
 
-We also looked at your tools: Claude Enterprise, LeverPoint as your fund administrator, Affinity as your new CRM. 
+We also looked at your tools: Claude, LeverPoint as your fund administrator, Affinity as your new CRM. 
 
 And we looked past the tools, at what actually drives value for Maycomb: how you source deals, how you support borrowers, how you raise and steward investor capital, how you collect and report on outcomes.
 
@@ -137,7 +137,7 @@ That work also surfaced problems you didn't have named before. Four of them.
 1. **Deal sourcing and capital deployment isn't mapped.** You know it's a value driver. You don't yet know where the friction actually is.
 2. **Investor relations and capital raising runs on instinct, not process.** That's fine today. It's difficult to scale past the current team.
 3. **Outcome data collection is the most painful process nobody's redesigned.** Your new Investor Relations hire starts August 3 and inherits it as-is.
-4. **Nobody owns AI adoption.** Without a steward, usage fragments the way it always does on a twelve-person team mid-transition.
+4. **AI adoption has an owner on paper, not in practice.** Martina and Varenka now hold that role jointly, on top of everything else they're each already carrying. Without someone dedicated to actually running it, usage still fragments the way it always does on a twelve-person team mid-transition.
 
 Here's how we'd tackle each one. For the first three, we'd run the same kind of structured discovery we ran on your back office: working sessions with the right people, mapped into a clear current-state picture, then a prioritized set of opportunities, the way this document was built.
 

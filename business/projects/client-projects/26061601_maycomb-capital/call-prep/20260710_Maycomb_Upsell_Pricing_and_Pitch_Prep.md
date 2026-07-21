@@ -16,6 +16,8 @@ The free diagnostic phase is done. Four SOPs, a workflow map, an AI Playbook, an
 
 One thing to flag before pricing: **Andi Phillips (Managing Partner) approves all budgets**, per the Budgeting SOP. Martina and Barry are your contacts, but neither has been confirmed as having spending authority. That materially changes which asks are easy yeses right now versus which need Andi in the room.
 
+**Update, July 14, 2026 call:** the final readout is now set for the week of August 3. Martina raised Andi herself, unprompted, as a possible attendee, before JC needed to make that case, along with Varenka. Worth confirming both actually make the confirmed list once it's finalized (see discovery brief), but the hard part of this ask already happened organically.
+
 ---
 
 ## The Four Tracks
@@ -25,9 +27,9 @@ One thing to flag before pricing: **Andi Phillips (Managing Partner) approves al
 
 **Price:** $750–$1,200/month. Blue Tusk's standard advisory rate ($2,500/month) is calibrated for 50–300 person orgs; a 12-person team generates a fraction of that usage volume and gripe-channel traffic, so this is priced down accordingly. Month-to-month, cancel anytime.
 
-**The undeniable hook:** This isn't a pitch, it's a direct answer to a problem the client doc already named in their own words: *"Nobody owns AI adoption."* That line is already sitting in a document Martina has read. The ask is simply "we said this was a gap, here's how we close it."
+**The undeniable hook, updated after the July 14, 2026 call:** this got easier to pitch, not harder. On that call, Martina self-appointed as the AI/automation owner going forward, unprompted, calling herself "the bridge," with Danielle and Barry both agreeing. That's real buy-in already secured. But owning the role on paper and actually running the Slack monitoring, the training builds, the steering-committee-style oversight of the prompt library, on top of everything else she's holding as interim COO, are two different things. The ask isn't "someone should own this" anymore, it's "we know you already own this, let us help you do it without it eating your week."
 
-**Why it lands:** Low dollar amount. Recurring, cancel-anytime framing lowers the bar for a yes. Directly serves Martina's own stated values (systems, structure, accountability) from her *Scale with Purpose* background. Doesn't require Andi's sign-off for most orgs this size, worth confirming, but a sub-$1,500/month recurring vendor cost is unlikely to need Managing Partner approval the way a five-figure project would.
+**Why it lands:** Low dollar amount. Recurring, cancel-anytime framing lowers the bar for a yes. Directly serves Martina's own stated values (systems, structure, accountability) from her *Scale with Purpose* background, and now also her own stated commitment from the call itself. Doesn't require Andi's sign-off for most orgs this size, worth confirming, but a sub-$1,500/month recurring vendor cost is unlikely to need Managing Partner approval the way a five-figure project would.
 
 ---
 

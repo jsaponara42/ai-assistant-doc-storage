@@ -105,7 +105,7 @@ Four new problems, not yet solved:
 1. Deal sourcing isn't mapped
 2. Investor relations runs on instinct, not process
 3. Outcome data collection is painful, and the new IR hire inherits it as-is
-4. Nobody owns AI adoption
+4. AI adoption has an owner on paper (Martina + Varenka), not in practice
 
 > Speaker note: the "you got a lot, but here's what's still open" moment. Don't rush this slide.
 
