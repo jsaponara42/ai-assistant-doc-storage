@@ -14,8 +14,6 @@ status: needs-attention
 
 *Practical AI and automation, built around how your business actually works.*
 
-> *Draft in markdown. Content locked pending JC review. Branding pass happens after. Target length: 2 to 4 pages once formatted.*
-
 ---
 
 ## Executive Summary
@@ -86,7 +84,7 @@ Three things are worth building toward:
 | Bigger Play | Legal bill allocation and reimbursement tracking | Cuts the weekly back-and-forth on judgment calls |
 | Bigger Play | Cross-entity AP allocation | Tightens a payment cycle that now runs 3 days to a week |
 | Bigger Play | Budget-to-actuals | Turns a multi-day review into one approval meeting |
-| Real Opportunity | Deal sourcing, diligence, investor relations, borrower support, outcome data | Where we believe the biggest value is, not yet mapped |
+| Real Opportunity | Deal sourcing, diligence, investor relations, borrower support, outcome data | Where we believe the real opportunity lies, not yet mapped |
 
 ### Quick Wins
 
