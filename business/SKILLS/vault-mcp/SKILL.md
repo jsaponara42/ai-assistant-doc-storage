@@ -76,8 +76,8 @@ Task for JC             → tasks/jc-tasks/
 
 ## File naming
 
-- **Notes:** `YYYY-MM-DD-kebab-description.md` (3–5 words, lowercase)
-- **Tasks:** `{priority}-YYYY-MM-DD-kebab-description.md`
+- **Notes:** `YYYYMMDD_kebab-description.md` (3–5 words, lowercase)
+- **Tasks:** `{priority}-YYYYMMDD_kebab-description.md`
 - **Exception:** `overview.md` — no date prefix, one per project subfolder
 
 ---
