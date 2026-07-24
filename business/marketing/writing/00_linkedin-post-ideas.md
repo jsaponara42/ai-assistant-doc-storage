@@ -38,12 +38,15 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 > Should feel slightly uncomfortable to post. If it doesn't create some tension, it's not a hot take.
 
 - [x] [[business/marketing/writing/post-ht-real-ai-is-boring|"Real AI in business is boring — and that's how you know it's working"]] — the glamorous demos are not what's running in production; the stuff that actually sticks is unglamorous, repetitive, and invisible
+- [ ] [[business/marketing/writing/post-ht-local-ai-reality|"The Local AI Reality Check"]] — running AI locally costs significant money upfront vs. per-token or subscription; for most people, cloud services are better, more capable, and more user friendly. Local AI is a hobby for those with patience and a knack for tinkering.
 - [ ] [[business/marketing/writing/post-ht-real-automation-is-boring|"Real automation in business is boring. Stop watching the highlight reel."]] — viral automation demos show the 1%; the other 99% is moving a field from one spreadsheet to another, and that's fine
 - [ ] [[business/marketing/writing/post-ht-you-need-a-product-first|"You don't have an AI product. You have a product with AI in it — maybe."]] — most orgs bolt AI onto a process that was never designed to receive it; the product has to exist and be understood before AI adds value
 - [ ] [[business/marketing/writing/post-ht-coo-before-automation|"You need someone who thinks like a COO before you can automate anything meaningful"]] — automation exposes every gap in your operations; without a process-minded owner, you're just building technical debt faster
 - [ ] [[business/marketing/writing/post-ht-ai-wont-save-bad-process|"AI won't save your org. It'll just make your bad process faster."]] — firms and agencies buying AI tools without fixing workflow first are accelerating their own dysfunction
+- [ ] [[business/marketing/writing/post-ht-unified-agent-systems|"The End of Individual Automations"]] — building automations one by one is fading; the next era is unified agent operating systems where context flows between tools. The most important thing is getting all your project data, people, and information into a machine-readable format.
 - [ ] [[business/marketing/writing/post-ht-automation-consultants-lie|"Most automation consultants are lying to you — including the ones who don't know it"]] — the industry defaults to selling complexity; simple solutions get dismissed because they're not billable enough
 - [x] [[business/marketing/writing/post-ht-linkedin-one-subscription|"LinkedIn tricks you into thinking you need more than one AI subscription"]] — multi-tool posts are creator-to-creator content dressed as advice; pick one and use it well
+- [ ] [[business/marketing/writing/post-ht-machine-readability|"Machine Readability Is Non-Negotiable"]] — if your tools, data, and workflows aren't AI-readable through APIs, CLIs, or proper tooling, you'll get left behind. This isn't optional anymore — it's infrastructure.
 
 ### Story
 > Specific, concrete, first-person. The more specific the detail, the more it lands. Draw from M+P, Omnicom, and Blue Tusk.
@@ -76,6 +79,7 @@ Evergreen tracker for LinkedIn post ideas. Each idea links to a stub or draft in
 ### How-to
 - [ ] [[business/marketing/writing/post-map-your-workflow|"How to map a broken workflow in 20 minutes (no tools required)"]] — sticky, practical, shareable; positions JC as a process thinker
 - [ ] [[business/marketing/writing/post-five-signs-manual-process|"5 signs a manual process is costing you more than you think"]] — diagnostic framing, resonates with ops-minded readers
+- [ ] [[business/marketing/writing/post-howto-meeting-to-action|"From Meeting Transcription to Real Action"]] — meeting transcriptions are usually dead ends. With the right file setup, you can go directly from an AI meeting transcription to taking real action on a project.
 - [ ] [[business/marketing/writing/post-react-openai-operator|"How I use voice notes and AI to write SOPs fast"]] — SOPs are important, but they can be frustrating to make. There's a way to get a very solid draft done in under an hour.
 
 ### Case study
