@@ -1,8 +1,19 @@
 ---
 name: vault-mcp
-description: "Use this skill whenever working with JC's Obsidian vault via the custom 'vault' MCP connector. Triggers on: saving notes, reading notes, searching the vault, managing tasks, categorizing inbox files, updating TASK-LOG.md, moving, copying, or deleting vault files, or any request involving vault file operations. Always use this skill before touching any vault tool — it contains the routing rules, conventions, and correct tool usage patterns for this connector.\""
+title: Vault MCP — Obsidian Vault Connector Conventions
+date: 2026-07-23
+tags:
+  - ai
+  - obsidian
+  - pkm
+  - tool
+  - setup
+ai: claude
+status: ok
 ---
-
+---
+Use this skill whenever working with JC's Obsidian vault via the custom 'vault' MCP connector. Triggers on: saving notes, reading notes, searching the vault, managing tasks, categorizing inbox files, updating TASK-LOG.md, moving, copying, or deleting vault files, or any request involving vault file operations. Always use this skill before touching any vault tool — it contains the routing rules, conventions, and correct tool usage patterns for this connector.
+---
 # Vault MCP Skill
 
 ## This vault has a dedicated MCP server
