@@ -1,9 +1,11 @@
 ---
-title: "The End of Individual Automations"
+title: The End of Individual Automations
 date: 2026-07-23
-tags: [idea]
+tags:
+  - idea
 ai: human
 status: needs-attention
+posted?: no
 ---
 
 ## Summary

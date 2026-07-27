@@ -1,5 +1,5 @@
 ---
-title: "Machine Readability Is Non-Negotiable"
+title: Machine Readability Is Non-Negotiable
 date: 2026-07-23
 tags:
   - strategy
@@ -8,6 +8,7 @@ ai: claude
 status: needs-attention
 platforms:
   - linkedin
+posted?: no
 ---
 
 ## Draft

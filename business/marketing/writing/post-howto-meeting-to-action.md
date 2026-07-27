@@ -1,9 +1,11 @@
 ---
-title: "From Meeting Transcription to Real Action"
+title: From Meeting Transcription to Real Action
 date: 2026-07-23
-tags: [idea]
+tags:
+  - idea
 ai: human
 status: needs-attention
+posted?: no
 ---
 
 ## Summary
