@@ -6,7 +6,9 @@ Running checklist of all AI agent tasks. Add a line when a task is created. Chec
 
 ---
 
-- [x] 2026-07-28 | [[20260728_Capital-Financing_Daily-Salesforce-Task-Review]] | Created daily Salesforce task review SOP from Howie Golden dictation## Active
+- [x] 2026-07-28 | [[20260728_Capital-Financing_Daily-Salesforce-Task-Review]] | Created daily Salesforce task review SOP from Howie Golden dictation
+- [ ] 2026-07-28 | [[20260728_build-free-until-value-fee-curve-asset]] | Build sales/marketing assets for the free-until-value fee curve idea
+## Active
 
 <!-- No tasks yet -->
 
