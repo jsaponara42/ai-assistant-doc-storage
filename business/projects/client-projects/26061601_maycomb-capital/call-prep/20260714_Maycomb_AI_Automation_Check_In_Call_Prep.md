@@ -17,7 +17,7 @@ status: needs-attention
 Two real jobs left for this call: close out Danielle's remaining loose ends while she's still available, and secure the right audience, specifically Andi Phillips, for the final readout. The Playbook governance items are already resolved via email, so this call doesn't need to carry that weight anymore. The freed-up time is a good, low-pressure spot to float Track D (the AI steward) as a temperature check, not a pitch, with Martina and Barry.
 
 ## Context
-Builds on [[20260707_Maycomb_Capital_AI_Roadmap_Client]] (the written deliverable), [[20260710_Maycomb_Capital_Roadmap_Presentation_Outline]] (the Gamma outline), [[20260624-Workflow-Map-Maycomb-Capital]], and [[20260616_discovery-brief-maycomb-capital]]. All four SOPs are delivered. **The Playbook's open governance items from the July 7 email are already resolved and implemented, no need to revisit on this call.** [[20260710_Maycomb_Upsell_Pricing_and_Pitch_Prep]] has the pricing and sequencing for what comes after the final readout, none of that gets pitched with numbers attached on this call, though Track D is worth floating informally, see Section 2 below.
+Builds on [[20260707_Maycomb_Capital_AI_Roadmap_Client]] (the written deliverable), [[20260710_Maycomb_Capital_Roadmap_Presentation_Outline]] (the Gamma outline), [[20260624-Workflow-Map-Maycomb-Capital]], and [[20260616_discovery-brief-maycomb-capital]]. All four SOPs are delivered. **The Playbook's open governance items from the July 7 email are already resolved and implemented, no need to revisit on this call.** [[20260710_Upsell_Pricing_and_Pitch_Prep]] has the pricing and sequencing for what comes after the final readout, none of that gets pitched with numbers attached on this call, though Track D is worth floating informally, see Section 2 below.
 
 ## Content
 
@@ -90,6 +90,6 @@ Per the Budgeting SOP, Andi approves all budgets. She hasn't been part of a sing
 
 ## Next Steps
 - Confirm SOP accuracy with Danielle live on the call.
-- Note however Martina and Barry react to the Track D temperature check, this is useful signal for [[20260710_Maycomb_Upsell_Pricing_and_Pitch_Prep]] regardless of which way it goes.
+- Note however Martina and Barry react to the Track D temperature check, this is useful signal for [[20260710_Upsell_Pricing_and_Pitch_Prep]] regardless of which way it goes.
 - Leave the call with a confirmed date, or a firm range, for the final readout, and a commitment that Andi will be included.
 - Update [[xx_outstanding-questions]] with whatever else comes up.
