@@ -260,7 +260,6 @@ This section is about *where* real Maycomb information is allowed to go — a se
 - **Free or personal AI accounts are never for real Maycomb information.** They can learn from what you type. With the Team plan subscription, the only reason you'd ever need to use a different account is image generation.
 - **The output still has to clear the Section 6 bar.** Using the right tool keeps the data safe; it does *not* make the answer correct. A high-stakes output drafted in Maycomb's Claude still needs a qualified person to own it before it's trusted or sent.
 
->''**Stack now confirmed:** Claude (Team plan — corrected July 17, 2026, was previously listed as Enterprise), Excel/loan servicing model, LeverPoint (fund admin), Affinity (CRM), SharePoint, ShareFile, Slack, Teams (video only), DocuSign, Adobe, Expensify. This section can now be built out into a full tool-by-data reference matrix. *(Maycomb's Team-plan Claude is the sanctioned tool for real Maycomb information; free/personal AI accounts are never for real Maycomb data.)*
 
 ---
 
