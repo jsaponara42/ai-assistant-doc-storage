@@ -285,8 +285,6 @@ This is written as a **role, not a person**, on purpose. The expectation is that
 
 **A related but separate role: playbook enforcement authority.** Once this playbook is finalized, **Andi Phillips, Barry Porozni, Martina Sebring, and Varenka Giordani** will hold the authority to enforce it for the team. This is a broader group than the two-person AI-owner role above — enforcement authority is about who can require compliance with the playbook once it's live, while the AI owner is the day-to-day operator (triaging gripes, running proof runs, holding the monthly review).
 
-**Optional: a lightweight acknowledgment.** Not part of the playbook itself, and not a requirement — just something worth considering when this rolls out. A simple sign-off from each team member (even just confirming they've read Sections 6 and 7, the two sections that carry the real weight) gives Maycomb a record that the guidance was actually distributed and seen. Whether to do this, and in what form, is entirely Maycomb's call.
-
 ---
 
 ## Appendix: How the pieces fit together
