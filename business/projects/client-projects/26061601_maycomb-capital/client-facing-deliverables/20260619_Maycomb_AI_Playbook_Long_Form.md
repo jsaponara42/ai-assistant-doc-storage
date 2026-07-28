@@ -109,7 +109,9 @@ This is a different kind of reuse than a SKILL (Section 5). A SKILL captures *ho
 
 **Write-once vs. living:** Most of these are genuinely write-once — the entity structure or your "about me" won't change week to week. A few will drift and need a light touch periodically (a new fund closes, your role shifts, a new investor type joins the mix). Treat the living ones the same way the gripe list gets reviewed: flag it as stale at the monthly Roadmap Meeting, and whoever holds the AI-owner role keeps the shared copy current.
 
-**Ownership:**  centralized modules, especially "About Maycomb Capital," shouldn't have everyone writing their own version of how to describe the firm. An **AI steering committee** to own and approve the canonical versions, mirroring an existing IT steering committee Maycomb already runs. She specifically flagged Maycomb's newly hired comms person as a natural fit, since they're already rethinking how Maycomb is branded and described externally, and this is directly in that lane. Not yet decided whether this becomes a standing committee or just clear individual ownership; worth resolving before the modules above get published team-wide.
+**Ownership:**  centralized modules, especially "About Maycomb Capital," shouldn't have everyone writing their own version of how to describe the firm. An **AI steering committee** can own and approve the canonical versions, mirroring an existing IT steering committee Maycomb already runs. 
+
+Maycomb has newly hired a comms person - who could be a natural fit to write these, since they're already rethinking how Maycomb is branded and described externall. 
 
 **Where they live:** Same home as the Phase 1 SKILLS infrastructure (Section 5) — the shared Projects library or the "prompts that work" doc. No new tooling needed; this is a content habit, not a new system.
 
