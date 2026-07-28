@@ -158,11 +158,8 @@ The daily routine is broken into steps below. Each step includes what you need, 
 | **Where outputs go** | Follow-up emails or calls sent to inactive accounts. |
 | **Notes** | Depending on certain dates (usually once a month), go through the inactive report for both case financing and pre-settlement. Try to email or call those accounts to check on them. Julius is also doing this behind the scenes, but has not had much success with responses. He tends to fall months behind in his cadence, which defeats the consistency that follow-up requires. **This is a candidate for automation** — templated emails could be more creative, more effective, and more consistent than a manual process. |
 
-## 7. File Naming & Storage
 
-This SOP is stored in the Capital Financing project folder under `SOPs/`. Future SOPs for this project should follow the naming convention: `YYYYMMDD_Capital-Financing_[Process-Name].md`.
-
-## 8. Exception Handling
+## 7. Exception Handling
 
 **Law Firm No Longer Useful**
 If, after multiple follow-up attempts, a law firm is determined to be no longer useful or worth the time, remove the task from Salesforce entirely. Do not let it sit as a zombie task.
@@ -179,13 +176,5 @@ Julius falls months behind in his cadence, which defeats the consistency needed 
 **Task Overruns**
 Not all tasks get completed in time and they tend to run overdue. This is expected. Prioritize current and overdue tasks daily and create new follow-up tasks with realistic due dates based on urgency.
 
-## 9. Related SOPs & References
-
-The following SOPs may be relevant and should be created or referenced as needed:
-- Onboarding Call Script — standard script for the initial strategy/onboarding call with new law firms.
-- Strategy Call Follow-Up Template — standard email template for post-strategy call follow-up.
-- Inactive Account Automation Plan — proposed automation for inactive account outreach (currently manual, handled by Julius).
-- Conference Follow-Up Protocol — process for creating and managing tasks from conference meetings.
-- Salesforce Report Creation Guide — how to build and maintain the Prospects, Top Prospects, and Top Companies reports.
 
 *Capital Financing — Confidential & Internal Use Only*
