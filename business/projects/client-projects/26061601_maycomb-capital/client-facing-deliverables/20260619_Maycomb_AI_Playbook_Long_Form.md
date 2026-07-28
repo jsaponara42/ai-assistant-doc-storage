@@ -71,7 +71,7 @@ Everything else in here grows out of those three habits.
 
 **The single most useful habit this whole playbook asks of you: when something annoys you, write it down.**
 
-There's one shared list — **Slack** (confirmed by Danielle as the lowest-friction home for this; anonymous posting is available in Slack but not required — Danielle noted people should put their names on items so follow-up questions can be asked). When a task irritates you, drop it on the list. That's it. Three things, thirty seconds:
+There's one shared list — **Slack**. When a task irritates you, drop it on the list. That's it. Three things, thirty seconds:
 
 - **What's the task or annoyance?**
 - **Roughly how often does it happen?**
