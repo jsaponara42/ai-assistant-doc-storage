@@ -77,7 +77,17 @@ Prepared by Blue Tusk LLC, July 2026
 
 ---
 
-## Slide 7 — The Bigger Plays
+## Slide 7 — Quick Wins: AI Playbook + Cheat Sheet
+
+1. Idea + Gripe List
+2. Experimenting Safely
+3. Standardizing Wins
+
+> Speaker note: bridge slide. This is the three-step loop underneath the Playbook itself — a gripe becomes an idea, gets tried safely (low-stakes first), and if it works, gets standardized for the whole team. Ties the quick wins just covered back to the governance framework in the Playbook / Cheat Sheet deliverables.
+
+---
+
+## Slide 8 — The Bigger Plays
 
 - Legal bill allocation & reimbursement tracking
 - Cross-entity AP allocation
@@ -87,7 +97,7 @@ Prepared by Blue Tusk LLC, July 2026
 
 ---
 
-## Slide 8 — Where the Biggest Opportunity Lies
+## Slide 9 — Where the Biggest Opportunity Lies
 
 - Deal sourcing & diligence
 - Investor relations & capital raising
@@ -98,7 +108,7 @@ Prepared by Blue Tusk LLC, July 2026
 
 ---
 
-## Slide 9 — What This Surfaced
+## Slide 10 — What This Surfaced
 
 Four new problems, not yet solved:
 
@@ -111,7 +121,7 @@ Four new problems, not yet solved:
 
 ---
 
-## Slide 10 — What's Next
+## Slide 11 — What's Next
 
 - Structured discovery: sourcing, investor relations, borrower support, outcome data
 - Blue Tusk as ongoing AI steward: Slack monitoring + training resources
