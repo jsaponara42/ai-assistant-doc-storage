@@ -105,6 +105,55 @@ Don't build a new pitch deck. The client doc already ends on this exact bridge, 
 
 Suggested order: open with Track D (cheapest, most obviously needed), confirm it, then move to Track A (tangible, urgent), then mention Track C as "the bigger opportunity, let's revisit once you're settled in." Leave Track B unsaid unless they ask.
 
+## Strategy Decision — Bundled Small Now, Seed Big, Hold the Rest
+
+Weighed going small (protect the relationship, close what's easily closable) against going big (try to capture the full four-track value while attention and goodwill are high). **Decision: go bundled-small now, not big.** Two structural facts drive this, independent of how strong the value case is:
+
+1. **No confirmed spending authority in the room yet.** Andi Phillips approves budgets per the Budgeting SOP; Martina and Barry haven't been confirmed as having spending authority themselves. A big ask (Track C priced, or Track B at all) without Andi actually present and engaged means asking Martina to sell internally on our behalf, to someone she doesn't have a track record with either — high stall risk.
+2. **The org can't fully digest a big ask right now.** Interim COO, two departures mid-flight, no permanent Director of Finance & Ops, a brand-new IR hire starting the same week as this readout. A large ask doesn't fail because it's wrong here, it fails because it stalls, and a stalled big ask costs more goodwill than a closed small one.
+
+There's also a sequencing risk specific to this moment: this is the first time money enters the relationship after a genuinely generous free engagement. A first ask that feels disproportionate to what's been delivered risks recoloring the free work as a loss-leader pitch rather than the good-faith diagnostic it was. Right-sizing the first ask protects that.
+
+**So: close Track D + Track A together as one bundled motion, seed Track C for a calendared follow-up (don't price it today), hold Track B entirely unless asked, leave Track E out.** If Andi is confirmed and actively engaged in the room, that's the live signal to expand past the bundle — see the contingency note in the talk track below. Don't pre-commit to small if the room turns out to support more; just don't assume it will.
+
+---
+
+## Pricing One-Pager — What to Bring to the Room
+
+*Internal reference for the August 3 conversation, not a client-facing document. Numbers pull directly from the four tracks above.*
+
+| Track | What it is | Price | Ask today? |
+|---|---|---|---|
+| **D — AI/Claude Steward** | Ongoing Slack gripe-list monitoring, training resources, SKILLS curation, monthly review at the existing bi-weekly Roadmap Meeting | **$750–$1,200/month**, month-to-month, cancel anytime | **Yes — open with this** |
+| **A — Quick Wins bundle** | Shared mailbox (stop double-tracking invoices), AP expense auto-categorization, auto-drafted quarterly borrower invoices | **$4,500–$6,500 fixed** (or $1,500–$2,000/each à la carte), 50% upfront / 50% on delivery | **Yes — pitch right after D** |
+| *Optional trust-builder* | Shared mailbox automation only, offered free per SOW discretion | **$0** | *Your call — use if you want a goodwill opener before any pricing* |
+| **C — Value Driver Discovery** | Deal sourcing/diligence, investor relations, borrower asset management, outcome-data mapping | **$2,500–$3,000/month**, 2–3 month discovery phase | **No — seed only, get a calendar date, not a price** |
+| **B — Strategic Investments** | Legal bill allocation, cross-entity AP allocation, budget variance engine, outcome-data intake | **$10,000–$15,000 total** (or $3,000–$5,000/build à la carte) | **No — hold until Director of Finance & Ops is hired** |
+
+**If landed as bundled (D + A), year-one value:** roughly **$5,250–$7,700** in combined recurring + fixed commitment, likely without needing Andi's sign-off at all given the sub-$1,500/month and bounded-fixed-fee thresholds.
+
+---
+
+## Talk Track — August 3 Readout
+
+**Attendees to plan around:** Martina (confirmed), Barry (confirmed), Danielle (confirmed, transitional), Andi and Varenka (raised as possible adds by Martina herself — confirm before the call whether either actually made the final list).
+
+**1. Open on the document, not a new pitch.** Walk through the Roadmap's "What's Next" section live — it already names four problems in Maycomb's own language. Let them nod at the problems before any number comes up. *"Everything in this section is stuff your own team told us — we didn't invent these four gaps."*
+
+**2. Quick read on the room before pricing anything.** If Andi is present, a natural, non-awkward way to surface budget process without asking for money yet: *"Before we get into numbers — is this a Martina-level decision, or does it need to run through you, Andi?"* Answer shapes how far to go today.
+
+**3. Open with Track D.** Cheapest, most obviously needed, and it's Martina's own language to borrow: *"You called yourself the bridge on our last call — this is us helping you actually run that role without it eating your week."* Confirm this one before moving on.
+
+**4. Move to Track A.** Tangible, bounded, urgent. Anchor each automation to the departure it eases: *"The mailbox helps Varenka's handoff. The categorization piece removes a dependency on Danielle's memory, and she's already half-gone. None of this is hypothetical ROI — it's 'the person who does this by hand is leaving in weeks.'"* If using the free mailbox offer, lead with it here as the goodwill opener, then price the other two.
+
+**5. Mention Track C, but don't price it.** *"There's a bigger opportunity in the stuff that actually drives revenue and mission — deal sourcing, investor relations, the impact report Ariella herself called 'such a difficult process' that 'doesn't need to be' that hard. Your new IR hire starts the same week as this call and inherits that process cold. We'd love to map it before he's in the seat, but let's put time on the calendar for that rather than scope it today."* Goal: a scheduled follow-up, not a close.
+
+**6. Leave Track B unsaid.** Only surface pricing if directly asked. If asked, give the range but recommend waiting: *"Once the Director of Finance & Ops is hired, this is the natural thing to scope with them directly, since they're the one who'll own it going forward."*
+
+**7. Close soft on Track E if it fits naturally.** Only if the conversation organically touches borrower support or portfolio companies — don't force it. *"Early on, Ariella mentioned that if we ever came across portfolio companies struggling with similar things, an introduction might make sense. Just flagging that's still on the table whenever it's useful, no rush."*
+
+---
+
 ## Next Steps
 - Confirm Martina's actual spending authority before pitching anything above ~$1,500/month.
 - Decide whether to offer the mailbox quick win free (discretionary, per SOW) as a trust-builder ahead of this conversation.
