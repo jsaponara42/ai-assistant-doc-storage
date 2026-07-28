@@ -45,6 +45,7 @@ status: needs-attention
 | 3   | Outbound Email & Social Cadence      | Source List → Prepare → Send → Handle Replies → Thank-Yous → Social        | Sent outreach + handled responses    |
 | 4   | Sales Consultant Lead Handling       | Lead In → Assign → Follow-Up → Progress → Log → Close                      | Worked lead logged in CRM            |
 | 5   | Conference Marketing                 | Select Event → Attend → Capture → Segment → Assign Follow-Up               | Segmented list handed to consultants |
+| —   | **Salesforce Daily Routine** (governance layer, not a spine) | Task review → Contact → Follow-up reason → Task lifecycle → Report review → Monthly inactive | Nothing falls through the cracks (CEO) |
 
 ---
 
@@ -61,9 +62,11 @@ status: needs-attention
 | **Accounts Receivable** | Jalicia, Diana, Chanel (moved off Audra) | W1 Step 8 / W2 Step 7 (record-keeping + repayment tracking) |
 | **Collections** | Yasmin | Post-funding repayment recovery (not yet a mapped spine) |
 | **Payoffs** | Diana, Jalicia, Audra, Chanel, Yasmin | Settlement-time repayment resolution (not yet a mapped spine) |
+| **Inactive Account Follow-Up** | Julius (behind the scenes) — **automation candidate** | Monthly CEO review + ongoing Julius outreach for inactive accounts (case financing + pre-settlement). See notes below. |
 
 **Notes on the roster:**
 - **Underwriting is Christy alone** — confirms the PO-001 single-point-of-failure at the trunk level, not just within a single workflow step. Everything else has at least two people; underwriting has one. CEO notes: Christy is highly professional, thorough (5–7% bad-debt rate annually), protective of company interests, and extremely conservative in approvals. However, training new intake staff is inefficient (~6 months ramp-up); root cause is free-form Mighty data entry (no structured fields) rather than using pre-built field schema. Christy is open to oversight but asserts "this is the only way to do it" without external validation of assumptions.
+- **Julius — Inactive Account Follow-Up (new, from Howie dictation 2026-07-28):** Julius handles follow-up with all inactive accounts (both case financing and pre-settlement) behind the scenes, sending templated emails and calls. He has **not had much success with responses**. He tends to fall **months behind** in his cadence, which defeats the consistency that follow-up requires. The CEO explicitly stated: "This is something I believe can be automated as well, does not need a manual person to be sending out templated emails. And actually, if we had it set up from an automation perspective, it probably would be more creative, more effective, and more consistent, where he seems to fall months behind in his cadences, which defeats the consistency that we're looking for on follow-up emails for whatever the purpose is we're looking for." **This is a high-priority automation candidate** — flagged as ranked want #6 in `xx_howies_wants.md`. Should be mapped as its own Process Trunk: **Inactive Account Follow-Up** (Julius, automated replacement TBD). Currently manual, low-success, cadence-defeated.
 
 - **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. `[TO CONFIRM: is Leifert the same person as Alejandro under a different name, a separate person, or no longer in this seat? The ops-call references to Rayna/Leifert and the roster's Rayna/Alejandro need reconciling.]` Per Christy, Rayna is already doing ~98% of pre-settlement approval workflow; only the final 2% (approval/denial communication to firm) is withheld from her.
 
@@ -74,6 +77,19 @@ status: needs-attention
 - **Two trunks — Collections and Payoffs — are not yet represented as workflow spines** above. They are post-funding repayment functions that the current five-workflow map does not cover. See the note in the Overall Workflow section.
 
 - **Danielle** — Part owner, professional, and territorial about her role. Per CEO: "Danielle's a professional. Danielle's a part owner. Danielle's going to be very territorial." However, she supports bringing in external expertise for process improvement and is encouraging Michael (Injury Specialists client) to engage the same advisor. She has made independent management decisions (e.g., promoting a team member) without consulting Christy.
+
+### Salesforce Reports (new, from Howie dictation 2026-07-28)
+The CEO reviews these reports daily as part of his morning Salesforce task routine. They are **named reports in Salesforce** but are not explicitly referenced elsewhere in this workflow map:
+
+| Report Name | Purpose | Frequency |
+| --- | --- | --- |
+| **Prospects** | All active prospects in the pipeline | Daily |
+| **Top Prospects** | Highest-value active prospects | Daily |
+| **Top Companies** | Top law firms (by revenue/relationship value) | Daily |
+| **Inactive Report (Case Financing)** | Accounts inactive for case financing | Monthly (CEO) + ongoing (Julius behind the scenes) |
+| **Inactive Report (Pre-Settlement)** | Accounts inactive for pre-settlement financing | Monthly (CEO) + ongoing (Julius behind the scenes) |
+
+These reports are reviewed **daily alongside the task list** to keep the CEO abreast of the full pipeline. Many prospects are already in the CEO's open task list, but these reports surface additional opportunities. Follow-up with contacts at top companies keeps the CEO "in front of them." **This is a named, documented set of reports — not a hypothetical dashboard.** The Sales Performance & Accountability Framework mentions a "shared KPI dashboard" but these are the actual named reports that exist today.
 
 ---
 
@@ -287,9 +303,10 @@ status: needs-attention
 
 ### Core Step 3 — Consultant Follow-Up
 - **In:** Assigned lead; segmented list (e.g., post-conference).
-- **Out:** Follow-up attempts (calls/emails). `[TO CONFIRM: expected cadence — none currently defined]`
-- **Owner/System:** Consultant / `[TO CONFIRM: Salesforce activities, personal email/phone]`
+- **Out:** Follow-up attempts (calls/emails). `[TO CONFIRM: Salesforce activities logged vs. personal email/phone]`
+- **Owner/System:** Consultant / `[TO CONFIRM]`
 - **⚠** Consultants not following up on segmented lists; no activity minimums, no reporting cadence, no pipeline ownership.
+- **⚠ Post-onboarding 1-week referral tracking (new, from Howie dictation 2026-07-28):** After onboarding, Capital Financing requests the law firm send their first referral within **one week**. Most firms do not send cases within that window — sometimes not for months. This is why the task system exists: to catch them proactively. The CEO's daily Salesforce routine explicitly checks whether post-onboarding firms have sent their first referral. This cadence (1-week target, multi-month reality) should be the standard follow-up cadence for post-onboarding accounts, but currently no cadence is defined or enforced for consultants.
 - **⚠ Confirmed (2026-06):** Case-expense onboarding calls specifically — a Workflow 4/Shared-Layer crossover point — are weak: "our sales team... they're awful at having these calls." This is a named, confirmed skill gap, not just a process gap. See **Shared Sub-Layer — Intake Support, Sub-Step C**.
 
 ### Core Step 4 — Pipeline Progression
@@ -298,11 +315,12 @@ status: needs-attention
 - **Owner/System:** Consultant / Salesforce.
 - **⚠** No visible/managed stage structure; CEO lacks pipeline visibility.
 
-### Core Step 5 — CRM Logging
+### Core Step 5 — CRM Logging & Task Lifecycle Management
 - **In:** Activity + outcome data.
 - **Out:** Notes, activities, status recorded in Salesforce.
 - **Owner/System:** Consultant / Salesforce.
 - **⚠** Consultants resist notes; logging inconsistent (no standard ties to what's recorded); reports built but never opened.
+- **⚠ Task lifecycle management (new, from Howie dictation 2026-07-28):** The CEO's daily routine includes a full task lifecycle: create task with due date (2 weeks to 1 month out, based on urgency) → check off when completed → create a *new* task for the next follow-up → **remove** tasks for firms that are no longer useful (don't let them sit as "zombie tasks"). This lifecycle (create → schedule → complete → remove) is not currently part of any consultant workflow or SOP. Currently there is no mechanism to remove unproductive tasks — they just accumulate. This should be a standard practice for all consultants: if a task is determined to be no longer useful, remove it rather than letting it sit indefinitely.
 
 ### Core Step 6 — Outcome / Close
 - **In:** Final disposition.
@@ -362,7 +380,22 @@ Once each spine above is on the canvas, the **Overall** flow links them end-to-e
 `W4 Sales Handling → W1 Funding` — the pre-settlement equivalent bridge remains **undocumented** — the single most important seam still to define for the plaintiff side.
 `W1 / W2 → (loop back)` — funded relationships feed referral thank-yous and repeat case-expense requests, reinforcing the stickier firm relationships.
 
+`Salesforce Daily Routine → All W1–W5` — The CEO's 8-step daily routine (see **Salesforce Daily Routine** in Overall Workflow above) is the overarching governance layer that touches all workflows. It is the daily operating rhythm that ensures nothing falls through the cracks — but currently only the CEO performs it. Whether consultants are expected to perform an equivalent daily routine (or whether automation replaces the need for one) is a key design question for ranked want #6 (`xx_howies_wants.md`).
+
 > Build note: the Overall spine is **not** a sixth workflow to map from scratch — it's the join of the five existing spines (plus the Shared Sub-Layer) at these seams. Confirm each seam's actual hand-off mechanism before drawing the connectors.
+
+**Salesforce Daily Routine (Sales Leadership — new, from Howie dictation 2026-07-28):** The CEO performs an 8-step daily morning routine in Salesforce (documented in full at `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`). This is not a workflow spine — it is an **overarching governance layer** that touches all workflows daily:
+
+1. Start Salesforce → review current/overdue tasks
+2. Open each task → review subject, related contact, all notes
+3. Reach out (email/phone/both) to contact
+4. Determine follow-up reason (post-strategy call vs. post-onboarding)
+5. Use task bar for conference follow-ups
+6. Check off completed tasks → create new task with due date (2 weeks to 1 month out, based on urgency)
+7. Review Top Companies / Top Prospects reports
+8. Monthly: review inactive reports (case financing + pre-settlement)
+
+This routine touches **W4 (consultant follow-up)** and **W5 (conference follow-ups)** directly. It also surfaces the 1-week post-onboarding referral tracking gap (see W4 Step 3). The CEO's routine should be documented as a governance layer that sits above and touches all five workflow spines — it is the daily operating rhythm that ensures nothing falls through the cracks.
 
 **Post-funding tail not yet mapped as spines.** Christy's trunk roster surfaces two operational functions that sit *after* W1 Step 8 / W2 Step 7 and are not yet drawn as workflow spines:
 - **Payoffs** (Diana, Jalicia, Audra, Chanel, Yasmin) — resolving repayment at settlement.
@@ -389,6 +422,7 @@ These are not workflow steps. They're governance and management dynamics, confir
 6. **New institutional knowledge infrastructure.** CEO is implementing SharePoint as "institutional knowledge bank" for all processes and documentation. All team members are being trained on SharePoint structure and usage, with enforcement to come. Clear benefit: distributed knowledge capture reduces tribal knowledge dependency on individual staffers (e.g., Christy's free-form Mighty approach). Risk: SharePoint adoption has historically been weak at Capital Financing ("It's not very user-friendly... staff can't find it"), so training and ongoing discipline will be critical to success. This is the first layer of a broader accountability framework (see #7).
 
 7. **New accountability and measurement framework rolling out.** CEO is formalizing KPIs, goals, and performance metrics for all roles (currently mostly absent). Monthly one-on-one reviews by CEO with each team member will become the enforcement mechanism. Tone is results-focused and non-negotiable: missing goals leads to performance management conversation; repeated non-compliance leads to termination. This is a material shift from the current state and will directly affect workflow compliance. Example: sales team follow-up (W4/W5) is currently weak because accountability is loose; new measurement layer will make follow-up discipline a tracked metric with consequences. Early warning: this may surface additional breakpoints as workflows are measured rigorously for the first time.
+- **New: Salesforce daily routine as accountability mechanism (from Howie dictation 2026-07-28):** The CEO's 8-step daily Salesforce task review is itself an accountability mechanism — he reviews current/overdue tasks, contacts people, checks off tasks, creates new tasks with due dates, and reviews reports. The question is whether this accountability layer should be extended to consultants (manual) or replaced by automation (ranked want #6). See `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`.
 
 ---
 
@@ -478,7 +512,7 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 **Sales handling & conferences (W4, W5)**
 - Whether defined pipeline stages exist in Salesforce today
 - Lead assignment rules vs. ad-hoc CEO assignment
-- Current activity expectations (if any)
+- **Current activity expectations (partially answered):** CEO's daily routine includes a full task lifecycle (create → schedule → complete → remove), 1-week post-onboarding referral tracking target, and daily review of 5 named Salesforce reports (Prospects, Top Prospects, Top Companies, Inactive Case Financing, Inactive Pre-Settlement). However, these are CEO-level standards — the question remains whether they are enforced on consultants, not just the CEO. See `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`.
 - Conference contact capture method and import path to Salesforce
 
 **Overall seams**
@@ -487,8 +521,8 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 
 **Sales performance & accountability (new layer, CEO directive)**
 - Exact KPIs for each sales role (Audrey, Brian, Victoria) — partially defined by CEO; need formalized dashboard
-- Law-firm relationship growth baseline and growth targets (currently unmeasured)
-- Follow-up closure rate definition (what counts as "followed up"? time to first contact? completion of all cadence steps?)
+- **Law-firm relationship growth baseline and growth targets (partially answered):** CEO reviews 5 named Salesforce reports daily (Prospects, Top Prospects, Top Companies, Inactive Case Financing, Inactive Pre-Settlement). These reports exist and are used — the question is whether consultants review them too, or only the CEO. See `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`.
+- **Follow-up closure rate definition (partially answered):** CEO's 1-week post-onboarding referral tracking is a de facto definition — firms are asked to send their first referral within 1 week of onboarding, but most take months. This gap is why the task system exists. Whether this 1-week cadence should be enforced on consultants (not just the CEO) is the remaining question.
 - Lead quality metrics per source (conferences, internet, referral, outbound email)
 - Executive decision points: Victoria performance improvement plan timeline and exit criteria; Brian guardrails escalation path; Audrey side-business boundary enforcement
 
@@ -497,6 +531,12 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - SharePoint folder structure and governance: where different artifact types live (process docs, SOPs, team notes, client data)
 - Accountability mechanism: how CEO will verify team is *using* SharePoint for knowledge capture vs. ad hoc email/chat
 - Tools for easy access on mobile/desktop (CEO noted: "I'm not a techie. I'm not really good with cloud services... SharePoint is not very user-friendly")
+
+**Julius — Inactive Account Follow-Up (new process trunk, from Howie dictation 2026-07-28)**
+- Julius handles follow-up with all inactive accounts (case financing + pre-settlement) behind the scenes via templated emails and calls.
+- **Problem:** He has not had much success with responses and falls **months behind** in his cadence, defeating consistency.
+- **CEO judgment:** This should be automated — "if we had it set up from an automation perspective, it probably would be more creative, more effective, and more consistent."
+- **Status:** Flagged as ranked want #6 in `xx_howies_wants.md`. High-priority automation candidate. Needs scoping: what time thresholds for active vs. inactive, what the KPI dashboard should look like, whether active/inactive get different automation rules.
 
 ---
 
