@@ -1,9 +1,12 @@
 ---
-title: "Maycomb Capital — AI & Automation Roadmap (Client Deliverable)"
+title: Maycomb Capital — AI & Automation Roadmap (Client Deliverable)
 date: 2026-07-07
-tags: [client, deliverable]
+last-updated: 2026-07-28
+tags:
+  - client
+  - deliverable
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 # Maycomb Capital

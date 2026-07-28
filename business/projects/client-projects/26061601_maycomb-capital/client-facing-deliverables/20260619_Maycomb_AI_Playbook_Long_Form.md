@@ -25,9 +25,11 @@ final-document: https://docs.google.com/document/d/1p9PwKfLY_6EvJM2A2BAYjG-1FSqg
 
 ## What this is
 
-You now have Claude (Team plan) available to the whole team. That's the first step done. When the licenses first rolled out, Maycomb put out a short "rules of the road" document, the bare-bones basics: Claude can make mistakes, here's how to use it responsibly. This playbook is the next level up from that, not a replacement for it, the answer to the next question: *now what?*
+You now have Claude (Team plan) available to the whole team. That's the first step done. When the licenses first rolled out, Maycomb put out a short "rules of the road" document, the bare-bones basics: Claude can make mistakes, here's how to use it responsibly. 
 
-It's written for the people who'll actually use Claude day to day — not as a rulebook to memorize, but as a guide to three things:
+This playbook is the next level up from that, the answer to the next question: *now what?*
+
+It's written for the people who'll actually use Claude day to day — as a guide to three things:
 
 1. **How to experiment** without worrying you'll do something wrong.
 2. **When to slow down** and double-check what Claude gives you before you rely on it.
