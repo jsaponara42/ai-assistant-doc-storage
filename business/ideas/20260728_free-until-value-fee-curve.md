@@ -1,9 +1,13 @@
 ---
-title: "Free-until-value fee curve"
+title: Free-until-value fee curve
 date: 2026-07-28
-tags: [idea, strategy, client]
+tags:
+  - idea
+  - strategy
+  - client
 ai: claude
 status: needs-attention
+final-document: https://drive.google.com/file/d/1mCUvuax7he7ZgjKhyW4wexX1vjwFCI91/view?usp=sharing
 ---
 
 ## Summary
