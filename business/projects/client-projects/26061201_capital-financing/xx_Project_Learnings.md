@@ -14,6 +14,16 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-05 — Push for automatic/consistent payment, not a link-then-ask-later pattern
+
+Working with Josh Henderson (partner, runs Ghost.Ops) on this account, some friction came up with the client that's delaying payment — the payment links haven't gone out yet because it would feel awkward given the difficulty. Not passing judgment on how Josh handles his own send-a-link-then-ask-for-more-later approach, but it's not the model I want for my side of things.
+
+**Takeaway to apply here:** prefer automatic, consistent, recurring payment set up from the start over a manual link-per-cycle approach where collection depends on remembering to ask (and getting the timing/awkwardness right) each time. Consistent payment is just a better business model regardless of how a given client relationship is going.
+
+*(open for further notes)*
+
+---
+
 ### 2026-07-11 — Carried over from Cause Crazy: get the MSA and payment terms right before converting to a retainer
 
 Cause Crazy started as a $4,000 project-based fee, then converted to a $2,500/month retainer once delivered. There was no proper MSA in place for that conversion, and it caused real problems: the client was constantly anxious about whether he was "earning" the retainer, even in months where delays were his fault, not mine, his card got declined after the first payment and we had to switch to direct invoicing, and payments after that were consistently late. It ended with him trying to request a refund on the last month, and that mishandling is the actual reason the relationship ended, not the work itself.

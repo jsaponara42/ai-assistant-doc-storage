@@ -75,13 +75,13 @@ vault/
 
 ## File naming
 
-Format: `YYYY-MM-DD-short-description.md`
+Format: `YYYYMMDD_short-description.md`
 
 - Date = creation date (not last edited)
 - Kebab-case, all lowercase, 3–5 words
 - No spaces or special characters
 - Exception: `overview.md` — no date prefix
-- Exception: task files — `{priority}-YYYY-MM-DD-description.md`
+- Exception: task files — `{priority}-YYYYMMDD_description.md`
 
 ---
 

@@ -9,8 +9,8 @@
 - Task for AI → `tasks/ai-tasks/` | Task for JC → `tasks/jc-tasks/`
 
 ## File naming
-- Notes: `YYYY-MM-DD-kebab-description.md` (3–5 words)
-- Tasks: `{priority}-YYYY-MM-DD-kebab-description.md`
+- Notes: `YYYYMMDD_kebab-description.md` (3–5 words)
+- Tasks: `{priority}-YYYYMMDD_kebab-description.md`
 - Exception: `overview.md` (no date prefix, one per project subfolder)
 
 ## Frontmatter (required on every file)
