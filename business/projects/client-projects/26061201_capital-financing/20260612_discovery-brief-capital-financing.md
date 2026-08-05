@@ -203,6 +203,18 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **SnapTrap Status:** Not started
 
+## PO-007 — Financial Consultants Not Positioned as Authority — Clients Default to CEO
+
+**Area:** People
+
+**Phantom Output:** Clients and prospects — including accounts the CEO has personally handed off — continue to reach out to the CEO directly rather than their assigned financial consultant, even after the relationship has transitioned. Confirmed pattern beyond a single case (previously noted for Audrey's accounts specifically); CEO's 2026-08-05 dictation confirms this recurs company-wide, including with new prospects that convert into clients.
+
+**Phantom Filter:** It doesn't really matter — the CEO is the owner, and it's a good thing clients want to reach him directly. Consultants will say clients would rather deal with the owner anyway, so this is just how it is.
+
+**Success Filter:** If a client bypasses their assigned consultant to reach the CEO, that is a signal the consultant has not established themselves as a knowledgeable authority the client trusts to handle the relationship — not simply a preference for dealing with ownership. A consultant who communicates clearly, presents as authoritative, and sets expectations about who the client should contact is the one clients actually go to. The CEO staying reachable for every account he's handed off is inconsistent with the IOV goal of stepping out of day-to-day sales management.
+
+**SnapTrap Status:** Not started — CEO has requested advice on whether this is a training gap (some training already done) or needs a different operational fix, and wants SOPs/workflows built that strengthen consultant communication and set clear client-contact expectations. See "Consultant Authority & Client Routing" in [[20260616-Workflow-Map-Capital-Financing-merged]] for full detail.
+
 ---
 
 # Preliminary MSE Plan
@@ -211,7 +223,7 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 ## Plan Overview
 
-Eight Phantom Outputs diagnosed across four operational areas. The constraint cluster is People and Systems. Tools ambitions are running ahead of the foundation. Howie's top stated priority — sales productivity — is a People and Process output, not a sales capability problem. Multiple high-investment vendor projects are converging without coordination architecture. The plan addresses the foundation first, then the growth moves Howie wants. Sequencing is non-negotiable. Installing tools into an unstructured operation produces expensive dysfunction, not scale.
+Eight Phantom Outputs (PO-001 through PO-007) diagnosed across four operational areas, with PO-007 added 2026-08-05. The constraint cluster is People and Systems. Tools ambitions are running ahead of the foundation. Howie's top stated priority — sales productivity — is a People and Process output, not a sales capability problem. Multiple high-investment vendor projects are converging without coordination architecture. The plan addresses the foundation first, then the growth moves Howie wants. Sequencing is non-negotiable. Installing tools into an unstructured operation produces expensive dysfunction, not scale.
 
 Ghost.Ops is the integration layer. Kaz executes Salesforce workflow under Ghost.Ops direction. LeAP holds both build lanes pending platform decision. Margarita operates as fractional CMO with Ghost.Ops as coordination point. Alex's EOS pivot is declined professionally — one operating system per company.
 

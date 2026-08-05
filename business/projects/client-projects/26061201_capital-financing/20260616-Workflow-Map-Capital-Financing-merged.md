@@ -384,8 +384,9 @@ Once each spine above is on the canvas, the **Overall** flow links them end-to-e
 
 > Build note: the Overall spine is **not** a sixth workflow to map from scratch — it's the join of the five existing spines (plus the Shared Sub-Layer) at these seams. Confirm each seam's actual hand-off mechanism before drawing the connectors.
 
-**Salesforce Daily Routine (Sales Leadership — new, from Howie dictation 2026-07-28):** The CEO performs an 8-step daily morning routine in Salesforce (documented in full at `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`). This is not a workflow spine — it is an **overarching governance layer** that touches all workflows daily:
+**Salesforce Daily Routine (Sales Leadership — new, from Howie dictation 2026-07-28; extended 2026-08-05)):** The CEO performs a 10-step daily routine in Salesforce (documented in full at `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`). This is not a workflow spine — it is an **overarching governance layer** that touches all workflows daily:
 
+0. Plan the day/week in advance — review calendar the night before or early morning, set an alarm for every meeting, target at least 4 meetings booked/day (2026-08-05)
 1. Start Salesforce → review current/overdue tasks
 2. Open each task → review subject, related contact, all notes
 3. Reach out (email/phone/both) to contact
@@ -394,6 +395,7 @@ Once each spine above is on the canvas, the **Overall** flow links them end-to-e
 6. Check off completed tasks → create new task with due date (2 weeks to 1 month out, based on urgency)
 7. Review Top Companies / Top Prospects reports
 8. Monthly: review inactive reports (case financing + pre-settlement)
+9. Fill any unbooked time with inactive-account outreach, prior-conference reporting, and general prospecting/pipeline-building (2026-08-05)
 
 This routine touches **W4 (consultant follow-up)** and **W5 (conference follow-ups)** directly. It also surfaces the 1-week post-onboarding referral tracking gap (see W4 Step 3). The CEO's routine should be documented as a governance layer that sits above and touches all five workflow spines — it is the daily operating rhythm that ensures nothing falls through the cracks.
 
@@ -462,6 +464,18 @@ Based on CEO strategic conversation (2026-06), a new accountability and measurem
 - **Non-negotiables:** Goals will be documented and communicated; missing goals = performance management conversation; repeated non-compliance = termination
 - **Tone:** Results-focused; CEO is "all about results" and "all about volume"; flexibility on how/when work is done as long as metrics are hit; no patience for excuses
 
+**Consultant Prospecting Strategy — Whale-Hunting vs. Volume (new, from Howie dictation 2026-08-05)**
+- CEO directive for consultants: invest time in constructive, high-value targets rather than spreading effort thin. Explicit framing: "Why would you want to manage 75 law firms when you can manage 25 big companies?" The objective is to prioritize larger law firms with bigger settlements over a high count of small firms.
+- Suggested research channels: LinkedIn, general internet/website research, and potentially AI-assisted scoping — using AI to search the internet for law firms that fit the target profile (e.g., firms known for larger settlements) as a starting filter for who to approach.
+- Not yet a formal SOP or tool — currently a directive/philosophy communicated to consultants, not a built process. Candidate for a future prospecting SOP or AI-assisted research workflow.
+
+**Consultant Authority & Client Routing (new, from Howie dictation 2026-08-05)**
+- CEO has identified a broader, company-wide version of a pattern already noted for Audrey below: clients and prospects — including new ones CEO hands off — continue to reach out to the CEO directly instead of their assigned financial consultant, even after the account has been transitioned.
+- CEO's own diagnosis: when a consultant comes across as knowledgeable, authoritative, and communicates clearly about who the client should contact, clients go to that consultant instead of the CEO. Clients bypassing a consultant is read as a signal that the consultant hasn't established a strong relationship or trust with that account.
+- CEO explicitly wants advice on whether this is a training issue (some training has already been done) or needs a different operational fix, and wants standard operating procedures/workflows that both build consultants' communication skills and set clear expectations with law firms about who to contact.
+- CEO's stated goal: he should not need to be managing accounts that belong to a financial consultant. This directly ties to his broader IOV goal of stepping out of day-to-day sales management (see discovery brief).
+- Logged as a new diagnostic item — see PO-007 in the discovery brief's Diagnostic Register.
+
 ## Staffing Decisions & Their Workflow Impact
 
 - **Lisa** (sales consultant) — terminated after 2 months; departure imminent
@@ -474,7 +488,7 @@ Based on CEO strategic conversation (2026-06), a new accountability and measurem
 
 These sales performance dynamics directly affect:
 - **W3 (Outbound Email & Cadence)** — someone must own consistency of send/response/thank-you cycle; currently may be dropping due to consultant overload or unclear accountability
-- **W4 (Sales Consultant Lead Handling)** — major documented breakpoint: leads generated but not followed up (Victoria); assignments made but not executed (Brian's passed opportunities); relationship ownership unclear when house accounts call CEO instead of assigned consultant (Audrey's accounts)
+- **W4 (Sales Consultant Lead Handling)** — major documented breakpoint: leads generated but not followed up (Victoria); assignments made but not executed (Brian's passed opportunities); relationship ownership unclear when house accounts call CEO instead of assigned consultant (Audrey's accounts) — **now confirmed as a company-wide pattern, not just Audrey's, per 2026-08-05 dictation; see PO-007 in the discovery brief and "Consultant Authority & Client Routing" above.**
 - **W5 (Conference Marketing)** — high spend (~$20K per event), low conversion; follows into W4 (lead assignment) where follow-up discipline is lowest
 
 ---

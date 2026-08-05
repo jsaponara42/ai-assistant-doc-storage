@@ -18,7 +18,7 @@ Sales — Daily Routine
 | Department | Sales |
 | Reviewed By | — |
 | Frequency | Daily (morning routine) |
-| Last Updated | July 28, 2026 |
+| Last Updated | July 28, 2026; updated 2026-08-05 with day-planning routine and unbooked-time guidance |
 
 ## 1. Purpose
 
@@ -69,6 +69,17 @@ The task review is a **daily morning routine** — performed every business day 
 ## 6. Step-by-Step Process
 
 The daily routine is broken into steps below. Each step includes what you need, where to find it, what systems you'll use, who is responsible, and what you produce.
+
+### Step 0: Plan the Day and Week in Advance (new, from Howie dictation 2026-08-05)
+| Field | Detail |
+| --- | --- |
+| **Inputs** | Upcoming calendar (today's and the week's scheduled meetings). |
+| **Where inputs come from** | Calendar review, done the night before or early the same morning. |
+| **Software & tools** | Calendar; alarm clock/phone alarms |
+| **Who is responsible** | CEO (Howie Golden) |
+| **Outputs** | A reviewed schedule with an alarm set for every meeting (so none are missed), and a target of **at least 4 meetings booked per day** — strategic calls, current-client calls, or other business-constructive meetings. |
+| **Where outputs go** | Sets up the rest of the day; also determines whether Step 9 (filling unbooked time) is needed. |
+| **Notes** | This is a time-protection discipline, not just scheduling admin: "If anything we can convey to financial consultants... value your time." The CEO evaluates meetings for whether they're worth having at all — shifting from meeting with everyone to meeting specifically with people who can help grow the business is described as "a dynamic shift in your workflow and your day." If a meeting isn't worth the time, it doesn't get booked. |
 
 ### Step 1: Start Salesforce and Review Current / Overdue Tasks
 | Field | Detail |
@@ -158,6 +169,16 @@ The daily routine is broken into steps below. Each step includes what you need, 
 | **Where outputs go** | Follow-up emails or calls sent to inactive accounts. |
 | **Notes** | Depending on certain dates (usually once a month), go through the inactive report for both case financing and pre-settlement. Try to email or call those accounts to check on them. Julius is also doing this behind the scenes, but has not had much success with responses. He tends to fall months behind in his cadence, which defeats the consistency that follow-up requires. **This is a candidate for automation** — templated emails could be more creative, more effective, and more consistent than a manual process. |
 
+### Step 9: Fill Unbooked Time with Prospecting and Pipeline-Building (new, from Howie dictation 2026-08-05)
+| Field | Detail |
+| --- | --- |
+| **Inputs** | Any portion of the day not filled by meetings from Step 0. |
+| **Where inputs come from** | Gaps identified when building the day/week (Step 0). |
+| **Software & tools** | Salesforce; Email (Outlook); Phone |
+| **Who is responsible** | CEO (Howie Golden) |
+| **Outputs** | Additional outreach to inactive accounts; work on prior-conference reporting; general prospecting and pipeline-building. |
+| **Where outputs go** | Feeds the pipeline that keeps the CEO productive during travel, consulting, or other busy stretches. |
+| **Notes** | "If I am not fully busy for the entire day, that is when I work on filling my day for the rest of the week." This is explicitly framed as pipeline maintenance: prospecting and pipeline-building are "always going to be critical," so that when the CEO is busy with travel or consulting, there's still a pipeline generating activity in the background. |
 
 ## 7. Exception Handling
 
@@ -174,7 +195,7 @@ If Christy has not sent post-call notes after a strategy call, check with her di
 Julius falls months behind in his cadence, which defeats the consistency needed for inactive account outreach. This should be addressed through automation (templated, creative emails sent on a consistent schedule) rather than relying on manual outreach.
 
 **Task Overruns**
-Not all tasks get completed in time and they tend to run overdue. This is expected. Prioritize current and overdue tasks daily and create new follow-up tasks with realistic due dates based on urgency.
+Not all tasks get completed in time and they tend to run overdue. This is expected. Prioritize current and overdue tasks daily and create new follow-up tasks with realistic due dates based on urgency. **Automation in progress (new, from Howie dictation 2026-08-05):** an automation process is being implemented so that when a task goes overdue, an email reminder is sent automatically, prompting a check-in on that area of Salesforce — useful especially for anyone not in Salesforce consistently enough to catch overdue items on their own. This directly supports the task lifecycle and is a lighter-weight companion to the larger follow-up/KPI automation tracked as ranked want #8 in `xx_howies_wants.md`.
 
 
 *Capital Financing — Confidential & Internal Use Only*
