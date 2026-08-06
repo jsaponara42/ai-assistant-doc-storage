@@ -61,14 +61,14 @@ To keep this tight, here's what's explicitly out of scope:
 
 ---
 
-## Expected Timeline — 8 Weeks
+## Expected Timeline — ~8 Weeks
 
 | Weeks | Focus                                                                                               |
 | ----- | --------------------------------------------------------------------------------------------------- |
 | 1-2   | Individual resets with Christy, Danielle, Yasmine. Kickoff call with Kaz. Segue overview requested. |
 | 2-3   | Finish discovery. Flag any quick win worth switching on now, if one's there.                        |
 | 3–5   | Build the Opportunity Map. Get any flagged quick win live alongside it.                             |
-| 6–7   | Refine the map. Buffer.                                                                              |
+| 6–7   | Refine the map. Buffer.                                                                             |
 | 8     | Present the Opportunity Map and hire recommendation to you directly.                                |
 
 **One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project. It doesn't change the total scope. It just shifts the calendar around that window.
