@@ -58,7 +58,11 @@ Josh Henderson (partner, Ghost.Ops fractional COO on this account) was let go by
 - Final assurances on the ability to fully and accurately migrate Mighty data to Salesforce.
 - Danielle's remaining final questions (content not specified in the offboarding email).
 
+**Update (2026-08-06 call):** Howie reached out to Segue directly after Josh's departure and got a response suggesting the vendor had no memory of prior conversations — effectively back to square one. Howie has requested a full functionality overview from Segue so he can evaluate fit against Capital Financing's actual workflow; not yet delivered as of this call. Separately, Capital Financing had asked Salesforce directly (not Segue) about upgrading to Enterprise edition — that thread also went unanswered and needs follow-up, independent of the Segue-specific Professional-edition question above. Kaz needs to be looped back into both threads.
+
 **Sales team training — stalled.** Early this week, the sales team was asked to attend training this Friday, built from Howie's shared dictation notes. **Nobody responded to the invite.** The raw source material Josh used is in Howie's email — searchable via the subject line "Howie — Here are your Ghost.Notes." `[TO CONFIRM: whether this training gets rescheduled/re-owned by JC, and whether the sales team's non-response to the invite itself is worth flagging alongside the existing accountability issues in the Sales Performance & Accountability Framework]`
+
+**Follow-on scope (2026-08-06):** A rescoped, fixed-fee proposal (`client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`) was sent to Howie following a call the same day — $5,000 total, 2-month timeline, intentionally narrow (Opportunity Map + hire recommendation + 1–2 quick wins, explicitly excluding the operational/COO-style work Josh was doing). See [[xx_Project_Learnings]] for the call's context.
 
 ---
 
@@ -98,7 +102,11 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **Dr. Howie Golden**, CEO and Managing Partner. PI Reference: Persuader. High-functioning executor, types ninety words per minute, results-only orientation, allergic to micromanagement, self-aware about weaknesses, will not delegate travel and should not be pushed to. Currently doing four jobs: visionary, number one salesperson, sales manager by default, and conference logistics. Subjective decision-maker — relies on intuition and read of people. Wants a right hand who keeps up without being managed step-by-step. He does not need convincing. He needs the structural translation built and handed back clean. Wants a roughly weekly recap (work completed, current plan, next goal) and expects acknowledgment — not necessarily a reply — on the frequent, unprompted ideas he emails throughout the day; unacknowledged emails read as ignored, even when no response was expected.
 
-**Christy Imbriale**, Director of Operations and Senior Underwriter, twenty-year tenure with Howie. PI Reference: Artisan. Owns operations. Does not manage sales — respect the lane. Ghost.Ops anchor relationship. Primary conduit for access, information gathering, plan implementation, and Sprint execution. Detail-oriented, process-focused, steady under execution load. Responds to clarity and defined deliverables, not energy and persuasion. Watch point: Artisan profiles absorb implementation load without flagging capacity limits. Monitor Velocity and Volume against her bandwidth, not just Howie's buy-in. Phone 404-348-4475 ext. 604, mobile 678-671-6282.
+**Christy Imbriale**, Director of Operations and Senior Underwriter, twenty-year tenure with Howie. PI Reference: Artisan. Owns operations. Does not manage sales — respect the lane. Ghost.Ops anchor relationship. Primary conduit for access, information gathering, plan implementation, and Sprint execution. Detail-oriented, process-focused, steady under execution load. Responds to clarity and defined deliverables, not energy and persuasion. Watch point: Artisan profiles absorb implementation load without flagging capacity limits. Monitor Velocity and Volume against her bandwidth, not just Howie's buy-in. Phone 404-348-4475 ext. 604, mobile 678-671-6282. **Update (2026-08-06 call):** Howie's own read is that the DOO-level gaps aren't a Christy capability issue — she was never clearly directed or delegated to lead SOP/workflow rollout on top of her underwriting workload. His words: "I blame myself... I haven't told them to do that. I didn't know to do that." Going forward, JC works primarily through Christy to disseminate direction to the team, per Howie's explicit request on this call.
+
+**Danielle Gild**, Controller and Accounting, minority partner (part owner) in the business. Per CEO: personally close — "she's family to me" — and professionally high-level, with prior experience at SAP. Owns the Funding trunk (with Audra) in the operational workflow. Per CEO, no obvious automation surface in her own function, but she wants visibility into what's happening across the business. Per the workflow map's Cross-Workflow Observations, she can be territorial about her role and has made independent management decisions affecting other departments without consulting Christy. One of the three leadership-team members (with Christy and Yasmine) who told Howie directly they would not continue working with Josh.
+
+**Yasmine Swain**, Director of Contracting and Servicing, thirteen-year tenure with Howie. Per CEO: detail-oriented and runs her team well, but weaker in communication/leadership than Christy — described elsewhere as a "follower and doer" rather than a leader (see workflow map Process Trunks notes, where she appears as "Yasmin"). Owns the Contracting trunk in the operational workflow. **High-priority automation candidate (2026-08-06 call):** her team currently does manual, real-person status-check outreach to law firms that Howie flagged as ideal for AI-driven automated email outreach — see "Yasmin's team" note in [[20260616-Workflow-Map-Capital-Financing-merged]]. One of the three leadership-team members (with Christy and Danielle) who told Howie directly they would not continue working with Josh.
 
 **Michael**, Partner. Operates a side peptide company on GoHighLevel. AI-aware. Internal ally for AI and technology decisions.
 
@@ -112,13 +120,13 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **Lisa**, new hire, referral from a Texas injury specials contact. Already flagged by Howie as not going to be a rock star. Run through structured trial before commitment.
 
-**Julius**, offshore Filipino contractor, twenty-five hundred per month. Manual social media posting and manual email cadence operator. Three or four basic tasks. Social media producing negligible engagement. Manual cadence producing near-zero response. Role collapses when Salesforce automation lands. Decision pending on sunset versus reposition as VA under Margarita's direction.
+**Julius**, offshore Filipino contractor, twenty-five hundred per month. Manual social media posting and manual email cadence operator. Three or four basic tasks. Social media producing negligible engagement. Manual cadence producing near-zero response. Role collapses when Salesforce automation lands. Decision pending on sunset versus reposition as VA under Margarita's direction. **Update (2026-08-06 call):** Kaz has explicitly recommended cutting Julius outright rather than repositioning him — Howie is paying for output that isn't landing results, and Kaz's view is to automate the function and let the role go. Decision still pending with Howie.
 
 ## Key Personnel — External Vendors and Partners
 
-**Kaz**, Salesforce consultant, ten-year tenure with Howie. Holds institutional knowledge of the CRM build. Has already diagnosed the absence of expectations, SOPs, and accountability. Critical internal ally. Will execute Phase 1 workflow build under Ghost.Ops direction. Spent one hour with Frank Colson on platform discussion. Researching AI cost inside Salesforce.
+**Kaz**, Salesforce consultant, ten-year tenure with Howie. Holds institutional knowledge of the CRM build. Has already diagnosed the absence of expectations, SOPs, and accountability. Critical internal ally. Will execute Phase 1 workflow build under Ghost.Ops direction. Spent one hour with Frank Colson on platform discussion. Researching AI cost inside Salesforce. **Update (2026-08-06 call):** Kaz built the KPI dashboard Howie originally spec'd (~mid-to-late June 2026) — reviewed and revised once, then handed to Josh roughly three weeks before Josh's departure and has sat idle, unrolled-out, since. Kaz also recommended cutting Julius rather than reassigning him (see Julius entry). Kaz will need to be re-looped into Segue vendor conversations now that Josh is gone, and is the key source on Salesforce Professional vs. Enterprise edition limitations — including whether Enterprise is required for the AI features under consideration. A separate, prior ask to Salesforce directly about upgrading to Enterprise also went unanswered and needs follow-up.
 
-**Margarita Eberline**, CEO and Founder of Marketing Boss, Law Firm Marketing Leadership. Fractional CMO. Met Howie at Miami conference. Engagement moving forward at fifteen hundred sixty-nine per month as an added-value arrangement in exchange for referrals Howie has sent her. Already sent welcome packet. Wants one-on-one calls with each consultant and a kickoff with Julius and marketing function. Howie has informed her of Ghost.Ops integration. Team interviews route through Ghost.Ops coordination.
+**Margarita Eberline**, CEO and Founder of Marketing Boss, Law Firm Marketing Leadership. Fractional CMO. Met Howie at Miami conference. Engagement moving forward at fifteen hundred sixty-nine per month as an added-value arrangement in exchange for referrals Howie has sent her. Already sent welcome packet. Wants one-on-one calls with each consultant and a kickoff with Julius and marketing function. Howie has informed her of Ghost.Ops integration. Team interviews route through Ghost.Ops coordination. **Update (2026-08-06 call):** Post-Josh, Howie is reconsidering timing — weighing whether to bring her fully online now versus waiting until more of the operational/automation infrastructure from the new engagement is in place, to avoid onboarding her into the same chaos that affected Josh's engagement.
 
 **Annie Pardillo**, Marketing Boss operations. Schedules calls for Margarita.
 
@@ -144,7 +152,7 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **Manual email cadence.** Operated by Julius. Three pre-settlement emails and three case financing emails on intervals. Manual task list. Near-zero response rate.
 
-**AI tooling.** Active interest at principal level. AI Implementation Engineer hire in motion. No defined use cases mapped yet. Engineer mandate needs to be scoped before hire closes.
+**AI tooling.** Active interest at principal level. **Status update (2026-08-06 call):** Howie had been planning a full-time AI/automation engineer hire (an overseas placement via a staffing contact — a Cornell grad) before pivoting to Josh's fractional COO role instead; that full-time overseas hire plan is now shelved. Following Josh's departure, the path forward is the AI & Automation Opportunity Mapping engagement proposed 2026-08-06 (see `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`) — its explicit purpose is to answer the engineer-hire question (full-time, fractional, or none) with a defined use-case map, rather than hiring into a blank slate. No defined use cases mapped yet; that's the deliverable this proposal produces.
 
 ---
 
@@ -161,6 +169,8 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 **Success Filter:** What lives in people's heads leaves with them. Documentation is not overhead — it is the infrastructure that makes the operation transferable, trainable, and scalable.
 
 **SnapTrap Status:** Not started
+
+**Addendum (2026-08-06 call):** Howie self-attributes part of this gap to his own lack of delegation — Christy holds the DOO title but was never clearly directed or empowered to lead SOP/workflow work company-wide; in his words, "I blame myself." Relevant to how PO-001 gets solved: the fix may need to start with Howie explicitly delegating that mandate to Christy, not just building the documentation infrastructure itself.
 
 ## PO-002 — No HR Framework
 
@@ -186,6 +196,8 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **SnapTrap Status:** Not started
 
+**Addendum (2026-08-06 call):** The 2026-08-06 proposal (`client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`) is a direct SnapTrap response to this Phantom Output — it produces the use-case map and hire recommendation *before* any engineer hire closes, rather than hiring into a blank slate as Howie had originally been about to do via an overseas placement.
+
 ## PO-004 — CRM Poorly Structured / Inconsistent Data Logging
 
 **Area:** Systems / Tools
@@ -209,6 +221,8 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 **Success Filter:** Sales productivity is a systems problem, not an effort problem. Protected CEO time and a qualified, managed pipeline produce more than increased activity against an unqualified one. The CEO staying in the middle of sales execution is the constraint, not the solution.
 
 **SnapTrap Status:** Not started
+
+**Addendum (2026-08-06 call):** Howie independently confirmed this prioritization in his own words — describing operations as the area needing the *least* help ("we don't have a lot of issues operationally... Christy and her leadership team are doing great") and sales + tech efficiency as where the real need is. This validates PO-005 as the higher-leverage priority relative to the operational/COO-style work Josh was focused on, and is a direct input into the tightened scope of the 2026-08-06 proposal.
 
 ## PO-006 — Underperformer Retained Past Exit Threshold
 
@@ -403,7 +417,7 @@ Cumulative Grade: Ungraded — Phase One. Baseline established at plan delivery.
 
 ## Controller and Accounting
 
-- Danielle Gild
+- Danielle Gild — also a minority partner (per 2026-08-06 call)
 
 ---
 

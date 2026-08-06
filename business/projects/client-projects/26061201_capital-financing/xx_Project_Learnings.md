@@ -14,6 +14,31 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-06 (same day, follow-up) — Reset call with Howie: root cause confirmed, new operating model set
+
+Spoke directly with Howie the same day Josh was let go. Key points worth preserving:
+
+**Josh and Howie parted on good terms**, by both accounts — Howie described mutual respect and said he told Josh "I love you, man." This was a business decision, not a falling-out between the two of them personally.
+
+**Howie's own account of root cause:** his leadership team (Christy, Danielle, Yasmine) told him directly they would not continue working with Josh — Howie called it close to a staff mutiny ("you came in with great bones and you broke everybody"). Notably, Howie says Josh focused his effort on the operations side of the business, which Howie insists had the *fewest* problems ("we don't have a lot of issues operationally... Christy and her leadership team are doing great") — while the areas Howie actually needed help with, sales and tech efficiency, went largely unaddressed. Josh's approach reportedly framed feedback as "you're the problem" rather than "here's what we could add," which landed badly with a team Howie describes as already loyal and low-turnover.
+
+**Additional pattern evidence:** Howie says Josh told Capital Financing's own staff, directly, that he's been fired by other clients before for the same working style — wearing it "as a badge of pride" rather than treating it as a lesson. Strengthens the read from the earlier entry above: this is a recurring pattern in how Josh operates, not a one-off mismatch with this client.
+
+**Howie self-attributes part of the gap, unprompted:** Christy holds the Director of Operations title but, in Howie's own words, was never clearly directed or delegated to lead SOP/workflow rollout — "I blame myself... I haven't told them to do that. I didn't know to do that." This is a meaningful reframe: some of what looked like operational dysfunction in the diagnostics may be a delegation gap from Howie, not a skill or effort gap in Christy, Danielle, or Yasmine.
+
+**New operating model set directly by Howie on this call:**
+- JC works primarily through Christy going forward for team dissemination — not managing the sales team or other departments directly.
+- Individual 1:1 "reset" conversations planned with Christy, Danielle, and Yasmine before further work, specifically so they experience firsthand that JC's working style is different from Josh's.
+- Howie wants a written proposal same day, with a call the following day to discuss.
+
+**Secondary evidence for the tool-adoption diagnostic (PO-003/PO-004):** the team already has a Claude subscription and a training document (`client-facing-deliverables/20260710_claude-intro-training-capital-financing.md`), but per Howie it isn't being used because it feels "intimidating." Confirms that documentation alone doesn't drive adoption — worth factoring into how any new deliverable (the Opportunity Map, in particular) gets rolled out: hands-on and guided, not just handed over.
+
+**Resulting deliverable:** see `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md` — a tightly-scoped $5,000 / 2-month proposal built directly from this call, explicitly excluding the operational/people-management work Josh was doing.
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-06 — Josh Henderson (partner, Ghost.Ops) fired as fractional COO by Howie
 
 Howie fired Josh from his fractional COO role on this account. Stated reason: too hard to work with for Christy's three key operations people — Danielle (close to Howie, described elsewhere as "like family"), Christy, and Yasmine. This follows directly from the 2026-08-05 entry below (client friction that delayed sending payment links) — read together, these look like the same underlying pattern (working style causing friction with the client side) surfacing twice in quick succession, not two unrelated incidents.

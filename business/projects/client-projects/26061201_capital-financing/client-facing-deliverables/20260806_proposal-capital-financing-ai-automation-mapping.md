@@ -44,7 +44,7 @@ The core deliverable: a single, visual, prioritized map of where AI and automati
 You told me directly you have "nothing to show for it" after months of investment. I don't want this engagement to end the same way. So this includes surfacing and switching on 1–2 quick wins that are already 80% built — most likely, getting the existing Kaz-built KPI dashboard actually rolled out and in front of Christy and the sales team, and one additional item we'll identify together in week one (a strong early candidate: automating the routine "checking in with the law firm on case status" emails currently done manually by Yasmine's team).
 
 **5. A clear recommendation on the hire question.**
-At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this delivers it in two.
+At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this delivers it in two because of our narrower scope.
 
 ---
 
@@ -59,15 +59,15 @@ To keep this tight, here's what's explicitly out of scope:
 
 ---
 
-## Timeline — 8 Weeks
+## Expected Timeline — 8 Weeks
 
-| Weeks | Focus |
-|---|---|
-| 1 | Individual resets with Christy, Danielle, Yasmine. Kickoff call with Kaz. Segue overview requested. |
-| 2 | Finish discovery. Confirm the 1–2 quick-win targets with you directly. |
-| 3–5 | Build the Opportunity Map. Roll out the KPI dashboard quick win. Build the second quick win. |
-| 6–7 | Refine the map based on what we learn getting the quick wins live. Buffer. |
-| 8 | Present the Opportunity Map and hire recommendation to you directly. |
+| Weeks | Focus                                                                                               |
+| ----- | --------------------------------------------------------------------------------------------------- |
+| 1-2   | Individual resets with Christy, Danielle, Yasmine. Kickoff call with Kaz. Segue overview requested. |
+| 2-3   | Finish discovery. Confirm the 1–2 quick-win targets with you directly.                              |
+| 3–5   | Build the Opportunity Map. Roll out the KPI dashboard quick win. Build the second quick win.        |
+| 6–7   | Refine the map based on what we learn getting the quick wins live. Buffer.                          |
+| 8     | Present the Opportunity Map and hire recommendation to you directly.                                |
 
 **One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project — it doesn't change the total scope, just shifts the calendar slightly around that window.
 
