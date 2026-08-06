@@ -19,7 +19,7 @@ Financial Consulting Team — Task & Post-Call Follow-Up
 | Department | Financial Consulting |
 | Reviewed By | Not specified in dictation |
 | Frequency | Ongoing / per-contact |
-| Last Updated | July 2026 |
+| Last Updated | July 2026; updated 2026-08-06 |
 
 > ⚠️ **This SOP describes a process the speaker identifies as currently broken.** It is documented as-is, including the gaps and inconsistencies described. See the **Breakpoints** section at the end for every place the speaker expressed frustration or a desire for change.
 
@@ -71,7 +71,18 @@ This document captures the current (as described) process by which financial con
 | **Software & tools** | Not specified in dictation (calls are described, not the medium — phone/video not stated). |
 | **Who is responsible** | Individual financial consultant |
 | **Outputs** | Completed strategy call, completed onboarding call, information sent to the prospect. |
-| **Where outputs go** | Sent directly to the prospect. Not specified whether/where this is logged in Salesforce. |
+| **Where outputs go** | Sent directly to the prospect. **Partially answered (2026-08-06):** see new Step 2a below for the concrete follow-up email/document process, at least as Howie personally practices it. |
+
+### Step 2a: Send Post-Call Follow-Up Email (new, from Howie dictation 2026-08-06)
+| Field | Detail |
+| --- | --- |
+| **Inputs** | Completed strategy call; which service(s) were discussed (pre-settlement, case expense, or both). |
+| **Where inputs come from** | The strategy call itself (Step 2). |
+| **Software & tools** | Email; a pre-built PDF (pre-settlement referral instructions) and pre-built Word documents (full follow-up talking points — one combined version covering both services, one single-service version). An AI notetaker was considered but not used for the client-facing deliverable — see note. |
+| **Who is responsible** | Documented from Howie's own practice. Not confirmed whether all consultants follow this same process — see note. |
+| **Outputs** | A follow-up email fired off after the call, with the PDF referral-instructions document attached, plus the relevant Word document (combined or single-service) covering the full talking points from the discussion. |
+| **Where outputs go** | Sent directly to the prospect. |
+| **Notes** | Howie has tried an AI notetaker on these calls to generate a compiled summary, but believes most prospects don't read notetaker-style notes, so he built the polished Word document as the actual follow-up artifact instead — whether it gets read is unknown to him either way. Relevant to scoping the team-wide AI notetaker want (#3 in `xx_howies_wants.md`): for this specific use case, the value may be more about internal capture/consistency than about being the client-facing deliverable itself. `[TO CONFIRM: is this Howie's individual practice, or the standard process for all consultants? The onboarding-materials want (#5 in xx_howies_wants.md) already flags that Christy's documents lack this level of polish — worth checking whether this strategy-call follow-up step happens at all outside Howie's own calls.]` |
 
 ### Step 3: Post-Call Follow-Up
 | Field | Detail |

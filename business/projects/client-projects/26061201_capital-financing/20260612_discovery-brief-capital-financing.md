@@ -116,7 +116,7 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **Victoria**, Consultant, three years. Moved to commission-only in January 2025. South Florida based. Does not follow direction, does not develop business outside her state, does not report commissions on time. Energy drain on the CEO. Howie has mentally fired her but is avoiding the act. Frame exit as a system decision triggered by KPI framework, not an emotional decision.
 
-**Brian**, new hire from recruiter. Hunter profile, take-charge, smart communicator. Limited PI industry contacts. Background in video for PI lawyers. Has had slip-ups requiring CEO intervention. Worth development capital investment.
+**Brian**, new hire from recruiter. Hunter profile, take-charge, smart communicator. Limited PI industry contacts. Background in video for PI lawyers. Has had slip-ups requiring CEO intervention. Worth development capital investment. **Update (Transcript 1, 2026-08-06 end-of-month call):** Confirmed not using Salesforce reporting despite training (has the videos, hasn't applied them) — Howie says this is happening across the board with all consultants, not unique to Brian. Also arrived at this monthly call with his commissions spreadsheet incomplete; Howie spent 30 minutes filling it out with him live. Howie extends grace given Brian is new, but reads it as an onboarding/training gap. See PO-002 and PO-004 addenda below.
 
 **Lisa**, new hire, referral from a Texas injury specials contact. Already flagged by Howie as not going to be a rock star. Run through structured trial before commitment.
 
@@ -124,7 +124,7 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 ## Key Personnel — External Vendors and Partners
 
-**Kaz**, Salesforce consultant, ten-year tenure with Howie. Holds institutional knowledge of the CRM build. Has already diagnosed the absence of expectations, SOPs, and accountability. Critical internal ally. Will execute Phase 1 workflow build under Ghost.Ops direction. Spent one hour with Frank Colson on platform discussion. Researching AI cost inside Salesforce. **Update (2026-08-06 call):** Kaz built the KPI dashboard Howie originally spec'd (~mid-to-late June 2026) — reviewed and revised once, then handed to Josh roughly three weeks before Josh's departure and has sat idle, unrolled-out, since. Kaz also recommended cutting Julius rather than reassigning him (see Julius entry). Kaz will need to be re-looped into Segue vendor conversations now that Josh is gone, and is the key source on Salesforce Professional vs. Enterprise edition limitations — including whether Enterprise is required for the AI features under consideration. A separate, prior ask to Salesforce directly about upgrading to Enterprise also went unanswered and needs follow-up.
+**Kaz**, Salesforce consultant, ten-year tenure with Howie. Holds institutional knowledge of the CRM build. Has already diagnosed the absence of expectations, SOPs, and accountability. Critical internal ally. Will execute Phase 1 workflow build under Ghost.Ops direction. Spent one hour with Frank Colson on platform discussion. Researching AI cost inside Salesforce. **Update (2026-08-06 call):** Kaz built the KPI dashboard Howie originally spec'd (~mid-to-late June 2026) — reviewed and revised once, then handed to Josh roughly three weeks before Josh's departure and has sat idle, unrolled-out, since. Kaz also recommended cutting Julius rather than reassigning him (see Julius entry). Kaz will need to be re-looped into Segue vendor conversations now that Josh is gone, and is the key source on Salesforce Professional vs. Enterprise edition limitations — including whether Enterprise is required for the AI features under consideration. A separate, prior ask to Salesforce directly about upgrading to Enterprise also went unanswered and needs follow-up. **Update (Transcript 1, 2026-08-06):** Howie noticed some functionality Kaz built is not working correctly — unspecified in the dictation which functionality — and needs to address it with Kaz directly. `[TO CONFIRM: what specifically is broken]`
 
 **Margarita Eberline**, CEO and Founder of Marketing Boss, Law Firm Marketing Leadership. Fractional CMO. Met Howie at Miami conference. Engagement moving forward at fifteen hundred sixty-nine per month as an added-value arrangement in exchange for referrals Howie has sent her. Already sent welcome packet. Wants one-on-one calls with each consultant and a kickoff with Julius and marketing function. Howie has informed her of Ghost.Ops integration. Team interviews route through Ghost.Ops coordination. **Update (2026-08-06 call):** Post-Josh, Howie is reconsidering timing — weighing whether to bring her fully online now versus waiting until more of the operational/automation infrastructure from the new engagement is in place, to avoid onboarding her into the same chaos that affected Josh's engagement.
 
@@ -184,6 +184,8 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **SnapTrap Status:** Not started
 
+**Addendum (Transcript 1, 2026-08-06):** Concrete example surfaced: Brian, a new hire, was trained on Salesforce reporting (has the videos, confirmed) but still isn't using or understanding the functionality months in — and Howie says this pattern holds "across the board" for all consultants, not just new hires. Howie's own read: proper training procedures at onboarding are missing, so new hires get flooded with information and things fall through the cracks while they're learning on the fly. Reinforces PO-002 directly — the fix isn't just documentation, it's a defined onboarding/training sequence with checkpoints.
+
 ## PO-003 — AI Not Utilized at Operational Level
 
 **Area:** Tools
@@ -209,6 +211,8 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 **Success Filter:** The CRM reflects the standards the operation holds people to. No standards means no consistent logging — regardless of platform. Replacing the tool before fixing the standard replicates the dysfunction in a more expensive system.
 
 **SnapTrap Status:** Not started
+
+**Addendum (Transcript 1, 2026-08-06):** Brian's end-of-month call confirmed this Phantom Output at the individual level — trained on Salesforce reporting, has the videos, still not using it, doing things "his own way" instead. Howie's own assessment is that this is true across the whole consultant team, not an isolated case. Direct evidence for the PO-004 diagnosis: the tool isn't the gap, consistent use of it is.
 
 ## PO-005 — Sales Time Not Productive
 
