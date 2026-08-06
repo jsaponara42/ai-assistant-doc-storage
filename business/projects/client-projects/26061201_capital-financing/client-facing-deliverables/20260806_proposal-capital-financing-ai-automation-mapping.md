@@ -40,7 +40,7 @@ Before anything gets built or mapped, I'll meet with Christy, Danielle, and Yasm
 You've already paid for a lot of infrastructure. The KPI dashboard Kaz built, the reporting inside Salesforce, the SharePoint training folders. Before I recommend building anything new, I'm sitting down with Kaz to see what's already there, what's usable today, and what's sitting idle because no one was trained on it. Same with Segue. I'll get the full functionality overview you already requested and help you get a straight answer on the Professional vs. Enterprise Salesforce question, since that decision sits upstream of several others.
 
 **3. The Opportunity Map.**
-The core deliverable. A visual, prioritized map of where AI and automation can help across the business: sales follow-up, law firm status updates, Yasmine's team, reporting, whatever discovery surfaces. Each item is tagged with owner, rough effort, and expected impact, so your team can use it with or without me in the room.
+The core deliverable. A visual, prioritized map of where AI and automation can help across the business: sales follow-up, law firm status updates, ops team efficiencies, reporting, whatever discovery surfaces. Each item is tagged with owner, rough effort, and expected impact, so your team can use it with or without me in the room.
 
 **4. Quick wins, if discovery surfaces them. No promises.**
 This phase is discovery, not build. I can't commit to building anything before I know what's actually there. If something turns out to be an easy win along the way, most likely on the Salesforce side working alongside Kaz, since infrastructure like the KPI dashboard already exists and mainly needs rollout, I'll flag it. If it's small enough to fit inside this scope, I'll get it live. That's a possibility, not a promise.
@@ -110,10 +110,17 @@ I can help in a lot of adjacent areas. The Opportunity Map, the Salesforce and a
 
 ---
 
+## One More Thing, No Charge
+
+You've mentioned wanting the team trained on Claude. I already have a training doc built for them. I'll run a live, one-hour Claude training session for your team at no charge, outside this scope. We'll get it on the calendar once the individual resets with Christy, Danielle, and Yasmine are done.
+
+---
+
 ## Next Steps
 
 1. We talk tomorrow, as planned.
 2. If this scope works for you, I'll send over a simple agreement to sign and we kick off with the $2,500 deposit.
 3. Individual conversations with Christy, Danielle, and Yasmine get scheduled this coming week.
+4. Claude training session for the team gets scheduled once the resets are done.
 
 Looking forward to it.
