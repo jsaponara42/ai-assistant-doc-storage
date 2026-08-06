@@ -43,7 +43,7 @@ You've already paid for a lot of infrastructure. The KPI dashboard Kaz built, th
 The core deliverable. A visual, prioritized map of where AI and automation can help across the business: sales follow-up, law firm status updates, ops team efficiencies, reporting, whatever discovery surfaces. Each item is tagged with owner, rough effort, and expected impact, so your team can use it with or without me in the room.
 
 **4. Quick wins, if discovery surfaces them. No promises.**
-This phase is discovery, not build. I can't commit to building anything before I know what's actually there. If something turns out to be an easy win along the way, most likely on the Salesforce side working alongside Kaz, since infrastructure like the KPI dashboard already exists and mainly needs rollout, I'll flag it. If it's small enough to fit inside this scope, I'll get it live. That's a possibility, not a promise.
+This phase is discovery, not build. I can't commit to building anything before I know what's actually there. If something turns out to be an easy win along the way, most likely on the Salesforce side working alongside Kaz, I'll flag it. If it's small enough to fit inside this scope, I'll get it live. That's a possibility, not a promise.
 
 **5. A clear recommendation on the hire question.**
 At the end, you get a straight answer. Based on what we found: do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was the real question behind the original four-month engagement. This delivers it in two, with a narrower scope.
