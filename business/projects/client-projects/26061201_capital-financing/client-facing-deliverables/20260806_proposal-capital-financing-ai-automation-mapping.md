@@ -53,7 +53,7 @@ At the end, you get a straight answer: based on what we found, do you need a ful
 To keep this tight, here's what's explicitly out of scope:
 
 - **Not ongoing people management.** I'm not running weekly meetings across departments, coaching the sales team, or managing anyone's performance. Direction flows to Christy; she leads her team.
-- **Not full SOP authorship for the whole company.** I'll document what I need to build the Opportunity Map. Building out a complete SOP library for every role is a separate, larger project.
+- **Not full SOP authorship for the whole company.** I'll document what I need to build the Opportunity Map (we'll still . Building out a complete SOP library for every role is a separate, larger project.
 - **Not a build-everything engagement.** Beyond the 1–2 quick wins above, this is diagnosis and prioritization, not implementation of everything on the list. Building out the rest of the map is future work, scoped after you see it.
 - **Not a Josh replacement.** The operational leadership role — being in the building (figuratively) day to day, driving the sales team, owning SOP rollout company-wide — is a different function. See the note at the end of this proposal.
 
