@@ -9,9 +9,9 @@ status: draft
 # Capital Financing: AI & Automation Opportunity Mapping
 **A focused, 2-month engagement**
 
+**Date:** August 6, 2026
 **Prepared for:** Howie Golden, CEO, Capital Financing
 **Prepared by:** John-Carlos, Blue Tusk
-**Date:** August 6, 2026
 
 ---
 
@@ -115,6 +115,11 @@ I can help in a lot of adjacent areas. The Opportunity Map, the Salesforce and a
 You've mentioned wanting the team trained on Claude. I already have a training doc built for them. I'll run a live, one-hour Claude training session for your team at no charge, outside this scope. We'll get it on the calendar once the individual resets with Christy, Danielle, and Yasmine are done.
 
 ---
+
+## Governing Terms
+
+This Statement of Work operates under the Master Services Agreement (MSA) between Blue Tusk LLC and Capital Financing. The MSA governs all terms and conditions applicable to this engagement, including confidentiality, liability, and ownership. Link to [MSA](https://www.bluetuskllc.com/terms-and-conditions)
+
 
 ## Next Steps
 
