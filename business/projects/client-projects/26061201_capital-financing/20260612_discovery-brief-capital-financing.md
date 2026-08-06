@@ -11,15 +11,32 @@ status: ok
 # Statement of Work & Project Structure
 
 **MSA:** HGCP11XX260518 (Ghost.Ops). **Superseded 2026-08-06:** new Blue Tusk MSA in signature at https://form.jotform.com/261617504957060, replacing the Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement. See `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`.
-**Scope:** AI and Automation Advisory Services — 4-month process automation mapping engagement
-**Pricing:** $2,500.00/month
-**Payment link:** https://ghostops.consulting/pay
+**Scope:** AI and Automation Advisory Services — re-scoped 2026-08-06 to an 8-week, tightly-bounded engagement following Josh Henderson's departure. See Deliverables Promised below.
+**Pricing:** $5,000 total ($2,500 at kickoff, $2,500 at completion). Separate from, and not credited against, the $2,500 already paid for month one under the original 4-month/$10,000 scope.
+**Payment link:** https://ghostops.consulting/pay `[TO CONFIRM: still the right link now that this bills under the Blue Tusk MSA rather than Ghost.Ops]`
 **Engagement start:** `[TO CONFIRM exact start date]`
-**Month 4 checkpoint:** Re-evaluate need for AI engineer hire based on progress to date
+**8-week checkpoint:** Deliver the Opportunity Map and a clear recommendation on whether an AI/automation engineer hire (full-time, fractional, or none) makes sense.
 
-> Note: this SOW is the signed, billed scope. The **Preliminary MSE Plan** later in this document (People/Process/Tools/Systems/Resources, Phantom Outputs, Sprint sequencing) is the broader Ghost.Ops Method diagnostic output produced *under* this SOW — not a separate contracted scope. Use this checklist for "what's contracted and where it stands"; use the MSE Plan for "what the diagnostic recommends."
+> Note: this SOW is the signed, billed scope. The **Preliminary MSE Plan** later in this document (People/Process/Tools/Systems/Resources, Phantom Outputs, Sprint sequencing) is the broader Ghost.Ops Method diagnostic output produced *under the original* SOW — not a separate contracted scope, and not fully superseded by the 2026-08-06 re-scope; it remains the underlying diagnostic reference. Use the **Deliverables Promised** section below for "what's contracted and where it stands" going forward; use the MSE Plan for "what the full diagnostic recommends" long-term.
+
+## Deliverables Promised (2026-08-06 Re-Scope)
+
+Everything currently committed to Howie under the 8-week, $5,000 engagement. Source: `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`, confirmed and expanded via the 2026-08-06 email thread — see [[xx_Project_Learnings]].
+
+- [ ] Individual reset conversations with Christy, Danielle, and Yasmine (week 1)
+- [ ] Full accounting of existing infrastructure before recommending new build: sit with Kaz on the existing Salesforce build (including the idle KPI dashboard); get the Segue functionality overview and resolve the Professional vs. Enterprise question
+- [ ] The Opportunity Map: a visual, prioritized map of AI/automation opportunities across the business, tagged by owner, effort, and impact
+- [ ] A clear recommendation on the AI/automation engineer hire question (full-time, fractional, or none)
+- [ ] Any quick win discovery surfaces cleanly (e.g., rolling out the existing KPI dashboard) — flagged as a possibility, not a guarantee
+- [ ] Complimentary, one-hour, full-team Claude training session, no charge, outside the paid scope — with Danielle specifically included, since she never received her original Claude onboarding instructions
+- [ ] KPI discussion with Christy (and Howie): define the "value drivers" for each role and what's actually measurable vs. not — advisory/definitional, not a Salesforce build (see "bounding Kaz" below)
+- [ ] Bounding Kaz's scope: give Kaz tightly-defined, highest-impact-first Salesforce build assignments rather than open-ended work, and confirm what he builds actually gets turned on and used by the team — to minimize his ~$3,000/month cost while maximizing what it produces
+
+**Explicitly not included** (see "What This Engagement Is Not" in the proposal for full detail): ongoing people management, full SOP authorship company-wide, building out the entire Opportunity Map, or taking over the operational-leadership function Josh held.
 
 ## Scope of Services (from signed order form)
+
+*(Original 4-month scope, signed under the Ghost.Ops MSA — superseded 2026-08-06 by the Deliverables Promised section above. Kept here for historical record; checked items remain valid regardless of re-scope.)*
 
 - [ ] Ongoing AI & Automation advisory access — Howie's standing personal resource for AI/automation questions, concerns, ideas, and personal AI use *(ongoing service, not a discrete deliverable — ping as needed)*
 - [ ] Map current state of tech stack and workflows (~~Josh as key resource~~ **`[TO CONFIRM]` Josh Henderson offboarded 2026-08-06 — reassign to JC; see Engagement Continuity below**)
