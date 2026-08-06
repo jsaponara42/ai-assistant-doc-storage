@@ -192,7 +192,7 @@ Assemble and render the Call Brief using the format below. Render it as a widget
 After rendering the widget, save the Call Brief as a markdown file to the vault at:
 
 ```
-business/projects/[company-name-slug]/YYYY-MM-DD-call-brief-[company-name-slug].md
+business/projects/internal/sales-call-prep/YYYYMMDD_call-brief-[company-name-slug].md
 ```
 
 Use today's date and a lowercase-hyphenated version of the company name for the slug. Create the directory if it doesn't exist. Confirm to JC where the file was saved.
