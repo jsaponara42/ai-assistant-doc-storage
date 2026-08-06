@@ -6,7 +6,7 @@ ai: claude
 status: draft
 ---
 
-# Proposal 
+# Proposal + SOW
 
 Capital Financing: AI & Automation Opportunity Mapping - **A focused, 2-month engagement**
 
