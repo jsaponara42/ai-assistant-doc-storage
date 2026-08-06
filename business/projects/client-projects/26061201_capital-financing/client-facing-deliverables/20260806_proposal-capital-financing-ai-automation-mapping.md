@@ -6,8 +6,9 @@ ai: claude
 status: draft
 ---
 
-# Capital Financing: AI & Automation Opportunity Mapping
-**A focused, 2-month engagement**
+# Proposal 
+
+Capital Financing: AI & Automation Opportunity Mapping - **A focused, 2-month engagement**
 
 **Date:** August 6, 2026
 **Prepared for:** Howie Golden, CEO, Capital Financing
@@ -120,11 +121,11 @@ You've mentioned wanting the team trained on Claude. I already have a training d
 
 This Statement of Work operates under the Master Services Agreement (MSA) between Blue Tusk LLC and Capital Financing. The MSA governs all terms and conditions applicable to this engagement, including confidentiality, liability, and ownership. Link to [MSA](https://www.bluetuskllc.com/terms-and-conditions)
 
-
+---
 ## Next Steps
 
 1. We talk tomorrow, as planned.
-2. Sign the Blue Tusk MSA: https://form.jotform.com/261617504957060. This replaces the earlier Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement.
+2. Sign the Blue Tusk MSA: [Link To Sign](https://form.jotform.com/261617504957060). This replaces the earlier Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement.
 3. Once signed, we kick off with the $2,500 deposit.
 4. Individual conversations with Christy, Danielle, and Yasmine get scheduled this coming week.
 5. Claude training session for the team gets scheduled once the resets are done.
