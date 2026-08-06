@@ -10,7 +10,7 @@ status: ok
 
 # Statement of Work & Project Structure
 
-**MSA:** HGCP11XX260518 (Ghost.Ops). **Superseded 2026-08-06:** new Blue Tusk MSA in signature at https://form.jotform.com/261617504957060, replacing the Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement. See `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`.
+**MSA:** 26061201. **Superseded 2026-08-06:** new Blue Tusk MSA in signature at https://form.jotform.com/261617504957060, replacing the Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement. See `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`.
 **Scope:** AI and Automation Advisory Services — re-scoped 2026-08-06 to an 8-week, tightly-bounded engagement following Josh Henderson's departure. See Deliverables Promised below.
 **Pricing:** $5,000 total ($2,500 at kickoff, $2,500 at completion). Separate from, and not credited against, the $2,500 already paid for month one under the original 4-month/$10,000 scope.
 **Payment link:** https://ghostops.consulting/pay `[TO CONFIRM: still the right link now that this bills under the Blue Tusk MSA rather than Ghost.Ops]`
