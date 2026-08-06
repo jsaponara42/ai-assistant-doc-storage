@@ -119,8 +119,9 @@ You've mentioned wanting the team trained on Claude. I already have a training d
 ## Next Steps
 
 1. We talk tomorrow, as planned.
-2. If this scope works for you, I'll send over a simple agreement to sign and we kick off with the $2,500 deposit.
-3. Individual conversations with Christy, Danielle, and Yasmine get scheduled this coming week.
-4. Claude training session for the team gets scheduled once the resets are done.
+2. Sign the Blue Tusk MSA: https://form.jotform.com/261617504957060. This replaces the earlier Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement.
+3. Once signed, we kick off with the $2,500 deposit.
+4. Individual conversations with Christy, Danielle, and Yasmine get scheduled this coming week.
+5. Claude training session for the team gets scheduled once the resets are done.
 
 Looking forward to it.

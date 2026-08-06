@@ -10,7 +10,7 @@ status: ok
 
 # Statement of Work & Project Structure
 
-**MSA:** HGCP11XX260518
+**MSA:** HGCP11XX260518 (Ghost.Ops). **Superseded 2026-08-06:** new Blue Tusk MSA in signature at https://form.jotform.com/261617504957060, replacing the Ghost.Ops MSA now that Ghost.Ops isn't part of this engagement. See `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`.
 **Scope:** AI and Automation Advisory Services — 4-month process automation mapping engagement
 **Pricing:** $2,500.00/month
 **Payment link:** https://ghostops.consulting/pay
