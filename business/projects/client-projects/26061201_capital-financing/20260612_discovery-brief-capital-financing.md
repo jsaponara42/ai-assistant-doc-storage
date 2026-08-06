@@ -22,7 +22,7 @@ status: ok
 ## Scope of Services (from signed order form)
 
 - [ ] Ongoing AI & Automation advisory access — Howie's standing personal resource for AI/automation questions, concerns, ideas, and personal AI use *(ongoing service, not a discrete deliverable — ping as needed)*
-- [ ] Map current state of tech stack and workflows (Josh as key resource)
+- [ ] Map current state of tech stack and workflows (~~Josh as key resource~~ **`[TO CONFIRM]` Josh Henderson offboarded 2026-08-06 — reassign to JC; see Engagement Continuity below**)
   - [x] Discovery call brief completed — see dossier below
   - [x] Current-state workflow map (5 core workflows + Shared Intake Support sub-layer) — see [[20260616-Workflow-Map-Capital-Financing-merged]]
   - [ ] Workflow 6 — Repayment / Payoffs / Collections spine (flagged in workflow map as not yet mapped)
@@ -40,6 +40,25 @@ status: ok
   - [ ] *(log further quick wins here as they're identified/shipped)*
 - [ ] Long-term AI and automation vision for Capital Financing (map)
 - [ ] End of Month 4 — re-evaluate need for AI engineer hire based on progress
+
+## Engagement Continuity — Josh Henderson Offboarding (2026-08-06)
+
+Josh Henderson (partner, Ghost.Ops fractional COO on this account) was let go by Howie — see [[xx_Project_Learnings]] for the full context. JC is now the sole Ghost.Ops point of contact. Handoff detail from Josh's offboarding email:
+
+**System access**
+- Microsoft Suite — via `ghostadmin@injuryfinancing.com`. Nick can reset or terminate this.
+- Salesforce login — issued through Kaz, who can terminate it.
+
+**Training materials created by Josh's team** — live in the training-development folders and individual folders in SharePoint; still accessible there.
+
+**Vendor status — no information held outside what Howie already has** for Virtrify, Marketing Boss, or Segue.
+
+**Segue — now identified as the "Salesforce-native pre-settlement vendor" referenced in Technology Stack below.** Status: pending a meeting until Capital Financing has its full final set of questions ready — that's where things were left off. A vendor questionnaire document exists in the Segue Vendor folder but was never populated by the team. Three open items remain:
+- Whether Segue will agree to be set up on Capital Financing's professional edition of Salesforce, or not.
+- Final assurances on the ability to fully and accurately migrate Mighty data to Salesforce.
+- Danielle's remaining final questions (content not specified in the offboarding email).
+
+**Sales team training — stalled.** Early this week, the sales team was asked to attend training this Friday, built from Howie's shared dictation notes. **Nobody responded to the invite.** The raw source material Josh used is in Howie's email — searchable via the subject line "Howie — Here are your Ghost.Notes." `[TO CONFIRM: whether this training gets rescheduled/re-owned by JC, and whether the sales team's non-response to the invite itself is worth flagging alongside the existing accountability issues in the Sales Performance & Accountability Framework]`
 
 ---
 
@@ -119,7 +138,7 @@ Engagement entered through attorney/client referral. Phase One active. Ghost.Ops
 
 **Mighty.** Current financial software. Static, no API, no Salesforce integration. Functional but no growth path. Replacement or migration decision pending.
 
-**Salesforce-native pre-settlement vendor.** Under evaluation. Demo pending. If the platform meets the bar on workflow, interface, reporting, and a documented API, it likely beats a custom Mighty rebuild on cost, integration, and time to value. This decision sits above Phase 1 Salesforce workflow build in the sequencing.
+**Salesforce-native pre-settlement vendor — Segue.** Under evaluation; demo pending. If the platform meets the bar on workflow, interface, reporting, and a documented API, it likely beats a custom Mighty rebuild on cost, integration, and time to value. This decision sits above Phase 1 Salesforce workflow build in the sequencing. **Open per Josh's 2026-08-06 offboarding handoff:** (1) whether Segue will agree to be set up on Capital Financing's professional edition of Salesforce, (2) final assurances on fully/accurately migrating Mighty data to Salesforce, (3) Danielle's remaining questions. A vendor questionnaire in the Segue Vendor folder was drafted but never populated — next step before resuming vendor contact.
 
 **GoHighLevel.** Michael's side peptide company. Not Capital Financing infrastructure.
 

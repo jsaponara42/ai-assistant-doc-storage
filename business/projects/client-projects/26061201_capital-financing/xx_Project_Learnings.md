@@ -14,6 +14,18 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-06 — Josh Henderson (partner, Ghost.Ops) fired as fractional COO by Howie
+
+Howie fired Josh from his fractional COO role on this account. Stated reason: too hard to work with for Christy's three key operations people — Danielle (close to Howie, described elsewhere as "like family"), Christy, and Yasmine. This follows directly from the 2026-08-05 entry below (client friction that delayed sending payment links) — read together, these look like the same underlying pattern (working style causing friction with the client side) surfacing twice in quick succession, not two unrelated incidents.
+
+**Takeaway to apply here:** treat this as a pattern, not an isolated event, when deciding how the partnership with Josh/Ghost.Ops operates going forward on client-facing roles — especially roles (like fractional COO) that require ongoing day-to-day relationship management with a client's existing staff, as opposed to project-based delivery work. Worth a direct conversation with Josh about what happened here before assigning him another client-facing operational role.
+
+**Immediate operational impact:** JC is now the sole Ghost.Ops point of contact on this account. See the new "Engagement Continuity" section in [[20260612_discovery-brief-capital-financing]] for the offboarding handoff details (system access, vendor status, open items Josh was carrying).
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-05 — Push for automatic/consistent payment, not a link-then-ask-later pattern
 
 Working with Josh Henderson (partner, runs Ghost.Ops) on this account, some friction came up with the client that's delaying payment — the payment links haven't gone out yet because it would feel awkward given the difficulty. Not passing judgment on how Josh handles his own send-a-link-then-ask-for-more-later approach, but it's not the model I want for my side of things.
