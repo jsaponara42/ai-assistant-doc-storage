@@ -21,7 +21,7 @@ The original engagement was scoped over four months: map the tech stack and work
 
 Josh is no longer in that role. This proposal re-scopes what's left into something smaller and tighter. On our call you said you want progress you can see, you don't want to manage another vendor relationship, and you want a different working style than the one the team experienced with Josh.
 
-We're not starting from zero. The first stretch of this engagement already produced a documented current-state map of your five core workflows: referral through funding, sales handling, conference marketing, outbound cadence, and the shared intake layer. It also produced a running list of the problems and automation opportunities you've flagged, plus the first two SOPs. That work carries forward into this phase. It's the starting material for the Opportunity Map, not something we're redoing.
+We're not starting from zero. The first stretch of this engagement already produced a documented current-state map of five core workflows: referral through funding, sales handling, conference marketing, outbound cadence, and the shared intake layer. It also produced a running list of the problems and automation opportunities you've flagged, plus the first two SOPs. That work carries forward into this phase. It's the starting material for the Opportunity Map, not something we're redoing.
 
 This engagement is intentionally narrow. It is not a replacement for the fractional COO role Josh held. That's different work, outside my background, and I've addressed it separately at the end of this proposal.
 
