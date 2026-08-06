@@ -21,6 +21,8 @@ Our original engagement was scoped to run over four months: map the tech stack a
 
 With Josh no longer in that role, this proposal re-scopes what's left of that original engagement into something smaller, tighter, and faster — built around what you told me directly on our call: you want progress you can see, you don't want to manage another vendor relationship, and you want a very different working style than what the team experienced with Josh.
 
+**We're not starting from zero.** The first stretch of this engagement already produced a documented current-state map of your five core workflows — referral through funding, sales handling, conference marketing, outbound cadence, and the shared intake layer — plus a running, prioritized list of the specific problems and automation opportunities you've flagged along the way, and the first couple of quick-win SOPs already drafted. That work carries forward directly into this phase. It's the starting material for the Opportunity Map below, not something we're redoing.
+
 This is that engagement. It is intentionally narrow. It is not a replacement for the fractional COO role Josh held — that's a different kind of work, and I've addressed it separately at the end of this proposal so it isn't buried inside this scope.
 
 ---
@@ -40,8 +42,8 @@ You've already paid for a lot of infrastructure — the KPI dashboard Kaz built,
 **3. The Opportunity Map.**
 The core deliverable: a single, visual, prioritized map of where AI and automation can help across the business — sales follow-up, law firm status updates, Yasmine's team, reporting, whatever the discovery surfaces. Each item is tagged with who owns it, rough effort, and expected impact, so it's usable by your team with or without me in the room.
 
-**4. One or two things you can actually see working.**
-You told me directly you have "nothing to show for it" after months of investment. I don't want this engagement to end the same way. So this includes surfacing and switching on 1–2 quick wins that are already 80% built — most likely, getting the existing Kaz-built KPI dashboard actually rolled out and in front of Christy and the sales team, and one additional item we'll identify together in week one (a strong early candidate: automating the routine "checking in with the law firm on case status" emails currently done manually by Yasmine's team).
+**4. Quick wins, if discovery surfaces them — no promises.**
+This phase is discovery, not build. I can't responsibly commit to building anything before I know what's actually there. That said, if something turns out to be a genuinely easy win along the way — most likely on the Salesforce side, working alongside Kaz, since a lot of the infrastructure (like the KPI dashboard) already exists and mainly needs rollout rather than new build — I'll flag it, and if it's small enough to fit inside this scope, I'll get it live. That's a real possibility I want you to know about going in, not a deliverable I'm promising here.
 
 **5. A clear recommendation on the hire question.**
 At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this delivers it in two because of our narrower scope.
@@ -53,8 +55,8 @@ At the end, you get a straight answer: based on what we found, do you need a ful
 To keep this tight, here's what's explicitly out of scope:
 
 - **Not ongoing people management.** I'm not running weekly meetings across departments, coaching the sales team, or managing anyone's performance. Direction flows to Christy; she leads her team.
-- **Not full SOP authorship for the whole company.** I'll document what I need to build the Opportunity Map (we'll still . Building out a complete SOP library for every role is a separate, larger project.
-- **Not a build-everything engagement.** Beyond the 1–2 quick wins above, this is diagnosis and prioritization, not implementation of everything on the list. Building out the rest of the map is future work, scoped after you see it.
+- **Not full SOP authorship for the whole company.** I'll document the SOPs I need to build the Opportunity Map. Building out a complete SOP library for every role is a separate, larger project.
+- **Not a build-everything engagement.** This is fundamentally diagnosis and prioritization, not implementation. Any quick win that gets switched on along the way (see #4) is a bonus if discovery turns one up cleanly — not a guarantee, and not a substitute for scoping the rest of the map as its own future work.
 - **Not a Josh replacement.** The operational leadership role — being in the building (figuratively) day to day, driving the sales team, owning SOP rollout company-wide — is a different function. See the note at the end of this proposal.
 
 ---
@@ -64,9 +66,9 @@ To keep this tight, here's what's explicitly out of scope:
 | Weeks | Focus                                                                                               |
 | ----- | --------------------------------------------------------------------------------------------------- |
 | 1-2   | Individual resets with Christy, Danielle, Yasmine. Kickoff call with Kaz. Segue overview requested. |
-| 2-3   | Finish discovery. Confirm the 1–2 quick-win targets with you directly.                              |
-| 3–5   | Build the Opportunity Map. Roll out the KPI dashboard quick win. Build the second quick win.        |
-| 6–7   | Refine the map based on what we learn getting the quick wins live. Buffer.                          |
+| 2-3   | Finish discovery. Flag any quick win worth switching on now, if one's there.                        |
+| 3–5   | Build the Opportunity Map. Get any flagged quick win live alongside it.                             |
+| 6–7   | Refine the map. Buffer.                                                                              |
 | 8     | Present the Opportunity Map and hire recommendation to you directly.                                |
 
 **One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project — it doesn't change the total scope, just shifts the calendar slightly around that window.
@@ -86,10 +88,10 @@ This is a fixed-fee, defined-scope engagement — not a retainer, and not time-a
 
 ## What Happens After These Two Months
 
-This is the part I want to be upfront about now, not figure out later. At the end of the 8 weeks, you'll have the Opportunity Map, the two quick wins live, and a clear recommendation. From there, you have three real options — and I'm not going to push you toward any one of them:
+This is the part I want to be upfront about now, not figure out later. At the end of the 8 weeks, you'll have the Opportunity Map and a clear recommendation — plus any quick win that came together cleanly along the way. From there, you have three real options — and I'm not going to push you toward any one of them:
 
 1. **Take it in-house.** The map is built to be usable by your team without me. Christy and the team execute against it directly. Engagement ends cleanly here if that's the right call.
-2. **Continue with Blue Tusk, scoped one deliverable at a time.** If there are specific items on the map you want built, we scope and price those individually as their own small projects — not an open-ended retainer.
+2. **Continue with Blue Tusk.** Depending on what the map turns up, this could look like scoping and pricing specific build items individually as their own small projects, or a tightly-scoped ongoing advisory retainer if there's enough continuing need to justify it — either way, a defined, bounded arrangement, not an open-ended one. We'd figure out the right shape together based on what this phase actually surfaces.
 3. **Hire dedicated AI/automation talent.** If the map shows there's genuinely enough ongoing automation work to justify it, you bring someone on (full-time or fractional) and the map becomes their onboarding document — they start from a prioritized plan instead of a blank page.
 
 Whichever direction you choose, there's no obligation to continue past what's outlined here.
