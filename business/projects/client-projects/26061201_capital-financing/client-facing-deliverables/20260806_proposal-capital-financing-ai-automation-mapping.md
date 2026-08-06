@@ -7,7 +7,7 @@ status: draft
 ---
 
 # Capital Financing — AI & Automation Opportunity Mapping
-**A focused, ~3-month engagement**
+**A focused, 2-month engagement**
 
 **Prepared for:** Howie Golden, CEO, Capital Financing
 **Prepared by:** John-Carlos, Blue Tusk
@@ -46,7 +46,7 @@ The core deliverable: a single, visual, prioritized map of where AI and automati
 This phase is discovery, not build. I can't responsibly commit to building anything before I know what's actually there. That said, if something turns out to be a genuinely easy win along the way — most likely on the Salesforce side, working alongside Kaz, since a lot of the infrastructure (like the KPI dashboard) already exists and mainly needs rollout rather than new build — I'll flag it, and if it's small enough to fit inside this scope, I'll get it live. That's a real possibility I want you to know about going in, not a deliverable I'm promising here.
 
 **5. A clear recommendation on the hire question.**
-At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this phase completes it in the remaining three.
+At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this delivers it in two because of our narrower scope.
 
 ---
 
@@ -61,37 +61,38 @@ To keep this tight, here's what's explicitly out of scope:
 
 ---
 
-## Expected Timeline — About 3 Months
+## Expected Timeline — 8 Weeks
 
 | Weeks | Focus                                                                                               |
 | ----- | --------------------------------------------------------------------------------------------------- |
 | 1-2   | Individual resets with Christy, Danielle, Yasmine. Kickoff call with Kaz. Segue overview requested. |
-| 3-4   | Finish discovery. Flag any quick win worth switching on now, if one's there.                        |
-| 5–8   | Build the Opportunity Map. Get any flagged quick win live alongside it.                             |
-| 9–11  | Refine the map. Buffer.                                                                              |
-| 12    | Present the Opportunity Map and hire recommendation to you directly.                                |
+| 2-3   | Finish discovery. Flag any quick win worth switching on now, if one's there.                        |
+| 3–5   | Build the Opportunity Map. Get any flagged quick win live alongside it.                             |
+| 6–7   | Refine the map. Buffer.                                                                              |
+| 8     | Present the Opportunity Map and hire recommendation to you directly.                                |
 
-**One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the roughly-three-month estimate above rather than surprising you with it mid-project — it doesn't change the total scope, just shifts the calendar slightly around that window.
+**One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project — it doesn't change the total scope, just shifts the calendar slightly around that window.
 
 ---
 
 ## Investment
 
-**Where the pricing comes from.** The original engagement was scoped at $10,000 total — $2,500/month over 4 months. That timeline and fee reflected the reality of the original arrangement: with Josh in the fractional COO role, the engagement was reaching into many other parts of the organization beyond the core AI/automation scope — the here-and-there asks that come with a COO-level relationship, not a narrowly-scoped one.
+**Where the pricing comes from.** The original engagement was scoped at $10,000 total — $2,500/month over 4 months. That reflected the reality of the original arrangement: with Josh in the fractional COO role, the engagement was reaching into many other parts of the organization beyond the core AI/automation scope — the here-and-there asks that come with a COO-level relationship, not a narrowly-scoped one.
 
-**This phase, credited for month one.** Real progress came out of that first month — the workflow map, the running problem/opportunity list, the first SOPs — and $2,500 was already paid for it. Crediting that against the original $10,000 total, what's left is **$7,500**, delivered over the remaining **~3 months**, at the same $2,500/month cadence as the original engagement.
+**That engagement is ending here.** Real progress came out of month one — the workflow map, the running problem/opportunity list, the first SOPs — and the $2,500 already paid for it stands as-is. This isn't a continuation of that billing; it's a fresh, tightly-scoped proposal for what comes next.
 
-- $2,500 due at kickoff
-- $2,500 due at the month-2 mark
+**Total project fee: $5,000**
+
+- $2,500 due at signing / kickoff
 - $2,500 due at completion (delivery of the Opportunity Map and hire recommendation)
 
-This is a fixed-fee, defined-scope engagement — not an open-ended retainer. If discovery surfaces work that clearly falls outside this scope, I'll flag it and we'll agree on next steps before any additional cost, rather than it creeping into this project.
+This is a fixed-fee, defined-scope engagement — not a retainer, and not time-and-materials. If discovery surfaces work that clearly falls outside this scope, I'll flag it and we'll agree on next steps before any additional cost, rather than it creeping into this project.
 
 ---
 
-## What Happens After This Phase
+## What Happens After These Two Months
 
-This is the part I want to be upfront about now, not figure out later. At the end of this phase, you'll have the Opportunity Map and a clear recommendation — plus any quick win that came together cleanly along the way. From there, you have three real options — and I'm not going to push you toward any one of them:
+This is the part I want to be upfront about now, not figure out later. At the end of the 8 weeks, you'll have the Opportunity Map and a clear recommendation — plus any quick win that came together cleanly along the way. From there, you have three real options — and I'm not going to push you toward any one of them:
 
 1. **Take it in-house.** The map is built to be usable by your team without me. Christy and the team execute against it directly. Engagement ends cleanly here if that's the right call.
 2. **Continue with Blue Tusk.** Depending on what the map turns up, this could look like scoping and pricing specific build items individually as their own small projects, or a tightly-scoped ongoing advisory retainer if there's enough continuing need to justify it — either way, a defined, bounded arrangement, not an open-ended one. We'd figure out the right shape together based on what this phase actually surfaces.
@@ -112,7 +113,7 @@ That's real work, and it's work I can help scope — but it's a different kind o
 ## Next Steps
 
 1. We talk tomorrow, as planned.
-2. If this scope and structure work for you, I'll send over a simple agreement to sign, and we kick off with the first $2,500 installment.
+2. If this scope and structure work for you, I'll send over a simple agreement to sign, and we kick off with the $2,500 deposit.
 3. Individual conversations with Christy, Danielle, and Yasmine get scheduled for this coming week.
 
 Looking forward to it.
