@@ -481,6 +481,7 @@ Based on CEO strategic conversation (2026-06), a new accountability and measurem
 - CEO explicitly wants advice on whether this is a training issue (some training has already been done) or needs a different operational fix, and wants standard operating procedures/workflows that both build consultants' communication skills and set clear expectations with law firms about who to contact.
 - CEO's stated goal: he should not need to be managing accounts that belong to a financial consultant. This directly ties to his broader IOV goal of stepping out of day-to-day sales management (see discovery brief).
 - Logged as a new diagnostic item — see PO-007 in the discovery brief's Diagnostic Register.
+- **Confirmed (2026-08-06 email):** The stalled Friday sales-team meeting (see Engagement Continuity in the discovery brief) was specifically Josh's planned recurring weekly call with financial consultants/BDRs — intended to build accountability and traction, and directly tied to a "shift client communications from CEO to financial consultants" note. In other words, this recurring call was meant to be the operational mechanism for fixing PO-007. It never launched before Josh's departure. JC plans to eventually meet the FCs to understand how they interface with the rest of the team, but not immediately.
 
 ## Staffing Decisions & Their Workflow Impact
 

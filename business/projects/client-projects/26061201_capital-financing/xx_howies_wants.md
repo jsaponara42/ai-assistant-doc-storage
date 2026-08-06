@@ -47,9 +47,10 @@ Not build items — these describe how Howie wants the day-to-day engagement to 
 
 - **Weekly status update.** Howie wants roughly weekly updates on what we're doing — a recap of work done, the current plan, and the next goal. Suggested format: a short weekly email.
 - **Acknowledge, don't go silent.** Howie sends a high volume of ideas by email throughout the day, unprompted. He doesn't expect a substantive response to all of them, but he wants confirmation each one was seen — even a quick "got it, thinking about it" — rather than silence. This is now also noted in the discovery brief's Howie profile.
+- **Training gap, confirmed again (2026-08-06 email):** Danielle never received her original Claude onboarding instructions. Howie wants training "taken to the next level." Reinforces the complimentary full-team Claude session already offered in the 2026-08-06 proposal — make sure Danielle specifically gets covered, not just the consultants.
 
 ## Open Questions
-- **Monthly BDR calls.** Howie holds monthly calls with his business development reps. Worth understanding what's covered, what goals/targets are set, and how those goals are determined — not our area to run, but useful context for the sales-productivity work (PO-005 in the discovery brief). Not yet scoped; follow up to learn more. Source: Braindump 2026-08-05.
+- **Monthly BDR calls.** Howie holds monthly calls with his business development reps. Worth understanding what's covered, what goals/targets are set, and how those goals are determined — not our area to run, but useful context for the sales-productivity work (PO-005 in the discovery brief). Not yet scoped; follow up to learn more. Source: Braindump 2026-08-05. **Clarified (2026-08-06 email):** These appear related to, or the same as, the weekly financial-consultant/BDR accountability calls Josh had planned but never launched (the stalled Friday meeting) — tied directly to PO-007 (Consultant Authority & Client Routing) in the discovery brief. Not confirmed whether monthly and weekly refer to the same meeting or two distinct ones. `[TO CONFIRM]`
 
 ## Next steps
 - Confirm with JC whether Dictation #2's process description should be cross-referenced into the existing Conference-Process SOP.

@@ -14,6 +14,24 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-06 — Email exchange with Howie: costs, scope discipline, and a request that cuts against the proposal's design
+
+Several threads worth preserving from this back-and-forth:
+
+**Kaz's real cost is now known: ~$3,000/month.** Howie is cost-sensitive about paying Kaz on top of the Blue Tusk fee and directly asked whether JC could build the Salesforce automation himself instead. JC's answer: yes, can code and build in Salesforce, but full SF development is out of scope for the 8-week engagement and would need real ramp-up time on their specific instance. More efficient to keep Kaz, but manage him tightly — clear bounds, highest-impact-first, and actually turn on what he builds (directly relevant given the KPI dashboard Kaz already built has been sitting unused — see workflow map).
+
+**The Friday meeting mystery is resolved.** It was Josh's planned recurring weekly call with financial consultants/BDRs — meant to build accountability and traction, and tied to the "shift client communications from CEO to financial consultants" note, i.e., the intended fix for what's now logged as PO-007. It never launched. See the workflow map's Consultant Authority & Client Routing section.
+
+**Danielle never received her Claude onboarding instructions.** Howie wants training "taken to the next level." Reinforces the complimentary full-team Claude session already offered in the 2026-08-06 proposal — worth confirming Danielle specifically gets covered, since this is now the second documented adoption gap (after the team's general Claude-subscription underuse).
+
+**Howie wants to join the first part of tomorrow's call with Christy, Yasmine, and Danielle**, framed as forecasting the proposal to them, before JC and Howie continue solo. This is a deviation from the proposal's explicit design ("individual conversations... not a group meeting") — worth watching whether the individual 1:1 resets still happen separately afterward, or whether this group framing ends up substituting for them. Not necessarily a problem, but flagging since it's a change from what was scoped and promised in writing.
+
+**Scope discipline, stated explicitly.** JC named the Josh pattern directly to Howie in writing: not letting scope expand to the point where "it feels like nothing is getting done," concrete near-term deliverables first, widen scope later if it makes sense. Awaiting Howie's response, but worth treating this as the standing frame for the engagement regardless.
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-06 (same day, follow-up) — Reset call with Howie: root cause confirmed, new operating model set
 
 Spoke directly with Howie the same day Josh was let go. Key points worth preserving:
