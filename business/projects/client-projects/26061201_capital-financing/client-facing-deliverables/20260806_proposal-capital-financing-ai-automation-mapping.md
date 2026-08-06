@@ -6,7 +6,7 @@ ai: claude
 status: draft
 ---
 
-# Capital Financing — AI & Automation Opportunity Mapping
+# Capital Financing: AI & Automation Opportunity Mapping
 **A focused, 2-month engagement**
 
 **Prepared for:** Howie Golden, CEO, Capital Financing
@@ -17,36 +17,36 @@ status: draft
 
 ## Where This Picks Up
 
-Our original engagement was scoped to run over four months: map the tech stack and workflows, hand you a visual, prioritized picture of where AI and automation could help, and at the end, make a clear call on whether a dedicated AI/automation hire made sense. Josh was leading that work day to day, with me supporting the AI and automation side.
+The original engagement was scoped over four months: map the tech stack and workflows, produce a visual, prioritized picture of where AI and automation could help, and decide whether a dedicated AI or automation hire made sense. Josh led that work day to day. I supported the AI and automation side.
 
-With Josh no longer in that role, this proposal re-scopes what's left of that original engagement into something smaller, tighter, and faster — built around what you told me directly on our call: you want progress you can see, you don't want to manage another vendor relationship, and you want a very different working style than what the team experienced with Josh.
+Josh is no longer in that role. This proposal re-scopes what's left into something smaller and tighter. On our call you said you want progress you can see, you don't want to manage another vendor relationship, and you want a different working style than the one the team experienced with Josh.
 
-**We're not starting from zero.** The first stretch of this engagement already produced a documented current-state map of your five core workflows — referral through funding, sales handling, conference marketing, outbound cadence, and the shared intake layer — plus a running, prioritized list of the specific problems and automation opportunities you've flagged along the way, and the first couple of quick-win SOPs already drafted. That work carries forward directly into this phase. It's the starting material for the Opportunity Map below, not something we're redoing.
+We're not starting from zero. The first stretch of this engagement already produced a documented current-state map of your five core workflows: referral through funding, sales handling, conference marketing, outbound cadence, and the shared intake layer. It also produced a running list of the problems and automation opportunities you've flagged, plus the first two SOPs. That work carries forward into this phase. It's the starting material for the Opportunity Map, not something we're redoing.
 
-This is that engagement. It is intentionally narrow. It is not a replacement for the fractional COO role Josh held — that's a different kind of work, and I've addressed it separately at the end of this proposal so it isn't buried inside this scope.
+This engagement is intentionally narrow. It is not a replacement for the fractional COO role Josh held. That's different work, outside my background, and I've addressed it separately at the end of this proposal.
 
 ---
 
 ## What This Engagement Is
 
-A focused sprint to answer the two questions you actually asked for at the start of this: **where are the real automation opportunities in this business, and do you need to hire someone full-time to go after them?**
+A focused sprint to answer two questions: where are the real automation opportunities in this business, and do you need to hire someone full time to go after them?
 
 Concretely, that means:
 
 **1. A reset with your leadership team.**
-Before anything gets built or mapped, I'll do individual conversations with Christy, Danielle, and Yasmine — not a group meeting, not a presentation. The goal is simple: they meet me, they understand this is a different working relationship than the one they had with Josh, and I hear directly from each of them what's actually going on in their part of the business. This happens in week one.
+Before anything gets built or mapped, I'll meet with Christy, Danielle, and Yasmine individually. Not a group meeting. They meet me, they see this is a different working relationship than the one they had with Josh, and I hear directly from each of them what's going on in their part of the business. This happens in week one.
 
 **2. A full accounting of what already exists.**
-You've already paid for a lot of infrastructure — the KPI dashboard Kaz built, the reporting inside Salesforce, the SharePoint training folders. Before I recommend building anything new, I'm sitting down with Kaz to understand exactly what's already there, what's usable today, and what's sitting idle because no one was ever trained on it or told to use it. Same with Segue — I'll get the full functionality overview you already requested, and help you get a straight answer on the Professional vs. Enterprise Salesforce question, since that decision sits upstream of several others.
+You've already paid for a lot of infrastructure. The KPI dashboard Kaz built, the reporting inside Salesforce, the SharePoint training folders. Before I recommend building anything new, I'm sitting down with Kaz to see what's already there, what's usable today, and what's sitting idle because no one was trained on it. Same with Segue. I'll get the full functionality overview you already requested and help you get a straight answer on the Professional vs. Enterprise Salesforce question, since that decision sits upstream of several others.
 
 **3. The Opportunity Map.**
-The core deliverable: a single, visual, prioritized map of where AI and automation can help across the business — sales follow-up, law firm status updates, Yasmine's team, reporting, whatever the discovery surfaces. Each item is tagged with who owns it, rough effort, and expected impact, so it's usable by your team with or without me in the room.
+The core deliverable. A visual, prioritized map of where AI and automation can help across the business: sales follow-up, law firm status updates, Yasmine's team, reporting, whatever discovery surfaces. Each item is tagged with owner, rough effort, and expected impact, so your team can use it with or without me in the room.
 
-**4. Quick wins, if discovery surfaces them — no promises.**
-This phase is discovery, not build. I can't responsibly commit to building anything before I know what's actually there. That said, if something turns out to be a genuinely easy win along the way — most likely on the Salesforce side, working alongside Kaz, since a lot of the infrastructure (like the KPI dashboard) already exists and mainly needs rollout rather than new build — I'll flag it, and if it's small enough to fit inside this scope, I'll get it live. That's a real possibility I want you to know about going in, not a deliverable I'm promising here.
+**4. Quick wins, if discovery surfaces them. No promises.**
+This phase is discovery, not build. I can't commit to building anything before I know what's actually there. If something turns out to be an easy win along the way, most likely on the Salesforce side working alongside Kaz, since infrastructure like the KPI dashboard already exists and mainly needs rollout, I'll flag it. If it's small enough to fit inside this scope, I'll get it live. That's a possibility, not a promise.
 
 **5. A clear recommendation on the hire question.**
-At the end, you get a straight answer: based on what we found, do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was always the real question behind the original four-month engagement — this delivers it in two because of our narrower scope.
+At the end, you get a straight answer. Based on what we found: do you need a full-time AI/automation engineer, a fractional one, or nothing more than the roadmap itself? That was the real question behind the original four-month engagement. This delivers it in two, with a narrower scope.
 
 ---
 
@@ -54,10 +54,10 @@ At the end, you get a straight answer: based on what we found, do you need a ful
 
 To keep this tight, here's what's explicitly out of scope:
 
-- **Not ongoing people management.** I'm not running weekly meetings across departments, coaching the sales team, or managing anyone's performance. Direction flows to Christy; she leads her team.
+- **Not ongoing people management.** I'm not running weekly meetings across departments, coaching the sales team, or managing anyone's performance. Direction flows to Christy. She leads her team.
 - **Not full SOP authorship for the whole company.** I'll document the SOPs I need to build the Opportunity Map. Building out a complete SOP library for every role is a separate, larger project.
-- **Not a build-everything engagement.** This is fundamentally diagnosis and prioritization, not implementation. Any quick win that gets switched on along the way (see #4) is a bonus if discovery turns one up cleanly — not a guarantee, and not a substitute for scoping the rest of the map as its own future work.
-- **Not a Josh replacement.** The operational leadership role — being in the building (figuratively) day to day, driving the sales team, owning SOP rollout company-wide — is a different function. See the note at the end of this proposal.
+- **Not a build-everything engagement.** This is diagnosis and prioritization, not implementation. Any quick win that gets switched on along the way (see #4) is a bonus if discovery turns one up cleanly. It doesn't substitute for scoping the rest of the map as its own future work.
+- **Not a Josh replacement.** The operational leadership role, driving the sales team day to day and owning SOP rollout company-wide, is different work. See the note at the end of this proposal.
 
 ---
 
@@ -71,49 +71,49 @@ To keep this tight, here's what's explicitly out of scope:
 | 6–7   | Refine the map. Buffer.                                                                              |
 | 8     | Present the Opportunity Map and hire recommendation to you directly.                                |
 
-**One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project — it doesn't change the total scope, just shifts the calendar slightly around that window.
+**One timeline note:** I have two weeks off at the end of August for my wedding and honeymoon. I've built that pause into the 8-week estimate above rather than surprising you with it mid-project. It doesn't change the total scope. It just shifts the calendar around that window.
 
 ---
 
 ## Investment
 
-**Where the pricing comes from.** The original engagement was scoped at $10,000 total — $2,500/month over 4 months. That reflected the reality of the original arrangement: with Josh in the fractional COO role, the engagement was reaching into many other parts of the organization beyond the core AI/automation scope — the here-and-there asks that come with a COO-level relationship, not a narrowly-scoped one.
+**Where the pricing comes from.** The original engagement was scoped at $10,000 total, $2,500/month over 4 months. That reflected Josh's fractional COO role reaching into many other parts of the organization beyond the core AI/automation scope.
 
-**That engagement is ending here.** Real progress came out of month one — the workflow map, the running problem/opportunity list, the first SOPs — and the $2,500 already paid for it stands as-is. This isn't a continuation of that billing; it's a fresh, tightly-scoped proposal for what comes next.
+**That engagement ends here.** Real progress came out of month one: the workflow map, the running problem list, the first SOPs. The $2,500 already paid for that month stands as is. This isn't a continuation of that billing. It's a fresh, tightly-scoped proposal for what comes next.
 
 **Total project fee: $5,000**
 
-- $2,500 due at signing / kickoff
+- $2,500 due at signing/kickoff
 - $2,500 due at completion (delivery of the Opportunity Map and hire recommendation)
 
-This is a fixed-fee, defined-scope engagement — not a retainer, and not time-and-materials. If discovery surfaces work that clearly falls outside this scope, I'll flag it and we'll agree on next steps before any additional cost, rather than it creeping into this project.
+This is a fixed-fee, defined-scope engagement, not a retainer and not time-and-materials. If discovery surfaces work outside this scope, I'll flag it and we'll agree on next steps before any additional cost.
 
 ---
 
 ## What Happens After These Two Months
 
-This is the part I want to be upfront about now, not figure out later. At the end of the 8 weeks, you'll have the Opportunity Map and a clear recommendation — plus any quick win that came together cleanly along the way. From there, you have three real options — and I'm not going to push you toward any one of them:
+At the end of the 8 weeks, you'll have the Opportunity Map, a clear hire recommendation, and any quick win that came together along the way. From there, you have three options:
 
-1. **Take it in-house.** The map is built to be usable by your team without me. Christy and the team execute against it directly. Engagement ends cleanly here if that's the right call.
-2. **Continue with Blue Tusk.** Depending on what the map turns up, this could look like scoping and pricing specific build items individually as their own small projects, or a tightly-scoped ongoing advisory retainer if there's enough continuing need to justify it — either way, a defined, bounded arrangement, not an open-ended one. We'd figure out the right shape together based on what this phase actually surfaces.
-3. **Hire dedicated AI/automation talent.** If the map shows there's genuinely enough ongoing automation work to justify it, you bring someone on (full-time or fractional) and the map becomes their onboarding document — they start from a prioritized plan instead of a blank page.
+1. **Take it in-house.** The map is built for your team to use without me. Christy and the team execute against it directly. The engagement ends cleanly here if that's the right call.
+2. **Continue with Blue Tusk.** This could look like scoping and pricing specific build items individually, or a tightly-scoped advisory retainer if there's enough ongoing need. Either way, a defined and bounded arrangement, not open-ended. We'd figure out the shape together based on what this phase surfaces.
+3. **Hire dedicated AI/automation talent.** If the map shows enough ongoing automation work to justify it, you bring someone on, full-time or fractional, and the map becomes their onboarding document.
 
-Whichever direction you choose, there's no obligation to continue past what's outlined here.
+There's no obligation to continue past what's outlined here.
 
 ---
 
-## Available Separately: Operational Leadership Support
+## What I Won't Take Over
 
-On our call, it was clear you're also thinking about the broader gap Josh's departure leaves — someone helping Christy step fully into the Director of Operations role, driving SOP rollout across departments, and providing the kind of day-to-day operational structure a fractional COO provides.
+Part of Josh's role was operational leadership: driving the sales team day to day, owning SOP rollout company-wide, being the person making sure Christy's team executes. That's not my background, and I don't think I'd do it well.
 
-That's real work, and it's work I can help scope — but it's a different kind of engagement than the one above, with a different rhythm and a different price point, and I don't think it belongs bundled into a tight, fixed-fee sprint. If it's something you want to explore once you've seen what comes out of this first engagement, I'm glad to put together a separate proposal for it then, informed by what we learn about Christy's actual workload and needs during Phase 1.
+I can help in a lot of adjacent areas. The Opportunity Map, the Salesforce and automation work, coaching Christy on the systems side of running operations. But I'm not going to position myself as a fractional COO replacement. If you decide you need that role filled, it's worth finding someone whose actual background is operations leadership, not automation.
 
 ---
 
 ## Next Steps
 
 1. We talk tomorrow, as planned.
-2. If this scope and structure work for you, I'll send over a simple agreement to sign, and we kick off with the $2,500 deposit.
-3. Individual conversations with Christy, Danielle, and Yasmine get scheduled for this coming week.
+2. If this scope works for you, I'll send over a simple agreement to sign and we kick off with the $2,500 deposit.
+3. Individual conversations with Christy, Danielle, and Yasmine get scheduled this coming week.
 
 Looking forward to it.
