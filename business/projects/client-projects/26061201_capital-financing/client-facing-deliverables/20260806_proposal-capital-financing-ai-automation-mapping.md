@@ -10,7 +10,7 @@ status: draft
 **A focused, 2-month engagement**
 
 **Prepared for:** Howie Golden, CEO, Capital Financing
-**Prepared by:** John-Carlos, Blue Tusk (Ghost.Ops)
+**Prepared by:** John-Carlos, Blue Tusk
 **Date:** August 6, 2026
 
 ---
