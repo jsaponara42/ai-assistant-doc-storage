@@ -14,6 +14,26 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-06 (kickoff call with leadership team) — Promises made, team-wide Claude gap confirmed, and an informal timeline slip
+
+Full kickoff call with Christy, Yasmine, Danielle, and Howie (Danielle joined the second half). Several things worth preserving that don't belong in the discovery brief's contractual language but matter for how the relationship is being built:
+
+**The Claude training gap is team-wide, not just Danielle's.** Christy, Yasmine, and Danielle each independently confirmed on this call that none of them ever received the Claude training materials Howie believed had been sent. Christy: "We don't have any training documents on Claude." Danielle: used it a bit on her own, no training, found it slow — likely because she'd defaulted to a stronger, slower model than her task needed. Worth building that specific point (model selection for the task at hand) into the training content directly.
+
+**SOPs got explicitly pinned down as fully Christy's, not a shared deliverable.** Danielle pushed hard on what the actual deliverable is, and JC confirmed clearly: the roadmap is the deliverable, SOPs are entirely Christy's own workstream on her own schedule, not part of this eight-week engagement at all (a recorded 1:1 conversation can be a useful *starting point* for an SOP as a side effect, but that's incidental, not scope). This is a tighter boundary than "not full SOP authorship" as previously logged — it's zero SOP ownership, by design.
+
+**Christy asked for visible progress checkpoints, not a single reveal at the end.** Her own words: something "for a guide for me and Yasmin and Danielle to go, okay, we've done this, now we're working towards this." JC confirmed this is the intent. Worth actually delivering on this visibly, since it was asked for directly and on the record.
+
+**Informal timeline slip, not yet reflected in the signed proposal.** JC's wedding/honeymoon (Aug 21 – Sept 6) overlaps with Christy and Danielle also being out the same window, plus JC being out part of the week before (Wed–Fri). Floated live as possibly making this a nine-week engagement in practice rather than eight, though nothing formal was changed. Worth tracking actual calendar time against the proposal's 8-week estimate as the engagement proceeds, and flagging to Howie directly if it's going to run past what was quoted, rather than letting it drift silently.
+
+**SharePoint access resolved differently than previously logged.** Christy explained the SharePoint content is currently a mess — Josh had the team dump materials in with intent to clean it up later, then launched it to everyone before that happened. The team will instead send JC clean, department-ready folders directly once ready, rather than grant access to the disorganized space now. See the updated note in the discovery brief's Engagement Continuity section.
+
+**Mighty is now "Justice Bolt" (JB).** Confirmed rebrand; both names are still used interchangeably internally. Also surfaced: no consistent unique identifier for a client/case across systems today, just names, which don't always match between Mighty/JB and Salesforce. Not something to solve now, but worth factoring into future integration/automation work.
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-06 — Email exchange with Howie: costs, scope discipline, and a request that cuts against the proposal's design
 
 Several threads worth preserving from this back-and-forth:

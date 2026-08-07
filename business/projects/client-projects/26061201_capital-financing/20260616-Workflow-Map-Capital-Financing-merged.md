@@ -498,6 +498,8 @@ These sales performance dynamics directly affect:
 - **W4 (Sales Consultant Lead Handling)** — major documented breakpoint: leads generated but not followed up (Victoria); assignments made but not executed (Brian's passed opportunities); relationship ownership unclear when house accounts call CEO instead of assigned consultant (Audrey's accounts) — **now confirmed as a company-wide pattern, not just Audrey's, per 2026-08-05 dictation; see PO-007 in the discovery brief and "Consultant Authority & Client Routing" above.**
 - **W5 (Conference Marketing)** — high spend (~$20K per event), low conversion; follows into W4 (lead assignment) where follow-up discipline is lowest
 
+**KPI focus: financial consultants first (2026-08-06 kickoff call).** Christy recommended prioritizing KPI/automation work on the financial consultants specifically — there's already substantial data on them (from what was given to Josh), and it represents the clearest, fastest win; her own departments (with Yasmine) have comparatively less KPI need at this stage. Howie agreed KPIs are the top priority specifically for the sales team, but corrected that SOPs and workflow documentation still matter across the whole organization, and that Christy needs to be intimately involved as DOO across all departments, not just sales. Net effect: want #10 (`xx_howies_wants.md`, Salesforce follow-up automation & KPIs, FC-focused) is confirmed by both Howie and Christy as the highest-priority automation target for this engagement.
+
 ---
 
 # `[TO CONFIRM]` Checklist — Next Discovery Pass
@@ -509,8 +511,9 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - How supporting docs are chased when a firm is slow to respond
 - When a Salesforce record is created vs. email-only
 - Formal Tier 1 vs. Tier 2 approval authority thresholds (heuristic confirmed; thresholds not)
-- Disbursement mechanics and system of record in Mighty (Funding trunk owners now known: Danielle, Audra)
+- Disbursement mechanics and system of record in Mighty/Justice Bolt (Funding trunk owners now known: Danielle, Audra)
 - How settlement status and repayment are monitored (AR trunk owners now known: Jalicia, Diana, Chanel)
+- **New ask from Howie (2026-08-06 kickoff call):** Christy and Yasmine need to document intake from the very first point of contact — how something comes in (website, email, call), and every step taken in Salesforce to acknowledge and process it — in more granular detail than currently captured. This level of detail is what automation logic actually needs (touch points, who things get sent to, when, and why).
 
 **Process trunks & roster reconciliation**
 - Reconcile Leifert (ops call) vs. Alejandro (roster) for the Intake Support trunk — same person, separate, or vacated seat?
