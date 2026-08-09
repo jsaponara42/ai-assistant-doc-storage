@@ -14,6 +14,18 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-07 — Howie is now independently running his own Claude-generated discovery work, and named specific FC resistance (Audrey, Victoria)
+
+Two things from the same email worth flagging together, since they're connected — both are about whether the team is actually pulling in one direction.
+
+**Howie used Claude himself to generate SOPs/workflows for an AI engineer, and sent JC the output.** His own words: "I could do it that way... What's important is that everyone on my staff has the same tools and direction as they all can contribute." This is a coordination risk, not just a nice data point — Howie is now doing parallel discovery work outside the engaged process, using his own prompting, and it needs to be actively reconciled rather than just filed. Two things follow from this: (1) whatever he sends needs to be checked against what's already documented before it's treated as new fact, since it may duplicate, contradict, or (most likely) just be a differently-worded version of things already captured here; (2) it's a live signal for the "give everyone the same tools" want already tracked in the discovery brief/wants doc — Howie experimenting solo is exactly the kind of uneven adoption pattern the team Claude training is meant to fix.
+
+**Howie directly questioned the FC dictation methodology and named names.** He asked whether getting workflow/SOP dictation from the financial consultants is "the direction," and whether the business is "actually measuring what they are doing" — a real methodology question, logged as an Open Question in [[xx_howies_wants]] for a direct response. He then, in the same breath, described active resistance from **Audrey and Victoria specifically**: "we are no you Howie and we need to do things our way," which he reads as them missing the distinction between copying his personal style and adopting his underlying approach to success — and he thinks that's part of why they're not succeeding. Two implications: (1) this is useful, specific context for the FC 1:1 call ([[call-prep/20260807_Capital-Financing_Financial-Consultant-Call-Prep]]) — not to raise directly (per that doc's own guidance not to lead with performance critique), but worth being alert to if it surfaces in how Audrey or Victoria describe their own process; (2) Howie's "style vs. approach" framing is his own diagnosis, not a confirmed fact — worth hearing their side before treating it as settled.
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-06 (kickoff call with leadership team) — Promises made, team-wide Claude gap confirmed, and an informal timeline slip
 
 Full kickoff call with Christy, Yasmine, Danielle, and Howie (Danielle joined the second half). Several things worth preserving that don't belong in the discovery brief's contractual language but matter for how the relationship is being built:
