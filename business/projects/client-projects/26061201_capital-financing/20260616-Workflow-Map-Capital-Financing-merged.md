@@ -49,6 +49,80 @@ status: needs-attention
 
 ---
 
+# Quick-Reference Flowcharts (Arrow Style)
+
+Compact step-by-step view of each workflow — more detail than the Index table above (owner/system + key breakpoints per step), but not the full prose below. Use this section to scan a workflow fast; drop into the numbered sections further down for full detail, sourcing, and `[TO CONFIRM]` context.
+
+**Legend:** `owner / system` in parentheses. `⚠` = confirmed breakpoint. `?` = `[TO CONFIRM]`.
+
+### Shared Sub-Layer — Intake Support (feeds W1 & W2)
+Document Collection *(2 VAs / manual research + Mighty + SF)* ⚠ clunky
+→ Underwriting Tiering *(Christy — Tier 2; Rayna/Leifert — Tier 1 formulaic $500–2K)*
+→ Strategy Call *(FC, +Howie if needed)*
+→ Onboarding Call *(FC — Audrey et al.)* ⚠ inconsistent, weak skill, no standard script
+→ Follow-up email, 6 attachments *(Christy/FC — Word doc, Kaz's SF automation)* ⚠ core friction point, firms go quiet (want #14 portal in progress)
+
+### Workflow 1 — Plaintiff / Pre-Settlement Financing
+Referral Received *(? / Email)* ⚠ not structured CRM data
+→ Intake Collected *(Rayna/Leifert / Mighty+SF)* ⚠ manual template, no validation; ⚠ volume spikes break this step
+→ Case Docs Gathered *(2 VAs / research + Mighty + SF)* ⚠ clunky multi-system
+→ Underwriting Assessment *(Tier 1: Rayna/Leifert; Tier 2: Christy)* ⚠ CEO direct file intervention; approval thresholds? 
+→ Offer/Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana / e-sign?)* ⚠ attorney sign-off required — this is the step CEO intervention bypasses
+→ Agreement Executed *(Contracting trunk)*
+→ Disbursement *(Funding — Danielle, Audra / Mighty)* ⚠ no Salesforce integration
+→ Record-Keeping & Tracking *(AR — Jalicia, Diana, Chanel / Mighty)* → **Payoffs** (settlement) / **Collections** (overdue)
+
+### Workflow 2 — Case Expense Financing
+Firm Request Received *(? / ?)* ⚠ depends on onboarding quality upstream
+→ Case & Expense Details Collected *(Christy / VA doc support)* ⚠ same manual-template pattern as W1; usually routes straight to Tier 2 (amounts often 6-figure)
+→ Underwriting / Approval *(Christy — Tier 2 by default)* ⚠ thresholds? — PO-001 risk more acute here
+→ Funding Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana)*
+→ Agreement Executed *(Contracting trunk)*
+→ Vendor Payment / Firm Reimbursement *(Funding — Danielle, Audra / Mighty)* ⚠ no CRM integration
+→ Record-Keeping & Tracking *(AR)* → **Payoffs** / **Collections**
+
+### Workflow 3 — Outbound Email & Social Cadence
+Prospect List Sourced *(Julius / ?)*
+→ Template Selection & Personalization *(Julius — 3 pre-settlement + 3 case-financing templates)*
+→ Manual Send, 70–90/day *(Julius / manual email)* ⚠ near-zero response, high-volume manual
+→ Response Handling *(Julius)* ⚠ no confirmed link to CRM
+→ Referral Thank-Yous *(Julius)*
+→ Social Media Posting *(Julius)* ⚠ negligible engagement
+*(Whole spine flagged to collapse/automate — wants #11, #15)*
+
+### Workflow 4 — Sales Consultant Lead Handling
+Lead Generated *(CEO / Salesforce)*
+→ Lead Assigned to Consultant *(CEO — manual)* ⚠ no managed routing layer
+→ Consultant Follow-Up *(Consultant)* ⚠ inconsistent; no cadence enforced; 1-week post-onboarding target routinely missed (see want #15)
+→ Pipeline Progression *(Consultant / Salesforce)* ⚠ no visible/managed stage structure
+→ CRM Logging & Task Lifecycle *(Consultant / Salesforce)* ⚠ note-taking resistance; create→schedule→complete→remove lifecycle not standard practice
+→ Outcome / Close *(Consultant, CEO / Salesforce)* → feeds **W2 Sub-Step C** (case-expense seam confirmed) / feeds **W1** (pre-settlement seam still undocumented)
+
+### Workflow 5 — Conference Marketing
+Event Selection & Commitment *(CEO — ~$20K/event)* ⚠ ROI not measured against sales output
+→ Event Logistics & Attendance *(CEO)* ⚠ CEO is the logistics operator — bandwidth drain
+→ Contact Capture at Event *(CEO/team / ?)* ⚠ capture → Salesforce path unconfirmed
+→ Contact Loading & Segmentation *(? / Salesforce)*
+→ Assignment & Follow-Up *(CEO → Consultants)* ⚠ primary documented failure point — spend doesn't convert → feeds **W4 Step 1**
+
+### Salesforce Daily Routine (governance layer — CEO only, touches all workflows)
+Plan day/week *(review calendar, book 4+ meetings/day)*
+→ Review current/overdue tasks
+→ Open task, review notes
+→ Reach out (email/phone)
+→ Determine follow-up reason (post-strategy vs. post-onboarding)
+→ Task bar for conference follow-ups
+→ Complete task → create next task (2wk–1mo out) → remove dead tasks
+→ Review Top Companies / Top Prospects reports
+→ Monthly: review inactive reports (case financing + pre-settlement)
+→ Fill unbooked time with inactive-account outreach / prospecting
+⚠ Only the CEO currently runs this. Whether it extends to consultants (manual) or gets automated is want #10.
+
+### Post-Funding Tail — not yet mapped as a spine
+Settlement notice *(trigger?)* → **Payoffs** *(Diana, Jalicia, Audra, Chanel, Yasmin)* → **Collections** *(Yasmin, overdue only)*
+
+---
+
 # Process Trunks & Ownership (Christy's side)
 
 **Source: Christy's process-trunk roster.** These are the main operational trunks on the funding/operations side of the business, with current staff ownership. The five workflow spines above are the *front-of-house* flow (how a case or lead comes in and gets funded); these trunks are the *back-of-house* operations that carry a funded deal through to repayment. Several trunks map directly onto the later Core Steps of Workflows 1 and 2 (which were previously `[TO CONFIRM]` for ownership) and are cross-referenced there.
