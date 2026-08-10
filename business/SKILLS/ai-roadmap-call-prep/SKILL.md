@@ -159,6 +159,7 @@ Assemble and render the Call Brief using the format below. Render it as a widget
 - [Question to confirm or surface Pain #3]
 - "What's taking the most time in your operation right now that you wish wasn't?"
 - "What have you already tried to fix [primary pain area]?"
+- "If the amount of business you got doubled tomorrow, what role would be the first you'd need to hire — and why?"
 - [Any person-specific question based on Stage 2 research]
 
 ---
