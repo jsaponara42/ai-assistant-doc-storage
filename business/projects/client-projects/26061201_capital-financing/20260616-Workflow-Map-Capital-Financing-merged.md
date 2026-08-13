@@ -372,7 +372,11 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 
 **Spine:** `Source List → Prepare → Send → Handle Replies → Thank-Yous → Social`
 
-**Operator note:** Julius (offshore contractor, $2,500/mo). **Reconciliation needed (Kaz call, 2026-08-XX):** Howie's original account (this workflow as originally mapped) describes Julius manually sending 70–90 templated emails/day across 3 pre-settlement + 3 case-financing templates. Kaz's system-level account describes something more specific: Julius operates two **Salesforce Cadence** sequences (a mix of automated and manual steps) — (1) personalized referral thank-yous, scaled by referral volume, and (2) a 3-email outreach cadence to new conference-attendee contacts. These may be the same activity described at two different levels of detail (Howie describing the felt experience of the work, Kaz describing the underlying system), or Julius may be doing both a high-volume manual push *and* running these cadences — not yet confirmed which. Both sources agree on the outcome: **near-zero response.** Kaz's specific data point: after roughly a month running the conference-attendee cadence, zero meetings were set. Kaz also assesses the referral thank-you cadence as fully automatable without quality loss. **Flagged to collapse/reposition once Salesforce automation lands** — map now as transitional.
+**Operator note:** Julius (offshore contractor, $2,500/mo). **Reconciliation resolved (Howie's daily Julius reports, 2026-08-XX):** Howie's "manual sending" account and Kaz's "Salesforce Cadence" account describe the same system — Julius manually triggers/runs sends through Salesforce cadences, so both are accurate at different levels of description. **Confirmed cadence names:** Pre-Settlement Introduction, Case Expense Introduction, Inactive Emails (60-day), and Thank You for the Referral — refining the earlier "3 pre-settlement + 3 case-financing templates" estimate. **Concrete response data, one day (Howie's EOD report, 2026-08-XX):** 101 emails sent to Case Expense Prospects (2nd touch) produced 6 out-of-office auto-replies and 10 hard bounces — **zero substantive replies.** 59 emails sent to Inactive Prospects (60-day) produced 6 out-of-office auto-replies — again **zero substantive replies.** This is the most concrete evidence yet for "near-zero response": not an impression, an actual one-day count showing 160 emails sent, 0 real replies. **Flagged to collapse/reposition once Salesforce automation lands** — map now as transitional.
+
+**New activity, not previously mapped — LinkedIn network growth (Howie's daily reports, 2026-08-XX):** Julius also reviews content (videos, testimonials, PDFs, blogs) for potential social posts, creates infographics/captions for approval, and — not previously documented — **builds LinkedIn connections sourced from Howie's own personal LinkedIn network**, then sends invitations from the Capital Financing LinkedIn Company Page (confirmed volume: 20 invitations sent in one day) to grow the company page's following. This is a distinct activity from Core Step 6 (Social Media Posting) below — it's audience-building rather than content publishing.
+
+**Howie's own reaction to these reports, worth noting directly:** Howie receives an End-of-Day and a Start-of-Day report from Julius every business day, and said of them: "It's a lot, similar stuff, and although great I just don't pay attention." This is a smaller-scale version of the same reporting-glut problem documented in the Salesforce Platform Reference section below (~100 reports, doesn't know where to look) — direct, first-hand evidence *for* want #19's AI-digest approach (a short synthesized summary Howie would actually read, replacing verbose twice-daily reports he currently skips) rather than more raw reporting.
 **Trigger:** Recurring outbound schedule; new prospects; referral events to acknowledge.
 **Final deliverable:** Daily outbound sent, referral thank-yous issued, social posts published, responses handled.
 
@@ -409,6 +413,12 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 - **Out:** Published social posts.
 - **Owner/System:** Julius / Manual. `[TO CONFIRM]`
 - **⚠** Engagement negligible.
+
+### Core Step 7 — LinkedIn Network Growth (new, from Howie's daily Julius reports, 2026-08-XX)
+- **In:** Howie's personal LinkedIn connections.
+- **Out:** Connection invitations sent from the Capital Financing LinkedIn Company Page.
+- **Owner/System:** Julius / LinkedIn (personal profile browsing) + Company Page.
+- **⚠** `[TO CONFIRM: conversion — does growing the company page's follower count translate to any measurable business outcome, or is it a vanity metric currently uncounted like the rest of this workflow?]`
 
 ---
 
