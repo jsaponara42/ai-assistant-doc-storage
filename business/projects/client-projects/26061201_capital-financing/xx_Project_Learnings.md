@@ -14,6 +14,21 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-08-XX — Yasmine walkthrough call: live screen-share replaced the planned async SOP dictation
+
+Ran a live screen-share walkthrough of JB (Mighty/Justice Bolt) with Yasmine covering the entire post-underwriting flow — Contracting, Funding, AR, and Payoffs. Result was thorough enough that the planned separate async Claude-dictation exercise for this specific workflow was dropped as unnecessary; the SOP is being built directly from this call's transcript instead. Full process detail is now in [[20260616-Workflow-Map-Capital-Financing-merged]] (W1 Steps 5–8, W2 Steps 1–7, and the new Workflow 6 section) and in the standalone SOP at `SOPs/`.
+
+A few things worth flagging separately from the process facts themselves:
+
+- **Concrete, first-hand data point against Segue.** Segue told Howie/the team they'd offer individual per-user FormStack-equivalent logins (vs. the current single shared group login) — but when Yasmine and the team met with them, they **could not actually demonstrate this feature working**, since it wasn't connected on Segue's end during the demo. This is real evidence for the want #5/#13 Salesforce-platform decision, not just a vague impression — worth raising directly if/when that decision comes back up with Howie.
+- **Christy and Howie were both out at the time of this call**, with Howie temporarily covering underwriting himself and visibly overloaded (conference day). This is a time-bound staffing snapshot, not a structural fact — don't treat "Howie is doing underwriting" as a standing arrangement.
+- **Yasmine reiterated the standing offer for a single team-wide Claude training** rather than repeating 1:1 walkthroughs — consistent with the training commitment already tracked elsewhere; no new commitment made here.
+- **Confirms the earlier read on Josh** (see the 2026-08-06 entry below): Yasmine's own words were that Josh "was kind of missing that mark" on wanting this level of operational detail — he didn't want to learn this part. Corroborates the discovery brief's framing that operational depth, not just high-level SOP collection, is what actually unlocks automation scoping here.
+
+*(open for further notes — Kaz conversation to be logged separately)*
+
+---
+
 ### 2026-08-07 — Howie is now independently running his own Claude-generated discovery work, and named specific FC resistance (Audrey, Victoria)
 
 Two things from the same email worth flagging together, since they're connected — both are about whether the team is actually pulling in one direction.

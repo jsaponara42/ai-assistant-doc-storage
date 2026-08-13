@@ -67,19 +67,20 @@ Referral Received *(? / Email)* ⚠ not structured CRM data
 → Intake Collected *(Rayna/Leifert / Mighty+SF)* ⚠ manual template, no validation; ⚠ volume spikes break this step
 → Case Docs Gathered *(2 VAs / research + Mighty + SF)* ⚠ clunky multi-system
 → Underwriting Assessment *(Tier 1: Rayna/Leifert; Tier 2: Christy)* ⚠ CEO direct file intervention; approval thresholds? 
-→ Offer/Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana / e-sign?)* ⚠ attorney sign-off required — this is the step CEO intervention bypasses
-→ Agreement Executed *(Contracting trunk)*
-→ Disbursement *(Funding — Danielle, Audra / Mighty)* ⚠ no Salesforce integration
-→ Record-Keeping & Tracking *(AR — Jalicia, Diana, Chanel / Mighty)* → **Payoffs** (settlement) / **Collections** (overdue)
+→ Offer/Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana / JB generates contract → FormStack e-sign, 25% or 5% model)* ⚠ attorney sign-off required — this is the step CEO intervention bypasses
+→ Agreement Executed *(FormStack, shared group login → uploaded to JB)*
+→ Disbursement *(Funding — Danielle, Audra / push-to-debit via AppPay $2.5K cap, direct deposit, or wire)* ⚠ no Salesforce integration except one manual status flip
+→ Record-Keeping & Tracking *(AR — Jalicia, Diana, Yasmine, Chanel / JB, lien)* ⚠ fully manual follow-up, no reminders → **Workflow 6** (payoff/close-out)
 
 ### Workflow 2 — Case Expense Financing
-Firm Request Received *(? / ?)* ⚠ depends on onboarding quality upstream
+Firm Request Received *(Intake / JB, tagged "LIT")* ⚠ depends on onboarding quality upstream; no dedicated case-expense field in JB
+→ Acknowledgement Letter *(Contracting / manual ask + follow-up)* ⚠ required before agreement can be sent, no defined reminder cadence
 → Case & Expense Details Collected *(Christy / VA doc support)* ⚠ same manual-template pattern as W1; usually routes straight to Tier 2 (amounts often 6-figure)
-→ Underwriting / Approval *(Christy — Tier 2 by default)* ⚠ thresholds? — PO-001 risk more acute here
-→ Funding Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana)*
-→ Agreement Executed *(Contracting trunk)*
-→ Vendor Payment / Firm Reimbursement *(Funding — Danielle, Audra / Mighty)* ⚠ no CRM integration
-→ Record-Keeping & Tracking *(AR)* → **Payoffs** / **Collections**
+→ Underwriting / Approval *(Christy — Tier 2 by default; 15% model)* ⚠ thresholds? — PO-001 risk more acute here
+→ Funding Agreement Issued *(Contracting — Yasmin, Audra, Chanel, Diana / JB → FormStack)*
+→ Agreement Executed *(FormStack → JB)*
+→ Vendor Payment / Firm Reimbursement *(Funding — Danielle, Audra / direct deposit or check only, never push-to-debit)* ⚠ no CRM integration
+→ Record-Keeping & Tracking *(AR)* → **Workflow 6** (payoff/close-out)
 
 ### Workflow 3 — Outbound Email & Social Cadence
 Prospect List Sourced *(Julius / ?)*
@@ -118,8 +119,12 @@ Plan day/week *(review calendar, book 4+ meetings/day)*
 → Fill unbooked time with inactive-account outreach / prospecting
 ⚠ Only the CEO currently runs this. Whether it extends to consultants (manual) or gets automated is want #10.
 
-### Post-Funding Tail — not yet mapped as a spine
-Settlement notice *(trigger?)* → **Payoffs** *(Diana, Jalicia, Audra, Chanel, Yasmin)* → **Collections** *(Yasmin, overdue only)*
+### Post-Funding Tail — now mapped as Workflow 6
+AR Tracking *(Jalicia, Diana, Yasmine, Chanel / JB)* ⚠ fully manual, no reminders, discretionary cadence
+→ Payoff or Reduction Request *(Yasmine / dedicated payoff inbox)* ⚠ reductions route to Howie for approval
+→ Deposit Received *(VA logs it, tags Howie+Danielle, assigns Yasmine)*
+→ Reconciled *(Yasmine / JB vs. QuickBooks)*
+→ Closed *(Danielle / JB + QuickBooks, logs how it closed)*
 
 ---
 
@@ -149,6 +154,15 @@ Settlement notice *(trigger?)* → **Payoffs** *(Diana, Jalicia, Audra, Chanel, 
 - **Yasmin owns both Contracting and Collections** and also appears in Payoffs — a heavy concentration on the back end. Per CEO: Yasmin is detail-oriented but weaker in communication and leadership; she is a "follower and doer" rather than a leader. She works closely with Christy and Danielle, handling behind-the-scenes tasks. Yasmin sits partly outside Christy's direct management authority; past attempts to manage Yasmin resulted in informal escalation to Danielle (part-owner). Relevant context for any automation touching contracting, collections, or payoffs, since actual decision-making authority may not follow the org chart.
 
 - **Two trunks — Collections and Payoffs — are not yet represented as workflow spines** above. They are post-funding repayment functions that the current five-workflow map does not cover. See the note in the Overall Workflow section.
+
+**Systems glossary (confirmed via Yasmine walkthrough, 2026-08-XX):**
+- **JB = Mighty = Justice Bolt** — same platform, referred to interchangeably by staff; this is the core loan-servicing system where applications, underwriting, contracting, and AR/lien tracking all live.
+- **FormStack by Intelistack** — the confirmed e-signature platform for funding agreements. Used with a **single shared login for the whole Contracting group**, not individual per-user accounts — a direct, confirmed contrast with what Segue proposed but never actually demonstrated working live during their own demo.
+- **AppPay** — separate app from JB, used for push-to-debit disbursements only (plaintiffs, capped at $2,500 currently).
+- **Funding Exchange** — external, cross-funding-company platform used to check for existing liens on a case before advancing money (prevents "stacking"), and to log new liens once funded so other funding companies can see them.
+- **Salesforce** — confirmed single touchpoint for Contracting: flipping a record to "Approved" status post-funding-approval (previously triggered marketing drips, currently paused) and adding newly-discovered attorney contacts to a firm's record.
+
+**AR file ownership, confirmed headcount snapshot (2026-08-XX):** Jalicia (VA, part-time) — 323 files; Diana (VA) — 313 files; Yasmine herself — 261 files; Chanel (also Contracting) — 187 files. Updates the earlier "Jalicia, Diana, Chanel" roster — Yasmine personally also carries a significant AR caseload, not just oversight.
 
 - **Danielle** — Part owner, professional, and territorial about her role. Per CEO: "Danielle's a professional. Danielle's a part owner. Danielle's going to be very territorial." However, she supports bringing in external expertise for process improvement and is encouraging Michael (Injury Specialists client) to engage the same advisor. She has made independent management decisions (e.g., promoting a team member) without consulting Christy. **Update (2026-08-06 call):** Howie describes her as personally close ("family to me") and professionally high-level (prior SAP experience). No obvious automation surface in her own function per Howie, but she wants visibility into what's going on across the business. One of the three leadership-team members (with Christy and Yasmin) who told Howie directly they would not continue working with Josh.
 
@@ -293,42 +307,48 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 
 ### Core Step 1 — Firm Request Received
 - **In:** Firm requests case-expense funding on a matter. `[TO CONFIRM: channel; existing relationship vs. cold referral]`
-- **Out:** Case-expense opportunity. `[TO CONFIRM: CRM record created?]`
-- **Owner/System:** `[TO CONFIRM]` / `[TO CONFIRM]`
+- **Out:** Case-expense opportunity, entered into JB and **tagged "LIT"** after the client's name — confirmed, this is a manual workaround, since **JB has no dedicated field distinguishing case-expense from pre-settlement**. The same LIT tag is duplicated into the "Capital Providers" field (at 100%) specifically so Contracting can run a report and isolate case-expense volume, since there's no other way to filter for it.
+- **Owner/System:** Intake (Rayna et al.) enters it / JB.
 - **⚠ Confirmed (2026-06):** This step depends on the firm having been properly onboarded first — see **Shared Sub-Layer — Intake Support, Sub-Step C**. Onboarding quality is inconsistent per-consultant, and a poorly onboarded firm contact produces malformed bulk submissions (e.g., 20 in a day) instead of clean individual requests.
+
+### Core Step 1.5 — Acknowledgement Letter (case-expense specific, confirmed)
+- **In:** Underwriting approval.
+- **Out:** Signed acknowledgement letter — the law firm gets its own client (the plaintiff) to sign off acknowledging that the firm is taking out funding against their case. Required **before** the funding agreement itself can be sent (see Core Step 4).
+- **Owner/System:** Contracting (Chanel or Audra, by law-firm assignment — see Process Trunks notes) reaches out to the attorney/firm directly to request it, logs a note in JB, and follows up roughly every couple of days until it's returned. No automated reminder exists for this step specifically.
 
 ### Core Step 2 — Case & Expense Details Collected
 - **In:** Case info + specific expenses. `[TO CONFIRM: required fields — matter identity, attorney, expense type(s), vendor(s), amounts, est. settlement value]`
 - **Out:** Funding request packet.
-- **Owner/System:** Underwriting (Christy) / document collection support per **Shared Sub-Layer — Intake Support, Sub-Step A** where applicable.
+- **Owner/System:** Underwriting (Christy, or Howie while she's out) / document collection support per **Shared Sub-Layer — Intake Support, Sub-Step A** where applicable.
 - **⚠** Same manual template intake pattern as W1 — confirmed, not just inferred. Case-expense requests are described as frequently "way out of [Tier 1] range," sometimes into the hundreds of thousands — meaning this step usually routes straight to Tier 2 complex underwriting (Christy), bypassing the Rayna/Leifert Tier 1 track entirely.
 
 ### Core Step 3 — Underwriting / Approval
 - **In:** Case merits; expense schedule; est. settlement value.
-- **Out:** Approval + approved amount per expense/vendor.
-- **Owner/System:** Christy (Sr. Underwriter) — Tier 2 by default given typical case-expense dollar amounts. See **Shared Sub-Layer — Intake Support, Sub-Step B** for the underwriting heuristic (attorney claims are independently vetted, not taken at face value).
+- **Out:** Approval + approved amount per expense/vendor + contract model selected.
+- **Owner/System:** Christy (Sr. Underwriter), or Howie while she's out — Tier 2 by default given typical case-expense dollar amounts. See **Shared Sub-Layer — Intake Support, Sub-Step B** for the underwriting heuristic (attorney claims are independently vetted, not taken at face value).
+- **Confirmed case-expense contract model (Yasmine walkthrough, 2026-08-XX):** **15% fee** (vs. 25% for pre-settlement — Yasmine pushed back on framing this purely as a risk-based difference when asked). An older model charged fees monthly starting from the funding date; that model has been **discontinued**. The current model charges the **first three months' fees upfront/automatically** at funding, then continues from there — exact mechanics past month three still `[TO CONFIRM]`.
 - **⚠** `[TO CONFIRM: formal authority thresholds]` — PO-001 risk is more acute here than in W1, since case-expense amounts skew complex/high-dollar and stay with Christy rather than being distributable to Rayna/Leifert.
 
 ### Core Step 4 — Funding Agreement Issued
-- **In:** Approved terms (non-recourse, repayable at settlement).
-- **Out:** Case-expense agreement sent to firm.
-- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / `[TO CONFIRM: system]`
+- **In:** Approved terms (non-recourse, repayable at settlement); signed acknowledgement letter (Core Step 1.5).
+- **Out:** Case-expense agreement generated by JB, sent to firm via FormStack.
+- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / JB generates the Word-doc contract → **FormStack by Intelistack** (shared group login — see W1 Step 6 for full detail on this system).
 
 ### Core Step 5 — Agreement Executed
 - **In:** Signed agreement returned from firm.
-- **Out:** Executed agreement authorizing disbursement.
-- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / `[TO CONFIRM: system]`
+- **Out:** Executed agreement authorizing disbursement, uploaded back into JB.
+- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / FormStack → JB, same process as W1 Step 6.
 
 ### Core Step 6 — Vendor Payment / Firm Reimbursement
 - **In:** Executed agreement; vendor invoices / firm expense docs. `[TO CONFIRM: how invoices are received and verified]`
-- **Out:** Payment to vendor directly, or reimbursement to firm.
-- **Owner/System:** **Funding trunk** — Danielle, Audra / Mighty `[TO CONFIRM: payment rails / method]`
-- **⚠** Mighty isolation — no automated flow of payment data to CRM or firm-relationship records.
+- **Out:** Payment to vendor directly, or reimbursement to firm — confirmed **always via direct deposit or check into the firm's operating account**, never push-to-debit (push-to-debit has never been used for a law-firm-side payment).
+- **Owner/System:** **Funding trunk** — Danielle, Audra / bank/treasury direct deposit, subject to the same per-staff thresholds as W1 Step 7 (Audra $25K, Chanel $10K, Yasmine unlimited; wires restricted to Yasmine and Danielle only).
+- **⚠** Mighty/JB isolation — no automated flow of payment data to CRM or firm-relationship records.
 
 ### Core Step 7 — Record-Keeping & Repayment Tracking
 - **In:** Funded expense amounts; settlement timeline.
-- **Out:** Expenses tracked to settlement; repayment recovered at settlement.
-- **Owner/System:** **Accounts Receivable trunk** — Jalicia, Diana, Chanel / Mighty `[TO CONFIRM]`. Settlement-time resolution via the **Payoffs trunk**; overdue recovery via **Collections** (Yasmin). See Process Trunks table.
+- **Out:** Expenses tracked to settlement as a lien in JB; repayment recovered at settlement.
+- **Owner/System:** **Accounts Receivable trunk** — Jalicia, Diana, Chanel, Yasmine / JB. Same mechanics as W1 Step 8: lump-sum repayment from the law firm at settlement, manual AR follow-up on a status-based (and relationship-adjusted) cadence, no automated reminders. See **Workflow 6** for the full close-out and payoff process.
 
 ---
 
@@ -497,7 +517,45 @@ This routine touches **W4 (consultant follow-up)** and **W5 (conference follow-u
 - **Payoffs** (Diana, Jalicia, Audra, Chanel, Yasmin) — resolving repayment at settlement.
 - **Collections** (Yasmin) — recovering overdue/at-risk repayments.
 
-These likely warrant their own spine — call it **Workflow 6 — Repayment / Payoffs / Collections** — once mapped, since they're where the money actually comes back and where revenue leakage would show up. `[TO CONFIRM: trigger (settlement notice?), steps, systems, and how a case moves from AR → Payoffs → Collections.]`
+These likely warrant their own spine — call it **Workflow 6 — Repayment / Payoffs / Collections** — now mapped below following Yasmine's detailed walkthrough (2026-08-XX).
+
+---
+
+# Workflow 6 — Post-Funding: AR, Payoffs & Close-Out (Yasmine's team)
+
+**Spine:** `AR Tracking → Payoff/Reduction Request → Deposit Received → Reconciled → Closed`
+
+**Trigger:** A funded case (from W1 or W2) sits as a lien in JB, awaiting settlement.
+**Final deliverable:** Case repaid, deposit reconciled against QuickBooks, file closed out in both JB and QuickBooks, and — if relevant — logged as closed in Funding Exchange.
+
+### Core Step 1 — AR Tracking (ongoing, manual)
+- **In:** Funded lien; case status.
+- **Out:** Periodic law-firm touch confirming case status, until settlement.
+- **Owner/System:** Jalicia, Diana, Yasmine, Chanel (see per-person file counts in W1 Step 8) / JB — fully manual, no automated reminders exist.
+- **⚠** Cadence is status-based (e.g., 90 days for litigation) and discretionary per firm relationship (VIP/high-volume firms may get 120 days) — not a documented rule. This is the same status-check outreach Howie flagged as an automation candidate in the 2026-08-06 kickoff call (see Process Trunks notes and want #15 in [[xx_howies_wants]]).
+- **Cross-funder check (Funding Exchange):** Before underwriting, intake already ran a check in the external **Funding Exchange** platform (client name, DOB, last-4 SSN) to confirm no other funding company already has a lien on the case — since whichever funder advanced first gets repaid first if settlement proceeds run short. Once this case funded, Contracting logged the new lien into Funding Exchange as well, so other funding companies can see it.
+
+### Core Step 2 — Payoff or Reduction Request Received
+- **In:** Inbound request to a dedicated **payoff email inbox** — either a standard current-payoff-balance request, or a reduction request (firm asking Capital Financing to accept less than the full balance).
+- **Out:** Routed by request type.
+- **Owner/System:** Yasmine (payoff department) / dedicated shared payoff inbox.
+- **Standard payoff:** Yasmine or team pulls the current balance/lien detail directly from JB, generates a payoff confirmation letter (JB-generated template), and sends it along with the signed agreement — CC'ing Contracting and the client.
+- **Reduction request:** routed to **Howie for approval or denial** before any reduced-payoff letter is generated or sent — this is the one payoff-side decision that isn't Yasmine's to make alone.
+
+### Core Step 3 — Deposit Received
+- **In:** Settlement check(s) arrive.
+- **Out:** Deposit logged.
+- **Owner/System:** Intake-side VA (deposits) tags Howie and Danielle, then assigns the file to Yasmine, noting the check number(s) and deposit date. No follow-up date is set at this point since it's awaiting bank clearing, not a chase.
+
+### Core Step 4 — Reconciliation
+- **In:** Cleared deposit (next business day after Step 3).
+- **Out:** Deposit confirmed matching the expected bank amount.
+- **Owner/System:** Yasmine / JB cross-checked against QuickBooks. Once confirmed, she assigns the file to Danielle for close-out.
+
+### Core Step 5 — Close-Out
+- **In:** Reconciled, matched deposit.
+- **Out:** File closed in both systems.
+- **Owner/System:** Danielle / JB + QuickBooks. Danielle marks the file closed in JB, noting **how** it closed (attorney paid it, client paid it directly — which does happen occasionally — or another funding company bought the lien out, in which case that company's name is logged), and closes it out in QuickBooks.
 
 ---
 
