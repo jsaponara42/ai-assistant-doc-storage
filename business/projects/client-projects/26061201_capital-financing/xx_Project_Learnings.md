@@ -29,6 +29,25 @@ A few things worth flagging separately from the process facts themselves:
 
 ---
 
+### 2026-08-XX — Kaz call: major finding — the automation infrastructure for want #10 already exists, unused. Plus a confidentiality flag.
+
+**⚠ CONFIDENTIAL — handle with care, do not surface in any client-facing deliverable or casual conversation with the team.** Kaz works full-time for Salesforce corporate and has been moonlighting for Howie for ten years; he would risk his job if this were known. This isn't just a discretion note — it means any documentation, deliverable, or offhand comment that identifies Kaz's employer or draws attention to the arrangement is a real risk to him, not a formality. Keep this confined to internal notes.
+
+**The headline finding:** Kaz and Josh already built most of what `xx_howies_wants` wants #10 and #15 are asking for. Salesforce has an **Opportunity object with defined stages** (differing for case-expense vs. pre-settlement) and **automated task/notification logic** already built on top of it — if two required meetings haven't happened within 7 days of an opportunity being created, a follow-up task auto-generates; if no referral comes in within 30 days of the second meeting, a notification fires. **None of this is being used**, because financial consultants aren't creating Opportunities in the first place — there's no habit or requirement to do it, so the automation has no data to act on. This reframes wants #10 and #15 from "build new automation" to "roll out and enforce adoption of automation that already exists," much like the KPI dashboard finding from earlier. See updated want entries in [[xx_howies_wants]].
+
+**Kaz's own diagnosis, in his words (paraphrased):** none of Howie's AI ideas work if there's no data behind them, and right now almost nobody is logging meaningful activity — Salesforce is, in Kaz's own framing, "a glorified contact management system" at this point. The fix has to start with Howie setting explicit behavioral expectations from the top ("these are my expectations of you, this is how I'm measuring you") before any automation or AI layer has something real to work with. This directly corroborates PO-002, PO-004, and PO-005 in the discovery brief, and validates JC's own discovery-before-build methodology — worth citing directly if the sequencing of this engagement is ever questioned.
+
+**Corroborates the Josh gap from a different angle.** Kaz doesn't know what Josh actually rolled out or communicated to the team either — "Josh isn't there anymore, so he doesn't know what was built or we haven't rolled out." This isn't just a JC-side information gap; even the person who built the automation has lost visibility into what actually made it to the team. Reinforces that a full infrastructure inventory (already underway) is genuinely necessary, not redundant caution.
+
+**Other confirmed process facts worth flagging here** (full detail logged in [[20260616-Workflow-Map-Capital-Financing-merged]] and [[xx_howies_wants]]):
+- Kaz manually deduplicates every pre/post-conference contact list Howie sends him against ~25,000 existing Salesforce contacts — roughly 2 hours of manual spreadsheet-plus-AI-lookup work per list, with only about a 50% auto-match rate due to name/formatting inconsistencies. A real, recurring, currently-invisible cost.
+- A prior native Salesforce email-marketing tool was so bug-ridden (couldn't paste an image into an email without it going blank) that Howie stopped paying for it and got shut off — worth remembering as a cautionary precedent before recommending any new email-automation tooling (want #2).
+- Kaz independently proposed a **Slack + Salesforce integration paired with an AI-generated daily digest** (for consultants: who's gone inactive, stalled opportunities, top prospects with no activity; for Howie: an exception-based summary instead of navigating roughly 100 existing reports) as the lowest-friction path to actually getting the team to engage with Salesforce data, since almost nobody wants to log into Salesforce directly. Logged as a new want — see [[xx_howies_wants]].
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-07 — Howie is now independently running his own Claude-generated discovery work, and named specific FC resistance (Audrey, Victoria)
 
 Two things from the same email worth flagging together, since they're connected — both are about whether the team is actually pulling in one direction.
