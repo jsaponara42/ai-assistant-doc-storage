@@ -147,7 +147,7 @@ AR Tracking *(Jalicia, Diana, Yasmine, Chanel / JB)* ⚠ fully manual, no remind
 - **Underwriting is Christy alone** — confirms the PO-001 single-point-of-failure at the trunk level, not just within a single workflow step. Everything else has at least two people; underwriting has one. CEO notes: Christy is highly professional, thorough (5–7% bad-debt rate annually), protective of company interests, and extremely conservative in approvals. However, training new intake staff is inefficient (~6 months ramp-up); root cause is free-form Mighty data entry (no structured fields) rather than using pre-built field schema. Christy is open to oversight but asserts "this is the only way to do it" without external validation of assumptions.
 - **Julius — Inactive Account Follow-Up (new, from Howie dictation 2026-07-28):** Julius handles follow-up with all inactive accounts (both case financing and pre-settlement) behind the scenes, sending templated emails and calls. He has **not had much success with responses**. He tends to fall **months behind** in his cadence, which defeats the consistency that follow-up requires. The CEO explicitly stated: "This is something I believe can be automated as well, does not need a manual person to be sending out templated emails. And actually, if we had it set up from an automation perspective, it probably would be more creative, more effective, and more consistent, where he seems to fall months behind in his cadences, which defeats the consistency that we're looking for on follow-up emails for whatever the purpose is we're looking for." **This is a high-priority automation candidate** — flagged as ranked want #10 in `xx_howies_wants.md`. Should be mapped as its own Process Trunk: **Inactive Account Follow-Up** (Julius, automated replacement TBD). Currently manual, low-success, cadence-defeated. **Update (2026-08-06 call):** Kaz has explicitly recommended cutting Julius outright rather than repositioning him as a VA — Howie is paying for output that isn't landing results, and Kaz's view is to automate the function and let the role go. Decision still pending with Howie.
 
-- **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. `[TO CONFIRM: is Leifert the same person as Alejandro under a different name, a separate person, or no longer in this seat? The ops-call references to Rayna/Leifert and the roster's Rayna/Alejandro need reconciling.]` Per Christy, Rayna is already doing ~98% of pre-settlement approval workflow; only the final 2% (approval/denial communication to firm) is withheld from her.
+- **Intake support staff are Rayna (lead) and Alejandro.** Note: "Leifert," named in the 2026-06 ops call as part of the Tier 1 underwriting-training discussion alongside Rayna, does not appear on this trunk roster. **Likely resolution (cross-referenced against the discovery brief's org chart, 2026-08-XX):** the org chart lists a **"Leaford Grayson"** under Intake, alongside Reyna Carcamo, Myia Strozier, and Alejandro Restrepo — "Leifert" is almost certainly a mishearing/mistranscription of "Leaford" from dictation audio, not a separate or missing person. Treat as probable, not fully confirmed — worth a one-line confirmation with Christy, but no longer a live open question requiring active investigation. Per Christy, Rayna is already doing ~98% of pre-settlement approval workflow; only the final 2% (approval/denial communication to firm) is withheld from her.
 
 - **Audra appears across four trunks** (Contracting, Funding, Payoffs) but was explicitly *removed* from Accounts Receivable. This matches the 2026-06 ops call's account of work being repeatedly taken off Audra. `[TO CONFIRM: is Audra overloaded, being narrowed deliberately, or being managed out of certain functions?]` Suggests possible performance management dynamic or workload balancing in progress.
 
@@ -180,6 +180,22 @@ The CEO reviews these reports daily as part of his morning Salesforce task routi
 | **Inactive Report (Pre-Settlement)** | Accounts inactive for pre-settlement financing | Monthly (CEO) + ongoing (Julius behind the scenes) |
 
 These reports are reviewed **daily alongside the task list** to keep the CEO abreast of the full pipeline. Many prospects are already in the CEO's open task list, but these reports surface additional opportunities. Follow-up with contacts at top companies keeps the CEO "in front of them." **This is a named, documented set of reports — not a hypothetical dashboard.** The Sales Performance & Accountability Framework mentions a "shared KPI dashboard" but these are the actual named reports that exist today.
+
+**⚠ Confirmed, broader context (Kaz call, 2026-08-XX): these 5 reports are a small fraction of what exists.** Salesforce holds roughly **100 reports** total, and Howie does not know where to look for most of them — a direct contributor to why an AI-curated digest (see want #19 in [[xx_howies_wants]]) is a stronger fix than building yet another report.
+
+### Salesforce Platform Reference (new, from Kaz call, 2026-08-XX)
+
+**How a lead enters the system — the IPR.** "IPR" is Capital Financing's term for the record created when someone submits the website's financing-interest form (e.g., a plaintiff requesting cash against a pending case). Submitting the IPR creates a record in Salesforce automatically. Separately, and manually, intake **also re-enters the same submission into JB/Mighty** — confirmed double data entry at the point of intake, not simply a one-directional Mighty→Salesforce sync as earlier assumed. One IPR field is a free-text "referring attorney" box the submitter fills in themselves; it's frequently misspelled or informal (first name only, wrong spelling), so a staff member has to manually match it to the correct attorney/firm record before that firm's referral-tracking numbers (last referral date, referral count, amount approved/accepted) update correctly. Every 30 days, active/inactive status per firm is also updated — manually, not automatically.
+
+**Mighty ↔ Salesforce status sync.** Confirmed: Mighty has no API. Whenever an IPR's underwriting stage changes in Mighty (denied, approved, etc.), **someone must manually go into Salesforce and update the corresponding status field to match** — this is the same single Salesforce touchpoint Contracting owns post-underwriting (see Process Trunks systems glossary above), extended here to cover the earlier underwriting-stage changes as well. That status change is what triggers Salesforce's automated drip email sequence to the applicant.
+
+**Drip campaign history and current state.** Roughly **18 different drip campaigns** exist, none highly personalized — described by Kaz as basic status-update messaging ("you've been approved," "we're going to talk to you," "don't stop going to the doctor"), separate from the text messages Contracting sends manually outside Salesforce (see the SOP in `SOPs/`). **Historical note, likely relevant to why the drips Yasmine flagged as "currently paused" are paused:** Capital Financing previously used a *different*, Salesforce-native email-marketing product for this (switched to it to save money and keep everything "native"), but it was badly built — Kaz's example: pasting an image into an email would render blank. Howie stopped paying for it and it was shut off. `[TO CONFIRM: whether the currently-paused drips Yasmine referenced are this same discontinued tool, a different one, or the original pre-switch system — not yet confirmed which.]`
+
+**What counts as "activity."** Outlook calendar integration is confirmed and automatic — any meeting scheduled in Outlook syncs to Salesforce whether or not it's actually attended. Separately, Salesforce's **list email** feature (one send to many contacts at once, fanned out individually in the background) exists and is used by staff, but **Howie does not count a list email as a logged activity** even though the system could log each one. Only a created task, a logged meeting, or a manually-logged individual activity counts as real activity in his own accounting. This is a previously-undocumented, likely significant reason consultant "activity" looks sparse in reports even when genuine bulk outreach is happening — part of the gap may be definitional, not pure non-compliance. Nobody currently logs individual outbound emails one-by-one (confirmed as impractical given normal back-and-forth volume).
+
+**Opportunity tracking — built, not adopted.** See Workflow 4 Core Step 4 for full detail: a full Opportunity object with case-expense/pre-settlement-specific stages, and automated task/notification logic (7-day no-meeting trigger, 30-day no-referral trigger) already exists, built by Kaz and Josh together. It has never been rolled out to the sales team, so it currently has no data flowing through it. This is the single most consequential finding from this call — see want #10 in [[xx_howies_wants]].
+
+**Hunter vs. farmer.** Kaz's own framing for a gap Howie has also independently named: the current financial-consultant team is built of "farmers" (relationship-based closers, good with warm/handed-off leads) rather than "hunters" (cold prospectors who go find new business). Julius was hired specifically to try to fill the hunter gap via automated/semi-automated outreach cadences (see Workflow 3) — so far without producing a single meeting.
 
 ---
 
@@ -356,7 +372,7 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 
 **Spine:** `Source List → Prepare → Send → Handle Replies → Thank-Yous → Social`
 
-**Operator note:** Julius (offshore contractor, $2,500/mo). 3 pre-settlement + 3 case-financing template emails on intervals; manual. Near-zero response; negligible social engagement. **Flagged to collapse/reposition once Salesforce automation lands** — map now as transitional.
+**Operator note:** Julius (offshore contractor, $2,500/mo). **Reconciliation needed (Kaz call, 2026-08-XX):** Howie's original account (this workflow as originally mapped) describes Julius manually sending 70–90 templated emails/day across 3 pre-settlement + 3 case-financing templates. Kaz's system-level account describes something more specific: Julius operates two **Salesforce Cadence** sequences (a mix of automated and manual steps) — (1) personalized referral thank-yous, scaled by referral volume, and (2) a 3-email outreach cadence to new conference-attendee contacts. These may be the same activity described at two different levels of detail (Howie describing the felt experience of the work, Kaz describing the underlying system), or Julius may be doing both a high-volume manual push *and* running these cadences — not yet confirmed which. Both sources agree on the outcome: **near-zero response.** Kaz's specific data point: after roughly a month running the conference-attendee cadence, zero meetings were set. Kaz also assesses the referral thank-you cadence as fully automatable without quality loss. **Flagged to collapse/reposition once Salesforce automation lands** — map now as transitional.
 **Trigger:** Recurring outbound schedule; new prospects; referral events to acknowledge.
 **Final deliverable:** Daily outbound sent, referral thank-yous issued, social posts published, responses handled.
 
@@ -405,40 +421,42 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 **Final deliverable:** A worked lead with its outcome (converted / in-pipeline / dead) logged in Salesforce.
 
 ### Core Step 1 — Lead Generated
-- **In:** New warm lead. `[TO CONFIRM: sources — CEO relationships, conference contacts, referrals, outbound replies]`
-- **Out:** Lead/contact exists. `[TO CONFIRM: created in Salesforce auto or manual]`
-- **Owner/System:** CEO / Salesforce (contact-by-consultant assignment exists in build).
+- **In:** New warm lead. Sources confirmed (Kaz call, 2026-08-XX): the primary structured source is the **IPR** — a plaintiff or firm submits Capital Financing's website form, which creates a record in Salesforce. Conference contacts and outbound replies are the other main sources.
+- **Out:** Lead/contact exists in Salesforce, created automatically from the IPR web form (not manual entry for this specific path).
+- **Owner/System:** Website form → Salesforce, automatic. Intake also **manually re-enters the same submission into JB/Mighty** — confirmed double-entry, not just a one-way Mighty-to-Salesforce sync as previously assumed.
+- **⚠ Confirmed data-quality issue:** the IPR's "referring attorney" field is free text filled in by the plaintiff/submitter, and is frequently misspelled or informal (e.g., first name only) — a staff member has to manually match it to the correct attorney/firm record before referral tracking (last-referral date, referral count, amount approved) can update correctly for that firm.
 
 ### Core Step 2 — Lead Assigned to Consultant
 - **In:** Lead + assignment logic.
 - **Out:** Lead owned by a named consultant (Audrey, Victoria, Brian, Lisa…).
-- **Owner/System:** CEO (default sales manager) / Salesforce. `[TO CONFIRM: assignment rules vs. ad-hoc]`
+- **Owner/System:** CEO (default sales manager) / Salesforce. **Confirmed conference-contact assignment process (Kaz call, 2026-08-XX):** every new contact from a conference list defaults to being owned by Howie first. After the list is imported (see Workflow 5, Core Step 4), Howie manually redistributes by percentage per consultant (e.g., "25% to this person, 20% to this person, none to that person") — there is no criteria-based routing logic, and once reassigned, there is **no tracking of what happens next**; consultants receive the batch with no visibility into whether they're worked.
 - **⚠** Assignment is CEO-driven and manual; no managed routing layer.
 
 ### Core Step 3 — Consultant Follow-Up
 - **In:** Assigned lead; segmented list (e.g., post-conference).
-- **Out:** Follow-up attempts (calls/emails). `[TO CONFIRM: Salesforce activities logged vs. personal email/phone]`
-- **Owner/System:** Consultant / `[TO CONFIRM]`
+- **Out:** Follow-up attempts (calls/emails).
+- **Owner/System:** Consultant / Salesforce, syncing automatically with Outlook — **confirmed (Kaz call, 2026-08-XX):** any calendar invite/meeting scheduled in Outlook automatically appears in Salesforce, whether or not the meeting is actually attended.
 - **⚠** Consultants not following up on segmented lists; no activity minimums, no reporting cadence, no pipeline ownership.
 - **⚠ Post-onboarding 1-week referral tracking (new, from Howie dictation 2026-07-28):** After onboarding, Capital Financing requests the law firm send their first referral within **one week**. Most firms do not send cases within that window — sometimes not for months. This is why the task system exists: to catch them proactively. The CEO's daily Salesforce routine explicitly checks whether post-onboarding firms have sent their first referral. This cadence (1-week target, multi-month reality) should be the standard follow-up cadence for post-onboarding accounts, but currently no cadence is defined or enforced for consultants.
 - **⚠ Confirmed (2026-06):** Case-expense onboarding calls specifically — a Workflow 4/Shared-Layer crossover point — are weak: "our sales team... they're awful at having these calls." This is a named, confirmed skill gap, not just a process gap. See **Shared Sub-Layer — Intake Support, Sub-Step C**.
 
 ### Core Step 4 — Pipeline Progression
 - **In:** Prospect responses; qualification.
-- **Out:** Opportunity advanced through stages. `[TO CONFIRM: do defined stages exist today, or is stage structure absent? Brief implies it's a target, not current.]`
+- **Out:** Opportunity advanced through stages.
 - **Owner/System:** Consultant / Salesforce.
-- **⚠** No visible/managed stage structure; CEO lacks pipeline visibility.
+- **⚠⚠ Major finding, confirmed (Kaz call, 2026-08-XX): a defined Opportunity object with stages already exists and is fully built — it is simply not being used.** Kaz and Josh built an Opportunity structure with stages that differ by product (case-expense vs. pre-settlement), plus automated logic on top: if two required meetings haven't happened within 7 days of an opportunity's creation, a follow-up task auto-generates; if no referral arrives within 30 days of the second meeting, a notification fires. **Nobody currently creates Opportunities**, so none of this automation has data to act on. This resolves the prior `[TO CONFIRM]` on whether defined stages exist — they do, they're just unused. See want #10 in [[xx_howies_wants]] for the reframed priority: this is now an adoption/enforcement problem, not a build problem.
 
 ### Core Step 5 — CRM Logging & Task Lifecycle Management
 - **In:** Activity + outcome data.
 - **Out:** Notes, activities, status recorded in Salesforce.
 - **Owner/System:** Consultant / Salesforce.
 - **⚠** Consultants resist notes; logging inconsistent (no standard ties to what's recorded); reports built but never opened.
+- **⚠ Confirmed activity-tracking definition (Kaz call, 2026-08-XX):** Howie does **not** count a Salesforce "list email" (a bulk send to many contacts at once) as a logged activity, even though the system technically sends and could log each one individually. Only a created task, a logged meeting, or a manually-logged individual activity counts toward what Howie considers real activity. This is a meaningful, previously-undocumented reason consultant "activity" looks sparse in reports even when bulk outreach is genuinely happening — the gap may be partly a definitional mismatch, not pure non-compliance.
 - **⚠ Task lifecycle management (new, from Howie dictation 2026-07-28):** The CEO's daily routine includes a full task lifecycle: create task with due date (2 weeks to 1 month out, based on urgency) → check off when completed → create a *new* task for the next follow-up → **remove** tasks for firms that are no longer useful (don't let them sit as "zombie tasks"). This lifecycle (create → schedule → complete → remove) is not currently part of any consultant workflow or SOP. Currently there is no mechanism to remove unproductive tasks — they just accumulate. This should be a standard practice for all consultants: if a task is determined to be no longer useful, remove it rather than letting it sit indefinitely.
 
 ### Core Step 6 — Outcome / Close
 - **In:** Final disposition.
-- **Out:** Lead marked converted (→ funding W1/W2), in-pipeline, or dead. `[TO CONFIRM: hand-off mechanism from closed sales lead into funding intake]`
+- **Out:** Lead marked converted (→ funding W1/W2), in-pipeline, or dead.
 - **Owner/System:** Consultant / CEO / Salesforce.
 - **⚠** `[TO CONFIRM: the bridge from "sales closed" to "funding intake begins" is undocumented — likely the seam connecting W4 → W1/W2 in the Overall flow]`
 - **⚠ Confirmed seam detail:** For case-expense specifically, this close step now confirmed to flow into **Shared Sub-Layer Sub-Step C** (firm onboarding) before Workflow 2 Core Step 1 — onboarding quality at this hand-off directly determines whether the firm's future submissions are clean or become rework (see W2 Step 1 breakpoint).
@@ -467,19 +485,21 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 
 ### Core Step 3 — Contact Capture at Event
 - **In:** Cards / badge scans / conversations. `[TO CONFIRM: capture method]`
-- **Out:** Raw list of new contacts.
-- **Owner/System:** CEO / team / `[TO CONFIRM]`
-- **⚠** `[TO CONFIRM: how raw contacts reach Salesforce — manual entry, bulk import, or not at all]`
+- **Out:** Raw list of new contacts — Howie sends Kaz a **pre-conference list** and a **post-conference list**.
+- **Owner/System:** CEO / team capture in person; Howie compiles and sends to Kaz / `[TO CONFIRM: capture method at the event itself]`
+- **⚠** `[TO CONFIRM: how raw contacts reach Salesforce — manual entry, bulk import, or not at all]` — partially resolved by Core Step 4 below.
 
 ### Core Step 4 — Contact Loading & Segmentation
-- **In:** Raw event contacts.
-- **Out:** Segmented lists in Salesforce (segmentation + list-email capability exist in build).
-- **Owner/System:** `[TO CONFIRM: CEO, Kaz, or consultant]` / Salesforce.
+- **In:** Raw event contacts (pre- and post-conference lists from Howie).
+- **Out:** Contacts loaded into Salesforce, deduplicated against existing records (segmentation + list-email capability exist in build).
+- **Owner/System:** **Kaz** — confirmed (2026-08-XX call), resolving the prior `[TO CONFIRM: CEO, Kaz, or consultant]` — / Salesforce, via manual spreadsheet work plus some AI-assisted lookups.
+- **⚠ Confirmed, previously invisible cost:** Salesforce holds roughly **25,000 contacts and 10,000 companies**. Matching a new conference list against existing records is manual — name/spelling inconsistencies (dashes, nicknames vs. legal names, slightly different firm names, manually-entered vs. self-registered spellings) mean only about **50% auto-match**; the rest requires Kaz to manually reconcile duplicates by hand. This takes roughly **2 hours per list**, every time Howie sends one — a real, recurring cost that wasn't previously counted anywhere. See want #8 in [[xx_howies_wants]] for the automation angle on this.
 
 ### Core Step 5 — Assignment & Follow-Up
 - **In:** Segmented post-conference list.
 - **Out:** Lists assigned to consultants → feeds Workflow 4.
 - **Owner/System:** CEO → consultants / Salesforce.
+- **⚠ Confirmed assignment mechanism (Kaz call, 2026-08-XX):** every new conference contact defaults to being owned by **Howie** once loaded (Core Step 4). Howie then manually redistributes by rough percentage per consultant ("25% to this person, 20% to this person, none to that person") — there is no criteria-based routing, and **no tracking exists of what happens to a contact after reassignment**. This is the same mechanism documented in Workflow 4 Core Step 2.
 - **⚠** Primary documented failure point: consultants don't follow up, so the ~$20K spend doesn't convert.
 
 ---
