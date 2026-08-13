@@ -246,26 +246,40 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 - **⚠** PO-001 single-point-of-failure persists for Tier 2 (Christy alone) pending Tammy's probationary outcome.
 
 ### Core Step 5 — Offer / Agreement Issued
-- **In:** Approved amount + terms (fees terminate 12 mo, 1x max multiple, no compounding).
-- **Out:** Funding agreement sent to plaintiff/attorney for signature.
-- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / `[TO CONFIRM: e-sign platform, emailed PDF]`
+- **In:** Approved amount + terms (contract type/fee model selected by whoever approved underwriting — Christy or, currently while she's out, Howie).
+- **Out:** Funding agreement generated and sent for signature.
+- **Owner/System:** **Contracting trunk** — Yasmin (owner), with Audra, Chanel, Diana / **JB generates the contract as a Word document** based on the selected model; uploaded into **FormStack by Intelistack** for e-signature.
+- **Confirmed contract types (Yasmine walkthrough, 2026-08-XX) — decided during underwriting, not by Contracting:**
+  - **25% model ("our advertised model," most-used):** 12-month term, 25% fee on principal accruing quarterly (every 90 days), all fees terminate at 12 months.
+  - **5% Simple Agreement:** previously ran with no fixed term (ongoing until case settled); changed roughly a week before this call to cap at **48 months**, driven by state-level caps on funding-contract terms that vary by jurisdiction.
+  - (See Workflow 2 for the case-expense-specific 15% model.)
 - **⚠ Confirmed:** Attorney sign-off on funding is required before approval is finalized — this is the step the CEO's direct file intervention (Core Step 4 breakpoint) has bypassed, with account-loss risk as the explicit concern raised internally.
 
 ### Core Step 6 — Agreement Executed
-- **In:** Signed agreement returned. `[TO CONFIRM: attorney acknowledgment / lien letter required?]`
-- **Out:** Fully executed funding agreement.
-- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / `[TO CONFIRM: system]`
+- **In:** Contract sent via FormStack.
+- **Out:** Fully signed, executed funding agreement, uploaded back into JB tagged "signed contract."
+- **Owner/System:** **Contracting trunk** — Yasmin, with Audra, Chanel, Diana / **FormStack by Intelistack**, using a **single shared login for the whole Contracting group** (not individual per-user logins — a direct, confirmed contrast with what Segue proposed but could not actually demonstrate live during their own demo, since it wasn't connected on their end). Contracting pre-maps a signature-field template per contract-type + funding-method combination (e.g., "25% + ACH direct deposit"), adds signers (client and/or attorney, depending on agreement type), and sends. FormStack auto-reminds signers, and Contracting also manually cross-checks the inbox and sends manual reminders each morning as a double-check against anything the system might have missed.
+- **⚠ No defined reminder cadence exists as a written rule** — confirmed as roughly every couple of days in practice, not a documented SLA. If a firm goes fully unresponsive after several follow-ups, the application is closed out in JB (easily reopened later if the firm comes back).
 
 ### Core Step 7 — Disbursement
 - **In:** Executed agreement; plaintiff payment details.
-- **Out:** Funds disbursed; advance recorded against the case.
-- **Owner/System:** **Funding trunk** — Danielle, Audra / Mighty `[TO CONFIRM: payment rails / method]`
-- **⚠** Mighty is static, no API, no Salesforce integration — funding records don't flow to the CRM.
+- **Out:** Funds disbursed; advance recorded against the case; file status moves from **Approved → Funded** in JB, then to **Lien** status.
+- **Owner/System:** **Funding trunk** — Danielle, Audra (same two people who staff Contracting) / three payment rails, each with its own threshold:
+  - **Push-to-Debit** (via **AppPay**, a separate app from JB) — capped at **$2,500** currently (under discussion with Danielle to raise, since the cap is inconvenient); fastest and most-used method for plaintiffs specifically; requires a photo of the client's debit card for verification (accommodates less computer-savvy or injured clients); never used for law-firm-side payments. If an amount exceeds the cap, it's split across **multiple push-to-debit transactions on different dates**, not switched to another method.
+  - **Direct Deposit** — via the company's bank/treasury, requires a voided check or bank letter (name, account, routing); used for both plaintiffs and law-firm reimbursements; no cap, but **per-staff authorization thresholds**: Audra up to $25,000, Chanel (newer) up to $10,000, Yasmine unlimited.
+  - **Wire** — restricted to **Yasmine and Danielle only**; nobody else on the team is authorized to send a wire.
+  - **Standard practice, all methods:** Contracting always does a phone call with the plaintiff client before releasing funds, to review the terms of the loan/contract with them directly.
+- **⚠ Confirmed:** the **funded date and the agreement-signed date are tracked separately** in JB — interest/fee accrual starts on the day funds are actually released, not the day the contract was signed, and these two dates are manually adjusted in JB when a file moves to Funded to reflect what actually happened rather than default field values.
+- **⚠** Mighty/JB is static, no API, no Salesforce integration for disbursement data — funding records don't flow to the CRM. **One confirmed exception:** see Core Step 8 note on the single Salesforce touchpoint.
 
 ### Core Step 8 — Record-Keeping & Repayment Tracking
 - **In:** Funded terms; settlement timeline.
-- **Out:** Advance tracked to settlement; repayment recovered at settlement. `[TO CONFIRM: how settlement status is monitored, by whom]`
-- **Owner/System:** **Accounts Receivable trunk** — Jalicia, Diana, Chanel / Mighty `[TO CONFIRM]`. Settlement-time repayment resolution runs through the **Payoffs trunk** (Diana, Jalicia, Audra, Chanel, Yasmin); overdue recovery escalates to the **Collections trunk** (Yasmin). See Process Trunks table.
+- **Out:** Advance tracked to settlement as a **lien** in JB; repayment recovered at settlement.
+- **Owner/System:** **Accounts Receivable trunk** — Jalicia (VA, part-time, 323 files at time of this call), Diana (VA, 313 files), Yasmine herself (261 files), Chanel (also Contracting, 187 files) / JB.
+- **Confirmed repayment mechanism:** repayment happens as **one lump sum at case settlement**, and it is the **law firm**, not the plaintiff directly, that pays Capital Financing back from the settlement funds — true even for plaintiff-side pre-settlement advances.
+- **Confirmed lien tracking:** each case has one client/case ID in JB; repeat advances against the same case increment a lien/advance number under that same ID (one example cited: a single client with 24 separate advances over time). JB displays current balance and the next scheduled fee-increase date directly on the lien record (quarterly, under the 25% model).
+- **⚠ Confirmed: AR follow-up is fully manual, with no automated reminders in JB.** Default follow-up cadence depends on case status (e.g., litigation status defaults to a 90-day interval) but is adjusted per relationship at Yasmine's discretion — established, high-volume, low-risk law firms may get a longer interval (120 days) instead of the default. This is a discretionary practice, not a documented rule. See **Workflow 6** below for the full close-out and payoff process.
+- **Confirmed, single Salesforce touchpoint for Contracting:** the only time Contracting touches Salesforce is to flip a record's status to **"Approved"** once JB shows underwriting approval. This used to auto-trigger marketing drip email sequences to the law firm; those drips are currently **paused** (reason `[TO CONFIRM]`). Contracting also manually adds newly-discovered attorney contacts to the firm's Salesforce record so consultants know who's at the firm.
 
 ---
 
