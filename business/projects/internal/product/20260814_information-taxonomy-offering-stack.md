@@ -73,6 +73,13 @@ Roadmap (intro) → Taxonomy design & migration (core paid engagement, main moat
 - **Vendor lock-in:** "just let AI handle the blob" makes a company's entire operational memory hostage to one AI vendor's index, uptime, and pricing forever.
 
 **Positioning takeaway:** don't build the pitch on "AI needs organized files to work well" — that claim has a shrinking shelf life as retrieval improves. Build it on "even perfect AI retrieval doesn't solve for compliance, accountability, onboarding, provenance, or vendor independence" — a claim that holds, or strengthens, as AI gets better.
+
+## Expansion surfaces (future, sequenced — not yet in scope)
+
+- **Meeting transcripts — higher priority than CRM.** Live-fed decision capture (transcript → drafted task/SOP update/note, human confirms before any write) directly answers the "goes stale" objection in the RAG section above, since it's fed continuously by every meeting rather than synced periodically. Positioned as the flagship use case for Layer 3 (AI working-partner), not a new numbered layer.
+- **CRM/core systems — lower priority, harder integration surface.** Schema variance per client (Salesforce vs. HubSpot vs. custom) reopens the "narrow integrations only" discipline from Layer 1.5, and platform vendors are already building native AI on their own CRM data — less of an open gap than transcripts.
+- **Both require the propose-don't-act boundary** — draft only, human confirms before any write to a live system. Transcripts raise the compliance bar further (personnel/negotiation content) for the finance-adjacent ICP.
+- **Sequencing:** transcripts next, CRM later. Both are real, priced setup work per client (defining what counts as a "decision" worth capturing is judgment work, not a solved NLP problem) — not a bundled free feature.
 ## Next steps
 - [ ] Research migration execution strategy (parallel vs. incremental vs. big-bang) before the first engagement — blocking unknown.
 - [ ] Draft the free taxonomy chart / DIY guide lead magnet.
