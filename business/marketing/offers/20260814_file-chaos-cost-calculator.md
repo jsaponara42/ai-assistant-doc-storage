@@ -1,17 +1,9 @@
 ---
-title: Build File Chaos Cost Calculator (Lead Magnet)
+title: "File Chaos Cost Calculator (Lead Magnet)"
 date: 2026-08-14
-due-date:
-priority: 2
-tags:
-- marketing
-- offer
-- lead-magnet
+tags: [marketing, offer, lead-magnet]
 ai: claude
-context: business
-status: active
-related: []
-summary: Build an interactive "how much is your file chaos costing you" calculator as a lead magnet for the Information Taxonomy offering, using team size + loaded cost to produce a personalized number.
+status: needs-attention
 ---
 
 ## Summary

@@ -1,17 +1,9 @@
 ---
-title: Build "What AI Sees" Lead Magnet Tool
+title: "'What AI Sees' Lead Magnet Tool"
 date: 2026-08-14
-due-date:
-priority: 2
-tags:
-- marketing
-- offer
-- lead-magnet
+tags: [marketing, offer, lead-magnet]
 ai: claude
-context: business
-status: active
-related: []
-summary: Interactive tool where a prospect pastes a SharePoint/Google Drive link and sees "what AI sees" today vs. "what AI could see if your taxonomy were fixed" — a visceral, self-demonstrating lead magnet for the taxonomy offering.
+status: needs-attention
 ---
 
 ## Summary
