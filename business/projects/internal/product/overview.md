@@ -25,3 +25,6 @@ Open threads to resolve before committing to a direction:
 - [ ] Define the monetization checkpoint for the template library (e.g. 2 engagements showing measurably reduced bespoke build time) before investing further.
 - [ ] Scope the human-editing surface for a non-technical client team (plain git/markdown vs. lightweight custom web editor vs. Notion-hybrid).
 - [ ] Once direction is decided, write the actual product strategy doc here.
+
+## Update — 2026-08-14
+Direction decided: see [[business/projects/internal/product/20260814_information-taxonomy-offering-stack]] for the full offering stack (Roadmap \u2192 Taxonomy design/migration \u2192 drift checker \u2192 AI working-partner layer). Information Taxonomy design & migration is now the identified core moat, replacing the hosted "company brain" system as the primary product bet.
