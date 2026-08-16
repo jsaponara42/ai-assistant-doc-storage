@@ -31,6 +31,15 @@ Related: [[business/projects/internal/product/overview]], [[business/marketing/o
 - Taxonomy design is bespoke judgment tied to a company's specific history — not something a platform vendor is incentivized to solve, and not something generic AI improvement fixes automatically.
 - Much lower infrastructure/security burden than hosting a live "company brain" — directly resolves the security-posture and ops-burden objections raised in the prior adversarial pass on the hosted-system idea.
 
+### Layer 1.5 detail — project-scoped setup (native Projects, not custom MCP)
+
+A concrete, sellable Layer 1.5 deliverable that's real *today*, independent of any edit-in-place capability (see [[business/projects/internal/product/20260816_ai-file-integration-capability-reality-check]]): use Claude/ChatGPT's native **Projects** feature to stop agents from burning tokens searching the whole filesystem on every task.
+
+- Native Projects don't auto-scope a Drive/SharePoint connector to a folder — scoping happens by what's deliberately loaded into a project's custom instructions and reference material, not by restricting the connector itself.
+- Deliverable: per client project or department, a pre-built Project containing (1) an **evergreen doc** — a compact, org-wide conventions/map reference attached to every project so agents have baseline orientation without re-deriving it, and (2) **project-specific instructions** naming the exact folder path(s)/file set relevant to that project, so the agent knows where to look first instead of searching the whole tenant.
+- **Already validated internally, informally:** this is functionally what the vault-mcp + context-handoff skills already do for JC's own work — `get_vault_structure` as the full map, `CONVENTIONS.md` as the evergreen doc, `xx_context-handoff.md` per project as the scoped snapshot read first. For a client deliverable this would run on native Projects instead — no custom MCP server to build or maintain, simpler to hand off and support.
+- Worth testing alongside the Layer 3 test: whether pasted-as-text project instructions genuinely outperform attached Drive docs for token cost/reliability (flagged as a live gap elsewhere) — that changes how the evergreen doc should actually be delivered.
+
 ### Scalability & delegation — first real answer to "my product is me and my time"
 
 | Stage | Requires JC specifically? | Notes |
@@ -88,3 +97,4 @@ Roadmap (intro) → Taxonomy design & migration (core paid engagement, main moat
 - [ ] Revisit enterprise/PE sales-cycle objections specifically for this offering, given the lower infra/hosting burden changes the calculus from the earlier pass.
 - [ ] Treat drift-checker pricing/positioning explicitly as bridge revenue, not a permanent product line.
 - [ ] Name the offering / offering stack.
+- [ ] Test native Claude/ChatGPT Projects (evergreen doc + scoped path instructions) against JC's own Drive setup — confirm the token/search-efficiency win is real before pricing it as part of Layer 1.5.
