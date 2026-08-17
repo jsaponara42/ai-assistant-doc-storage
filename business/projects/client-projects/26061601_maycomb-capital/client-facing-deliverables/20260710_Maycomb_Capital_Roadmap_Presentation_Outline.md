@@ -103,12 +103,12 @@ Four open questions, not yet solved:
 
 ## Slide 8 — Recommended Next Steps
 
-- Quick SharePoint audit: a fast, bounded look at how your documents and files are organized today, sets the baseline before anything bigger
+- Quick SharePoint audit: how well your files are organized determines whether AI finds the right answer, or confidently gets it wrong
 - Structured discovery: sourcing, investor relations, borrower support, outcome data
 - Blue Tusk as ongoing AI steward: Solution monitoring, Claude training resources, Consistent force
 - Let's talk
 
-> Speaker note: lead with the audit specifically because it's the lowest-commitment ask in the room, a defined, short diagnostic, not a pitch for a full engagement. It's also a natural first step given how much of what we found ties back to how information is organized in the first place. On the steward bullet, "consistent force" is the piece worth actually explaining live: a clear owner who has Maycomb's best interests in mind for their AI and automation work, a source of decision support for upcoming investments, and someone who pushes the business toward good decisions, not just convenient ones. Land discovery and the steward role next, then end on invitation, not pressure.
+> Speaker note: the audit needs a beat of setup before it lands, it doesn't obviously connect to the rest of this slide without it. As Claude and tools like it start working directly inside your files, not just answering typed questions but reading and reasoning across what's actually stored, how well organized that information is starts to matter in a new way. Get it right, and AI finds the right document and gives a reliable answer. Get it wrong, and one of two things happens: it confidently hands you a wrong answer because it searched the wrong place, or it burns far more effort finding what it needs than it should, which is real, avoidable AI cost that adds up over time. The audit is how we find out which one you're actually dealing with, before building anything bigger on top of it. On the steward bullet, "consistent force" is the other piece worth explaining live: a clear owner who has Maycomb's best interests in mind for their AI and automation work, a source of decision support for upcoming investments, and someone who pushes the business toward good decisions, not just convenient ones. Land discovery and the steward role next, then end on invitation, not pressure.
 
 ---
 

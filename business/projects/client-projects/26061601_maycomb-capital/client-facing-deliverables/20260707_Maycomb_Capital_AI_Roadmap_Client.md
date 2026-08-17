@@ -153,7 +153,9 @@ For the fourth, we're proposing something more hands-on: **Blue Tusk as your ong
 
 That's the difference between a Playbook that gets read once and one that actually holds.
 
-There's also a lower-commitment place to start, independent of any of the above: a quick audit of how your documents and files are organized today, across SharePoint and the systems that feed it. It's bounded and fast, and it gives both of us a clear, concrete read on what we're actually working with before deciding on anything bigger.
+There's also a lower-commitment place to start, independent of any of the above. As agentic AI starts working directly inside your files, not just answering questions you type, but reading and reasoning across what's actually stored, how well those files are organized becomes a real factor in the quality of what you get back. Organized well, AI finds the right document and gives you a reliable answer. Organized poorly, one of two things happens: it can confidently hand you the wrong answer because it searched in the wrong place, or it can spend far more effort finding what it needs than it should, and that adds up in real, avoidable AI cost over time.
+
+That's not a problem today so much as a problem that grows the more you lean on AI going forward, and now, before anything bigger gets built on top of it, is the cheapest time to find out where you actually stand. A quick audit of how your documents and files are organized today, across SharePoint and the systems that feed it, gives both of us a clear, concrete read on that. It's bounded and fast.
 
 We'd like to talk about what this looks like as a next engagement. Let us know when.
 
