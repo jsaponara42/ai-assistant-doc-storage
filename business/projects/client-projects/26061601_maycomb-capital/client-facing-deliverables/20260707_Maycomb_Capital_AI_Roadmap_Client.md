@@ -1,7 +1,7 @@
 ---
 title: Maycomb Capital — AI & Automation Roadmap (Client Deliverable)
 date: 2026-07-07
-last-updated: 2026-07-28
+last-updated: 2026-08-17
 tags:
   - client
   - deliverable
@@ -29,7 +29,7 @@ Over six weeks we documented how Maycomb's back office actually runs, mapped wha
 - Three bigger automation opportunities that solve real recurring pain, including the single-approval-meeting goal your own team already named.
 - Real, unmapped opportunity in the work that actually drives revenue and mission impact: deal sourcing, investor relations, borrower support, and outcome-data collection.
 
-**What we recommend:** start with the quick wins. They're bounded, low-risk, and solve problems tied directly to people who are currently leaving. From there, the clearest next step is going deeper on the revenue-driving opportunities above, and putting a steward in place so AI adoption doesn't fragment as your team grows.
+**What we recommend:** start with the quick wins. They're bounded, low-risk, and solve problems tied directly to people who are currently leaving. Alongside that, a quick audit of how your documents and files are organized today gives us a clear, concrete starting point, on its own, no commitment to anything bigger required. From there, the clearest next step is going deeper on the revenue-driving opportunities above, and putting a steward in place so AI adoption doesn't fragment as your team grows.
 
 Everything below backs this up in detail. If you read nothing else, read "What's Next" at the end.
 
@@ -145,5 +145,7 @@ That work also surfaced problems you didn't have named before. Four of them.
 Here's how we'd tackle each one. For the first three, we'd run the same kind of structured discovery we ran on your back office: working sessions with the right people, mapped into a clear current-state picture, then a prioritized set of opportunities, the way this document was built.
 
 For the fourth, we're proposing something more hands-on: **Blue Tusk as your ongoing AI steward.** We'd keep an eye on your team's Slack gripe channel, catch what's actually going wrong before it becomes a pattern nobody addresses, and build out training resources as new hires come on board. That's the difference between a Playbook that gets read once and one that actually holds.
+
+There's also a lower-commitment place to start, independent of any of the above: a quick audit of how your documents and files are organized today, across SharePoint and the systems that feed it. It's bounded and fast, and it gives both of us a clear, concrete read on what we're actually working with before deciding on anything bigger.
 
 We'd like to talk about what this looks like as a next engagement. Let us know when.
