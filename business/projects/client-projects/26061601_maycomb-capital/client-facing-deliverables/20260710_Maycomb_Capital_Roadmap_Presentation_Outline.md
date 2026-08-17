@@ -105,7 +105,7 @@ Four open questions, not yet solved:
 
 - Quick SharePoint audit: a fast, bounded look at how your documents and files are organized today, sets the baseline before anything bigger
 - Structured discovery: sourcing, investor relations, borrower support, outcome data
-- Blue Tusk as ongoing AI steward: Slack monitoring + training resources as new hires come on
+- Blue Tusk as ongoing AI steward: Solution monitoring, Claude training resources, Consistent force
 - Let's talk
 
 > Speaker note: lead with the audit specifically because it's the lowest-commitment ask in the room, a defined, short diagnostic, not a pitch for a full engagement. It's also a natural first step given how much of what we found ties back to how information is organized in the first place. Land discovery and the steward role next, then end on invitation, not pressure.
