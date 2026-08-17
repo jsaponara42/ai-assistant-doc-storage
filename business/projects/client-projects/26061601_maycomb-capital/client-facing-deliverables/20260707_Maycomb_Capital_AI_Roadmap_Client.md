@@ -144,7 +144,13 @@ That work also surfaced problems you didn't have named before. Four of them.
 
 Here's how we'd tackle each one. For the first three, we'd run the same kind of structured discovery we ran on your back office: working sessions with the right people, mapped into a clear current-state picture, then a prioritized set of opportunities, the way this document was built.
 
-For the fourth, we're proposing something more hands-on: **Blue Tusk as your ongoing AI steward.** We'd keep an eye on your team's Slack gripe channel, catch what's actually going wrong before it becomes a pattern nobody addresses, and build out training resources as new hires come on board. That's the difference between a Playbook that gets read once and one that actually holds.
+For the fourth, we're proposing something more hands-on: **Blue Tusk as your ongoing AI steward.** Three things, specifically:
+
+- **Solution monitoring.** We keep an eye on where your AI and automation solutions are actually landing, catching what's breaking or being ignored before it turns into a pattern nobody addresses.
+- **Claude training resources.** Built out as new hires come on board, so adoption doesn't reset every time your team changes.
+- **A consistent force.** A clear owner who has Maycomb's best interests in mind for your AI and automation work, a source of decision support for upcoming investments, and someone who pushes the business toward good decisions, not just convenient ones.
+
+That's the difference between a Playbook that gets read once and one that actually holds.
 
 There's also a lower-commitment place to start, independent of any of the above: a quick audit of how your documents and files are organized today, across SharePoint and the systems that feed it. It's bounded and fast, and it gives both of us a clear, concrete read on what we're actually working with before deciding on anything bigger.
 

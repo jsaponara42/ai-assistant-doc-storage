@@ -108,7 +108,7 @@ Four open questions, not yet solved:
 - Blue Tusk as ongoing AI steward: Solution monitoring, Claude training resources, Consistent force
 - Let's talk
 
-> Speaker note: lead with the audit specifically because it's the lowest-commitment ask in the room, a defined, short diagnostic, not a pitch for a full engagement. It's also a natural first step given how much of what we found ties back to how information is organized in the first place. Land discovery and the steward role next, then end on invitation, not pressure.
+> Speaker note: lead with the audit specifically because it's the lowest-commitment ask in the room, a defined, short diagnostic, not a pitch for a full engagement. It's also a natural first step given how much of what we found ties back to how information is organized in the first place. On the steward bullet, "consistent force" is the piece worth actually explaining live: a clear owner who has Maycomb's best interests in mind for their AI and automation work, a source of decision support for upcoming investments, and someone who pushes the business toward good decisions, not just convenient ones. Land discovery and the steward role next, then end on invitation, not pressure.
 
 ---
 
