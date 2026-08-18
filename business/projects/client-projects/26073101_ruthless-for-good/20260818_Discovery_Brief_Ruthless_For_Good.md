@@ -145,7 +145,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - **Problem:** The fund's Notion CRM is built from an unconfigured purchased template. It requires heavy manual data entry, isn't meaningfully linked to other data (contacts, deals, projects), and currently lives across scattered personal databases rather than one connected system. This makes it hard for both people and AI tools to get a full picture, and data entry currently has no clear payoff ("I put it there and then I'm never going to look at it again").
 - **Current Thinking:** The team treats data entry as a chore disconnected from any future benefit, and treats the CRM as something to eventually "fill out" rather than something to design around actual use.
 - **Reframe:** Data entry should feel worthwhile because the system immediately does something useful with it — a live daily dashboard, a next-touch prompt, a suggested follow-up message — not just an inert record.
-- **Approach:** Rebuild as a single master Notion database with tagged views (e.g., investor vs. company vs. deal) so AI tools can reason across one connected dataset instead of many disconnected ones. **Updated 2026-08-18:** RFG chose not to build the CRM cold. Actual entry point is AI-assisted triage of Aaron's inbox and calendar, which will feed the CRM organically; formal CRM requirements-discovery is deferred until the inbox/calendar workstream is running. Deal-flow side (Michael's future domain) still expected to migrate before investor-relationship data. Status: Not started.
+- **Approach:** Rebuild as a single master Notion database with tagged views (e.g., investor vs. company vs. deal) so AI tools can reason across one connected dataset instead of many disconnected ones. **Updated 2026-08-18:** RFG wants to start with inbox/calendar triage rather than a full CRM build, but that doesn't remove the need for structure entirely — feeding an AI assistant into an unstructured CRM just produces unstructured AI output faster. JC's read: a **light, upfront pass at minimum CRM structure** (the core fields and views, not the full buildout) needs to happen alongside or just ahead of the inbox/calendar workstream, so triage output has somewhere well-formed to land. This is a smaller ask than the original CRM Requirements Discovery session — see Action Plan. Deal-flow side (Michael's future domain) still expected to migrate before investor-relationship data. Status: Not started.
 
 ### P-002 — Institutional relationships live in one person's head
 - **Area:** People / Resources
@@ -191,7 +191,13 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 
 ### Systems / Processes
 **In scope:** P-001, P-002, P-004, P-005
-- **Workstream: AI-Assisted Inbox & Calendar Triage (Outlook)** *(new, added 2026-08-18 — actual first build)*
+- **Workstream: Minimum CRM Structure** *(new, added 2026-08-18 — pushback on "feed the CRM cold")*
+  - Approach: Before inbox/calendar triage starts, define the bare minimum CRM structure it needs to feed into — core fields (contact, org, deal stage, last-touch, next-touch) and the split between deal-flow and investor-relationship views. This is not the full CRM Requirements Discovery session; it's the smallest structural commitment that keeps triage output usable instead of adding mess faster.
+  - What it involves: A short, focused conversation with Aaron (or Martina relaying) to lock the handful of fields and views that matter most — lighter than the original discovery session, but not skippable. JC's position: without this, AI-assisted inbox triage makes the CRM problem worse, not better, since it accelerates data entry into a structure that doesn't exist yet.
+  - Key Result: A minimal, agreed field/view structure the inbox/calendar workstream can write into from day one.
+  - Timeline: Immediately ahead of or alongside the inbox/calendar workstream — short, not a multi-week discovery process.
+
+- **Workstream: AI-Assisted Inbox & Calendar Triage (Outlook)** *(actual first build, added 2026-08-18)*
   - Approach: Build a Claude-based triage assistant against Aaron's Microsoft 365/Outlook inbox and calendar — his confirmed real bottleneck — rather than starting with a formal CRM build. Gated on the AI governance document being reviewed and accepted (RFG's condition for turning on Cowork), and on Twintel clearing the necessary tenant permissions.
   - What it involves: JC to determine the cleanest technical path (Claude for Outlook add-in vs. alternatives) given Claude reads Gmail natively but not Exchange; coordinate with Martina/Twintel on tenant permissions; design the triage flow so it naturally populates CRM-relevant data as a byproduct.
   - Key Result: Aaron has a working inbox/calendar assistant reducing his admin load, and structured data starts flowing into the CRM without a separate cold-start data-entry effort.
@@ -235,12 +241,13 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 
 **Recommended Sequence:**
 1. AI Usage Governance Document (People) — in progress; hard gate RFG imposed before widening tool access.
-2. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and on Twintel clearing tenant permissions; next up.
-3. Master CRM Rebuild — Deal Flow First (Systems/Processes) — informed by data surfaced in (2), rather than a separate cold discovery session.
-4. Notion CRM Skill (Contact Creation/Update) (Systems/Processes) — depends on (3) producing a stable schema, and on (1) being signed off since this is a live-data write use case.
-5. Investor Relationship Migration (Systems/Processes) — depends on (3) being stable and proven.
-6. Pitch Intake & Triage Pipeline (Systems/Processes) — depends on (3), and ideally (5), being in place.
-7. Shared Drive (SharePoint) Restructure (Systems/Processes) — can run in parallel with the above once JC's proposal is delivered; timing anchored to Fund II data-room prep rather than to the CRM sequence.
+2. Minimum CRM Structure (Systems/Processes) — short, focused; needs to land before or alongside (3) so triage output has somewhere well-formed to go.
+3. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and (2), and on Twintel clearing tenant permissions.
+4. Master CRM Rebuild — Deal Flow First (Systems/Processes) — the fuller buildout, informed by data surfaced in (3) on top of the structure set in (2).
+5. Notion CRM Skill (Contact Creation/Update) (Systems/Processes) — depends on (4) producing a stable schema, and on (1) being signed off since this is a live-data write use case.
+6. Investor Relationship Migration (Systems/Processes) — depends on (4) being stable and proven.
+7. Pitch Intake & Triage Pipeline (Systems/Processes) — depends on (4), and ideally (6), being in place.
+8. Shared Drive (SharePoint) Restructure (Systems/Processes) — can run in parallel with the above once JC's proposal is delivered; timing anchored to Fund II data-room prep rather than to the CRM sequence.
 
 ---
 
