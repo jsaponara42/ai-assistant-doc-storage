@@ -115,7 +115,7 @@ Claude is useful for drafting the monthly one-on-one talking points against some
 
 ### 6. Try These Prompts — Copy, Paste, Edit
 
-Open a new Claude chat and paste any of these in, swapping the bracketed parts for your real situation. These are meant to be **starting points** — adjust freely. Organized by the two sides of the house — **Ops** (intake, underwriting, contracting, AR/payoffs) and **Business Development** (financial consultants, sales, conference/outreach) — grounded in how these teams' work actually flows today.
+Open a new Claude chat and paste any of these in, swapping the bracketed parts for your real situation. These are meant to be **starting points** — adjust freely. Most of what's below is deliberately *not* email drafting — Claude is more useful as a thought partner for organizing, prioritizing, and planning than as a fancy spell-checker, and the examples below lean into that. Organized by the two sides of the house — **Ops** (intake, underwriting, contracting, AR/payoffs) and **Business Development** (financial consultants, sales, conference/outreach).
 
 #### Ops
 
@@ -127,13 +127,13 @@ I can hand to underwriting, and flag anything that looks missing or
 unclear so I can go back to the firm for it before it holds things up.
 ```
 
-**2. Chase missing documents after onboarding**
+**2. Build a documents-still-needed tracker**
 ```
-We onboarded a law firm for case-expense funding and sent our usual
-follow-up with the documents we need to move forward. It's been a
-while and we're still missing some of them. Draft a polite but direct
-follow-up email to the firm contact listing what's outstanding and why
-it's holding up funding.
+Here's a list of our open case-expense files and what each one is
+still waiting on [paste it in]. Organize this into a clear tracker —
+what's missing, how long it's been outstanding, and which ones need
+to be chased first — so I'm working from a prioritized list instead of
+just whatever's on top of the pile.
 ```
 
 **3. Turn a process into a written SOP — the ask-questions way**
@@ -145,28 +145,38 @@ write it up as a clean, numbered step-by-step SOP. This is exactly how
 our existing SOPs got started, so trust the process.
 ```
 
-**4. Draft an AR status check-in**
+**4. Prioritize your AR follow-up list**
 ```
-I need to check in with a law firm on the status of a case we have an
-advance out on. Draft a short, professional status-check email asking
-where things stand with the case and whether there's an expected
-settlement timeline — friendly, not pushy, this is a routine check-in
-not a collections call.
-```
-
-#### Business Development
-
-**1. First post-onboarding follow-up touch**
-```
-I just finished an onboarding call with a new law firm for case-expense
-funding. They committed to sending their first referral by [date] and
-named [contact] as our point person there. Draft a short, warm
-follow-up email to send in the next day or two confirming what we
-discussed and reconfirming that date — not a hard sell, just keeping
-it top of mind.
+Here's a list of my open AR files with balance, days outstanding, and
+any relationship notes [paste it in]. Help me decide which ones to
+prioritize for follow-up this week and why, using our usual cadence
+rules as a starting point — give me a short, ranked list, not just the
+raw data handed back to me.
 ```
 
-**2. Prep for a strategy call — the ask-questions way**
+#### Business Development (Financial Consultants)
+
+**1. Plan your week against your actual KPIs — the ask-questions way**
+```
+Howie has given me targets to hit this [week/month] — [list your real
+numbers: new referrals, outreach attempts, follow-up closure rate,
+pre-settlement vs. case-expense balance, whatever applies to you].
+Ask me questions about where I currently stand against each one and
+what's been getting in the way, then help me build a realistic plan for
+this week — what to prioritize each day, how many touches I actually
+need, and what I should stop letting slide.
+```
+
+**2. Triage your pipeline before you start the day**
+```
+Here's where my open opportunities/leads currently stand [paste a
+quick list or just describe them]. Help me figure out which ones are
+stalling, which need a touch today, and which are honestly worth
+letting go of — I want to start the day already knowing where to spend
+my time instead of guessing.
+```
+
+**3. Prep for a strategy call — the ask-questions way**
 ```
 I have a Strategy Call coming up with a law firm that's expressed
 interest in case-expense funding. Ask me whatever questions you need
@@ -175,22 +185,14 @@ together talking points for the call and a natural way to transition
 into scheduling the Onboarding Call if it goes well.
 ```
 
-**3. Prioritize a conference contact list**
+**4. First post-onboarding follow-up touch**
 ```
-Here's a raw list of contacts from a conference [paste it in]. I want
-to focus my follow-up time on the highest-value law firms rather than
-spreading effort across all of them — help me sort this list by likely
-firm size/case value based on what's in the notes, and flag which ones
-are worth prioritizing first.
-```
-
-**4. Re-engage a firm that's gone quiet**
-```
-We onboarded a law firm a while back and they haven't sent a referral
-yet, even though it's been well past the timeline we discussed. Draft
-a re-engagement email that's warm and low-pressure — checking in
-rather than chasing — and gives them an easy way to flag if something's
-blocking them from sending a case.
+I just finished an onboarding call with a new law firm for case-expense
+funding. They committed to sending their first referral by [date] and
+named [contact] as our point person there. Draft a short, warm
+follow-up email to send in the next day or two confirming what we
+discussed and reconfirming that date — not a hard sell, just keeping
+it top of mind.
 ```
 
 ---
