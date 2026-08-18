@@ -48,7 +48,7 @@ The point of bringing AI in is not to replace either of you. It's to remove the 
 
 **The single habit worth building: when something annoys you, write it down.**
 
-Keep one running list — a Notion page works fine given the team's size. When a task irritates you, add it. Three things, thirty seconds:
+Keep one running list — the right home for it depends on who's actually going to use it day to day, which isn't settled yet. Notion is the obvious default given RFG is already Notion-first, but it's worth confirming whether that's true team-wide or mainly Aaron's tool — if Michael and Martina aren't in Notion the same way, a list that only Aaron sees defeats the point. When a task irritates you, add it. Three things, thirty seconds:
 
 - What's the task or annoyance?
 - Roughly how often does it happen?
@@ -56,7 +56,9 @@ Keep one running list — a Notion page works fine given the team's size. When a
 
 No justification required. "I hate re-typing this every time I follow up with someone" is exactly the kind of thing that belongs here — don't filter yourself before someone else gets a chance to look at it.
 
-> ⚠️ *Open item: confirm where this list lives — a Notion page is the natural fit given RFG is already Notion-first, but it's worth 30 seconds of agreement so it doesn't end up in three different places.*
+**John-Carlos will review the list on a regular basis** — flagging anything he sees an easy or existing solution for, so items don't just sit there waiting on someone at RFG to have time to look. This is in addition to, not instead of, the weekly team check-in (Section 8).
+
+> ⚠️ *Open item: confirm who on the team actually uses Notion day to day (just Aaron, or Michael and Martina too) before locking in where this list lives — the tool should match how the whole team already works, not just the most Notion-native person on it.*
 
 ---
 
@@ -110,12 +112,13 @@ This isn't about trust — it's about making sure someone understands exactly wh
 
 ## 5. From win to standard — reusing what works
 
-When something works well with Claude — a prompt, an approach, a way of drafting a follow-up — don't let it live only in your head or your own chat history. Two lightweight options, no new tooling needed:
+When something works well with Claude — a prompt, an approach, a way of drafting a follow-up — don't let it live only in your head or your own chat history. A few options, roughly in order of how often you're doing the thing:
 
-- **Save it as a Notion page or Claude Project** so either of you can reuse it exactly.
-- **Keep a running "what works" note** — task, and the approach that nailed it.
+- **Occasional:** Save it as a Notion page or Claude Project so either of you can reuse it exactly.
+- **Recurring but light:** Keep a running "what works" note — task, and the approach that nailed it.
+- **Doing it a third time or more:** That's the signal it's worth turning into an actual Claude **Skill** — a reusable, packaged way of doing that task the same way every time. Claude has a built-in **`/skill-creator`** skill that walks you through building one; you don't need to design the format yourself. If you're repeating something, don't hesitate to make it a skill — that's exactly what it's for.
 
-At RFG's size, that's enough. No need for a formal SKILLS library yet — that becomes worth the overhead only once there's real volume and more than two people relying on it.
+No need to force a formal library or a review process around this — at RFG's size, the rule of thumb is simple: **twice is a coincidence, three times means build the skill.**
 
 ---
 
@@ -164,7 +167,7 @@ Every team this size needs one person who's the default point of contact for "is
 
 ## Appendix: Open items (for JC / RFG, not the team-facing version)
 
-1. Confirm where the gripe list lives (Notion page recommended).
+1. Confirm who on the team actually uses Notion day to day before locking in where the gripe list lives.
 2. Confirm who drafts the prompt modules and on what timeline — Aaron/Michael for the personal ones, Blue Tusk can offer a first-draft skeleton for "About Ruthless For Good."
 3. Confirm who holds the Claude admin seat and whether Cowork is currently on or off at the org level.
 4. Confirm Twintel's tenant-permission review status for the Outlook inbox-assistant workstream (see Outstanding Questions tracker).
