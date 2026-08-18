@@ -59,9 +59,11 @@ Mention the full written guide (`20260710` doc) exists as a leave-behind for any
 
 **Then hand it to the room.** Ask each person (or pairs) to type the same "ask me questions first" framing into their own chat, using a real task they actually have this week. Give this 8–10 minutes of hands-on time — this is the part that actually builds the habit, not the demo.
 
+**Push the demo one step further — show it's not one-and-done.** Once Claude hands back a decent draft, don't stop there on screen. Say out loud what you're doing and type it live: *"Great — now do the same thing but for [a related scenario]."* or *"Good, now make that shorter."* Let the room see Claude build on what it already knows rather than starting over. Then make the other half of the point explicit: *"If I were switching to something totally unrelated right now — not a follow-up, a new topic — I'd start a fresh chat instead of piling it into this one. Old, unrelated threads quietly eat more of your usage because Claude re-reads the whole thing each time."* This is the natural moment to say it, right after they've watched a thread actually get better through iteration.
+
 **Close the segment with the reframe:**
 
-> "You're not trying to write the perfect prompt. You're trying to start the conversation. If you're not sure what details matter, that's Claude's job to figure out — just say so."
+> "You're not trying to write the perfect prompt. You're trying to start the conversation. If you're not sure what details matter, that's Claude's job to figure out — just say so. And once you're in a good conversation, keep going — you don't have to start from scratch every time."
 
 ---
 
@@ -91,6 +93,7 @@ This is worth slowing down on — it's the single highest-leverage feature for a
 
 **4. Settings — the two or three that matter for this team**
 Click your initials/profile icon (bottom left) → **Settings**.
+- **Usage** — shows two progress bars: how much of your current 5-hour session you've used, and how much of your weekly allowance is left, plus reset times for each. Worth walking through live once so nobody's first encounter with it is a "you've hit your limit" screen — tie this directly back to the new-chat-vs-keep-going point from Part 1: this is the page that shows *why* that habit matters.
 - **Appearance** — font size, dark/light mode, dyslexic-friendly font option if useful for anyone.
 - **General** — includes things like voice language, if anyone uses voice input.
 - Skip everything else live — it's mostly account/billing detail that Howie or the plan Owner handles, not day-to-day relevant.

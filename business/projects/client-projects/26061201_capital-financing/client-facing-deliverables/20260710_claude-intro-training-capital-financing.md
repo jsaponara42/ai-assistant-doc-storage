@@ -68,6 +68,8 @@ A few things worth knowing:
 
 **Bottom line:** it's not unlimited, but running out isn't a dead end — it's a "wait a bit or ask for more" situation.
 
+**How to check where you stand.** Click your initials (bottom-left corner) → **Settings** → **Usage**. You'll see two progress bars: how much of your current session you've used (Claude runs on a rolling **5-hour session window**, not a fixed daily clock), and how much of your **weekly** allowance is left, plus when each one resets. It's less "check once a day/month" and more "check whenever you're curious or about to start something big" — but that page is the one place that has the real numbers, not a guess.
+
 ---
 
 ### 4. Basic Prompting — 5 Habits That Make a Real Difference
@@ -89,6 +91,11 @@ Treat the first response like a first draft from a new hire: react to it. *"Good
 
 **5. Ask Claude to ask you questions.**
 This is the single most underused trick. If you're not sure what details matter, just say: **"Ask me whatever questions you need answered before you draft this."** Claude will ask for the missing pieces instead of guessing — this is especially useful for anything nuanced, like a firm onboarding script or a hard conversation with a consultant.
+
+**6. Keep going — it's a conversation, not a vending machine.**
+Once Claude hands you a good draft or answer, you don't need to start over to get the next thing done. If you're staying on the same topic, just keep talking: *"Great, now do the same thing for the case-expense version,"* or *"Good — now turn that into a checklist."* Claude remembers everything you've discussed in that chat, so each follow-up builds on what came before instead of starting from zero. Treat a good response as a step, not a finish line — the real value usually shows up two or three exchanges in, once Claude actually understands what you're after.
+
+The flip side matters just as much: when you're moving to a genuinely different topic, start a **new chat** instead of dragging it into the same thread. A long-running conversation reprocesses everything said before it with every new message, so an old, unrelated thread quietly burns through your usage faster than a fresh one would. Rule of thumb: **same topic, keep going in the same chat. New topic, start a new one.**
 
 ---
 
