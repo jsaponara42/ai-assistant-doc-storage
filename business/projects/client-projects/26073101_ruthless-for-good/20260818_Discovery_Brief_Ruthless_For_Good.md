@@ -2,8 +2,7 @@
 
 Early-stage venture fund (education, work, and access focus) transitioning from Fund I to a Fund II raise, currently building out back-office infrastructure before officially launching the raise.
 
-**Primary contact:** Aaron, Founder & Managing Partner
-> ⚠️ NEEDS INPUT: Aaron's last name, phone, and email.
+**Primary contact:** Aaron Walker, Founder & Managing Partner — aaron@ruthlessforgood.com
 
 ---
 
@@ -11,10 +10,10 @@ Early-stage venture fund (education, work, and access focus) transitioning from 
 
 - **Entity:** Ruthless For Good Fund — early-stage venture fund.
 - **Focus areas:** Education, work, and access.
-- **Principal:** Aaron, Founder & Managing Partner. Background: teacher → lawyer → ran an accelerator → founded Ruthless For Good. Based in Madison, Wisconsin (East Coast transplant).
+- **Principal:** Aaron Walker, Founder & Managing Partner (aaron@ruthlessforgood.com). Background: teacher → lawyer → ran an accelerator → founded Ruthless For Good. Based in Madison, Wisconsin (East Coast transplant).
 - **Team size:** Intentionally lean — two core investing staff (Aaron and Michael), plus fractional/outsourced support.
 - **Fund history:** Fund I raised 2021–2022 (~$20M), fully invested. Now preparing to raise Fund II, targeting ~$50M.
-> ⚠️ NEEDS INPUT: Headquarters address, main phone number, legal entity name if different from "Ruthless For Good Fund."
+- **Headquarters:** 11484 Alps Way, Escondido, CA 92026. Main phone: (951) 294-4574.
 
 ---
 
@@ -48,37 +47,34 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 
 ## 4. Key People — Internal
 
-**Aaron** — Founder & Managing Partner
+**Aaron Walker** — Founder & Managing Partner — aaron@ruthlessforgood.com
 - Working Style: Direct, self-aware about gaps ("I don't think I need to have a first deliverable next week... but it's important"). Comfortable naming that his own systems (relationships tracked in his head, texts, and email) don't scale. Values efficiency and plain talk about cost/timing — asked directly what a paid engagement would cost.
 - Owns fundraising, investor relationships, and overall firm management. Has raised one prior fund (2021–2022) and ran a nonprofit for 10 years before this, so brings existing relationship capital plus fundraising experience.
 - Traveling internationally for two weeks starting the week after the second call — a known near-term availability gap.
 - Relevance: Primary decision-maker and champion for the engagement; final approval on the free-MSA structure had to route through him.
 
-**Michael (Michael Latipa)** — Investor / Vice President
-> ⚠️ NEEDS INPUT: Confirm exact spelling of last name (transcribed as "Latipa," may be misheard).
+**Michael Ladipo** — Vice President — michael@ruthlessforgood.com
 - With the fund since November 2021 (since it started investing).
 - Owns deal sourcing, vetting, and portfolio support.
 - Uses Claude in his work already, but — per Barry and Martina — without a clear sense of the risks or guidelines around it.
 - Was on parental leave at the time of the second call and was not present; Aaron spoke on his behalf.
 - Relevance: Will be the primary owner of the rebuilt deal-flow/CRM system going forward; a key stakeholder for the CRM rebuild even though not yet directly consulted.
 
-**Martina** — Fractional Operations
+**Martina Madrid Sebring** — Fractional Operations (Madrid Ops) — martina@madridops.com (fractional COO company email), martina@ruthlessforgood.com
 - Working Style: Hands-on and embedded in the day-to-day, in contrast to Barry who stays outside the company's technology environment by design.
 - Has been engaged roughly six weeks as of the first call. Currently working the business insurance application, budget/finance support, and an initial CRM review.
 - Relevance: Primary internal driver connecting Blue Tusk to the fund; likely the ongoing operational point of contact for this engagement day-to-day.
-> ⚠️ NEEDS INPUT: Martina's last name and contact details.
 
 ---
 
 ## 5. Key People — External (Vendors & Partners)
 
-**Barry (Barry Ross Hoover, inferred)** — IT Governance & Cybersecurity Advisor
-> ⚠️ NEEDS INPUT: Confirm full name/spelling — inferred from "Ross Hoover" being confirmed as Caroline's last name and JC's "you know Barry way back" framing suggesting a shared surname/family connection. Not independently confirmed for Barry himself.
+**Barry Porozni** — IT Governance & Cybersecurity Advisor — barry@porozni.com
 - Brought on to provide IT governance and cybersecurity guidance to Ruthless For Good, introduced through a mutual connection with Martina.
 - Stays intentionally outside the fund's actual technology environment/tenant — advises from a process and governance perspective at designated check-in points rather than working inside day-to-day systems.
 - Relevance: Referral source for the Blue Tusk engagement (also referred Blue Tusk to a prior client, "MakeHome"); a governance stakeholder whose cybersecurity work should stay coordinated with any AI-agent rollout (Claude co-work, Notion agents).
 
-**Caroline (Caroline Ross Hoover)** — Advisor to Ruthless For Good
+**Caroline Rosch-Hoover** — Advisor to Ruthless For Good — caroline@worthyendeavors.net
 - Background: Reinvestment Fund (fundraising, fund operations, portfolio management — same firm where she first met John-Carlos and Barry, in Philadelphia), then COO of Grounded Capital (California) for ~4 years, including a fund-transition (Fund I → Fund II) there.
 - Has been advising Aaron and Martina for the past few months.
 - Explicitly stays outside the fund's technology/data systems day-to-day; joined this call out of curiosity about the engagement's direction rather than as a hands-on operator.
@@ -110,7 +106,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - No form currently exists for accepting inbound pitches/decks on the fund's website.
 - Identified as a near-term opportunity: a form that could route submissions into an automated flagging/categorization pipeline against investment criteria.
 
-> ⚠️ NEEDS INPUT: Financial/accounting software currently in use (referenced budget/finance work with Martina, but no specific tool named). Business insurance vendor/status.
+> ⚠️ NEEDS INPUT: Financial/accounting software currently in use (referenced budget/finance work with Martina, but no specific tool named). Business insurance vendor/status — confirmed unknown/not yet determined as of the last check-in.
 
 ---
 
