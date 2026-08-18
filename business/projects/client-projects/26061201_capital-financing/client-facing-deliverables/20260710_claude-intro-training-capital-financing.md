@@ -220,6 +220,14 @@ it top of mind.
 
 ---
 
+### 8. Two More Settings Worth Knowing: Memory & Model Choice
+
+**Memory.** Click your initials → **Settings** → **Usage** → **Memory** (some accounts show this as Settings → Capabilities instead). Two separate toggles: **Generate memory from chat history** lets Claude build up a running profile of things you've told it — your role, your preferences, recurring project names — so you stop re-explaining yourself every chat. **Search and reference chats** lets Claude look back through past conversations when you ask something like "what did we discuss about that last week?" Both are off by default. If you've used ChatGPT and liked that it "remembers" you, this is the same idea — Claude just doesn't turn it on automatically. Same judgment call as everything in Section 2 applies here: memory is meant for professional context, not a place to store anything sensitive.
+
+**Model choice — Sonnet vs. Haiku.** The model picker sits next to the send button. It's a speed-vs-depth trade-off, not "better vs. worse": **Haiku** is fast and lightweight — near-instant answers, good for quick, simple things. **Sonnet** (the default for most chats) actually "thinks" — it can pause and reason through a problem step by step before answering, which takes a bit longer but gives noticeably better output on anything with real judgment in it (an SOP, a nuanced email, prepping for a hard conversation). If Claude has ever felt slower than ChatGPT, that's almost always this setting — ChatGPT's fast default is roughly Haiku's equivalent, and Claude defaults to the more thoughtful model instead of the fastest one. You can switch to Haiku for quick stuff any time from that same picker.
+
+---
+
 ## Next steps
 
 - Decide whether this is delivered as a live walkthrough session, a send-and-read document, or both.

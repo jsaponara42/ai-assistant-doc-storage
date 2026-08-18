@@ -47,15 +47,23 @@ Mention the full written guide (`20260710` doc) exists as a leave-behind for any
 
 **The idea, in one line:** instead of trying to write the "perfect" instruction up front, tell Claude to ask *you* the questions it needs first. This is the single habit most worth building — it removes the pressure to know exactly what to say.
 
-**Don't just explain it — demo it live**, using a real Capital Financing scenario so the team sees their own job in it immediately. Suggested live demo (pick whichever fits the room, or do two):
+**Don't just explain it — demo it live, as one continuous chain**, using a real call transcript so the team watches Claude go from raw input to a finished, shareable deliverable in a single thread. This also happens to be the best possible demonstration of "Claude as thought partner, not spell-checker" — it's doing real synthesis work, not just cleaning up your sentences.
 
-1. **Sales follow-up example.** Type into Claude, live, on screen:
- > "I need to follow up with a law firm contact from a conference two weeks ago about case-expense funding. Ask me whatever questions you need before you draft it."
- Let the group watch Claude ask back (tone? how many touches so far? what was discussed? deadline pressure?). Answer a couple live, show the resulting draft is noticeably better than a cold one-shot attempt.
+**Before the session:** pick a real discovery-call or client-call transcript you have on hand, and strip or swap out anything identifying (plaintiff names, case specifics, settlement figures) — placeholder names are fine. If you redact it live on screen and say why you're doing it, that's a free, concrete callback to the data-safety section of the leave-behind doc, better than a slide.
 
-2. **SOP-writing example.** Same move, framed for ops:
- > "I'm going to describe how I currently handle [a task]. Ask me questions one at a time until you have enough detail, then write it up as a clean step-by-step doc."
- This is exactly how the SOPs already being built for this project got started — worth saying out loud, it makes the technique concrete and already-proven.
+**The chain, live, in one chat:**
+
+1. **Summarize.** Paste the (redacted) transcript:
+ > "Summarize this call transcript into a few clear bullet points I could hand to someone with no context, and flag anything that still needs a decision or follow-up."
+ Let the room see it turn 20 minutes of rambling conversation into something scannable in seconds.
+
+2. **Turn it into a follow-up email — the ask-questions way.** Same chat, no re-pasting:
+ > "Now draft a follow-up email based on that call. Ask me whatever you need first — who it's going to, the tone, what happens next."
+ Answer Claude's questions live. This is the ask-questions technique landing a second time, but now it's obviously *useful* rather than a rule you were told to follow.
+
+3. **Turn it into a document to share with the team — and ask for it as an actual Word file.** Same chat again:
+ > "Now turn that summary into a one-page document I can share with the team — give it to me as a Word document."
+ Say the "as a Word document" part out loud and deliberately — it's the one instruction that matters here. Claude will generate an actual downloadable `.docx` file rather than just formatted text in the chat window, which is what this team actually needs since everyone works in Word. This will very likely render as an **Artifact** (a separate panel next to the chat) — a natural moment to point that out, before it comes up again in the UI walkthrough.
 
 **Then hand it to the room.** Ask each person (or pairs) to type the same "ask me questions first" framing into their own chat, using a real task they actually have this week. Give this 8–10 minutes of hands-on time — this is the part that actually builds the habit, not the demo.
 
@@ -87,11 +95,20 @@ This is worth slowing down on — it's the single highest-leverage feature for a
 
 **3. In the chat window itself**
 - **The "+" button** (bottom left of the message box) — attach files, images, or documents to a message.
-- **The model picker** (next to the send button) — shows which Claude model is active; this can generally be left alone, but worth knowing it's there and not a mystery setting.
+- **The model picker** (next to the send button) — worth actually explaining, not skipping past. Claude offers a few models, and the trade-off is speed vs. depth, not "better vs. worse":
+  - **Haiku** is the fast, lightweight model — near-instant answers, good for quick questions or simple formatting where you don't need deep reasoning.
+  - **Sonnet** (the default for most chats) actually "thinks" — it can pause, reason through a problem step by step, and iterate before answering, which costs a bit more time but gives noticeably higher-quality output on anything that takes real judgment (an SOP, a nuanced email, the transcript demo above).
+  - **Worth naming directly if anyone's compared Claude to ChatGPT and found it slower:** that's almost always this setting, not a Claude limitation — ChatGPT's fast default is roughly Haiku's equivalent. Claude can be switched to Haiku for quick stuff too; the difference is Claude defaults to the more thoughtful model rather than the fastest one.
 - **Copy / thumbs up-down / retry** under each response — copy pulls the text out to paste elsewhere; retry asks Claude to try again if a response missed the mark.
-- **Artifacts** — when Claude produces something substantial (a document, a table, a piece of writing meant to be reused), it opens in a separate panel to the side instead of sitting in the chat — that's what lets you edit or export it cleanly.
+- **Artifacts** — when Claude produces something substantial (a document, a table, a piece of writing meant to be reused), it opens in a separate panel to the side instead of sitting in the chat — that's what lets you edit or export it cleanly. This is what you'll have already seen once, in the Word-document step of the Part 1 demo.
 
-**4. Settings — the two or three that matter for this team**
+**4. Memory — Settings → Usage → Memory (or Settings → Capabilities on some accounts)**
+Worth calling out by name, especially if anyone in the room has used ChatGPT and liked that it "remembers" them.
+- Two separate toggles: **Generate memory from chat history** (Claude builds up a running profile of things you've told it — your role, your preferences, recurring context — so you stop re-explaining yourself every chat) and **Search and reference chats** (lets Claude look back through past conversations when you ask something like "what did we discuss about the Smith file last week?").
+- Claude has this too, off by default — it's not something Claude lacks and ChatGPT has, it's just a setting nobody's turned on yet.
+- Worth a one-line privacy note here, tying back to Section 2 of the leave-behind doc: memory is meant for professional context (your role, your preferences, recurring project names), not a place to store anything you wouldn't otherwise want retained — same judgment call as everything else in this training.
+
+**5. Settings — the few that matter for this team**
 Click your initials/profile icon (bottom left) → **Settings**.
 - **Usage** — shows two progress bars: how much of your current 5-hour session you've used, and how much of your weekly allowance is left, plus reset times for each. Worth walking through live once so nobody's first encounter with it is a "you've hit your limit" screen — tie this directly back to the new-chat-vs-keep-going point from Part 1: this is the page that shows *why* that habit matters.
 - **Appearance** — font size, dark/light mode, dyslexic-friendly font option if useful for anyone.
@@ -112,6 +129,6 @@ Click your initials/profile icon (bottom left) → **Settings**.
 
 ## Next steps
 
-- Confirm which scenario(s) to use for the live "ask me questions" demo — sales follow-up and SOP-writing are drafted above as options; swap for whatever's most relatable to who's actually in the room.
+- Pick the actual transcript for the live demo and redact/anonymize it beforehand (plaintiff names, case specifics, settlement figures) — do this ahead of time, not live, so the session doesn't stall on it.
 - Decide whether to actually build one real Project live during the session (e.g. a shared "Follow-Up Emails" Project) as the UI walkthrough's worked example, rather than a hypothetical — likely stickier if time allows.
 - Send `20260710_claude-intro-training-capital-financing.md` as the post-session leave-behind.
