@@ -12,9 +12,11 @@ status: needs-attention
 
 # Ruthless For Good — AI Playbook
 
+**Prepared for Ruthless For Good by Blue Tusk LLC  
+August 2026**
+
 **A practical guide to using Claude well, experimenting safely, and getting comfortable turning on more powerful tools.**
 
-*Prepared by Blue Tusk · Working draft for internal review*
 
 > This is a draft for Martina and Aaron to react to — not the final team-facing version. Open items are marked inline with ⚠️ and collected at the end.
 
