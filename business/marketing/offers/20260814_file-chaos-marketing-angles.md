@@ -28,6 +28,7 @@ JC's proposed anchor angle: "your file system already seems crazy for a new hire
 | Can't produce the "official" version fast under audit or legal request | Direct, quantifiable risk for the regulated-finance ICP specifically |
 | Leadership doesn't see this cost because it's diffuse — never shows up as a line item | Explains *why it hasn't been fixed yet* despite being obviously painful |
 | Money already spent on AI tools (Copilot, ChatGPT enterprise, etc.) underperforms because of the mess underneath | Turns a sunk cost into urgency — "you already paid for this to work better" |
+| **AI-native version, sharper and newer:** agentic AI now works alongside the team, not just answers on demand — a messy filesystem means it can confidently give a wrong answer (found the wrong file, didn't flag uncertainty) or burn real token spend hunting for the right one | Distinct from the older "employees waste time searching" pain — this is a new, measurable cost category (wrong answers + AI spend) that scales *with* AI adoption rather than existing independently of it. See [[business/projects/internal/product/20260814_information-taxonomy-offering-stack]] problem statement. |
 
 ### The "burns money" framing — grounded in real numbers, not invented ones
 
@@ -48,6 +49,7 @@ JC's proposed anchor angle: "your file system already seems crazy for a new hire
 | New-hire mirror test | "If a new hire can't find it in ten minutes, neither can the AI you just paid for." |
 | Audit/compliance urgency (finance ICP specifically) | "If someone asked for the official version of this right now, how fast could you actually produce it?" |
 | Cost-hidden-in-plain-sight angle | "This costs you six figures a year. It just never shows up as a line item." |
+| AI-native cost/accuracy angle | "Your AI isn't wrong because it's dumb. It's wrong because it's looking in the wrong folder — confidently." |
 
 ### Open idea worth flagging
 The illustrative cost math above is a natural fit for the diagnostic-quiz/calculator lead magnet concept from the earlier attraction-offers thread ([[business/marketing/offers/20260814_attraction-offer-concepts]]) — "how much is your file chaos actually costing you" as an interactive calculator, using team size and a loaded-cost estimate to produce a personalized number. Not built yet — flagged as a strong candidate, not a commitment.

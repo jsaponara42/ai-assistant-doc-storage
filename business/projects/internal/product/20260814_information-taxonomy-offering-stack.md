@@ -14,6 +14,19 @@ Follows the differentiation/scalability/adversarial-analysis thread earlier the 
 
 Related: [[business/projects/internal/product/overview]], [[business/marketing/offers/20260814_attraction-offer-concepts]], [[business/ideas/2026-07-10-scaling-vault-to-team]]
 
+## Problem statement
+
+Why this offering matters *now*, stated plainly:
+
+Agentic AI no longer just answers questions on demand — it works alongside a team, reading and reasoning over the company's actual files to do real tasks. That changes what file organization is *for*. It used to determine how long a human took to find something. Now it determines the quality of what the AI hands back:
+
+- **If the organization is good, the AI gives its best-quality response** — it finds the right file, has the right context, and its output is trustworthy.
+- **If it's bad, there are two distinct failure modes, not one:**
+  1. **Wrong-place, confidently-wrong answers.** The AI looks in the wrong file or an outdated version and states the answer with full confidence — worse than a human saying "I couldn't find it," because nothing signals the answer might be wrong.
+  2. **Real, compounding token cost.** Every extra search, re-read, or wrong turn the AI takes burns tokens. At individual-task scale that's invisible; at company scale, across every employee, every day, it adds up to thousands or tens of thousands of dollars a year in avoidable AI spend — a real, measurable line item, not a vague productivity loss.
+
+This is the *AI-native* version of a problem that already existed for humans (see the pre-existing pain-point set in [[business/marketing/offers/20260814_file-chaos-marketing-angles]] — search time, version chaos, tribal knowledge). The AI-native version is worse, not better, because it's automated and scales with adoption: the more agentic AI a company rolls out on top of a messy filesystem, the more confidently-wrong answers and wasted spend they generate, faster than a human ever could on their own. **Better file organization is what converts agentic AI from a liability into the asset it's being sold as.**
+
 ## Content
 
 ### The offering stack
