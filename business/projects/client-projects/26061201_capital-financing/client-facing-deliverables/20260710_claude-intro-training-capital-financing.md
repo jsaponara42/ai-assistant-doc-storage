@@ -115,54 +115,82 @@ Claude is useful for drafting the monthly one-on-one talking points against some
 
 ### 6. Try These Prompts — Copy, Paste, Edit
 
-Open a new Claude chat and paste any of these in, swapping the bracketed parts for your real situation. These are meant to be **starting points** — adjust freely.
+Open a new Claude chat and paste any of these in, swapping the bracketed parts for your real situation. These are meant to be **starting points** — adjust freely. Organized by the two sides of the house — **Ops** (intake, underwriting, contracting, AR/payoffs) and **Business Development** (financial consultants, sales, conference/outreach) — grounded in how these teams' work actually flows today.
 
-**Email / follow-up drafting**
-```
-I'm a financial consultant at a pre-settlement funding company. Draft a
-follow-up email to a law firm contact I met at a conference two weeks
-ago. We talked about case-expense funding for their PI caseload. They
-haven't responded to my first email. Keep it warm, brief, and low-
-pressure — not salesy. Ask me any questions you need first.
-```
+#### Ops
 
-**Summarizing something messy**
+**1. Clean up a messy intake submission**
 ```
-Here's a rough email thread / voice memo transcript / set of notes
-[paste it in]. Summarize it into 3-5 clear bullet points I could hand
-to a coworker who has no context, and flag anything that looks like it
-still needs a decision or a follow-up.
+A law firm just sent me case info for funding [paste the raw email /
+notes / partial submission]. Organize this into a clean intake summary
+I can hand to underwriting, and flag anything that looks missing or
+unclear so I can go back to the firm for it before it holds things up.
 ```
 
-**Turning a process into documentation**
+**2. Chase missing documents after onboarding**
 ```
-I'm going to describe how I currently handle [a task — e.g. onboarding
-a new law firm for case-expense funding]. Ask me questions one at a
-time until you have enough detail, then write it up as a clean,
-numbered step-by-step process document.
-```
-
-**Prepping for a hard conversation**
-```
-I need to have a conversation with [a coworker/consultant] about
-[missed follow-up targets / inconsistent CRM logging / etc.]. Help me
-think through how to open the conversation in a way that's direct but
-not harsh, and role-play their likely pushback so I can practice my
-response.
+We onboarded a law firm for case-expense funding and sent our usual
+follow-up with the documents we need to move forward. It's been a
+while and we're still missing some of them. Draft a polite but direct
+follow-up email to the firm contact listing what's outstanding and why
+it's holding up funding.
 ```
 
-**Explaining something back in plain English**
+**3. Turn a process into a written SOP — the ask-questions way**
 ```
-Explain [a term, a clause in an agreement, a process step] to me like
-I'm new to the industry — plain language, no jargon, a couple sentences.
+I'm going to describe how I currently handle [a task — e.g. document
+collection for a new intake file, or the underwriting tiering hand-off].
+Ask me questions one at a time until you have enough detail, then
+write it up as a clean, numbered step-by-step SOP. This is exactly how
+our existing SOPs got started, so trust the process.
 ```
 
-**Organizing a list**
+**4. Draft an AR status check-in**
 ```
-Here's a raw list of conference contacts [paste it in]. Clean it up,
-remove obvious duplicates, and organize it into a table with name,
-firm, and any notes I gave you. Flag anything where information seems
-to be missing.
+I need to check in with a law firm on the status of a case we have an
+advance out on. Draft a short, professional status-check email asking
+where things stand with the case and whether there's an expected
+settlement timeline — friendly, not pushy, this is a routine check-in
+not a collections call.
+```
+
+#### Business Development
+
+**1. First post-onboarding follow-up touch**
+```
+I just finished an onboarding call with a new law firm for case-expense
+funding. They committed to sending their first referral by [date] and
+named [contact] as our point person there. Draft a short, warm
+follow-up email to send in the next day or two confirming what we
+discussed and reconfirming that date — not a hard sell, just keeping
+it top of mind.
+```
+
+**2. Prep for a strategy call — the ask-questions way**
+```
+I have a Strategy Call coming up with a law firm that's expressed
+interest in case-expense funding. Ask me whatever questions you need
+about the firm, their caseload, and what they're looking for, then put
+together talking points for the call and a natural way to transition
+into scheduling the Onboarding Call if it goes well.
+```
+
+**3. Prioritize a conference contact list**
+```
+Here's a raw list of contacts from a conference [paste it in]. I want
+to focus my follow-up time on the highest-value law firms rather than
+spreading effort across all of them — help me sort this list by likely
+firm size/case value based on what's in the notes, and flag which ones
+are worth prioritizing first.
+```
+
+**4. Re-engage a firm that's gone quiet**
+```
+We onboarded a law firm a while back and they haven't sent a referral
+yet, even though it's been well past the timeline we discussed. Draft
+a re-engagement email that's warm and low-pressure — checking in
+rather than chasing — and gives them an easy way to flag if something's
+blocking them from sending a case.
 ```
 
 ---
