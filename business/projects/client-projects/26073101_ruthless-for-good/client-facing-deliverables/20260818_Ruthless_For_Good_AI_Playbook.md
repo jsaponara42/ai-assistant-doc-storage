@@ -16,9 +16,7 @@ status: needs-attention
 
 *Prepared by Blue Tusk · Working draft for internal review*
 
-> This is a draft for John-Carlos, Aaron, and Michael to react to — not the final team-facing version. Open items are marked inline with ⚠️ and collected at the end.
->
-> This playbook is adapted from a longer framework Blue Tusk built for another client (Maycomb Capital), scaled down for a two-person investing team. The structure is the same; the specifics are RFG's.
+> This is a draft for Martina and Aaron to react to — not the final team-facing version. Open items are marked inline with ⚠️ and collected at the end.
 
 ---
 
@@ -74,7 +72,7 @@ A **prompt module** is a short block of background you write once and reuse — 
 
 Most of these barely change once written. A few will drift (Fund II closes, thesis sharpens) — treat that the same way a gripe gets flagged: notice it's stale, update it.
 
-> ⚠️ *Open item: these should be drafted by Aaron/Michael, not Blue Tusk — the "about me" ones especially are personal. Blue Tusk can offer a first-draft skeleton for "About Ruthless For Good" once the discovery brief is further along, similar to what was done for Maycomb.*
+> ⚠️ *Open item: these should be drafted by Aaron/Michael, not Blue Tusk — the "about me" ones especially are personal.
 
 ---
 
@@ -106,8 +104,7 @@ This isn't about trust — it's about making sure someone understands exactly wh
 
 **Specifically for RFG:** the first real Cowork use case on the table is the inbox/calendar triage assistant for Aaron's Outlook — see the discovery brief's Action Plan. That's a good first case to run through this process deliberately, with someone checking the first output against something you already know, before trusting it to run unsupervised.
 
-> ⚠️ *Open item: confirm who holds the Claude admin seat at RFG and whether Cowork's org-wide toggle is currently on or off. Also confirm Twintel's tenant-permission review is complete before the Outlook use case goes live — see the Outstanding Questions tracker.*
-
+> ⚠️ *Open item: confirm who holds the Claude admin seat at RFG and whether Cowork's org-wide toggle is currently on or off. Also confirm Twintel's tenant-permission review is complete before the Outlook use case goes live
 ---
 
 ## 5. From win to standard — reusing what works
@@ -161,7 +158,7 @@ RFG already has a **weekly team meeting** (Aaron, Michael, Martina). Rather than
 
 Every team this size needs one person who's the default point of contact for "is this okay to try" — not gatekeeping, just making sure someone's aware before a new high-stakes or Cowork use case goes live.
 
-> ⚠️ *Open item: who holds this role for RFG? Given Martina's fractional COO capacity and the fact she already plays an equivalent role for another Blue Tusk client, she's a natural fit — but this needs Aaron's confirmation. Barry, given his cybersecurity/governance mandate, is a natural fit for anything touching tool permissions or the Cowork toggle specifically.*
+> ⚠️ *Open item: who holds this role for RFG?
 
 ---
 
