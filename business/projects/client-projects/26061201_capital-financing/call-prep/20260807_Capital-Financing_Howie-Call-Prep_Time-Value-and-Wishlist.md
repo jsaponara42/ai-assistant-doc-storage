@@ -101,5 +101,5 @@ Go through each item below only as deep as time allows — these are in rough pr
 
 - Fold time-value answers into the discovery brief's IOV section and PO-005 in [[20260612_discovery-brief-capital-financing]] where they sharpen or contradict what's already there.
 - Resolve the "Jan" `[TO CONFIRM]` in [[xx_howies_wants]] once answered, and update wishlist items #11–#13 with whatever detail comes out of this call.
-- Log anything notable, fragile, or promise-shaped from this call into [[xx_Project_Learnings]].
+- Log anything notable, fragile, or promise-shaped from this call into [[business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings]].
 - If a Claude-capabilities correction happens on this call, note it there too — it's a good data point for how the team Claude training session should be framed.

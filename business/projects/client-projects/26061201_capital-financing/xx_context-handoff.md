@@ -42,6 +42,6 @@ Discovery phase, post-reset. Individual 1:1 deep-dive calls with Christy, Daniel
 
 - [[xx_howies_wants]] — the master want-tracking doc, now at 20 ranked items plus Open Questions; read before any automation-scoping conversation.
 - [[20260616-Workflow-Map-Capital-Financing-merged]] — the full process map; use the Quick-Reference Flowcharts section for a fast scan before diving into full detail.
-- [[xx_Project_Learnings]] — relational/behavioral pattern log; check before any call involving Howie, Kaz, or the FCs.
+- [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]] — relational/behavioral pattern log; check before any call involving Howie, Kaz, or the FCs.
 - `call-prep/` — all prepped 1:1 questionnaires (Christy/Danielle/Yasmine, FCs, Howie).
 - `SOPs/20260807_Capital-Financing_Contracting-Funding-AR-Payoffs.md` — Yasmine's role SOP, needs her review.

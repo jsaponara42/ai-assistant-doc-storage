@@ -21,7 +21,7 @@ status: ok
 
 ## Deliverables Promised (2026-08-06 Re-Scope)
 
-Everything currently committed to Howie under the 8-week, $5,000 engagement. Source: `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`, confirmed and expanded via the 2026-08-06 email thread — see [[xx_Project_Learnings]].
+Everything currently committed to Howie under the 8-week, $5,000 engagement. Source: `client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`, confirmed and expanded via the 2026-08-06 email thread — see [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]].
 
 - [ ] Individual reset conversations with Christy, Danielle, and Yasmine (week 1)
 - [ ] Full accounting of existing infrastructure before recommending new build: sit with Kaz on the existing Salesforce build (including the idle KPI dashboard); get the Segue functionality overview and resolve the Professional vs. Enterprise question
@@ -38,7 +38,7 @@ Everything currently committed to Howie under the 8-week, $5,000 engagement. Sou
 
 ## Promises Made to the Team (2026-08-06 Kickoff Call)
 
-Specific commitments made live to Christy, Yasmine, Danielle, and Howie during the kickoff call. Several of these visibly landed well in the room and are worth holding JC accountable to explicitly — trust was built on them, not just contract language. Source: 2026-08-06 kickoff call; see [[xx_Project_Learnings]] for full context.
+Specific commitments made live to Christy, Yasmine, Danielle, and Howie during the kickoff call. Several of these visibly landed well in the room and are worth holding JC accountable to explicitly — trust was built on them, not just contract language. Source: 2026-08-06 kickoff call; see [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]] for full context.
 
 - **Not taking over operational leadership, and not changing anything operationally during discovery.** Stated directly, twice, across both halves of the call.
 - **Individual one-on-one hour sessions with everyone** — Christy, Yasmine, Danielle, the sales team, and Howie — focused on their actual day-to-day, week-to-week, quarter-to-quarter workflow.
@@ -75,7 +75,7 @@ Specific commitments made live to Christy, Yasmine, Danielle, and Howie during t
 
 ## Engagement Continuity — Josh Henderson Offboarding (2026-08-06)
 
-Josh Henderson (partner, Ghost.Ops fractional COO on this account) was let go by Howie — see [[xx_Project_Learnings]] for the full context. JC is now the sole Ghost.Ops point of contact. Handoff detail from Josh's offboarding email:
+Josh Henderson (partner, Ghost.Ops fractional COO on this account) was let go by Howie — see [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]] for the full context. JC is now the sole Ghost.Ops point of contact. Handoff detail from Josh's offboarding email:
 
 **System access**
 - Microsoft Suite — via `ghostadmin@injuryfinancing.com`. Nick can reset or terminate this.
@@ -96,7 +96,7 @@ Josh Henderson (partner, Ghost.Ops fractional COO on this account) was let go by
 
 **Sales team training — stalled.** Early this week, the sales team was asked to attend training this Friday, built from Howie's shared dictation notes. **Nobody responded to the invite.** The raw source material Josh used is in Howie's email — searchable via the subject line "Howie — Here are your Ghost.Notes." `[TO CONFIRM: whether this training gets rescheduled/re-owned by JC, and whether the sales team's non-response to the invite itself is worth flagging alongside the existing accountability issues in the Sales Performance & Accountability Framework]`
 
-**Follow-on scope (2026-08-06):** A rescoped, fixed-fee proposal (`client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`) was sent to Howie following a call the same day — $5,000 total, 2-month timeline, intentionally narrow (Opportunity Map + hire recommendation + 1–2 quick wins, explicitly excluding the operational/COO-style work Josh was doing). See [[xx_Project_Learnings]] for the call's context.
+**Follow-on scope (2026-08-06):** A rescoped, fixed-fee proposal (`client-facing-deliverables/20260806_proposal-capital-financing-ai-automation-mapping.md`) was sent to Howie following a call the same day — $5,000 total, 2-month timeline, intentionally narrow (Opportunity Map + hire recommendation + 1–2 quick wins, explicitly excluding the operational/COO-style work Josh was doing). See [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]] for the call's context.
 
 ---
 

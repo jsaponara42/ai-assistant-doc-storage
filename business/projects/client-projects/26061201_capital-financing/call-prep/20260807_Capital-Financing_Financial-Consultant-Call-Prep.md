@@ -93,6 +93,6 @@ Leave real room for this one. It's often where the most honest or unexpected mat
 ## Next steps
 
 - After each call, fold new confirmed facts into [[20260616-Workflow-Map-Capital-Financing-merged]] (Workflow 4, Workflow 5, and the Sales Performance & Accountability Framework section) and close out matching `[TO CONFIRM]` items.
-- Log anything fragile, promised, or notable from each call into [[xx_Project_Learnings]].
+- Log anything fragile, promised, or notable from each call into [[business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings]].
 - Compare what's actually described here against the documented performance targets/gaps in the discovery brief and [[xx_howies_wants]] want #10 — differences between stated process and target process are useful input for the automation scoping, not something to raise with the FC directly on this call.
 - Fold SOPs as they come in via the existing intake path from [[20260714_Capital-Financing_SOP-Call-Prep_All-Teams]].

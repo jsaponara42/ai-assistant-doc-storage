@@ -204,6 +204,6 @@ Write down whatever they commit to — it's the thing to check on at the next to
 ## Next steps
 
 - After each call, fold any new confirmed facts into [[20260616-Workflow-Map-Capital-Financing-merged]] and close out the matching `[TO CONFIRM]` items.
-- Log anything fragile, promised, or time-sensitive from each call into [[xx_Project_Learnings]].
+- Log anything fragile, promised, or time-sensitive from each call into [[business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings]].
 - Once SOPs start coming in from these three, follow the existing intake path from [[20260714_Capital-Financing_SOP-Call-Prep_All-Teams]] (email to JC, folded into `SOPs/` with the standard naming convention).
 - Update [[xx_context-handoff]] once all three calls are done.
