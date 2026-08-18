@@ -215,6 +215,12 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
   - Key Result: Investor relationship data lives in the fund's shared system, not solely in Aaron's head, and can eventually be assigned/delegated to other team members.
   - Timeline: After the deal-flow CRM workstream is stable — deliberately sequenced last among the CRM work.
 
+- **Workstream: Notion CRM Skill (Contact Creation/Update)** *(new, added 2026-08-18)*
+  - Approach: Build a Claude Skill against Notion's official Claude connector (already live, read/write) that encodes RFG's CRM schema once it's defined — so "add John from Acme, we talked today about their round" reliably produces a correctly-formatted, de-duplicated CRM entry instead of requiring manual data entry.
+  - What it involves: (1) requires the CRM schema to exist first — depends on the Master CRM Rebuild workstream being far enough along to have a stable schema to build against; (2) the skill encodes duplicate-checking (search before create), field mapping, and next-touch/last-touch date logic — the same daily-dashboard concept originally floated in Meeting 2; (3) this is real write access to RFG's system of record, so it's a strong candidate for the *first* specific use case brought through the governance doc's Cowork-approval process once that's signed off.
+  - Key Result: Aaron or Michael can create/update CRM contacts conversationally, with Claude handling correct formatting and de-duplication, closing the loop between the inbox/calendar triage workstream (which surfaces the contacts and touchpoints) and the CRM (which needs to store them consistently).
+  - Timeline: After the Master CRM Rebuild has a stable schema, and after the governance doc is signed off (needed regardless, since this is a live-data write use case). Not urgent, but flagged now — Aaron should be aware this is coming and worth prioritizing once the schema work lands, since it's what actually removes the data-entry burden rather than just relocating it.
+
 - **Workstream: Pitch Intake & Triage Pipeline**
   - Approach: Web form for inbound pitch decks, connected on the back end to automated criteria-flagging and categorization.
   - What it involves: Scope the website intake form, define investment criteria for auto-flagging, connect submissions into the master CRM.
@@ -231,9 +237,10 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 1. AI Usage Governance Document (People) — in progress; hard gate RFG imposed before widening tool access.
 2. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and on Twintel clearing tenant permissions; next up.
 3. Master CRM Rebuild — Deal Flow First (Systems/Processes) — informed by data surfaced in (2), rather than a separate cold discovery session.
-4. Investor Relationship Migration (Systems/Processes) — depends on (3) being stable and proven.
-5. Pitch Intake & Triage Pipeline (Systems/Processes) — depends on (3), and ideally (4), being in place.
-6. Shared Drive (SharePoint) Restructure (Systems/Processes) — can run in parallel with the above once JC's proposal is delivered; timing anchored to Fund II data-room prep rather than to the CRM sequence.
+4. Notion CRM Skill (Contact Creation/Update) (Systems/Processes) — depends on (3) producing a stable schema, and on (1) being signed off since this is a live-data write use case.
+5. Investor Relationship Migration (Systems/Processes) — depends on (3) being stable and proven.
+6. Pitch Intake & Triage Pipeline (Systems/Processes) — depends on (3), and ideally (5), being in place.
+7. Shared Drive (SharePoint) Restructure (Systems/Processes) — can run in parallel with the above once JC's proposal is delivered; timing anchored to Fund II data-room prep rather than to the CRM sequence.
 
 ---
 
