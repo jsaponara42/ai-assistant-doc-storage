@@ -96,16 +96,16 @@ This is the single most underused trick. If you're not sure what details matter,
 
 Below are realistic scenarios pulled from how the team actually works today, matched to the role most likely to use them.
 
-**If you're on intake/underwriting support (Rayna, Leifert, the doc-collection team):**
+**If you're on intake/underwriting support:**
 Claude can help you turn a messy intake email into a clean, organized summary before it goes to underwriting, draft a request-for-documents email to a firm that's missing paperwork, or explain an unfamiliar term in a case file in plain English. It cannot make the approve/decline call — that judgment stays with Christy.
 
-**If you're in sales (Audrey, Brian, or anyone doing consultant follow-up):**
+**If you're in sales:**
 Claude is strong at drafting your outreach and follow-up emails, prepping talking points before a call with a firm, and role-playing a tough conversation (like explaining case-expense terms to a firm that's never worked with you before) so you walk in prepared. It's also useful for turning a stack of conference badge scans or a rough contact list into something organized enough to hand off.
 
-**If you're doing contracting/agreement work (Yasmin's team):**
+**If you're doing contracting/agreement work:**
 Claude can help draft or tighten the language in a standard cover email that goes out with an agreement, build a checklist of what needs to be confirmed before an agreement is sent, or summarize a long email thread into "here's what's still outstanding."
 
-**If you're documenting a process or writing something up (anyone asked to help build out SOPs or SharePoint content):**
+**If you're documenting a process or writing something up :**
 This is one of Claude's strongest use cases. Describe your process out loud or in rough notes, and ask Claude to turn it into a clean, structured document. This is exactly how the SOPs already being built for this project got started.
 
 **If you're the CEO or in a leadership/coordination role:**
