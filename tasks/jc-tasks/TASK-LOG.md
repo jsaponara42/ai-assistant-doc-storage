@@ -14,6 +14,8 @@ Running checklist of all JC tasks. Add a line when a task is created. Check it o
 
 ---
 
+- [ ] 2026-08-18 | P2 | [[4-2026-08-18-rfg-outlook-inbox-assistant-approach]] | Recommend cleanest way to run Claude inbox assistant on RFG's Outlook/M365
+- [ ] 2026-08-18 | P3 | [[5-2026-08-18-rfg-sharepoint-restructure-proposal]] | Outline SharePoint restructure proposal + oversight ask for RFG
 ## Completed
 
 <!-- Move checked items here after moving the task file to completed/ -->

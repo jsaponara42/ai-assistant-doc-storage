@@ -4,6 +4,18 @@ Early-stage venture fund (education, work, and access focus) transitioning from 
 
 **Primary contact:** Aaron Walker, Founder & Managing Partner — aaron@ruthlessforgood.com
 
+## Changelog
+
+### 2026-08-18 — Email exchange (JC ↔ Martina, post-Meeting 2)
+- JC sent post-meeting recap naming fundraising CRM as the primary need and deal-flow analysis as secondary (goal: move RFG from reactive/passive deal intake to proactive, thesis-driven investing informed by inbound data).
+- JC proactively raised a second opportunity: structuring shared drives/filesystems (Google Drive, SharePoint, etc.) properly from the start, since messy drives create AI "waste" and cause AI to miss or misidentify information — easier to do right from day one than to untangle later.
+- **Decision — scope narrowed:** Aaron, Caroline, and Martina aligned on starting narrow: AI-assisted triage of **Aaron's inbox and calendar** (his actual bottleneck) first, and letting that feed the CRM organically rather than building the CRM cold. This supersedes the original plan to start with a live/async CRM requirements-discovery session — see Action Plan.
+- **Decision — governance is now a hard gate:** RFG's one condition before widening tool access is getting the AI governance document in place first; they'll review it to get comfortable turning on Claude Cowork. This elevates P-003 from "nice to have soon" to a blocking dependency.
+- **New technical constraint surfaced:** RFG's mail lives in **Microsoft 365/Outlook**, not Gmail — Claude reads Gmail natively but not Exchange. A Claude for Outlook add-in exists; Martina is checking tenant permissions with **Twintel** (their IT vendor). Open question for JC: cleanest way to run an inbox assistant on this setup.
+- **Shared-drive point confirmed as good timing:** RFG deliberately migrated to SharePoint "as-is" and held off on restructuring, intentionally saving that work for **Fund II data-room prep** — so JC's proactive suggestion lines up with a restructure they already knew was coming. Martina asked JC to spell out what "doing it right from the start" would involve on RFG's side and what oversight looks like on Blue Tusk's side.
+- **Decision authority confirmed:** Aaron holds the final call on how the engagement proceeds; Martina is bringing all of the above to him.
+- **Owed by JC next:** (1) send the AI governance document, (2) give a recommendation on the cleanest way to run an inbox/calendar assistant against Outlook/M365, (3) outline what a proper shared-drive/SharePoint restructure would involve and what oversight it requires from Blue Tusk.
+
 ---
 
 ## 1. Client and Organization
@@ -26,8 +38,8 @@ The organization is early-stage and scrappy by design — lean intentionally, bo
 The engagement originated as a referral from Barry and Martina, who had previously worked with Blue Tusk on a comparable engagement for another client ("MakeHome"), including an AI usage/governance framework Blue Tusk is prepared to adapt for Ruthless For Good.
 
 Two work areas exist inside the fund, distinct in urgency and ownership:
-- **Deal flow / inbound pipeline** — pitches, sourcing, vetting. Currently secondary in priority since there's no capital to deploy yet, but the team wants it running concurrently so the pipeline stays warm and so market/trend signal from inbound pitches isn't lost. This work will primarily belong to Michael and any future investment team, not Aaron personally.
-- **Investor relationships / fundraising** — the relationship-management work behind raising Fund II. Currently owned almost entirely by Aaron, tracked informally across his memory, text messages, and email. Considered higher-stakes and more personal, and intentionally sequenced *after* the deal-flow side is cleaned up.
+- **Deal flow / inbound pipeline** — pitches, sourcing, vetting. Currently secondary in priority since there's no capital to deploy yet, but the team wants it running concurrently so the pipeline stays warm and so market/trend signal from inbound pitches isn't lost. Framed explicitly (per JC's 2026-08-18 recap) as moving RFG from *reactive/passive* deal intake to *proactive, thesis-driven* investing informed by inbound data. This work will primarily belong to Michael and any future investment team, not Aaron personally.
+- **Investor relationships / fundraising** — the relationship-management work behind raising Fund II. Currently owned almost entirely by Aaron, tracked informally across his memory, text messages, and email. Considered higher-stakes and more personal. Confirmed (2026-08-18) as RFG's primary need and Aaron's core differentiator — the actual near-term entry point is narrower than a full CRM rebuild: AI-assisted triage of Aaron's inbox and calendar, feeding the CRM as a byproduct rather than requiring the CRM to be built cold first.
 
 ---
 
@@ -80,6 +92,11 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - Explicitly stays outside the fund's technology/data systems day-to-day; joined this call out of curiosity about the engagement's direction rather than as a hands-on operator.
 - Relevance: Advisor with directly relevant fund-transition experience (having lived through a comparable Fund I→II transition at Grounded Capital); useful sounding board but not an implementation stakeholder.
 
+**Twintel** — IT Vendor (tenant/permissions management)
+- Managing RFG's Microsoft 365 tenant; being consulted by Martina on tenant permissions needed to run a Claude-based inbox assistant against Outlook/Exchange.
+- Relevance: Technical gatekeeper for the inbox/calendar triage workstream — permissions need to clear through them before that build can start.
+> ⚠️ NEEDS INPUT: Twintel contact name/details; status of the tenant-permissions check.
+
 **John-Carlos / Blue Tusk LLC** — AI & Automation Consulting (Blue Tusk's own engagement)
 - Proposed structure: free engagement to start, governed by a free MSA covering confidentiality for anything discussed about the business. No fixed time limit on the free phase — continues as long as no proven value has been delivered yet, expected to run ~1–2 months minimum.
 - Pricing signaled (not yet contracted): first invoice ballpark ~$2,000, ramping toward ~$5,000/month at peak build-out/coordination load, then settling back down to roughly half or a quarter of the peak fee once tooling and workflows are running and easier to maintain.
@@ -102,6 +119,17 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - Co-work / autonomous-agent features intentionally **not** enabled yet — the team is holding off until an AI governance program is in place.
 - Team has had light exposure to AI concepts via workshops/consulting offered by some of the fund's own investors, but has not implemented structured skills or workflows.
 
+**Microsoft 365 / Outlook** — Email and calendar, primary bottleneck for Aaron.
+- RFG's mail and calendar run on Microsoft 365/Exchange, not Gmail. Claude reads Gmail natively but not Exchange; a Claude for Outlook add-in exists as a possible path.
+- Confirmed (2026-08-18) as the actual first build target: AI-assisted triage of Aaron's inbox and calendar, ahead of any CRM work.
+- Tenant permissions being checked by Martina with Twintel (RFG's IT vendor).
+> ⚠️ NEEDS INPUT: Cleanest technical approach for running an inbox/calendar assistant against this Outlook/M365 setup — owed by JC.
+
+**SharePoint** — Shared drive / document storage.
+- RFG migrated to SharePoint "as-is" when they moved, deliberately deferring any real restructuring.
+- Real restructure intentionally saved for **Fund II data-room prep**, so JC's proactive suggestion (structure it properly before AI reads it, to avoid AI "waste" and missed/misidentified information) lines up with work RFG already knew was coming.
+- Pending: JC to outline what "doing it right from the start" involves for RFG and what oversight it requires from Blue Tusk.
+
 **Web intake form** — Not yet built.
 - No form currently exists for accepting inbound pitches/decks on the fund's website.
 - Identified as a near-term opportunity: a form that could route submissions into an automated flagging/categorization pipeline against investment criteria.
@@ -117,7 +145,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - **Problem:** The fund's Notion CRM is built from an unconfigured purchased template. It requires heavy manual data entry, isn't meaningfully linked to other data (contacts, deals, projects), and currently lives across scattered personal databases rather than one connected system. This makes it hard for both people and AI tools to get a full picture, and data entry currently has no clear payoff ("I put it there and then I'm never going to look at it again").
 - **Current Thinking:** The team treats data entry as a chore disconnected from any future benefit, and treats the CRM as something to eventually "fill out" rather than something to design around actual use.
 - **Reframe:** Data entry should feel worthwhile because the system immediately does something useful with it — a live daily dashboard, a next-touch prompt, a suggested follow-up message — not just an inert record.
-- **Approach:** Rebuild as a single master Notion database with tagged views (e.g., investor vs. company vs. deal) so AI tools can reason across one connected dataset instead of many disconnected ones. Start with the deal-flow/pipeline side (clean slate, lower personal sensitivity, Michael's future domain) before migrating investor-relationship data (currently entirely in Aaron's head/texts/email). Status: Not started.
+- **Approach:** Rebuild as a single master Notion database with tagged views (e.g., investor vs. company vs. deal) so AI tools can reason across one connected dataset instead of many disconnected ones. **Updated 2026-08-18:** RFG chose not to build the CRM cold. Actual entry point is AI-assisted triage of Aaron's inbox and calendar, which will feed the CRM organically; formal CRM requirements-discovery is deferred until the inbox/calendar workstream is running. Deal-flow side (Michael's future domain) still expected to migrate before investor-relationship data. Status: Not started.
 
 ### P-002 — Institutional relationships live in one person's head
 - **Area:** People / Resources
@@ -131,7 +159,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - **Problem:** Michael and Aaron already use Claude in their work, but — per Barry and Martina's observation — without a clear understanding of the associated risks or best practices. As a result, more autonomous AI features (Claude's co-work, Notion's agent capabilities) are being deliberately left off, which also means the team isn't yet getting leverage from those tools.
 - **Current Thinking:** AI usage guidelines feel like a "nice to have" that can wait until there's time to sit down and write something formal.
 - **Reframe:** Written AI usage guidelines are cheap to produce, but valuable early — they create a standard the team can be held accountable to, and are far easier to put in place before scale than to retrofit afterward.
-- **Approach:** Blue Tusk to adapt its existing AI-governance template (already built for "MakeHome") into a scaled-down version for a 2-person investing team, offered at no cost regardless of whether the broader engagement proceeds. Status: Not started.
+- **Approach:** Blue Tusk to adapt its existing AI-governance template (already built for "MakeHome") into a scaled-down version for a 2-person investing team, offered at no cost regardless of whether the broader engagement proceeds. **Updated 2026-08-18:** RFG has made this a hard gate — their one stated condition before widening tool access (specifically, turning on Claude Cowork) is reviewing and being comfortable with this document first. Status: In progress.
 
 ### P-004 — No inbound deal-flow intake or triage system
 - **Area:** Processes / Systems
@@ -140,11 +168,18 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 - **Reframe:** Building the pipeline mechanics now — even while investing is paused — keeps the funnel "warm" and prevents having to restart market engagement from zero once Fund II capital exists; it also produces market-trend intelligence useful independent of investment decisions.
 - **Approach:** Future workstream (after CRM foundation is in place): connect a website pitch-intake form to an automated flagging/categorization pipeline against the fund's investment criteria. Status: Not started (not yet scoped in detail).
 
+### P-005 — Shared drive (SharePoint) not structured for AI use
+- **Area:** Systems / Resources
+- **Problem:** RFG's SharePoint was migrated to "as-is" from its prior state and was never restructured. As AI tools increasingly read shared drives directly, disorganized file structure creates "AI waste" — wasted effort, missed information, or the wrong information surfaced — and this problem compounds the longer it's deferred (JC has seen this be a brutal untangling process for organizations that wait until it's already a mess).
+- **Current Thinking:** RFG already recognized this and deliberately chose not to deal with it during the SharePoint migration, planning instead to handle it later during Fund II data-room prep.
+- **Reframe:** The Fund II data-room prep is exactly the forcing function that makes this the right moment — restructuring now, before the drive fills further and before more AI tooling reads it, avoids the painful retroactive untangling JC typically sees.
+- **Approach:** JC to outline what a proper restructure involves for RFG and what oversight it requires from Blue Tusk, timed to align with Fund II data-room prep. Status: Opportunity identified, proposal pending from JC.
+
 ---
 
 ## 8. Action Plan
 
-**Plan Overview:** Four problems are currently diagnosed, all clustered around the same root constraint: the fund's institutional knowledge (contacts, deals, and process) exists only informally — in Aaron's head, in an unconfigured Notion template, and in ad hoc habits — rather than in a shared, connected system. Aaron's top stated priority (maximize time on fundraising relationships) is served indirectly, by first building the infrastructure that lets relationship work be tracked, delegated, and eventually automated, rather than by any direct fundraising deliverable. The sequencing logic is: governance and low-risk foundational work first (AI guidelines, deal-flow CRM), sensitive personal-relationship data second, and forward-looking automation (pitch intake, agentic workflows) last, once the underlying data structure can support it.
+**Plan Overview:** Five problems are currently diagnosed, all clustered around the same root constraint: the fund's institutional knowledge (contacts, deals, and process) exists only informally — in Aaron's head, in an unconfigured Notion template, in ad hoc habits, and in an unrestructured shared drive — rather than in a shared, connected system. Aaron's top stated priority (maximize time on fundraising relationships) is served indirectly, by first building the infrastructure that lets relationship work be tracked, delegated, and eventually automated, rather than by any direct fundraising deliverable. **Updated 2026-08-18:** RFG deliberately narrowed the entry point — rather than a formal CRM requirements-discovery session, the first real build is AI-assisted triage of Aaron's inbox and calendar, which feeds the CRM as a byproduct. The sequencing logic is: governance first (a hard gate RFG imposed), inbox/calendar triage second (Aaron's actual bottleneck), deal-flow CRM third, sensitive personal-relationship data fourth, and forward-looking automation (pitch intake, shared-drive restructure, agentic workflows) last, once the underlying data structure and governance can support it.
 
 ### People
 **In scope:** P-003
@@ -155,8 +190,14 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
   - Timeline: Can start immediately, independent of the paid-engagement decision; days, not weeks.
 
 ### Systems / Processes
-**In scope:** P-001, P-002, P-004
-- **Workstream: CRM Requirements Discovery**
+**In scope:** P-001, P-002, P-004, P-005
+- **Workstream: AI-Assisted Inbox & Calendar Triage (Outlook)** *(new, added 2026-08-18 — actual first build)*
+  - Approach: Build a Claude-based triage assistant against Aaron's Microsoft 365/Outlook inbox and calendar — his confirmed real bottleneck — rather than starting with a formal CRM build. Gated on the AI governance document being reviewed and accepted (RFG's condition for turning on Cowork), and on Twintel clearing the necessary tenant permissions.
+  - What it involves: JC to determine the cleanest technical path (Claude for Outlook add-in vs. alternatives) given Claude reads Gmail natively but not Exchange; coordinate with Martina/Twintel on tenant permissions; design the triage flow so it naturally populates CRM-relevant data as a byproduct.
+  - Key Result: Aaron has a working inbox/calendar assistant reducing his admin load, and structured data starts flowing into the CRM without a separate cold-start data-entry effort.
+  - Timeline: Next up after the governance document lands; blocked on Twintel permissions and JC's technical recommendation.
+
+- **Workstream: CRM Requirements Discovery** *(deferred — superseded by the inbox/calendar workstream above as the actual entry point)*
   - Approach: Either a live 30-minute working session or an async flow (Aaron records himself talking through his CRM needs, ideally via Notion's meeting note-taker; Blue Tusk supplies a Claude prompt to extract structured follow-up questions from the recording).
   - What it involves: Define what data needs to live in the CRM, what the deal-flow vs. investor-relationship views need to contain, and how Aaron/Michael/Martina each need to interact with it.
   - Key Result: A documented set of CRM requirements and field definitions ready to build against.
@@ -180,12 +221,19 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
   - Key Result: Inbound pitches are automatically captured, categorized, and flagged against criteria without manual sorting.
   - Timeline: After the master CRM foundation exists; not yet scoped in detail — later-stage workstream.
 
+- **Workstream: Shared Drive (SharePoint) Restructure** *(new, added 2026-08-18)*
+  - Approach: Structure RFG's SharePoint properly before it's read heavily by AI tooling, timed to align with Fund II data-room prep rather than done under pressure later.
+  - What it involves: JC to define what "doing it right from the start" involves on RFG's side (folder/taxonomy structure, permissions, naming conventions) and what ongoing oversight this requires from Blue Tusk; present to Martina for the group.
+  - Key Result: A documented restructure plan RFG can execute against ahead of or alongside Fund II data-room prep, avoiding a painful retroactive untangling.
+  - Timeline: Proposal owed by JC; execution timing to align with Fund II data-room prep (not yet scheduled).
+
 **Recommended Sequence:**
-1. AI Usage Governance Document (People) — can start immediately, no dependencies.
-2. CRM Requirements Discovery (Systems/Processes) — blocked only on scheduling around travel.
-3. Master CRM Rebuild — Deal Flow First (Systems/Processes) — depends on (2).
+1. AI Usage Governance Document (People) — in progress; hard gate RFG imposed before widening tool access.
+2. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and on Twintel clearing tenant permissions; next up.
+3. Master CRM Rebuild — Deal Flow First (Systems/Processes) — informed by data surfaced in (2), rather than a separate cold discovery session.
 4. Investor Relationship Migration (Systems/Processes) — depends on (3) being stable and proven.
 5. Pitch Intake & Triage Pipeline (Systems/Processes) — depends on (3), and ideally (4), being in place.
+6. Shared Drive (SharePoint) Restructure (Systems/Processes) — can run in parallel with the above once JC's proposal is delivered; timing anchored to Fund II data-room prep rather than to the CRM sequence.
 
 ---
 
@@ -201,8 +249,8 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 
 ## 10. Recommended Service Tier
 
-Recommend starting in the **free engagement** tier already proposed to Aaron: no invoicing until value is demonstrably realized, governed by a free MSA. Given four active problems, two of which (CRM rebuild, investor-relationship migration) involve real coordination load and sensitive data, plus an existing external cybersecurity/governance stakeholder (Barry) to stay aligned with, this will likely graduate to the **~$2,000/month tier** once the CRM discovery and initial build begin in earnest — consistent with the pricing already discussed with Aaron. Expect the free phase to run at least 1–2 months given the discovery, travel, and internal-alignment steps still pending.
+Recommend starting in the **free engagement** tier already proposed to Aaron: no invoicing until value is demonstrably realized, governed by a free MSA. Given five active problems, several of which (CRM rebuild, inbox/calendar triage, investor-relationship migration, shared-drive restructure) involve real coordination load and sensitive data, plus two external technical/governance stakeholders to stay aligned with (Barry on cybersecurity, Twintel on tenant permissions), this will likely graduate to the **~$2,000/month tier** once the inbox/calendar and CRM work begin in earnest — consistent with the pricing already discussed with Aaron. Expect the free phase to run at least 1–2 months given the discovery, travel, and internal-alignment steps still pending.
 
 ---
 
-*Sources: two meeting transcripts — (1) referral/scoping call between John-Carlos, Martina, and Barry; (2) introductory call with Aaron, Caroline, Martina, Barry, and John-Carlos.*
+*Sources: two meeting transcripts — (1) referral/scoping call between John-Carlos, Martina, and Barry; (2) introductory call with Aaron, Caroline, Martina, Barry, and John-Carlos — plus a 2026-08-18 email exchange between John-Carlos and Martina (with Aaron and Caroline consulted) following up on Meeting 2.*
