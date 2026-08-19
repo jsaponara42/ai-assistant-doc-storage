@@ -7,7 +7,7 @@ tags:
   - deliverable-concept
   - governance
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 # Ruthless For Good — AI Playbook
@@ -48,7 +48,7 @@ The point of bringing AI in is not to replace either of you. It's to remove the 
 
 **The single habit worth building: when something annoys you, write it down.**
 
-Keep one running list — the right home for it depends on who's actually going to use it day to day, which isn't settled yet. Notion is the obvious default given RFG is already Notion-first, but it's worth confirming whether that's true team-wide or mainly Aaron's tool — if Michael and Martina aren't in Notion the same way, a list that only Aaron sees defeats the point. When a task irritates you, add it. Three things, thirty seconds:
+Keep one running list in Notion — confirmed (2026-08-18) that all three of you (Aaron, Michael, and Martina) use Notion, so it's the right shared home. Martina already has a gripe list set up there, feeding into the weekly team agenda (Section 8) — this playbook builds on that existing list rather than starting a new one. When a task irritates you, add it. Three things, thirty seconds:
 
 - What's the task or annoyance?
 - Roughly how often does it happen?
@@ -57,8 +57,6 @@ Keep one running list — the right home for it depends on who's actually going 
 No justification required. "I hate re-typing this every time I follow up with someone" is exactly the kind of thing that belongs here — don't filter yourself before someone else gets a chance to look at it.
 
 **John-Carlos will review the list on a regular basis** — flagging anything he sees an easy or existing solution for, so items don't just sit there waiting on someone at RFG to have time to look. This is in addition to, not instead of, the weekly team check-in (Section 8).
-
-> ⚠️ *Open item: confirm who on the team actually uses Notion day to day (just Aaron, or Michael and Martina too) before locking in where this list lives — the tool should match how the whole team already works, not just the most Notion-native person on it.*
 
 ---
 
@@ -74,7 +72,6 @@ A **prompt module** is a short block of background you write once and reuse — 
 
 Most of these barely change once written. A few will drift (Fund II closes, thesis sharpens) — treat that the same way a gripe gets flagged: notice it's stale, update it.
 
-> ⚠️ *Open item: these should be drafted by Aaron/Michael, not Blue Tusk — the "about me" ones especially are personal.
 
 ---
 
@@ -106,7 +103,7 @@ This isn't about trust — it's about making sure someone understands exactly wh
 
 **Specifically for RFG:** the first real Cowork use case on the table is the inbox/calendar triage assistant for Aaron's Outlook — see the discovery brief's Action Plan. That's a good first case to run through this process deliberately, with someone checking the first output against something you already know, before trusting it to run unsupervised.
 
-> ⚠️ *Open item: confirm who holds the Claude admin seat at RFG and whether Cowork's org-wide toggle is currently on or off. Also confirm Twintel's tenant-permission review is complete before the Outlook use case goes live
+**Confirmed (2026-08-18):** Martina holds the Claude admin seat for RFG. Both Cowork and Claude Code are currently toggled **off** org-wide — Martina's confirming this directly in the admin console once she's logged in, but that's her expectation. Twintel's tenant-permission review is also complete, clearing one of the two blockers on the Outlook triage use case (the other being sign-off on this document).
 ---
 
 ## 5. From win to standard — reusing what works
@@ -139,14 +136,12 @@ Given RFG's size, this mostly comes down to one practical rule: **investor-facin
 
 ## 7. Where data goes — which tools for which data
 
-- **RFG's paid Claude access is the tool for real RFG information** — investor names, deal details, fund financials, anything specific to the business. Confirm this is on a Team or Enterprise plan (not a free/personal account) so nothing is used to train the model.
+- **RFG's paid Claude access is the tool for real RFG information** — investor names, deal details, fund financials, anything specific to the business. **Confirmed (2026-08-18):** RFG is on a Claude **Team plan with 3 seats** — not a free/personal account — so nothing typed into it is used to train the model.
 - **Never a free or personal AI account** (free ChatGPT, free Claude, free Gemini) for real RFG data — those can learn from what you type.
 - **Notion** is the primary system of record and is where most of this data already lives — same rule applies: paid/team tier only for anything real.
 - **Outlook / Microsoft 365** — Claude reads Gmail natively but not Exchange directly, which is why the inbox-assistant workstream needs a specific technical approach (Claude for Outlook add-in or equivalent) rather than just pointing Claude at the inbox. This is being worked out separately — see the Outstanding Questions tracker.
 
 The right tool keeps the data safe. It doesn't make the answer correct — Section 6 still applies regardless of which tool it came from.
-
-> ⚠️ *Open item: confirm RFG's current Claude plan (Team vs. Enterprise vs. individual seats) — this affects the specific data-training guarantees to state here.*
 
 ---
 
@@ -160,17 +155,17 @@ RFG already has a **weekly team meeting** (Aaron, Michael, Martina). Rather than
 
 Every team this size needs one person who's the default point of contact for "is this okay to try" — not gatekeeping, just making sure someone's aware before a new high-stakes or Cowork use case goes live.
 
-> ⚠️ *Open item: who holds this role for RFG?
+**Confirmed (2026-08-18): Martina and Barry hold this role jointly** — Martina as the day-to-day point of contact, Barry weighing in specifically on tool- and permission-related questions given his cybersecurity/governance role.
 
 ---
 
 ## Appendix: Open items (for JC / RFG, not the team-facing version)
 
-1. Confirm who on the team actually uses Notion day to day before locking in where the gripe list lives.
+1. ~~Confirm who on the team actually uses Notion day to day.~~ **Resolved 2026-08-18:** all three (Aaron, Michael, Martina) use Notion; Martina's existing gripe list is the base for Section 1.
 2. Confirm who drafts the prompt modules and on what timeline — Aaron/Michael for the personal ones, Blue Tusk can offer a first-draft skeleton for "About Ruthless For Good."
-3. Confirm who holds the Claude admin seat and whether Cowork is currently on or off at the org level.
-4. Confirm Twintel's tenant-permission review status for the Outlook inbox-assistant workstream (see Outstanding Questions tracker).
-5. Confirm RFG's current Claude plan tier (Team / Enterprise / individual) so Section 7's data-handling language is accurate.
-6. Confirm who holds the "who runs this" role (Section 9) — proposed: Martina, with Barry on tool/permission-specific items — pending Aaron's sign-off.
+3. ~~Confirm who holds the Claude admin seat and whether Cowork is on or off.~~ **Resolved 2026-08-18:** Martina is admin; Cowork and Code both off (pending Martina's in-console confirmation once logged in).
+4. ~~Confirm Twintel's tenant-permission review status.~~ **Resolved 2026-08-18:** review is complete.
+5. ~~Confirm RFG's current Claude plan tier.~~ **Resolved 2026-08-18:** Team plan, 3 seats.
+6. ~~Confirm who holds the "who runs this" role (Section 9).~~ **Resolved 2026-08-18:** Martina + Barry, as proposed.
 7. Decide whether this stays a single working document or splits into a long-form + one-page cheat sheet (as was done for Maycomb) once RFG has reacted to this draft.
 8. Branding pass: apply Blue Tusk visual identity if/when this moves from markdown into a styled deliverable, consistent with how the Maycomb version was handled.
