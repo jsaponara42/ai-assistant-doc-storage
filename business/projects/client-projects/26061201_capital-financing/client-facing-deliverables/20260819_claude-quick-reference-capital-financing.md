@@ -178,11 +178,11 @@ what you couldn't verify.
 
 A Skill is a saved set of instructions for a task you do repeatedly. Build once, run with `/` plus the details that change.
 
-| Step | How |
-|---|---|
-| Build one | New chat → describe the task in plain language → the built-in **Skill Creator** Skill writes it and adds it to your list |
-| Run one | Type `/` in a new chat, pick the Skill, fill in the details |
-| Share one | Team plan means a Skill one person builds can be shared across the team |
+| Step      | How                                                                                                                                |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Build one | New chat → describe the task in plain language → the built-in **Skill Creator** Skill writes it and adds it to your list           |
+| Run one   | Type `/` in a new chat, pick the Skill, fill in the details                                                                        |
+| Share one | Team plan means a Skill one person builds can be shared across the team. Open the Skill in the "Customize" tab - and click "Share" |
 
 **Examples in use:** a prospect-research Skill (firm name + URL in, gap snapshot out), a call-prep Skill (company + attendees in, prep sheet out).
 
