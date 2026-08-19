@@ -19,8 +19,6 @@ August 2026**
 **A practical guide to using Claude well, experimenting safely, and getting comfortable turning on more powerful tools.**
 
 
-> This is a draft for Martina and Aaron to react to — not the final team-facing version. Open items are marked inline with ⚠️ and collected at the end.
-
 ---
 
 ## What this is
