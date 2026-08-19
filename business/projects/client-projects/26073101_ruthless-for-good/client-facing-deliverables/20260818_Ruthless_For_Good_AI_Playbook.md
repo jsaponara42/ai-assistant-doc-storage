@@ -8,6 +8,7 @@ tags:
   - governance
 ai: claude
 status: ok
+final-document: https://docs.google.com/document/d/15sjseki8DRw208yWzNB549-fdlZZTV6I4PUwdFLj6HQ/edit?usp=sharing
 ---
 
 # Ruthless For Good — AI Playbook
@@ -137,10 +138,10 @@ Given RFG's size, this mostly comes down to one practical rule: **investor-facin
 
 ## 7. Where data goes — which tools for which data
 
-- **RFG's paid Claude access is the tool for real RFG information** — investor names, deal details, fund financials, anything specific to the business. **Confirmed (2026-08-18):** RFG is on a Claude **Team plan with 3 seats** — not a free/personal account — so nothing typed into it is used to train the model.
+- **RFG's paid Claude access is the tool for real RFG information** — investor names, deal details, fund financials, anything specific to the business. RFG is on a Claude **Team plan with 3 seats** — not a free/personal account — so nothing typed into it is used to train the model.
 - **Never a free or personal AI account** (free ChatGPT, free Claude, free Gemini) for real RFG data — those can learn from what you type.
 - **Notion** is the primary system of record and is where most of this data already lives — same rule applies: paid/team tier only for anything real.
-- **Outlook / Microsoft 365** — Claude reads Gmail natively but not Exchange directly, which is why the inbox-assistant workstream needs a specific technical approach (Claude for Outlook add-in or equivalent) rather than just pointing Claude at the inbox. This is being worked out separately — see the Outstanding Questions tracker.
+- **Outlook / Microsoft 365** — Claude reads Gmail natively but not Exchange directly, which is why the inbox-assistant workstream needs a specific technical approach (Claude for Outlook add-in or equivalent) rather than just pointing Claude at the inbox. This is being worked out separately.
 
 The right tool keeps the data safe. It doesn't make the answer correct — Section 6 still applies regardless of which tool it came from.
 
@@ -156,7 +157,7 @@ RFG already has a **weekly team meeting** (Aaron, Michael, Martina). Rather than
 
 Every team this size needs one person who's the default point of contact for "is this okay to try" — not gatekeeping, just making sure someone's aware before a new high-stakes or Cowork use case goes live.
 
-**Confirmed (2026-08-18): Martina and Barry hold this role jointly** — Martina as the day-to-day point of contact, Barry weighing in specifically on tool- and permission-related questions given his cybersecurity/governance role.
+**Martina and Barry hold this role jointly** — Martina as the day-to-day point of contact, Barry weighing in specifically on tool- and permission-related questions given his cybersecurity/governance role.
 
 ---
 
