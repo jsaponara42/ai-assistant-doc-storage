@@ -39,10 +39,9 @@ Treat it like a smart new hire on day one: sharp, but it knows nothing about you
 
 ### 2. Sensitive Data Rules
 
-- Do not paste full SSNs, bank/routing numbers, or full case files with plaintiff-identifying detail.
-- Use placeholders for day-to-day tasks: "Jane Doe," "[Firm Name]."
-- Describe real cases generically ("a pre-settlement case with clear liability, $15K request") instead of pasting the intake packet.
-- Unsure if something needs real data? Ask Christy or Howie.
+- Do not paste full SSNs or bank/routing numbers.
+- Everything else, plaintiff names, case files, firm contacts, is fine to use on this team plan.
+- Unsure if something falls under the restriction? Ask John-Carlos.
 
 ---
 
@@ -86,13 +85,13 @@ Treat it like a smart new hire on day one: sharp, but it knows nothing about you
 
 ### 6. By Role
 
-| Role | What Claude does well for you |
-|---|---|
+| Role                        | What Claude could do well for you                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Intake/underwriting support | Clean up a messy intake email, draft a missing-documents request, explain unfamiliar case terms. Not the approve/decline call. |
-| Sales | Outreach and follow-up drafts, call talking points, role-play a hard conversation, organize a stack of conference contacts. |
-| Contracting/agreements | Cover email language, pre-send checklists, summarize a long thread into "what's still outstanding." |
-| Process documentation | Describe the process out loud, Claude turns it into a structured SOP. |
-| Leadership/coordination | One-on-one talking points against KPIs, meeting recaps from a voice memo, devil's advocate on a people decision. |
+| Sales                       | Outreach and follow-up drafts, call talking points, role-play a hard conversation, organize a stack of conference contacts.    |
+| Contracting/agreements      | Cover email language, pre-send checklists, summarize a long thread into "what's still outstanding."                            |
+| Process documentation       | Describe the process out loud, Claude turns it into a structured SOP.                                                          |
+| Leadership/coordination     | One-on-one talking points against KPIs, meeting recaps from a voice memo, devil's advocate on a hard decision.                 |
 
 ---
 
@@ -206,9 +205,10 @@ A Skill is a saved set of instructions for a task you do repeatedly. Build once,
 | Do | Don't |
 |---|---|
 | Treat it like a conversation, say "try again" or "make it shorter" | Paste full SSNs, bank details, or complete real client files |
-| Give real context about your role and goal | Assume the first draft is final |
-| Ask it to ask you questions when unsure what matters | Trust names, numbers, dates without checking the real file |
-| Start a new chat for a new topic | Panic at a usage limit, it resets, and credits can be turned on |
+| Give real context about your role and goal | Paste full SSNs or bank/routing numbers |
+| Ask it to ask you questions when unsure what matters | Assume the first draft is final |
+| Start a new chat for a new topic | Trust names, numbers, dates without checking the real file |
+| | Panic at a usage limit, it resets, and credits can be turned on |
 
 ---
 
