@@ -47,11 +47,9 @@ Think of it less like a search engine and more like **a smart new hire on day on
 
 ### 2. A Word on Sensitive Data — Read This First
 
-This is a financial services business handling plaintiff and law firm data — SSNs, settlement amounts, medical and legal details, bank information. A few habits to build in from day one:
+This is a financial services business handling plaintiff and law firm data — SSNs, bank information. A few habits to build in from day one:
 
-- **Don't paste full SSNs, bank account/routing numbers, or full case files with plaintiff identifying detail into Claude** unless it's specifically approved for that use. For most day-to-day tasks (drafting an email, summarizing a process, writing a follow-up script) you don't need real client data at all — use a placeholder name like "Jane Doe" or "[Firm Name]."
-- If you're drafting something *about* a real case, describe the situation generically ("a pre-settlement case with a clear liability finding and a $15K request") rather than pasting the actual intake packet.
-- When in doubt, ask Christy or Howie whether a task needs real data or can be done with a placeholder.
+- **Don't paste full SSNs, or bank account/routing numbers into Claude.** 
 
 This isn't about mistrust of the tool — it's the same instinct you'd already apply to any outside system.
 
