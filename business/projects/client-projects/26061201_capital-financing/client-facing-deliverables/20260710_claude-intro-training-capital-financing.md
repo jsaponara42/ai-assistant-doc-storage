@@ -255,7 +255,7 @@ A Skill is a saved set of instructions you build once. After that, instead of re
 - Start a new chat when you're switching to a totally different topic
 
 **Don't:**
-- Paste in full SSNs, bank details, or complete real client files — use placeholders
+- Paste in full SSNs, bank details
 - Assume the first draft is final — push back on it like you would a first draft from a person
 - Trust specific numbers, names, or dates it produces without double-checking against the real file
 - Panic if you hit a usage limit — it resets, and credits can be enabled if it becomes a regular issue
