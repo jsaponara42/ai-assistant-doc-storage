@@ -6,6 +6,12 @@ Early-stage venture fund (education, work, and access focus) transitioning from 
 
 ## Changelog
 
+### 2026-08-18 — Martina's comments on AI Playbook draft
+- **Gripe list (Playbook §1):** Confirmed all three team members (Aaron, Michael, Martina) use Notion. Martina already has a gripe list set up there, feeding into the weekly team agenda — the playbook builds on this existing list rather than a new one.
+- **Tools that act (Playbook §4):** Martina confirmed as RFG's Claude admin. Cowork believed toggled off org-wide (she'll confirm directly once logged into a slow-loading admin session). Twintel's tenant-permission review is complete. Both Cowork and Claude Code are off.
+- **Where data goes (Playbook §7):** RFG is on a Claude **Team plan with 3 seats**.
+- **Who runs this (Playbook §9):** Confirmed as **Martina + Barry** — matches the proposal already logged in the Action Plan (Martina day-to-day, Barry on tool/permission-specific items).
+
 ### 2026-08-18 — Email exchange (JC ↔ Martina, post-Meeting 2)
 - JC sent post-meeting recap naming fundraising CRM as the primary need and deal-flow analysis as secondary (goal: move RFG from reactive/passive deal intake to proactive, thesis-driven investing informed by inbound data).
 - JC proactively raised a second opportunity: structuring shared drives/filesystems (Google Drive, SharePoint, etc.) properly from the start, since messy drives create AI "waste" and cause AI to miss or misidentify information — easier to do right from day one than to untangle later.
@@ -75,6 +81,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 **Martina Madrid Sebring** — Fractional Operations (Madrid Ops) — martina@madridops.com (fractional COO company email), martina@ruthlessforgood.com
 - Working Style: Hands-on and embedded in the day-to-day, in contrast to Barry who stays outside the company's technology environment by design.
 - Has been engaged roughly six weeks as of the first call. Currently working the business insurance application, budget/finance support, and an initial CRM review.
+- Confirmed (2026-08-18): holds RFG's Claude admin seat, and is confirmed — jointly with Barry — as the point of contact for AI-tool "is this okay to try" questions (Playbook §9).
 - Relevance: Primary internal driver connecting Blue Tusk to the fund; likely the ongoing operational point of contact for this engagement day-to-day.
 
 ---
@@ -84,6 +91,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 **Barry Porozni** — IT Governance & Cybersecurity Advisor — barry@porozni.com
 - Brought on to provide IT governance and cybersecurity guidance to Ruthless For Good, introduced through a mutual connection with Martina.
 - Stays intentionally outside the fund's actual technology environment/tenant — advises from a process and governance perspective at designated check-in points rather than working inside day-to-day systems.
+- Confirmed (2026-08-18): jointly with Martina, holds the "who runs this" role for AI tool questions (Playbook §9) — specifically on tool/permission-related items.
 - Relevance: Referral source for the Blue Tusk engagement (also referred Blue Tusk to a prior client, "MakeHome"); a governance stakeholder whose cybersecurity work should stay coordinated with any AI-agent rollout (Claude co-work, Notion agents).
 
 **Caroline Rosch-Hoover** — Advisor to Ruthless For Good — caroline@worthyendeavors.net
@@ -109,6 +117,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 
 **Notion** — Primary system of record, used company-wide.
 - Currently on a paid Notion "Teams" plan.
+- Confirmed (2026-08-18): all three team members (Aaron, Michael, Martina) use Notion. Martina maintains a gripe list there that already feeds into the weekly team agenda — identified as the base for the AI Playbook's gripe-list habit rather than a new list.
 - CRM: Built from a purchased third-party Notion CRM template (~$100), not fully explored or configured. Requires significant manual data entry and is not well linked across databases — described by Aaron as still needing heavy setup work.
 - Note-taking: Not yet using Notion's built-in meeting note-taker; Aaron has tried Fireflies and Read AI in the past and dislikes tools that visibly join the call. Considering switching to Notion's native note-taker instead.
 - AI agents: Notion offers autonomous agent capabilities the fund has not yet adopted; Aaron flagged concern (prompted by a related internal discussion about Claude's co-work risks) about whether Notion's agents carry similar risk.
@@ -117,13 +126,13 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 **Claude** — AI assistant, adopted April [2026, inferred from "we got Claude for the first time in April"].
 - Used by Aaron and Michael in their individual work.
 - Co-work / autonomous-agent features intentionally **not** enabled yet — the team is holding off until an AI governance program is in place.
+- Confirmed (2026-08-18): RFG is on a **Team plan with 3 seats**. **Martina holds the admin seat.** Both Cowork and Claude Code are toggled off org-wide (Martina confirming directly once logged into a slow-loading admin session, but that's her expectation).
 - Team has had light exposure to AI concepts via workshops/consulting offered by some of the fund's own investors, but has not implemented structured skills or workflows.
 
 **Microsoft 365 / Outlook** — Email and calendar, primary bottleneck for Aaron.
 - RFG's mail and calendar run on Microsoft 365/Exchange, not Gmail. Claude reads Gmail natively but not Exchange; a Claude for Outlook add-in exists as a possible path.
 - Confirmed (2026-08-18) as the actual first build target: AI-assisted triage of Aaron's inbox and calendar, ahead of any CRM work.
-- Tenant permissions being checked by Martina with Twintel (RFG's IT vendor).
-> ⚠️ NEEDS INPUT: Cleanest technical approach for running an inbox/calendar assistant against this Outlook/M365 setup — owed by JC.
+- Tenant permissions being checked by Martina with Twintel (RFG's IT vendor). **Confirmed (2026-08-18): the tenant-permission review is complete** — clears one of the two blockers on the inbox/calendar triage workstream (the other being sign-off on the AI Playbook/governance doc).
 
 **SharePoint** — Shared drive / document storage.
 - RFG migrated to SharePoint "as-is" when they moved, deliberately deferring any real restructuring.
@@ -242,7 +251,7 @@ Two work areas exist inside the fund, distinct in urgency and ownership:
 **Recommended Sequence:**
 1. AI Usage Governance Document (People) — in progress; hard gate RFG imposed before widening tool access.
 2. Minimum CRM Structure (Systems/Processes) — short, focused; needs to land before or alongside (3) so triage output has somewhere well-formed to go.
-3. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and (2), and on Twintel clearing tenant permissions.
+3. AI-Assisted Inbox & Calendar Triage (Systems/Processes) — depends on (1) and (2); Twintel's tenant-permission review is now confirmed complete (2026-08-18), so this no longer blocks.
 4. Master CRM Rebuild — Deal Flow First (Systems/Processes) — the fuller buildout, informed by data surfaced in (3) on top of the structure set in (2).
 5. Notion CRM Skill (Contact Creation/Update) (Systems/Processes) — depends on (4) producing a stable schema, and on (1) being signed off since this is a live-data write use case.
 6. Investor Relationship Migration (Systems/Processes) — depends on (4) being stable and proven.

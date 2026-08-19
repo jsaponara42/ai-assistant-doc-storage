@@ -48,7 +48,7 @@ The point of bringing AI in is not to replace either of you. It's to remove the 
 
 **The single habit worth building: when something annoys you, write it down.**
 
-Keep one running list in Notion — confirmed (2026-08-18) that all three of you (Aaron, Michael, and Martina) use Notion, so it's the right shared home. Martina already has a gripe list set up there, feeding into the weekly team agenda (Section 8) — this playbook builds on that existing list rather than starting a new one. When a task irritates you, add it. Three things, thirty seconds:
+Keep one running list in Notion —  all three of you (Aaron, Michael, and Martina) use Notion, so it's the right shared home. Martina already has a gripe list set up there, feeding into the weekly team agenda (Section 8) — this playbook builds on that existing list rather than starting a new one. When a task irritates you, add it. Three things, thirty seconds:
 
 - What's the task or annoyance?
 - Roughly how often does it happen?
@@ -101,9 +101,10 @@ For that reason: **both should stay off by default until a specific use case is 
 
 This isn't about trust — it's about making sure someone understands exactly what the tool will do before it's live, and that there's a way back if something goes wrong.
 
+Martina holds the Claude admin seat for RFG. Both Cowork and Claude Code are currently toggled **off** org-wide.
+
 **Specifically for RFG:** the first real Cowork use case on the table is the inbox/calendar triage assistant for Aaron's Outlook — see the discovery brief's Action Plan. That's a good first case to run through this process deliberately, with someone checking the first output against something you already know, before trusting it to run unsupervised.
 
-**Confirmed (2026-08-18):** Martina holds the Claude admin seat for RFG. Both Cowork and Claude Code are currently toggled **off** org-wide — Martina's confirming this directly in the admin console once she's logged in, but that's her expectation. Twintel's tenant-permission review is also complete, clearing one of the two blockers on the Outlook triage use case (the other being sign-off on this document).
 ---
 
 ## 5. From win to standard — reusing what works
