@@ -41,6 +41,8 @@ Think of it less like a search engine and more like **a smart new hire on day on
 - Underwriting judgment calls — Claude can help you organize the file or draft a summary, but the approve/decline decision is Christy's, not Claude's
 - Anything you wouldn't want repeated back with total confidence even if it's wrong — Claude can sound sure and still be wrong, so double-check numbers, names, and dates it produces
 
+**One habit worth building early: Claude is tuned to be agreeable.** The version of this technology that took off in 2021 went through a final training step where people ranked responses, and the responses people ranked highest were the ones that were affirming — telling the user they were right, that it was a great question, that their idea was strong. That habit got baked into how these tools respond. In practice, this means Claude will rarely push back hard on you unprompted, even when it should. It's still genuinely useful — but if you want honest pushback rather than agreement, ask for it directly: *"Be critical of this,"* or *"Tell me what's wrong with this approach before you tell me what's right."*
+
 ---
 
 ### 2. A Word on Sensitive Data — Read This First
@@ -55,7 +57,19 @@ This isn't about mistrust of the tool — it's the same instinct you'd already a
 
 ---
 
-### 3. How Usage Works (so nobody gets blindsided)
+### 3. Why We're All on a Team Plan (Not Personal Accounts)
+
+If you've used a personal ChatGPT or Claude account before, you might wonder why we're doing this through one shared Capital Financing Team plan instead. A few concrete reasons:
+
+- **One change benefits everyone at once.** If someone builds a Skill (see Section 8) that solves a recurring task the right way, it can be shared across the whole team instantly — nobody else has to solve the same problem from scratch.
+- **Connectors are set up once, centrally.** A Connector is how Claude links to an outside system — for example, if we connect Claude to SharePoint so it can read documents stored there, that connection is set up once for the organization instead of every person configuring their own.
+- **Data security.** This is a financial services business handling plaintiff names, firm contacts, and other confidential information. A free personal account (ChatGPT or Claude) does not come with the same data protections as a paid Team plan. The Team plan is what makes it safe to use Claude with real work information in the first place — see Section 2 for the specifics on what should and shouldn't be pasted in.
+
+Bottom line: the Team plan means better security for confidential data, and it means good solutions spread across the team automatically instead of everyone reinventing the wheel.
+
+---
+
+### 4. How Usage Works (so nobody gets blindsided)
 
 Claude Team gives each person their own seat with its own usage allowance — **your usage is separate from everyone else's.** If Audrey uses up her limit for the moment, it doesn't affect Brian's or Christy's — each person's included usage is their own, so one person reaching their limit doesn't slow anyone else down.
 
@@ -72,7 +86,7 @@ A few things worth knowing:
 
 ---
 
-### 4. Basic Prompting — 5 Habits That Make a Real Difference
+### 5. Basic Prompting — 5 Habits That Make a Real Difference
 
 You don't need to learn special commands or code. You're just writing clear instructions, the same way you would in a good email to a new assistant. Five habits cover 90% of it:
 
@@ -97,9 +111,11 @@ Once Claude hands you a good draft or answer, you don't need to start over to ge
 
 The flip side matters just as much: when you're moving to a genuinely different topic, start a **new chat** instead of dragging it into the same thread. A long-running conversation reprocesses everything said before it with every new message, so an old, unrelated thread quietly burns through your usage faster than a fresh one would. Rule of thumb: **same topic, keep going in the same chat. New topic, start a new one.**
 
+**Bonus habit: build yourself a few "prompt modules."** If you find yourself retyping the same background every time — who you are, what your role is, a paragraph on what Capital Financing does — save that as a short paragraph somewhere easy to grab (a notes app, a doc). Then it's copy-paste instead of retyping, every time you start a new chat that needs that context.
+
 ---
 
-### 5. What This Looks Like In Your Actual Job
+### 6. What This Looks Like In Your Actual Job
 
 Below are realistic scenarios pulled from how the team actually works today, matched to the role most likely to use them.
 
@@ -120,7 +136,7 @@ Claude is useful for drafting the monthly one-on-one talking points against some
 
 ---
 
-### 6. Try These Prompts — Copy, Paste, Edit
+### 7. Try These Prompts — Copy, Paste, Edit
 
 Open a new Claude chat and paste any of these in, swapping the bracketed parts for your real situation. These are meant to be **starting points** — adjust freely. Most of what's below is deliberately *not* email drafting — Claude is more useful as a thought partner for organizing, prioritizing, and planning than as a fancy spell-checker, and the examples below lean into that. Organized by the two sides of the house — **Ops** (intake, underwriting, contracting, AR/payoffs) and **Business Development** (financial consultants, sales, conference/outreach).
 
@@ -202,9 +218,37 @@ discussed and reconfirming that date — not a hard sell, just keeping
 it top of mind.
 ```
 
+**5. Score a prospect firm using only public information**
+```
+I'm evaluating [Firm Name] as a prospect and I don't have access to
+their revenue, client volume, or internal financials — just what's
+publicly available. Using their website, online reviews, case results/
+verdicts they publicize, how long they've been in business, and the
+types of cases they handle, help me build a 1-10 score for how strong
+a prospect they are, with the specific green flags and red flags you
+found driving that score. Be clear about what you couldn't verify.
+```
+*Why this works: it's the same judgment call you'd make manually (reputation, longevity, case mix) — Claude just does the research and organizes it into a scored, defensible view faster than you could by hand.*
+
 ---
 
-### 7. Quick Do's and Don'ts
+### 8. Skills — Turning a Repeated Task Into One Command
+
+If you find yourself explaining the same kind of task to Claude over and over — "research this firm and tell me their gaps," "prep me for a call with this company," "here's how I write up an SOP" — that's a sign it should become a **Skill**.
+
+A Skill is a saved set of instructions you build once. After that, instead of retyping the full explanation every time, you type `/` in a new chat, pick the Skill from the list, fill in just the one or two details that change (a firm name, a website URL), and Claude runs the whole thing.
+
+**How to build one — you don't have to write it yourself.** Every Claude account comes with a built-in Skill called **Skill Creator** (type `/` in a new chat and it will be in the list). Open a new chat, describe the task you want to turn into a Skill in plain language — what you're trying to accomplish, what info you'd give it, what you want back — and Skill Creator will build the instructions for you and add it to your Skill list. You don't need to know how to write a technical prompt; you just need to describe the task clearly, the same way you would to a new hire.
+
+**A couple of real examples from how this gets used:**
+- A prospect-research Skill: give it a firm name and website URL, and it comes back with a snapshot of gaps in their marketing/intake setup — something that would take an hour to research by hand comes back in under a minute.
+- A call-prep Skill: give it a company name, website, and the names of who's attending, and it researches the company and the attendees and hands back a prep sheet before a call — useful when you only have a few minutes before a meeting.
+
+**Because we're on the Team plan, a Skill someone builds can be shared with the rest of the team** — so once one person solves how to do a recurring task well, everyone benefits from it immediately instead of rebuilding it themselves.
+
+---
+
+### 9. Quick Do's and Don'ts
 
 **Do:**
 - Treat it like a conversation — you can always say "try again" or "make it shorter"
@@ -220,11 +264,19 @@ it top of mind.
 
 ---
 
-### 8. Two More Settings Worth Knowing: Memory & Model Choice
+### 10. More Features Worth Knowing: Model Choice, Projects, Artifacts, Scheduled Tasks & Memory
+
+**Model choice — Sonnet vs. Haiku.** The model picker sits next to the send button. It's a speed-vs-depth trade-off, not "better vs. worse": **Haiku** is fast and lightweight — near-instant answers, good for quick, simple things. **Sonnet** (the default for most chats, currently Sonnet 5) actually "thinks" — it can pause and reason through a problem step by step before answering, which takes a bit longer but gives noticeably better output on anything with real judgment in it (an SOP, a nuanced email, prepping for a hard conversation). If Claude has ever felt slower than ChatGPT, that's almost always this setting — ChatGPT's fast default is roughly Haiku's equivalent, and Claude defaults to the more thoughtful model instead of the fastest one. You can switch to Haiku for quick stuff any time from that same picker.
+
+*A memory trick for the model names:* Claude's models are named after lengths of written text, shortest to longest — **Haiku** (short) → **Sonnet** (a longer poem) → **Opus** (longer still). The version number after the name (Sonnet 5, Haiku 4.5) is just which generation it is — don't compare that number to ChatGPT's version numbers, since the two companies number things completely differently. What matters day to day is the name in front of the number, and for nearly everything you do, that name is **Sonnet**.
+
+**Projects.** A Project is a dedicated space that holds a group of related chats and any documents you reference regularly, so you're not re-uploading the same files or re-explaining the same background every time you start a new chat on that topic. Because we're on the Team plan, a Project can also be **shared with specific teammates** — so if you build a Project for a recurring type of work, whoever you share it with sees the same context you've built up, instead of starting from zero.
+
+**Artifacts.** When Claude produces something more substantial than a chat reply — a document, a spreadsheet, or even a small interactive tool (for example, a working calculator built for a website) — it shows up as an Artifact: a separate, saved panel you can view, keep working on, and come back to later, rather than a wall of text you'd have to scroll back through.
+
+**Scheduled Tasks.** Claude can run a task automatically on a recurring schedule without you having to ask each time — for example, a morning email summary waiting for you at 8:30 AM, or a weekly digest of news from a specific set of law firms or a state you're tracking. Worth knowing about for anything you currently do the same way, by hand, on a recurring basis.
 
 **Memory.** Click your initials → **Settings** → **Usage** → **Memory** (some accounts show this as Settings → Capabilities instead). Two separate toggles: **Generate memory from chat history** lets Claude build up a running profile of things you've told it — your role, your preferences, recurring project names — so you stop re-explaining yourself every chat. **Search and reference chats** lets Claude look back through past conversations when you ask something like "what did we discuss about that last week?" Both are off by default. If you've used ChatGPT and liked that it "remembers" you, this is the same idea — Claude just doesn't turn it on automatically. Same judgment call as everything in Section 2 applies here: memory is meant for professional context, not a place to store anything sensitive.
-
-**Model choice — Sonnet vs. Haiku.** The model picker sits next to the send button. It's a speed-vs-depth trade-off, not "better vs. worse": **Haiku** is fast and lightweight — near-instant answers, good for quick, simple things. **Sonnet** (the default for most chats) actually "thinks" — it can pause and reason through a problem step by step before answering, which takes a bit longer but gives noticeably better output on anything with real judgment in it (an SOP, a nuanced email, prepping for a hard conversation). If Claude has ever felt slower than ChatGPT, that's almost always this setting — ChatGPT's fast default is roughly Haiku's equivalent, and Claude defaults to the more thoughtful model instead of the fastest one. You can switch to Haiku for quick stuff any time from that same picker.
 
 ---
 
