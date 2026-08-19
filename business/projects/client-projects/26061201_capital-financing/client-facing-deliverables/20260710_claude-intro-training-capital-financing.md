@@ -80,7 +80,7 @@ A few things worth knowing:
 
 **Bottom line:** it's not unlimited, but running out isn't a dead end — it's a "wait a bit or ask for more" situation.
 
-**How to check where you stand.** Click your initials (bottom-left corner) → **Settings** → **Usage**. You'll see two progress bars: how much of your current session you've used (Claude runs on a rolling **5-hour session window**, not a fixed daily clock), and how much of your **weekly** allowance is left, plus when each one resets. It's less "check once a day/month" and more "check whenever you're curious or about to start something big" — but that page is the one place that has the real numbers, not a guess.
+**How to check where you stand.** Click your initials (bottom-left corner) → **Settings** → **Usage**. You'll see two progress bars: how much of your current session you've used (Claude runs on a rolling **5-hour session window**, not a fixed daily clock), and how much of your **weekly** allowance is left, plus when each one resets. It's less "check once a day/month" and more "check whenever you're curious or about to start something big" — but that page is the one place that has the real numbers.
 
 ---
 
