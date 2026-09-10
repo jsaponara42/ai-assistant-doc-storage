@@ -14,6 +14,20 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-XX (day after Christy's 1:1) — Call with Howie: Segway/Salesforce decision, and his side of the SOP-deadline pressure on Christy
+
+Call with Howie the day after the Christy 1:1 (see the 2026-09-10 entry above and [[20260616-Workflow-Map-Capital-Financing-merged]] for the process detail). JC confirmed the ops side is now fully mapped end-to-end (intake through Danielle's controller role). The Segway/Salesforce architecture decision and two new automation ideas are logged as wants #22–#24 in [[xx_howies_wants]]. A few relational/context things worth preserving separately:
+
+- **Howie's own account of the SOP pressure, worth reading alongside Christy's side.** He was direct that he doesn't believe intake or underwriting are as complex as Christy is treating them — pointing to his own experience covering her role for a week during her vacation without issue, and to how quickly he produced his own SOPs and a full company/marketing overview via Claude dictation (15–30 minutes each). He set a one-week (really, roughly one-day) expectation for Christy to dictate the intake call process into Claude, scoped down to just that one piece, with a firm deadline attached. **Neither account should be taken as the full picture on its own:** Christy describes real, decades-accumulated complexity and a legitimate case-law-driven moving target (see the 2026-09-10 entry); Howie is under his own pressure (Segway's build is blocked on missing SOPs) and has a clear incentive to minimize the difficulty. Worth holding both perspectives in mind rather than fully adopting either when working with Christy on this.
+- **Josh is still an active, informal advisor to Howie, despite being let go as fractional COO on 2026-08-06.** Howie cited Josh's opinions twice on this call — once suggesting alternatives to Kaz (Upwork, etc.) for cost/responsiveness reasons, and once backing Howie's read that Christy isn't fulfilling her DOO role. The clean-break framing from the August termination doesn't appear to be fully in effect day-to-day. Worth being alert if Josh's opinions surface again in ways that could create scope or messaging confusion — not a problem to raise with Howie directly, just something to track.
+- **JC drew a clear scope boundary on this call.** Howie pushed on whether JC should be managing/coaching how Christy performs her DOO role generally (not just the automation-relevant parts). JC was explicit this isn't the engagement's lane — the job is identifying and building automation, not managing how Christy executes her broader operations-director responsibilities. Worth holding this line consistently if it comes up again.
+- **Kaz vendor-management friction, a new pattern distinct from the technical findings already logged (2026-08-XX entry).** Howie describes weeks of unanswered emails and repeatedly asking for the same thing multiple times, and separately calls a walkthrough session on Slack with Kaz "a complete waste of time." This is a pattern, not a one-off — worth factoring in before committing to any deadline that depends on Kaz's timely execution (e.g., the Segway↔Salesforce integration in want #22).
+- **Competing external vendor context.** Howie has been separately approached by outside AI-engineer/VA offerings (a contact named Alex, and a more senior engineer, Frank, at roughly $3,000/month) — not urgent, but useful competitive-landscape awareness; he's clearly shopping/comparing in parallel with this engagement, not just relying on it exclusively.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-10 — Christy 1:1 discovery call: SOP-deadline pressure from Howie, and a staffing departure worth watching
 
 Full 1:1 covering Intake and Underwriting in detail (process facts folded into [[20260616-Workflow-Map-Capital-Financing-merged]]). Two things worth flagging separately, since they're relational/behavioral rather than process facts:
