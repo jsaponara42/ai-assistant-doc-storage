@@ -12,13 +12,13 @@ source: Live screen-share walkthrough with Yasmine Swain, Director of Contractin
 **Standard Operating Procedure**
 Operations — Post-Underwriting Case Flow
 
-| Field | Value |
-| --- | --- |
-| Document Owner | Yasmine Swain (Director of Contracting and Servicing) |
-| Department | Contracting / Funding / Accounts Receivable / Payoffs |
-| Reviewed By | — (not yet reviewed by Yasmine) |
-| Frequency | Event-driven (per case) — AR follow-up sub-process runs on a recurring cadence, see Section 5 |
-| Last Updated | August 7, 2026 |
+| Field          | Value                                                                                         |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| Document Owner | Yasmine Swain (Director of Contracting and Servicing)                                         |
+| Department     | Contracting / Funding / Accounts Receivable / Payoffs                                         |
+| Reviewed By    | — (not yet reviewed by Yasmine)                                                               |
+| Frequency      | Event-driven (per case) — AR follow-up sub-process runs on a recurring cadence, see Section 5 |
+| Last Updated   | August 7, 2026                                                                                |
 
 ## 1. Purpose
 
