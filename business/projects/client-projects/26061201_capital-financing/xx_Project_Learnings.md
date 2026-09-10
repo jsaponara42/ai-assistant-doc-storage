@@ -14,6 +14,18 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-10 — Christy 1:1 discovery call: SOP-deadline pressure from Howie, and a staffing departure worth watching
+
+Full 1:1 covering Intake and Underwriting in detail (process facts folded into [[20260616-Workflow-Map-Capital-Financing-merged]]). Two things worth flagging separately, since they're relational/behavioral rather than process facts:
+
+- **Howie pushed Christy for a full intake SOP by Friday; she pushed back, and it visibly frustrated her.** Her own words: "He's like, well, you can just talk into Claude and it'll do everything for you. And I'm like, okay, but I can't just talk out 20 years of knowledge by Friday." She was explicit that intake and underwriting are dynamic (unlike contracting/funding/AR, which Yasmine has already SOP'd easily) and that rushing risks locking in something wrong that becomes hard to unwind once it's built into automation. This is the same push-fast-without-context pattern already logged elsewhere (Cross-Workflow Observations item 3 in the workflow map; the "Howie keeps flip-flopping" dynamic Christy described directly on this call — he'll wave something off as "no big deal," then treat it as a big deal later once he's focused on it again). **Takeaway to apply here:** keep setting realistic timeline expectations with Christy directly rather than letting Howie's deadline pressure become her problem to manage alone — she said explicitly she's on the same team as JC on this and doesn't want to be rushed into building the wrong thing.
+- **One in-office intake employee was let go the week of this call.** Christy mentioned it in passing, without elaboration, while describing current team headcount (now 1 in-office presumably departing/departed, 1 remote U.S., 3 remote Colombia). `[TO CONFIRM: which named individual this was — see the workflow map's updated Process Trunks checklist — and whether it has any knock-on effect on the Rayna/Leaford Tier 1 underwriting-training plan already in motion.]` Worth a light, non-intrusive check-in rather than raising it directly, since Christy didn't flag it as significant herself.
+- **Christy independently proposed an "Ask Howie AI" staff-facing FAQ tool** (now logged as want #21 in [[xx_howies_wants]]), framed around the same over-documentation fatigue she described for SharePoint ("people don't look at documents when they get over-documented"). Worth noting she arrived at essentially the same idea Howie has voiced separately (per want #20) — independent convergence on the same underlying need from both the CEO and DOO sides is a useful signal this is a real pain point, not just one person's pet idea.
+
+*(open for further notes)*
+
+---
+
 ### 2026-08-XX — Yasmine walkthrough call: live screen-share replaced the planned async SOP dictation
 
 Ran a live screen-share walkthrough of JB (Mighty/Justice Bolt) with Yasmine covering the entire post-underwriting flow — Contracting, Funding, AR, and Payoffs. Result was thorough enough that the planned separate async Claude-dictation exercise for this specific workflow was dropped as unnecessary; the SOP is being built directly from this call's transcript instead. Full process detail is now in [[20260616-Workflow-Map-Capital-Financing-merged]] (W1 Steps 5–8, W2 Steps 1–7, and the new Workflow 6 section) and in the standalone SOP at `SOPs/`.
