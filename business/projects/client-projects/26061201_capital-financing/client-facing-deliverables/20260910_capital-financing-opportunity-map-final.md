@@ -126,6 +126,8 @@ flowchart LR
 
 **The opportunity:** This is an adoption problem. The build already happened. Make Opportunity creation a required habit. Turn the KPI dashboard back on. Send leadership a Monday-morning summary of what each consultant did last week, so nobody has to dig for it.
 
+The metrics to track are no longer a guess. Howie's own FC training materials name them directly: total referred revenue against goal, total volume of advances referred, new law firm accounts added, Strategy Calls completed, Case Expense Onboarding Calls completed, and time to first funding on new accounts. Commission only counts law-firm-referred business, not a returning client who self-initiates a new loan, so any automation needs that filter built in from the start.
+
 ```mermaid
 flowchart LR
     classDef quickwin fill:#d1fae5,stroke:#059669,color:#065f46

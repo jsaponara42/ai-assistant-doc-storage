@@ -18,7 +18,7 @@ status: needs-attention
 >
 > **Color/type tagging is intentionally omitted** — colors come from implementation tracking later, not from this map.
 >
-> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript (Howie + John-Carlos), a 2026-06 ops call between Christy and Josh, Christy's process-trunk roster, CEO strategic conversation (2026-06) on sales accountability, KPI implementation, operations oversight, and staffing performance, Christy's 1:1 discovery call (2026-09-10) covering Intake and Underwriting in detail, Danielle's 1:1 discovery call (2026-09-XX, the day before the team's Claude training) covering the controller/finance role end-to-end, and a company/marketing overview document Howie wrote himself for an incoming CMO hire (dated 2026-08-30, added to the vault 2026-09-11) covering product lines, business model, and the full marketing/sales channel mix. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
+> **Source basis.** [[20260612_discovery-brief-capital-financing]], the first intro call transcript (Howie + John-Carlos), a 2026-06 ops call between Christy and Josh, Christy's process-trunk roster, CEO strategic conversation (2026-06) on sales accountability, KPI implementation, operations oversight, and staffing performance, Christy's 1:1 discovery call (2026-09-10) covering Intake and Underwriting in detail, Danielle's 1:1 discovery call (2026-09-XX, the day before the team's Claude training) covering the controller/finance role end-to-end, a company/marketing overview document Howie wrote himself for an incoming CMO hire (dated 2026-08-30, added to the vault 2026-09-11) covering product lines, business model, and the full marketing/sales channel mix, and two SOPs Howie wrote himself and added to the vault on 2026-09-11 — a Financial Consultant Sales Team Training Guide and a Mighty Training Guide. Anywhere the source doesn't pin down a step, field, owner, or hand-off, it's marked **`[TO CONFIRM]`** — these double as the next-pass interview checklist (primary conduit: Christy; Kaz for CRM mechanics).
 >
 > **As-is, including dysfunction.** Breakpoints (manual gaps, failure modes) are marked **⚠** where they exist today. Management/authority dynamics and accountability frameworks that determine execution are documented in **Cross-Workflow Observations** and **Sales Performance & Accountability**. Fixes are not designed here.
 
@@ -199,6 +199,16 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 
 **Hunter vs. farmer.** Kaz's own framing for a gap Howie has also independently named: the current financial-consultant team is built of "farmers" (relationship-based closers, good with warm/handed-off leads) rather than "hunters" (cold prospectors who go find new business). Julius was hired specifically to try to fill the hunter gap via automated/semi-automated outreach cadences (see Workflow 3) — so far without producing a single meeting.
 
+### Mighty Platform Reference (new, from Howie's Mighty Training Guide, 2026-09-11)
+
+**Application Status pipeline, confirmed field values.** Mighty's Applications tab tracks each case through named statuses that map directly onto the Workflow 1 spine: **New** (just came in, minimal information) → **Processing** (Intake team working the case with client/firm) → **Underwriting** (Intake has passed it to Underwriting) → **Approved** (now in Contracting — note the approved amount lives inside the case record, not the original Request Amount field, which is frequently different).
+
+**Reports vs. Analytics, an explicit internal distinction.** Mighty's own guidance to FCs: use the **Reports tab** for anything detailed (it supports filtering by Lien or Case, by Funded Date Range or Application Created Date Range, by state, and by Lead Source Category), and treat **Analytics** as a faster, less precise view for spotting top-performing law firms by case count or dollar volume — not a substitute for Reports. Confirms and sharpens the existing "Mighty is financial software, Salesforce is relationship software" framing already documented above.
+
+**Lead Source Category, confirmed taxonomy.** Every funded case is tagged with one of: **Law Firm Referral, Internet, Client Referral, Returning Client, or Medical Office.** Commission is paid only on Law Firm Referral — a returning client who self-initiates a new loan on an existing case is not commissionable. This refines the referral-channel list already confirmed in Workflow 1 Core Step 1 (which covers *how* a referral arrives) with the CRM's actual field-level categories (which determine *whether it pays a commission*) — any KPI or commission automation needs to encode this distinction correctly, not just count total volume.
+
+**Commissions reporting mechanics, now fully confirmed — see want #7 in [[xx_howies_wants]] for the automation angle.** FCs run a pre-built **Saved Report ("Client End of Month")** filtered by Funded Date Range, export to Excel, trim a couple of default duplicate columns, and paste the result into a company-provided tracking document alongside a Goals-vs-Production year-over-year comparison. Due the 5th of each month to both Howie and Danielle. This is a fully manual copy/paste workflow today, but built on top of a report Mighty can already generate and export on demand — a real scheduled-export automation candidate, not a from-scratch build.
+
 ---
 
 # Shared Sub-Layer — Intake Support
@@ -376,6 +386,7 @@ These reports are reviewed **daily alongside the task list** to keep the CEO abr
 - **In:** Executed agreement; vendor invoices / firm expense docs. `[TO CONFIRM: how invoices are received and verified]`
 - **Out:** Payment to vendor directly, or reimbursement to firm — confirmed **always via direct deposit or check into the firm's operating account**, never push-to-debit (push-to-debit has never been used for a law-firm-side payment).
 - **Owner/System:** **Funding trunk** — Danielle, Audra / bank/treasury direct deposit, subject to the same per-staff thresholds as W1 Step 7 (Audra $25K, Chanel $10K, Yasmine unlimited; wires restricted to Yasmine and Danielle only).
+- **Confirmed, named as two distinct sales verticals (Sales Team Training Guide, 2026-09-11):** **Vertical 1 — Reimburse Firm** (the firm has already paid a case cost and submits its ledger for reimbursement; can be funded in full or partial) and **Vertical 2 — Pay Vendors Directly** (Capital Financing pays the expert/vendor directly; the original, less flexible funding option). These are the terms FCs use when pitching Case Expense Financing — worth using consistently in any future automation or reporting that segments case-expense volume.
 - **⚠** Mighty/JB isolation — no automated flow of payment data to CRM or firm-relationship records.
 
 ### Core Step 7 — Record-Keeping & Repayment Tracking
@@ -662,6 +673,18 @@ These likely warrant their own spine — call it **Workflow 6 — Repayment / Pa
 
 **Priority areas named directly in the document, for reference (not all in scope for this engagement):** reorienting all marketing toward law firms (strategic, CMO-scope); a law-firm-facing website/landing page strategy (CMO-scope); a content strategy including video (CMO-scope); the conference ROI system (automation-relevant, want #25); email automation across the six motions (automation-relevant, want #11); Julius's role fit going forward (want #12); Financial Consultant KPIs and the sales-management gap (already tracked, want #10); intake SOP development (already tracked, want #6/#24-adjacent); and marketing the ancillary broker relationships (CMO-scope, noted above).
 
+**Confirmed contact directory (Sales Team Training Guide, 2026-09-11) — full names and emails, useful for reconciling references elsewhere in this document that used first names or partial titles only:**
+
+| Name | Role | Email |
+|---|---|---|
+| Christy Imbriale | Director of Operations & Sr. Underwriter | christy@injuryfinancing.com |
+| Yasmine Swain | Director of Contracting, Funding & Servicing | yasmine@injuryfinancing.com |
+| Danielle Gild | Controller — Payroll & Expenses | danielle@theinjuryspecialists.com |
+| Alicia Foy | Human Resources | hr.cf.tis@gmail.com |
+| Howie | CEO | howie@injuryfinancing.com |
+
+**Confirmed: Danielle's email domain differs from everyone else's** (theinjuryspecialists.com vs. injuryfinancing.com) — this is why she wasn't auto-enrolled on the company's Claude team seat (see the Controller & Finance Operations section above). Not a data-entry error; it's a genuinely separate domain tied to the sister company.
+
 ---
 
 # Cross-Workflow Observations — Organizational Context
@@ -730,6 +753,7 @@ Based on CEO strategic conversation (2026-06), a new accountability and measurem
 **Consultant Prospecting Strategy — Whale-Hunting vs. Volume (new, from Howie dictation 2026-08-05)**
 - CEO directive for consultants: invest time in constructive, high-value targets rather than spreading effort thin. Explicit framing: "Why would you want to manage 75 law firms when you can manage 25 big companies?" The objective is to prioritize larger law firms with bigger settlements over a high count of small firms.
 - Suggested research channels: LinkedIn, general internet/website research, and potentially AI-assisted scoping — using AI to search the internet for law firms that fit the target profile (e.g., firms known for larger settlements) as a starting filter for who to approach.
+- **Ideal law firm profile, now concretely defined (Sales Team Training Guide, 2026-09-11):** Personal Injury or Workers' Compensation practice; minimum 150 active cases; clients typically referring 2–5 funded pre-settlement cases per month; an active, current-looking website; not locked into an exclusive competitor relationship (or open to switching); showing signs of cash-flow pressure or undercapitalization; interested in a non-recourse funding model; or unhappy with their current funder. This is a concrete, screenable checklist — directly buildable into the AI-assisted prospecting idea above, rather than a vague "bigger firms" heuristic.
 - Not yet a formal SOP or tool — currently a directive/philosophy communicated to consultants, not a built process. Candidate for a future prospecting SOP or AI-assisted research workflow.
 
 **Consultant Authority & Client Routing (new, from Howie dictation 2026-08-05)**
@@ -827,6 +851,11 @@ Grouped for an efficient interview (Christy for underwriting/finance; Kaz for CR
 - **SharePoint taxonomy design and rollout:** tool decision is final; the open scoping question is the actual folder structure, naming conventions, and governance rules — and the specific change-management approach for migrating Danielle and Yasmine off Dropbox habits. Now tracked as its own opportunity on the Opportunity Map deliverable.
 - Whether the growing state-registration renewal tracking (currently an ad hoc spreadsheet Danielle just started) is worth a small dedicated reminder/tracking build, or stays manual at current scale.
 - Whether the monthly Mighty-vs-QuickBooks reconciliation (Workflow 6, Core Step 4) has automation potential given both totals are pulled as reports today, or whether the manual tie-out itself is the actual control value and shouldn't be automated away.
+
+**Sales training & Mighty guides (new, from Howie's two self-written SOPs, 2026-09-11)**
+- Reconcile whether Alicia Foy (HR contact named in the training guide) is the new outsourced HR company Danielle mentioned hiring the same day as her 1:1 call, or a separate, pre-existing internal contact.
+- The Sales Team Training Guide's frontmatter lists its source as "Live screen-share walkthrough with Yasmine Swain," but the document's own content (Sections 1–12, 14–15) reads as Howie's own written sales/marketing voice, not a transcribed walkthrough. Section 13 (department operations overview) plausibly does draw on a Yasmine walkthrough. Likely a metadata artifact from reusing another SOP's template rather than a real sourcing error — not worth raising with Howie, but don't treat the frontmatter's stated source as authoritative for the whole document.
+- Confirm the FC training program (two-day, in-person/live software walkthrough) has actually been run with any current or new FC, or whether it's a written spec not yet delivered live.
 
 **Marketing & sales operations (new, from Howie's CMO overview document, 2026-08-30)**
 - Whether the named CMO candidate (Margarita) is confirmed/hired or still in process — changes the timeline for looping this person into want #11 (outreach automation) and want #23 (MailChimp sync) decisions.

@@ -117,6 +117,8 @@ flowchart LR
 
 **The opportunity:** this is almost entirely an adoption problem, not a build problem. Make Opportunity creation a required, trained habit; turn the existing KPI dashboard back on; and deliver leadership a standing Monday-morning summary of each consultant's activity instead of requiring anyone to dig for it manually.
 
+**Update (2026-09-11): the metrics are no longer undefined.** Howie's own Sales Team Training Guide names the FC KPIs directly — total referred sales/revenue vs. goal, total volume of advances referred, total new law firm accounts added, number of Strategy Calls completed, number of Case Expense Onboarding Calls completed, and timeline to first funding on new accounts. Also confirmed: commission only counts law-firm-referred business, not a returning client self-initiating a new loan on an existing case — any KPI automation needs to filter on Mighty's confirmed "Lead Source Category" field (Law Firm Referral, Internet, Client Referral, Returning Client, Medical Office), not just count total funded volume.
+
 ```mermaid
 flowchart LR
     classDef quickwin fill:#d1fae5,stroke:#059669,color:#065f46

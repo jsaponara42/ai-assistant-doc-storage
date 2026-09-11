@@ -14,6 +14,17 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-11 (same day, second addition) — Two more self-written SOPs from Howie: a third data point on the documentation-effort pattern, and a real open question resolved
+
+Howie added two more of his own documents to the vault the same day as the CMO overview: a full two-day Financial Consultant Sales Team Training Guide, and a Mighty platform training guide. Full findings folded into [[20260616-Workflow-Map-Capital-Financing-merged]] and [[xx_howies_wants]] (updates to wants #7 and #10). Two things worth preserving here specifically:
+
+- **This is now a third independent data point on the same pattern flagged in the 2026-09-11 entry above:** Howie produces thorough, well-structured documentation quickly when the subject is one he's personally invested in. The sales training guide is a genuinely complete 15-section, two-day onboarding program. Worth continuing to hold this fact lightly rather than using it as leverage in any future conversation about Christy's SOP timeline — the two situations aren't really comparable (Howie's own domain expertise vs. Christy's, a rushed deadline vs. none), but it's useful personal context for reading his impatience accurately rather than taking his "it's not that hard" framing fully at face value.
+- **A real, previously-open question got resolved as a side effect, not a targeted answer.** The FC training guide's Section 5 lays out Howie's actual KPI list for financial consultants in plain terms — something want #10 had flagged as still needing a direct conversation with him. It came through an unrelated document, not a scoping call. Worth noting as a pattern: some of Howie's most useful, precise answers arrive embedded in something else he's writing for another purpose, not in response to a direct question. Worth periodically checking his self-authored documents for buried answers to open items, rather than only waiting on direct responses to questions asked.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-11 — Howie's CMO overview document: confirms sales is the real priority, and surfaces the reprioritization decision itself as worth logging
 
 Howie added a company/marketing overview document to the vault (dated 2026-08-30, written for an incoming CMO hire he refers to as "The Marketing Boss" but names once, in passing, as **Margarita**). Full findings folded into [[20260616-Workflow-Map-Capital-Financing-merged]] (new **Marketing & Sales Operations** section) and [[xx_howies_wants]] (wants #25–#26, major updates to #11 and #12). The client-facing Opportunity Map was also reprioritized around this document — the reasoning behind that change is worth preserving here, separate from the process facts:
