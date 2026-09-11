@@ -14,6 +14,19 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-11 — Howie's CMO overview document: confirms sales is the real priority, and surfaces the reprioritization decision itself as worth logging
+
+Howie added a company/marketing overview document to the vault (dated 2026-08-30, written for an incoming CMO hire he refers to as "The Marketing Boss" but names once, in passing, as **Margarita**). Full findings folded into [[20260616-Workflow-Map-Capital-Financing-merged]] (new **Marketing & Sales Operations** section) and [[xx_howies_wants]] (wants #25–#26, major updates to #11 and #12). The client-facing Opportunity Map was also reprioritized around this document — the reasoning behind that change is worth preserving here, separate from the process facts:
+
+- **JC's own read converged with Howie's stated priority, independently.** JC had already formed the view that the sales pipeline (not intake, not ops) is the actual growth limiter right now, before this document confirmed Howie feels the same way in writing. Worth noting this wasn't JC simply following Howie's lead — two independent reads landing on the same conclusion is a stronger basis for a real reprioritization than either alone. Also consistent with the 2026-08-06 entry below, where Howie separately confirmed operations was already in good shape and sales/tech efficiency was the actual need — this document is the third independent data point for the same conclusion, not a new direction.
+- **Howie's own document is unusually rich and well-organized** — a marked contrast to how rushed and resistant he's been about SOP documentation from Christy (see the 2026-09-10 entry above). Worth noticing without over-reading it: he clearly can produce structured, detailed documentation when the subject is one he's personally invested in (sales/marketing, his own domain) versus one he's delegating and pushing on a deadline (Christy's intake SOP). Not necessarily hypocrisy, more likely a genuine motivation/ownership difference — useful to keep in mind next time SOP-timeline friction comes up with Christy.
+- **A blunt, quotable line worth having on hand:** Howie describes KJ Yeh's (SEO vendor, long-tenured) monthly reports as "like Chinese" to him, with no way to independently verify performance. Kept as a direct quote in the internal workflow map (want #26) since it's useful evidence, but this is exactly the kind of line that needs to be paraphrased or cut entirely if any client-facing material ever references the SEO finding — flagging now so it doesn't slip through by accident later.
+- **The CMO hire is a real organizational change worth tracking as it lands**, not just a source document. Once in place, this person will likely take ownership of several things currently sitting with JC/Kaz by default (website strategy, content, possibly Julius's outreach direction) — worth checking in periodically on hire status rather than assuming it's still pending indefinitely.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-XX (day after Christy's 1:1) — Call with Howie: Segway/Salesforce decision, and his side of the SOP-deadline pressure on Christy
 
 Call with Howie the day after the Christy 1:1 (see the 2026-09-10 entry above and [[20260616-Workflow-Map-Capital-Financing-merged]] for the process detail). JC confirmed the ops side is now fully mapped end-to-end (intake through Danielle's controller role). The Segway/Salesforce architecture decision and two new automation ideas are logged as wants #22–#24 in [[xx_howies_wants]]. A few relational/context things worth preserving separately:
