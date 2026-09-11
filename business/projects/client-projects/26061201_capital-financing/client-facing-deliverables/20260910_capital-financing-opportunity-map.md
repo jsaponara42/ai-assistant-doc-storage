@@ -12,11 +12,13 @@ status: draft
 
 ## What this document is for
 
-This is the answer to "where should we actually spend automation effort, and why." It's built from eight weeks of discovery — the full workflow map, Howie's dictated wants, and direct 1:1s with Christy, Yasmine, and Kaz.
+This is the answer to "where should we actually spend automation effort, and why." It's built from eight weeks of discovery — the full workflow map, Howie's dictated wants, and direct 1:1s with Christy, Yasmine, and Kaz. **The value here isn't new discovery** — it's turning eight weeks of scattered calls, dictations, and half-formed ideas into one scored, ranked framework that's consistently applied, so priority never has to be re-litigated from scratch every time a new idea comes up.
 
 **How to use it going forward:** whenever a new idea comes in (from Howie, from a call, from anywhere), the first move is to check whether it already lives here. If it does, it gets folded into the existing opportunity rather than treated as something new. If it doesn't, it gets scored against the same framework below and slotted in — either onto the main map, or into the backlog appendix until it's scoped enough to promote. This is what keeps Howie's stream of new ideas from turning into scope creep: everything gets measured against the same yardstick, in one place.
 
 **What this is not:** a build spec. Nothing below prescribes exact tools, screens, or technical architecture. The point is to identify *where* the highest-opportunity, highest-ROI areas are and *what kind* of solution would plausibly fit — a rules engine, an adoption push, a sync job, an AI-assisted layer — not to design it.
+
+**What this doesn't cover yet:** this map is weighted toward intake, underwriting, and sales, because that's where discovery has gone deepest so far. Yasmine's Contracting/Funding/Payouts process is already well-SOP'd and largely represented through Opportunity #6 below, and Danielle's controller/finance role isn't represented as its own opportunity at all yet. That's a gap in this pass, not a judgment that those areas don't matter — a dedicated look at controller- and contracting-specific automation is still owed once those 1:1s are fully synthesized.
 
 ---
 
@@ -35,11 +37,17 @@ Every opportunity is scored on two axes and sorted into one of four tiers.
 | 🟣 **Strategic** | High effort, high impact — multi-phase, needs real design work. |
 | ⚪ **Needs Decision First** | Not yet buildable — blocked on a decision, missing information, or someone else's timeline (Kaz, Christy's SOP content, an org/economics call). |
 
+**One honest gap in this framework:** Effort and Impact are scored qualitatively (Low/Med/High), not in dollars or hours. That's deliberate — inventing precise figures we don't have would be less honest than a clear qualitative call, and none of the calls so far have produced reliable time/cost baselines. Getting real numbers (hours currently spent on manual servicing check-ins, cost per unfilled Opportunity record, etc.) is a concrete next step, not something this version pretends to already have.
+
 ---
 
 ## Foundational note: systems architecture is already decided
 
 Two opportunities below (Servicing Automation and Intake/Underwriting Structuring) sit on top of a systems decision that's already been made, not something still open: **Salesforce stays the CRM and system of automation/reporting; Segway is being adopted only for the ops/finance staff who need its financial-software features (~6 people), with an integration bridging the two.** This isn't itself ranked as an opportunity — it's context that keeps the items below from looking more uncertain than they are.
+
+### If you only do three things
+
+The numbering below is for reference, not priority order — tier and impact carry the actual ranking. If nothing else moves forward, these three matter most: **#1 (sales adoption)** because it's paid-for and unused, **#2 (referral portal)** because it's already in motion, and **#6 (servicing/AR/payoffs automation)** because it's the single largest headcount-leverage opportunity on this entire map, independently flagged by both Howie and Christy.
 
 ---
 
@@ -84,25 +92,25 @@ flowchart LR
 
 ### Priority summary
 
-| # | Opportunity | Tier | Effort | Impact |
-|---|---|---|---|---|
-| 1 | Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High |
-| 2 | Referral/case-submission portal | 🟢 Quick Win | Low–Med | High |
-| 3 | Slack + exception-based digest | 🔵 Near-Term | Med | High |
-| 4 | Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High |
-| 5 | Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium |
-| 6 | Post-funding servicing/AR/payoffs automation | 🟣 Strategic | High | High |
-| 7 | Intake & underwriting structuring | 🟣 Strategic | Med–High | High |
-| 8 | Howie's inbox AI assistant | 🟣 Strategic | Med–High | High |
-| 9 | Internal staff FAQ assistant | 🟣 Strategic | Medium | Med–High |
-| 10 | Outbound outreach: automate-or-retire the role | ⚪ Needs Decision | — | Medium |
-| 11 | Conference list automation & territory structure | ⚪ Needs Decision | High | Medium |
+| # | Opportunity | Tier | Effort | Impact | Likely Owner |
+|---|---|---|---|---|---|
+| 1 | Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High | Howie (sales team) + Kaz |
+| 2 | Referral/case-submission portal | 🟢 Quick Win | Low–Med | High | Christy's team |
+| 3 | Slack + exception-based digest | 🔵 Near-Term | Med | High | Kaz |
+| 4 | Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High | Kaz |
+| 5 | Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium | Kaz |
+| 6 | Post-funding servicing/AR/payoffs automation | 🟣 Strategic | High | High | Yasmine + Kaz |
+| 7 | Intake & underwriting structuring | 🟣 Strategic | Med–High | High | Christy |
+| 8 | Howie's inbox AI assistant | 🟣 Strategic | Med–High | High | Howie + JC |
+| 9 | Internal staff FAQ assistant | 🟣 Strategic | Medium | Med–High | Christy + JC |
+| 10 | Outbound outreach: automate-or-retire the role | ⚪ Needs Decision | — | Medium | Howie |
+| 11 | Conference list automation & territory structure | ⚪ Needs Decision | High | Medium | Howie |
 
 ---
 
 ### 1. Sales follow-up & pipeline adoption — 🟢 Quick Win
 
-**The pain:** Consultants aren't consistently following up, and there's no visibility into who's working what. The fix for most of this **already exists** — a full Opportunity object with case-expense/pre-settlement-specific stages and automated task/notification logic (7-day no-meeting trigger, 30-day no-referral trigger) was already built in Salesforce. Nobody uses it, so it has no data to act on. Same story with the KPI dashboard: built, reviewed once, never rolled out.
+**The pain:** Consultants aren't consistently following up, and there's no visibility into who's working what. The fix for most of this **already exists** — a full Opportunity object with case-expense/pre-settlement-specific stages and automated task/notification logic (7-day no-meeting trigger, 30-day no-referral trigger) was already built in Salesforce, but it hasn't been adopted as a working habit yet, so it has no data to act on. Same story with the KPI dashboard: built, reviewed once, not yet rolled out day-to-day.
 
 **The opportunity:** this is almost entirely an adoption problem, not a build problem. Make Opportunity creation a required, trained habit; turn the existing KPI dashboard back on; and deliver Howie a standing Monday-morning summary of each consultant's activity so he's not manually digging for it.
 
@@ -232,7 +240,7 @@ flowchart LR
     class Opp1 strategic
 ```
 
-*Solution shape:* a decision-tree-style intake questionnaire (client and law-firm facing) feeding a rules engine, not a full underwriting-AI build — the judgment layer stays human by design. **Gated on Christy actually producing the underlying content** — see the backlog note below.
+*Solution shape:* a decision-tree-style intake questionnaire (client and law-firm facing) feeding a rules engine, not a full underwriting-AI build — the judgment layer stays human by design. **Gated on the underlying intake/underwriting content being written down** — see the backlog note below.
 
 ---
 
