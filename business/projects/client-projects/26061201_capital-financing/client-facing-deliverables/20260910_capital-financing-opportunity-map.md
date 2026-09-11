@@ -105,6 +105,7 @@ flowchart LR
 | 9 | Internal staff FAQ assistant | 🟣 Strategic | Medium | Med–High | Christy + JC |
 | 10 | Outbound outreach: automate-or-retire the role | ⚪ Needs Decision | — | Medium | Howie |
 | 11 | Conference list automation & territory structure | ⚪ Needs Decision | High | Medium | Howie |
+| 12 | SharePoint information architecture & adoption | 🟢 Quick Win | Low–Med | High | JC (design) + Christy (rollout) |
 
 ---
 
@@ -284,12 +285,23 @@ flowchart LR
 
 ---
 
+### 12. SharePoint information architecture & adoption — 🟢 Quick Win
+
+**The pain:** Company-wide file organization is genuinely poor — not a preference issue between tools, but a real gap independently flagged by multiple people on the leadership team. Sensitive documents (bank reporting) reach the CEO only via one-off email attachments, with no shared access at all. Different parts of the team default to different systems out of habit, and even where SharePoint is already in use, there's no consistent folder structure or naming convention, which makes it hard to trust or navigate.
+
+**The opportunity:** this is **decided, not open** — SharePoint is the company-wide system going forward. What's still needed is the actual information architecture: a defined folder taxonomy, naming conventions, and governance rules, plus a real migration and change-management push to get everyone (including team members currently attached to other habits) onto one consistent structure. This is deliberately scoped as foundational, not a full automation build — but it's the base every future document-facing automation depends on, including a staff-facing FAQ assistant (Opportunity #9) or any future direct connection between Claude and the company's documents for search, summarization, or drafting. That connector work is a natural next phase once the taxonomy exists — not something to build before the foundation is in place.
+
+*Solution shape:* an information-architecture and change-management project — taxonomy design, migration, and adoption habits — not a software build. Simple and contained relative to everything else on this map, which is exactly why it's well-suited to be a fast, visible win.
+
+---
+
 ## B. Quick Wins (ready to move on now)
 
 Per the proposal, quick wins are a possibility surfaced by discovery, not a promise — these two are the ones that actually clear that bar:
 
 1. **Sales follow-up & pipeline adoption (Opportunity #1 above).** Zero new build — this is turning on and enforcing use of automation that's already been paid for and built. Highest-leverage single move available on this entire map.
 2. **Referral/case-submission portal (Opportunity #2 above).** Already scoped and in motion with Christy's team on a low-risk, low-cost tool. Needs a check-in to confirm it's actually moving, not a new decision.
+3. **SharePoint information architecture & adoption (Opportunity #12 above).** No build required — taxonomy design plus a real rollout push. Worth calling out specifically as a strong, low-risk opener for a follow-on engagement: contained, visible, and it's the foundation several other opportunities on this map (and future ones) will eventually depend on.
 
 Everything else on the map is a real build or a pending decision — sequencing them is the next conversation, not something to promise before it's scoped.
 
@@ -321,6 +333,7 @@ Everything tracked that isn't on the curated map above — either too early-stag
 | Territory-based FC structure (want #9) | ⚪ Needs Decision | Org/economics decision; blocks Opportunity #11. |
 | Commissions-spreadsheet automation (want #7) | 🔵 Near-Term | Overlaps with Opportunity #1 — scope together once CRM adoption is underway. |
 | Segway/Salesforce hybrid architecture (want #22) | — | Already decided; see Foundational Note above. Not a ranked opportunity. |
+| State/regulatory registration renewal tracker (Danielle 1:1, 2026-09-XX) | 🟢 Quick Win (minor) | Small, contained tracking need (litigation-funding state registrations, annual renewals) — currently an ad hoc spreadsheet Danielle just started. Low effort, modest impact; not headline material but genuinely useful. |
 
 ---
 
