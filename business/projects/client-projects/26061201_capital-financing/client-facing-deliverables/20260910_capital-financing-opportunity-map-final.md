@@ -48,9 +48,15 @@ Two opportunities below, Servicing Automation and Intake/Underwriting Structurin
 
 The case management system, Mighty/JB, is expected to migrate onto Segue over time. A good chunk of the manual servicing and AR work in Opportunity 6 should get absorbed by that migration. Not all of it will. See Opportunity 6 for what's left over.
 
-### If you do three things
+### The priority right now: sales
 
-The numbers below are for reference, not rank. If nothing else moves, do these three: Opportunity 1 (sales adoption), because it's paid for and sitting unused. Opportunity 2 (referral portal), because it's already in motion. Opportunity 12 (SharePoint architecture), because it's low-risk and sets up everything after it.
+Leadership's own priority, in writing: get the sales side supercharged first. The Financial Consultant pipeline, law firm follow-up, and referral conversion are the biggest lever available right now. Growth isn't capped by how many leads come in. It's capped by what happens after a lead lands: follow-up habits, KPI visibility, and consistent nurture.
+
+Six opportunities on this map touch that pipeline directly: Opportunity 1, Opportunity 3, Opportunity 4, Opportunity 5, Opportunity 10, and Opportunity 13. Treat this group as the lead priority. Start here.
+
+If three things move first, make them Opportunity 1 (pipeline adoption), Opportunity 4 (referral-gap follow-up), and Opportunity 10 (outreach automation). All three sit inside the sales engine, and all three are buildable now.
+
+Two more quick wins are worth running in parallel, outside the sales cluster: Opportunity 2 (referral portal) and Opportunity 12 (SharePoint architecture). Both are low-risk and already scoped.
 
 ---
 
@@ -83,32 +89,34 @@ flowchart LR
     Sv -.-> O3(["Servicing findings feed\nSegue migration"])
     Fol -.-> O4(["CRM adoption:\nOpportunity rollout"])
     Opp -.-> O5(["Slack + AI digest"])
-    Mkt -.-> O6(["Outreach automation\nor role decision"])
+    Mkt -.-> O6(["Outreach automation\nacross all channels"])
 
     class O1 strategic
     class O2 quickwin
     class O3 decision
     class O4 quickwin
     class O5 nearterm
-    class O6 decision
+    class O6 nearterm
 ```
 
 ### Priority summary
 
 | # | Opportunity | Tier | Effort | Impact | Likely Owner |
 |---|---|---|---|---|---|
-| 1 | Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High | Sales leadership + Salesforce Administrator |
+| 1 | ⭐ Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High | Sales leadership + Salesforce Administrator |
 | 2 | Referral/case-submission portal | 🟢 Quick Win | Low–Med | High | DOO's team |
-| 3 | Slack + exception-based digest | 🔵 Near-Term | Med | High | Salesforce Administrator |
-| 4 | Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High | Salesforce Administrator |
-| 5 | Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium | Salesforce Administrator |
+| 3 | ⭐ Slack + exception-based digest | 🔵 Near-Term | Med | High | Salesforce Administrator |
+| 4 | ⭐ Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High | Salesforce Administrator |
+| 5 | ⭐ Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium | Salesforce Administrator |
 | 6 | Post-funding servicing/AR/payoffs, input to the Segue migration | ⚪ Needs Decision | — | High | Ops leadership |
 | 7 | Intake & underwriting structuring | 🟣 Strategic | Med–High | High | DOO |
 | 8 | Executive inbox AI assistant | 🟣 Strategic | Med–High | High | CEO + Blue Tusk |
 | 9 | Internal staff FAQ assistant | 🟣 Strategic | Medium | Med–High | DOO + Blue Tusk |
-| 10 | Outbound outreach: automate or retire the role | ⚪ Needs Decision | — | Medium | CEO |
-| 11 | Conference list automation & territory structure | ⚪ Needs Decision | High | Medium | CEO |
+| 10 | ⭐ Outbound outreach automation | 🔵 Near-Term | Medium | High | Sales leadership + Salesforce Administrator |
+| 11 | Conference list matching & territory structure | ⚪ Needs Decision | High | Medium | CEO |
 | 12 | SharePoint information architecture & adoption | 🟢 Quick Win | Low–Med | High | Blue Tusk (design) + DOO (rollout) |
+| 13 | ⭐ Conference ROI tracking & pre/during/post cadence | 🔵 Near-Term | Medium | High | Salesforce Administrator |
+| 14 | Website & SEO performance visibility | 🟢 Quick Win | Low–Med | Medium | Blue Tusk + CEO |
 
 ---
 
@@ -274,17 +282,17 @@ flowchart LR
 
 ---
 
-### 10. Outbound outreach: automate or retire — ⚪ Needs Decision First
+### 10. Outbound outreach automation — 🔵 Near-Term ⭐
 
-**The pain:** Cold outreach produces close to zero real replies at volume. One documented day: 160 sends, zero real responses. The staffing cost isn't clearly justified.
+**The pain:** Prospecting, reactivation, thank-you emails, active-account nurture, post-conference follow-up, and the long-term law firm drip series all run manually today, mostly through one person. Reactivation emails aren't getting results. Active accounts get no nurture at all. Thank-you emails go out by hand after every new referral. None of it is consistent, and one person's bandwidth caps how much of it happens.
 
-**The opportunity:** Automate the cadence properly, or retire the function. This needs a people decision from leadership before it's a build question.
+**The opportunity:** Leadership has already called for this to move to AI-assisted, better-automated email generation and sequencing across all six of those motions. The direction is set. What's left is deciding the tool and the team structure around it, not whether to do it.
 
-*Solution shape:* Not scoped until that decision is made.
+*Solution shape:* A sequencing and generation layer across the existing law firm segments (prospect, active, inactive), built on top of the Mailchimp migration already underway. Scope the six email motions as one system, not six separate fixes.
 
 ---
 
-### 11. Conference list automation & territory structure — ⚪ Needs Decision First
+### 11. Conference list matching & territory structure — ⚪ Needs Decision First
 
 **The pain:** Matching new conference contacts against roughly 25,000 existing Salesforce contacts takes about two hours per list by hand, with only half auto-matching. Assignment to consultants is manual too, and untracked.
 
@@ -304,6 +312,26 @@ flowchart LR
 
 ---
 
+### 13. Conference ROI tracking & pre/during/post cadence — 🔵 Near-Term ⭐
+
+**The pain:** Capital Financing attends 15 to 20 conferences a year at real cost. There's no reliable way to trace a referral back to the conference contact that generated it. Attendee lists come from organizers as name, phone, and address only, no email, which makes the follow-up chain harder to hold together. The consultant team hasn't reliably run post-conference follow-up on their own, which is part of why this work slipped to outside help in the first place.
+
+**The opportunity:** The Salesforce Administrator is already building attendee-level reporting. That's the foundation. Layer a defined pre-conference, during-conference, and post-conference touch sequence on top of it, tied to Mailchimp, with attribution back to the originating conference so ROI is visible for the first time.
+
+*Solution shape:* A cadence system similar to Opportunity 4, keyed to conference attendance instead of firm onboarding. Attribution reporting sits on top of the tracking the Salesforce Administrator already has in motion.
+
+---
+
+### 14. Website & SEO performance visibility — 🟢 Quick Win
+
+**The pain:** SEO is fully outsourced and has been for years. Monthly reports come back, but they're hard to read, and there's no independent way to check whether the work is actually moving rankings, traffic, or conversions. Meetings with the vendor are rare.
+
+**The opportunity:** A simple, automated performance view pulling from Google Analytics, Search Console, and rank tracking, so performance is visible without depending on the vendor's own narrative.
+
+*Solution shape:* A scheduled report or lightweight dashboard on top of tools that already exist. No new SEO work required, just visibility into what's already running.
+
+---
+
 ## B. Quick Wins (ready to move on now)
 
 Quick wins are a possibility surfaced by discovery, not a promise. These three actually clear that bar.
@@ -318,10 +346,10 @@ Everything else on this map is a real build or a pending decision. Sequencing th
 
 ## C. How new ideas get added
 
-1. **Check if it's already here.** Most new ideas map onto one of the twelve opportunities above, sometimes as a new detail on an existing one rather than something new.
+1. **Check if it's already here.** Most new ideas map onto one of the fourteen opportunities above, sometimes as a new detail on an existing one rather than something new.
 2. **If it's genuinely new, score it.** Effort: Low, Medium, High. Impact: Low, Medium, High. Same definitions as the framework above.
 3. **Tier it.** Quick Win, Near-Term, Strategic, or Needs Decision First.
-4. **Add it to the backlog below,** with its source and date. It only moves onto the main map once it's scoped enough to sit next to the other twelve. A one-line idea doesn't jump straight to the priority table.
+4. **Add it to the backlog below,** with its source and date. It only moves onto the main map once it's scoped enough to sit next to the other fourteen. A one-line idea doesn't jump straight to the priority table.
 
 This is what keeps new ideas from turning into scope creep. Everything gets measured the same way, in one place, instead of each idea getting its own conversation about whether it matters.
 
@@ -336,7 +364,7 @@ Everything tracked that isn't on the curated map above, either too early-stage t
 | AI-readable LinkedIn/Facebook bio | 🟢 Quick Win (minor) | Zero-build housekeeping. A prompt leadership can run directly. |
 | Move training videos off Vimeo | 🟢 Quick Win (minor) | File migration and reorg. No technical build. |
 | Team-wide AI notetaker | 🟢 Quick Win (minor) | Tool selection and rollout. Adoption is the real work, not the tool. |
-| Outreach contractor repositioned as personal assistant | ⚪ Needs Decision | Depends on the outreach automate-or-retire call (Opportunity 10) landing first. |
+| Outreach contractor repositioned as personal assistant | ⚪ Needs Decision | Now easier to resolve since Opportunity 10 answers the automate-or-retire question. This is the remaining piece: what the person does once the email work is automated. |
 | KPI dashboard improve-vs-leave-as-is call | ⚪ Needs Decision | Needs a direct review with the Salesforce Administrator before recommending either way. |
 | Consultant dashboard / weekly reporting layer | 🔵 Near-Term | Downstream of Opportunity 4 (referral-gap detection). Sequence after, not before. |
 | Territory-based FC structure | ⚪ Needs Decision | Org and economics decision. Blocks Opportunity 11. |
