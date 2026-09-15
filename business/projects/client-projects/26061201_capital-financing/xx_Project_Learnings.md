@@ -14,6 +14,18 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-XX — Howie asked about interviewing the FCs directly; held the line and shipped a scaffold instead
+
+Howie emailed asking whether it would help to interview the Financial Consultants and map their day-to-day workflow, and separately raised that follow-up fields exist in the CRM but aren't being used after calls or emails. Two things worth preserving:
+
+- **Declined the interview, with reasoning, not just a no.** Two real reasons, not one: the FC workflow is about to change materially once the CRM adoption push and Slack digest land, so mapping it now means mapping something already in flux; and automation recommendations need real activity data to point at, which doesn't exist yet since FCs aren't tracking consistently. Sent Howie a shell workflow instead (now in [[client-facing-deliverables/20260910_capital-financing-opportunity-map-final]], section D) — the eight-ish categories of FC activity he named himself, with general automation patterns marked at each step, explicitly framed as something for him to fill in rather than something Blue Tusk would interview its way into.
+- **Restated the scope boundary explicitly, in writing, unprompted.** Told Howie directly that writing the actual SOPs, running training, and managing FC behavior change is not part of this engagement — consistent with the boundary already drawn on 2026-09-XX (Christy's DOO role) and worth having in writing again here, since this is the same instinct (asking Blue Tusk to take on people-management work) surfacing on a different department.
+- **Named the actual blocker plainly, in the same email:** "this is the largest blocker for automation in the sales department" — not having FCs record their actions properly. This is worth remembering as Howie's own stated diagnosis, not just JC's, next time sales automation scope gets discussed.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-11 (same day, second addition) — Two more self-written SOPs from Howie: a third data point on the documentation-effort pattern, and a real open question resolved
 
 Howie added two more of his own documents to the vault the same day as the CMO overview: a full two-day Financial Consultant Sales Team Training Guide, and a Mighty platform training guide. Full findings folded into [[20260616-Workflow-Map-Capital-Financing-merged]] and [[xx_howies_wants]] (updates to wants #7 and #10). Two things worth preserving here specifically:

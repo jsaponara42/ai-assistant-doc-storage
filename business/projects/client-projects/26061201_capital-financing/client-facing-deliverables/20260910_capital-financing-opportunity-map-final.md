@@ -357,6 +357,54 @@ This is what keeps new ideas from turning into scope creep. Everything gets meas
 
 ---
 
+## D. Financial Consultant Workflow: a shell to fill in first
+
+You asked whether it would help to interview the Financial Consultants and map their actual day-to-day workflow. It would, eventually. Not yet, for two reasons.
+
+The FC workflow is about to change. The CRM adoption push in Opportunity 1, the Slack digest in Opportunity 3, and the referral-gap automation in Opportunity 4 will all touch how a consultant spends a day. Mapping the workflow now means mapping something that's already changing.
+
+The bigger reason: automation needs real activity data to point at, and that data doesn't exist yet in a usable form. General categories of sales automation can be named now. Specific recommendations, the kind worth actually building, need to wait until consultants are tracking their own actions consistently.
+
+What's below is a shell, not a finished map. It lays out the sequence of activity a consultant works through, with the kind of automation that typically fits at each step once real tracking exists. Fill in what actually happens today at each step, and where it's currently logged, if anywhere. That's the input the next round of automation recommendations needs.
+
+```mermaid
+flowchart LR
+    classDef quickwin fill:#d1fae5,stroke:#059669,color:#065f46
+    classDef nearterm fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+
+    A[Source or Receive Leads] --> B[Clean the List]
+    B --> C[Research Leads]
+    C --> D[Write Script or Email]
+    D --> E[Call or Email Leads]
+    E --> F[Follow Up]
+    F --> G["Move Interested Prospects\nThrough the Sales Process"]
+    G --> H[Log the Action]
+
+    A -.-> P1(["Dedup +\nassignment rules"])
+    C -.-> P2(["AI screening against\na defined firm profile"])
+    D -.-> P3(["AI-assisted drafting\nfrom set templates"])
+    F -.-> P4(["Cadence automation\n(Opportunity 1, 4, 10)"])
+    G -.-> P5(["Pipeline stage tracking\n(Opportunity 1)"])
+    H -.-> P6(["Adoption fix first,\nthen field logging tools"])
+
+    class P1 nearterm
+    class P2 nearterm
+    class P3 nearterm
+    class P4 quickwin
+    class P5 quickwin
+    class P6 quickwin
+```
+
+Two steps worth calling out directly.
+
+**Calling and emailing itself isn't the automation target.** That's the relationship-building core of the role. The right tool speeds up getting to the call, not the call itself. Research and script writing on one side, follow-up and logging on the other, are where automation actually helps.
+
+**Logging is the step you already named as the real blocker.** Consultants aren't selecting the right follow-up fields after a call, and the CRM already has fields built for exactly this. That's the same adoption gap behind Opportunity 1, not a separate problem. A voice-to-CRM logging tool is worth considering later, once the habit itself is established. Introducing a new tool and forcing a habit change at the same time usually fails both.
+
+**What's genuinely out of scope here:** writing the SOPs, running the training, and managing the behavior change with the Financial Consultants. That's real work, and it isn't part of this engagement. This shell is the input for that work, not a replacement for it.
+
+---
+
 ## Appendix: Full Backlog
 
 Everything tracked that isn't on the curated map above, either too early-stage to score with confidence, or minor enough not to need a headline slot.

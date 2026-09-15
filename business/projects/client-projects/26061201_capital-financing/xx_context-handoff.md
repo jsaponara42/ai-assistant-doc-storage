@@ -1,6 +1,6 @@
 ---
 title: "Capital Financing — Context Handoff"
-date: 2026-08-07
+date: 2026-09-11
 tags: [handoff, project]
 ai: claude
 status: ok
@@ -11,37 +11,32 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the files linked below if the current task actually needs that level of detail — don't re-read everything by default.
 
 ## Where things stand
+Discovery is essentially done. The engagement has moved into producing the core deliverable: an Opportunity Map + Quick Wins, now client-ready in Notion. Howie's own written priority (a CMO overview doc) confirmed sales as the top focus, which reshaped the map's headline framing. Internal records are current through two more self-written SOPs from Howie (2026-09-11).
 
-Discovery phase, post-reset. Individual 1:1 deep-dive calls with Christy, Danielle, Yasmine, the FCs, and Howie are prepped (call-prep docs written, not yet all conducted). Yasmine's call already happened — her full post-underwriting process (Contracting/Funding/AR/Payoffs) is now mapped and has its own SOP. A call with Kaz (Salesforce architect) produced the single biggest finding of the engagement so far: the automation infrastructure for want #10 (consultant follow-up KPIs) already exists in Salesforce, built by Kaz and Josh, and is simply unused. Howie has also sent two rounds of detailed self-scoped wants (a wishlist + a structured inbox-automation brief) — his specs are getting notably sharper.
-
-## Last worked on (2026-08-07)
-
-- Ran Yasmine's live JB/Mighty walkthrough into the workflow map (new Workflow 6 — AR/Payoffs/close-out) and a full SOP, formatted to match `SOPs/20260728_Capital-Financing_Daily-Salesforce-Task-Review.md`.
-- Logged the Kaz call: Opportunity + auto-task logic already built, unrolled (reframes wants #10/#15); confirmed IPR/Mighty↔SF flow, activity-tracking definitions, drip-campaign history, ~100-report glut; new want #19 (Slack + AI digest, Kaz's idea).
-- Logged Julius's actual daily reports: concrete zero-substantive-reply count (160 sends/day), new LinkedIn-growth activity, and that Howie doesn't read Julius's own status reports.
-- Logged want #20: Howie's fully-specified inbox-AI-assistant brief (hard constraint: no rules/folders). Cross-referenced its "wrong things route to me, not Christy" point into the existing Christy-authority-vacuum observation.
-- Created `business/SOPs/2026-08-07-SOP-Discovery-Call-Prep-By-Role.md` — generalized, reusable method for building role-based call-prep docs (Executive/Ops/Sales templates).
-- **⚠ Confidential, internal-only:** Kaz works full-time for Salesforce corporate and moonlights for Howie — never surface this in client-facing material.
+## Last worked on (2026-09-11)
+- Built, adversarially tested, and finalized the client-ready Opportunity Map (14 opportunities, writing-style compliant, names scrubbed to roles, Segue spelling corrected, Mermaid diagrams for Notion).
+- Reprioritized the map around sales per Howie's CMO doc; added Opportunity 13 (conference ROI) and 14 (SEO visibility); reframed Opportunity 6 as input to the Segue migration, not a standalone build.
+- Logged Danielle's Controller/Finance domain and a new Marketing & Sales Operations section into the workflow map.
+- Logged two more Howie SOPs (FC Sales Training Guide, Mighty Training Guide) — resolved the long-open "what KPIs does Howie want" question and gave concrete mechanics for the commissions-spreadsheet automation (want #7).
+- Declined Howie's request to interview the FCs; added Section D (an FC workflow shell with generic automation patterns marked, explicitly for him to fill in) to the client-ready map instead.
 
 ## Open / next
-
-- Conduct the actual 1:1 calls with Christy, Danielle, Yasmine (contracting call done), the FCs, and Howie — prep docs are ready and waiting in `call-prep/`.
-- Get Yasmine's new SOP reviewed by her directly (`status: needs-attention` until confirmed).
-- Resolve several `[TO CONFIRM]` items opened this session: case-expense fee mechanics past month 3, whether the paused Salesforce drips are the same tool as the historically-cancelled buggy one, non-standard file-assignment rule.
-- Decide next steps on want #10 (rollout/adoption plan, not a new build) and want #20 (Howie's inbox assistant) — both are now well-scoped and ready to move on.
-- Resolve the "Jan" reference (Julius/personal-assistant comparison) — still unconfirmed.
+- CMO hire status (candidate named Margarita) still unconfirmed.
+- Reconcile the newly-named HR contact (Alicia Foy) against Danielle's "hired a new outsourced HR company" mention.
+- Resend Kaz's outstanding question list before any 3-way call.
+- Confirm whether Christy's team actually picked up the Jotform referral portal (want #14) and the scoped intake-SOP kickoff prompt.
+- SharePoint taxonomy design (Opportunity 12) not yet started.
+- PDF export of Mermaid diagrams runs small — browser-print workaround suggested, not yet confirmed resolved.
 
 ## Watch items
-
-- Want #14 (referral portal): JC delegated the Jotform build to Christy's team — check whether that's actually been picked up; framed as low-risk specifically so it wouldn't stall.
-- JC committed in writing to mapping everything Kaz built before recommending improve-vs-leave-as-is on the KPI dashboard — now partially fulfilled by the Kaz call, but the explicit recommendation back to Howie hasn't been delivered yet.
-- Audrey and Victoria are named as actively resisting Howie's "approach not style" framing — relevant, sensitive context for their upcoming 1:1s; don't raise directly.
-- JC's own weekend-email boundary (replies scheduled Sunday afternoon for Monday morning) is now stated in writing to Howie — hold it consistently.
+- Kaz confidentiality: moonlights for Howie while employed full-time at Salesforce corporate — never surface in any client-facing material.
+- Howie's "like Chinese" quote re: KJ's SEO reports — internal only, never client-facing.
+- Client-ready deliverables use roles, not names (CEO/DOO/Controller/Salesforce Administrator), and follow `business/marketing/writing/XX_WRITING-STYLE.md` — keep this consistent for any new client-facing content.
+- Josh (former fractional COO) is still informally advising Howie despite being let go.
 
 ## Key files
-
-- [[xx_howies_wants]] — the master want-tracking doc, now at 20 ranked items plus Open Questions; read before any automation-scoping conversation.
-- [[20260616-Workflow-Map-Capital-Financing-merged]] — the full process map; use the Quick-Reference Flowcharts section for a fast scan before diving into full detail.
-- [[business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings]] — relational/behavioral pattern log; check before any call involving Howie, Kaz, or the FCs.
-- `call-prep/` — all prepped 1:1 questionnaires (Christy/Danielle/Yasmine, FCs, Howie).
-- `SOPs/20260807_Capital-Financing_Contracting-Funding-AR-Payoffs.md` — Yasmine's role SOP, needs her review.
+- [[20260616-Workflow-Map-Capital-Financing-merged]] — the full internal current-state record; richest single source.
+- [[xx_howies_wants]] — 26 ranked wants + open questions; check before scoping anything new.
+- [[xx_Project_Learnings]] — relational/behavioral journal, newest entries on top.
+- [[client-facing-deliverables/20260910_capital-financing-opportunity-map-final]] — the actual client-ready deliverable (Notion-bound).
+- [[20260911_marketing_CMO_hire_reference]] — Howie's own CMO overview doc; source of the sales-priority reframing.
