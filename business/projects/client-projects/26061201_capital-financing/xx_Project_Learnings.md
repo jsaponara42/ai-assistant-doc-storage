@@ -14,6 +14,18 @@ Loose prompts if it helps to get started, not a template to fill in order: What 
 
 ---
 
+### 2026-09-15 — Why the full-time engineer pitch needs careful framing: Howie's need for visible, continuous progress
+
+**Internal only — not to be surfaced to Howie in any form.** While prepping the AI-engineer-hire recommendation ([[20260915_ai_engineer_hire_recommendation]]), flagging a read on Howie that should shape *how* that conversation goes, not something to explain to him directly.
+
+- **Howie tends to equate a quiet stretch with no value being delivered.** He reads periods without a shipped output as "nothing is happening," even when real work or necessary lead time is happening underneath. This is consistent with other patterns already logged — his push for visible progress checkpoints at kickoff (2026-08-06 entry above), and his impatience with Christy's SOP timeline. A full-time automation engineer will, by the nature of the work, hit real stretches (weeks, potentially a month or two) with nothing new shipped once the initial backlog is worked through — data cleanup and maintenance fill the gap, not a constant stream of new builds. This needs to be set as an explicit expectation *before* the hire, not discovered by him later and read as "am I still getting value."
+- **Separately, he genuinely values continuity and on-demand access.** The moments he's engaged best (his own SOP output, the CMO overview doc, the FC training guides — see multiple entries above) are ones where he could act on an idea immediately rather than wait on someone else's schedule. This is real, personal "why him" reasoning for why a retained/full-time engineer suits him better than a purely per-project vendor model — distinct from, and additive to, the general cost argument in the recommendation note.
+- **Net for how to run the actual conversation:** give Howie the practical framing directly — full-time vs. per-project economics, the maintenance/replacement-cost risk of a one-and-done build, the vendor-patchwork alternative — and set the "quiet stretches ≠ no progress" expectation proactively. Don't explain his own psychology back to him.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-XX — Howie asked about interviewing the FCs directly; held the line and shipped a scaffold instead
 
 Howie emailed asking whether it would help to interview the Financial Consultants and map their day-to-day workflow, and separately raised that follow-up fields exist in the CRM but aren't being used after calls or emails. Two things worth preserving:

@@ -22,16 +22,24 @@ Evaluating whether to hire a full-time AI engineer was part of this engagement's
 - Proposed structure: hire the engineer at ~$3,000/month for execution; retain JC at $1,500/month as the person who sets strategy and is the one the engineer actually reports to.
 
 **Cost comparison:**
-| Option | Monthly cost |
-|---|---|
-| JC implements automations directly at JC's own rate | ~$10,000/mo |
+
+| Option                                                         | Monthly cost       |
+| -------------------------------------------------------------- | ------------------ |
+| JC implements automations directly at JC's own rate            | ~$10,000/mo        |
 | Full-time hire with JC's combined skill set (strategy + build) | ~$15,000–20,000/mo |
-| Engineer ($3,000) + JC managing/directing ($1,500) | ~$4,500/mo |
+| Engineer ($3,000) + JC managing/directing ($1,500)             | ~$4,500/mo         |
 
 **Value to Howie beyond price:**
 - Keeps him out of engineer-management entirely — something he's explicitly said isn't CEO work he wants to be doing.
 - Preserves the business-context risk (blank-slate hire problem) by routing it through JC's oversight instead of Howie having to transfer that knowledge himself.
 - Gets a non-US engineering rate combined with the strategic/institutional-knowledge layer that rate alone doesn't buy.
+
+**What Howie needs to hear before the hire — setting expectations on the full-time model:**
+- A full-time automation engineer will hit real stretches — weeks, potentially a month or two — where there's no new automation to ship, once the initial backlog gets worked through. That doesn't mean nothing is happening: there's ongoing work in the meantime (data cleanup, maintenance, refinement), but it won't be a constant stream of new builds. This needs to be set as an expectation up front, not discovered later and read as "what am I paying for."
+- This isn't the lowest-price option — a per-project vendor or a Fiverr-style contractor could come in cheaper on any single automation. But it's good value for the price: continuity, someone already up to speed on the business, and the ability to act on a new idea immediately instead of re-explaining context to someone new each time.
+- Maintenance is a real, ongoing cost, not a one-time build cost. The better the engineer, the more they'll eventually automate — and once things are built, someone has to maintain them. If the engagement ends after everything's built, replacing that person costs more than retaining one: a new person has to learn the whole system from scratch before they can even start fixing what's broken.
+- The alternative, if price is the real obstacle, is a patchwork of disconnected vendors, each handling a different automation. That's a real time cost for Howie to coordinate, and JC's own rate for managing that kind of scattered vendor mess would be higher than managing one embedded engineer — more moving parts, more coordination overhead, more risk of things falling through gaps.
+- The core message to land with Howie: stretches where it feels like no progress is being made are normal and expected with this model — that doesn't mean no progress is happening.
 
 ## Next steps
 - Present this framing directly to Howie, tying it explicitly to the Month 4 re-evaluation checkpoint already in the discovery brief so it reads as closing an open item, not introducing a new ask.
