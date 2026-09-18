@@ -2,20 +2,20 @@
 
 Australian crowdfunded small-business lending platform — connects lenders and borrowers, with LendForGood ("LFG") sitting in the middle administering the funding and repayment flow.
 
-**Primary internal contact:** Martina Madrid Sebring — Fractional COO. martina@madridops.com
+**Primary internal contact:** Martina Madrid Sebring — Fractional COO. martina@lendforgood.io · (951) 294-4574 · 11484 Alps Way, Escondido, CA, 92026 *(her own mailing address on file per the signed MSA contract — see note in Section 1; likely her personal/mailing address as a remote fractional operator, not LFG's registered business address)*
 
 ---
 
 ## 1. Client and Organization
 
 - **Legal/trade name:** LendForGood, operating online as lendforgood.io.
-- **Headquarters:** Australia *(inferred from "they're Australian based")*.
+- **Headquarters:** Australia *(inferred from "they're Australian based")*. Note: the MSA contract lists Martina's own mailing address as 11484 Alps Way, Escondido, CA, 92026 — this is her personal/remote mailing address as the contract's named Client contact, not LFG's registered business address, so it does not resolve LFG's actual HQ.
 - **CEO:** Cameron Neil ("Cam"). Previous owner of the Lender Activity Statements process; handover to Martina in progress. Approver of record — sign-off required before any lender-facing send.
 - **Co-Founder & CTO:** Renata. Originally scoping a Xero-API-based automation route for lender statements; that effort has since been handed off to Martina (see Section 4), which is why Martina is the one driving this engagement.
 - **Fractional COO:** Martina Madrid Sebring (madridops.com). Current process owner for Lender Activity Statements (drafted the SOP, v1.0, 19 August 2026, from Cam's walkthrough) and now owns the Xero automation effort after Renata handed it off.
 - A related entity, **"Leaders For Good,"** is referenced as out of scope for this SOP — separate statement format, pending templates and data support from Cam. **Relationship to LendForGood is unconfirmed — do not assume anything here** (could be unrelated, a sister org, a related fund, etc.) until the client clarifies.
 
-> ⚠️ NEEDS INPUT: LFG's registered business name/ABN, HQ address, main phone. *(Client: unknown for now.)*
+> ⚠️ NEEDS INPUT: LFG's registered business name/ABN and actual HQ address/main phone (still open — the MSA's Escondido, CA mailing address is Martina's own, not LFG's registered address).
 > ⚠️ NEEDS INPUT: How "Leaders For Good" relates to LendForGood. *(Client: unknown — explicitly do not assume a relationship.)*
 
 ---
@@ -62,7 +62,7 @@ Growth pressure noted: the client is approaching an AU$4 million cumulative-depl
 - Working Style: hands-on with the Xero process herself; documented the current manual SOP; already experimenting with Claude on her own to clarify SOP language, suggesting comfort with AI tools for non-financial tasks.
 - Relevance: primary day-to-day contact for this engagement. Now owns the Xero automation effort, handed off from Renata — this handoff is the reason she reached out.
 - Watch-point: she's fractional, not full-time on-site — factor her availability/bandwidth into scheduling and don't assume LFG-employee-level access to internal systems by default.
-- Contact: martina@madridops.com
+- Contact: martina@lendforgood.io · (951) 294-4574 · 11484 Alps Way, Escondido, CA, 92026 (per signed MSA; note she was earlier associated with martina@madridops.com as well — the lendforgood.io address is the one on the signed contract, so treat it as primary).
 
 ---
 
@@ -210,7 +210,7 @@ This reads as a single, well-bounded automation project rather than an open-ende
 
 ## Open Questions for You
 
-1. LendForGood's registered legal name/ABN, HQ address, and main phone. *(unknown for now)*
+1. LendForGood's registered legal name/ABN and its own HQ address/main phone (Martina's contract mailing address in Escondido, CA is hers, not the company's).
 2. How does "Leaders For Good" relate to LendForGood? *(unknown — assume nothing)*
 3. Whether a written document exists (separate from the call transcript) with the full four-accounts/bank-feed detail — the transcript only captures a partial, spoken version of it.
 4. Is LFG's operating business accounting separated from the fund-administration (lender/borrower) ledger in Xero, or in the same org? *(TBD)*
