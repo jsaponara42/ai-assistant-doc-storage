@@ -1,115 +1,215 @@
 ---
 name: ai-roadmap-call-prep
-description: "Generates a complete Call Brief to prepare JC for an AI Roadmap Consultation intro call. Use this skill any time JC provides a company name, company website, and one or more people he'll be meeting with — regardless of industry. Triggers on phrases like 'prep me for a call with', 'generate a call brief for', 'I have a meeting with', 'build my prep doc for', 'call prep for', 'I'm meeting with [name] at [company]', or any time a company name + website + attendee name(s) are provided together. If any of the three required inputs are missing, ask for them before proceeding. Never skip the elicitation step. Always use this skill before a consultation intro call — even if JC doesn't say the word 'skill'."
+description: "Generates a Call Brief that prepares JC to run a Free AI Roadmap Consultation intro/sales call for Blue Tusk. Produces a workflow hypothesis map (back office vs. value drivers), a Hormozi-style pain discovery question flow, tailored objection handling, and a close that points to the right Blue Tusk offer. Use any time JC provides a company name, website, and the person(s) he's meeting — regardless of industry. Triggers on 'prep me for a call with', 'call brief for', 'I have a meeting with', 'sales call prep', 'discovery call prep', 'intro call with', 'build my prep doc for', 'I'm meeting with [name] at [company]', or any time company + website + attendee(s) are given together. If any required input is missing, ask before proceeding. Always use before an AI Roadmap consultation call, even if JC doesn't say 'skill'."
 ---
 
 # AI Roadmap Call Prep
 
-Generates a research-backed Call Brief for the intro call of a Free AI Roadmap Consultation. Covers company, people, industry pain mapping, and sharp questions — all synthesized into a single scannable document.
+Prepares JC to walk into an intro call confident: knowing how the prospect's business probably runs, where it probably hurts, what they'd probably love to supercharge, and exactly which questions will let *them* conclude that working with Blue Tusk is the way out.
+
+---
+
+## What Blue Tusk actually sells (read this first)
+
+Every section of the brief should point toward this. Blue Tusk is not a tool vendor or an automation dev shop. The core promise:
+
+> **We ground your team and give you confidence in the next steps of AI and automation, built around how your business actually works.**
+
+The deliverable the call leads to is an **AI & Automation Roadmap / Opportunity Map** (see `business/projects/client-projects/26061201_capital-financing/client-facing-deliverables/20260910_capital-financing-opportunity-map-final.md` and `business/projects/client-projects/26061601_maycomb-capital/client-facing-deliverables/20260707_Maycomb_Capital_AI_Roadmap_Client.md`). It:
+
+- Documents how the back office actually runs, often for the first time
+- Maps the value drivers (revenue, growth, mission), which most firms never look at
+- Ranks every opportunity by effort and impact: 🟢 Quick Win, 🔵 Near-Term, 🟣 Strategic, ⚪ Needs Decision First
+- Gives the team one list to check new ideas against, so priority stops getting re-litigated
+- Addresses adoption and governance, because AI access alone doesn't create consistent use
+
+Core philosophy to echo on calls: **AI shouldn't replace judgment. It should stop wasting judgment on work that doesn't need it.**
+
+### Offer ladder (for the close)
+
+| Step | What it is | When it fits |
+|---|---|---|
+| Free AI Roadmap Consultation | This call | Always the entry |
+| AI & Automation Opportunity Map | ~6–8 week fixed-fee discovery + ranked roadmap (reference: $5K fixed fee on a past engagement; JC sets pricing) | Default next step for most qualified prospects |
+| Document/file organization audit | Small, bounded, fast | Prospect is hesitant, budget-tight, or heavy on AI inside their files |
+| Claude/AI team training | Live session + quick-reference guide | They've bought AI seats but usage is fragmented |
+| Quick-win builds | Scoped individually | After a map exists, or one obvious win is already clear |
+| Ongoing AI steward | Monitoring, training for new hires, decision support | Post-map, or teams mid-transition with no real AI owner |
 
 ---
 
 ## Required Inputs
 
-Before starting any research, confirm you have all three:
+Confirm all three before any research:
 
-1. **Company name** — the full name as it appears publicly
-2. **Company website** — the primary URL
-3. **People attending** — name(s) and title(s) of who JC will be meeting with
+1. **Company name**
+2. **Company website**
+3. **People attending**: name(s) and title(s)
 
-If any input is missing, ask for it before proceeding:
+Optional but useful: how the lead came in (referral, cold email, inbound), anything they already said about why they're taking the call, call date.
 
-> "To prep the call brief I need three things: the company name, their website, and the name(s) and title(s) of who you'll be meeting with. What's missing?"
+If anything required is missing:
+
+> "To prep the brief I need the company name, their website, and who you're meeting with (name + title). What's missing? And if you know how they came in or what they said they want, that helps too."
 
 ---
 
 ## Research Process
 
-Run all four stages before writing the Call Brief. Do not skip stages or write the brief while research is in progress.
+Run all five stages before writing. **Tools are signals, not the point.** JC doesn't need a tech stack inventory. He needs to know which workflows exist, which ones are annoying, and which ones make money.
 
-### Stage 1 — Company Research
+### Stage 1 — How the business makes money
 
-**Goal:** Understand what the company does, how it operates, and where friction is most likely.
+**Goal:** Trace the revenue path end to end. Everything else hangs off this.
 
-1. `web_fetch` the company website. Read the homepage, About page, and any services or products page. Extract:
-   - What they sell or deliver
-   - Who their clients or customers are
-   - Approximate headcount (look for team pages, attorney bios, staff listings)
-   - How long they've been in operation
-   - Any visible tech stack signals (CRMs, chat widgets, scheduling tools, form builders)
-   - Quality of their intake or contact experience (phone-only? form? live chat? automated?)
+1. `web_fetch` the homepage, About, Services/Products, Team, and Careers pages (if present).
+2. Web search: `[Company] LinkedIn`, `[Company] reviews`, `[Company] news`, `[Company] hiring`.
+3. Answer in plain words:
+   - **Who pays them, for what, and how often?** (one-time project, recurring retainer, transaction fee, AUM, etc.)
+   - **Where do customers come from?** (referrals, partners, ads, conferences, outbound, repeat business)
+   - **What happens between "new lead" and "paid"?** Sketch the path: source → intake → sale/qualify → deliver → bill/collect → retain/refer.
+   - **Size and stage:** headcount tier (solo / 2–5 / 6–15 / 16–50 / 50+) and growth/established/mature.
+4. Watch for **why-now signals**:
+   - Leadership changes, new hires in ops/finance, people leaving (knowledge walking out the door)
+   - Heavy admin/ops hiring (manual process overload)
+   - Active ad spend, conference circuit, new locations or products (lead flow outpacing follow-up)
+   - Reviews mentioning slow response, "had to follow up," disorganization
+   - Any sign they've bought AI (Claude, ChatGPT Team, Copilot) or announced an "AI initiative"
 
-2. Web search: `[Company Name] LinkedIn`. Extract:
-   - Total headcount and department breakdown
-   - Recent hiring patterns — heavy admin/ops hiring signals manual process overload
-   - Any recent company updates or announcements
+### Stage 2 — The people on the call
 
-3. Web search: `[Company Name] reviews` and `[Company Name] [city] [industry]`. Extract:
-   - Google/Yelp/Glassdoor star rating and review volume
-   - Review content — flag any "hard to reach," "never heard back," "had to follow up," or "disorganized" signals
-   - Any press coverage, awards, or notable mentions
+For **each attendee**:
 
-4. Web search: `[Company Name] Google ads` or check if they appear as a paid result. Active ad spend = active lead flow = likely intake and follow-up pressure.
+1. Web search `[Name] [Company] LinkedIn` and check their bio page. Capture title, tenure, prior background, and any public posts/interviews.
+2. Classify their **frame**, which changes how JC runs the call:
+   - **Founder/CEO:** cares about growth, their own time, not being the bottleneck. Often blind to their own bottlenecks. Talk outcomes, not process.
+   - **Operator (COO/DOO/Ops Manager):** lives in the back-office pain daily. Cares about sanity, team capacity, not being the only one who knows how things work. Talk specifics.
+   - **Finance lead:** cares about accuracy, close cycle, reconciliation, dependency on one person's memory.
+   - **Sales/BD lead:** cares about pipeline visibility, follow-up consistency, conversion.
+   - **New leader (<18 months):** actively hunting problems, wants early visible wins. Change-ready.
+   - **Long-tenured leader:** needs reframing, not convincing. Ask questions that let them see it.
+3. Note **their likely personal win**: what would make *this person* look good or feel relief? This is often different from the company's win.
+4. Note who is **not** on the call who probably decides (CEO, partners, board). Flag it.
 
-5. Note: company name, industry/sector, approximate size, primary service or product, how long in business, any notable signals of growth, strain, or tech maturity.
+### Stage 3 — Workflow Hypothesis Map (the core of the brief)
 
-### Stage 2 — Person Research
+**Goal:** Before the call, hypothesize the workflows this business runs, split into two buckets, and for each one guess what's annoying today and what "supercharged" would look like.
 
-**Goal:** Understand who JC is actually talking to and what that means for the conversation.
+**Back office (cost centers):** work that has to happen but doesn't grow the business. Typical candidates:
+- Billing, invoicing, AP/AR, collections, reconciliation, month/quarter close, budget-to-actuals
+- Intake paperwork, document collection, data re-entry between systems
+- Compliance, regulatory filings, renewals, reporting obligations
+- Scheduling, internal status updates, "where is this at?" check-in emails
+- HR/onboarding, internal FAQs, SOPs that live in one person's head
+- File/document organization, shared drives nobody trusts
+- Leadership inbox triage (leaders drowning in email that shouldn't reach them)
 
-For **each person** attending the call:
+**Value drivers (revenue, growth, mission):** work that, done better or faster, makes more money or more impact. Typical candidates:
+- Lead sourcing, referral partner relationships, conferences, outbound
+- Sales follow-up, pipeline movement, proposal/quote turnaround
+- Client/customer delivery quality and speed
+- Client communication and experience during delivery
+- Retention, reactivation, upsell, referral asks
+- Investor/stakeholder relations, fundraising, outcome/impact reporting
+- Expert judgment work (underwriting, diagnosis, strategy) that's being diluted by admin
 
-1. Web search: `[Person Name] [Company Name] LinkedIn`. Extract:
-   - Title and how long they've been in this role
-   - Background before this company (relevant prior industries or functions)
-   - Whether they are a founder/owner vs. an operator/manager — this changes the conversation framing significantly
+For this specific company, produce **4–6 back-office workflows** and **3–5 value drivers**. For each:
+- **Workflow:** named in their industry's language, not generic
+- **Likely daily annoyance:** concrete. Not "communication issues" but "someone emails every open client weekly asking for status, by hand, and the cadence depends on who remembers."
+- **Supercharged version:** what it looks like if this worked beautifully (the "vacation")
+- **Probe question:** one natural question to confirm or kill the hypothesis
+- **Confidence:** High / Medium / Low, based on evidence vs. industry inference
 
-2. Check their company bio page if one exists. Note any language they use to describe themselves — mirroring their framing builds rapport.
+Use industry knowledge for the base layer; web search if the industry is niche. Ask: what's still manual at "modern" firms this size, where does client communication break, what documentation burden is inherent, where does revenue leak from process gaps (not strategy gaps), and what breaks at the next size tier?
 
-3. Look for any public content (LinkedIn posts, interviews, podcasts, press quotes). This surfaces what they think about, what they're proud of, and occasionally what frustrates them.
+### Stage 4 — Pattern match against past engagements
 
-4. Flag tenure context:
-   - Under 18 months in role → likely actively hunting problems to fix, may be change-ready
-   - Long-tenured founder → may be blind to their own bottlenecks, needs reframing, not convincing
+Check the prospect against patterns seen in real Blue Tusk engagements. Each match becomes a hypothesis to probe and an anonymized proof story JC can tell.
 
-### Stage 3 — Industry Pain Mapping
+| Pattern | What it looked like | Proof story JC can use |
+|---|---|---|
+| **Knowledge walking out the door** | Key finance/ops people leaving; processes lived in their heads | "One client had two people leaving who were the only ones who knew how the AP run worked. Documenting that first was worth something on its own." |
+| **Already built, never adopted** | CRM pipeline stages, automated tasks, and a KPI dashboard all built and unused | "A lending client had the entire sales follow-up system already built in their CRM. Nobody used it. The biggest win wasn't a build, it was adoption." |
+| **AI bought, usage fragmenting** | Claude rolled out to the whole team; a few people great, most not | "Access alone doesn't create consistent use. A few people get good at it, most don't, and the gap grows." |
+| **Leader as the bottleneck** | CEO handling 200–300 emails/day; every case routed to one person for review regardless of whether it needed their judgment | "Their operations director reviewed every single case, even ones that clearly failed basic rules. Structuring the rules layer freed her for the calls only she could make." |
+| **Growth capped by follow-up, not lead flow** | Plenty of referrals; inconsistent follow-up; no visibility into who's working what | "Growth wasn't capped by leads coming in. It was capped by what happened after a lead landed." |
+| **Double work between systems** | Same invoice tracked internally and by an outside administrator, then reconciled against itself | "They were tracking every invoice twice and reconciling it against itself every two weeks." |
+| **Files nobody trusts** | No folder structure, sensitive docs moving by email attachment | "As AI starts working inside your files, how they're organized decides whether you get the right answer or a confident wrong one." |
+| **Outsourced with no visibility** | Vendor (SEO, bookkeeping, IT) sends reports nobody can evaluate | "They'd outsourced SEO for years and had no independent way to tell if it was working." |
 
-**Goal:** Anticipate the 3–5 most likely operational pain points before anyone names them.
+Flag the 2–4 patterns most likely for this prospect.
 
-This stage is about the industry, not the specific company. Every industry has structural inefficiencies that recur at similar firm sizes. Knowing them in advance sharpens questions and speeds pattern recognition during the call.
+### Stage 5 — Build the sales conversation
 
-1. Identify the industry category from this list:
-   - Legal / Law Firms
-   - Healthcare / Medical Practices
-   - Real Estate (Brokerage, Property Management, Commercial)
-   - Construction / Trades / Contractors
-   - Marketing / Creative Agencies
-   - Financial Services (Accounting, Wealth Management, Insurance, Lending)
-   - Professional Services (HR, Consulting, Staffing)
-   - Retail / E-Commerce
-   - Hospitality (Restaurants, Hotels, Events)
-   - Education (Schools, Training, Tutoring)
-   - Logistics / Supply Chain / Distribution
-   - Nonprofit / Association
-   - SaaS / Tech Company
-   - Other (describe)
+Now turn the research into a call JC can run. Principles (Hormozi-style):
 
-2. For the identified industry, answer these five questions. Use your training knowledge first; web search if the industry is unfamiliar or niche:
-   - What tasks in this industry are still done manually by default, even at "modern" firms?
-   - Where does client or customer communication typically break down?
-   - What reporting, compliance, or documentation burdens are inherent to the industry?
-   - Where do firms in this space lose revenue or time due to process gaps rather than strategy gaps?
-   - Where does growth create new operational strain (what breaks at 5 people that didn't break at 2, or at 15 that didn't at 8)?
+- **They say the problem, not JC.** People believe what they conclude. JC's job is to ask until they name it, then label it back in their words.
+- **Pain before solution.** Don't pitch the roadmap until they've named a problem, felt its cost, and described what better looks like.
+- **Make the gap concrete.** Current state vs. desired state, in hours, dollars, people, or missed opportunities.
+- **Have them argue for change.** "On a scale of 1–10, how important is fixing this? … Why not lower?" makes them state their own reasons.
+- **Sell the vacation, not the plane ride.** Describe the destination (a team that knows what to do next, a leader who isn't the bottleneck, judgment spent on judgment work), not the process (8 weeks of working sessions).
+- **Stay honest.** JC's brand is candor: "no promises," "what this isn't," "that's not my background." Never manufacture urgency. If it's not a fit, say so. That candor is itself a closing asset.
 
-3. From your answers, extract the 3–5 most specific, most likely pain patterns for a firm of this industry and apparent size. Be concrete — not "communication problems" but "new client intake handled via phone tag, with no automated follow-up, so leads go cold before a consultation is ever booked."
+Build the call flow using the **CLOSER** structure, adapted for a ~30-minute intro call:
 
-4. For each anticipated pain, draft one sharp question JC can ask to confirm or surface it during the call. The question should feel natural — not like a survey item.
+1. **C — Clarify why they're here (2–3 min).** Why this call, why now.
+2. **L — Label the problem (after discovery).** Restate their pain in their words; get a "yes, exactly."
+3. **O — Overview past attempts (5 min).** What they've tried, what happened, why it didn't stick.
+4. **S — Sell the vacation (3–5 min).** Have them describe the future state; JC connects it to the roadmap.
+5. **E — Explain away concerns (5 min).** Objection handling.
+6. **R — Reinforce the decision (2 min).** Confirm next step, recap in their words.
 
-### Stage 4 — Call Brief Synthesis
+The heavy lifting (10–12 min) is **pain discovery** between C and L. Use the Pain Ladder:
 
-**Goal:** Produce a single scannable document JC can read in under two minutes before the call.
+| Rung | Purpose | Stock question (tailor each one) |
+|---|---|---|
+| Current state | Get the picture | "Walk me through what happens from when a [lead/case/client] comes in to when you get paid." |
+| Problem | Find the friction | "Where in that does it slow down or depend on someone remembering?" |
+| Cost | Quantify | "Roughly how many hours a week does that eat? Whose hours?" |
+| Consequence | Make it real | "What's happened when that slipped? Lost a client? A late close? A deal that went cold?" |
+| Why not solved | Surface blockers | "What's stopped you from fixing it so far?" |
+| Future state | Build the vacation | "If that worked the way you wanted six months from now, what would be different for you personally?" |
+| Priority | Make them argue for it | "1–10, how important is fixing this this year? … Why not a [lower number]?" |
+| Commitment | Test readiness | "If there were a clear plan, who'd need to be involved to act on it?" |
 
-Assemble and render the Call Brief using the format below. Render it as a widget using `show_widget`. Include a "Copy as Markdown" button that copies the full brief as clean plain text.
+**Always include these backbone questions (adapt wording to the person):**
+- "What made now the right time to take this call?"
+- "What's taking the most time in your operation right now that you wish wasn't?"
+- "If your business doubled tomorrow, what breaks first? Who would you have to hire first?"
+- "Where does your team's best judgment get spent on work that doesn't need it?"
+- "If you could supercharge one part of the business, the part that actually makes money, what would it be?"
+- "How is your team using AI today, honestly? Who's good at it and who isn't?"
+- "What have you already tried? What happened?"
+- "What happens if nothing changes over the next 12 months?"
+
+Then write **tailored questions for every workflow hypothesis** from Stage 3, plus person-specific questions from Stage 2.
+
+### Objection handling
+
+Pick the **5–7 objections most likely for this prospect** (frame, stage, why-now signals). For each, write: what they'll say, what's usually underneath it, JC's response, and a question that hands the decision back to them. Hormozi's rule: objections are about circumstances (time, money, fit), other people (partner, board), or self (fear of wasting money, of change). Answer the real one, then return to their stated pain.
+
+Starter library (tailor the responses using this prospect's research):
+
+| Objection | Usually underneath | Response angle | Hand-back question |
+|---|---|---|---|
+| "We already have Claude/ChatGPT/Copilot. The team can figure it out." | Tool = solution belief | Access isn't adoption. A few people get good, most don't, the gap grows. The question isn't the tool, it's where to point it. | "How consistent is usage across the team today? Who'd you say is getting real value?" |
+| "We have someone internal for this (IT / admin / ops)." | Loyalty, or fear of redundancy | The map makes that person more effective. It's their onboarding doc and priority list, not a replacement. On past work, the internal admin was one of the biggest beneficiaries. | "Does that person have time to step back and map the whole business, or are they buried in requests?" |
+| "Not the right time. We're mid-transition / too busy." | Overwhelm | Transition is exactly when it matters: knowledge is leaving, new people are arriving, and every new hire resets adoption. The cheapest time to document is before the people who know leave. | "What's the cost if the people who know how [X] works leave before it's written down?" |
+| "Just build it. We don't need a report." | Past consultants delivered shelfware | Automating before mapping means automating the wrong thing. The map is built to be used without JC in the room, and quick wins get flagged as they surface. | "Of the things you'd want built, how confident are you that's where the highest ROI is?" |
+| "What do we actually get?" | Burned before | Show the shape: documented workflows, ranked opportunities, quick wins, one list for all future ideas. | "If you had a ranked list like that today, what would you do first with it?" |
+| "It's too expensive / no budget right now." | Value not yet felt, or real constraint | Tie back to the cost they named on this call. If genuinely tight, offer the smaller entry (file audit or training). | "Earlier you said [pain] costs roughly [X]. How does that compare?" |
+| "I need to talk to my partner / CEO / board." | Other people, or a soft no | Offer to help them sell it internally: a one-page summary, or a short call with the decision-maker. | "What do you think they'll push back on? Let's work through it now." |
+| "Our work is too relationship/judgment-driven for AI." | Fear of dehumanizing the business | Agree. AI shouldn't replace judgment. It should stop wasting it on data entry, lookups, and chasing status. | "How much of your best people's week goes to work that isn't judgment?" |
+| "We tried something before and it didn't stick." | Adoption burn | That's the most common failure, and it's usually adoption, not the tool. Adoption and governance are built into the roadmap. | "Why do you think it didn't stick?" |
+| "Send me something and I'll think about it." | Unaddressed concern | Honest check-in, no pressure. | "Happy to. Usually that means something's not sitting right. What's the part you're unsure about?" |
+
+### Close
+
+Write a short, tailored close script:
+1. **Label:** "So if I'm hearing you right, the real issue is [their words], and it's costing you [their number]. Fair?"
+2. **Bridge:** "The way I usually tackle that is [one sentence on the roadmap, framed around their pain]."
+3. **Let them decide:** "Does that sound like what you need, or am I off?"
+4. **Next step:** the right rung of the offer ladder for this prospect, plus what JC sends after the call.
 
 ---
 
@@ -117,97 +217,113 @@ Assemble and render the Call Brief using the format below. Render it as a widget
 
 ```
 # Call Brief — [Company Name]
-**Date:** [call date if known, otherwise leave blank]
-**Industry:** [industry]
+**Call date:** [if known]  |  **Industry:** [industry]  |  **Lead source:** [if known]
 
----
+## 30-Second Snapshot
+[3–4 sentences: what they do, how they make money, size/stage, and the single most likely reason they'd need Blue Tusk right now.]
 
-## The Company
-- **What they do:** [1–2 sentences]
-- **Size:** [approximate headcount or size tier: solo / 2–5 / 6–15 / 16–50 / 50+]
-- **Stage:** [startup / growth / established / mature]
-- **Tech signals:** [any visible tools, CRMs, chat widgets, intake tech — or "none visible"]
-- **Notable:** [anything that stood out — ad spend, reviews, recent growth, disorganization signals, press]
-
----
+## Why Now
+- [Why-now signal + source]
+- [Why-now signal + source]
 
 ## The People
+### [Name] — [Title]
+- **Frame:** [founder / operator / finance / sales / new leader / long-tenured]
+- **Tenure & background:** [1 line]
+- **Their personal win:** [what makes this person look good or feel relief]
+- **How to talk to them:** [1 line: outcomes vs. specifics, pace, what to mirror]
+- **Notable:** [public content, phrases they use]
 
-### [Person 1 Name] — [Title]
-- **Tenure:** [how long in role]
-- **Background:** [relevant prior experience in 1 sentence]
-- **Frame:** [founder-owner / operator-manager / new leader / long-tenured]
-- **Notable:** [any context about how they think, what they care about, or what they've said publicly]
+**Decision-maker on the call?** [Yes / No — who else decides]
 
-### [Person 2 Name] — [Title] (if applicable)
-(repeat structure)
+## Workflow Hypothesis Map
 
----
+### Back Office (cost centers)
+| Workflow | Likely daily annoyance | Supercharged version | Probe question | Confidence |
+|---|---|---|---|---|
 
-## Anticipated Pains
-1. [Specific pain #1 — tied to industry + size]
-2. [Specific pain #2]
-3. [Specific pain #3]
-4. [Pain #4 if warranted]
-5. [Pain #5 if warranted]
+### Value Drivers (revenue / growth / mission)
+| Workflow | Likely daily annoyance | Supercharged version | Probe question | Confidence |
+|---|---|---|---|---|
 
----
+## Patterns to Probe (from past engagements)
+1. **[Pattern]** — [why it likely fits] — *Proof story:* "[anonymized story]"
+2. ...
 
-## Sharp Questions to Ask
-- [Question to confirm or surface Pain #1]
-- [Question to confirm or surface Pain #2]
-- [Question to confirm or surface Pain #3]
-- "What's taking the most time in your operation right now that you wish wasn't?"
-- "What have you already tried to fix [primary pain area]?"
-- "If the amount of business you got doubled tomorrow, what role would be the first you'd need to hire — and why?"
-- [Any person-specific question based on Stage 2 research]
+## Call Flow (≈30 min)
+**C — Clarify (0–3):** [2 tailored opening questions]
+**Pain Discovery (3–15):** [Pain Ladder questions tailored to the top 2–3 hypotheses]
+**L — Label:** "So the real issue is ___, and it's costing you ___. Fair?"
+**O — Past attempts (15–20):** [2 tailored questions]
+**S — Sell the vacation (20–24):** [future-state questions + 1–2 lines connecting to the roadmap]
+**E — Concerns (24–28):** see Objection Handling
+**R — Reinforce & next step (28–30):** [close script + proposed next step]
 
----
+## Question Bank
+**Backbone:** [the 8 backbone questions, adapted]
+**Workflow-specific:** [1–2 per hypothesis]
+**Person-specific:** [1–2 per attendee]
+
+## Objection Handling (most likely for this prospect)
+| They say | Underneath | Response | Hand-back question |
+|---|---|---|---|
+
+## Recommended Next Step
+**Offer:** [rung of the offer ladder] — **Why:** [1 line]
+**Fallback if hesitant:** [smaller entry]
+**Send after the call:** [recap email, sample map excerpt, etc.]
 
 ## What to Listen For
-[2–3 sentences: what does a strong fit signal sound like in this conversation? What would tell JC this prospect is ready to move to a discovery session?]
-
----
+[2–3 concrete green-light signals, e.g., they quantify a cost unprompted, they name a person leaving, they ask "how would that work for us"]
 
 ## Red Flags
-[Any context suggesting mismatch — wrong stage, wrong problem type, decision-maker not on the call, unlikely to act, etc. Write "None identified" if nothing stands out.]
+[Mismatch signals: wants a tool vendor, no decision-maker, no real pain, wants free implementation, too small. Or "None identified."]
 ```
 
 ---
 
-## Widget Visual Pattern
+## Widget
+
+Render the brief with `show_widget` (call `read_me` first, silently) so JC can scan it before the call:
 
 - Outer card: `border: 0.5px solid var(--color-border-tertiary)`, `border-radius: var(--border-radius-lg)`, padding 1.5rem
-- Section headers (The Company, The People, etc.): `font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-tertiary)`
-- Anticipated Pains: numbered list, each item with a blue left border (`border-left: 2px solid #378ADD; padding-left: 10px`)
-- Sharp Questions: bullet list, each item styled as a quoted question in a light background block (`background: var(--color-bg-secondary); border-radius: 4px; padding: 6px 10px; font-style: italic`)
-- What to Listen For: green left border (`border-left: 2px solid #2E9E6B; padding-left: 10px`)
-- Red Flags: orange left border (`border-left: 2px solid #E07B3A; padding-left: 10px`) — use grey if "None identified"
-- "Copy as Markdown" button at bottom: `border: 0.5px solid var(--color-border-secondary)`, copies full brief as plain text
-- All colors via CSS variables — never hardcoded except the accent borders above
+- Section headers: 13px, 600 weight, uppercase, 0.05em letter-spacing, `var(--color-text-tertiary)`
+- 30-Second Snapshot: slightly larger body text at top, no border
+- Workflow Hypothesis Map: two tables side by side on desktop (stacked on mobile). Back Office header with grey accent, Value Drivers header with blue accent (`#378ADD`). Confidence shown as a small pill.
+- Call Flow: collapsible `<details>` per stage, so the whole call fits on one screen collapsed
+- Questions: light background block (`var(--color-bg-secondary)`, 4px radius, 6px 10px padding, italic)
+- Objection Handling: `<details>` per objection; summary = what they say, body = underneath / response / hand-back
+- What to Listen For: green left border `#2E9E6B`; Red Flags: orange left border `#E07B3A` (grey if none)
+- "Copy as Markdown" button at the bottom that copies the full brief
+- CSS variables for all colors except the accent borders above
 
 ---
 
 ## Output File
 
-After rendering the widget, save the Call Brief as a markdown file to the vault at:
+After rendering, save the brief to the vault (use the vault-mcp skill conventions):
 
 ```
-business/projects/internal/sales-call-prep/YYYYMMDD_call-brief-[company-name-slug].md
+business/projects/internal/sales-call-prep/YYYYMMDD_call-brief-[company-slug].md
 ```
 
-Use today's date and a lowercase-hyphenated version of the company name for the slug. Create the directory if it doesn't exist. Confirm to JC where the file was saved.
+Include vault frontmatter (`title`, `date`, `tags: [client, strategy]`, `ai: claude`, `status: ok`). Confirm the saved path to JC.
 
 ---
 
 ## Quality Check (run before rendering)
 
-- [ ] All three required inputs were confirmed before research started
-- [ ] Company website was fetched, not just searched
-- [ ] Each person has title, tenure, background, and frame noted
-- [ ] Anticipated pains are specific — no vague categories
-- [ ] Each anticipated pain has a corresponding sharp question
-- [ ] "What to Listen For" describes a concrete signal, not a generic fit criterion
-- [ ] Red Flags section is populated or explicitly marked "None identified"
-- [ ] Widget is rendered and "Copy as Markdown" button is included
-- [ ] File is saved to `business/projects/` and path is confirmed to JC
+- [ ] All three required inputs confirmed before research
+- [ ] Website fetched, not just searched
+- [ ] Revenue path traced: source → intake → sale → deliver → bill → retain
+- [ ] 4–6 back-office and 3–5 value-driver workflows, named in the industry's language
+- [ ] Every workflow has a concrete annoyance, a supercharged version, a probe question, and a confidence level
+- [ ] Tools mentioned only as signals, not as the substance
+- [ ] 2–4 past-engagement patterns flagged, each with an anonymized proof story
+- [ ] Call flow questions are tailored, not just the stock versions
+- [ ] Pain Ladder includes cost, consequence, and a "why not lower?" priority question
+- [ ] 5–7 objections chosen for this specific prospect, each with a hand-back question
+- [ ] Recommended next step names a specific rung of the offer ladder, plus a fallback
+- [ ] Decision-maker status flagged
+- [ ] No manufactured urgency; responses fit JC's candid voice
+- [ ] Widget rendered with Copy as Markdown; file saved and path confirmed
