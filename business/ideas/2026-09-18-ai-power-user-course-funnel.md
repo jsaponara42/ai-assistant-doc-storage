@@ -14,6 +14,12 @@ The current AI & Automation Roadmap offer is too high-ticket to advertise agains
 
 Captured from a voice note. Core diagnosis: high ticket price → can't advertise profitably → low volume → too few sales calls → pipeline starves. JC is looking for a low-cost, high-volume front-end offer that still funnels toward the existing high-value services, rather than replacing them. He noted he'd link the existing AI & Automation Roadmap product/offer separately for reference.
 
+## Reference: example Roadmap deliverable
+
+For context on what the "AI & Automation Roadmap" step (#3 in the funnel below) actually looks like in practice: [[business/projects/client-projects/26061201_capital-financing/client-facing-deliverables/20260910_capital-financing-opportunity-map-final]]
+
+That deliverable is a ranked, tiered opportunity map (Quick Win / Near-Term / Strategic / Needs Decision) built from roughly eight weeks of discovery — process mapping plus stakeholder interviews — for a single client (Capital Financing). It's the concrete output the ~$10K Roadmap step in the funnel below is meant to represent: substantial, high-touch, consulting-grade work. That scope and effort level is exactly why it can't be the front door of the funnel — it's the destination the cheaper entry offers are meant to lead toward.
+
 ## Content
 
 ### The core problem
@@ -56,7 +62,7 @@ Captured from a voice note. Core diagnosis: high ticket price → can't advertis
 - Foreign-talent sourcing/management logistics (who, how vetted, what tools, what the management fee actually covers) not yet defined.
 
 ## Next steps
-- [ ] Link/attach the existing AI & Automation Roadmap offer materials to this note for reference
+- [x] Link/attach the existing AI & Automation Roadmap offer materials to this note for reference — see example above ([[20260910_capital-financing-opportunity-map-final]])
 - [ ] Decide whether "AI Power User" course is the right entry offer, or whether a lighter/cheaper version should be tested first
 - [ ] Scope what the course curriculum would actually cover (Obsidian, markdown, VS Code, MCP connectors, etc.) and estimate production effort
 - [ ] Define the private-tutoring offer in detail (exact hours, format, price anchor)
