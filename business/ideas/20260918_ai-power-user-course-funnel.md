@@ -145,4 +145,4 @@ Following confirmation that the personalized async teardown (above) is still the
 - [ ] Define the private-tutoring / Roadmap upsell step in detail once the entry offer itself is locked (exact hours, format, price anchor) — carried over from original draft above
 - [ ] Decide whether to build a small-business variant of the funnel, or shelve permanently
 - [ ] Scope the managed-foreign-talent offer: sourcing, vetting, management process, and fee structure
-- [ ] Cross-reference against [[2026-06-01-reciprocation-lead-magnet]] and [[2025-07-11-productizing-blue-tusk]] — both touch the same "current offer isn't converting/scaling" problem from different angles
+- [ ] Cross-reference against [[20260601_reciprocation-lead-magnet]] and [[20250711_productizing-blue-tusk]] — both touch the same "current offer isn't converting/scaling" problem from different angles

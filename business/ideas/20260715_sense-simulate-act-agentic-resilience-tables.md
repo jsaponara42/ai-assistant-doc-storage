@@ -51,4 +51,3 @@ JC uploaded a photo of a two-page magazine spread and asked to file the tables u
 ## Next steps
 - Consider pulling the "sense-simulate-act" framing into a discovery-call talk track or roadmap deck for PI-firm/finance clients.
 - Cross-reference the uplift figures against real client results before quoting them externally (these are illustrative industry figures, not verified client outcomes).
-</content>
