@@ -105,10 +105,40 @@ The original AI Power User course concept above was pressure-tested in a follow-
 ### Open tension to resolve before building anything
 Generic/scalable entry offers (calculators, generic playbooks) avoid the time cost of touching a client's business, but risk feeling low-value exactly because they're generic, the thing that made the actual Roadmap deliverables compelling was real specificity from real interviews. Whatever gets built needs an explicit answer for where it sits on that specificity-vs-scalability tradeoff.
 
+### Rejected: novelty/spectacle-driven ideas ("Roast My Business", "Beat the Bot", "Clone Yourself", "AI War Room" as entertainment, "60-Second Build")
+- Initial fix-attempt: a batch of ideas optimized purely for an immediate emotional yes, comedy, competition, spectacle, watching something get built live, all fully automated/software-only so they'd scale infinitely with zero marginal cost.
+- Rejected because: the buyer is a smart, successful executive, not a consumer. Flashy/gimmicky delivery reads as a trick, not a service, and damages credibility for every future paid engagement, since JC's reputation is on the line with each one and the eventual upsell depends on trust built here. Executives don't have time to experiment or noodle; they want the power of AI and automation applied to their business, they just don't know where to start and their attempts to delegate that discovery fail. The offer has to be visibly worth more than something free, not just entertaining.
+- Kept, reframed: the underlying idea of a structured, rigorous "war room" (multiple AI perspectives stress-testing a decision, using JC's real cross-client framework rather than generic brainstorming) is still plausible as a serious decision-support product, not as entertainment. Not pursued further once the async teardown was reconfirmed as the leading direction, but the reframing (deliver a forced, defensible decision, not a list or a show) is a useful principle for any future version of this.
+
+## Async teardown: refined offer mechanic (2026-09-18)
+
+Following confirmation that the personalized async teardown (above) is still the leading candidate, the intake process and pricing/qualification mechanic were worked out in more detail.
+
+### Fast, high-signal intake design
+- Pull anything public (website, LinkedIn) automatically first, reusing the pi-firm-snapshot pipeline, never ask a question Google could already answer.
+- Concrete mechanic decided on: a Google Doc template with a fixed set of questions, prospect makes their own copy and uses voice dictation to answer directly into each question, rather than typing. Keeps the "talk, don't type" benefit (faster, richer answers from busy executives) without needing custom voice-intake tooling.
+- Prospect is encouraged to send the doc around to their own team so specific people can answer the questions they personally know best, this both improves answer quality/specificity (echoing the earlier "specificity vs. scalability" tension, this is a way to get real specificity without costing JC any time) and mirrors the same team-distribution instinct that has worked in real engagements (e.g. multiple stakeholders interviewed for the Capital Financing opportunity map).
+
+### Pricing and qualification mechanic
+- Structured as an introductory offer: a $500 value, positioned as "free" if the prospect completes certain conditions (their "homework").
+- Homework under consideration: completing the intake doc properly, and possibly referring 3 other qualifying businesses, not finalized. JC is open to adding more homework/conditions beyond referrals if useful.
+- Qualification gate: prospects must qualify for the free offer, not open to everyone who wants a free teardown. Qualification requires collecting real information upfront: business size, and willingness/budget to eventually purchase the AI & Automation Roadmap. This serves two purposes at once, it keeps the free version from being a cost center on unqualified leads, and it front-loads exactly the information needed to know whether the Roadmap upsell is realistic before JC invests any time.
+- This was JC's own resolution of the three refund-mechanic options discussed (A: refund on completion, B: refund as Roadmap credit, C: refund if JC doesn't deliver value), the actual direction taken is closer to option A in structure (earn it back by completing conditions) but reframed as "free upfront if qualified + homework done" rather than "pay then get refunded," combined with a hard qualification gate that wasn't part of the original three options. Refund/payment mechanics not fully finalized, this section supersedes the earlier three-option framing as the working direction.
+
+### Still open
+- Exact homework requirements (just the intake doc, or also referrals, and if referrals, how many and how verified)
+- Exact qualification questions/thresholds (business size cutoff, budget/willingness signal to ask for without being off-putting this early)
+- Whether the $500 "value" is ever actually charged upfront and refunded, or simply waived entirely for qualified prospects who complete homework, distinct mechanics with different cash-flow and commitment-device implications
+- What happens for a qualified prospect who doesn't complete the homework, still get the teardown at a paid price, or excluded entirely
+
 ## Next steps
 - [x] Link/attach the existing AI & Automation Roadmap offer materials to this note for reference — see example above ([[20260910_capital-financing-opportunity-map-final]])
-- [ ] Generate additional entry-offer ideas beyond the ones logged above (in progress, see "Other options generated" section; more to come before end-to-end sketch)
-- [ ] Once idea generation is done, sketch the personalized async teardown end-to-end: intake form, what the video covers, price point, and the exact upsell moment/mechanism
+- [ ] Decide exact homework requirements for the "free" async teardown (intake doc completion only, vs. also requiring referrals, and if so how many / how verified)
+- [ ] Define qualification questions and thresholds (business size cutoff, how to ask about Roadmap budget/willingness without being off-putting at this early a stage)
+- [ ] Decide the actual cash mechanic: charge $500 upfront and refund/waive on completion, vs. simply waive the fee entirely for qualified + homework-complete prospects
+- [ ] Decide what happens to qualified prospects who don't complete the homework (paid teardown at $500, or excluded)
+- [ ] Build the Google Doc intake template (fixed question set, designed for voice dictation answers, shareable with the prospect's team)
+- [ ] Once mechanic is locked, sketch the async teardown end-to-end: video format/length, what it covers, and the exact upsell moment/script into the Roadmap on the follow-up call
 - [ ] Stress-test whether the async teardown still counts as "knowledge not progress" to the buyer, and how the personal/reactive framing and price point are meant to offset that
 - [ ] Decide whether the free self-serve tool / calculator gets pursued separately as a top-of-funnel lead magnet (distinct question from the paid entry offer)
 - [ ] If/when revisited: define cohort cadence, curriculum, and pricing tier ($197 vs $399) for the paid operator's-group concept currently on hold
