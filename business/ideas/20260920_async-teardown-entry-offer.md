@@ -30,6 +30,8 @@ Prospect submits their website/LinkedIn and a short intake (see below). Within r
 
 ## Intake design — fast, high-signal, low-effort for the prospect
 
+> **Resolved 2026-09-22** — the intake document/question set stays the same for everyone. The only difference is by path: **cold-qualified prospects** (came through Stage 1) get relevant fields pre-filled from their Stage 1 intake answers and are never re-asked — Stage 1's answers are a head start, not a substitute, since that form was kept light to protect free-magnet conversion and doesn't go deep enough for a $1,500-value teardown on its own. **Warm prospects** (skipped Stage 1) fill out the full intake fresh, as originally designed below.
+
 - **Pull public data first.** Anything gettable from their website/LinkedIn (reusing the `pi-firm-snapshot` pipeline) gets pulled automatically — never ask a question Google could already answer.
 - **Delivery mechanic**: a Google Doc template with a fixed set of questions. The prospect makes their own copy and answers directly into each question using voice dictation rather than typing — faster and richer answers from busy executives, no custom voice-intake tooling required.
 - **Team distribution encouraged**: prospect is told to send the doc around to their own team so specific people can answer the questions they personally know best. This gets real specificity into the intake without costing JC any extra time, and mirrors what's worked in real engagements (e.g., multiple stakeholders interviewed for the Capital Financing opportunity map — see [[20260910_capital-financing-opportunity-map-final]]).
