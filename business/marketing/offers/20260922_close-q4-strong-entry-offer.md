@@ -25,6 +25,10 @@ Pivoted away from the PI-firm-specific framing in [[20260920_async-teardown-entr
 
 Underlying principle: free offers deserve the same "insanely good" treatment as paid offers — the business that provides the most value wins, period.
 
+### Reference: Two Lead Magnet Types (Hormozi, $100M Leads)
+- **Reveal Their Problem (diagnosis)** — works best when the magnet reveals a problem that specifically gets worse the longer the prospect waits, made concrete via an objective measurement tied to a dollar cost (e.g. a website speed test tied to lost revenue, a termite inspection tied to structural cost). Power comes from quantifying delay, not just informing.
+- **One Step of a Multi-Step Process** — when the core offer is inherently sequential, give one valuable step free and sell the rest. Works when the core offer solves a multi-stage problem; the free step should be genuinely valuable on its own, not a teaser.
+
 ### Step 1 — Problem + Who (current draft)
 - **Who:** Owners of established, successful businesses with no in-house engineering/technical talent — never needed a technical co-founder or dev team to compete. Explicitly excluding industries where relationship-based or conference-based marketing is the primary buying channel (e.g. law, construction, commercial real estate, insurance brokerage, wealth management, medical/dental, manufacturing with rep networks, staffing/recruiting) — these buyers don't respond to cold digital offers the way this funnel needs.
 - **Likely good-fit industries (cold-digital-responsive buyers):** multi-location retail, restaurants/hospitality groups, e-commerce/physical product brands, accounting & bookkeeping firms, property management, logistics/trucking/distribution, cleaning/facilities services, education & training companies, fitness/wellness studio groups, auto dealerships/service groups.
@@ -41,12 +45,18 @@ Built as ONE underlying automated report engine, marketed as two different hooks
 - **Risk Exposure Map** — identifies which parts of their business are exposed if competitors adopt AI first, shows what "losing ground" would concretely look like, pairs each risk with the smallest first move. Leads with fear/urgency.
 - Same engine can deliver both analyses in the actual report regardless of which hook brought them in — only the marketing/positioning differs, not necessarily the build.
 - Fully automated, no human time cost → no qualification gate needed, open to any cold opt-in.
+- **Risk Exposure Map is a "Reveal Their Problem" diagnosis** — sharpened mechanic: **Manual-Process Cost Estimate**. Identify 1–2 visibly manual processes from public/site signals, estimate hours/week spent based on business size and type, and report cost in BOTH hours wasted and dollars — hours matter more than dollars to smaller businesses, where an owner's or staff's time is often worth more than the raw dollar figure suggests. (Considered and set aside: a live response-time test that submits a real inquiry to the prospect's own contact form/phone line — technically a strong analogy to the book's speed-test example, but raises real consent/ethics concerns since it probes a business's live systems uninvited. Reviewed-mined friction reports from public review data remain a viable lower-priority alternative if more diagnostic angles are needed later.)
+- **Competitive Reality Check deliberately stays a different (non-diagnosis) type** — kept as a comparative/curiosity magnet rather than converted to match Risk Exposure Map's diagnosis structure. This makes the Stage 1 A/B test more informative: it tests whether prospects respond better to fear-of-missing-opportunity vs. fear-of-active-cost, rather than testing two flavors of the same psychological mechanism.
 
 **Stage 2 — Priced/waived Opportunity Teardown (real person, JC's eyes):**
 This is the mechanic already designed in [[20260920_async-teardown-entry-offer]] — 2–3 specific, dollarized opportunities, personally reviewed by JC, $500 value waived for qualified + homework-complete prospects. Because a real person's judgment is involved, this is the one that can legitimately carry a price tag (unlike Stage 1).
 
 **Stage 3 — AI & Automation Roadmap ($10K core offer):**
-Existing core offer, upsold at the end of the Teardown.
+Existing core offer, upsold at the end of the Teardown, explicitly framed via Hormozi's "One Step of a Multi-Step Process" device — the Teardown is step one (diagnosis/opportunity-finding), the Roadmap is the rest (execution plan with sequencing, ownership, timelines). Working transition language:
+
+> "This teardown told you where the opportunity is. It didn't build anything yet. That's what the Roadmap does — turns these 2–3 findings into an actual execution plan with sequencing, ownership, and timelines."
+
+This also directly answers the "audits deliver knowledge, not progress" objection flagged in [[20260920_async-teardown-entry-offer]] — instead of dodging the critique, it names it and positions the Roadmap as the resolution.
 
 **Routing logic by traffic temperature:**
 - **Cold traffic** (ads, content, cold outreach) → Stage 1 (free magnet) → qualifies into Stage 2 (Teardown)
@@ -68,3 +78,5 @@ Rather than picking one emotion, sequence three across the funnel:
 - Define the qualification/hand-off moment from Stage 1 → Stage 2 (what qualifies a Stage 1 respondent to be invited into the Teardown)
 - Revisit emotional sequencing when copy gets drafted, now split across two Stage 1 hooks
 - Cross-reference [[20260920_async-teardown-entry-offer]] for Stage 2 (Teardown) mechanics already in progress — that note's open questions (homework, qualification thresholds, cash mechanic) still apply to Stage 2 specifically
+- Design the Manual-Process Cost Estimate mechanic in detail: which public/site signals indicate a manual process, and the hours/week estimation logic by business type and size
+- Draft/test the actual Teardown→Roadmap transition script beyond the working line above
