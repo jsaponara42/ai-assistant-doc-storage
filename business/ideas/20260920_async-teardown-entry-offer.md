@@ -36,6 +36,8 @@ Prospect submits their website/LinkedIn and a short intake (see below). Within r
 
 ## Pricing and qualification mechanic
 
+> **SUPERSEDED 2026-09-22** — see [[20260922_close-q4-strong-entry-offer]], Step 2/Step 3. The offer this note describes is now Stage 2 of a 3-stage funnel. The flat "$500 value, free if qualified + homework" model below has been replaced by a traffic-path-split model: normal price $1,500; cold traffic (qualified via a new Stage 1 free-magnet intake form) gets it at **$497**; warm traffic (skipping Stage 1) still gets it **free**, gated by a separate, lighter qualification step still to be defined. Sections below are kept for historical context (intake design, homework concept) but the pricing figures are out of date.
+
 - Structured as an introductory offer: **a $500 value**, positioned as "free" if the prospect completes certain conditions (their "homework").
 - **Homework under consideration**: completing the intake doc properly, and possibly referring 3 other qualifying businesses. Not finalized — JC is open to adding more conditions if useful.
 - **Qualification gate**: prospects must qualify for the free offer — not open to anyone who wants a free teardown. Qualification requires collecting real information upfront: business size, and willingness/budget to eventually purchase the Roadmap. This does two things at once: keeps the free version from becoming a cost center on unqualified leads, and front-loads exactly the information needed to judge whether the Roadmap upsell is realistic before JC invests any time.
