@@ -137,13 +137,15 @@ Rather than picking one emotion, sequence three across the funnel:
 2. **Opportunity** drives the opt-in (offer promise) — "The businesses moving now, without an engineering team, are the ones setting themselves up for Q1."
 3. **Relief** is the experience of the teardown itself — specific, prioritized, jargon-free — which builds trust and sets up the Roadmap upsell.
 
-## Next steps
-- Refine/narrow ICP further within the "cold-digital-responsive, non-technical" filter
-- Design the Stage 1 automated report engine: what data sources/pipeline feed both the Reality Check and Risk Map framings
-- Decide whether Stage 1 delivers as two visually/verbally distinct reports or one report with two marketing wrappers
-- Move to Step 3 (delivery format) for Stage 1 specifically — automated report format, turnaround time, what triggers the invite into Stage 2
-- Define the qualification/hand-off moment from Stage 1 → Stage 2 (what qualifies a Stage 1 respondent to be invited into the Teardown)
-- Revisit emotional sequencing when copy gets drafted, now split across two Stage 1 hooks
-- Cross-reference [[20260920_async-teardown-entry-offer]] for Stage 2 (Teardown) mechanics already in progress — that note's open questions (homework, qualification thresholds, cash mechanic) still apply to Stage 2 specifically
-- Design the Manual-Process Cost Estimate mechanic in detail: which public/site signals indicate a manual process, and the hours/week estimation logic by business type and size
-- Draft/test the actual Teardown→Roadmap transition script beyond the working line above
+## Next steps (updated 2026-09-22 — Steps 1-7 design complete for Stage 1 magnets; these are now BUILD tasks)
+- Build the Stage 1 automated report engine/pipeline: intake form → AI analysis → PDF + mobile web report, per the Step 3 flow above
+- Design the Manual-Process Cost Estimate mechanic in implementation detail: which public/site signals indicate a manual process, and the hours/week estimation logic by business type and size
+- Build the two landing pages/hooks (Competitive Reality Check, Risk Exposure Map) using the Step 4 headline/image/subheadline candidates, run the sequential test (headline → image → subheadline)
+- Build the shared intake form (mobile-tested, voice dictation, folded-in Stage 2 qualification fields)
+- Build the mobile web report view + PDF template, both from the same underlying content
+- Implement the full-business-day email delay mechanic
+- Wire up automatic routing of qualified respondents into the Stage 2 $497 offer
+- Refine/narrow ICP further within the "cold-digital-responsive, non-technical" filter, if needed once real response data comes in
+- Revisit emotional sequencing once real copy/creative is being produced
+- Cross-reference [[20260920_async-teardown-entry-offer]] for Stage 2 (Teardown) status — that note has its own next steps (Google Doc build, PDF build, review-call script) tracked separately
+- Draft/test the actual Teardown→Roadmap transition script beyond the working line above (Stage 2/3 work, not blocking Stage 1)
