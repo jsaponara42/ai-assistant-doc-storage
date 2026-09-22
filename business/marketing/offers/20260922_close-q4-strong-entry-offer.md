@@ -99,6 +99,38 @@ Reference: the actual $7–10K Roadmap deliverable and its source workflow map �
 4. **"What this covers / what it doesn't"** — explicit, mirrors the real deliverable's own framing. Sets up the call directly: this is what surfaced from a single intake; a full discovery process across the whole business (interviews, workflow-by-workflow) is what the Roadmap is built from
 5. Next step: the review call
 
+### Step 4 — Test headline, image, subheadline, in that order (2026-09-22)
+
+Draft first-round test material for both hooks:
+
+**Competitive Reality Check**
+- Headline candidates: "See What Businesses Like Yours Are Already Doing With AI" / "What's Actually Working With AI Right Now (And What's Just Hype)"
+- Image concept: a preview mockup of the actual report itself — shows tangibility and reinforces "this is real analysis," rather than generic stock photography
+- Subheadline candidate: "A free, personalized look at where you stand — before Q4 closes."
+
+**Risk Exposure Map**
+- Headline candidates: "Find Out What Waiting on AI Is Costing You" / "See What You're Exposed To If Your Competitors Move First"
+- Image concept: same report-mockup approach, for visual consistency across both hooks
+- Subheadline candidate: "A free breakdown of what's at risk — and the smallest first move to close it."
+
+**Test sequence:** headline variants first (holding image/subhead constant) — headline has the largest effect on scroll-stopping/click-through. Once a winning headline is set, test image variants against it. Only then test subheadline variants. Testing all three at once muddies which lever actually moved the number.
+
+### Step 5 — Make it easy to consume (2026-09-22)
+
+- **Intake form:** must be fully completable on a smartphone. Voice dictation is naturally mobile-friendly, so this mostly falls out of decisions already made — worth explicitly testing on-phone before launch rather than assuming.
+- **Report delivery, multiple formats:** deliver **both** a mobile-friendly web view (quick-loading, thumb-scrollable) as the primary experience, and the formal PDF attached for saving/forwarding/printing. Same underlying content, two renderings, so the format never becomes the friction point.
+
+### Step 6 — Give away the secrets, sell the implementation (2026-09-22)
+
+Design principle, not just a sentiment: **the free magnet's finding must be genuinely complete and specific** — the actual dollarized/hour-quantified diagnosis, not a teaser or a blurred-out version of it. What stays withheld is only *how to fix it* (the implementation), never *what the problem is or what it's costing*. The instinct to soften or vague-out the free report "so people still need to pay" is exactly the failure mode to avoid — it would make the free magnet worse, not the paid Teardown more necessary. Reputation risk runs through the free stuff first.
+
+### Step 7 — CTA design (2026-09-22)
+
+Two required components: clear direct action + reasons to act right now. Draft closing CTA for qualified respondents heading into the discounted Teardown:
+
+> **"Claim your $497 Business Teardown (regularly $1,500) — book your call now."**
+> Reasons to act now: Q4 timing itself ("the businesses that move now go into Q1 already ahead"), plus genuine scarcity if useful — e.g. a real expiration on the discount window or limited call slots before quarter-end. Not a fake countdown — language should be clear and direct ("book now," not "don't delay").
+
 ### Emotional sequencing (marketing, to refine later)
 Rather than picking one emotion, sequence three across the funnel:
 1. **Fear/FOMO** opens the door (ad/hook) — "AI is changing what 'competitive' means, and you didn't need to know how to code to compete before."

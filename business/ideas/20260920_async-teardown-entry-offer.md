@@ -107,7 +107,7 @@ Designed for team distribution — each section naturally maps to whoever owns t
   5. Next step — pointer to the review call; no hard pitch inside the document itself
 
 ## Next steps
-- [ ] Build the Google Doc intake template (fixed question set, designed for voice dictation, shareable with the prospect's team)
+- [ ] Build the Google Doc intake template itself (formatting, voice-dictation setup, team-sharing mechanics) — question content and revision policy are now drafted above; this is now a build task, not a design task
 - [ ] Build the PDF document template per the locked structure above
 - [ ] Draft the full review-call script beyond the rough CLOSER outline above
 - [ ] Stress-test whether this still counts as "knowledge not progress" to the buyer, and how the personal/reactive framing + price point are meant to offset that
