@@ -107,6 +107,29 @@ Generic/scalable entry offers (calculators, generic playbooks) avoid the time co
 
 The intake design and pricing/qualification mechanic for the async teardown have moved to their own note: [[20260920_async-teardown-entry-offer]]. That note now owns all further work on this specific offer — use it, not this section, for anything related to building the teardown itself.
 
+## Adjacent idea: separate high-ticket offer for angel investors (2026-09-20)
+
+A related but distinct idea, not part of the Roadmap funnel above — a different buyer, not another entry point into the same pipeline.
+
+### Concept
+- Target angel investors (sourceable via lists like AngelList, syndicate directories, local angel groups) rather than business owners.
+- Two possible offers for this audience:
+  1. **"Become an AI power user" (personal fluency)** — close to the original course content, but aimed at a buyer who wants it for its own sake, not to run a business through it.
+  2. **Investment-decision review (AI-specific diligence)** — reviewing a deal or portfolio company through an "is this AI capability real, defensible, and worth what they're claiming" lens. Closer to JC's actual expertise (the same real-vs-hype assessment already done for Roadmap clients) and likely a higher-ticket, higher-margin offer than teaching.
+
+### Why this fits, where the course-for-business-owners didn't
+- Angel investors already know they're under-informed relative to the founders pitching them — the opposite psychology of a PI-firm owner who assumes they already know their opportunities. That removes the "knowledge not progress" resistance that killed the original audit/course ideas for the Roadmap buyer.
+- They have capital, not time — a high price is a filter for this audience, not a barrier, unlike the PI-firm/Roadmap buyer where price was the core obstacle.
+
+### Structure worth considering
+- Offer #2 (investment-decision review) is likely the better-fit, higher-ticket product; offer #1 (personal fluency) could function as a lower-ticket entry point into #2, similar in shape to the funnel logic above but for a completely different buyer at the top.
+
+### Open questions
+- **Sourcing/relationship dynamics**: cold outreach to investors may behave more like the "lawyers respond to relationships, not ads" problem (see [[20260423_marketing-to-lawyers]]) than a cold-clickable funnel — not yet tested.
+- **Credibility bar**: this audience may already know more about AI than typical Roadmap clients; unclear what proof/credentials make JC credible to evaluate technical AI/ML claims for them.
+- **Regulatory/liability edge**: "reviewing investment potential" is close to investment-advice territory depending on framing — needs careful positioning (technical/capability assessment, not a buy/sell recommendation) to avoid needing licensing.
+- Not yet scoped: pricing, how this interacts (if at all) with the Blue Tusk brand vs. a separate offering/entity, and whether this is worth pursuing before or after the async teardown + Roadmap funnel is working.
+
 ## Next steps
 - [x] Link/attach the existing AI & Automation Roadmap offer materials to this note for reference — see example above ([[20260910_capital-financing-opportunity-map-final]])
 - [x] Spin the async teardown mechanic out into its own working note — see [[20260920_async-teardown-entry-offer]]
@@ -117,3 +140,4 @@ The intake design and pricing/qualification mechanic for the async teardown have
 - [ ] Decide whether to build a small-business variant of the funnel, or shelve permanently
 - [ ] Scope the managed-foreign-talent offer: sourcing, vetting, management process, and fee structure
 - [ ] Cross-reference against [[20260601_reciprocation-lead-magnet]] and [[20250711_productizing-blue-tusk]] — both touch the same "current offer isn't converting/scaling" problem from different angles
+- [ ] Decide whether/when to explore the angel-investor offer (personal AI fluency and/or investment-decision review) as a separate stream, not part of the Roadmap funnel — not yet scoped for pricing, positioning, or how it relates to the Blue Tusk brand
