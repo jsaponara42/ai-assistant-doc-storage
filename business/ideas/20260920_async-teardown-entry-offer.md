@@ -8,21 +8,32 @@ status: needs-attention
 
 ## Summary
 
-The current working direction for Blue Tusk's low-ticket funnel entry point: a personalized, async video teardown of a prospect's business, paid ($500 value), waived if the prospect qualifies and completes intake "homework." Delivered without any live call or integration into the client's systems, so it scales past JC's calendar. Ends by pointing at the AI & Automation Roadmap as the upsell.
+The current working direction for Blue Tusk's low-ticket funnel entry point: a personalized business teardown, paid ($500 value), waived if the prospect qualifies and completes intake "homework." Ends by pointing at the AI & Automation Roadmap as the upsell.
+
+> **Delivery format updated 2026-09-22:** teardown is delivered as a **document**, not an async video, paired with a **live review call** where the Roadmap upsell happens (via Hormozi's CLOSER method — see rough outline below). This is a deliberate trade-off against the original "no live call, scales past JC's calendar" rationale below — JC has decided the upsell is worth the calendar cost. Worth keeping an eye on whether call volume becomes a bottleneck as this scales.
 
 This is the leading candidate that emerged from a longer entry-offer exploration — see [[20260918_ai-power-user-course-funnel]] for the full reasoning trail (what was tried, what was rejected, and why this direction won). This note is where the async teardown itself gets designed and built out, separate from the broader funnel-strategy discussion.
 
 ## Concept
 
-Prospect submits their website/LinkedIn and a short intake (see below). Within roughly 48 hours, they receive a short, personally recorded (Loom-style) video where JC reacts to their specific business — 2 to 3 concrete, specific observations — ending in a clear next-step offer.
+> **Updated 2026-09-22:** delivery is now a **document**, not a video (see Summary note above). Prospect submits their website/LinkedIn and a short intake (see below). Within roughly 48 hours, they receive a written teardown document with 2 to 3 concrete, specific observations about their business, followed by a **live review call** where JC walks through the findings and makes the Roadmap upsell.
+
+### Rough upsell call outline (Hormozi's CLOSER method + "one step of a multi-step process" framing)
+Not scripted in detail yet — rough shape only:
+- **C**larify why they're on the call (review their teardown findings)
+- **L**abel them as the right kind of business owner (already taking action on AI while peers hesitate)
+- **O**verview their pain (recap the 2–3 findings — what it's costing them now)
+- **S**ell the outcome, not the mechanism (paint what the business looks like once those opportunities are actually built out, before describing the Roadmap itself)
+- **E**xplain the offer using the multi-step framing: the teardown found the opportunity (step one), the Roadmap is the rest — see working language in [[20260922_close-q4-strong-entry-offer]]
+- **R**einforce their decision, address remaining doubts
 
 ## Why it clears the accumulated objections (from the parent funnel note)
 
-- **Immediate** — 48hr turnaround, no live call required, no waiting on a calendar slot
+- **Immediate** — 48hr turnaround to document delivery, review call scheduled separately
 - **Feels bespoke/personal** — genuinely about their business, not generic content, without becoming an ongoing relationship or club/membership
-- **Async** — scales past JC's calendar, unlike a live call or cohort
+- ~~**Async** — scales past JC's calendar, unlike a live call or cohort~~ *(no longer applies — review call now required; see delivery format update above)*
 - **No integration with the client's live systems** — self-contained, no implementation tail, no testing against their real CRM/data
-- **Natural upsell** — ends by pointing at the full Roadmap
+- **Natural upsell** — review call ends by pointing at the full Roadmap, using the multi-step framing
 
 **Reuses existing capability**: built on the same underlying pipeline as the `pi-firm-snapshot` skill already in the vault (`business/SKILLS/pi-firm-snapshot/SKILL.md`).
 
@@ -41,26 +52,21 @@ Prospect submits their website/LinkedIn and a short intake (see below). Within r
 > **SUPERSEDED 2026-09-22** — see [[20260922_close-q4-strong-entry-offer]], Step 2/Step 3. The offer this note describes is now Stage 2 of a 3-stage funnel. The flat "$500 value, free if qualified + homework" model below has been replaced by a traffic-path-split model: normal price $1,500; cold traffic (qualified via a new Stage 1 free-magnet intake form) gets it at **$497**; warm traffic (skipping Stage 1) still gets it **free**, gated by a separate, lighter qualification step still to be defined. Sections below are kept for historical context (intake design, homework concept) but the pricing figures are out of date.
 
 - Structured as an introductory offer: **a $500 value**, positioned as "free" if the prospect completes certain conditions (their "homework").
-- **Homework under consideration**: completing the intake doc properly, and possibly referring 3 other qualifying businesses. Not finalized — JC is open to adding more conditions if useful.
+- **Homework, resolved 2026-09-22:** just the intake doc (Google Doc, completed properly) — no referral requirement. Applies specifically to the **warm-traffic** free path: warm prospects get the teardown free only if they complete the homework (the intake doc). This keeps a commitment device on the free path so "it's free" doesn't turn into wasted time on either side.
 - **Qualification gate**: prospects must qualify for the free offer — not open to anyone who wants a free teardown. Qualification requires collecting real information upfront: business size, and willingness/budget to eventually purchase the Roadmap. This does two things at once: keeps the free version from becoming a cost center on unqualified leads, and front-loads exactly the information needed to judge whether the Roadmap upsell is realistic before JC invests any time.
+- **Qualified-but-incomplete, resolved 2026-09-22:**
+  - **Cold path:** the $497 payment gates access to the full teardown intake itself — a cold-qualified prospect simply cannot start/complete the intake without paying first. No stalled free work; if someone pays and doesn't follow through, that's their choice and their money.
+  - **Warm path:** the teardown is free but gated by completing the homework (intake doc). If a warm prospect doesn't complete it, they don't get the teardown — no exceptions, and no time spent chasing them. Incompletion itself is read as a signal they aren't a good fit for further engagement.
 - This is JC's own resolution of three refund-mechanic options considered earlier (A: refund on completion, B: refund credited toward the Roadmap, C: refund if JC doesn't deliver value). The actual direction is closer to option A in structure (earn it back by completing conditions), reframed as "free upfront if qualified + homework done" rather than "pay then get refunded," combined with a hard qualification gate that wasn't part of the original three options.
 
 ## Open questions
 
-- Exact homework requirements — just the intake doc, or also referrals, and if referrals, how many and how verified?
-- Exact qualification questions/thresholds — business size cutoff, and how to ask about Roadmap budget/willingness without being off-putting this early?
-- The actual cash mechanic — is the $500 ever charged upfront and refunded/waived, or simply waived entirely for qualified + homework-complete prospects? These have different cash-flow and commitment-device implications.
-- What happens to a qualified prospect who doesn't complete the homework — do they still get the teardown at a paid price, or are they excluded entirely?
-- Video format/length and exactly what it should cover per business
-- The exact upsell moment/script into the Roadmap on the follow-up call
+- Document format/length and exactly what it should cover per business — replaces the old "video format/length" question now that delivery is a document
+- Full script for the review call beyond the rough CLOSER outline above
 
 ## Next steps
-- [ ] Decide exact homework requirements (intake doc only, vs. also referrals — and if so, how many / how verified)
-- [ ] Define qualification questions and thresholds (business size cutoff, how to ask about budget/willingness to buy the Roadmap without being off-putting this early)
-- [ ] Decide the actual cash mechanic (charge-and-refund/waive vs. simply waived for qualified + homework-complete prospects)
-- [ ] Decide what happens to qualified prospects who don't complete the homework
 - [ ] Build the Google Doc intake template (fixed question set, designed for voice dictation, shareable with the prospect's team)
-- [ ] Define video format/length and exactly what it covers per business
-- [ ] Draft the upsell moment/script into the Roadmap on the follow-up call
+- [ ] Define document format/length and exactly what it covers per business
+- [ ] Draft the full review-call script beyond the rough CLOSER outline above
 - [ ] Stress-test whether this still counts as "knowledge not progress" to the buyer, and how the personal/reactive framing + price point are meant to offset that
 - [ ] Once mechanic is locked, run a small test batch with real prospects before scaling
