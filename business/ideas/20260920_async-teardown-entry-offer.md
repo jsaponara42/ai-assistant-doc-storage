@@ -61,12 +61,22 @@ Not scripted in detail yet — rough shape only:
 
 ## Open questions
 
-- Document format/length and exactly what it should cover per business — replaces the old "video format/length" question now that delivery is a document
 - Full script for the review call beyond the rough CLOSER outline above
+
+## Document format (locked 2026-09-22)
+
+- **Format: PDF.** Chosen over a Notion page (like the existing `audit-report-notion` PI skill) because a polished branded PDF reads more like a premium paid deliverable, fitting the $1,500 anchor/$497 pricing — a shareable Notion link tends to feel more like an internal working doc. Trade-off noted: the `audit-report-notion` skill could be adapted with less rework if a Notion-based format is ever preferred instead.
+- **Length: medium, roughly 3–5 pages** — room for context/explanation per opportunity, not just a bare list.
+- **Structure**, adapted from the `audit-report-notion` skill's shape (Mermaid flowchart, scored quick-win tables, open-pain section, metrics upsell signal, next steps) but reworked for a general-business PDF:
+  1. Opening reflection — 1–2 sentences showing genuine, specific familiarity with their business, not generic
+  2. 2–3 ranked opportunities — each with "what we found" + dollarized/time impact, deeper and more specific than the Stage 1 Manual-Process Cost Estimate
+  3. A simple visual (quick-win scoring table or flowchart) — signals analytical rigor, not just opinion
+  4. "What this doesn't cover" — short, honest note that this is diagnosis, not implementation; sets up the review call/Roadmap naturally via the "one step of a multi-step process" framing
+  5. Next step — pointer to the review call; no hard pitch inside the document itself
 
 ## Next steps
 - [ ] Build the Google Doc intake template (fixed question set, designed for voice dictation, shareable with the prospect's team)
-- [ ] Define document format/length and exactly what it covers per business
+- [ ] Build the PDF document template per the locked structure above
 - [ ] Draft the full review-call script beyond the rough CLOSER outline above
 - [ ] Stress-test whether this still counts as "knowledge not progress" to the buyer, and how the personal/reactive framing + price point are meant to offset that
 - [ ] Once mechanic is locked, run a small test batch with real prospects before scaling
