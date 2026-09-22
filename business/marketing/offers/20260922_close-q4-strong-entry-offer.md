@@ -77,6 +77,28 @@ This mirrors the warm vs. cold split already reflected in existing SOPs (`SOP-Co
 6. **Delivery: emailed, held a full business day before sending** (not instant) — intentional, to create the impression a real person reviewed it. If it reads as obviously AI-generated/instant, trust suffers.
 7. Qualified respondents (per the folded-in qualification fields) are automatically routed into the Stage 2 offer at the reconciled cold-traffic price ($497, discounted from $1,500 — see Step 2 above), via the same or a follow-up email.
 
+### Teardown (Stage 2) delivery design — grounded in the real Roadmap deliverable (added 2026-09-22)
+
+Reference: the actual $7–10K Roadmap deliverable and its source workflow map — [[20260910_capital-financing-opportunity-map-final]] and [[20260616-Workflow-Map-Capital-Financing-merged]]. The Teardown needs to be recognizably "in the spirit of" this real deliverable (same analytical DNA) while being honestly much smaller in scope (one intake vs. 8 weeks of multi-stakeholder discovery).
+
+**What carries over from the real Roadmap:**
+- Effort × Impact scoring with clear tier labels (Quick Win / Near-Term / Strategic / Needs Decision) — signals real analysis, not opinion, even in lightweight form
+- A visual showing findings sitting on an actual piece of the business, not floating in the abstract
+- An explicit "what this is / what this isn't" section — the real deliverable does this (it's upfront about not being a build spec); the Teardown should be equally upfront about not being the full map. This honesty is a trust-builder and the natural setup for the review call
+- Naming real, specific pain (not generic categories) — the Roadmap's power comes from specifics ("Kaz already built this and nobody uses it"), not vague buckets. Teardown findings need the same specificity despite far less discovery depth
+
+**What's scaled down, honestly rather than faked:**
+- No full-business overview flowchart — unrealistic to produce credibly from a single intake, unlike the real deliverable's 8 weeks of interviews and process mapping.
+- **Instead: a business-unit coverage map.** A simple visual across standard business unit categories — Account Management, Sales, Accounting, Back Office, Marketing, Product/Project Delivery — marking which unit(s) the Teardown's findings actually touched, and visibly leaving the rest unexplored. This does double duty: it's honest about scope, and it visually sells the Roadmap by showing how much of the business a full discovery process would cover that the Teardown didn't touch.
+- Effort/Impact scoring stays qualitative for the same reason it does in the real deliverable even after 8 weeks ("we don't have reliable time/cost numbers yet for most of this") — not a lowered bar, just fewer items to score.
+
+**Revised Teardown document structure:**
+1. Opening reflection — specific to their business, not generic
+2. **Business-unit coverage map** — the visual described above
+3. 2–3 ranked opportunities, each scored Effort/Impact and tiered (Quick Win, etc.), with hours + dollars impact where possible (per the Manual-Process Cost Estimate approach)
+4. **"What this covers / what it doesn't"** — explicit, mirrors the real deliverable's own framing. Sets up the call directly: this is what surfaced from a single intake; a full discovery process across the whole business (interviews, workflow-by-workflow) is what the Roadmap is built from
+5. Next step: the review call
+
 ### Emotional sequencing (marketing, to refine later)
 Rather than picking one emotion, sequence three across the funnel:
 1. **Fear/FOMO** opens the door (ad/hook) — "AI is changing what 'competitive' means, and you didn't need to know how to code to compete before."

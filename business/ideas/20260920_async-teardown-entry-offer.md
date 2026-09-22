@@ -67,11 +67,11 @@ Not scripted in detail yet — rough shape only:
 
 - **Format: PDF.** Chosen over a Notion page (like the existing `audit-report-notion` PI skill) because a polished branded PDF reads more like a premium paid deliverable, fitting the $1,500 anchor/$497 pricing — a shareable Notion link tends to feel more like an internal working doc. Trade-off noted: the `audit-report-notion` skill could be adapted with less rework if a Notion-based format is ever preferred instead.
 - **Length: medium, roughly 3–5 pages** — room for context/explanation per opportunity, not just a bare list.
-- **Structure**, adapted from the `audit-report-notion` skill's shape (Mermaid flowchart, scored quick-win tables, open-pain section, metrics upsell signal, next steps) but reworked for a general-business PDF:
+- **Structure**, adapted from the `audit-report-notion` skill's shape (Mermaid flowchart, scored quick-win tables, open-pain section, metrics upsell signal, next steps) and grounded directly in the real $7–10K Roadmap deliverable's DNA — see [[20260922_close-q4-strong-entry-offer]] for the full reasoning (effort/impact tiering, honest "what this is/isn't" framing, specificity over generic categories):
   1. Opening reflection — 1–2 sentences showing genuine, specific familiarity with their business, not generic
-  2. 2–3 ranked opportunities — each with "what we found" + dollarized/time impact, deeper and more specific than the Stage 1 Manual-Process Cost Estimate
-  3. A simple visual (quick-win scoring table or flowchart) — signals analytical rigor, not just opinion
-  4. "What this doesn't cover" — short, honest note that this is diagnosis, not implementation; sets up the review call/Roadmap naturally via the "one step of a multi-step process" framing
+  2. **Business-unit coverage map** — a simple visual across standard categories (Account Management, Sales, Accounting, Back Office, Marketing, Product/Project Delivery) marking which unit(s) the findings actually touched, leaving the rest visibly unexplored. Replaces an earlier "full overview flowchart" idea, which isn't realistic to produce credibly from a single intake (the real Roadmap's overview diagram comes from 8 weeks of multi-stakeholder discovery). This map is honest about scope AND visually sells the Roadmap by showing how much of the business a full discovery process would cover.
+  3. 2–3 ranked opportunities — each with "what we found" + dollarized/time impact (hours + dollars, per the Stage 1 Manual-Process Cost Estimate approach), scored Effort/Impact and tiered (Quick Win, Near-Term, Strategic, Needs Decision — same tier language as the real deliverable)
+  4. "What this covers / what this doesn't" — explicit, mirrors the real deliverable's own "what this is/isn't" framing; sets up the review call/Roadmap naturally via the "one step of a multi-step process" framing
   5. Next step — pointer to the review call; no hard pitch inside the document itself
 
 ## Next steps
