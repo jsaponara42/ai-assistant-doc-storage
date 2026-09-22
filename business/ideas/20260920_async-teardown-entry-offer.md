@@ -43,6 +43,38 @@ Not scripted in detail yet — rough shape only:
 
 > **Resolved 2026-09-22** — the intake document/question set stays the same for everyone. The only difference is by path: **cold-qualified prospects** (came through Stage 1) get relevant fields pre-filled from their Stage 1 intake answers and are never re-asked — Stage 1's answers are a head start, not a substitute, since that form was kept light to protect free-magnet conversion and doesn't go deep enough for a $1,500-value teardown on its own. **Warm prospects** (skipped Stage 1) fill out the full intake fresh, as originally designed below.
 
+> **Question set drafted 2026-09-22** — built backward from the locked Teardown document structure (see Document format section below), so every question serves a specific part of the final deliverable and nothing is asked without a use. See full question set and revision policy below, replacing the earlier placeholder "fixed set of questions."
+
+### Revision policy
+One round of follow-up allowed. Prospect submits their copy of the doc; JC marks it up / adds clarifying questions directly in the doc where an answer is too thin to build the Teardown from; prospect gets **one resubmission** before the Teardown gets built. Not unlimited back-and-forth — keeps this from becoming a scope-creeping back-and-forth on a $497 (or free/warm) offer.
+
+### Question set
+
+**Section 0 — Business basics** (feeds the opening reflection + qualification fields)
+- Business name, website, what you do
+- How long operating, approximate size (employee count or revenue range)
+- What's prompting you to look at this now, going into Q4?
+- If we find a real opportunity here, would investing in implementing it this quarter be realistic for your business? *(soft budget/willingness signal — same field folded into the Stage 1 form for cold-qualified prospects)*
+
+**Section 1 — Business-unit snapshot** (feeds the business-unit coverage map — repeat once per unit: Account Management, Sales, Accounting, Back Office, Marketing, Product/Project Delivery)
+- Does this function exist as its own role/department? Who owns it?
+- In a sentence or two, how does work move through this area day to day?
+- Any recurring frustration or bottleneck here? *(optional)*
+
+Designed for team distribution — each section naturally maps to whoever owns that part of the business (sales lead answers Section 1's Sales block, bookkeeper answers Accounting, etc.), consistent with the team-distribution mechanic already established below.
+
+**Section 2 — Deep dive** (feeds the 2–3 ranked opportunities — the core content of the document)
+- Of the areas above, which 1–3 feel the most manual, frustrating, or time-consuming right now? *(respondent self-selects — this determines where the Teardown goes deep)*
+- For each one flagged: describe the specific task step by step
+- Who does it, and how many people are involved?
+- How often does it happen, and how long does it take each time?
+- What happens when it goes wrong, or what's the cost of it staying manual? *(lost customers, late payments, errors, compliance risk, etc.)*
+- Any tool currently used for this? *(sanity-checks whether it's genuinely manual or already semi-automated)*
+
+**Section 3 — Context** (feeds the opening reflection's specificity)
+- What makes your business different from competitors in your space?
+- Anything specific going on this quarter worth knowing? *(growth push, new hire, slow season, etc.)*
+
 - **Pull public data first.** Anything gettable from their website/LinkedIn (reusing the `pi-firm-snapshot` pipeline) gets pulled automatically — never ask a question Google could already answer.
 - **Delivery mechanic**: a Google Doc template with a fixed set of questions. The prospect makes their own copy and answers directly into each question using voice dictation rather than typing — faster and richer answers from busy executives, no custom voice-intake tooling required.
 - **Team distribution encouraged**: prospect is told to send the doc around to their own team so specific people can answer the questions they personally know best. This gets real specificity into the intake without costing JC any extra time, and mirrors what's worked in real engagements (e.g., multiple stakeholders interviewed for the Capital Financing opportunity map — see [[20260910_capital-financing-opportunity-map-final]]).
