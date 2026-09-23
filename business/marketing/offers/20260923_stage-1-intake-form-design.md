@@ -110,7 +110,7 @@ Frequency × time per round (Screen 7) gives hours per week. Multiply by 50 work
 Possible later addition: if a voice answer comes back thin, the AI asks one follow-up question before the form continues. Held for now because of build complexity.
 
 ## Next steps
-- Choose the form builder. Confirm it supports multi-step flow, progress saving/partial capture, device detection for the tutorial, and a required website field with a "none" option.
+- **Built in Jotform (2026-09-23):** https://www.jotform.com/build/262656939909073. Device detection replaced with an optional "Show me how on: iPhone / Android / Mac / Windows" choice that reveals the matching dictation steps. Hidden fields added for `hook` and UTM parameters so the engine knows which landing page sent each lead. Needs a manual review pass: brand colors/fonts, conditional logic (no-website checkbox, second process, tutorial), progress bar, save-and-continue, and partial-submission capture.
 - Build and test on real devices (iPhone, Samsung, Pixel, Mac, Windows), especially the dictation tutorial.
 - Next linear build task: the Manual-Process Cost Estimate logic in implementation detail (role/industry hourly defaults, range math, owner-time valuation, how site signals attach to findings).
 - Then the backend site-read step spec: what gets extracted, competitor discovery method, fallback behavior.
