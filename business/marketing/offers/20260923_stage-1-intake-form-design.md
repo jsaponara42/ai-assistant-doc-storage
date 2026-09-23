@@ -111,6 +111,10 @@ Possible later addition: if a voice answer comes back thin, the AI asks one foll
 
 ## Next steps
 - **Built in Jotform (2026-09-23):** https://www.jotform.com/build/262656939909073. Device detection replaced with an optional "Show me how on: iPhone / Android / Mac / Windows" choice that reveals the matching dictation steps. Hidden fields added for `hook` and UTM parameters so the engine knows which landing page sent each lead. Needs a manual review pass: brand colors/fonts, conditional logic (no-website checkbox, second process, tutorial), progress bar, save-and-continue, and partial-submission capture.
+- **Fix pass (2026-09-23):** the first build was missing the main voice question, the "time-eaters" checkbox question, and the welcome text plus dictation tutorial, and used dry section labels. All added or rewritten via the Jotform connector. Hidden fields (`hook`, UTMs) and the thank-you page were also requested.
+- **Connector limit:** Jotform's builder can't add true page breaks, so the form may be one long scroll. **Fix manually by switching to the Card Form layout** (one question at a time, built-in progress bar), which is the biggest completion-rate lever.
+- **Confirmed applied:** hidden fields (`hook`, `utm_source`, `utm_medium`, `utm_campaign`), thank-you page copy, encouraging section headings, website helper text.
+- **Remaining manual checklist:** Card Form layout; confirm field order in the editor (the API listing shows fields in creation order, not display order); apply brand styling in the Form Designer (cream #FAF9F3 background, navy #061E3A headings/buttons, gold #C29D48 progress bar, green #2DA444 submit); turn on save-and-continue-later; test conditional logic; do a full phone test using dictation.
 - Build and test on real devices (iPhone, Samsung, Pixel, Mac, Windows), especially the dictation tutorial.
 - Next linear build task: the Manual-Process Cost Estimate logic in implementation detail (role/industry hourly defaults, range math, owner-time valuation, how site signals attach to findings).
 - Then the backend site-read step spec: what gets extracted, competitor discovery method, fallback behavior.
