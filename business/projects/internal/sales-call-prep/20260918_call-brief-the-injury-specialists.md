@@ -57,7 +57,6 @@ The Injury Specialists is a 20-year-old (founded 2006) B2B referral network conn
 ## Call Flow (≈30 min)
 **C — Clarify (0–3 min):**
 - "What made now the right time to take this call?"
-- "Before we dive in — is it just you deciding on next steps here, or would Dr. Golden be part of that conversation too?"
 
 **Pain Discovery (3–15 min):** (Pain Ladder tailored to top hypotheses — medical records retrieval, account management load, growth capped by onboarding capacity)
 - "Walk me through what happens from the moment a new provider or attorney applies to join, to the moment they're active and getting referrals."
