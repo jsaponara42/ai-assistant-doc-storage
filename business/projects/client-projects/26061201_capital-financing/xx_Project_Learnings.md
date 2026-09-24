@@ -49,6 +49,19 @@ Howie added two more of his own documents to the vault the same day as the CMO o
 
 ---
 
+### 2026-09-XX — Slack sales system designed, then correctly walked back to a phased rollout the same day
+
+Two calls, same day: a design session with the Salesforce Administrator on the full FC daily-workflow system, followed immediately by a call with Howie that re-sequenced it into something much smaller for the near term. Full process detail is in [[20260616-Workflow-Map-Capital-Financing-merged]] (new Slack-Based Sales Workflow section) and [[xx_howies_wants]] (want #10). A few things worth preserving separately:
+
+- **The re-sequencing was the right call, and it happened fast.** Rather than let the full system get built against essentially no real activity data, the plan folded back to three simple, immediate steps (bookmark the account lists, log every call/email in Salesforce, get one raw-volume report) before any Slack work starts. Worth remembering as a template for future scope conversations with Howie: when he pushes for a fast full build, the productive move is proposing the smallest real step that unblocks everything after it, not arguing the timeline in the abstract.
+- **Howie stress-tested the design well, in a good way.** His questions on this call (how does Slack know a conference ended, what happens after four failed follow-up attempts, is there a hard call quota) surfaced real gaps in the initial design rather than just expressing impatience. Worth noting since it's a different register than his usual pressure-and-deadline mode — he engaged with the actual mechanics here.
+- **Kevin Flood (Segue) is now directly supporting the SOP effort, without being asked by Christy or Yasmine.** Howie had Kevin send Christy his own sample SOPs/cheat sheets for what Segue needs, and separately asked him to do the same for Yasmine — both arranged by Howie behind the scenes, without Christy or Yasmine's prior knowledge. This is a genuinely useful external resource that could speed up the SOP timeline, and worth flagging positively next time the SOP-pressure topic comes up, since it's a concrete thing actually helping rather than more deadline pressure.
+- **Christy's SOP status, as of the week of September 16:** still in progress, written response confirms she's identified three separate models requiring separate SOPs since "the processes are not all the same" — direct corroboration, in her own words, of the intake/underwriting complexity she described on her own 1:1 call. Howie continues to use his own fast SOP turnaround as the comparison point when pushing her on timeline.
+
+*(open for further notes)*
+
+---
+
 ### 2026-09-11 — Howie's CMO overview document: confirms sales is the real priority, and surfaces the reprioritization decision itself as worth logging
 
 Howie added a company/marketing overview document to the vault (dated 2026-08-30, written for an incoming CMO hire he refers to as "The Marketing Boss" but names once, in passing, as **Margarita**). Full findings folded into [[20260616-Workflow-Map-Capital-Financing-merged]] (new **Marketing & Sales Operations** section) and [[xx_howies_wants]] (wants #25–#26, major updates to #11 and #12). The client-facing Opportunity Map was also reprioritized around this document — the reasoning behind that change is worth preserving here, separate from the process facts:

@@ -54,11 +54,11 @@ Leadership's own priority, in writing: get the sales side supercharged first. Th
 
 Six opportunities on this map touch that pipeline directly: Opportunity 1, Opportunity 3, Opportunity 4, Opportunity 5, Opportunity 10, and Opportunity 13. Treat this group as the lead priority.
 
-Opportunity 1 and Opportunity 3 are already moving. Both were designed as one system in a working session with the Salesforce Administrator, and the build is underway now. See both sections below for what's actually being built.
+Opportunity 1 already started, in its simplest form. Consultants are bookmarking their account lists and logging every call and email starting now, and a basic volume report follows shortly after. Opportunity 3 is designed and ready, but it's sequenced after that foundation holds, not running in parallel with it.
 
-If three more things move next, make them Opportunity 4 (referral-gap follow-up), Opportunity 10 (outreach automation), and Opportunity 12 (SharePoint architecture). All three are buildable now.
+If three more things move next, make them Opportunity 4 (referral-gap follow-up), Opportunity 10 (outreach automation), and Opportunity 12 (SharePoint architecture). All three are buildable now, independent of how Opportunity 1 and 3 play out.
 
-Opportunity 2 (referral portal) is a fourth quick win worth running in parallel, outside the sales cluster. It's low-risk and already scoped.
+Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped.
 
 ---
 
@@ -89,8 +89,8 @@ flowchart LR
     UW -.-> O1
     Ct -.-> O2(["Referral portal +\nfollow-up automation"])
     Sv -.-> O3(["Servicing findings feed\nSegue migration"])
-    Fol -.-> O4(["CRM adoption:\nin build via Slack"])
-    Opp -.-> O5(["Slack daily briefing:\nin build"])
+    Fol -.-> O4(["CRM adoption:\nlogging habit first"])
+    Opp -.-> O5(["Slack daily briefing:\ndesigned, sequenced next"])
     Mkt -.-> O6(["Outreach automation\nacross all channels"])
 
     class O1 strategic
@@ -105,9 +105,9 @@ flowchart LR
 
 | # | Opportunity | Tier | Effort | Impact | Likely Owner |
 |---|---|---|---|---|---|
-| 1 | ⭐ Sales follow-up & pipeline adoption (in build) | 🟢 Quick Win | Low | High | Sales leadership + Salesforce Administrator |
+| 1 | ⭐ Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High | Sales leadership + Salesforce Administrator |
 | 2 | Referral/case-submission portal | 🟢 Quick Win | Low–Med | High | DOO's team |
-| 3 | ⭐ Slack + exception-based digest (in build) | 🔵 Near-Term | Med | High | Salesforce Administrator |
+| 3 | ⭐ Slack + exception-based digest | 🔵 Near-Term | Med | High | Salesforce Administrator |
 | 4 | ⭐ Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High | Salesforce Administrator |
 | 5 | ⭐ Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium | Salesforce Administrator |
 | 6 | Post-funding servicing/AR/payoffs, input to the Segue migration | ⚪ Needs Decision | — | High | Ops leadership |
@@ -126,11 +126,11 @@ flowchart LR
 
 **The pain:** Consultants aren't following up consistently, and nobody can see who's working what. Most of the fix already exists. Salesforce has a full Opportunity object built for this, with stages for case-expense and pre-settlement deals, plus automated tasks: a 7-day no-meeting trigger, a 30-day no-referral trigger. Nobody uses it, so it has no data to work with. Same story with the KPI dashboard. Built, reviewed once, left alone.
 
-**The opportunity:** This is an adoption problem. The build already happened. Make Opportunity creation a required habit. Turn the KPI dashboard back on. Send leadership a Monday-morning summary of what each consultant did last week, so nobody has to dig for it.
+**The opportunity:** This starts even more basically than the Opportunity pipeline. Right now, most calls and emails aren't logged as activity at all, so there's no data for anything downstream, including Opportunity records, to work with. The sequence has to go in order: log every call and email first, then create Opportunity records once real positive responses start coming in, then turn the KPI dashboard back on once there's enough real data to make it meaningful.
 
 The metrics to track are no longer a guess. Howie's own FC training materials name them directly: total referred revenue against goal, total volume of advances referred, new law firm accounts added, Strategy Calls completed, Case Expense Onboarding Calls completed, and time to first funding on new accounts. Commission only counts law-firm-referred business, not a returning client who self-initiates a new loan, so any automation needs that filter built in from the start.
 
-**Status: in build.** A working session with the Salesforce Administrator turned this from a recommendation into a design. The reporting already existed, but nothing in the day-to-day pointed anyone toward it. Automatic email logging was available too, but it stalled after one edge case (a brand-new contact not yet in Salesforce) and was never picked back up. The new design fixes the entry-point problem directly: a daily priority list delivered in Slack, not a report waiting to be found. See Opportunity 3 for the full build.
+**Status: phase one is rolling out now.** Every consultant is being asked to bookmark three Salesforce views (active accounts, inactive accounts, prospects) and log every call and email as an activity at the time it happens, for every contact, no exceptions. A one-page training document covers this alone. Once that habit holds, the Salesforce Administrator will add a simple report showing raw call and email volume per consultant per day, including leadership's own volume as a benchmark. Opportunity-record creation and the KPI dashboard come after this foundation is real, not before.
 
 ```mermaid
 flowchart LR
@@ -139,13 +139,13 @@ flowchart LR
     B --> C[Opportunity Record Created]
     C --> D[Auto Task / Notification Logic]
     D --> E[Outcome Logged]
-    C -.->|already built| Opp1(["Now enforced through\na daily Slack priority list"])
-    B -.-> Opp2(["Automated end-of-day\nreport (Opportunity 3)"])
+    B -.->|starting now| Opp2(["Log every call and\nemail as an activity"])
+    C -.->|next, once logging is real| Opp1(["Create Opportunity records\nfrom positive responses"])
     class Opp1 quickwin
     class Opp2 quickwin
 ```
 
-*Solution shape:* Training and enforcement, now paired with a real tool change. Not new development beyond what Opportunity 3 already covers.
+*Solution shape:* Training and a habit change first. A simple volume report next. Opportunity-record adoption and the KPI dashboard follow once the basic logging habit is real.
 
 ---
 
@@ -175,9 +175,9 @@ flowchart LR
 
 **The opportunity:** A daily briefing in Slack, at the start of each consultant's day, split into three tiers: opportunities that need attention first, high-priority new contacts next (conference attendees, for example), and lower-priority new contacts after that. Click through from Slack straight into the record, log the interaction there, and never open Salesforce at all. At the end of the day, leadership gets an automated report in Slack showing how many calls, emails, and in-person visits each consultant made. Nothing to search for.
 
-**Status: designed, in build.** This came out of a working session with the Salesforce Administrator, who is building it now. Timeline is a few weeks, fit around other work already in progress. Training and a written SOP, how to read the daily list, how to log an interaction, what to do when the opportunities section is empty, how to pull an account summary before a visit, should be drafted in parallel, so they're ready the moment the build lands.
+**Status: designed, not yet started.** This system was designed in a working session with the Salesforce Administrator, and the mechanics are real: a three-tier daily list, one-click logging, an automated end-of-day report, time-based follow-up reminders keyed to how long it's been since the last contact. But it depends entirely on the basic logging habit in Opportunity 1 being established first. Building this on top of today's data would mean building it on top of almost nothing. The realistic sequence: get consultants logging consistently, watch the simple volume report for a few weeks, then build this system on data that's actually there.
 
-Two more pieces came up in the same design session, both worth flagging for later rather than now. An AI-generated account summary a consultant could pull up in Slack before an in-person visit, once the daily-briefing habit is established first. And a telephony system that would auto-transcribe and auto-log calls, which becomes a much easier case to make once there's real call-volume data to point at.
+Two more pieces came up in the same design session, further out still. An AI-generated account summary a consultant could pull up in Slack before an in-person visit, once this system itself is running. And a telephony system that would auto-transcribe and auto-log calls, which becomes a much easier case to make once there's real call-volume data to point at.
 
 ```mermaid
 flowchart LR
@@ -194,7 +194,7 @@ flowchart LR
     class G nearterm
 ```
 
-*Solution shape:* Already scoped. A Slack-based daily briefing and an automated end-of-day report, both reading from Salesforce data. The Salesforce Administrator is building it now.
+*Solution shape:* Already scoped. A Slack-based daily briefing and an automated end-of-day report, both reading from Salesforce data. Sequenced to start once Opportunity 1's basic logging habit is established, not before.
 
 ---
 
@@ -397,15 +397,15 @@ flowchart LR
     A -.-> P1(["Dedup +\nassignment rules"])
     C -.-> P2(["AI screening against\na defined firm profile"])
     D -.-> P3(["AI-assisted drafting\nfrom set templates"])
-    F -.-> P4(["Now in build\n(Opportunity 1, 3)"])
-    G -.-> P5(["Now in build\n(Opportunity 1, 3)"])
-    H -.-> P6(["Now in build\n(Opportunity 1, 3)"])
+    F -.-> P4(["Designed, sequenced after\nOpportunity 1 (Opportunity 3)"])
+    G -.-> P5(["Designed, sequenced after\nOpportunity 1 (Opportunity 3)"])
+    H -.-> P6(["Starting now\n(Opportunity 1)"])
 
     class P1 nearterm
     class P2 nearterm
     class P3 nearterm
-    class P4 quickwin
-    class P5 quickwin
+    class P4 nearterm
+    class P5 nearterm
     class P6 quickwin
 ```
 
@@ -413,9 +413,9 @@ Two steps worth calling out directly.
 
 **Calling and emailing itself isn't the automation target.** That's the relationship-building core of the role. The right tool speeds up getting to the call, not the call itself. Research and script writing on one side, follow-up and logging on the other, are where automation actually helps.
 
-**Logging is the step you already named as the real blocker, and it's already being fixed.** Consultants weren't selecting the right follow-up fields after a call, and the CRM already had fields built for exactly this. The fix is now designed and in build, see Opportunity 1 and Opportunity 3: logging moves into Slack, a single click from the daily priority list instead of a separate trip into Salesforce.
+**Logging is the step you already named as the real blocker, and the fix is starting now.** Consultants weren't selecting the right follow-up fields after a call, and the CRM already had fields built for exactly this. The immediate fix, see Opportunity 1, is the simplest possible version: log every call and email as it happens, starting today. The fuller version, moving logging into Slack with one click from a daily priority list, is designed and ready (Opportunity 3), sequenced right after this foundation holds.
 
-**What's genuinely out of scope here:** writing the SOPs, running the training, and managing the behavior change with the Financial Consultants. That work is already queued up alongside the Opportunity 1 and 3 build, drafted while the build is underway so it's ready when it ships, but running the training itself and managing the ongoing behavior change isn't part of this engagement. This shell is the input for the steps that still need it (sourcing, cleaning, researching, and writing to leads), not a replacement for that work.
+**What's genuinely out of scope here:** writing the SOPs, running the training, and managing the behavior change with the Financial Consultants. A one-page training document for the immediate logging habit is ready now (Opportunity 1). The fuller SOP for the Slack system comes once that build actually starts (Opportunity 3). Running the training itself and managing the ongoing behavior change isn't part of this engagement. This shell is the input for the steps that still need it (sourcing, cleaning, researching, and writing to leads), not a replacement for that work.
 
 ---
 
