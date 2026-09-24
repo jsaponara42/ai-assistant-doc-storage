@@ -1,6 +1,6 @@
 ---
 title: "Close Q4 Strong Entry Offer — Context Handoff"
-date: 2026-09-22
+date: 2026-09-23
 tags: [handoff, project]
 ai: claude
 status: ok
@@ -11,24 +11,26 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the linked files below if the current task needs that level of detail.
 
 ## Where things stand
-Blue Tusk's entry-offer funnel is fully designed (not yet built) as a 3-stage funnel: free automated lead magnets (Stage 1) → discounted/waived personal Teardown (Stage 2) → $10K Roadmap (Stage 3). All of Hormozi's Seven Steps ($100M Leads) are worked through for Stage 1 with concrete drafted content (headlines, mechanics, pricing). Immediate focus: **building the Stage 1 free magnets** — two hooks (Competitive Reality Check, Risk Exposure Map) sharing one underlying automated engine.
+Blue Tusk's 3-stage entry-offer funnel is fully designed: free automated magnets (Stage 1) → $1,500 / $497 / homework-gated Teardown (Stage 2) → $10K Roadmap (Stage 3). Now building Stage 1 **linearly**, one piece at a time. The shared intake form is designed and built in Jotform, and waiting on JC's manual editor pass. Next build piece: the Manual-Process Cost Estimate logic.
 
-## Last worked on (2026-09-22)
-- Locked full Stage 1 design: shared intake form, no live public-data pull, AI analysis pipeline, PDF + mobile web report, full-business-day email delay, automatic routing of qualified respondents into Stage 2
-- Reconciled Stage 2 (Teardown) pricing: $1,500 normal / $497 for cold-qualified (via Stage 1) / free-but-homework-gated for warm (CRM contacts, warm intros, referrals)
-- Drafted headline/image/subheadline test candidates for both Stage 1 hooks (Step 4), mobile-first consumption approach (Step 5), the "give away the secrets, sell the implementation" principle (Step 6), and CTA copy (Step 7)
-- Designed the Teardown's document structure and intake question set, grounded in the real $7–10K Roadmap deliverable's DNA (effort/impact tiering, business-unit coverage map instead of a full flowchart, honest "what this covers/doesn't" framing)
+## Last worked on (2026-09-23)
+- Designed the intake form backward from engine outputs: about 10 screens, taps for numbers, two voice-dictation prompts, "last time it happened" framing, frequency × duration instead of "hours wasted," softened qualification (revenue range + intent question, no budget ask)
+- Decided the **backend reads the prospect's website after submission** (the form itself never pulls live). Website URL is now required; site signals are supporting evidence only and never create hour or dollar figures
+- Built the form in Jotform, including a device-specific dictation tutorial and hidden `hook`/UTM fields, then ran a fix pass for pieces the first build dropped
+- Patched the main offer note (Step 3 and the cost-estimate mechanic) to match
 
 ## Open / next
-- **Stage 1 build tasks** (see Next Steps in the main offer note for the full list): the report engine/pipeline, the Manual-Process Cost Estimate logic in implementation detail, the two landing pages, the shared intake form, the mobile web + PDF report templates
-- Stage 2 (Teardown) build tasks tracked separately in its own note — Google Doc intake build, PDF template build, full review-call script
-- ICP refinement and emotional-sequencing copy are lower priority, revisit once real response data or actual copywriting is underway
+- **JC, in the Jotform editor:** switch to Card Form layout (the connector can't add page breaks), check field order, apply brand styling, turn on save-and-continue, test conditional logic, run a phone test using dictation
+- **Next build:** Manual-Process Cost Estimate logic (role/industry hourly defaults, range math, owner-time valuation, how site signals attach to findings)
+- Then: backend site-read spec, report engine, landing pages, report templates
 
 ## Watch items
-- Stage 1's intake form folds in Stage 2 qualification questions (business size, budget/willingness) — flagged risk that this adds friction to a *free* magnet and may suppress opt-in; watch conversion data once live
-- Warm-traffic qualification is origin-based only (CRM/intro/referral) — no separate gate — so don't build unnecessary qualification tooling for that path
+- The Jotform API lists fields in creation order, so the order must be verified visually in the editor
+- Site-derived findings must be phrased as observations ("From your site, it looks like…"), never as facts
+- Opt-in friction from the qualification questions is still worth watching once the form is live
 
 ## Key files
-- [[20260922_close-q4-strong-entry-offer]] — the main working note; Stage 1 (free magnets) design is fully documented here, Steps 1–7
-- [[20260920_async-teardown-entry-offer]] — Stage 2 (Teardown) design: intake questions, revision policy, document structure, CLOSER-based review-call outline
-- [[20260910_capital-financing-opportunity-map-final]] — reference for what the real $7–10K Roadmap deliverable looks like; useful if Teardown document design needs a concrete anchor
+- [[20260923_stage-1-intake-form-design]] — full form spec, Jotform link, backend site-read plan and guardrails, and the remaining manual checklist. Open this for any form or engine work
+- [[20260922_close-q4-strong-entry-offer]] — main offer note, Stage 1 Steps 1–7
+- [[20260920_async-teardown-entry-offer]] — Stage 2 Teardown design
+- [[20260910_capital-financing-opportunity-map-final]] — what the real Roadmap deliverable looks like
