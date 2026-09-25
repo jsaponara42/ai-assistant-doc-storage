@@ -804,6 +804,36 @@ These sales performance dynamics directly affect:
 
 **New KPI, not previously tracked anywhere, including by the FCs themselves: active referring accounts per FC.** Howie wants to know how many currently-active referring law firms each FC has — a number he says he doesn't currently have visibility into, and one he believes FCs should know about their own book of business regardless of what reporting exists, since it's the number that most directly drives their own commission.
 
+### Reports & KPIs Howie wants to see — target-state catalog
+
+Every specific report or metric Howie has explicitly asked for, across the FC training guide and the two 2026-09-XX calls, consolidated in one place so nothing has to be re-extracted from a transcript later. Ranked by cadence, not priority; build sequencing lives in the phased-rollout note above, not here.
+
+| Report / metric | Cadence | Level | Source |
+|---|---|---|---|
+| Calls made | Daily | Per FC | 2026-09-XX call |
+| Emails sent | Daily | Per FC | 2026-09-XX call |
+| In-person visits made | Daily | Per FC | 2026-09-XX call |
+| CEO's own call/email volume | Daily | CEO | 2026-09-XX call — explicit benchmark against FC volume |
+| Dollar amount funded, pre-settlement | Monthly | Per FC | 2026-09-XX call |
+| Dollar amount funded, case expense | Monthly | Per FC | 2026-09-XX call |
+| Total dollar amount deployed | Monthly | Per FC | 2026-09-XX call |
+| Number of fundings, pre-settlement (vs. goal) | Monthly | Per FC | 2026-09-XX call — illustrative target used: 15/month |
+| Number of fundings, case expense | Monthly | Per FC | 2026-09-XX call |
+| Total referred revenue vs. goal | Monthly | Per FC | Sales Team Training Guide, 2026-09-11 |
+| Total volume of advances referred | Monthly | Per FC | Sales Team Training Guide, 2026-09-11 |
+| New referring law firm accounts added | Monthly | Per FC | Both — Training Guide + 2026-09-XX call |
+| Number of Strategy Calls completed | Monthly | Per FC | Both — Training Guide + 2026-09-XX call |
+| Number of Case Expense Onboarding Calls completed | Monthly | Per FC | Both — Training Guide + 2026-09-XX call |
+| Timeline to first funding, new accounts | Ongoing | Per FC | Sales Team Training Guide, 2026-09-11 |
+| Applications declined/denied | Monthly | Per FC | 2026-09-XX call — tracked, but explicitly not a management focus ("don't worry about the declines") |
+| New opportunities/referrals received, including declined | Monthly | Per FC | 2026-09-XX call |
+| Active accounts followed up, out of total active accounts assigned | Monthly | Per FC | 2026-09-XX call — named example: "of your 25 active accounts, how many did you follow up with" |
+| Inactive accounts followed up, out of total inactive accounts assigned | Monthly | Per FC | 2026-09-XX call — named example: "of the 30 inactive accounts, how many did you follow up with" |
+| Prospects contacted, out of total prospects assigned | Monthly | Per FC | 2026-09-XX call — named example: "1,700 prospects, reached out to 100" |
+| Active referring accounts (standing count) | Standing, not time-boxed | Per FC | 2026-09-XX call — new, not tracked anywhere today, not even by the FCs themselves |
+
+**Delivery preferences, stated directly and consistently across both calls:** pushed automatically (Slack DM or equivalent), not something Howie goes and finds in a dashboard; open to a graph/visual format rather than raw numbers only; and sequenced behind the Step 1 logging habit above — none of this is buildable on real data until that holds.
+
 ---
 
 # `[TO CONFIRM]` Checklist — Next Discovery Pass
