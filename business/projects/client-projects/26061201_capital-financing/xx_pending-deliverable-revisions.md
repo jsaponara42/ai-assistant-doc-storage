@@ -40,6 +40,16 @@ Running list of changes to the client-ready Opportunity Map, collected while rev
 
 1. **Add to solution shape:** this probably lives in, or will live in, Claude — worth stating directly that it likely won't require any additional paid service or tool on top of what's already in place.
 
+## Opportunity 10 — Outbound outreach automation
+
+1. **Remove the MailChimp mention here too**, consistent with the Opportunity 5 note above — don't name a specific tool.
+2. **New sub-item to add: centralized, approved email templates**, one per stage/motion, possibly living in SharePoint. Rationale: going from a blank page to a written email takes real time without a template, centralizing them makes them easier to manage and keep consistent, and AI can use a template as the base and write the case-specific customization on top of it. Flagged as a genuinely quick, low-effort piece of this opportunity — worth including, though not confident it should be elevated all the way to its own Quick Win tier. Leave as a sub-point within Opportunity 10 rather than a separate numbered opportunity unless told otherwise.
+
+## Opportunity 11 — Conference list matching & territory structure
+
+1. **Downgrade this from "Needs Decision First."** Not urgent, not super high value right now — more of a longer-term item. The opportunity itself is understood and real, but the manual cost today is acceptable and probably cheaper than building full automation for it, especially since every conference list arrives in a different format. Reconsider whether this stays a headline numbered opportunity or moves to the backlog appendix given the lower priority.
+2. **New idea, possible smaller near-term win:** rather than automating the full match-and-assign process, have Claude take a raw conference list and normalize/standardize it into a consistent view first, which the Salesforce Administrator (Kaz) could then upload and work with more easily. This is a smaller, more targeted fix than full automation, worth calling out separately from the bigger unresolved territory-structure question.
+
 ---
 
 *(add further notes below as the review continues; implement all at once when told to proceed)*
