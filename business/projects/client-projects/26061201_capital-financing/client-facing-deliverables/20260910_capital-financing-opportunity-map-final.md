@@ -153,7 +153,7 @@ flowchart LR
 
 **The pain:** Firms submit case documents through a Word doc. Leadership has called it "unappealing, overwhelming, and unprofessional." That's the CEO's own top reason for lost business.
 
-**The opportunity:** Replace the Word doc with a branded, firm-specific web form. One link per firm, with validation, document upload, and automatic notifications. Already in motion with the DOO's team, low-risk and low-cost.
+**The opportunity:** Replace the Word doc with a branded, firm-specific web form. One link per firm, with validation, document upload, and automatic notifications. Already in motion with the CMO (Marketing Boss), low-risk and low-cost.
 
 ```mermaid
 flowchart LR
@@ -165,7 +165,7 @@ flowchart LR
     class Opp1 quickwin
 ```
 
-*Solution shape:* A form tool, already chosen. Installable as a lightweight app later, so firm staff don't lose the link.
+*Solution shape:* A form tool Installable as a lightweight app later, so firm staff don't lose the link.
 
 ---
 
