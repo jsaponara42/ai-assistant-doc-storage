@@ -17,6 +17,14 @@ Fractional COO practice founded by Martina Madrid Sebring, operating as "Madrid 
 
 ## Changelog
 
+### 2026-09-29 — Terms accepted by email; SOW drafted
+- Martina accepted JC's post-call email terms: **$1,500/month retainer, 3-month minimum** (standard rate $2,500/month, discounted for R&D value), covering the MOG AI-first build and Phone a Friend. Continue or reduce after 3 months.
+- **Referral terms set:** 10% on referred project work over $3,000; 5% on referred retainers over $2,500/month for 24 months (replaces "in perpetuity" floated on the call).
+- **Direct costs:** MOG covers ~$200/month (tokens, subscriptions); consulted before any recurring spend.
+- **Exclusions:** branded/"pretty" client-facing materials (small one-time fee). Pace of build work may vary; Phone a Friend availability stays consistent.
+- **LFG:** JC advised holding off on automating the current invoice process given the expected backend rebuild; will instead coach Martina on a Claude stopgap (local, Claude Code or Cowork). LFG quote units confirmed: $2,100–$3,200.
+- MSA already signed. SOW: [[client-facing-deliverables/20260929_SOW_Madrid_Operations_Group_AI_First_Retainer]].
+
 ### 2026-09-29 — First direct call with Martina (transcript) + JC answers
 - **Engagement confirmed as two tracks:** (1) Blue Tusk works on Madrid Operations Group itself, and (2) Martina's clients get Blue Tusk help *through her*, because most can't budget for it directly. Martina chose to **start with Madrid Operations Group**.
 - **Direction set by JC:** rebuild MOG as an AI-first business on a new, AI-native tool stack rather than integrating with existing tools. Roadmap and build combined into one engagement over the next couple of months, priced as a **reduced-price discovery/pilot** of Blue Tusk's planned $50–100K AI-first rebuild service. Not Blue Tusk's top priority; Martina is fine with that.
@@ -131,9 +139,7 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Phone a friend:** email-based quick questions on client work; JC sends exact prompts and recommendations. Price owed by JC.
 - **Referral arrangement (floated):** 10% commission on project work over $3,000; 5% in perpetuity on retainers over $2,500, for client work Martina refers.
 - **Tool spend:** paid directly by Martina (e.g., Notion premium seats).
-- **LFG build pricing (previously quoted by JC):** "21 or 22 to 32" (units not stated on the call). Martina said it would need to go through her; she'd pass through a percentage to LFG, later and not the full amount, since she also benefits from the learning.
-
-> ⚠️ NEEDS INPUT: Confirm units on the LFG quote ($2,100–$3,200 vs. $21K–$32K) and how the pass-through should be structured.
+- **LFG build pricing (previously quoted by JC):** $2,100–$3,200. Martina said it would need to go through her; she'd pass through a percentage to LFG, later and not the full amount. **Superseded 2026-09-29:** JC recommended holding off on this build given LFG's expected backend rebuild, and coaching a Claude stopgap under Phone a Friend instead.
 
 **Earlier pricing precedents with Martina's clients:** Maycomb AI Steward proposal $750–$1,200/month; Maycomb quick wins $4,500–$6,500 fixed; RFG signaled ~$2,000 first invoice ramping toward ~$5,000/month at peak.
 
@@ -282,7 +288,7 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 
 ## 10. Recommended Service Tier
 
-Structure agreed in principle on the call; prices owed by JC:
+**Accepted 2026-09-29: $1,500/month, 3-month minimum** (see changelog and SOW). Original structure from the call:
 - **MOG rebuild:** combined roadmap + build over the next couple of months, priced as a reduced-rate pilot of the $50–100K AI-first rebuild service. Blue Tusk gains a live reference build and learning.
 - **Phone a friend:** email-based, internal-facing support on client work, bundled into the retainer.
 - **Referral agreement:** commission on client work Martina refers (floated: 10% of projects over $3,000; 5% in perpetuity on retainers over $2,500).
@@ -291,7 +297,7 @@ Structure agreed in principle on the call; prices owed by JC:
 
 Blue Tusk's earlier Maycomb AI Steward proposal ($750–$1,200/month) is the closest comp for the phone-a-friend piece. The rebuild adds build work front-loaded in the first two months.
 
-> ⚠️ NEEDS INPUT: Pricing, term, and whether the referral agreement lives in this SOW or a separate document — for JC to set.
+Referral terms live in the SOW.
 
 ---
 
@@ -302,7 +308,7 @@ Blue Tusk's earlier Maycomb AI Steward proposal ($750–$1,200/month) is the clo
 3. Roughly how Martina's hours split across clients.
 4. MOG's current tools and subscriptions, and whether MOG has its own Claude account/plan (JC to gather).
 5. The LFG loan admin list Martina wants reviewed — confirm where it is (email, vault, or still to send).
-6. Units on the LFG quote ("21 or 22 to 32") and how the pass-through should work.
+6. ~~Units on the LFG quote~~ — **Resolved:** $2,100–$3,200; build on hold per JC's recommendation.
 7. San Antonio client's name; Panorama Education pitch status; name of the AI employee bootcamp.
 8. Revenue or capacity targets for MOG, if any.
-9. Pricing, term, and referral-agreement placement — for the SOW.
+9. ~~Pricing, term, referral placement~~ — **Resolved 2026-09-29:** accepted by email; captured in the SOW.
