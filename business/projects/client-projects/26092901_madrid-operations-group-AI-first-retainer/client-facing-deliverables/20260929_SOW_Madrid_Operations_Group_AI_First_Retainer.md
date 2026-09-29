@@ -73,7 +73,7 @@ Standard Blue Tusk referral terms apply to clients Madrid Operations Group refer
 
 ## Governing Terms
 
-This Statement of Work operates under the Master Services Agreement (MSA) between Blue Tusk LLC and Madrid Operations Group, which has already been signed. The MSA governs all terms and conditions applicable to this engagement, including confidentiality, liability, and ownership.
+This Statement of Work operates under the Master Services Agreement (MSA) between Blue Tusk LLC and Madrid Operations Group, which has already been signed. The MSA governs all terms and conditions applicable to this engagement, including confidentiality, liability, and ownership. Link to [MSA](https://www.bluetuskllc.com/terms-and-conditions)
 
 ## Investment
 
@@ -87,17 +87,4 @@ Direct costs (estimated ~$200/month) are paid by Madrid Operations Group and are
 
 ## Acceptance
 
-Madrid Operations Group's written acceptance of this Statement of Work, by signature or email reply, confirms the terms above, effective September 29, 2026.
-
-**Madrid Operations Group**
-
-Name: Martina Madrid Sebring
-Title: Founder & Principal
-Signature: ______________________
-Date: ______________________
-
-**Blue Tusk LLC**
-
-Name: John-Carlos Saponara
-Signature: ______________________
-Date: ______________________
+Madrid Operations Group's acceptance of this Statement of Work, by payment of the first invoice, confirms the terms above, effective September 29, 2026.
