@@ -79,7 +79,7 @@ This Statement of Work operates under the Master Services Agreement (MSA) betwee
 
 **Monthly Retainer: $1,500/month** (3-month minimum)
 
-**Billing:** The retainer is billed automatically each month, beginning September 29, 2026.
+**Billing:** The retainer is billed automatically each month, beginning on first payment
 
 Blue Tusk's retainers typically start at $2,500/month. This engagement carries a discounted rate because building an AI-first operation in parallel with an existing business has research and development value to Blue Tusk.
 
