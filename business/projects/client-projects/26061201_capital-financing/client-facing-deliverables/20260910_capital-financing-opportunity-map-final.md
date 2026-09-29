@@ -58,7 +58,7 @@ Opportunity 1 already started, in its simplest form. Consultants are bookmarking
 
 If three more things move next, make them Opportunity 4 (referral-gap follow-up), Opportunity 10 (outreach automation), and Opportunity 12 (SharePoint architecture). All three are buildable now, independent of how Opportunity 1 and 3 play out.
 
-Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped.
+Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that Margarita 
 
 ---
 
