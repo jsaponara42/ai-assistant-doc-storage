@@ -58,7 +58,7 @@ Opportunity 1 already started, in its simplest form. Consultants are bookmarking
 
 If three more things move next, make them Opportunity 4 (referral-gap follow-up), Opportunity 10 (outreach automation), and Opportunity 12 (SharePoint architecture). All three are buildable now, independent of how Opportunity 1 and 3 play out.
 
-Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that Margarita 
+Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that Margarita and Marketing Boss may be able to act on this immediately which is great.
 
 ---
 
@@ -103,22 +103,22 @@ flowchart LR
 
 ### Priority summary
 
-| # | Opportunity | Tier | Effort | Impact | Likely Owner |
-|---|---|---|---|---|---|
-| 1 | ⭐ Sales follow-up & pipeline adoption | 🟢 Quick Win | Low | High | Sales leadership + Salesforce Administrator |
-| 2 | Referral/case-submission portal | 🟢 Quick Win | Low–Med | High | DOO's team |
-| 3 | ⭐ Slack + exception-based digest | 🔵 Near-Term | Med | High | Salesforce Administrator |
-| 4 | ⭐ Referral-gap detection & firm follow-up | 🔵 Near-Term | Med | High | Salesforce Administrator |
-| 5 | ⭐ Salesforce → MailChimp sync | 🔵 Near-Term | Low–Med | Medium | Salesforce Administrator |
-| 6 | Post-funding servicing/AR/payoffs, input to the Segue migration | ⚪ Needs Decision | — | High | Ops leadership |
-| 7 | Intake & underwriting structuring | 🟣 Strategic | Med–High | High | DOO |
-| 8 | Executive inbox AI assistant | 🟣 Strategic | Med–High | High | CEO + Blue Tusk |
-| 9 | Internal staff FAQ assistant | 🟣 Strategic | Medium | Med–High | DOO + Blue Tusk |
-| 10 | ⭐ Outbound outreach automation | 🔵 Near-Term | Medium | High | Sales leadership + Salesforce Administrator |
-| 11 | Conference list matching & territory structure | ⚪ Needs Decision | High | Medium | CEO |
-| 12 | SharePoint information architecture & adoption | 🟢 Quick Win | Low–Med | High | Blue Tusk (design) + DOO (rollout) |
-| 13 | ⭐ Conference ROI tracking & pre/during/post cadence | 🔵 Near-Term | Medium | High | Salesforce Administrator |
-| 14 | Website & SEO performance visibility | 🟢 Quick Win | Low–Med | Medium | Blue Tusk + CEO |
+| #   | Opportunity                                                     | Tier             | Effort   | Impact   | Likely Owner                                |
+| --- | --------------------------------------------------------------- | ---------------- | -------- | -------- | ------------------------------------------- |
+| 1   | ⭐ Sales follow-up & pipeline adoption                           | 🟢 Quick Win     | Low      | High     | Sales leadership + Salesforce Administrator |
+| 2   | Referral/case-submission portal                                 | 🟢 Quick Win     | Low–Med  | High     | DOO's team                                  |
+| 3   | ⭐ Slack + exception-based digest                                | 🔵 Near-Term     | Med      | High     | Salesforce Administrator                    |
+| 4   | ⭐ Referral-gap detection & firm follow-up                       | 🔵 Near-Term     | Med      | High     | Salesforce Administrator                    |
+| 5   | ⭐ Salesforce → MailChimp sync                                   | 🔵 Near-Term     | Low–Med  | Medium   | Salesforce Administrator                    |
+| 6   | Post-funding servicing/AR/payoffs, input to the Segue migration | ⚪ Needs Decision | —        | High     | Ops leadership                              |
+| 7   | Intake & underwriting structuring                               | 🟣 Strategic     | Med–High | High     | DOO                                         |
+| 8   | Executive inbox AI assistant                                    | 🟣 Strategic     | Med–High | High     | CEO + Blue Tusk                             |
+| 9   | Internal staff FAQ assistant                                    | 🟣 Strategic     | Medium   | Med–High | DOO + Blue Tusk                             |
+| 10  | ⭐ Outbound outreach automation                                  | 🔵 Near-Term     | Medium   | High     | Sales leadership + Salesforce Administrator |
+| 11  | Conference list matching & territory structure                  | ⚪ Needs Decision | High     | Medium   | CEO                                         |
+| 12  | SharePoint information architecture & adoption                  | 🟢 Quick Win     | Low–Med  | High     | Blue Tusk (design) + DOO (rollout)          |
+| 13  | ⭐ Conference ROI tracking & pre/during/post cadence             | 🔵 Near-Term     | Medium   | High     | Salesforce Administrator                    |
+| 14  | Website & SEO performance visibility                            | 🟢 Quick Win     | Low–Med  | Medium   | CMO + CEO                                   |
 
 ---
 
@@ -128,7 +128,7 @@ flowchart LR
 
 **The opportunity:** This starts even more basically than the Opportunity pipeline. Right now, most calls and emails aren't logged as activity at all, so there's no data for anything downstream, including Opportunity records, to work with. The sequence has to go in order: log every call and email first, then create Opportunity records once real positive responses start coming in, then turn the KPI dashboard back on once there's enough real data to make it meaningful.
 
-The metrics to track are no longer a guess. Howie's own FC training materials name them directly: total referred revenue against goal, total volume of advances referred, new law firm accounts added, Strategy Calls completed, Case Expense Onboarding Calls completed, and time to first funding on new accounts. Commission only counts law-firm-referred business, not a returning client who self-initiates a new loan, so any automation needs that filter built in from the start.
+The metrics to track are no longer a guess. Howie's own FC training materials name them directly: total referred revenue against goal, total volume of advances referred, new law firm accounts added, Strategy Calls completed, Case Expense Onboarding Calls completed, and time to first funding on new accounts. 
 
 **Status: phase one is rolling out now.** Every consultant is being asked to bookmark three Salesforce views (active accounts, inactive accounts, prospects) and log every call and email as an activity at the time it happens, for every contact, no exceptions. A one-page training document covers this alone. Once that habit holds, the Salesforce Administrator will add a simple report showing raw call and email volume per consultant per day, including leadership's own volume as a benchmark. Opportunity-record creation and the KPI dashboard come after this foundation is real, not before.
 
