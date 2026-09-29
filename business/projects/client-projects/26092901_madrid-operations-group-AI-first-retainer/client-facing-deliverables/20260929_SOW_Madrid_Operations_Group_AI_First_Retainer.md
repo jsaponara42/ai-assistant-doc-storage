@@ -58,6 +58,8 @@ The retainer runs for a **3-month minimum term**, from **September 29, 2026** th
 
 **Pacing:** Because this engagement is offered at a discounted rate, Blue Tusk will prioritize higher-paying client work first, and the pace of build work may vary from month to month. Phone a friend availability by email is expected to remain consistent.
 
+**Availability:** Blue Tusk is generally available weekdays, 9am–5pm Eastern. Blue Tusk may occasionally respond outside these hours, including on weekends, but weekend responses are not part of the standard service. Urgent requests that require weekend work are subject to additional billing, agreed in advance.
+
 ## Direct Costs
 
 Madrid Operations Group is responsible for direct costs of the tools built under this engagement, including AI tokens and software subscriptions. These are estimated at **approximately $200/month**. This is an estimate only; actual costs may be higher or lower. Blue Tusk will consult Madrid Operations Group before any recurring spend is activated.
