@@ -54,7 +54,7 @@ Email-based support for AI and automation questions arising from Madrid Operatio
 
 ## Timeline and Term
 
-The retainer begins on acceptance of this Statement of Work and runs for a **3-month minimum term**. At the end of the minimum term, Blue Tusk and Madrid Operations Group will decide together whether to continue, reduce, or end the service.
+The retainer runs for a **3-month minimum term**, from **September 29, 2026** through **December 29, 2026**. At the end of the minimum term, Blue Tusk and Madrid Operations Group will decide together whether to continue, reduce, or end the service.
 
 **Pacing:** Because this engagement is offered at a discounted rate, Blue Tusk will prioritize higher-paying client work first, and the pace of build work may vary from month to month. Phone a friend availability by email is expected to remain consistent.
 
@@ -77,13 +77,15 @@ This Statement of Work operates under the Master Services Agreement (MSA) betwee
 
 **Monthly Retainer: $1,500/month** (3-month minimum)
 
+**Billing:** The retainer is billed automatically each month, beginning September 29, 2026.
+
 Blue Tusk's retainers typically start at $2,500/month. This engagement carries a discounted rate because building an AI-first operation in parallel with an existing business has research and development value to Blue Tusk.
 
 Direct costs (estimated ~$200/month) are paid by Madrid Operations Group and are separate from the retainer.
 
 ## Acceptance
 
-Madrid Operations Group's written acceptance of this Statement of Work, by signature or email reply, authorizes Blue Tusk to begin work and issue the first invoice.
+Madrid Operations Group's written acceptance of this Statement of Work, by signature or email reply, confirms the terms above, effective September 29, 2026.
 
 **Madrid Operations Group**
 
