@@ -13,13 +13,13 @@ This maps where automation and AI can move the needle at Capital Financing, rank
 
 It comes from eight weeks of discovery: process mapping across every department, plus direct conversations with the CEO (Howie), the DOO (Christy), the Servicing (Yasmine) / AR Lead (Danielle), and the Salesforce Administrator (Kaz).
 
-The value here isn't new discovery. It's turning eight weeks of calls and half-formed ideas into one ranked list. When a new idea comes up, check it against this list first. Score it the same way. Add it to the same map. That's how priority stays consistent instead of getting re-litigated every time.
+The value here isn't new discovery. It's turning ten weeks of calls and half-formed ideas into one ranked list. When a new idea comes up, check it against this list first. Score it the same way. Add it to the same map. That's how priority stays consistent instead of getting re-litigated every time.
 
 **How to use it:** a new idea comes in. Check whether it's already here. If it is, fold it into the existing item. If it's new, score it with the framework below and add it to the map or the backlog. This keeps new ideas from turning into scope creep.
 
 **What this isn't:** a build spec. This doesn't design exact tools or interfaces. It says where the highest-ROI opportunities sit and what kind of solution fits. Designing it comes next.
 
-**What this doesn't cover yet:** this map leans toward intake, underwriting, and sales, because that's where discovery has gone deepest so far. The Servicing/AR Lead's Contracting, Funding, and Payouts process is mostly covered through Opportunity 6. The Controller's finance role isn't its own opportunity yet. That gap closes as those conversations continue.
+**What this doesn't cover yet:** this map leans toward intake, underwriting, and sales, because that's where discovery has gone deepest so far. The Servicing/AR Lead's Contracting, Funding, and Payouts process is mostly covered through Opportunity 6.
 
 ---
 
