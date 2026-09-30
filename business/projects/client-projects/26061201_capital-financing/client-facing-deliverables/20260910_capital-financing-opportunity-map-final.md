@@ -11,7 +11,7 @@ status: final
 
 This maps where automation and AI can move the needle at Capital Financing, ranked by effort and impact.
 
-It comes from eight weeks of discovery: process mapping across every department, plus direct conversations with the CEO, the DOO, the Servicing/AR Lead, and the Salesforce Administrator.
+It comes from eight weeks of discovery: process mapping across every department, plus direct conversations with the CEO (Howie), the DOO (Christy), the Servicing (Yasmine) / AR Lead (Danielle), and the Salesforce Administrator (Kaz).
 
 The value here isn't new discovery. It's turning eight weeks of calls and half-formed ideas into one ranked list. When a new idea comes up, check it against this list first. Score it the same way. Add it to the same map. That's how priority stays consistent instead of getting re-litigated every time.
 
@@ -60,7 +60,7 @@ If three more things move next, make them Opportunity 4 (referral-gap follow-up)
 
 Opportunity 15 (internal project management) belongs alongside them. It's quick, costs nothing new, and it's where the rest of this map gets tracked once it's handed off.
 
-Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that Margarita and Marketing Boss may be able to act on this immediately which is great.
+Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that the incoming CMO may be able to act on this immediately which is great.
 
 ---
 
@@ -240,38 +240,48 @@ flowchart LR
 
 ---
 
-### 6. Post-funding servicing/AR/payoffs, input to the Segue migration — ⚪ Needs Decision First
+### 6. Post-funding servicing/AR/payoffs, input to the Segue migration — 🟣 Strategic
 
 **The pain:** Staff spend real time on manual check-in emails to law firms, just to track a case toward settlement. Both the CEO and the DOO have called this function ready for automation.
 
-**This is a migration-scoping item, not a build.** A good chunk of this should be handled by the planned migration off the current case-management system onto Segue. Not all of it will be. Rather than scope this as new development, here's what's worth carrying into that migration conversation, so it doesn't get lost in a generic "modernize the system" discussion.
+**Status: in progress.** The DOO is actively scoping the fields for the Segue migration and working directly with Segue to make sure the system holds up at Capital Financing's volume. She's taking the time to customize it properly instead of rushing it. At this scale, getting the workflow right matters more than getting it fast.
 
-**Weaknesses to carry into the Segue transition:**
+A good chunk of the manual work above should be handled by the migration. Not all of it will be.
+
+**Weaknesses to carry into the Segue transition:** This is the requirements list feeding the migration. Each item is an automation target once Segue is in place.
 - No automated reminders exist today. Follow-up is fully manual.
 - Cadence is discretionary. It varies by staff member and by firm relationship, with nothing written down.
 - Multiple staff members do overlapping manual check-ins that one system could consolidate.
 - The case system and the financial system reconcile today through a manual name match, not a shared case ID. Confirm whether Segue solves this natively, or whether the same manual match survives the migration.
 
+**Why this migration is worth doing well:** Segue reportedly has a potential API integration. If that holds up, it opens the door to automations and AI-assisted work on top of the servicing data down the line. That makes this migration a foundation for future work as well as a system upgrade.
+
+**Connected to Opportunity 7.** The DOO's intake and underwriting SOPs (Opportunity 7) and the Servicing/AR Lead's contracting SOP all feed the same underlying structure the new system needs, running from intake and underwriting through post-funding servicing, accounts receivable, and payoffs. Treat Opportunities 6 and 7 as two inputs to one set of Segue requirements.
+
 ```mermaid
 flowchart LR
-    classDef decision fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-dasharray: 4 3
+    classDef strategic fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
     A[Funded Case] --> B["AR Tracking\n(manual check-ins)"]
     B --> C[Payoff / Reduction Request]
     C --> D[Deposit Received]
     D --> E[Reconciled & Closed]
-    B -.->|"multiple staff,\nmanual status-check emails"| Opp1(["Findings feed the\nSegue migration requirements"])
-    class Opp1 decision
+    B -.->|"multiple staff,\nmanual status-check emails"| Opp1(["Findings feed the Segue\nrequirements (in progress)"])
+    class Opp1 strategic
 ```
 
-*Solution shape:* Not a build. A requirements list for the Segue migration conversation. Revisit this as a real opportunity once the migration's scope and timeline are set, since whatever it doesn't cover is the actual remaining work.
+*Solution shape:* The DOO's active Segue scoping, with the weaknesses above as the requirements list. Whatever Segue doesn't cover natively, plus anything the API integration makes possible, is the automation work that follows.
 
 ---
 
 ### 7. Intake & underwriting structuring — 🟣 Strategic
 
-**The pain:** Underwriting runs on two layers: a rules layer (state law, case type, eligibility) and a judgment layer (attorney reputation, gut read). Today every case reaches the DOO for review, no matter which layer it actually needs. This is also the biggest blocker to the Segue build, which needs the intake questionnaire structured before it can be customized.
+**The pain:** Underwriting runs on two layers: a rules layer (state law, case type, eligibility) and a judgment layer (attorney reputation, gut read). Today every case reaches the DOO for review, no matter which layer it actually needs. The Segue build needs this intake structure defined before it can be customized, so this work feeds Opportunity 6 directly.
 
 **The opportunity:** Structure the rules layer into a defined questionnaire with hard checkpoints. A case that clearly fails never reaches the DOO. That frees up time for the judgment calls only that role can make.
+
+**Status: in progress.** The DOO is writing the intake and underwriting SOPs now. Those SOPs build out the structure, and that structure is the decision tree: the rules-based hard checkpoints described above.
+
+**Sequencing:** once Segue is implemented, this decision tree is what gets mapped to actual automation. The SOP work happening now is the direct input to that later build.
 
 ```mermaid
 flowchart LR
@@ -285,7 +295,7 @@ flowchart LR
     class Opp1 strategic
 ```
 
-*Solution shape:* A decision-tree intake questionnaire, for both clients and law firms, feeding a rules engine. Not a full underwriting AI. The judgment layer stays human by design. Gated on the underlying intake and underwriting content actually getting written down.
+*Solution shape:* A decision-tree intake questionnaire, for both clients and law firms, feeding a rules engine. Not a full underwriting AI. The judgment layer stays human by design. The DOO's SOPs, in progress now, define the tree. Automation follows once Segue is live.
 
 ---
 
@@ -305,7 +315,7 @@ flowchart LR
 
 **The opportunity:** A Q&A layer that answers from the company's actual documentation, with SharePoint staying underneath as the source of truth.
 
-*Solution shape:* Straightforward once the content exists. Gated on the DOO's SOPs and FAQ material actually getting written. Not a technical blocker.
+*Solution shape:* Straightforward once the content exists. This will likely live in Claude, so it shouldn't need any paid service or tool beyond what's already in place. Gated on the DOO's SOPs and FAQ material actually getting written. Not a technical blocker.
 
 ---
 
@@ -315,17 +325,21 @@ flowchart LR
 
 **The opportunity:** Leadership has already called for this to move to AI-assisted, better-automated email generation and sequencing across all six of those motions. The direction is set. What's left is deciding the tool and the team structure around it, not whether to do it.
 
-*Solution shape:* A sequencing and generation layer across the existing law firm segments (prospect, active, inactive), built on top of the Mailchimp migration already underway. Scope the six email motions as one system, not six separate fixes.
+**A quick piece to start with: approved email templates.** One approved template per stage or motion, stored centrally, likely in SharePoint (Opportunity 12). Starting every email from a blank page takes real time. A central set of templates is easier to manage and keeps messaging consistent, and AI can use each template as the base and write the case-specific customization on top. This is low effort and can move ahead of the rest of this opportunity.
+
+*Solution shape:* A sequencing and generation layer across the existing law firm segments (prospect, active, inactive), starting from the approved templates. Scope the six email motions as one system, not six separate fixes. The sending tool is still open (see Opportunity 5).
 
 ---
 
-### 11. Conference list matching & territory structure — ⚪ Needs Decision First
+### 11. Conference list cleanup & matching — 🟢 Quick Win
 
-**The pain:** Matching new conference contacts against roughly 25,000 existing Salesforce contacts takes about two hours per list by hand, with only half auto-matching. Assignment to consultants is manual too, and untracked.
+**The pain:** Matching new conference contacts against roughly 25,000 existing Salesforce contacts takes about two hours per list by hand, with only half auto-matching. Every organizer sends its list in a different format, which is a big part of why it takes so long. Assignment to consultants is manual too, and untracked.
 
-**The opportunity:** Automate the matching and the assignment. But assignment logic depends on defined consultant territories first, which is an org and economics decision, not a technical one.
+**Where this sits now:** Lower priority than it first looked. The manual cost is real but acceptable today, and probably cheaper than building full automation, since every list arrives in a different format. Full automated matching and assignment has moved to the backlog, along with the territory question it depends on.
 
-*Solution shape:* Not scoped until the territory question is settled.
+**The smaller win worth doing now:** Have Claude take each raw conference list and normalize it into one consistent format first. The Salesforce Administrator then uploads and works from a clean, standard file every time instead of reformatting by hand.
+
+*Solution shape:* A repeatable Claude prompt or project that turns any organizer's list into a standard upload format. No automation build. Full matching and territory-based assignment stay in the backlog until the manual cost or the territory decision changes.
 
 ---
 
@@ -343,9 +357,11 @@ flowchart LR
 
 **The pain:** Capital Financing attends 15 to 20 conferences a year at real cost. There's no reliable way to trace a referral back to the conference contact that generated it. Attendee lists come from organizers as name, phone, and address only, no email, which makes the follow-up chain harder to hold together. The consultant team hasn't reliably run post-conference follow-up on their own, which is part of why this work slipped to outside help in the first place.
 
-**The opportunity:** The Salesforce Administrator is already building attendee-level reporting. That's the foundation. Layer a defined pre-conference, during-conference, and post-conference touch sequence on top of it, tied to Mailchimp, with attribution back to the originating conference so ROI is visible for the first time. Conference attendees are also the model example for the "high-priority new contacts" tier in the Opportunity 3 daily briefing, so this and Opportunity 3 should be built with the same contact-prioritization logic in mind.
+**The opportunity:** The Salesforce Administrator is already building attendee-level reporting. That's the foundation. Layer a defined pre-conference, during-conference, and post-conference touch sequence on top of it, with attribution back to the originating conference so ROI is visible for the first time.
 
-*Solution shape:* A cadence system similar to Opportunity 4, keyed to conference attendance instead of firm onboarding. Attribution reporting sits on top of the tracking the Salesforce Administrator already has in motion.
+**This feeds Opportunity 3 directly.** Conference attendees are exactly the kind of new contact the Opportunity 3 daily report needs to surface, and conference follow-up is some of the most time-sensitive logging a consultant does. Build the two with the same contact data and prioritization in mind, as one connected track.
+
+*Solution shape:* A cadence system similar to Opportunity 4, keyed to conference attendance instead of firm onboarding. Attribution reporting sits on top of the tracking the Salesforce Administrator already has in motion. The sending tool is still open (see Opportunity 5).
 
 ---
 
@@ -355,17 +371,32 @@ flowchart LR
 
 **The opportunity:** A simple, automated performance view pulling from Google Analytics, Search Console, and rank tracking, so performance is visible without depending on the vendor's own narrative.
 
-*Solution shape:* A scheduled report or lightweight dashboard on top of tools that already exist. No new SEO work required, just visibility into what's already running.
+**Coordinate with the incoming CMO.** The CMO will likely want this same visibility. Part of this opportunity is getting the SEO vendor talking directly with the CMO, so marketing decisions rest on real data. A dashboard built only for the CEO would miss that.
+
+*Solution shape:* A scheduled report or lightweight dashboard on top of tools that already exist, shared with the CMO from the start. No new SEO work required, just visibility into what's already running.
+
+---
+
+### 15. Internal project management — 🟢 Quick Win
+
+**The pain:** There's no internal project-management system. Internal initiatives have no tracking, due dates, or clear owner, and there's no shared view of status. Prioritization lives in people's heads, so focus splits across too many things at once and nobody has a clear picture of what's actually in flight. It also puts this map at risk. These opportunities need somewhere to live, get prioritized, and stay visible once they're handed off, or the same problem repeats one level up.
+
+This one came out of the diagnostic work itself rather than a specific request.
+
+**The opportunity:** Microsoft Planner. It's already included in the Microsoft ecosystem the company uses, so there's nothing new to buy, and it adds easily to whichever SharePoint site the team lands on (Opportunity 12). Connect it to a Claude project so the team can post updates, move tasks, and check status without a dedicated project manager.
+
+*Solution shape:* Planner set up on the company SharePoint site, seeded with the opportunities on this map, and connected to a Claude project for updates and status. Low effort, since the tool already exists. High impact, since visibility is what makes real prioritization possible.
 
 ---
 
 ## B. Quick Wins (ready to move on now)
 
-Quick wins are a possibility surfaced by discovery, not a promise. These three actually clear that bar.
+Quick wins are a possibility surfaced by discovery, not a promise. These four clear that bar most clearly.
 
 1. **Sales follow-up & pipeline adoption (Opportunity 1).** No new build. Turn on and enforce automation that's already paid for and built. The single highest-leverage move on this map.
 2. **Referral/case-submission portal (Opportunity 2).** Already scoped and in motion with the DOO's team, on a low-risk, low-cost tool. Needs a check-in to confirm it's moving, not a new decision.
 3. **SharePoint information architecture & adoption (Opportunity 12).** No build required. Taxonomy design plus a real rollout push. A strong, low-risk opener for a follow-on engagement: contained, visible, and the foundation several other opportunities here will eventually need.
+4. **Internal project management (Opportunity 15).** Nothing to buy. Planner is already available. Setting it up gives every other item on this map a place to live and a visible status once it's handed off.
 
 Everything else on this map is a real build or a pending decision. Sequencing them is the next conversation, not a promise to make before they're scoped.
 
@@ -373,10 +404,10 @@ Everything else on this map is a real build or a pending decision. Sequencing th
 
 ## C. How new ideas get added
 
-1. **Check if it's already here.** Most new ideas map onto one of the fourteen opportunities above, sometimes as a new detail on an existing one rather than something new.
+1. **Check if it's already here.** Most new ideas map onto one of the fifteen opportunities above, sometimes as a new detail on an existing one rather than something new.
 2. **If it's genuinely new, score it.** Effort: Low, Medium, High. Impact: Low, Medium, High. Same definitions as the framework above.
 3. **Tier it.** Quick Win, Near-Term, Strategic, or Needs Decision First.
-4. **Add it to the backlog below,** with its source and date. It only moves onto the main map once it's scoped enough to sit next to the other fourteen. A one-line idea doesn't jump straight to the priority table.
+4. **Add it to the backlog below,** with its source and date. It only moves onto the main map once it's scoped enough to sit next to the other fifteen. A one-line idea doesn't jump straight to the priority table.
 
 This is what keeps new ideas from turning into scope creep. Everything gets measured the same way, in one place, instead of each idea getting its own conversation about whether it matters.
 
@@ -408,8 +439,8 @@ flowchart LR
     A -.-> P1(["Dedup +\nassignment rules"])
     C -.-> P2(["AI screening against\na defined firm profile"])
     D -.-> P3(["AI-assisted drafting\nfrom set templates"])
-    F -.-> P4(["Designed, sequenced after\nOpportunity 1 (Opportunity 3)"])
-    G -.-> P5(["Designed, sequenced after\nOpportunity 1 (Opportunity 3)"])
+    F -.-> P4(["Planned, sequenced after\nOpportunity 1 (Opportunity 3)"])
+    G -.-> P5(["Planned, sequenced after\nOpportunity 1 (Opportunity 3)"])
     H -.-> P6(["Starting now\n(Opportunity 1)"])
 
     class P1 nearterm
@@ -424,7 +455,7 @@ Two steps worth calling out directly.
 
 **Calling and emailing itself isn't the automation target.** That's the relationship-building core of the role. The right tool speeds up getting to the call, not the call itself. Research and script writing on one side, follow-up and logging on the other, are where automation actually helps.
 
-**Logging is the step you already named as the real blocker, and the fix is starting now.** Consultants weren't selecting the right follow-up fields after a call, and the CRM already had fields built for exactly this. The immediate fix, see Opportunity 1, is the simplest possible version: log every call and email as it happens, starting today. The fuller version, moving logging into Slack with one click from a daily priority list, is designed and ready (Opportunity 3), sequenced right after this foundation holds.
+**Logging is the step you already named as the real blocker, and the fix is starting now.** Consultants weren't selecting the right follow-up fields after a call, and the CRM already had fields built for exactly this. The immediate fix, see Opportunity 1, is the simplest possible version: log every call and email as it happens, starting today. The fuller version, logging from Slack in one place with an automated daily report, is Opportunity 3, sequenced right after this foundation holds.
 
 **What's genuinely out of scope here:** writing the SOPs, running the training, and managing the behavior change with the Financial Consultants. A one-page training document for the immediate logging habit is ready now (Opportunity 1). The fuller SOP for the Slack system comes once that build actually starts (Opportunity 3). Running the training itself and managing the ongoing behavior change isn't part of this engagement. This shell is the input for the steps that still need it (sourcing, cleaning, researching, and writing to leads), not a replacement for that work.
 
@@ -442,7 +473,8 @@ Everything tracked that isn't on the curated map above, either too early-stage t
 | Outreach contractor repositioned as personal assistant | ⚪ Needs Decision | Now easier to resolve since Opportunity 10 answers the automate-or-retire question. This is the remaining piece: what the person does once the email work is automated. |
 | KPI dashboard improve-vs-leave-as-is call | ⚪ Needs Decision | Needs a direct review with the Salesforce Administrator before recommending either way. |
 | Consultant dashboard / weekly reporting layer | 🔵 Near-Term | Downstream of Opportunity 4 (referral-gap detection). Sequence after, not before. |
-| Territory-based FC structure | ⚪ Needs Decision | Org and economics decision. Blocks Opportunity 11. |
+| Territory-based FC structure | ⚪ Needs Decision | Org and economics decision. Blocks automated conference assignment (see below). |
+| Automated conference matching & assignment | ⚪ Needs Decision | Moved from Opportunity 11. Manual cost is acceptable for now, every list arrives in a different format, and assignment depends on the territory decision above. The near-term piece (list normalization) stays on the map as Opportunity 11. |
 | Commissions-spreadsheet automation | 🔵 Near-Term | Overlaps with Opportunity 1. Scope together once CRM adoption is underway. |
 | Segue/Salesforce hybrid architecture | — | Already decided. See Foundational Note above. Not a ranked opportunity. |
 | State/regulatory registration renewal tracker | 🟢 Quick Win (minor) | Small, contained tracking need for litigation-funding state registrations and annual renewals. Currently an ad hoc spreadsheet just started. Low effort, modest impact, but genuinely useful. |

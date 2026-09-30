@@ -2,10 +2,12 @@
 title: "Capital Financing — Pending Deliverable Revisions"
 date: 2026-09-11
 tags: [client, project, revisions]
-status: collecting
+status: archived
 ---
 
 # Pending Revisions — Opportunity Map (client-ready deliverable)
+
+> **IMPLEMENTED 2026-09-29.** Every item below has been applied to [[client-facing-deliverables/20260910_capital-financing-opportunity-map-final]]. Judgment calls made during implementation: Opp 6 retiered to Strategic (owner DOO); Opp 11 kept as #11 but retitled "Conference list cleanup & matching" and retiered to Quick Win (Claude normalization), with full matching/assignment moved to the backlog; new opportunity added as #15 (Quick Win) and to Section B. Start a fresh list below the line for any new notes.
 
 Running list of changes to the client-ready Opportunity Map, collected while reviewing the presentation, to be implemented together once the review pass is complete. Do not implement individually — wait for the go-ahead.
 
