@@ -59,6 +59,16 @@ Running list of changes to the client-ready Opportunity Map, collected while rev
 
 1. **Add a CMO-coordination angle.** The incoming CMO (Margarita, "Marketing Boss") will likely want access to this same visibility. Frame part of this opportunity as coordination — getting the SEO person talking directly with the CMO so they have the data they need to make decisions, not just a dashboard built for the CEO alone.
 
+## New opportunity to add: internal project management
+
+Not raised by Howie or anyone at Capital Financing — an independent diagnostic finding, worth adding as a new numbered opportunity rather than folding into an existing one.
+
+**The problem:** there's no internal project-management system. No tracking, due dates, assignment, or visibility for internal initiatives. Prioritization and status effectively live in one person's head, which slows everything down, since focus splits across too many things at once and nobody has a clear picture of what's actually in flight. This also directly undermines the purpose of this opportunity map itself: these opportunities need somewhere to live, get prioritized, and stay visible once handed off, or the same problem repeats one level up.
+
+**The opportunity:** Microsoft Planner, already available through the Microsoft/SharePoint ecosystem, no new purchase needed, and easy to add to whichever SharePoint site they land on (ties directly to Opportunity 12). Connect it to a Claude project so the team can manage updates, movement, and status without needing a dedicated project manager.
+
+**Suggested tier:** Quick win. Low effort, since the tool already exists and requires no purchase. Real impact, since visibility is what actually enables prioritization instead of split focus.
+
 ---
 
 *(add further notes below as the review continues; implement all at once when told to proceed)*
