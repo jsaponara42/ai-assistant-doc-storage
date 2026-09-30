@@ -38,6 +38,8 @@ Every opportunity gets scored on two axes and sorted into one tier.
 | 🟣 **Strategic** | High effort, high impact. Needs real design work. |
 | ⚪ **Needs Decision First** | Not buildable yet. Blocked on a decision, missing information, or someone else's timeline. |
 
+⭐ marks the sales-pipeline priority group. See "The priority right now: sales" below. A star shows what to work on first. It says nothing about tier or effort.
+
 Effort and impact are scored in words here, not dollars. We don't have reliable time or cost numbers yet for most of this. Getting them, hours spent on manual servicing check-ins, cost per unfilled Opportunity record, is a real next step.
 
 ---
@@ -125,7 +127,7 @@ flowchart LR
 
 ---
 
-### 1. Sales follow-up & pipeline adoption — 🟢 Quick Win
+### 1. ⭐ Sales follow-up & pipeline adoption — 🟢 Quick Win
 
 **The pain:** Consultants aren't following up consistently, and nobody can see who's working what. Most of the fix already exists. Salesforce has a full Opportunity object built for this, with stages for case-expense and pre-settlement deals, plus automated tasks: a 7-day no-meeting trigger, a 30-day no-referral trigger. Nobody uses it, so it has no data to work with. Same story with the KPI dashboard. Built, reviewed once, left alone.
 
@@ -172,7 +174,7 @@ flowchart LR
 
 ---
 
-### 3. Slack logging & daily activity report — 🔵 Near-Term
+### 3. ⭐ Slack logging & daily activity report — 🔵 Near-Term
 
 **The pain:** The company already has close to a hundred Salesforce reports and dashboards. There's no single, obvious place that points anyone toward them day to day, so they go unused even when they'd answer the exact question someone's asking. The Slack subscription is already bought.
 
@@ -207,7 +209,7 @@ flowchart LR
 
 ---
 
-### 4. Referral-gap detection & automated firm follow-up — 🔵 Near-Term
+### 4. ⭐ Referral-gap detection & automated firm follow-up — 🔵 Near-Term
 
 **The pain:** A firm signs on, gets excited, and then never sends a case. Or sends one and goes quiet. Nothing catches this today.
 
@@ -228,7 +230,7 @@ flowchart LR
 
 ---
 
-### 5. Salesforce as the source for warm outreach — 🔵 Near-Term
+### 5. ⭐ Salesforce as the source for warm outreach — 🔵 Near-Term
 
 **The pain:** Scheduled marketing to existing and past clients isn't working well. Salesforce already holds the data that decides who should get what, including account status (active, inactive, prospect) and last contact. Today that data reaches the marketing tool through a manual monthly export and upload, so lists go stale between runs and outreach misses the right people.
 
@@ -319,7 +321,7 @@ flowchart LR
 
 ---
 
-### 10. Outbound outreach automation — 🔵 Near-Term ⭐
+### 10. ⭐ Outbound outreach automation — 🔵 Near-Term
 
 **The pain:** Prospecting, reactivation, thank-you emails, active-account nurture, post-conference follow-up, and the long-term law firm drip series all run manually today, mostly through one person. Reactivation emails aren't getting results. Active accounts get no nurture at all. Thank-you emails go out by hand after every new referral. None of it is consistent, and one person's bandwidth caps how much of it happens.
 
@@ -353,7 +355,7 @@ flowchart LR
 
 ---
 
-### 13. Conference ROI tracking & pre/during/post cadence — 🔵 Near-Term ⭐
+### 13. ⭐ Conference ROI tracking & pre/during/post cadence — 🔵 Near-Term
 
 **The pain:** Capital Financing attends 15 to 20 conferences a year at real cost. There's no reliable way to trace a referral back to the conference contact that generated it. Attendee lists come from organizers as name, phone, and address only, no email, which makes the follow-up chain harder to hold together. The consultant team hasn't reliably run post-conference follow-up on their own, which is part of why this work slipped to outside help in the first place.
 
