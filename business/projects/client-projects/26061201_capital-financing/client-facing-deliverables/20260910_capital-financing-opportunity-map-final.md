@@ -46,7 +46,7 @@ Effort and impact are scored in words here, not dollars. We don't have reliable 
 
 Two opportunities below, Servicing Automation and Intake/Underwriting Structuring, sit on top of a decision that's already final. Salesforce stays the CRM and the system of record for automation and reporting. Segue is being adopted only for the roughly six ops and finance staff who need its financial features, with an integration bridging the two systems.
 
-The case management system, Mighty/JB, is expected to migrate onto Segue over time. A good chunk of the manual servicing and AR work in Opportunity 6 should get absorbed by that migration. Not all of it will. See Opportunity 6 for what's left over.
+The case management system, Mighty/JB, is migrating onto Segue, and the DOO is actively scoping that migration now. A good chunk of the manual servicing and AR work in Opportunity 6 should get absorbed by it. Not all of it will. See Opportunity 6 for what's left over.
 
 ### The priority right now: sales
 
@@ -54,9 +54,11 @@ Leadership's own priority, in writing: get the sales side supercharged first. Th
 
 Six opportunities on this map touch that pipeline directly: Opportunity 1, Opportunity 3, Opportunity 4, Opportunity 5, Opportunity 10, and Opportunity 13. Treat this group as the lead priority.
 
-Opportunity 1 already started, in its simplest form. Consultants are bookmarking their account lists and logging every call and email starting now, and a basic volume report follows shortly after. Opportunity 3 is designed and ready, but it's sequenced after that foundation holds, not running in parallel with it.
+Opportunity 1 already started, in its simplest form. Consultants are bookmarking their account lists and logging every call and email starting now, and a basic volume report follows shortly after. Opportunity 3 builds on that foundation and starts once it holds.
 
 If three more things move next, make them Opportunity 4 (referral-gap follow-up), Opportunity 10 (outreach automation), and Opportunity 12 (SharePoint architecture). All three are buildable now, independent of how Opportunity 1 and 3 play out.
+
+Opportunity 15 (internal project management) belongs alongside them. It's quick, costs nothing new, and it's where the rest of this map gets tracked once it's handed off.
 
 Opportunity 2 (referral portal) is a fourth quick win worth running in parallel. It's low-risk and already scoped. It seems that Margarita and Marketing Boss may be able to act on this immediately which is great.
 
@@ -88,14 +90,14 @@ flowchart LR
     In -.-> O1(["Structured intake +\nhard-rule auto-decline"])
     UW -.-> O1
     Ct -.-> O2(["Referral portal +\nfollow-up automation"])
-    Sv -.-> O3(["Servicing findings feed\nSegue migration"])
+    Sv -.-> O3(["Segue migration scoping\n(in progress)"])
     Fol -.-> O4(["CRM adoption:\nlogging habit first"])
-    Opp -.-> O5(["Slack daily briefing:\ndesigned, sequenced next"])
+    Opp -.-> O5(["Slack logging + daily\nreport: sequenced next"])
     Mkt -.-> O6(["Outreach automation\nacross all channels"])
 
     class O1 strategic
     class O2 quickwin
-    class O3 decision
+    class O3 strategic
     class O4 quickwin
     class O5 nearterm
     class O6 nearterm
@@ -107,18 +109,19 @@ flowchart LR
 | --- | --------------------------------------------------------------- | ---------------- | -------- | -------- | ------------------------------------------- |
 | 1   | ⭐ Sales follow-up & pipeline adoption                           | 🟢 Quick Win     | Low      | High     | Sales leadership + Salesforce Administrator |
 | 2   | Referral/case-submission portal                                 | 🟢 Quick Win     | Low–Med  | High     | DOO's team                                  |
-| 3   | ⭐ Slack + exception-based digest                                | 🔵 Near-Term     | Med      | High     | Salesforce Administrator                    |
+| 3   | ⭐ Slack logging & daily activity report                         | 🔵 Near-Term     | Med      | High     | Salesforce Administrator                    |
 | 4   | ⭐ Referral-gap detection & firm follow-up                       | 🔵 Near-Term     | Med      | High     | Salesforce Administrator                    |
-| 5   | ⭐ Salesforce → MailChimp sync                                   | 🔵 Near-Term     | Low–Med  | Medium   | Salesforce Administrator                    |
-| 6   | Post-funding servicing/AR/payoffs, input to the Segue migration | ⚪ Needs Decision | —        | High     | Ops leadership                              |
+| 5   | ⭐ Salesforce as the source for warm outreach                    | 🔵 Near-Term     | Low–Med  | Medium   | Salesforce Administrator + CMO              |
+| 6   | Post-funding servicing/AR/payoffs, input to the Segue migration | 🟣 Strategic     | Med–High | High     | DOO                                         |
 | 7   | Intake & underwriting structuring                               | 🟣 Strategic     | Med–High | High     | DOO                                         |
 | 8   | Executive inbox AI assistant                                    | 🟣 Strategic     | Med–High | High     | CEO + Blue Tusk                             |
 | 9   | Internal staff FAQ assistant                                    | 🟣 Strategic     | Medium   | Med–High | DOO + Blue Tusk                             |
 | 10  | ⭐ Outbound outreach automation                                  | 🔵 Near-Term     | Medium   | High     | Sales leadership + Salesforce Administrator |
-| 11  | Conference list matching & territory structure                  | ⚪ Needs Decision | High     | Medium   | CEO                                         |
+| 11  | Conference list cleanup & matching                              | 🟢 Quick Win     | Low      | Low–Med  | Salesforce Administrator                    |
 | 12  | SharePoint information architecture & adoption                  | 🟢 Quick Win     | Low–Med  | High     | Blue Tusk (design) + DOO (rollout)          |
 | 13  | ⭐ Conference ROI tracking & pre/during/post cadence             | 🔵 Near-Term     | Medium   | High     | Salesforce Administrator                    |
 | 14  | Website & SEO performance visibility                            | 🟢 Quick Win     | Low–Med  | Medium   | CMO + CEO                                   |
+| 15  | Internal project management                                     | 🟢 Quick Win     | Low      | High     | DOO + Blue Tusk (setup)                     |
 
 ---
 
@@ -169,32 +172,38 @@ flowchart LR
 
 ---
 
-### 3. Slack + exception-based digest — 🔵 Near-Term
+### 3. Slack logging & daily activity report — 🔵 Near-Term
 
 **The pain:** The company already has close to a hundred Salesforce reports and dashboards. There's no single, obvious place that points anyone toward them day to day, so they go unused even when they'd answer the exact question someone's asking. The Slack subscription is already bought.
 
-**The opportunity:** A daily briefing in Slack, at the start of each consultant's day, split into three tiers: opportunities that need attention first, high-priority new contacts next (conference attendees, for example), and lower-priority new contacts after that. Click through from Slack straight into the record, log the interaction there, and never open Salesforce at all. At the end of the day, leadership gets an automated report in Slack showing how many calls, emails, and in-person visits each consultant made. Nothing to search for.
+**The opportunity:** Make it easy to update a contact's touch log in Salesforce, from one place. Slack is the likely home for that. A consultant logs a call or email in a click or two, and the Salesforce record updates without anyone hunting for it.
 
-**Status: designed, not yet started.** This system was designed in a working session with the Salesforce Administrator, and the mechanics are real: a three-tier daily list, one-click logging, an automated end-of-day report, time-based follow-up reminders keyed to how long it's been since the last contact. But it depends entirely on the basic logging habit in Opportunity 1 being established first. Building this on top of today's data would mean building it on top of almost nothing. The realistic sequence: get consultants logging consistently, watch the simple volume report for a few weeks, then build this system on data that's actually there.
+Consultants logging every touch, consistently, is the number one requirement here. Everything else in this opportunity depends on it.
+
+On top of that logging, an automated report of calls, emails, and KPIs goes out in Slack. It goes to the Financial Consultants themselves as well as leadership, so each consultant sees their own numbers and can hold themselves to them. Leadership visibility matters. FC accountability matters more.
+
+Open opportunities should show up in the daily report in some form, so deals don't slip. How exactly they appear hasn't been designed yet. That gets decided when this build starts, once there's real activity data to design around.
+
+**Status: sequenced after Opportunity 1.** This depends entirely on the basic logging habit in Opportunity 1 taking hold first. Building a Slack layer on today's data would mean building it on almost nothing. The realistic sequence: get consultants logging consistently, watch the simple volume report for a few weeks, then build this on data that's actually there.
 
 Two more pieces came up in the same design session, further out still. An AI-generated account summary a consultant could pull up in Slack before an in-person visit, once this system itself is running. And a telephony system that would auto-transcribe and auto-log calls, which becomes a much easier case to make once there's real call-volume data to point at.
 
 ```mermaid
 flowchart LR
     classDef nearterm fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
-    A[Start of Day] --> B["Daily Priority List\nin Slack"]
-    B --> C["Opportunities\nNeeding Attention"]
-    B --> D["High-Priority\nNew Contacts"]
-    B --> E["Lower-Priority\nNew Contacts"]
-    C --> F["Log Interaction\nin Slack"]
-    D --> F
-    E --> F
-    F --> G["End-of-Day Report\nto Leadership"]
+    classDef decision fill:#f3f4f6,stroke:#6b7280,color:#374151,stroke-dasharray: 4 3
+    A["Consultant Makes a Call\nor Sends an Email"] --> B["Logs It in Slack\n(one place)"]
+    B --> C["Salesforce Touch Log\nUpdated"]
+    C --> D["Automated Report:\nCalls, Emails, KPIs"]
+    D --> E[Financial Consultants]
+    D --> F[Leadership]
+    C -.-> G(["Open opportunities surface\nin the report (design TBD)"])
     class B nearterm
-    class G nearterm
+    class D nearterm
+    class G decision
 ```
 
-*Solution shape:* Already scoped. A Slack-based daily briefing and an automated end-of-day report, both reading from Salesforce data. Sequenced to start once Opportunity 1's basic logging habit is established, not before.
+*Solution shape:* Easy, one-place logging into Salesforce, likely through Slack, plus an automated activity report that goes to the consultants and to leadership. How opportunities appear in that report gets designed at build time. Sequenced to start once Opportunity 1's logging habit is established.
 
 ---
 
@@ -219,13 +228,15 @@ flowchart LR
 
 ---
 
-### 5. Salesforce → MailChimp sync — 🔵 Near-Term
+### 5. Salesforce as the source for warm outreach — 🔵 Near-Term
 
-**The pain:** Warm marketing runs through MailChimp now, but getting a current contact list there is a manual monthly export and upload from Salesforce.
+**The pain:** Scheduled marketing to existing and past clients isn't working well. Salesforce already holds the data that decides who should get what, including account status (active, inactive, prospect) and last contact. Today that data reaches the marketing tool through a manual monthly export and upload, so lists go stale between runs and outreach misses the right people.
 
-**The opportunity:** Automate the sync so it doesn't depend on someone remembering to run it. Keep the active, inactive, and prospect tags intact on the MailChimp side.
+**The opportunity:** Make Salesforce the live source for warm outreach, so scheduled marketing always goes to a current, correctly tagged list without anyone remembering to run an export. Which tool does the sending is still open.
 
-*Solution shape:* A scheduled export or a direct sync between the two systems. One direction only. No new segmentation logic needed.
+**Flag for the incoming CMO.** Warm outreach sits in the CMO's lane. The tool choice, and whether the current setup stays, should be the CMO's call once in place. This belongs on the CMO's radar from day one.
+
+*Solution shape:* A scheduled or direct connection from Salesforce to whichever marketing tool the CMO settles on, with the active, inactive, and prospect tags carried over intact. No new segmentation logic needed.
 
 ---
 
