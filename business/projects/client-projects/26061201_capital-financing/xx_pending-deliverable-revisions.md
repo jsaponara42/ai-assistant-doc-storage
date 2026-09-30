@@ -50,6 +50,15 @@ Running list of changes to the client-ready Opportunity Map, collected while rev
 1. **Downgrade this from "Needs Decision First."** Not urgent, not super high value right now — more of a longer-term item. The opportunity itself is understood and real, but the manual cost today is acceptable and probably cheaper than building full automation for it, especially since every conference list arrives in a different format. Reconsider whether this stays a headline numbered opportunity or moves to the backlog appendix given the lower priority.
 2. **New idea, possible smaller near-term win:** rather than automating the full match-and-assign process, have Claude take a raw conference list and normalize/standardize it into a consistent view first, which the Salesforce Administrator (Kaz) could then upload and work with more easily. This is a smaller, more targeted fix than full automation, worth calling out separately from the bigger unresolved territory-structure question.
 
+## Opportunity 13 — Conference ROI tracking & pre/during/post cadence
+
+1. **Remove the MailChimp reference here too**, same pattern as Opportunities 5 and 10 — don't name a specific tool.
+2. **Connect explicitly to Opportunity 3.** This is important input for the daily-briefing automation, not a fully separate track — make that link clear rather than leaving the two opportunities to stand alone.
+
+## Opportunity 14 — Website & SEO performance visibility
+
+1. **Add a CMO-coordination angle.** The incoming CMO (Margarita, "Marketing Boss") will likely want access to this same visibility. Frame part of this opportunity as coordination — getting the SEO person talking directly with the CMO so they have the data they need to make decisions, not just a dashboard built for the CEO alone.
+
 ---
 
 *(add further notes below as the review continues; implement all at once when told to proceed)*
