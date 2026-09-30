@@ -112,6 +112,8 @@ Consistent logging. Every item above reads from that data. If consultants don't 
 
 A proposed sequence. Dates firm up once owners confirm.
 
+**This plan runs through your busy season.** The DOO and the Controller have both said the workload stays heavy until February or March, and people are already pulled in several directions. Moving this forward during that stretch takes good coordination and a clear, agreed order of priorities, so nobody is asked to push on everything at once.
+
 ### Days 1 to 30
 
 - Logging habit takes hold. Volume report goes live. (Opp 1)
