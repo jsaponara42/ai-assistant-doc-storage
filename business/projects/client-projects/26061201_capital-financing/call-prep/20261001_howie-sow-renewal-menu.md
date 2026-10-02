@@ -22,16 +22,15 @@ Quick-reference for the post-delivery call with Howie: how JC's role continues a
 | **Second company** | Extend the engineer and CTO role to Injury Specialists or the third company.                                     | **+$500–750/mo** per company                  |
 
 ### One-time
-| Item | What it is | Price |
-|---|---|---|
-| **Howie power-user coaching** | You get fast with Claude: meeting to action and document, on your real work. | **$TBD** |
-| **Sales team skills (3)** | Re-intro skill refined, plus 2 more, built for the FCs. | **$1,500** |
-| **Sales team training** | FCs trained to use the skills. | **+$500** |
-| **Engineer interviewing** | I interview the candidates and tell you who to hire. | **$1,500** (waived if inside the retainer) |
-| **SharePoint taxonomy for AI** | Folder structure and who-sees-what, designed with Christy, so Claude finds the right file. | **$2,500** |
-| **SharePoint Claude testing** (optional) | Run real questions through Claude against the new structure and fix what it misses. | **Adds to $2,500** (price TBD) |
-| **Planner setup** | Planner built with the Opportunity Map loaded, plus intake of Christy's current initiatives. | **$1,000** |
-| **GHL vs. Salesforce memo** | Decision memo on what the new platform could replace. | **$1,000** |
+| Item                                     | What it is                                                                                 | Price                                      |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| **Howie power-user coaching**            | You get fast with Claude: meeting to action and document, on your real work.               | **$TBD**                                   |
+| **Sales team skills (3)**                | Re-intro skill refined, plus 2 more, built for the FCs.                                    | **$1,500**                                 |
+| **Sales team training**                  | FCs trained to use the skills.                                                             | **+$500**                                  |
+| **Engineer interviewing**                | I interview the candidates and tell you who to hire.                                       | **$1,500** (waived if inside the retainer) |
+| **SharePoint taxonomy for AI**           | Folder structure and who-sees-what, designed with Christy, so Claude finds the right file. | **$2,500**                                 |
+| **SharePoint Claude testing** (optional) | Run real questions through Claude against the new structure and fix what it misses.        | **Adds to $2,500** (price TBD)             |
+
 
 ### Included
 | Item | What it is | Price |
