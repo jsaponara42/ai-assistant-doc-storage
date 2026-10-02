@@ -52,25 +52,31 @@ Tick items as they're agreed, and strike the ones that get dropped.
 
 **Add-ons (monthly)**
 - [ ] Extend the engineer and CTO role to Injury Specialists or the third company: **+$500–750/mo per company.** This fills the engineer's downtime, as pitched on the last call.
-- [ ] Planner accountability layer: weekly review of the board, plus a Claude-written status summary to Howie: **+$500/mo**
-  - Overlaps with Martina's fractional PM service. If Howie hires her, narrow this to the tech side (Claude status summary, builds in the board) or drop it. Decide your position before Monday.
 
 **One-time projects**
-- [ ] **Prompts vs. skills session, with the first 3 skills built** for Claude and Slack (his email ask): **$1,500**
-  - Re-intro skill is already built from the 10-02 demo. Decide whether it counts as skill 1 of 3 or is a free sample.
+- [ ] **Howie Claude power-user coaching: meeting to action and document: $TBD**
+  - Goal: Howie gets productive on his own. Workflow: Fireflies transcript to Claude to a Word doc saved in SharePoint to an Outlook email, with voice dictation for long replies.
+  - Setup is done (Fireflies connected, auto-record for private meetings on). This is the habit-building.
+  - Practice on real work: promises he makes on client calls, follow-ups, and long email threads he has to answer. Check that each of his meetings is actually being recorded.
+- [ ] **Sales team skills: 3 skills built, plus team training: $1,500 build + $500 training**
+  - Build: the re-intro skill we started on 10-02 plus 2 more. Refining the first one is included in the price.
   - Candidate skills from the call: Salesforce activity-by-rep report analysis, conference prep and post-conference follow-up, meeting transcript to action plan and follow-up email.
-  - Roll out through shared Teams skills so the FCs never write a prompt.
-- [ ] Claude seat audit and FC usage training, covering who keeps a seat and how to use it at scale: **$1,000** (seats cancelled offset part of this)
-  - Current state: six seats after Danielle's was removed. The seat-removal screen in Organization settings is glitching (black screen), so more removals may need Anthropic support.
-  - Include the meeting-to-action habit (Fireflies to Claude to Word doc in SharePoint to email) as part of the training. Check that each FC's meetings are actually being recorded.
-- [ ] Engineer sourcing, vetting, and a 90-day mandate: **$1,500**
-  - Howie already has a contact through his friend Alex. You offered to help interview candidates, and he said that's ideal. Sourcing may shrink to vetting plus the mandate, so reprice if so.
+  - Training (+$500): get the FCs using the skills. Roll out through shared Teams skills so they never write a prompt.
+  - Covers his email ask on prompts vs. skills and how to tell them apart in Slack and Claude.
+- [ ] **Engineer interviewing: $1,500**
+  - You interview the candidates from Howie's contact through Alex. He said that's ideal.
+  - Waive it if the retainer scope includes engineer management. The core block already lists "Direct the AI engineer," so decide before the call whether interviewing sits inside it.
 - [ ] Planner setup with the map loaded, plus intake of Christy's current initiatives (capture what exists *before* asking her to justify it): **$1,000**
-- [ ] SharePoint taxonomy for AI, designed with Christy: **$1,500–2,500**
+- [ ] **SharePoint taxonomy for AI, designed with Christy: $2,500, more with Claude testing**
+  - Priced at the top of the old $1,500–2,500 range. This is a priority item.
+  - Claude testing (optional, raises the price): after the restructure, run real questions through Claude against SharePoint and fix naming and placement wherever it picks the wrong file.
   - **Depends on IT first.** Howie needs delete rights and folder-level permissions fixed before any restructure. See the IT email.
   - Scope should include who sees which folders (the access model), not only folder names. IT executes the permissions, you design them.
   - Reason it matters for AI: Claude sees SharePoint as a list of files, so a hard-to-navigate structure leads to wrong files being pulled.
 - [ ] GHL vs. Salesforce decision memo on what Margarita could replace: **$1,000**
+
+### Complimentary (keeps you in good standing)
+- **Claude seat audit.** Light work, no charge. Current state: six seats after Danielle's was removed. The seat-removal screen in Organization settings is glitching (black screen), so more removals may need Anthropic support.
 
 ### Already conceded (he claimed these on the last call, so give them away gracefully)
 - Planner day-to-day and SharePoint structure go to Christy, as DOO work.
@@ -78,8 +84,8 @@ Tick items as they're agreed, and strike the ones that get dropped.
 - Conference list imports stay with Kaz. The automated dedupe remains an engineer build under the CTO spec.
 
 ### Trade, don't give
-- Waive the engineer sourcing fee **in exchange for a 6-month term.**
-- Include the prompts/skills session in month 1 **only if** the core retainer is signed that day.
+- Waive the engineer interviewing fee **in exchange for a 6-month term.** Or fold it into the retainer scope.
+- Include the sales skills build in month 1 **only if** the core retainer is signed that day.
 
 ### Hold the line
 - The retainer covers direction, not implementation. Any build JC does himself is quoted separately at his rate.
@@ -97,4 +103,7 @@ Tick items as they're agreed, and strike the ones that get dropped.
 - [ ] Send Howie the IT email so he can forward it
 - [ ] Monday: confirm the meeting agenda (finalize the earlier discussion, project management and ownership, AI engineer next steps, how you keep working together)
 - [ ] After Monday: introduce Howie to Martina if he still wants it
-- [ ] Decide whether the re-intro skill counts toward the first 3 skills
+- [ ] Set the price for Howie's power-user coaching
+- [ ] Set the SharePoint taxonomy price with and without Claude testing
+- [ ] Decide whether engineer interviewing sits inside the retainer or is billed at $1,500
+- [ ] Decide whether Planner setup ($1,000) stays on the menu now that the fractional PM owns Planner accountability
