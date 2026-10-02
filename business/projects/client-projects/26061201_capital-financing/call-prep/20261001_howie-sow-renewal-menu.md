@@ -9,28 +9,27 @@ status: needs-attention
 # Howie SOW Renewal — Call Prep & Menu
 
 ## Summary
-Quick-reference for the post-delivery call with Howie: how JC's role continues as CTO, and a priced menu to work through live. The menu table is first. Details, negotiation notes, and background follow below. Prices are **draft, set before the call.** Internal only.
+Quick-reference for the post-delivery call with Howie: how JC's role continues as CTO and strategist, and a priced menu to work through live. The menu table is first, then the cost framing, then details, negotiation notes, and background. Prices are **draft, set before the call.** Internal only.
 
 ---
 
 ## The Menu
 
 ### Monthly
-| Item               | What it is                                                                                                       | Price                                         |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| **CTO retainer**   | I direct the AI engineer, own the Opportunity Map, send a monthly update, vet vendors, and spec what gets built. | **$2250/mo**, $**2000/mo with Fractional PM** |
-| **Second company** | Extend the engineer and CTO role to Injury Specialists or the third company.                                     | **+$500–750/mo** per company                  |
+| Item | What it is | Price |
+|---|---|---|
+| **CTO retainer** | I direct the AI engineer, own the Opportunity Map, keep the engineers' work documented, send a monthly update, vet vendors, and spec what gets built. | **$2,000/mo** with a fractional PM<br>**$4,000–5,000/mo** without one |
+| **Second company** | Extend the engineer and CTO role to Injury Specialists or the third company. | **+$500–750/mo** per company |
 
 ### One-time
-| Item                                     | What it is                                                                                 | Price                                      |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| **Howie power-user coaching**            | You get fast with Claude: meeting to action and document, on your real work.               | **$TBD**                                   |
-| **Sales team skills (3)**                | Re-intro skill refined, plus 2 more, built for the FCs.                                    | **$1,500**                                 |
-| **Sales team training**                  | FCs trained to use the skills.                                                             | **+$500**                                  |
-| **Engineer interviewing**                | I interview the candidates and tell you who to hire.                                       | **$1,500** (waived if inside the retainer) |
-| **SharePoint taxonomy for AI**           | Folder structure and who-sees-what, designed with Christy, so Claude finds the right file. | **$2,500**                                 |
-| **SharePoint Claude testing** (optional) | Run real questions through Claude against the new structure and fix what it misses.        | **Adds to $2,500** (price TBD)             |
-
+| Item | What it is | Price |
+|---|---|---|
+| **Howie power-user coaching** | You get fast with Claude: meeting to action and document, on your real work. | **$TBD** |
+| **Sales team skills (3)** | Re-intro skill refined, plus 2 more, built for the FCs. | **$1,500** |
+| **Sales team training** | FCs trained to use the skills. | **+$500** |
+| **Engineer interviewing** | I interview the candidates and tell you who to hire. | **$1,500** (waived if inside the retainer) |
+| **SharePoint taxonomy for AI** | Folder structure and who-sees-what, designed with Christy, so Claude finds the right file. | **$2,500** |
+| **SharePoint Claude testing** (optional) | Run real questions through Claude against the new structure and fix what it misses. | **Adds to $2,500** (price TBD) |
 
 ### Included
 | Item | What it is | Price |
@@ -42,61 +41,79 @@ Quick-reference for the post-delivery call with Howie: how JC's role continues a
 ## Opening (say this first)
 "You asked how to implement all this. Here's the answer. An engineer builds. I direct them, because I know your business and they don't. You stay out of managing either of us. Everything below is optional except the first block."
 
-## Price anchor
-From [[20260915_ai_engineer_hire_recommendation]].
+---
 
-| Option | Monthly |
+## The Frame: fractional vs. full-time
+
+### What this would cost as employees
+| Option | Annual cost |
 |---|---|
-| JC builds everything directly | ~$10,000 |
-| One full-time hire with both skill sets | ~$15–20K |
-| **Engineer (~$3K) + JC as CTO ($1,500)** | **~$4,500** |
+| Full-time strategist (my role) | $200–250K salary, close to **$300K** with benefits and 401k |
+| Full-time engineer | $125–175K |
+| **Both full-time** | **~$400–500K** |
+| **Fractional, with a fractional PM** (engineer $3K/mo + my retainer $2K/mo) | **~$60K** |
+| Fractional, without a fractional PM (engineer $3K/mo + my retainer $4–5K/mo) | ~$84–96K |
+
+The fractional figures leave out the fractional PM's fee and any one-time projects. Get Martina's rate before the call so you can show the with-PM and without-PM totals side by side.
+
+### What to say
+"If you hired my role full time, it's $200 to 250K in salary and close to $300K with benefits. The engineer is another $125 to 175K. Two full-time people is $400 to 500K a year. You don't need either one full time right now. The fractional version is $3,000 a month for the engineer and $2,000 a month for me. That's $60,000 a year for both."
+
+"That number assumes you hire a fractional project manager. Project management and documentation take a lot of time and focus, and they're not the best use of my skills. If I take them on, my retainer goes to $4 to 5,000 a month."
+
+### Why a strategist on top of the engineer
+- **I know how to scope and direct engineers.** Howie said he doesn't know how to use one. I do, and I'll share what I've learned along the way.
+- **Continuity from engineer to engineer.** This person may be in college and may leave for a real job. I stay, so the next engineer is caught up and has the context they need.
+- **Documentation.** I make sure the engineers document what they build so anyone who takes over any engineering role starts set up.
+- **The engineer will know the business better than I do.** That's the goal, if they have the time, the resources, and the access. I help them get there.
 
 ---
 
 ## Item details
 
-### CTO retainer, $1,500/mo (the non-negotiable block)
+### CTO retainer: $2,000/mo with a fractional PM, $4,000–5,000/mo without
 - Direct the AI engineer: set priorities, review builds, run a weekly check-in.
 - Own the Opportunity Map and score every new idea against it.
+- Keep the engineers' work documented so any successor starts set up. Carry context from engineer to engineer.
 - Monthly tech/AI update to Howie on what shipped, what's stuck, and why.
 - Vet tech vendors and pitches (Alex Miranda/Frank, GHL vs. Salesforce, MailChimp).
 - Spec the builds the engineer executes (conference dedupe, Opp 4 referral-gap, Opp 13 cadence).
 
-### Second company, +$500–750/mo per company
-Fills the engineer's downtime, as pitched on the last call. Ask Howie which other companies are in scope and their rough size.
+**Why two prices.** Documentation and project management take a lot of time and focus, and they're a poor use of strategist time. If I do them, I would have to raise the retainer significantly, so the without-PM price is $4,000–5,000. If Howie hires a fractional PM, that work leaves my plate and the retainer comes down to $2,000. Decide where in the $4,000–5,000 range you want to land.
 
-### Howie power-user coaching, $TBD
+### Second company: +$500–750/mo per company
+Fills the engineer's downtime, as pitched on the last call. Ask Howie which other companies are in scope and their rough size. With the retainer now higher, check that this add-on price still makes sense.
+
+### Howie power-user coaching: $TBD
 - Goal: Howie gets productive on his own with Claude.
 - Workflow: Fireflies transcript to Claude to a Word doc saved in SharePoint to an Outlook email, with voice dictation for long replies.
 - Setup is done (Fireflies connected, auto-record for private meetings on). This is the habit-building.
 - Practice on real work: promises he makes on client calls, follow-ups, and long email threads he has to answer. Check that each of his meetings is actually being recorded.
 - Pricing options: per session or as a short monthly add-on, since this is coaching one person over time.
 
-### Sales team skills, $1,500 build + $500 training
+### Sales team skills: $1,500 build + $500 training
 - Build: the re-intro skill we started on 10-02, refined, plus 2 more. Refining the first one is included.
 - Candidate skills from the call: Salesforce activity-by-rep report analysis, conference prep and post-conference follow-up, meeting transcript to action plan and follow-up email.
 - Training (+$500): get the FCs using the skills. Roll out through shared Teams skills so they never write a prompt.
 - Covers his email ask on prompts vs. skills and how to tell them apart in Slack and Claude.
 
-### Engineer interviewing, $1,500
+### Engineer interviewing: $1,500
 - You interview the candidates from Howie's contact through Alex. He said that's ideal.
 - Waive it if the retainer scope includes engineer management. The core block already lists "Direct the AI engineer," so decide before the call whether interviewing sits inside it.
 
-### SharePoint taxonomy for AI, $2,500 (more with Claude testing)
+### SharePoint taxonomy for AI: $2,500 (more with Claude testing)
 - Priced at the top of the old $1,500–2,500 range. This is a priority item.
 - **Depends on IT first.** Howie needs delete rights and folder-level permissions fixed before any restructure. See [[client-facing-deliverables/20261002_IT_Email_SharePoint_Permissions]].
 - Scope includes who sees which folders (the access model), not only folder names. IT executes the permissions, you design them.
 - Why it matters for AI: Claude sees SharePoint as a list of files, so a hard-to-navigate structure leads to wrong files being pulled.
 - **Claude testing (optional, raises the price):** after the restructure, run real questions through Claude against SharePoint and fix naming and placement wherever it picks the wrong file.
 
-### Planner setup, $1,000
-Planner set up with the map loaded, plus intake of Christy's current initiatives. Capture what exists *before* asking her to justify it. Planner accountability itself goes to the fractional PM and is not offered. Decide whether this item stays on the menu now that the PM owns Planner.
-
-### GHL vs. Salesforce memo, $1,000
-Decision memo on what Margarita could replace.
-
 ### Complimentary: Claude seat audit
 Light work, no charge, keeps you in good standing. Current state: six seats after Danielle's was removed. The seat-removal screen in Organization settings is glitching (black screen), so more removals may need Anthropic support.
+
+### Cut from the menu (hold in reserve if he asks)
+- Planner setup with the map loaded, plus intake of Christy's current initiatives: $1,000. Planner accountability goes to the fractional PM and is not offered.
+- GHL vs. Salesforce decision memo on what Margarita could replace: $1,000.
 
 ---
 
@@ -117,7 +134,7 @@ He claimed these on the last call, so give them away gracefully.
 - No managing Christy or the FCs. People accountability stays with Howie. JC reports what's stuck, not who to blame.
 - Set the expectation that the engineer *will* have quiet weeks. That's normal and doesn't mean no progress.
 - No open-ended hourly billing. Everything is a fixed monthly fee or a fixed project price.
-- Project management is a separate role from CTO direction and from Christy's DOO job. You told him so on 10-02. Don't absorb it into the retainer by default.
+- Project management is a separate role from CTO direction and from Christy's DOO job. It is priced in: $2,000/mo with a fractional PM, $4,000–5,000/mo without. Don't absorb it at the lower price.
 - Don't scope any build that needs the Salesforce connector. He won't pay for the upgrade.
 
 ---
@@ -140,11 +157,12 @@ New ask from him by email: prompts vs. skills, and how to tell them apart in Sla
 - **Project management is on his mind.** You told him it is its own full-time role and offered an intro to Martina, a fractional PM you trust. He said yes. Meeting set for Monday.
 
 ## Next steps
-- [ ] Set final prices before the call
+- [ ] Set final prices before the call, including where in the $4,000–5,000 range the no-PM retainer lands
+- [ ] Get Martina's rate so you can show total cost with and without a fractional PM
 - [ ] Set the price for Howie's power-user coaching
 - [ ] Set the SharePoint Claude testing price
 - [ ] Decide whether engineer interviewing sits inside the retainer or is billed at $1,500
-- [ ] Decide whether Planner setup ($1,000) stays on the menu
+- [ ] Check the second-company add-on price against the higher retainer
 - [ ] Confirm whether Alex Miranda/Frank's ~$3K/mo offer is still live
 - [ ] Ask Howie which other companies are in scope, and their rough size
 - [ ] Decide on minimum term and payment terms (monthly in advance?)
