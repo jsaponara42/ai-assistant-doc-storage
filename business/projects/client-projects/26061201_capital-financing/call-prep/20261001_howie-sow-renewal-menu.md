@@ -16,10 +16,10 @@ Quick-reference for the post-delivery call with Howie: how JC's role continues a
 ## The Menu
 
 ### Monthly
-| Item               | What it is                                                                                                       | Price                        |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| **CTO retainer**   | I direct the AI engineer, own the Opportunity Map, send a monthly update, vet vendors, and spec what gets built. | **$1,500/mo**                |
-| **Second company** | Extend the engineer and CTO role to Injury Specialists or the third company.                                     | **+$500–750/mo** per company |
+| Item               | What it is                                                                                                       | Price                                         |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| **CTO retainer**   | I direct the AI engineer, own the Opportunity Map, send a monthly update, vet vendors, and spec what gets built. | **$2250/mo**, $**2000/mo with Fractional PM** |
+| **Second company** | Extend the engineer and CTO role to Injury Specialists or the third company.                                     | **+$500–750/mo** per company                  |
 
 ### One-time
 | Item | What it is | Price |
