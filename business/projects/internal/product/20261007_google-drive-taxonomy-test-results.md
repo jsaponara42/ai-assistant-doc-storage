@@ -66,3 +66,40 @@ Outcome: **MOG decision D1 = Google.** The August capability note has been updat
 - [ ] Run the Claude Project isolation test in the Taxonomy Test folder.
 - [ ] Re-run full-text search tomorrow for indexing.
 - [ ] Feed results into the Layer 1.5 / Layer 3 positioning in [[business/projects/internal/product/20260814_information-taxonomy-offering-stack]].
+
+
+---
+
+## Token cost: Google Docs vs markdown (logged 2026-10-07)
+
+**Bottom line:** reading a Google Doc's text is cheap. Editing a Google Doc is expensive, because every index-based edit needs a full structure read first. Repeatedly updating Google Docs would make agent token spend unaffordable. **Workflows must be designed around this, not discovered later.**
+
+### What we observed (same ~1-page SOP doc, from this session's tool results)
+
+| Operation | Approx. size returned | Rough tokens | Relative to markdown |
+|---|---|---|---|
+| Markdown file, read directly | ~1,000 chars | ~250–300 | 1x |
+| Google Doc, text read (Drive `read_file_content`) | ~1,050 chars | ~300 | ~1x |
+| Google Doc, structure read (Docs `read_doc`, required for index-based edits) | ~35,000+ chars of JSON | ~9,000–10,000 | **~30–40x** |
+| One-sentence suggestion edit, end to end (read → write → verify read) | 2 structure reads + write | ~20,000 | **~100–200x** vs a markdown find-and-replace |
+| Full-document text replacement (`replaceAllText`, no read needed) | write only | ~100–300 | ~1x |
+| Creating a doc (HTML upload) | ~1.5–2x the markdown | small | ~1.5–2x |
+
+**Why the structure read is so big:** every paragraph carries about 1.5K characters of style data (mostly empty border, padding and shading settings), and every read includes a block defining all the heading styles. Long docs and tables make it worse. These are estimates from today's tool results, not a controlled benchmark.
+
+### Cost rules (these feed the MOG architecture)
+1. **Markdown first.** Agents draft, iterate and keep notes in markdown in the client's `_ai/` folder. Google Docs are for publishing, not for working.
+2. **Publish once, then edit sparingly.** Create the formatted Google Doc when content is settled (cheap). After that, only small, targeted changes.
+3. **Prefer edits that need no read.**
+   - **Find-and-replace** of a unique phrase needs no structure read. It's the default edit method, and it's what the comment test used.
+   - **Appending at the end of a document** (`endOfSegmentLocation`) needs no index and no read. Agent-maintained logs therefore add new entries **at the bottom**, not the top. This changes the "newest at top" convention used in the test drive.
+4. **One structure read per doc per task, at most.** If an index-based edit can't be avoided, batch every change into one read and one write.
+5. **Verify with the text read, not the structure read.** Re-reading the structure just to confirm an edit doubles the cost. A text read (~1x) is enough to confirm content.
+6. **Suggestion mode only for the final human review.** Never iterate in suggestion mode. Iterate in markdown, then make one batch of suggestions.
+7. **Put high-frequency logs in the cheapest format.** Decision logs, hours and commitment lists are updated constantly, so they belong in markdown (agent-side), a Sheet (adding rows is cheap) or Notion, not in a formatted Google Doc.
+8. **When a whole document needs rewriting, consider republishing.** Many targeted edits to one doc can cost more than publishing a new version. The tradeoff is that a new file means a new link, so only do this at version milestones, and archive the old version.
+
+### Still to test
+- Actual token use with the google-workspace skill's helper script condensing a saved structure read, where code can run.
+- Cost on a long document with tables, to put a realistic number on a client brief or SOP.
+- Whether appending with `endOfSegmentLocation` keeps formatting clean in a decision log.

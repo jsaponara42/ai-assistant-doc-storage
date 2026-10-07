@@ -49,6 +49,7 @@ What we learn here should feed back into those notes. This is the reduced-price 
 6. **Built for multiple users from day one.** Martina, Ashley and Alexis are users now, and it should be easy to add an operator. Roles determine what each person and each agent can see and do.
 7. **Every tool maps to a workflow.** A tool that doesn't serve a mapped workflow gets cancelled (P-003).
 8. **Project codes are the shared key.** One code per engagement (MC, RFG, LFG-COO, LFG-LA, RYSE, AEQ, plus MOG-ADM and MOG-BD) runs through folders, tracker rows, file names, calendar events, hours and email labels. This is what lets the daily brief join data from different sources.
+9. **Design for token cost from the start (added 2026-10-07).** Editing Google Docs is expensive: each index-based edit needs a structure read about 30–40x the size of the text, and one small edit with verification cost around 20K tokens in testing. Reading a Doc's text is cheap. So agents work in markdown, publish to Google Docs once, and edit published docs rarely and cheaply. MOG covers direct costs of about $200/month, and a workflow that constantly rewrites Google Docs would blow through that. Full numbers and rules: [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]] (Token cost section).
 
 ---
 
