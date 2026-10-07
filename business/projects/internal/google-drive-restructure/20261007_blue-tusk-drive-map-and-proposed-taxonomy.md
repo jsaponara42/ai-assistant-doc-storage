@@ -16,6 +16,53 @@ This maps the current folder structure of the Blue Tusk shared drive and propose
 
 **This is a draft for JC to decide.** Nothing in the drive has been changed. The proposal applies Blue Tusk's own free-tier taxonomy principles ([[business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles]]) and the 2026-10-07 connector test findings ([[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]) to JC's own drive. It's dogfooding: whatever works here becomes the template for MOG and future taxonomy engagements.
 
+## Decisions (JC, 2026-10-07)
+
+### D-1. Group by client first, then project
+Every client gets one folder, and each engagement is a project folder inside it. This replaces the vault's project-first grouping for Drive. Aligning the vault is a later follow-up, not changed now.
+
+### D-2. Every client gets a short client code, and it's built into every project ID
+- **Client code:** **3 capital letters, fixed length,** easy to remember, unique, and never reused, even after a client leaves. Registered in the root `INDEX`.
+- **Project ID = `{CLIENT}-{YYMMDDNN}`**, e.g. `MOG-26092901`. *Recommendation: put the client code first* (JC said start or end; first is suggested):
+  - The ID reads in the same order as the folder path (client, then project), so the ID **tells the agent which client folder to open.**
+  - Searching `title contains 'MOG-'` finds every MOG project and file at once.
+  - Lists sort by client in INDEX, Notion and the vault.
+  - Inside a client folder every project shares the prefix, so they still sort by date.
+  - The fixed-length prefix keeps IDs easy to read and parse.
+- **Naming:**
+  - Client folder: `{CLIENT}_{client-slug}`, e.g. `MOG_madrid-operations-group/`
+  - Project folder: `{CLIENT}-{YYMMDDNN}_{project-slug}`, e.g. `MOG-26092901_ai-first-retainer/`
+  - Files: `{YYYYMMDD}_{CLIENT}-{YYMMDDNN}_{description}`, or `{YYYYMMDD}_{CLIENT}_{description}` for client-level files such as the brief or contracts.
+- **Internal Blue Tusk work** uses its own code, proposed `BTK`, e.g. `BTK-26100701_drive-restructure`.
+
+**Proposed client codes (for JC to confirm or change):**
+
+| Client | Proposed code | Existing projects |
+|---|---|---|
+| Madrid Operations Group | MOG | MOG-26092901 (AI-first retainer) |
+| LendForGood | LFG | LFG-26091801 (Xero automation) |
+| Ruthless For Good | RFG | RFG-26073101 (discovery) |
+| Maycomb Capital | MAY | MAY-26061601 (AI roadmap) |
+| Capital Financing | CAP | CAP-26061201 (AI & automation advisory) |
+| NeighborWorks Capital | NWC | NWC-26061701 (AI roadmap) |
+| CauseCrazy (Rocky Fischer) | CCZ | CCZ-25121701 (first project) |
+| Ellison Helmsman (Josh Henderson) | EHM | `[TO CONFIRM project date]` |
+| RightWayRealty Group (Conrad Martin) | RWR | `[TO CONFIRM]` |
+| SyncScript | SYN | `[TO CONFIRM]` (proposal, 2024–2025) |
+| Pine Run Construction | PRC | `[TO CONFIRM]` (currently under "AI Advisory - All") |
+| Blue Tusk (internal) | BTK | e.g. BTK-26100701 (this restructure) |
+
+*Note:* MOG uses "MC" internally for Maycomb. Blue Tusk's registry is Blue Tusk's own, but agreeing on one code per entity across Blue Tusk and MOG (free-tier principle #2) is worth considering, since both work with the same clients.
+
+### D-3. AI isolation rule: across projects yes, across clients never
+- **Allowed:** an agent working on a client can read **every project inside that client's folder.** Earlier engagements are exactly the context that should shape new work for the same client.
+- **Not allowed:** an agent working on a client must **never read, search or write in another client's folder.** This keeps information from one client out of another client's work and keeps confidentiality intact.
+- **How this is enforced:**
+  - The client code in the project ID tells the agent its scope: `MOG-…` means `01_Clients/MOG_…/` only.
+  - Agents work from folder IDs listed in INDEX, never from full-text search across the drive. Search returns every client's files, as shown in the 2026-10-07 test.
+  - Each client gets its own Claude Project, loaded with CONVENTIONS plus that client's brief and folder.
+- **Shared internal material** (`04_Offers/`, `05_Knowledge/`, templates) can be used for any client's task, **as long as it holds no client-specific information.** Anything learned from one client goes into shared folders only after JC has stripped out the client details and turned it into general guidance. Agents never copy client material into shared folders on their own.
+
 ## Context
 - JC wants to restructure his Google Drive to make the most of Claude's Google connectors, and to eventually move the vault from local Obsidian to a cloud service like Drive. **Token efficiency is the main thing to figure out.**
 - Mapped 2026-10-07 by listing folders through the Drive connector. Folders only, no file contents.
@@ -168,7 +215,7 @@ Blue Tusk (shared drive root)
 
 | # | Principle | Why it saves tokens or prevents errors |
 |---|---|---|
-| 1 | **One client = one folder,** holding contracts, proposals, project work and AI notes | An agent scoped to that folder finds everything about the client with one listing. No whole-drive search, no cross-client leaks. |
+| 1 | **One client = one folder,** holding contracts, proposals, project work and AI notes. Agents may work across that client's projects, never across clients (D-3). | An agent scoped to that folder finds everything about the client with one listing. No whole-drive search, no cross-client leaks. |
 | 2 | **Shallow tree:** at most ~3 levels to any working file | Each level is a listing call. Deep nesting multiplies calls, and listings page unpredictably. |
 | 3 | **Predictable names, one convention everywhere** (free-tier principles #2–3) | Agents can build the path from the convention instead of searching. |
 | 4 | **A folder-ID index at the root** (registry: code → Drive folder ID) | The single biggest saving. An agent reads one small index and jumps straight to the right folder by ID, with zero searching. |
@@ -183,7 +230,7 @@ Blue Tusk (shared drive root)
 ```
 Blue Tusk (shared drive)
 ├── CONVENTIONS                         ← how to navigate; read first
-├── INDEX                               ← registry: code → name → Drive folder ID → vault path → status
+├── INDEX                               ← registry: client code → client name → client folder ID; project ID → project folder ID → vault path → status
 ├── _ai/                                ← JC's own agent notes and handoffs (format per D9)
 │
 ├── 00_Company/                         ← evergreen company infrastructure
@@ -195,11 +242,11 @@ Blue Tusk (shared drive)
 │       └── Planning/   (cash flow, revenue/expense trackers, capital contributions, loans)
 │
 ├── 01_Clients/
-│   └── {client-slug}/                  e.g. madrid-operations-group/
-│       ├── {date}_{client}_Client-Brief
+│   └── {CLIENT}_{client-slug}/         e.g. MOG_madrid-operations-group/
+│       ├── {date}_{CLIENT}_Client-Brief
 │       ├── _ai/                        ← handoff, agent notes, rough drafts (format per D9)
 │       ├── 00_Contracts/               ← signed MSA, NDA, every SOW for this client
-│       └── {YYMMDDNN}_{project-slug}/  e.g. 26092901_ai-first-retainer/
+│       └── {CLIENT}-{YYMMDDNN}_{project-slug}/  e.g. MOG-26092901_ai-first-retainer/
 │           ├── meetings/ · decisions/ · drafts/ · delivered/   (only as needed)
 │
 ├── 02_Pipeline/                        ← sales + BD merged: anything not yet a client
@@ -227,7 +274,7 @@ Blue Tusk (shared drive)
 
 | Vault | Proposed Drive |
 |---|---|
-| `business/projects/client-projects/{YYMMDDNN_slug}/` | `01_Clients/{client-slug}/{YYMMDDNN_slug}/` (the vault groups by project; Drive groups by client first. **Decide which to standardize on.**) |
+| `business/projects/client-projects/{YYMMDDNN_slug}/` | `01_Clients/{CLIENT}_{client-slug}/{CLIENT}-{YYMMDDNN}_{project-slug}/` (**decided: client first, D-1.** Aligning the vault is a later follow-up.) |
 | `business/SOPs/`, `business/research/` | `05_Knowledge/` |
 | `business/projects/internal/` | `04_Offers/` + `05_Knowledge/` |
 | `business/marketing/` | `03_Marketing/` |
@@ -253,7 +300,11 @@ Per the offering-stack note's open question on migration, this is also a real-wo
 ## Next steps
 - [ ] **JC:** check the map in the Drive UI and add any folders the listing missed.
 - [ ] **JC:** explain `AGP`, `GhostOps`, `Project Resources`, and what the second shared drive is.
-- [ ] **JC:** decide the top-level structure and whether client folders group by client first or project first (Section 4, vault mapping).
+- [x] **JC:** decide whether client folders group by client first or project first. **Decided 2026-10-07: client first (D-1), client codes in project IDs (D-2), AI isolation rule (D-3).**
+- [ ] **JC:** confirm or change the proposed client codes (D-2 table), confirm client-code-first in project IDs, and fill in the `[TO CONFIRM]` project dates.
+- [ ] **JC:** decide the rest of the top-level structure (Section 4).
+- [ ] Write the isolation rule (D-3) into the Drive `CONVENTIONS` file when it's built, and into the agent rules for MOG.
+- [ ] Later: decide whether to restructure the vault to client-first to match Drive.
 - [ ] **JC:** move `XX_Logins` contents into a password manager and delete the folder.
 - [ ] Decide the migration method (Section 5). If it's the skeleton approach, Claude builds the new folders plus CONVENTIONS and INDEX.
 - [ ] Revisit D9 before any vault-to-Drive move.
