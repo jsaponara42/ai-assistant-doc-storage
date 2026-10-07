@@ -3,13 +3,15 @@ title: "AI File Integration — What's Actually Possible Today (Reality Check fo
 date: 2026-08-16
 tags: [ai, project, strategy, research]
 ai: claude
-status: needs-attention
+status: ok
 ---
 
 # AI File Integration — What's Actually Possible Today (Reality Check for Layer 3)
 
 ## Summary
-The "AI working-partner layer" (Layer 3) implicitly pitches AI working directly inside a client's existing files. That capability doesn't exist yet on the major platforms — today's real ceiling is **read + create-new-file only, no in-place editing** of anything already in Google Drive, and **read-only, full stop** on SharePoint via ChatGPT (Claude gained a narrow, admin-gated write path in July 2026). This note grounds Layer 3 in what's actually deliverable right now, so the offering isn't sold on a capability that doesn't exist yet.
+> **⚠️ Updated 2026-10-07: the Google Drive conclusion below is out of date.** With Claude's Google Docs/Sheets/Slides editor connectors turned on, Claude **can** edit existing native Google Docs in place, including in **suggestion mode** (tracked changes). It can also read a comment, do what it asks and reply in the thread. Confirmed hands-on: [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]. See "Update 2026-10-07" at the end. The original August text is kept below as a record.
+
+*(Original, August 2026)* The "AI working-partner layer" (Layer 3) implicitly pitches AI working directly inside a client's existing files. That capability doesn't exist yet on the major platforms — today's real ceiling is **read + create-new-file only, no in-place editing** of anything already in Google Drive, and **read-only, full stop** on SharePoint via ChatGPT (Claude gained a narrow, admin-gated write path in July 2026). This note grounds Layer 3 in what's actually deliverable right now, so the offering isn't sold on a capability that doesn't exist yet.
 
 ## Context
 Follows [[business/projects/internal/product/20260814_information-taxonomy-offering-stack]]. That doc already builds in a "propose-don't-act" boundary for Layer 3 (draft only, human confirms) — this note doesn't change that decision, it confirms *why* it's the right one and sharpens the sales framing around it. JC's business runs on Google Drive, which is also the platform to test against first.
@@ -48,7 +50,41 @@ Suggested test, kept small and concrete:
 The goal isn't a full pilot — it's confirming, hands-on, that the draft-and-confirm version of Layer 3 is actually smooth enough to deliver before it's in a sales conversation.
 
 ## Next steps
-- [ ] Run the personal test above against JC's own Google Drive before Layer 3 is pitched to anyone.
-- [ ] Rewrite any Layer 3 marketing language that implies direct in-place file editing — reframe explicitly as draft-and-confirm.
-- [ ] Recheck this note in ~2–3 months — this is a fast-moving space (Claude's SharePoint write tools shipped mid-2026) and the picture could shift before the first taxonomy engagement closes.
-- [ ] If a client is SharePoint/M365-based rather than Google Drive, re-verify capability separately — it's not the same ceiling as Google Drive.
+- [x] Run the personal test above against JC's own Google Drive before Layer 3 is pitched to anyone. **Done 2026-10-07.** See the update below.
+- [ ] Rewrite any Layer 3 marketing language. **Revised direction:** in-place editing and suggestion mode now work on Google. The pitch can be "AI drafts inside your documents as tracked suggestions, and you accept them," which keeps draft-and-confirm while dropping the separate-file friction.
+- [ ] Recheck this note in ~2–3 months. This is a fast-moving space.
+- [ ] If a client is SharePoint/M365-based rather than Google Drive, re-verify capability separately. Not re-tested in October.
+
+
+---
+
+## Update 2026-10-07: Google re-tested hands-on
+
+Full results: [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]
+
+**What changed since August.** The August finding (Google Drive is "create-new only, no edit-in-place," new files land as .docx) reflected **the Drive connector alone**. Claude now has separate **Google Docs, Sheets and Slides editor connectors**. With those on, the ceiling is much higher:
+
+| Capability | August (Drive connector only) | October (Drive + editor connectors) |
+|---|---|---|
+| Read existing files | Yes | Yes |
+| Create new files | Yes, as Office files | **Yes, as native Google Docs and Sheets** (HTML or CSV converted on upload); `.md` kept as markdown |
+| Edit an existing file in place | No | **Yes:** targeted inserts, deletes and replacements in a native Google Doc, locked to the version just read |
+| Suggestion mode (tracked changes) | No | **Yes.** One quirk: a new paragraph after a heading shows up as two suggestions (text plus formatting) |
+| Read comments | n/a | **Yes**, through the Drive reader (the Docs reader's comment option returned nothing) |
+| Reply in a comment thread | n/a | **Yes**, in the same thread |
+| Shared drives | Reported gap | **Worked** (read, write, create) |
+
+**What still holds.**
+- **Draft-and-confirm is still the right design.** The reason is no longer only a technical limit; it comes from client gates (e.g. Martina's non-negotiables). Suggestion mode makes it smoother: the draft lives inside the real document as tracked changes, not in a separate file.
+- **SharePoint/M365 wasn't re-tested.** The August SharePoint findings stand until checked.
+- **Editing Office files (.docx/.xlsx) stored in Drive wasn't tested.** Editing is only confirmed on native Google files.
+
+**New limits found (they need design rules, not workarounds).**
+- **Full-text search covers the whole Drive**, not one folder, and doesn't index new files right away. Agents should work from folder IDs. Client isolation can't rely on search.
+- **Agent actions appear under the connected person's name.** Label agent replies with a prefix.
+- **Comments are an instruction source.** Agents should act only on comments from approved people, and confirm anything that reaches outside the doc.
+
+**What this means for the offering stack.**
+- **Layer 3** can now credibly promise "AI works inside your Google Docs as tracked suggestions you accept," which is stronger than "AI drafts new files."
+- The **meeting-transcript flagship** gets easier: close-out updates can land as suggestions in the client's living docs.
+- **Layer 1 (taxonomy) gets more important, not less.** The search finding shows agents need structure, scoped folders and conventions to stay in the right place. Better connectors don't remove that need.

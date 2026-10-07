@@ -18,7 +18,7 @@ This is the first draft of the target architecture for MOG's AI-first rebuild. I
 4. **Agents** (the MOG Claude Team account, built to be AI-agnostic)
 5. **Review & Delivery** (one draft-and-confirm queue that enforces Martina's human gates)
 
-The most important early call is Google vs SharePoint, and that is still open. Much of this is direction rather than final design. The open decisions are listed explicitly near the end.
+The most important early call was Google vs SharePoint. **It's decided: Google (D1, 2026-10-07)**, after a hands-on connector test. Much of this is direction rather than final design. The open decisions are listed explicitly near the end.
 
 ## Context
 **Sources:**
@@ -144,7 +144,7 @@ MOG/
 - **Close outs and decisions get appended, never scattered.** This fixes "next steps in four places."
 - **Format:** see D2. Plain text or markdown is the most AI-agnostic and the cheapest in tokens; Google Docs or Word is easier for Martina and Ashley to edit.
 
-**Platform: Google Drive or SharePoint.** This is open; see D1.
+**Platform: Google Drive (decided 2026-10-07, D1).** It sits in a MOG shared drive. Agents work from folder IDs, not full-text search; see [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]].
 
 ### Layer 3: Records (Notion MOG workspace)
 Structured data that has states, owners and dates belongs in databases, not documents. Notion stays: Martina already pays for it, Ashley's hub lives there, Martina likes it, and Notion AI can build the CRM quickly.
@@ -181,9 +181,17 @@ Structured data that has states, owners and dates belongs in databases, not docu
 - **Triggered tasks:** close out for one-off meetings, onboarding setup, invoice draft at month end.
 - **Inbox categorization.** JC's comment [a] suggests running this outside the Team plan, through the API with a small model, to save plan tokens and scale to more people. To be decided (D7).
 - **AI-agnostic guardrails:** all context lives in Layers 2 and 3, not in chat history or platform memory. Prompts and skills are stored as files. No logic exists only inside a vendor-specific feature unless it has a documented equivalent. A local model was floated on the call as a long-term option if scheduled runs grow, and it isn't in scope now.
+- **Agent behavior rules from the Google test (2026-10-07):**
+  - **Folder-scoped access only.** Full-text search covers the whole Drive, including other clients, so agents never rely on it to find client files.
+  - **Keep the IDs of files just created.** Search doesn't index new files right away.
+  - **Label agent comments and replies with a prefix** (e.g. "🤖 Claude:"). Connectors post under the connected person's name.
+  - **Act on comments only from approved people** (Martina, Ashley, Alexis, JC), and confirm anything outside the doc.
+  - **Read comments through the Drive connector,** not the Docs reader.
 
 ### Layer 5: Review & delivery
 **One pattern for every workflow:** draft → Review Queue → Martina approves or edits → the approved item is executed. This is draft-and-confirm made concrete.
+
+**Suggestion mode makes this work inside the document (tested 2026-10-07).** An agent can make its changes as tracked suggestions in an existing Google Doc. The Review Queue item then points at the doc, and Martina accepts or rejects the changes in Google Docs itself. The same applies to comments: Martina leaves a comment, the agent does what it asks and replies in the thread, and Martina reviews the result. One quirk to expect: a new paragraph added right after a heading shows up as two suggestions (the text and a formatting change). Martina should accept both or use "Accept all."
 
 | Gate (Martina's non-negotiables) | Who drafts | Who approves | Who executes after approval |
 |---|---|---|---|
@@ -222,7 +230,7 @@ Structured data that has states, owners and dates belongs in databases, not docu
 |---|---|---|
 | Claude Team (MOG) | **Keep: build home** | Decided on the call |
 | Notion (MOG workspace) | **Keep: records layer** | Already paid; Ashley's hub; fast CRM build |
-| Google Workspace | **Keep pending D1** | Martina's preference and JC's |
+| Google Workspace | **Keep: filesystem (D1 decided)** | Both prefer it; passed the 2026-10-07 connector test |
 | Fireflies | **Keep, evaluate (D4)** | Works; bot-free option; "whatever serves the system" |
 | QuickBooks Online, Wise, Chase | **Keep** | Bookkeeping isn't being rebuilt. The Wise-to-QBO matching is a later automation or an accounting-service question (P-009). |
 | Toggl | **Evaluate (D5)** | Suggested on the call; free tier |
@@ -233,18 +241,18 @@ Structured data that has states, owners and dates belongs in databases, not docu
 
 ---
 
-## 6. Capability check: the August note is partly out of date
+## 6. Capability check: confirmed by hands-on test (2026-10-07)
 
-[[business/projects/internal/product/20260816_ai-file-integration-capability-reality-check]] concluded that Google Drive was "create-new only, no in-place editing," and that files land as Office formats rather than native Google files. What we've seen in this project since then:
-- **Native Google Docs can be created.** On 2026-09-29 the Drive connector created Martina's First Steps doc as a native Google Doc (HTML converted by Drive), not a .docx.
-- **Google editor connectors exist.** The google-workspace skill in Claude's environment documents Google Docs, Sheets and Slides editor connectors that read and edit files in place, including a suggestion mode. This **wasn't enabled in JC's chat, so it hasn't been tested.** The same skill also lists limits: reading comments has been unreliable, and suggestion mode can be refused.
-- **Drive search is available.** JC's connector exposed search, read-content and create, which the August note said were missing.
+The August note concluded that Google Drive was "create-new only, no in-place editing." A hands-on test in the Blue Tusk shared drive replaced that conclusion. Full results: [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]].
+- ✅ **Shared drive** read and write.
+- ✅ **Native Google Docs and Sheets** created (no .docx); `.md` files kept as markdown.
+- ✅ **Edits an existing doc in place**, targeted and locked to the version just read.
+- ✅ **Suggestion mode** (tracked changes). New paragraphs after a heading show up as two suggestions.
+- ✅ **Comment loop:** reads a comment, does what it asks, replies in the thread.
+- ⚠️ **Full-text search** covers the whole Drive and doesn't index new files right away. Agents use folder IDs instead.
+- ⚠️ **Agent actions show under the connected person's name.** Agents use a label prefix.
 
-**What this means:**
-- The gap between Google and SharePoint may be narrower than JC's working assumption.
-- JC's planned Google test should include the editor connectors.
-- The August note should be updated after the test.
-- Draft-and-confirm remains the design either way, because Martina's gates require it, whatever the platform can do.
+**What this means:** D1 is decided as Google. Draft-and-confirm can now happen inside documents through suggestion mode, not only through separate draft files. The August note has been updated.
 
 ---
 
@@ -252,7 +260,7 @@ Structured data that has states, owners and dates belongs in databases, not docu
 
 | # | Decision | Options | Leaning | Needed by |
 |---|---|---|---|---|
-| D1 | Filesystem platform | Google Drive vs SharePoint | Google if JC's test passes (both prefer it; see Section 6). SharePoint as fallback. | Before Phase 0 folder build |
+| D1 | Filesystem platform | Google Drive vs SharePoint | **Decided 2026-10-07: Google Drive** (passed the connector test) | Done |
 | D2 | Knowledge file format | Google Docs/Word vs markdown/plain text vs mixed | Mixed: briefs and conventions in an easy-edit format for Martina and Ashley; agent-generated logs in the most portable format the platform handles well | Phase 0 |
 | D3 | Where the Review Queue lives | Notion database vs a Drafts folder with a status field | Notion (has states, owners and dates; Ashley already works there) | Phase 1 |
 | D4 | Meeting notes tool | Fireflies vs Notion meeting notes vs other | Keep Fireflies unless it limits the close-out build | Phase 2 |
@@ -267,7 +275,7 @@ Structured data that has states, owners and dates belongs in databases, not docu
 
 | Phase | Weeks | What | Depends on |
 |---|---|---|---|
-| 0. Foundations | 2–4 (Oct) | D1 decision, folder taxonomy, evergreen conventions doc, project code registry, a client brief for each code, Claude Team set up with isolated Projects, skills migrated | Google test; Martina's sign-off on the taxonomy |
+| 0. Foundations | 2–4 (Oct) | MOG shared drive in Google (D1 decided), folder taxonomy, evergreen conventions doc (including the agent rules from the test), project code registry, a client brief for each code, Claude Team set up with isolated Projects, skills migrated | Martina's sign-off on the taxonomy |
 | 1. Quick wins | 2–4 (in parallel) | CRM with follow-up cadence, v1 daily brief (scheduled task), Toggl trial, Review Queue | Contact export; Madrid Ops calendar as master |
 | 2. AI chief of staff | 4–8 | W1 end to end: prep packets, close outs, commitments into the tracker, check-in drafts | Phase 0 (briefs, codes); D4 |
 | 3. Hours → invoices | 6–9 | Weekly roll-up, cap flags, invoice drafts; inbox categorization | Toggl decision; billing rules in the registry |
@@ -286,8 +294,9 @@ Things to watch here and carry back to the product notes:
 - The Google editor-connector test results, for an updated reality-check note.
 
 ## Next steps
-- [ ] Run the Google test (connectors, editor tools, Shared Drive behavior) and decide D1.
+- [x] Run the Google test and decide D1. **Done 2026-10-07: Google.**
 - [ ] Turn Phases 0–1 into the build plan for Martina, due Monday, Oct 12. Include the logins and data exports needed.
-- [ ] Draft the evergreen conventions doc and project code registry.
+- [ ] Draft the evergreen conventions doc and project code registry. Start from the Taxonomy Test `CONVENTIONS.md` and add the agent rules.
 - [ ] Ask Martina to try separate browser profiles for client Claude accounts (D6).
-- [ ] After the Google test, update the August capability reality-check note.
+- [x] Update the August capability reality-check note. **Done 2026-10-07.**
+- [ ] Run the Claude Project isolation test in the Taxonomy Test folder.

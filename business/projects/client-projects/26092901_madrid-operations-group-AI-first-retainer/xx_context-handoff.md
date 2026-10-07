@@ -26,7 +26,7 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 
 ## Open / next
 - Write the Monday build plan. The quick wins are the Pipeline CRM with a follow-up cadence (needs Martina's exported contacts), a daily brief via scheduled task, and a Toggl trial.
-- Google vs SharePoint decision, after JC's Google testing.
+- Google vs SharePoint: **decided 2026-10-07, Google**, after a hands-on connector test ([[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]). Test folder: "Taxonomy Test" in the Blue Tusk shared drive.
 - The LFG loan admin list is still outstanding.
 
 ## Watch items
