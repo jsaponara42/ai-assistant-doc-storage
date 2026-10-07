@@ -37,7 +37,7 @@ This is the *AI-native* version of a problem that already existed for humans (se
 | 1. Information Taxonomy design & migration | Folder structure, naming conventions, metadata schema, staff change-management, built specific to that company's actual chaos | One-time service | **The real moat.** Bespoke judgment work — every company's mess is a different mess. Not solvable by better AI alone. |
 | 1.5. Packaged skills + navigation files | Custom skill library + routing/reference files that make traversal excellent — beyond the default the filesystem provider ships | Bundled with Layer 1, or subscription add-on | Only works well *because* Layer 1 exists underneath it. Differentiated on top of clean structure, generic on top of chaos. |
 | 2. Taxonomy drift checker | Monitors new files/folders against the schema from Layer 1, flags or auto-corrects violations | Recurring subscription | **Bridge revenue, not permanent.** Platform vendors will likely absorb this into native AI features faster than they'll absorb Layer 1's judgment work. |
-| 3. AI working-partner layer | **Draft-and-confirm, not edit-in-place** — see capability reality check below | Recurring subscription (seat/org-based) | Durable *only* on top of Layer 1. Should eventually integrate with the client's own platform AI rather than JC hosting everything long-term. |
+| 3. AI working-partner layer | **Draft-and-confirm.** As of 2026-10-07 this can happen *inside* Google Docs as tracked suggestions (see capability reality check) | Recurring subscription (seat/org-based) | Durable *only* on top of Layer 1. Should eventually integrate with the client's own platform AI rather than JC hosting everything long-term. |
 
 ### Why this beats the earlier "hosted AI copilot" direction
 - Platform vendors are racing toward cheap, accurate, native file traversal and correct-placement writing — a hosted copilot competing on retrieval quality has a shrinking runway.
@@ -52,6 +52,25 @@ A real, sellable efficiency win that's available *today*, independent of any edi
 - Native Projects don't auto-scope a Drive/SharePoint connector to a folder — scoping happens by what's deliberately loaded into a project's custom instructions and reference material, not by restricting the connector itself. So each isolated Project needs two things loaded in: (1) the **evergreen doc** — a compact, org-wide conventions/map reference, the same one every Project gets, so agents have baseline orientation without re-deriving it — and (2) that Project's own scoped instructions naming its specific folder path(s)/file set.
 - **Already validated internally, informally:** this is functionally what JC's own setup already does — a distinct project/context per workstream, `CONVENTIONS.md` as the shared evergreen doc across all of them, `xx_context-handoff.md` as the per-project scoped snapshot. The client version is the same shape and same behavior, just running on native Projects instead of a custom MCP server.
 - Worth testing alongside the Layer 3 test: whether pasted-as-text project instructions genuinely outperform attached Drive docs for token cost/reliability (flagged as a live gap elsewhere) — that changes how the evergreen doc should actually be delivered, and how the training/guide teaches staff to set each Project up.
+
+### Taxonomy is decided per client (JC, 2026-10-07)
+There is no standard folder template to roll out. Each client's folder taxonomy is a JC design decision, made from that client's actual work, *before* any specific structure is suggested to them. That bespoke judgment is the Layer 1 moat. What can be standard across clients is the *pattern*:
+- an evergreen conventions file at the root
+- a project code per engagement
+- a client brief as the anchor
+- an AI working folder (below)
+
+The folder names and structure around those elements are not standard.
+
+### Per-client AI working folder (idea, JC 2026-10-07)
+Each client or project folder gets an **AI-only working folder** (name to be decided per taxonomy, e.g. `_ai/`). It holds things that are for the agent, not for people:
+- **Agent notes and memory:** working notes the agent keeps for itself across sessions.
+- **Context handoff:** the client's `xx_context-handoff`-style snapshot, so any new session or any AI can pick up quickly. This is the same pattern as JC's vault.
+- **Rough first drafts in markdown:** early drafts while decisions are still being made, before anything is shaped into a formatted, human-facing document.
+
+**Why markdown here:** working in formatted Google Docs is token-heavy for agents. Every targeted edit needs a structural read of the document first, and the structural JSON is roughly 20–50x the size of the plain text. Formatting also gets in the way while content is still changing. The intended flow is to draft and iterate in markdown in the AI folder, then publish to a formatted Google Doc once the content is settled. After that, use targeted edits or suggestions for small changes. Humans can read the AI folder, but nothing in it counts as delivered or approved.
+
+This idea needs testing: whether a native Claude Project can read and write its client's AI folder reliably, and how the folder fits each client's permission model (e.g. whether the assistant can see it).
 
 ### Scalability & delegation — first real answer to "my product is me and my time"
 
@@ -101,7 +120,7 @@ Roadmap (intro) → Taxonomy design & migration (core paid engagement, main moat
 - **Meeting transcripts — higher priority than CRM.** Live-fed decision capture (transcript → drafted task/SOP update/note, human confirms before any write) directly answers the "goes stale" objection in the RAG section above, since it's fed continuously by every meeting rather than synced periodically. Positioned as the flagship use case for Layer 3 (AI working-partner), not a new numbered layer.
 - **CRM/core systems — lower priority, harder integration surface.** Schema variance per client (Salesforce vs. HubSpot vs. custom) reopens the "narrow integrations only" discipline from Layer 1.5, and platform vendors are already building native AI on their own CRM data — less of an open gap than transcripts.
 - **Both require the propose-don't-act boundary** — draft only, human confirms before any write to a live system. Transcripts raise the compliance bar further (personnel/negotiation content) for the finance-adjacent ICP.
-- **This boundary isn't just a safety choice — it's currently the only version that's technically deliverable.** No major platform (Google Drive, SharePoint via ChatGPT) supports true edit-in-place today; Claude gained a narrow, admin-gated SharePoint write path in July 2026 only. See [[business/projects/internal/product/20260816_ai-file-integration-capability-reality-check]] before this gets pitched to anyone.
+- **This boundary is a design choice, not a technical limit, as of 2026-10-07.** With Claude's Google Docs editor connector, Claude can edit existing Google Docs in place and in suggestion mode (tracked changes), and can do what a comment asks and reply in the thread. This was tested hands-on in [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]. Draft-and-confirm stays, because clients' human gates require it, but it can now live inside the client's real documents instead of in separate draft files. SharePoint hasn't been re-tested; Claude's admin-gated write path from July 2026 is still the last known state. See [[business/projects/internal/product/20260816_ai-file-integration-capability-reality-check]] before pitching.
 - **Sequencing:** transcripts next, CRM later. Both are real, priced setup work per client (defining what counts as a "decision" worth capturing is judgment work, not a solved NLP problem) — not a bundled free feature.
 ## Next steps
 - [ ] Research migration execution strategy (parallel vs. incremental vs. big-bang) before the first engagement — blocking unknown.

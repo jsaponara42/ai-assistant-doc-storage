@@ -115,7 +115,7 @@ Where raw inputs enter the system. Nothing is processed here; inputs are only co
 ### Layer 2: Knowledge (filesystem)
 This is the core of the design and the Layer 1 taxonomy work applied to MOG. It holds documents and context: anything an agent needs to read to understand a client or a process.
 
-**Proposed folder taxonomy (draft to react to, not final):**
+**Folder taxonomy: placeholder only. JC decides MOG's taxonomy before anything specific goes to Martina** (2026-10-07). Taxonomy is designed per client, so the tree below shows the kinds of things that need a home. It is not a recommendation yet.
 ```
 MOG/
 ├── 00_Conventions/            ← evergreen doc: how MOG works, project codes, naming, where things live
@@ -126,7 +126,8 @@ MOG/
 │   │   ├── 02_decisions/             ← decision log
 │   │   ├── 03_drafts/                ← AI and Martina drafts before delivery to client
 │   │   ├── 04_delivered/             ← copies or links of what went to the client
-│   │   └── 05_reference/             ← templates and examples specific to this client
+│   │   ├── 05_reference/             ← templates and examples specific to this client
+│   │   └── _ai/                      ← AI-only working folder: agent notes, context handoff, rough markdown drafts
 │   ├── RFG_Ruthless-for-Good/
 │   ├── LFG_LendForGood/              ← one folder, two codes (LFG-COO, LFG-LA)
 │   ├── RYSE_RYSE-Creative/
@@ -142,6 +143,12 @@ MOG/
 - **What stays out of MOG's context folders:** client financials, client customers' data, personnel matters and anything under a client-specific AI restriction. This was agreed on the call. Example: LFG's rule of no lender or borrower financial data in AI.
 - **The client brief is the anchor.** Every agent task for a client starts by reading that client's brief, the same pattern as Blue Tusk's own briefs. It is also what keeps the system AI-agnostic, since any AI can read a brief.
 - **Close outs and decisions get appended, never scattered.** This fixes "next steps in four places."
+- **AI working folder per client (JC idea, 2026-10-07).** An AI-only folder (name to be decided, e.g. `_ai/`) holds:
+  - the agent's own notes
+  - the client's context handoff snapshot (same pattern as JC's vault)
+  - rough first drafts in **markdown**, while content is still being decided
+
+  Agents draft and iterate there cheaply, then publish to a formatted Google Doc when content is settled. Nothing in `_ai/` counts as approved or delivered. Humans can read it.
 - **Format:** see D2. Plain text or markdown is the most AI-agnostic and the cheapest in tokens; Google Docs or Word is easier for Martina and Ashley to edit.
 
 **Platform: Google Drive (decided 2026-10-07, D1).** It sits in a MOG shared drive. Agents work from folder IDs, not full-text search; see [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]].
@@ -261,7 +268,7 @@ The August note concluded that Google Drive was "create-new only, no in-place ed
 | # | Decision | Options | Leaning | Needed by |
 |---|---|---|---|---|
 | D1 | Filesystem platform | Google Drive vs SharePoint | **Decided 2026-10-07: Google Drive** (passed the connector test) | Done |
-| D2 | Knowledge file format | Google Docs/Word vs markdown/plain text vs mixed | Mixed: briefs and conventions in an easy-edit format for Martina and Ashley; agent-generated logs in the most portable format the platform handles well | Phase 0 |
+| D2 | Knowledge file format | Google Docs vs markdown vs mixed | **Mixed, split by audience:** markdown for AI work (the `_ai/` folder: notes, handoff, rough drafts), formatted Google Docs for anything people read or receive. Draft in markdown, publish to Docs once content is settled, then use targeted edits or suggestions. | Phase 0 |
 | D3 | Where the Review Queue lives | Notion database vs a Drafts folder with a status field | Notion (has states, owners and dates; Ashley already works there) | Phase 1 |
 | D4 | Meeting notes tool | Fireflies vs Notion meeting notes vs other | Keep Fireflies unless it limits the close-out build | Phase 2 |
 | D5 | Time tracking | Toggl (auto or manual) vs calendar tallies plus Claude | Toggl trial | Phase 1 |

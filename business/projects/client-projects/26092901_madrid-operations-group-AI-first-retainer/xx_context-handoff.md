@@ -28,6 +28,7 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 - Write the Monday build plan. The quick wins are the Pipeline CRM with a follow-up cadence (needs Martina's exported contacts), a daily brief via scheduled task, and a Toggl trial.
 - Google vs SharePoint: **decided 2026-10-07, Google**, after a hands-on connector test ([[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]). Test folder: "Taxonomy Test" in the Blue Tusk shared drive.
 - The LFG loan admin list is still outstanding.
+- **JC to decide MOG's folder taxonomy** before suggesting anything specific to Martina. Include a per-client `_ai/` folder (agent notes, handoff, markdown drafts).
 
 ## Watch items
 - Human gates: Martina approves every send, every money decision and anything public. Ashley flags calendar conflicts and doesn't resolve them.
