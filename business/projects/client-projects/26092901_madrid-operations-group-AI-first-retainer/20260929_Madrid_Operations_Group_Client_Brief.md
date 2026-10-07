@@ -17,6 +17,24 @@ Fractional COO practice founded by Martina Madrid Sebring, operating as "Madrid 
 
 ## Changelog
 
+### 2026-10-07 — Discovery doc completed + walkthrough call
+Sources: [[SOPs/20261007_MOG_First_Steps_Discovery]] and the 2026-10-07 call. Full current-state map: [[20261007_MOG_Current_State_Workflow_Map]].
+- **Discovery complete.** Martina filled in the First Steps doc. It covers 17 recurring activities, how she wins work, 14 deliverable types, style samples, non-negotiables and daily must-knows.
+- **Client roster updated:** six active engagements: LFG - COO, LFG - LA, RFG, MC, **RYSE Creative**, **Aequilibria**. The San Antonio client isn't in the doc. *(Inferred)* It may be Aequilibria, since the Aequilibria HOT Filing SOP matches the hotel occupancy tax work.
+- **Team details confirmed:** Ashley D. is an EA through Time etc, about 25–35 hrs/month. Alexis is described as business partner and "the other half of MOG," joining on convening and event work.
+- **Tool stack captured** (Section 6). Martina has opened a **MOG Claude Team account** and wants the build there. Transcripts come from **Fireflies**.
+- **Decisions on the call:**
+  - Per-client context folders in MOG's own system. Drafts are written there and pushed to client systems. Client financials and sensitive data stay out.
+  - Existing trackers may be rebuilt, with their data migrated.
+  - AI-agnostic design.
+  - Google vs SharePoint is undecided, and both prefer Google.
+  - BDR.ai and marketing are out of scope.
+  - A pipeline tracker/CRM is in scope.
+  - JC suggested Toggl for time tracking.
+- **Human gates confirmed** (Section 4). Martina approves all client sends, money decisions, anything public and calendar conflicts. Transcript facts are checked before going into client records.
+- **New problems added:** P-007 (no CRM or follow-up cadence), P-008 (client context scattered across accounts and systems), P-009 (invoicing and bookkeeping unplanned and manual).
+- **JC owes Martina** a build plan by **Monday, Oct 12**, and may need logins and a contact export.
+
 ### 2026-09-29 — Terms accepted by email; SOW drafted
 - Martina accepted JC's post-call email terms: **$1,500/month retainer, 3-month minimum** (standard rate $2,500/month, discounted for R&D value), covering the MOG AI-first build and Phone a Friend. Continue or reduce after 3 months.
 - **Referral terms set:** 10% on referred project work over $3,000; 5% on referred retainers over $2,500/month for 24 months (replaces "in perpetuity" floated on the call).
@@ -46,7 +64,7 @@ Fractional COO practice founded by Martina Madrid Sebring, operating as "Madrid 
 - **Principal:** Martina Madrid Sebring, Founder & Principal.
 - **Business mailing address:** 11484 Alps Way, Escondido, CA 92026. **Phone:** (951) 294-4574.
 - **Location:** San Diego County, CA. Works remotely with clients; also works from an office on some days.
-- **Team:** Martina; Alexis Madrid (Fractional COO, sister, small ownership share); Ashley D (VA). See Section 4.
+- **Team:** Martina; Alexis Madrid (business partner and sister, small ownership share, convening and event work); Ashley D. (executive assistant through Time etc). See Section 4.
 - **Martina's email identities:** martina@madridops.com (practice), MSebring@maycombcapital.com, martina@ruthlessforgood.com, martina@lendforgood.io.
 - **Public profile (mid-2026 research, held lightly):** Purdue University background. Glue Club member. Author of *Scale with Purpose* — scaling through clearer structure and systems rather than more hours.
 
@@ -71,12 +89,29 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Panorama Education** *(prospect; name as heard — "Panorama education or something")*. Ed-tech company with a revenue kickoff event in San Diego in January. Wants event project management and execution. If secured, Alexis would likely lead it.
 - *(Inferred)* The "other company she helps run" where she did AI/automation work before Maycomb is likely LendForGood, where she's COO and already built Claude tooling.
 
-> ⚠️ NEEDS INPUT: Roughly how Martina's hours split across clients (not stated on the call).
-> ⚠️ NEEDS INPUT: Name of the San Antonio client. Status of the Panorama Education pitch.
+- **RYSE Creative** *(added 2026-10-07)*. Martina's master calendar currently lives on RYSE and is moving to Madrid Ops, and Ashley triages the RYSE inbox. Deliverable example: project plan with RACI and roadmap for the Nine by Nine website rebuild. Client tool: Asana.
+- **Aequilibria** *(added 2026-10-07)*. Founder client. Deliverables include a Revenue Re-Engagement Thin Slice Plan, a HOT Filing SOP (Draft v1) and a campaign package for The Ivy. *(Inferred)* This may be the San Antonio venue client.
+- **Panorama Education update (2026-10-07):** came through April Kennedy, a former TFA direct report. Martina has sent the estimate ("Panorama RKO 2027: Estimate from Madrid Ops"). First event engagement likely starts in October.
+
+**Engagement structure (2026-10-07):** each engagement has a defined scope and an hour cap. Martina logs hours daily by client, plus two internal buckets (MOG Admin, MOG BD). **Maycomb is the only client where overage is billed.** LFG pays in AUD and USD via Wise.
+
+**How MOG wins work (2026-10-07):**
+- **Relationship-driven.** Work comes from TFA alumni (16+ years), RYSE and REVIVE 7, client referrals and Glue Club. Unpaid advisory favors keep relationships warm.
+- **Outbound in progress:**
+  - LinkedIn content.
+  - BDR.ai campaigns with Jenelle Friday (~$3,500/yr, prepaid).
+  - Selling.com.
+  - A BD scanner agent feeding a Notion BD Scanner Queue, which she promotes into the Pipeline Tracker by hand.
+- **Core filter:** buildout problems only (a defined end state, with systems the client will own), never ongoing management. Scope before price. Paid discovery ("Diagnose") is the front door for retainers. Proposals are a short email with the number, then SOW and MSA. Pricing is a value-anchored retainer, not hourly.
+
+**Where MOG is going:** an event planning and convening service line with Alexis; building on the madridops.com refresh she just finished (which she did herself with Claude); growing inbound. The system must handle a mix of retainers and project-based event work.
+
+> ⚠️ NEEDS INPUT: Roughly how Martina's hours split across clients, and each client's hour cap and period (weekly vs monthly).
+> ⚠️ NEEDS INPUT: Is the San Antonio client Aequilibria, and is it still active?
 
 **Relationship to Blue Tusk:** Martina is Blue Tusk's champion at Maycomb, RFG, and LFG; co-referred RFG; brought LFG directly; and is flagged as a high-value introducer (see [[20260814_attraction-offer-concepts]]). This engagement makes MOG itself a client. She said directly she likes working with JC. Both sides see potential to work together on selling AI-first rebuilds later, since that work has a large operational component (understanding why every piece of a business does what it does).
 
-**Engagement entry and phase:** Martina reached out because she has sent JC a lot of client material, is accumulating AI subscriptions without a plan, and wants structure. Current phase: pre-SOW. JC owes pricing.
+**Engagement entry and phase:** Martina reached out because she has sent JC a lot of client material, is accumulating AI subscriptions without a plan, and wants structure. **Current phase (2026-10-07):** retainer active and discovery complete. JC owes the build plan by Oct 12.
 
 ---
 
@@ -94,6 +129,15 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - Give cash-constrained clients access to AI and automation help through MOG.
 - Keep growing the practice: onboard Alexis (possibly full-time) and involve her behind the scenes on existing clients; win new work like Panorama Education.
 - Get quick wins in the meantime, starting with the LFG loan admin process.
+- *(Added 2026-10-07)* A daily brief every morning covering:
+  - Calendar, prep and open close outs.
+  - Next steps due or overdue, by client.
+  - Hours against caps.
+  - What needs her.
+  - Pipeline pulse.
+  - Outstanding invoices.
+- *(Added 2026-10-07)* A real pipeline and follow-up cadence, so warm leads don't go quiet.
+- *(Added 2026-10-07)* A system that's easy to extend to a future operator.
 
 > ⚠️ NEEDS INPUT: Any revenue or capacity targets for MOG (not stated on the call).
 
@@ -105,20 +149,36 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Working Style:** Systems- and structure-first; takes ownership readily. Hands-on — she already builds her own Claude skills (LFG HubSpot task updater) and drafts SOPs herself. Candid about being overloaded. Wants a mix of strategic build and fast practical wins. Prefers to do small builds herself with expert direction, since troubleshooting is what eats time. Self-described as still new to AI.
 - **Capacity watch-point:** On many calls since starting at Maycomb; doing unpaid-in-full loan admin work at LFG; holding AI-owner roles at Maycomb and RFG. Any retainer must reduce her load, not add coordination.
 - **Authority:** Sole decision-maker and budget holder for MOG — unlike her client roles, where she's a conduit (Andi Phillips, Aaron Walker, Cam Neil hold budget).
+- **Schedule (2026-10-07):** starts at 6am. Green Inbox blocks on her calendar mark her hard start and stop. Deep work days are at Kiln (`[TO CONFIRM]` Mon/Wed or Mon/Thu, since the doc says both). On deep work days the daily brief should be shorter and focused on what she's building.
+- **Non-negotiables / human gates (2026-10-07):**
+  - **Client communication:** drafts are fine, but every send is hers.
+  - **Money:** she approves pricing, rates, scope changes, invoices and payments.
+  - **Calendar:** Ashley flags conflicts and doesn't resolve them.
+  - **Anything public:** nothing is published without her.
+  - **Transcript facts:** names, figures, attribution and decisions are verified against the full transcript.
+  - **Sensitive topics:** personnel, legal and client finances stay with her.
+  - **Client confidentiality:** each client's data stays in its own space.
+- **Style:** direct, decision-focused client emails. She states the decision needed, gives a recommendation with reasoning, sets a deadline with the reason for it, and offers a fallback. See the samples in [[SOPs/20261007_MOG_First_Steps_Discovery]] Section 4.
 - **Contact:** martina@madridops.com · (951) 294-4574.
 - **Relevance:** Decision-maker, primary user, champion, referral partner, possible future collaborator.
 
-### Alexis Madrid — Fractional COO (sister)
+### Alexis Madrid — Business Partner (sister)
 - Holds a small share of MOG. Has given notice at her full-time job to do more MOG work. Hesitant about going full-time, as Martina was at first.
 - Likely lead on Panorama Education if secured. Martina wants her involved behind the scenes on existing clients (clients don't want to add a new person).
 - Relevance: second user of any rebuilt MOG system; delegation depends on MOG processes being documented and tool-supported.
 
 > ⚠️ NEEDS INPUT: Alexis's email and expected hours/start date.
 
-### Ashley D — Virtual Assistant — ashley@madridops.com
-- Relevance: likely user of any rebuilt workflows (e.g., call notes, task routing).
-
-> ⚠️ NEEDS INPUT: Ashley's scope, hours, and which tools she uses today.
+### Ashley D. — Executive Assistant (via Time etc) — ashley@madridops.com
+- **Hours:** about 25–35 hours/month, fractional.
+- **Current scope:**
+  - Owns calendar management and places work blocks. Conflicts go to Martina.
+  - Triages the Madrid Ops and RYSE inboxes under the Inbox SOP.
+  - Can prep invoices but not send them.
+  - Is being asked to take on more BD and LinkedIn work. Will handle BDR.ai replies once that's live.
+- **Tools / system:** Executive Assistant Hub in Notion. It holds the How We Work, Scheduling, Inbox, Invoicing and Capacity & Priority SOPs, plus the Delegation Board and The Handoff. Five calendars are shared with her.
+- ***(Call)*** Martina wants Ashley to "own" her calendar the way Martina owned a VP's calendar as an assistant, but Ashley's hours are limited. Martina wants AI to fill that gap. JC expects Ashley's role to change significantly and to need onboarding into the new system.
+- Relevance: core user of the rebuilt workflows. Her role will be redefined, with KPIs, during the build.
 
 ---
 
@@ -130,6 +190,9 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Ruthless For Good:** Aaron Walker (Founder & MP, final authority), Michael Ladipo (VP), steering committee, fund administrator (name unknown).
 - **San Antonio client:** owner (name unknown).
 - Relevance: JC doesn't need to be invisible, but most interaction runs through Martina; direct contact with a founder/CEO only when needed. Any MOG workflow touching client material inherits that client's confidentiality terms and AI policy.
+
+### Jenelle Friday — BDR.ai campaign partner
+- Runs BDR.ai LinkedIn outreach campaigns with Martina and reviews the numbers with her monthly. A campaign was recently turned back on after several weeks off. Marketing and outreach are out of Blue Tusk's scope.
 
 ### Barry Porozni — no formal MOG role
 - Works with Martina through shared clients (Maycomb IT, RFG governance) only.
@@ -149,12 +212,33 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 
 **Direction (JC, confirmed with JC's answers):** rebuild MOG on a new, AI-native set of tools rather than integrating with the old ones. JC's reasoning on the call: AI "employees" only deliver when they work on a base of tools they interface well with; bolting them onto poorly-suited tools produces a gimmick. Because MOG is early, it's well placed to rebuild in parallel and switch over.
 
-### MOG tools known so far
-- **Notion** — where Martina puts next steps pulled from call transcripts.
-- **Claude** — used to build skills (HubSpot task updater for LFG) and draft SOPs. Account used for this unknown.
-- **Transcription/notes tool** — she turns call transcripts into notes; tool unknown.
-- **Multiple AI subscriptions** — accumulating without a clear plan (Martina's words: "I need a rhyme to this reason").
-- **AI employee bootcamp** — enrolled, started 2026-09-28; program name unknown.
+**Decisions (2026-10-07 call):**
+- **Build home:** the new MOG Claude Team account.
+- **AI-agnostic:** design so any AI that supports connections can run the system. A local machine running models is a long-term option if scheduled runs grow.
+- **Per-client context folders** in MOG's own system, plus a general MOG folder. Drafts are written there and pushed to client systems.
+- **Google vs SharePoint: not decided.** Both prefer Google. JC is testing whether Claude works well enough with Google; SharePoint is the fallback, and Martina is open to it.
+- **Existing Notion trackers** may be rebuilt rather than kept, with their data migrated. Existing Claude skills will probably be reused.
+
+### MOG tools in use (from the discovery doc, 2026-10-07)
+- **Notion (MOG workspace)** is the primary workspace. The MOG Operating System hub holds the Client Work Tracker, Pipeline Tracker, LinkedIn content DB, BD Scanner Queue and Executive Assistant Hub. Martina mostly works in RFG's separate Notion and switches the Notion connector between workspaces by hand.
+- **Google Workspace:** Gmail, Calendar (Madrid Ops calendar becoming the master), Drive, and Sheets (hours workbook).
+- **Fireflies** produces transcripts for every call close out. A bot-free option exists.
+- **Claude** skills cover:
+  - RFG weekly agenda and recap.
+  - LFG standup notes.
+  - Maycomb notes.
+  - LFG SOPs and loan trackers.
+  - Weekly hours tracker.
+  - LinkedIn posts.
+  - LFG HubSpot task updater.
+  - Plus a meeting agent and a BD scanner agent.
+  - She is testing Claude with the Chrome extension to update the hours sheet from her calendar.
+- **Claude accounts:** each client has its own account, and Martina can't keep two open at once. Some client Claude work happens in her own account.
+- **QuickBooks Online, Wise, Chase:** bookkeeping and banking. Matching Wise deposits to QuickBooks is manual.
+- **BDR.ai** (LinkedIn outreach, ~$3,500/yr prepaid), **Selling.com** (prospecting), **Canva**.
+- **Slack:** LFG only.
+- **AI employee bootcamp:** enrolled, started 2026-09-28. Program name unknown.
+- **Under consideration:** Toggl for time tracking (free tier, Claude connection, automatic tracking).
 
 ### Client-side systems Martina operates in
 - **HubSpot** — LFG loan workflow (deal cards, phase-triggered tasks).
@@ -162,9 +246,11 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Claude Team plans** — Maycomb and RFG (admin at RFG).
 - **Notion, Microsoft 365/Outlook, SharePoint** — RFG.
 - **Slack, SharePoint, Affinity, LeverPoint** — Maycomb.
+- **Microsoft 365** — LFG and Maycomb. Martina's deliverables mostly live in each client's own system.
+- **Asana** — RYSE.
 - **Excel + four to five booking/revenue platforms** — San Antonio client's hotel occupancy tax process.
 
-> ⚠️ NEEDS INPUT: Full list of MOG's current tools and subscriptions (JC to gather). Whether MOG has its own Claude account/plan separate from client seats.
+> ⚠️ NEEDS INPUT: Subscription costs for each MOG tool, for the clean-up (the list is captured, the costs aren't).
 
 ---
 
@@ -176,6 +262,12 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Current Thinking:** AI helps with each step, so running the steps by hand is acceptable.
 - **Reframe:** Hand-carrying output between AI steps is still manual work. The whole chain — transcript to notes to tasks to weekly plan — should run as one system, like a chief of staff.
 - **Approach:** Build an AI chief-of-staff workflow on the new MOG stack. Status: Not started.
+- **Update 2026-10-07:**
+  - **Mapped.** The full chain runs prep, close out, next steps, work blocks, check-ins (W1 in the workflow map).
+  - **Three steps flagged** by Martina as "still done more manually than I'd like": prep, close out and scheduling.
+  - **Client check-ins** are "aspirational."
+  - **Next steps live in four places:** Fireflies, Notion, Google Docs and email.
+  - **Rebuild direction:** scheduled and triggered agent tasks, commitments generated automatically and reviewed by a human, project codes across all tools, and a daily brief.
 
 ### P-002 — Tedious client execution crowds out strategic work (People / Processes)
 - **Area:** Processes / People.
@@ -189,7 +281,7 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Problem:** Martina keeps adding AI subscriptions without a clear reason for each or confidence they get used.
 - **Current Thinking:** Try tools as they come up and see what sticks.
 - **Reframe:** Tools should be chosen for a designed system, not collected. Every subscription should map to a workflow it serves.
-- **Approach:** Inventory current tools; define the target AI-native stack as part of the rebuild; cancel what doesn't fit. Status: Not started.
+- **Approach:** Inventory current tools; define the target AI-native stack as part of the rebuild; cancel what doesn't fit. Status: In progress. The inventory was captured 2026-10-07 (Section 6). Costs and the target stack are still to come.
 
 ### P-004 — Learning AI without an anchor (People / Tools)
 - **Area:** People / Tools.
@@ -203,14 +295,35 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **Problem:** Martina wants to grow and bring Alexis in (possibly full-time) and already has a VA, but client work lives in her head and in client tools. Clients don't want a new face, so Alexis would work behind the scenes — which requires documented, tool-supported processes to hand off.
 - **Current Thinking:** Martina carries each client personally; help has to come in as another person clients meet.
 - **Reframe:** An AI-first MOG with documented workflows lets Alexis and Ashley contribute behind the scenes without clients noticing a change.
-- **Approach:** Design the rebuilt MOG for three users (Martina, Alexis, Ashley) from the start. Status: Not started.
+- **Approach:** Design the rebuilt MOG for three users (Martina, Alexis, Ashley) from the start. Status: Not started. Ashley's current scope and the Executive Assistant Hub are now documented (Section 4).
 
 ### P-006 — Clients can't pay for AI help directly (Resources)
 - **Area:** Resources.
 - **Problem:** Most of Martina's clients are cash-constrained (LFG pays one employee; the San Antonio client can barely afford late fees). They need automation but can't fund it.
 - **Current Thinking:** No budget means no outside help.
 - **Reframe:** Clients can get Blue Tusk's expertise through MOG — as phone-a-friend guidance Martina applies, or as builds passed through at a partial cost — with a referral arrangement for any larger direct work.
-- **Approach:** Phone-a-friend in the MOG retainer; referral agreement for direct client work. Status: Terms floated, not finalized.
+- **Approach:** Phone-a-friend in the MOG retainer; referral agreement for direct client work. Status: Referral terms set in the SOW (2026-09-29).
+
+### P-007 — No CRM or follow-up cadence for a relationship-driven pipeline (Processes / Tools)
+- **Area:** Processes / Tools.
+- **Problem:** Almost all of MOG's work comes from warm relationships, but there is no working CRM or follow-up cadence. Martina promotes leads into a Notion Pipeline Tracker by hand. BD was consistent when client work was slow and now gets "zero time." Martina named "Pipeline Tracker/CRM" as the gap herself.
+- **Current Thinking:** BD happens when there's time, and new outbound tools (BDR.ai, the BD scanner) will generate the pipeline.
+- **Reframe:** For a referral-driven practice, the main gain is not losing warm leads. A simple tracker with automatic "haven't heard back" reminders pays off immediately, and more lead volume can come later.
+- **Approach:** Build a Notion CRM with a follow-up cadence from Martina's real exported contacts. This is a quick win and super high priority. BDR.ai and marketing stay out of scope. Status: Not started. Waiting on the contact export.
+
+### P-008 — Client context is scattered across accounts and systems (Tools / Processes)
+- **Area:** Tools / Processes.
+- **Problem:** Each client has its own Claude account and filesystem, and Martina can't run two Claude accounts at once. She switches the Notion connector between the MOG and RFG workspaces by hand. Some internal client documents sit in her personal drive. No single place holds what Claude needs to know about each client.
+- **Current Thinking:** Work happens inside each client's container, so context has to stay there too.
+- **Reframe:** AI is only as useful as the context it can reach. Broader client context, kept in MOG's own system in separate per-client folders, lets Claude draft anything quickly. Finished work then moves to the client's system. Separate folders satisfy the confidentiality requirement without scattering everything.
+- **Approach:** Per-client context folders plus a general MOG folder, in Google or SharePoint (undecided). Draft in MOG's system and push to the client's. Status: Agreed in principle 2026-10-07. Filesystem choice pending.
+
+### P-009 — Invoicing and bookkeeping are unplanned and manual (Processes / Resources)
+- **Area:** Processes / Resources.
+- **Problem:** Invoicing "always sneaks up" on Martina and pulls her attention from client work. Hours depend on her calendar being accurate, with daily tallies typed into all-day events and a Friday sync to a Google Sheet. Matching Wise deposits (in AUD and USD) to QuickBooks is manual.
+- **Current Thinking:** Invoicing is a monthly chore that gets done when it comes up.
+- **Reframe:** Hours, caps and invoices are one data flow. If tracking feeds invoice drafts automatically, Martina only reviews and approves.
+- **Approach:** Toggl trial for tracking. Automated invoice drafts with Martina's approval before sending. An accounting service is an option depending on cash flow. Status: Not started.
 
 ---
 
@@ -247,6 +360,16 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 - **What it involves:** Current tools and subscriptions inventory; how Martina, Alexis, and Ashley each work; client-intake and delivery patterns; review of the bootcamp.
 - **Key Result:** A short MOG roadmap and target tool stack.
 - **Timeline:** Weeks 1–3.
+- **Status (2026-10-07):** Discovery complete. See [[SOPs/20261007_MOG_First_Steps_Discovery]] and [[20261007_MOG_Current_State_Workflow_Map]]. The bootcamp review is still open. The build plan is due to Martina Oct 12.
+
+**Workstream: Quick Wins (added 2026-10-07)**
+- **Approach:** Give Martina tools she can use right away while the larger build is designed.
+- **What it involves:**
+  - A Notion CRM with a follow-up cadence (P-007), from her contact export.
+  - A daily brief through a Claude scheduled task, which can grow into a dashboard later.
+  - A Toggl trial for time tracking (P-009).
+- **Key Result:** Fewer warm leads lost; Martina starts each day with her must-knows.
+- **Timeline:** Weeks 2–3, in parallel with stack decisions.
 
 **Workstream: AI-Native Stack + Subscription Clean-Up**
 - **Approach:** Choose tools AI works well with; cut what doesn't fit.
@@ -268,11 +391,12 @@ The practice is growing and Martina wants it to keep growing. Alexis has given n
 
 ### Recommended Sequence
 1. LFG Loan Admin Quick Wins — no dependency; start on receipt of the list.
-2. Discovery — How MOG Works Today — concurrent with #1.
-3. AI-Native Stack + Subscription Clean-Up — after #2 starts.
-4. AI Chief of Staff — after #3.
-5. Team Enablement — after #3 and #4.
-6. Ongoing Phone a Friend and Referral Agreement — run alongside everything from SOW signature.
+2. ~~Discovery — How MOG Works Today~~ — **complete 2026-10-07.**
+3. Quick Wins (CRM, daily brief, Toggl) — now; CRM waits on the contact export.
+4. AI-Native Stack + Subscription Clean-Up — includes the Google vs SharePoint decision and per-client context folders (P-008).
+5. AI Chief of Staff — after #4.
+6. Team Enablement — after #4 and #5.
+7. Ongoing Phone a Friend — runs alongside everything.
 
 ---
 
@@ -304,11 +428,14 @@ Referral terms live in the SOW.
 ## Open Questions
 
 1. MOG's legal entity type and exact registered name; preferred email for the engagement (martina@madridops.com assumed).
-2. Alexis's email and expected hours/start; Ashley's scope, hours, and tools.
-3. Roughly how Martina's hours split across clients.
-4. MOG's current tools and subscriptions, and whether MOG has its own Claude account/plan (JC to gather).
+2. Alexis's email and expected hours/start. ~~Ashley's scope, hours, and tools~~: **resolved 2026-10-07** (Section 4).
+3. Roughly how Martina's hours split across clients, and each client's hour cap and period.
+4. ~~MOG's current tools, and whether MOG has its own Claude account~~: **resolved 2026-10-07** (MOG Claude Team account; stack in Section 6). Still open: subscription costs.
 5. The LFG loan admin list Martina wants reviewed — confirm where it is (email, vault, or still to send).
 6. ~~Units on the LFG quote~~ — **Resolved:** $2,100–$3,200; build on hold per JC's recommendation.
-7. San Antonio client's name; Panorama Education pitch status; name of the AI employee bootcamp.
+7. San Antonio client's name, and whether it's Aequilibria and still active. Name of the AI employee bootcamp. Panorama: **estimate sent** (2026-10-07); outcome pending.
 8. Revenue or capacity targets for MOG, if any.
 9. ~~Pricing, term, referral placement~~ — **Resolved 2026-09-29:** accepted by email; captured in the SOW.
+10. Deep work days at Kiln: Mon/Wed or Mon/Thu? (The doc says both.)
+11. Google vs SharePoint decision, after JC's Google testing.
+12. Contact export from the Notion Pipeline Tracker, for the CRM build. Logins JC will need (to be listed in the Oct 12 build plan).

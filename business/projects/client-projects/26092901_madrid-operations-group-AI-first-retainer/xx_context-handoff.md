@@ -27,7 +27,6 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 ## Open / next
 - Write the Monday build plan. The quick wins are the Pipeline CRM with a follow-up cadence (needs Martina's exported contacts), a daily brief via scheduled task, and a Toggl trial.
 - Google vs SharePoint decision, after JC's Google testing.
-- Update the client brief with the discovery findings. The roster in the brief differs from the doc: RYSE Creative and Aequilibria are clients, and the San Antonio client is unclear.
 - The LFG loan admin list is still outstanding.
 
 ## Watch items
@@ -40,5 +39,5 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 ## Key files
 - [[20261007_MOG_Current_State_Workflow_Map]]: the main reference for the build plan.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word, plus comments. Open it for her exact wording or style examples.
-- [[20260929_Madrid_Operations_Group_Client_Brief]]: background and problem register. Out of date on the roster and tools.
+- [[20260929_Madrid_Operations_Group_Client_Brief]]: background and problem register (P-001 to P-009). Updated 2026-10-07.
 - [[client-facing-deliverables/20260929_SOW_Madrid_Operations_Group_AI_First_Retainer]]: open only for terms questions.
