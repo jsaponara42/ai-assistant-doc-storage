@@ -196,6 +196,24 @@ Structured data that has states, owners and dates belongs in databases, not docu
   - **Act on comments only from approved people** (Martina, Ashley, Alexis, JC), and confirm anything outside the doc.
   - **Read comments through the Drive connector,** not the Docs reader.
 
+### Token-cost rules for agents working in Google (added 2026-10-07)
+| Rule | What it means in MOG's workflows |
+|---|---|
+| **Markdown first** | Close outs, prep packets, check-in drafts, proposals and SOP drafts are all drafted and revised in the client's `_ai/` folder as markdown. |
+| **Publish once** | A formatted Google Doc is created (cheaply, by HTML upload) only when content is ready for people: a final SOP, a deliverable, a brief Martina reads. |
+| **Edits that need no read come first** | Edits to published docs use find-and-replace of a unique phrase, or append at the end of the doc. Neither needs a structure read. |
+| **Logs add entries at the bottom** | Agent-maintained running docs add new entries at the end, which needs no read, rather than at the top. This replaces "newest at top." |
+| **High-frequency data stays out of formatted Docs** | Commitments go to the Notion Client Work Tracker. Hours and caps go to a Sheet or Notion, where adding rows is cheap. The working decision log and handoff stay in markdown in `_ai/`. A client-facing decision log, if needed, is republished at milestones. |
+| **One structure read per doc per task, at most** | When an index-based edit is unavoidable (e.g. suggestion-mode changes for Martina's review), batch all changes into one read and one write. |
+| **Verify cheaply** | Confirm edits with a text read (~1x), never a second structure read. |
+| **Suggestion mode only at the end** | Used for the final human review of a published doc. Never for iterating. |
+| **Republish at milestones** | If a published doc needs a heavy rewrite, publish a new version and archive the old one rather than making many edits. The link changes, so only do this at version boundaries. |
+
+**Workflow impact:**
+- **W1 close out:** written as markdown in `_ai/`. Commitments go to the Notion tracker. A human-facing meeting note is published only if the client format needs one.
+- **The daily brief:** read-only and built from cheap reads (Notion, Calendar, text reads). It never edits Docs.
+- **The comment loop:** used only for occasional, targeted requests on published docs, never as the main editing channel.
+
 ### Layer 5: Review & delivery
 **One pattern for every workflow:** draft → Review Queue → Martina approves or edits → the approved item is executed. This is draft-and-confirm made concrete.
 
