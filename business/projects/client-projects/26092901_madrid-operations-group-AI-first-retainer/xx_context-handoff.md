@@ -37,6 +37,7 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 - The first half of the 10/7 transcript was about Howie and Segway, not MOG. It is not filed yet.
 
 ## Key files
+- [[20261007_MOG_AI_Native_Stack_Architecture]]: target architecture draft v0.1 (5 layers, open decisions D1 to D8, build phases). Basis for the Oct 12 build plan.
 - [[20261007_MOG_Current_State_Workflow_Map]]: the main reference for the build plan.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word, plus comments. Open it for her exact wording or style examples.
 - [[20260929_Madrid_Operations_Group_Client_Brief]]: background and problem register (P-001 to P-009). Updated 2026-10-07.
