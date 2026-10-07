@@ -294,6 +294,7 @@ The August note concluded that Google Drive was "create-new only, no in-place ed
 | D6 | Client Claude accounts | Browser profiles vs second machine vs keeping work in MOG's account | Browser profiles | Now (cheap to try) |
 | D7 | Inbox categorization runtime | Team plan scheduled task vs API with a small model | API, if volume justifies it | Phase 3 |
 | D8 | Local model hosting | Not now | Revisit if scheduled-run costs grow | Post-retainer |
+| D9 | **Storage for the `_ai/` folder (agent notes, handoff, markdown drafts). UNRESOLVED; JC flagged the cost concern** | A: real `.md` in Drive, replaced on each change · B: plain Google Doc, cheap edits only (current workaround) · C: Notion pages · D: Drive desktop sync + Claude Code/Cowork · E: custom MCP server for Drive markdown · F: GitHub repo | **Interim: B**, with find-and-replace, append at the end and text reads only. JC doesn't love it: real `.md` files can't be edited in place in Drive, and Google Doc structure reads cost ~8K+ tokens even for tiny docs. **Revisit before the build relies on `_ai/` heavily.** Details: [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]] (UNRESOLVED section). | Before Phase 2 |
 
 ---
 

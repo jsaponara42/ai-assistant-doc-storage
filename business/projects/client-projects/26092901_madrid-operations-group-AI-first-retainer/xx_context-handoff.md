@@ -31,6 +31,7 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 - **JC to decide MOG's folder taxonomy** before suggesting anything specific to Martina. Include a per-client `_ai/` folder (agent notes, handoff, markdown drafts).
 
 ## Watch items
+- **`_ai/` storage is UNRESOLVED (D9).** Real `.md` files can't be edited in place in Drive. The interim plain-Google-Doc workaround has a recurring token cost JC wants to revisit before Phase 2. See the test log's UNRESOLVED section.
 - Human gates: Martina approves every send, every money decision and anything public. Ashley flags calendar conflicts and doesn't resolve them.
 - Client confidentiality: per-client separation must be built into the design.
 - Direct costs (~$200/month) are paid by Martina; check with her before any recurring spend.

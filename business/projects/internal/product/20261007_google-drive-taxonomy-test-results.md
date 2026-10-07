@@ -103,3 +103,48 @@ Outcome: **MOG decision D1 = Google.** The August capability note has been updat
 - Actual token use with the google-workspace skill's helper script condensing a saved structure read, where code can run.
 - Cost on a long document with tables, to put a realistic number on a client brief or SOP.
 - Whether appending with `endOfSegmentLocation` keeps formatting clean in a decision log.
+
+
+---
+
+## Markdown in Drive / `_ai/` storage — UNRESOLVED (logged 2026-10-07)
+
+> **Status: open. JC isn't happy with the current workaround and wants to come back to this, because the cost adds up over time.** The `_ai/` folder (agent notes, context handoff, rough drafts) needs a storage format that is cheap to edit in place, and nothing tested so far fully works.
+
+### Tests run (in `01_Clients/HRB_Harbor-Lending/_ai/`)
+
+| Test | Result |
+|---|---|
+| Create a real `.md` file in Drive | ✅ Works (`text/markdown`, conversion off) |
+| Edit the `.md` with the Docs editor connector | ❌ Refused: "The document must not be an Office file." The editor only works on native Google Docs. |
+| Edit the `.md` with Drive `update_file` | ❌ No content field; it can only rename or move. |
+| Overwrite by creating a file with the same name in the same folder | ❌ Created a **duplicate** with a new ID. Both duplicates are still in `_ai/` (not trashed). |
+| Plain Google Doc holding markdown-style text: find-and-replace + append at end | ✅ Both worked with no structure read; same ID and link; checked with a cheap text read (~300 tokens) |
+| Structure read on that plain doc | ⚠️ **Still bloated:** ~240 characters of text → ~30K+ characters of JSON (~8K tokens, over 100x). Worse proportionally than the formatted SOP (30–40x). |
+
+### Key findings
+- **Drive connectors can't edit a real markdown file in place.** You can create and read one, never update it. Every "update" means a new file, a new ID, and duplicates or trash clutter.
+- **Markdown syntax inside a Google Doc doesn't reduce cost.** Google stores every line, blank lines included, as a paragraph with a full block of style data. Importing plain text made it worse, because every font and text setting was written out explicitly. **Structure-read cost scales with the number of paragraphs, not with how the doc looks.**
+- **Writes are lean on any format.** The cost is in the structure read needed for positional edits (insert mid-list, delete a line, restyle).
+- **Cheap editing works only on two paths:** find-and-replace of a unique phrase, and append at the end. Both are limited, and agents will need positional edits sooner or later, at ~8K+ tokens per read for even a tiny doc.
+
+### Options on the table
+
+| Option | Edit in place? | Cost | Tradeoffs |
+|---|---|---|---|
+| **A. Real `.md` in Drive, replaced on every change** | No: new file each time, old one trashed | Cheap per write | ID and link change every time, duplicates if a trash step fails, trash clutter. Only workable for rarely changed files. |
+| **B. Plain Google Doc with markdown-style text** *(current workaround)* | Yes, but only with find-and-replace and append | Cheap on those paths; **~8K+ tokens per structure read** for anything positional | Shows raw `#` and `-` to people. Text reads come back escaped. Cost creeps up with doc length and with every positional edit. **JC doesn't love this.** |
+| **C. Notion pages for AI working notes** | Yes, through the Notion connector | Expected to be cheap: content comes back as markdown-like text. **Not tested yet.** | Splits AI notes from the client's Drive folder, but Notion is already MOG's records layer. Needs the per-client isolation and connector-switching questions answered. |
+| **D. Drive desktop sync + Claude Code / Cowork editing local `.md` files** | Yes: real files, real in-place edits | Cheapest (plain text edits) | Needs the desktop app and a local machine. **Doesn't work from claude.ai chat or cloud scheduled tasks.** Sync conflicts possible. |
+
+Other ideas, not yet explored:
+- **E. A custom MCP server for Drive markdown,** like JC's vault server. It would read, find-and-replace and write `.md` files through the Drive API, which can replace a file's content without changing its ID. The connector exposed today doesn't offer that. This is the same pattern as JC's vault, pointed at Drive. More build and maintenance, but it may be the cleanest long-term fix and could be part of the Blue Tusk offering.
+- **F. A GitHub repo per client (or per firm) for AI notes,** synced the same way JC's vault is. Real markdown and cheap edits, but a new tool for non-technical clients.
+
+### What to check when revisiting
+1. Test **Option C** (Notion): read and edit cost, and whether a native Claude Project can be kept to one client's Notion pages.
+2. Look at **Option E**: whether the Drive API's update-content endpoint can be wrapped in a small MCP server, and how hard that would be to host for clients.
+3. Put a number on the ongoing cost of Option B for one realistic workflow (e.g. a daily handoff update plus weekly drafts) to see whether "it adds up" is $5/month or $50/month.
+4. Decide whether the `_ai/` content needs to live in Drive at all, or whether "AI memory lives somewhere else, finished work lives in Drive" is the cleaner split.
+
+**Until this is resolved:** use Option B with cheap edits only (find-and-replace, append at the end, text reads). Keep AI docs short, with no blank lines between sections, and avoid positional edits.

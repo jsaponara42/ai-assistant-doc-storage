@@ -72,6 +72,8 @@ Each client or project folder gets an **AI-only working folder** (name to be dec
 
 This idea needs testing: whether a native Claude Project can read and write its client's AI folder reliably, and how the folder fits each client's permission model (e.g. whether the assistant can see it).
 
+**⚠️ Storage format UNRESOLVED (2026-10-07).** Real `.md` files in Drive can be created but not edited in place with the current connectors. The workaround, a plain Google Doc edited only through cheap paths, works, but structure reads still cost ~8K+ tokens even for tiny docs. JC is concerned about the long-run cost. Options A–F and the next checks are in [[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]] (UNRESOLVED section). This matters for the offering too: a custom Drive-markdown MCP server (Option E) could be a Blue Tusk deliverable in its own right.
+
 ### Scalability & delegation — first real answer to "my product is me and my time"
 
 | Stage | Requires JC specifically? | Notes |
