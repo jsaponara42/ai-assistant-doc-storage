@@ -1,0 +1,259 @@
+---
+title: "Blue Tusk Shared Drive — Current Map + Proposed AI-First Taxonomy (Draft)"
+date: 2026-10-07
+tags: [project, strategy, tool, ai]
+ai: claude
+status: needs-attention
+---
+
+# Blue Tusk Shared Drive: Current Map + Proposed AI-First Taxonomy
+
+## Summary
+This maps the current folder structure of the Blue Tusk shared drive and proposes a new structure designed for AI agents to work in cheaply. Three goals drive it:
+- **Token efficiency:** agents should reach the right folder in one or two calls, never by searching the whole drive.
+- **Client isolation:** one client means one folder, contracts included.
+- **A path to eventually moving the Obsidian vault into Drive.**
+
+**This is a draft for JC to decide.** Nothing in the drive has been changed. The proposal applies Blue Tusk's own free-tier taxonomy principles ([[business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles]]) and the 2026-10-07 connector test findings ([[business/projects/internal/product/20261007_google-drive-taxonomy-test-results]]) to JC's own drive. It's dogfooding: whatever works here becomes the template for MOG and future taxonomy engagements.
+
+## Context
+- JC wants to restructure his Google Drive to make the most of Claude's Google connectors, and to eventually move the vault from local Obsidian to a cloud service like Drive. **Token efficiency is the main thing to figure out.**
+- Mapped 2026-10-07 by listing folders through the Drive connector. Folders only, no file contents.
+- **Coverage caveat:** the folder search pages unpredictably, sometimes 5 results per page and sometimes ~100. It also mixes in other drives. The map below covers everything returned for the Blue Tusk shared drive, but folders that haven't been opened in a long time could be missing. JC should check it against the Drive UI before acting on it.
+- **Other drives also showed up:**
+  - A second shared drive (root `0AJ44i8f…`) containing `01_Working Desk - Jan`, `00_Active Project Cards`, `03_Files to Process`, `04_References`, `.claude`, contact folders like `PER-…`, Rudin Law and Petro Mechanical. *(Inferred: a client's drive JC has access to; looks Capital Financing-related.)* Left out of the map.
+  - **JC's My Drive** (`jcsaponara@bluetuskbio.com`) holds Blue Tusk material outside the shared drive: `CAUSE Lead Magnets` (01 - Leads, 02 - ICP + AdWords Docs, Testing), `SOP`, `Blue Tusk Stuff`.
+
+---
+
+## Content
+
+### 1. Current map (Blue Tusk shared drive, folders only)
+
+```
+Blue Tusk (shared drive root)
+├── Admin/
+│   ├── Daily Accountability/
+│   └── HR/
+├── Business Development/
+│   ├── AGP/
+│   │   ├── Delivery/
+│   │   ├── Foundations/
+│   │   ├── Outbound Systems/   (Audits/, Media/, Notes/, ARCHIVE/)
+│   │   └── Sales/
+│   ├── Company Strategy/
+│   │   └── Product Strategy/
+│   │       └── Blue Tusk AI Audit/
+│   │           └── Marketing It/
+│   ├── GhostOps/
+│   ├── Relationships/
+│   │   └── Advisor Outreach/
+│   └── Vendors/
+├── Client Projects/
+│   ├── AI Advisory - All/
+│   │   ├── 1 - Industry Templates/
+│   │   └── Pine Run Construction/
+│   ├── Capital Financing/
+│   │   └── 26061201 - Capital Financing - AI and Automation Advisory/
+│   ├── CauseCrazy - Rocky Fischer/
+│   │   ├── 00_ClientResources/
+│   │   │   └── XX_Logins/                        ⚠ credentials in Drive
+│   │   └── 01 - First Project - 20251217/
+│   │       ├── AI and Automation Audit/
+│   │       ├── Background Docs/  (CAUSE Lead Magnet Prompts/)
+│   │       └── Development/      (CAUSE Lead Magnet/Prompts/)
+│   ├── Josh Henderson - Ellison Helmsman/
+│   │   ├── DELIVERED - Automation Documentation/
+│   │   └── Make Automation Sheets/
+│   ├── LendForGood/
+│   │   └── 26091801_Xero-automation/
+│   ├── Madrid Operations Group/
+│   │   └── 26092901-AI Workflow Rebuild/
+│   ├── Maycomb Capital/
+│   │   └── 26061601 - AI Roadmap (Free)/
+│   ├── NeighborWorks Capital/
+│   │   └── 26061701 - AI Roadmap (Free)/
+│   ├── RightWayRealty Group - Conrad Martin/
+│   ├── Ruthless For Good/
+│   │   └── 26073101 - Discovery (Free)/
+│   └── SyncScript (Proposal)/
+│       ├── 2024/
+│       └── 202502 - Excel Transcription/
+├── Finance/
+│   ├── Archive/
+│   │   ├── Monthly Expense Trackers/  (ARCHIVE_Individual Month/)
+│   │   └── Monthly Revenue Trackers/
+│   ├── Expense Reciepts/
+│   │   ├── 2024 Reciepts/   (202402 … 202412)
+│   │   ├── 2025 Reciepts/   (202501 … 202512)
+│   │   └── 202601, 202602, 202603, 202604     ← 2026 not grouped by year
+│   ├── Legal Finance/       (Capital Contributions/, Loans/)
+│   ├── Monthly Bookkeeping/ (2024 Bookkeeping/, 2025 Bookeeping/)
+│   └── Monthly Cash Flow Projections/ (Archive/)
+├── Legal/
+│   ├── Contracts/
+│   │   ├── Examples/
+│   │   ├── Signed/
+│   │   │   └── MSA/  (LendForGood/, Maycomb Capital/, Ruthless For Good/)
+│   │   └── Unsigned/
+│   ├── HIPAA/
+│   ├── LLC/  (Compliance/, NYS Publication Requirement/)
+│   ├── NDA/  (Signed/)
+│   └── Tax/
+├── Marketing/
+│   ├── Blog/            (Content Factory Outputs/, Resources/)
+│   ├── Images/          (Headshots/, Logo/, Social Media/)
+│   ├── Marketing Copy/
+│   │   ├── Blog Posts/  (Blog Images Files/)
+│   │   ├── Cold Email Campaigns/  (Active/, Past/)
+│   │   ├── Instagram Posts/
+│   │   ├── LinkedIn Posts/
+│   │   └── Pillar Content Method/ (1 - Core Pillar Content … 6 - Instagram Reels)
+│   ├── Marketing Strategy/
+│   │   └── Market Research/ (Competitor Research/)
+│   └── Sales Collateral/
+│       ├── Data Sheets/, Infographics/, In Progress/, One-Pagers/, VSL/
+│       ├── Lead Magnets/ (xx_ARCHIVE/: General/, Construction/, PI Law/)
+│       └── Whitepapers/  (Whitepaper Planning/)
+├── Product/
+│   ├── AI and Automation Audit Partnership/
+│   │   └── Support Materials/ (Delivery/, Technical Info/)
+│   └── New Product Development/
+│       └── AI and Automation Advisor/
+├── Project Resources/          (no subfolders found)
+├── Sales/
+│   ├── Cold Resources/
+│   │   └── Cold Email/
+│   │       └── Lead List/
+│   │           ├── Verified/   (PI Law/2025/, Business Valuators/, Misc/, XX_Raw/)
+│   │           └── Un-Verified/
+│   ├── Proposals + SOW/
+│   │   ├── ROI Calculations/
+│   │   └── SOW/  (Sold/, Lost/)
+│   ├── Sales Strategy/
+│   └── Scripts/  (General/, Learning and Resources/, PI Firm - Free Audit Offer/)
+└── Taxonomy Test/              (2026-10-07 connector test; disposable)
+```
+
+### 2. What the map shows
+
+**Things that cost agents tokens (or cause wrong answers):**
+1. **Client information is split across two trees.**
+   - Signed MSAs live in `Legal/Contracts/Signed/MSA/{client}`.
+   - Project work lives in `Client Projects/{client}`.
+   - SOWs live in `Sales/Proposals + SOW/SOW/Sold/`.
+   - An agent asked about "LendForGood" has to search three places, or search the whole drive, which also returns other clients' files.
+2. **The same work is spread across sales, BD and marketing.**
+   - Cold email appears under `Marketing/Marketing Copy/Cold Email Campaigns` and also `Sales/Cold Resources/Cold Email`.
+   - Strategy is split three ways: `Business Development/Company Strategy`, `Sales/Sales Strategy`, `Marketing/Marketing Strategy`.
+   - Product strategy sits under BD while `Product/` is a separate top-level folder.
+   - An agent can't tell which copy is current.
+3. **Inconsistent naming makes it hard to guess where things are.**
+   - Project codes use three formats: `26061601 - AI Roadmap (Free)`, `26091801_Xero-automation`, `26092901-AI Workflow Rebuild`.
+   - Client folders are a mix of company names and "Person - Company" (`CauseCrazy - Rocky Fischer`, `Josh Henderson - Ellison Helmsman`).
+   - Archive folders appear as `xx_ARCHIVE`, `ARCHIVE`, `Archive` and `ARCHIVE_Individual Month`.
+   - Typos: `Reciepts`, `Bookeeping`.
+4. **Archives sit inside working folders,** so stale material shows up in listings and searches.
+5. **Finance years are inconsistent.** 2024 and 2025 receipts are grouped by year, while 2026 months sit loose.
+6. **Some folders are unclear:** `AGP`, `GhostOps`, `Project Resources` (empty?), `AI Advisory - All` (a template library mixed in with a client).
+7. **Blue Tusk material lives outside the shared drive** in JC's My Drive (CAUSE lead magnets, SOP).
+
+**Security flag:** `Client Projects/CauseCrazy - Rocky Fischer/00_ClientResources/XX_Logins/` suggests credentials are stored in Drive. Anything in Drive can be read by any connected AI agent. Logins belong in a password manager, not Drive, regardless of the restructure.
+
+**What already works well:**
+- The vault-style project codes (`YYMMDDNN`) are already used in the newer client folders.
+- The newer client folders already follow a "one folder per engagement" pattern.
+
+### 3. Design principles for JC's drive (token efficiency first)
+
+| # | Principle | Why it saves tokens or prevents errors |
+|---|---|---|
+| 1 | **One client = one folder,** holding contracts, proposals, project work and AI notes | An agent scoped to that folder finds everything about the client with one listing. No whole-drive search, no cross-client leaks. |
+| 2 | **Shallow tree:** at most ~3 levels to any working file | Each level is a listing call. Deep nesting multiplies calls, and listings page unpredictably. |
+| 3 | **Predictable names, one convention everywhere** (free-tier principles #2–3) | Agents can build the path from the convention instead of searching. |
+| 4 | **A folder-ID index at the root** (registry: code → Drive folder ID) | The single biggest saving. An agent reads one small index and jumps straight to the right folder by ID, with zero searching. |
+| 5 | **Same codes as the vault** (`YYMMDDNN` projects; client slugs) | One identifier across Drive, the vault and Notion (free-tier principle #2). That makes a later vault-to-Drive move a mapping rather than a redesign. |
+| 6 | **One root-level `99_Archive/`** that mirrors the structure | Keeps stale files out of working listings and searches (free-tier principle #4). |
+| 7 | **Non-text assets in clearly named asset folders** (images, video, PDFs of receipts) | Agents can skip them, so listings stay small and relevant. |
+| 8 | **AI working space per client (`_ai/`) and at the root** | Agent notes and handoffs live in a known place. **Storage format is unresolved (D9);** see the test log. |
+| 9 | **No secrets in Drive** | Any connected agent can read anything in Drive. |
+
+### 4. Proposed structure (draft, for JC to react to)
+
+```
+Blue Tusk (shared drive)
+├── CONVENTIONS                         ← how to navigate; read first
+├── INDEX                               ← registry: code → name → Drive folder ID → vault path → status
+├── _ai/                                ← JC's own agent notes and handoffs (format per D9)
+│
+├── 00_Company/                         ← evergreen company infrastructure
+│   ├── Admin/          (HR, accountability)
+│   ├── Legal/          (LLC & compliance, tax, HIPAA, contract TEMPLATES & examples only)
+│   └── Finance/
+│       ├── Bookkeeping/{YYYY}/
+│       ├── Receipts/{YYYY}/{YYYYMM}/
+│       └── Planning/   (cash flow, revenue/expense trackers, capital contributions, loans)
+│
+├── 01_Clients/
+│   └── {client-slug}/                  e.g. madrid-operations-group/
+│       ├── {date}_{client}_Client-Brief
+│       ├── _ai/                        ← handoff, agent notes, rough drafts (format per D9)
+│       ├── 00_Contracts/               ← signed MSA, NDA, every SOW for this client
+│       └── {YYMMDDNN}_{project-slug}/  e.g. 26092901_ai-first-retainer/
+│           ├── meetings/ · decisions/ · drafts/ · delivered/   (only as needed)
+│
+├── 02_Pipeline/                        ← sales + BD merged: anything not yet a client
+│   ├── Prospects/{prospect-slug}/      (moves to 01_Clients/ when signed)
+│   ├── Partners/                       (referral partners, vendors, advisors: AGP? GhostOps?)
+│   ├── Outreach/                       (scripts, cold email sequences, lead lists)
+│   └── Proposals-Templates/            (proposal, SOW, ROI calculators)
+│
+├── 03_Marketing/
+│   ├── Brand-Assets/                   (logo, headshots, images: agents skip)
+│   ├── Content/{channel}/              (LinkedIn, blog, Instagram, video, pillar content)
+│   └── Lead-Magnets/                   (CAUSE lead magnets moved in from My Drive)
+│
+├── 04_Offers/                          ← what Blue Tusk sells and how it's delivered
+│   ├── {offer-slug}/                   (AI Roadmap, Taxonomy, AI-First Rebuild, Audit Partnership…)
+│   │   └── definition, delivery playbook, templates (Industry Templates move here)
+│   └── Strategy/                       (company, product, sales, marketing strategy, in ONE place)
+│
+├── 05_Knowledge/                       ← internal SOPs, research, market/competitor research
+│
+└── 99_Archive/                         ← mirrors the tree above; nothing active lives here
+```
+
+**How the proposal maps to the vault (for an eventual move):**
+
+| Vault | Proposed Drive |
+|---|---|
+| `business/projects/client-projects/{YYMMDDNN_slug}/` | `01_Clients/{client-slug}/{YYMMDDNN_slug}/` (the vault groups by project; Drive groups by client first. **Decide which to standardize on.**) |
+| `business/SOPs/`, `business/research/` | `05_Knowledge/` |
+| `business/projects/internal/` | `04_Offers/` + `05_Knowledge/` |
+| `business/marketing/` | `03_Marketing/` |
+| `business/sales/` | `02_Pipeline/` |
+| `tasks/`, `TASK-LOG.md`, `CONVENTIONS.md` | Root `INDEX` / `CONVENTIONS` + `_ai/` (format per D9) |
+| `xx_context-handoff.md` per project | `_ai/` per client or project |
+
+### 5. The constraint that matters for the move
+**Agents can't move files in the shared drive** (tested 2026-10-07: permission error on moves, even with Manager access; rename and trash work). So the migration **can't be done by Claude through the current connector**. The options:
+- **JC moves files by hand in the Drive UI** (drag and drop keeps IDs, links and sharing). With this many folders, that's a few focused hours.
+- **A Google Apps Script** run by JC that does the moves from a mapping table Claude writes. It's fast and repeatable, but needs a careful dry run first.
+- **Claude creates the new skeleton** (folders plus CONVENTIONS and INDEX, which works) **and JC drags the content in.**
+
+Per the offering-stack note's open question on migration, this is also a real-world test of incremental vs big-bang migration, and should be logged as such.
+
+### 6. Token-efficiency notes specific to the vault move
+- Moving the vault's markdown into Drive runs straight into the **unresolved D9 problem:** real `.md` files can't be edited in place through the current connectors. Moving JC's vault to Drive before D9 is resolved would make every vault edit costlier, or force the plain-Google-Doc workaround.
+- **Until D9 is resolved:** keep the vault local (the `vault` MCP server's cheap find-and-replace edits are the best case today). Put finished, human-facing outputs in Drive, and use INDEX to link vault paths to Drive folder IDs.
+- **Option E from the test log (a custom Drive-markdown MCP server)** would bring the vault server's cheap editing to Drive. It's the most direct route to a cloud vault, and the same build could serve MOG and future clients.
+
+---
+
+## Next steps
+- [ ] **JC:** check the map in the Drive UI and add any folders the listing missed.
+- [ ] **JC:** explain `AGP`, `GhostOps`, `Project Resources`, and what the second shared drive is.
+- [ ] **JC:** decide the top-level structure and whether client folders group by client first or project first (Section 4, vault mapping).
+- [ ] **JC:** move `XX_Logins` contents into a password manager and delete the folder.
+- [ ] Decide the migration method (Section 5). If it's the skeleton approach, Claude builds the new folders plus CONVENTIONS and INDEX.
+- [ ] Revisit D9 before any vault-to-Drive move.
