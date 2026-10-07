@@ -148,3 +148,34 @@ Other ideas, not yet explored:
 4. Decide whether the `_ai/` content needs to live in Drive at all, or whether "AI memory lives somewhere else, finished work lives in Drive" is the cleaner split.
 
 **Until this is resolved:** use Option B with cheap edits only (find-and-replace, append at the end, text reads). Keep AI docs short, with no blank lines between sections, and avoid positional edits.
+
+
+---
+
+## File operations: move, rename, trash (logged 2026-10-07)
+
+| Test | Result | Notes |
+|---|---|---|
+| Move a file between folders in the shared drive (`update_file` with a new folder) | ❌ "The caller does not have permission" | Tried moving `_ai/` → `03_drafts/`. |
+| Rename the same file (`update_file` title) | ✅ Pass | Same ID. The duplicate was renamed `xx_context-handoff_DUPLICATE.md`. |
+| JC's access on that file | Manager ("organizer") | The highest shared drive role, so moving should be allowed. |
+| Trash a file in the shared drive (`trash_file`) | ✅ Pass | Trashed the `_DUPLICATE.md`. Folder listing confirmed it's gone. Restorable from shared drive trash. |
+
+**Findings:**
+- **Moving is the only blocked operation.** Create, rename and trash all work in the shared drive. Trashing there also needs Manager-level access, so the connector can act on shared drive files, and the move call specifically fails. **Likely cause, not confirmed:** the connector doesn't send the API flag for shared drive support on moves (parent changes).
+- **Not tested yet:** moving a file in **My Drive**, which would show whether moves fail everywhere or only in shared drives. It wasn't run because it means putting a test folder in JC's personal My Drive.
+
+**Design implications (observations, no decisions made):**
+- Agents can't reorganize folders in the shared drive. That fits the existing conventions rule that agents don't restructure folders.
+- Moving a draft into a delivered folder (`03_drafts` → `04_delivered`) can't be done by an agent today. The alternatives are to do it by hand, or for the agent to publish a new file into the delivered folder (cheap) and trash the draft.
+- **For D9 / the UNRESOLVED `_ai/` storage question:** Option A ("real `.md` in Drive, replaced on each change") is now **technically possible**, since both creating a new file and trashing the old one work. The open tradeoffs are unchanged: a new ID and link on every change, duplicates if a trash step fails, and trash clutter. **Recorded as new evidence only. D9 is still not decided.**
+
+**Updated file-operations scorecard (shared drive):**
+
+| Operation | Result |
+|---|---|
+| Create file or folder | ✅ |
+| Rename | ✅ |
+| Move between folders | ❌ (permission error despite Manager access) |
+| Trash | ✅ |
+| Edit content in place | ✅ native Google Docs only; ❌ `.md` |
