@@ -11,64 +11,33 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the files linked below if the current task actually needs that level of detail — don't re-read everything by default.
 
 ## Where things stand
-The core offering is still **Information Taxonomy** (Roadmap → taxonomy design / migration → drift-checking → AI working-partner layer). On 2026-10-07 and 10-08 it gained a concrete, generalizable **AI-native operating architecture**, built first for MOG and meant for any firm, eventually Blue Tusk itself.
-- **Notion holds** drafts, context, CRM, tasks and registers (eleven databases, including Handoffs for session and project handoffs).
-- **Drive holds** finals and files.
-- **The system rests on:** one ID per entity (`{CLIENT}-{YYMMDDNN}`), agent rules, a skills list, scripted backups and governance.
+The core offering is still **Information Taxonomy** (Roadmap → taxonomy design / migration → drift-checking → AI working-partner layer). It now has a concrete, generalizable **AI-native operating architecture**, built first for MOG and meant for any firm, eventually Blue Tusk itself: Notion as the working back end (eleven databases), Drive for finals, one ID per entity, agent rules, scripted backups, governance, and **skills in a git repo**. A free lead magnet built from it is drafted.
 
-A free lead magnet built from it is drafted.
-
-## Last worked on (2026-10-07 → 10-08)
-- **Connector tests:**
-  - **Google Drive passes** everything needed, except moving files and editing `.md` in place.
-  - **Notion editing** measured roughly 15–200x cheaper than Google Docs.
-- **Wrote the reference architecture and its decision log** (AD-001 to AD-048).
-- **Skills (AD-043 to AD-048):** open Agent Skills format, tested portable (a Notion skill downloaded as a clean `SKILL.md` folder with its attached file). **A private git repo is the master**, laid out as a Claude plugin marketplace. It syncs automatically to Claude on Team plans (MOG) and through Claude Code, by manual upload on Pro (Blue Tusk today), and by a still-untested deploy to Notion AI. Reference doc Section 8.1. Open: O-11 (repo ownership), O-12 (Notion deploy test), O-13 (Blue Tusk Team plan). Scratch: "SCRATCH - Skills Test" in Notion.
-- **Commercial decisions:**
-  - Backup and restore is an **ongoing paid offering** that creates stickiness (AD-039).
-  - **Feature additions** are Blue Tusk's ongoing role, through the governance layer (AD-040).
-  - **A simplified version becomes a free lead magnet** (AD-041), now drafted.
-- **Mapped JC's own Blue Tusk Drive** and proposed a restructure:
-  - Client first, then project.
-  - 3-letter client codes built into project IDs.
-  - Agents may work across a client's projects, never across clients.
-
-- **Designed in-system context handoffs** (AD-042):
-  - A Handoffs core database: one row per session, append-only.
-  - A rewritten "Where things stand" section on each Project page.
-  - Handoff and resume skills.
+## Last worked on (2026-10-08)
+- **Skills portability (AD-043 to AD-048):**
+  - Tested: a Notion skill downloads as a clean open-standard `SKILL.md` folder, with attached files bundled. Claude does **not** find Notion-hosted skills on its own (readable by page ID only).
+  - Decided: **a private git repo is the master**, laid out as a Claude plugin marketplace. Syncs automatically to Claude on Team plans and via Claude Code; manual upload on Pro (**Blue Tusk is on Pro**); one-way deploy to Notion AI (untested). Skills are written tool-agnostic and registered. Reference doc Section 8.1.
+- Earlier today: full reference architecture and decision log, commercial decisions (backup as paid offering, feature additions as ongoing role, free lead magnet), Handoffs database design, Blue Tusk Drive restructure proposal.
 
 ## Open / next
-- **Lead magnet:** JC to edit. Decide the format (PDF, Notion template, or both), the title, how specific the numbers are, the call to action, gating, and whether to merge it with the free-tier taxonomy guide.
-- **Pending tests:**
-  - Notion lock vs connector (JC locks "SCRATCH - AI Drafts Test" in the UI).
-  - Backup → restore with relations.
-  - Office file upload and read cost.
-  - Sheets edit cost.
-  - Billing webhooks (Stripe for Blue Tusk).
-- **Delete the scratch database** when testing is done.
-- **Blue Tusk Drive restructure:**
-  - Confirm client codes and the top-level structure.
-  - Clean up the `XX_Logins` folder (security).
-  - Moves must be done by a human or a script, since agents can't move files.
-- **Still open from August:**
-  - Migration strategy (big-bang vs incremental).
-  - Enterprise / PE objections not re-evaluated.
-  - Naming the offering stack.
-  - The reusable-IP vs billable split.
-- **Later:** align JC's vault to client-first IDs (O-7); decide whether the backup git repo becomes the cloud vault (O-6).
+- **Set up Blue Tusk's own skills repo** as the template; move existing Claude skills into it.
+- **Pending tests:** git → Notion skill deploy with a script (O-12); Notion AI using an enabled skill; Notion lock vs connector; backup → restore; Office file read cost; Sheets edit cost; Stripe webhooks.
+- **Decide:** Blue Tusk on Claude Team for automatic skill sync (O-13); client skills repo ownership (O-11).
+- **Lead magnet:** JC to edit; decide format, title, call to action, gating.
+- **Blue Tusk Drive restructure:** confirm codes and structure; clean up `XX_Logins` (security).
+- **Delete scratch Notion databases** when done: "SCRATCH - AI Drafts Test" and "SCRATCH - Skills Test".
+- Still open from August: migration strategy, PE objections, naming the stack, reusable-IP vs billable split.
 
 ## Watch items
-- **Drift-checking is bridge revenue,** not permanent. Platform AI will absorb it.
-- **The cost-calculator math** ($325K–$375K/year) is illustrative only. Verify it before any client-facing use.
-- **The lead magnet's token numbers** come from a small internal test. Present them as "in our tests."
+- **Drift-checking is bridge revenue;** platform AI will absorb it.
+- **Cost-calculator math** ($325K–$375K/year) is illustrative only.
+- **Token numbers** come from small internal tests; present as "in our tests."
+- **The pasted web summary on Notion skills was partly wrong** (no documented GitHub → Notion upload, no ZIP import of skills). Check Notion's own docs before relying on claims.
 
 ## Key files
-- [[20261008_ai-native-operating-architecture]]: **start here for the architecture.**
-- [[20261008_ai-native-architecture-decision-log]]: every decision and open item.
+- [[20261008_ai-native-operating-architecture]]: **start here for the architecture** (skills: Section 8.1).
+- [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-048, open items O-1 to O-13.
 - [[20261008_lead-magnet-ai-ready-workspace-draft]]: the free guide draft.
-- [[20261007_google-drive-taxonomy-test-results]]: all connector tests and token costs.
+- [[20261007_google-drive-taxonomy-test-results]]: connector tests and token costs.
 - [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: JC's Drive map and proposed structure.
 - [[20260814_information-taxonomy-offering-stack]]: offering stack, moat, migration options.
-- [[20260818_File_Taxonomy_Free_Tier_Principles]]: free-tier rules (lead magnet source).
-- [[business/marketing/offers/20260814_file-chaos-marketing-angles]]: pain points and cited research.
