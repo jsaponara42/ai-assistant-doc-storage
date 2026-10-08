@@ -23,6 +23,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is done, and 
   - **Agents** work across a client's projects, never across clients.
   - **Backups** are scripted markdown exports.
   - **Schema changes** need approval.
+  - **Skills** live in a private git repo (the master) and sync out. MOG is on Claude Team, so Claude picks them up automatically through organization sync. The deploy to Notion AI is untested (AD-043 to AD-048).
 - **D9 is resolved:** drafts and context live in Notion. The per-client `_ai/` Drive folder is dropped.
 - **Notion editing** measured roughly 15–200x cheaper than Google Docs. Scratch database: "SCRATCH - AI Drafts Test".
 - **Drive project folders:** `client-sent/`, `in-progress/`, `delivered/`. Client folders get `00_Contracts/`. Client-facing files get clean titles.
@@ -36,6 +37,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is done, and 
   - Her Notion plan (Business is needed for unlimited SQL queries and teamspace permissions).
   - Who owns the system and backups, and Blue Tusk's access at the end of the engagement.
   - Client codes (MAY vs her "MC").
+  - Who owns MOG's skills repo (Blue Tusk's GitHub or hers), and who is the Owner on her Claude Team plan (they connect the Claude GitHub App).
 - **JC decides MOG's folder taxonomy** before suggesting anything specific.
 - **The LFG loan admin list** is still outstanding.
 
@@ -48,7 +50,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is done, and 
 
 ## Key files
 - [[business/projects/internal/product/20261008_ai-native-operating-architecture]]: **start here for anything architecture-related.**
-- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-042 and open items O-1 to O-10.
+- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-048 and open items O-1 to O-10.
 - [[20261007_MOG_Current_State_Workflow_Map]]: MOG's workflows; the basis for the build plan.
 - [[20261007_MOG_AI_Native_Stack_Architecture]]: the earlier MOG-specific draft. Its 10-08 update section says what's superseded.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word.

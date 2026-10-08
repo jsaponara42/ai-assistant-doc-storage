@@ -240,6 +240,41 @@ The principles and the shape of the system are given away; the build, customizat
 - **Known limit:** "Last Edited By" shows whoever connected the agent, so agent edits look like the person's. That's why Handoffs carry an explicit Written By property.
 - This replaces the vault's `xx_context-handoff.md` pattern inside client systems. The vault keeps its own until a vault migration (O-6, O-7).
 
+**AD-043. Skills use the open Agent Skills format (finding and decision).** *Tested; decided (JC).*
+- Skills are a folder with a `SKILL.md` (frontmatter `name` and `description`) plus optional supporting files, per agentskills.io. Notion, Claude, Codex, Cursor, Gemini and others read it.
+- **Tested 2026-10-08:** the skill `catch-up`, written as a Notion skill page, downloaded ("Download for local agents → Claude Code") as a clean folder: `SKILL.md` with only name and description in the frontmatter, the body unchanged, and a file attached to the page's Files property (`CONVENTIONS.md`) bundled alongside it.
+- Notion's per-agent download options (Claude Code, Codex, Cursor, Gemini, Grok Build) appear to differ only in where the folder lands locally. Only the Claude Code download was inspected.
+- **Consequence:** skills are portable between tools at no cost. Leaving Claude or Notion doesn't strand them.
+
+**AD-044. Claude doesn't discover Notion-hosted skills on its own (finding).** *Tested.*
+- With the skill enabled in Notion's Library ("Enable for me"), it still didn't appear in Claude's skill list or in Notion search through the connector. Claude could read it only by page ID.
+- Enabling a skill in Notion turns it on for **Notion AI**. Notion AI picking it up from a plain prompt is untested.
+
+**AD-045. The skills master is a private git repo.** *Decided (JC).*
+- One private repo per firm, laid out as a Claude plugin marketplace (`.claude-plugin/marketplace.json`, `plugins/{plugin}/skills/{skill}/SKILL.md`). Scripts go in `scripts/`, never a top-level `bin/` (Claude org sync rejects it).
+- **All edits happen in the repo;** deployed copies in Claude and Notion are never edited directly.
+- **Why git, not Notion, as the master:** versioned history, review before changes go live, and every tool can read it. Claude's official sync reads from GitHub. Notion's official sync (`notion-skills-github-sync`) only runs Notion → GitHub, and Notion's public API only documents downloading skills.
+- **Alternative considered:** author in Notion and mirror to git with Notion's sync. It's simpler for people who work in Notion and native for Notion AI, but has no review step and takes two hops to reach Claude. It stays an option for a client whose team authors skills in Notion.
+
+**AD-046. Skills sync regularly from the repo to each tool.** *Decided (JC).*
+- **Claude, Team or Enterprise:** organization sync from GitHub, automatic on every push to the default branch. **MOG is on Team**, so this works for Martina.
+- **Claude Code:** the repo registered as a plugin marketplace (works on any plan).
+- **Claude, Pro chat:** manual upload per skill. **Blue Tusk is on Pro**, so JC's chat copies are uploaded by hand until Blue Tusk moves to Team. Pro upload support is unverified.
+- **Notion AI:** a one-way deploy from the repo after each merge (untested, O-12). It may need to be an agent-run step, since the public API documents no upload.
+- **Other or local agents:** clone the repo.
+- **A scheduled drift check** compares deployed copies with the repo (Notion plugin `version_id` helps) and flags edits made outside it.
+- Change flow: branch → review → merge → automatic Claude sync → Notion deploy and manual uploads → version bump and registry update.
+
+**AD-047. Skills are written to be tool-agnostic.** *Decided.*
+- Instructions describe the job, not a vendor's interface.
+- Each skill has a **Surface** line (Notion-only / needs connectors / needs scripts) and a **Requires** section with a fallback.
+- No hard-coded IDs; skills read the System Registry and INDEX.
+- Deterministic work stays in scripts the skill calls.
+- Plain markdown only.
+
+**AD-048. Skills are registered.** *Decided.*
+Each skill gets a System Registry entry (name, version, surface, databases it reads and writes, owner), and the repo itself is listed there. The skills repo is its own versioned master and isn't part of the backup repo.
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.
@@ -248,6 +283,9 @@ The principles and the shape of the system are given away; the build, customizat
 - **O-5:** Retention periods for invoices and contracts (per firm, ask the accountant).
 - **O-6:** Whether the backup git repo becomes the cloud vault (flagged, not decided).
 - **O-7:** Aligning JC's vault to client-first naming (`MOG-26092901_…`).
-- **O-8:** Tests pending: the Notion lock vs connector, backup → restore, Office file upload and read cost, Sheets edit cost, billing webhooks.
+- **O-8:** Tests pending: the Notion lock vs connector, backup → restore, Office file upload and read cost, Sheets edit cost, billing webhooks, Notion AI using an enabled skill from a plain prompt.
 - **O-9:** How a file gets from `in-progress/` to `delivered/`: human drag (keeps the link) or agent copy (new ID, exact record of what was sent).
 - **O-10:** What the free lead magnet includes vs what stays paid (AD-041).
+- **O-11:** Who owns each client's skills repo (Blue Tusk's GitHub or the client's), tied to O-4. For MOG: confirm the Owner on Martina's Claude Team plan, who connects the Claude GitHub App.
+- **O-12:** Test the git → Notion deploy: upload a skill folder that includes a script via the Notion connector, confirm it arrives intact and that Notion AI uses it. Decide whether the deploy can be a script or must be an agent-run step.
+- **O-13:** Whether Blue Tusk moves to a Claude Team plan for automatic skill sync, and confirming that Pro supports manual skill upload in the meantime.

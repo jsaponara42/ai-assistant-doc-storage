@@ -21,6 +21,7 @@ The main design choices:
 - **Every database row has a one-line summary,** so agents catch up by querying instead of reading pages.
 - **A scripted (not AI) backup** exports everything to markdown with frontmatter, keeping relations rebuildable.
 - **Governance:** a System Registry, a change protocol, locks on core databases, and permission-based schema changes.
+- **Skills live in a private git repo (the master),** in the open Agent Skills format, and sync from there to every AI tool the firm uses: Claude, Notion AI, and any other or local agent (Section 8.1).
 
 **Status:** the design is v1. Notion editing costs have been tested; several other items are designed but untested (see Section 15). Firm-specific details are marked **[per firm]**; everything else is the generalizable pattern.
 
@@ -44,7 +45,7 @@ The main design choices:
 4. **One identifier per entity, everywhere.** It's the same in Notion, Drive, the vault, email labels and invoices (free-tier principle #2).
 5. **Client isolation by structure.** Agents may use all of a client's history but never mix clients.
 6. **Agents navigate by ID, never by searching the whole workspace.** Drive search returns every client's files (tested).
-7. **AI-agnostic and recoverable.** Everything exports to plain markdown with frontmatter and rebuildable relations. No vendor holds the only copy.
+7. **AI-agnostic and recoverable.** Everything exports to plain markdown with frontmatter and rebuildable relations. No vendor holds the only copy. **That includes the skills:** they live in a git repo in an open format, not inside any one AI tool.
 8. **One place to look.** Notion is the single dashboard for people; agents query it instead of hunting.
 9. **Deterministic jobs get scripts, not AI.** Backups, payment status and contact recency are handled by small scripts. AI is for judgment and drafting.
 10. **Governed change.** The system can grow, but only through a registry, a change protocol and approvals.
@@ -60,6 +61,7 @@ The main design choices:
 | **Email and calendar** | Inputs | Correspondence, meetings | Read for touchpoints and intake (scheduled), draft replies; never send without approval |
 | **Meeting notes tool** [per firm] | Transcripts | Fireflies or Notion meeting notes | Read transcripts; write close-outs to Notion Meeting Notes |
 | **Backup repo** (private git) + Drive snapshot | Disaster recovery | Markdown export of all core Notion databases | **No agent access** in normal work |
+| **Skills repo** (private git) | Master copy of every skill | Skill folders (`SKILL.md` + supporting files) in the open Agent Skills format, laid out as a plugin marketplace | Read; propose changes only through a reviewed commit, never by editing the deployed copies (Section 8.1) |
 | **Client-owned systems** | Delivery destinations | Client's SharePoint, Notion, HubSpot, Slack, etc. | Deliver finals there when the client works there; the Notion draft records the destination |
 
 ### 3. Identity and naming
@@ -313,7 +315,64 @@ The main design choices:
 | **handoff** | End of a working session | Writes one Handoffs row (project relations, Summary, done / open / next, Written By); rewrites "Where things stand" on each project touched; one write serves both the person and the project |
 | **resume** | Start of a working session | **As a person:** their latest Handoffs rows, open Tasks they own, drafts they last edited, meetings they attended this week. **On a project:** "Where things stand" plus the project's last few Handoffs and recent meetings / drafts. Property queries only; opens pages only if needed |
 | **restore** (manual only) | Rebuild from backup | Invoked only by a human |
-| **Scripts (not skills)** | Backup export, Last Contacted updater, payment webhook, invoice reconciliation, schema drift check | Deterministic, no AI |
+| **Scripts (not skills)** | Backup export, Last Contacted updater, payment webhook, invoice reconciliation, schema drift check, skills deploy and skills drift check | Deterministic, no AI |
+
+### 8.1 Where skills live and how they sync
+
+**Goal:** skills work in Claude and Notion AI today, and survive a move away from either, or to locally run AI. *(Decided by JC 2026-10-08: git master, AD-043 to AD-048.)*
+
+**The format is an open standard.** Skills follow the **Agent Skills** standard (agentskills.io): a folder with a `SKILL.md` (frontmatter `name` and `description`, then the instructions) plus optional supporting files. Groups of skills are **plugins**. Claude, Notion, Codex, Cursor, Gemini and others read this format. *(Tested 2026-10-08: a skill written in Notion downloaded as a clean standard folder, with its attached file bundled alongside `SKILL.md`. Nothing Notion-specific was added.)*
+
+**The private git repo is the master.**
+- One repo per firm, e.g. `{firm}-skills`, **private**.
+- Laid out as a **Claude plugin marketplace**, so Claude can read it directly:
+
+```
+{firm}-skills/
+├── .claude-plugin/marketplace.json     ← lists the plugins
+├── plugins/
+│   └── {plugin}/                        ← e.g. core, drafting, crm
+│       ├── .claude-plugin/plugin.json
+│       └── skills/
+│           └── {skill}/
+│               ├── SKILL.md
+│               └── (supporting files; scripts in scripts/, never a top-level bin/)
+└── README.md                            ← how to change a skill; links to the System Registry
+```
+
+- **Plugins group skills by job or surface** (e.g. `core`, `drafting`, `crm`). In Notion the same grouping is a shared tag, because Notion builds one plugin per tag.
+- **The deployed copies are never edited directly.** All changes go into the repo, then sync out.
+
+**How each tool gets the skills (regular syncing):**
+
+| Tool | Route | Sync | Status |
+|---|---|---|---|
+| **Claude, Team or Enterprise plan** (claude.ai, desktop, Cowork) | Organization settings → Plugins & skills → Sync from GitHub (Claude GitHub App). Members find them under Customize → Plugins. | **Automatic on every push** to the default branch (webhook). Owner sets availability per plugin. | Documented; not yet run. **MOG is on Team.** |
+| **Claude Code** (CLI) | `claude plugin marketplace add {owner}/{repo}`; private repos supported; admins can require it on every machine | Plugin updates from the marketplace | Documented; not yet run |
+| **Claude, Pro plan** (chat) | Manual upload of each skill from the repo | **Manual,** per skill and per change; the chat copy can drift | Assumed available on Pro; **unverified.** Blue Tusk is on Pro today. |
+| **Notion AI** | Deploy each skill from the repo to the firm's Skills database (the Notion connector has an upload tool) | One-way, repo → Notion, after each merge. Notion's public API only documents *downloading* skills, so this may be an agent-run step, not a script. | **Untested** (O-12) |
+| **Other or local agents** (Codex, Cursor, Gemini, local models) | Clone the repo; point the agent at the skill folders | `git pull` | Format confirmed; not run |
+
+**Notion's official sync runs the other way** (`notion-skills-github-sync`: Notion → GitHub). We don't use it as the master direction. It could serve as the drift check, by mirroring Notion's copies to a branch and diffing against main.
+
+**Change flow:**
+1. Edit the skill in the repo, in a branch.
+2. Review it: a pull request for teams, or a self-review for one person.
+3. Merge to the default branch.
+4. Claude org sync picks it up automatically. The Notion deploy and any manual Pro uploads follow.
+5. Bump the skill's version line and update its System Registry entry.
+
+**Drift check (scheduled script):** compare each deployed copy with the repo. In Notion, each plugin has a `version_id` that changes when its skills change. Flag any copy edited outside the repo, and either fold the change back into the repo or overwrite it.
+
+**How skills are written so they move between tools:**
+- **Tool-agnostic instructions.** Describe the job, not the vendor's buttons.
+- **A Surface line** at the top: Notion-only (works inside Notion AI), needs connectors (Drive, email, billing), or needs scripts.
+- **A Requires section** with a fallback: what access the skill needs, and what to do if it's missing (say so, ask for the link).
+- **No hard-coded IDs.** Skills read database and folder IDs from the System Registry and INDEX.
+- **Deterministic jobs stay scripts,** referenced from the skill, never re-done by AI.
+- **Notion-specific formatting stays out.** Plain markdown only, so the file reads the same everywhere.
+
+**Registered:** every skill gets a System Registry entry (name, version, surface, which databases it reads and writes, owner). The repo itself is listed there too. It's **not** in the backup repo; it's its own versioned master.
 
 ### 9. Permissions and sensitive data
 - **Restricted teamspaces** for Contracts and Invoices, and for any HR content in Notion.
@@ -322,6 +381,7 @@ The main design choices:
 - **The backup repo is private,** with access limited, and client data kept in separate folders within it.
 - **For a client firm (e.g. MOG):** decide **whose account owns the system and the backups**, and what happens to Blue Tusk's access and any Blue Tusk copies when the engagement ends. **This is a contract question, not a technical one.**
 - **Retention:** ask the firm's accountant or lawyer how long invoices and contracts must be kept [per firm].
+- **Skills repo ownership** [per firm]: whose GitHub account holds the client's skills repo. If Blue Tusk's, Blue Tusk controls updates but the client depends on it. If the client's, the client owns it and Blue Tusk is a collaborator. It ties to the system-ownership question above. The Claude GitHub App must be installed on whichever account holds it for org sync.
 
 ### 10. Navigation and user experience (keeping Notion from getting busy)
 - **No orphan pages.** Everything is a database row created from a template or a skill.
@@ -451,6 +511,7 @@ The main design choices:
    - **Quick win:** People with Last Contacted / Next Follow-up gives a working CRM and follow-up cadence.
 2. **Working layer:**
    - **Meeting Notes, AI Drafts, Handoffs.**
+   - **Skills repo** set up as a plugin marketplace, connected to Claude (org sync on Team, or Claude Code), and the Notion deploy step chosen.
    - Skills: draft, finalize, promote, context-read, meeting-close-out, catch-up.
    - Per-person home template.
 3. **Registers:**
@@ -478,6 +539,12 @@ Each stage updates the registry and the backup manifest before it counts as done
 | Billing webhooks (Stripe, QuickBooks, Wise) | ⏳ untested |
 | Notion SQL query limits by plan | ⚠ SQL unlimited only on Business / Enterprise with Notion AI; others share a limit. Use filter-based queries or saved views elsewhere. |
 | Notion trash and history retention by plan | ⚠ verify per firm |
+| Skills: Notion skill downloads as a standard Agent Skills folder (`SKILL.md` + attached files) | ✅ tested (scratch "SCRATCH - Skills Test", skill `catch-up`) |
+| Skills: Claude finding a Notion-hosted skill on its own | ❌ no. It doesn't appear in Claude's skill list or in Notion search; it's readable by page ID only. Enabling it in Notion's Library turns it on for Notion AI. |
+| Skills: Notion AI picking up an enabled skill from a plain prompt | ⏳ untested |
+| Skills: git → Claude org sync (Team) and Claude Code marketplace | ⏳ documented, not run |
+| Skills: git → Notion deploy (upload a skill folder, including a script) | ⏳ untested (O-12) |
+| Skills: manual upload on Claude Pro | ⏳ unverified |
 
 ### 16. What's fixed vs per firm
 - **Fixed (the pattern):**
@@ -499,6 +566,8 @@ Each stage updates the registry and the backup manifest before it counts as done
   - Retention periods
   - Who owns the system and backups
   - Whether one shared database across clients is acceptable to the client (to discuss with Martina)
+  - Claude plan, which sets the skills sync route (Team/Enterprise: automatic org sync; Pro: manual upload)
+  - Who owns the skills repo
 
 ## Next steps
 - [ ] **JC:** discuss with Martina: one shared database across her clients (filter-based isolation), and her Notion plan (Business needed for unlimited SQL and teamspace permissions).
@@ -507,4 +576,7 @@ Each stage updates the registry and the backup manifest before it counts as done
 - [ ] **JC:** drop sample Word, Excel and PDF files into the Taxonomy Test folder for the upload and read tests.
 - [ ] Confirm client codes (including MAY vs Martina's "MC" for Maycomb).
 - [ ] Turn this into MOG's build plan (Phases 0–1) and into a reusable Blue Tusk offering artifact.
-- [ ] Delete the scratch Notion database when testing is done.
+- [ ] Delete the scratch Notion databases when testing is done (AI Drafts test and Skills test).
+- [ ] Set up the skills repo (Blue Tusk first, as the template) and move existing Claude skills into it.
+- [ ] Test the git → Notion deploy with a skill folder that includes a script (O-12).
+- [ ] **JC:** ask Martina who should own MOG's skills repo, and confirm who is the Owner on her Claude Team plan (needed for org sync).

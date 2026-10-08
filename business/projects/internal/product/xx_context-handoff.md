@@ -22,7 +22,8 @@ A free lead magnet built from it is drafted.
 - **Connector tests:**
   - **Google Drive passes** everything needed, except moving files and editing `.md` in place.
   - **Notion editing** measured roughly 15–200x cheaper than Google Docs.
-- **Wrote the reference architecture and its decision log** (AD-001 to AD-042).
+- **Wrote the reference architecture and its decision log** (AD-001 to AD-048).
+- **Skills (AD-043 to AD-048):** open Agent Skills format, tested portable (a Notion skill downloaded as a clean `SKILL.md` folder with its attached file). **A private git repo is the master**, laid out as a Claude plugin marketplace. It syncs automatically to Claude on Team plans (MOG) and through Claude Code, by manual upload on Pro (Blue Tusk today), and by a still-untested deploy to Notion AI. Reference doc Section 8.1. Open: O-11 (repo ownership), O-12 (Notion deploy test), O-13 (Blue Tusk Team plan). Scratch: "SCRATCH - Skills Test" in Notion.
 - **Commercial decisions:**
   - Backup and restore is an **ongoing paid offering** that creates stickiness (AD-039).
   - **Feature additions** are Blue Tusk's ongoing role, through the governance layer (AD-040).
