@@ -16,7 +16,7 @@ This is a reusable architecture for running a small firm with AI agents doing mu
 The main design choices:
 - **Notion is always drafts; Google Docs are always finals.** Editing in Notion costs roughly 15 to 200 times less than editing an existing Google Doc. *(Measured.)*
 - **One ID per entity, used everywhere:** a 3-letter client code plus a project ID, `{CLIENT}-{YYMMDDNN}`, in Notion, Drive and the vault.
-- **Ten Notion databases:** Companies, People, Projects, Tasks, Meeting Notes, AI Drafts, Documents, Contracts, Invoices and Knowledge. Built in stages.
+- **Eleven Notion databases:** Companies, People, Projects, Tasks, Meeting Notes, AI Drafts, Handoffs, Documents, Contracts, Invoices and Knowledge. Built in stages.
 - **Agents work across a client's projects but never across clients.**
 - **Every database row has a one-line summary,** so agents catch up by querying instead of reading pages.
 - **A scripted (not AI) backup** exports everything to markdown with frontmatter, keeping relations rebuildable.
@@ -105,6 +105,7 @@ The main design choices:
 | 8 | **Contracts** | Register of MSAs, SOWs, NDAs and amendments (signed PDFs live in Drive) | Type, Company, Project, status, signed date, term end, renewal date, value, parent contract (SOW → MSA), Drive link | **Restricted** |
 | 9 | **Invoices** | Register of invoices (billing tool is the source of truth) | Invoice number / external ID, Billing System, Project, Company, amount, issued date, due date, status, paid date, link | **Restricted** |
 | 10 | **Knowledge** | Company-level living knowledge: SOPs, how-tos, writing guides, template instructions, HR policies, and the **System Registry** | Type (sop / guide / template-instructions / policy / system), department, audience, owner, Summary, last reviewed, status, Drive template link | Policies normal; system entries admin |
+| 11 | **Handoffs** | One row per working session: what a person (or agent) did, what's open, what's next. **Append-only timeline; rows are never edited.** **Core.** | Project(s) (relation), Created By (automatic), Written By (person / agent), Summary, body: done / open / next | Normal |
 
 **4.2 Property conventions (apply to every database)**
 - **Summary** (one line, always current). Queries return properties, not page bodies, so agents can catch up by scanning rows. **Skills must refresh Summary whenever content changes materially.** A stale summary is a silent error.
@@ -131,6 +132,7 @@ The main design choices:
 | Contracts | Contracts | Parent Contract | Child Contracts | SOW → its MSA |
 | Invoices | Projects, Companies | Project, Company | Invoices | Billing per engagement |
 | Knowledge | (any) | Related | — | Optional links |
+| Handoffs | Projects | Projects | Handoffs | One session can touch several projects; filtering Handoffs by project gives the project's activity timeline |
 
 **All relations are two-way and named on both sides.**
 
@@ -154,6 +156,8 @@ The main design choices:
 **4.6 Context: where AI gets its background**
 - **Base client context** goes on the **Company page**: people, scope history, tools, AI rules, preferences, history.
 - **Project context** goes on the **Project page**: scope, current state, decisions, open items.
+  - Each Project page has a fixed **"Where things stand"** section (current state, open items, watch items). The handoff skill **rewrites** it each session so it stays short and current. It's the in-system equivalent of the vault's `xx_context-handoff.md`.
+  - **"Recent activity" is computed, never written:** the project page shows its Meeting Notes, AI Drafts, Tasks and Handoffs sorted by Last Edited.
 - **At the start of any task, an agent reads the Company page and the relevant Project page.** It may read the client's other Projects. It never reads other clients' pages.
 - **Why Notion and not Drive:** context changes constantly, which puts it on the cheap-edit side. It's internal and candid. It gets summary and attention queries for free, and the people already work in Notion.
 - **Drive holds only a link to the Company page** (in the client folder and in INDEX), never a copy.
@@ -306,6 +310,8 @@ The main design choices:
 | **catch-up / daily brief** | "What happened yesterday / this week; what's next" | Built from property queries (Summary, Last Edited, Needs Attention, Tasks due, Calendar); never opens pages unless needed |
 | **weekly plan** | Look ahead from calendar + scope + open tasks | Proposes next tasks; updates as new information arrives |
 | **schema-change** | Propose and apply approved database changes | Section 12 protocol; refuses on locked/core databases without approval |
+| **handoff** | End of a working session | Writes one Handoffs row (project relations, Summary, done / open / next, Written By); rewrites "Where things stand" on each project touched; one write serves both the person and the project |
+| **resume** | Start of a working session | **As a person:** their latest Handoffs rows, open Tasks they own, drafts they last edited, meetings they attended this week. **On a project:** "Where things stand" plus the project's last few Handoffs and recent meetings / drafts. Property queries only; opens pages only if needed |
 | **restore** (manual only) | Rebuild from backup | Invoked only by a human |
 | **Scripts (not skills)** | Backup export, Last Contacted updater, payment webhook, invoice reconciliation, schema drift check | Deterministic, no AI |
 
@@ -444,7 +450,7 @@ The main design choices:
    - System Registry with entries for each.
    - **Quick win:** People with Last Contacted / Next Follow-up gives a working CRM and follow-up cadence.
 2. **Working layer:**
-   - **Meeting Notes, AI Drafts.**
+   - **Meeting Notes, AI Drafts, Handoffs.**
    - Skills: draft, finalize, promote, context-read, meeting-close-out, catch-up.
    - Per-person home template.
 3. **Registers:**
@@ -478,7 +484,7 @@ Each stage updates the registry and the backup manifest before it counts as done
   - The principles
   - Notion = drafts / Drive = finals
   - The identity scheme
-  - The ten-database model and its property conventions
+  - The eleven-database model and its property conventions
   - Agent rules
   - Backup design
   - Governance
