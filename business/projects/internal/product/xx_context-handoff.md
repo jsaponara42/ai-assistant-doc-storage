@@ -39,3 +39,21 @@ Direction has shifted from an earlier "hosted AI company-brain" concept to **Inf
 - [[business/marketing/offers/20260814_file-chaos-cost-calculator]] — lead magnet concept, still needs the loaded-cost assumption verified
 - [[business/marketing/offers/20260814_what-ai-sees-lead-magnet]] — lead magnet concept, still needs the illustrative-vs-real-access design question resolved
 - [[business/ideas/2026-07-10-scaling-vault-to-team]] — background on the internal team-scaling problem this offering's architecture deliberately avoids replicating
+
+
+---
+
+## Update 2026-10-08
+New in this folder:
+- [[20261008_ai-native-operating-architecture]]: **the generalizable AI-native operating architecture (v1).** Notion = drafts, context and records; Drive = finals; ten databases; identity scheme; agent rules; skills list; backup design; governance. Built for MOG; meant for any firm, eventually Blue Tusk itself. **Start here for anything architecture-related.**
+- [[20261008_ai-native-architecture-decision-log]]: every decision with date and rationale (AD-001 to AD-037), plus open items.
+- [[20261007_google-drive-taxonomy-test-results]]: Drive and Notion connector tests, token costs, the unresolved-then-resolved `_ai/` storage question.
+
+**Pending tests:**
+- Notion lock vs connector (needs JC to lock "SCRATCH - AI Drafts Test" in the UI).
+- Backup → restore with relations.
+- Office file upload and read cost.
+- Sheets edit cost.
+- Billing webhooks.
+
+Delete the scratch database when testing is done.

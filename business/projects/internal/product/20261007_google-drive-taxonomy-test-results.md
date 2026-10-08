@@ -179,3 +179,33 @@ Other ideas, not yet explored:
 | Move between folders | ❌ (permission error despite Manager access) |
 | Trash | ✅ |
 | Edit content in place | ✅ native Google Docs only; ❌ `.md` |
+
+
+---
+
+## Notion editing test (logged 2026-10-08)
+
+**Why:** to test whether Notion is a cheap place for agents to draft and keep living context (it became the design: Notion = drafts, Drive = finals). Full design: [[business/projects/internal/product/20261008_ai-native-operating-architecture]].
+
+**Setup:** a scratch database "SCRATCH - AI Drafts Test" (private, in JC's Notion workspace; delete when testing is done). Properties mirror vault frontmatter, plus Summary, Client, Project ID, Type, Status, Needs Attention, Final Link and Drive Folder. Three draft rows: a short handoff, a ~1-page SOP and a ~3,600-character plan.
+
+| Operation | What came back | Rough tokens |
+|---|---|---|
+| Create database + 3 pages | Properties only | small |
+| Catch-up query (3 rows: name, client, status, flag, summary, created; last 7 days) | ~1,000 chars | ~250 |
+| "Needs attention" query | ~400 chars | ~100 |
+| Read a full page (3,600 chars of text) | ~5,000 chars | ~1,250 |
+| Find-and-replace edit | page ID only | tiny |
+| Append at end | page ID only | tiny |
+| Property update (Status, Final Link, Drive Folder) | page ID only | tiny |
+
+**Results:**
+- **Both content edits landed correctly with no read beforehand.** Last Edited updated automatically.
+- **Summary works as the catch-up layer:** agents can scan recent work from query results alone.
+- **Compared with Google Docs:** the same one-sentence edit cost ~20K tokens with verification in Google, and ~100 (or ~1,350 with a re-read) in Notion. That's **roughly 15–200x cheaper.**
+- **Quirks:**
+  - Checkboxes come back as `__YES__` / `__NO__`.
+  - Created time is automatic and can't be backdated, so rows created together share a timestamp.
+  - **SQL queries are unlimited only on Business / Enterprise with Notion AI.** Other plans share a workspace limit; use filter-based queries or saved views there.
+
+**This resolves the UNRESOLVED `_ai/` storage question above for drafts and context:** they live in Notion, not Drive. The markdown limits in Drive still apply to anything that has to be stored there.

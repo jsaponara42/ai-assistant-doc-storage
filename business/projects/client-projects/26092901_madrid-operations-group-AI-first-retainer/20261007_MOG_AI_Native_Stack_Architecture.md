@@ -327,3 +327,33 @@ Things to watch here and carry back to the product notes:
 - [ ] Ask Martina to try separate browser profiles for client Claude accounts (D6).
 - [x] Update the August capability reality-check note. **Done 2026-10-07.**
 - [ ] Run the Claude Project isolation test in the Taxonomy Test folder.
+
+
+---
+
+## Update 2026-10-08: superseded in part by the reference architecture
+
+The design moved forward on 2026-10-08. The full, generalizable version is [[business/projects/internal/product/20261008_ai-native-operating-architecture]], and every decision with its rationale is in [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]. **Where this doc and the reference conflict, the reference wins.**
+
+**What changed for MOG:**
+- **D9 (`_ai/` storage) is resolved:**
+  - Drafts live in a Notion **AI Drafts** database (Notion = drafts, Google Docs = finals).
+  - Living client context lives on the Notion **Company** page, project context on the **Project** page.
+  - Handoffs and agent notes live in Notion too.
+  - The per-client `_ai/` Drive folder is dropped. *(Decision log AD-010, AD-016.)*
+- **D3 (Review Queue):** AI Drafts with Status (draft / ready / published) and Needs Attention *is* the review queue. A separate Review Queue database isn't needed.
+- **D2 (file format):** settled by the above. Notion pages export to markdown with frontmatter.
+- **Records layer expands to ten Notion databases:** Companies, People, Projects, Tasks, Meeting Notes, AI Drafts, Documents (client-sent register), Contracts (restricted), Invoices (restricted, with QuickBooks + Wise as the source of truth plus reconciliation), and Knowledge (including the System Registry).
+  - This replaces the earlier list: project code registry, Client Work Tracker, Pipeline / CRM, Review Queue, EA Hub.
+  - **Martina's existing Notion trackers** (Client Work Tracker, Pipeline Tracker, BD Scanner Queue, Executive Assistant Hub) map into this model. Their data migrates.
+- **Hierarchy:** Area (client / internal / admin) → Project → Task. Company is a relation. Contact roles live on Projects.
+- **Pipeline:** early prospects live on People (Relationship Stage, Last Contacted via a header-only script, Next Follow-up). A Project and Company are created at promotion. **This is Martina's CRM quick win (P-007).**
+- **Naming:** client-facing finals get clean titles (no date or ID); internal files keep `YYYYMMDD_MOG-26092901_…`.
+- **Backups:** a scripted export of Notion to markdown + frontmatter, preserving relations. Destinations are a private git repo plus a Drive snapshot, invisible to agents. Monthly manual export as the interim.
+- **Governance:** System Registry, change protocol, locks on core databases, schema changes only with approval.
+
+**To raise with Martina:**
+1. Is one shared database across her clients acceptable (isolation by filters and agent rules)?
+2. What Notion plan does she have? Business is needed for unlimited SQL queries and teamspace permissions.
+3. Who owns the system and the backups, and what happens to Blue Tusk's access at the end of the engagement?
+4. Client codes: does Blue Tusk use "MAY" for Maycomb while she uses "MC"? One code per entity is better.

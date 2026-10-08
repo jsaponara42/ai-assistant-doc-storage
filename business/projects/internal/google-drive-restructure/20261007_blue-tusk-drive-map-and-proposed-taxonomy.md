@@ -308,3 +308,21 @@ Per the offering-stack note's open question on migration, this is also a real-wo
 - [ ] **JC:** move `XX_Logins` contents into a password manager and delete the folder.
 - [ ] Decide the migration method (Section 5). If it's the skeleton approach, Claude builds the new folders plus CONVENTIONS and INDEX.
 - [ ] Revisit D9 before any vault-to-Drive move.
+
+
+---
+
+## Update 2026-10-08: decisions that change this proposal
+
+Full design: [[business/projects/internal/product/20261008_ai-native-operating-architecture]]. Decision history: [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]].
+
+- **Drive holds finals and files only.** Drafts, client and project context, CRM, tasks, meeting notes and registers live in Notion. The `_ai/` folders in Section 4 are **dropped**; agent notes and handoffs live in Notion.
+- **Project folders get standard subfolders:** `client-sent/` (originals from clients, registered in Notion Documents) and `delivered/` (copies of what went to the client). **Client folders get `00_Contracts/`** for signed MSAs, NDAs and SOWs (registered in Notion Contracts).
+- **Files are named by audience:**
+  - **Internal:** `YYYYMMDD_{CLIENT}-{YYMMDDNN}_description`.
+  - **Client-facing finals:** clean titles with no date, ID or "draft", e.g. `AI-First Rebuild - Build Plan`.
+- **INDEX** adds a Notion link per client and project.
+- **Backups never live where the Claude-connected account can see them.** That rules out a backup folder in this shared drive unless that account is excluded.
+- **Invoices:** Stripe is the source of truth for Blue Tusk; Notion keeps the register. No invoice folder in Drive.
+- **Blank templates** go in `04_Offers/` or `05_Knowledge/`; the instructions for them live in Notion Knowledge.
+- **Still open:** confirming the client codes and the rest of the top-level structure, and the `XX_Logins` folder clean-up (security).

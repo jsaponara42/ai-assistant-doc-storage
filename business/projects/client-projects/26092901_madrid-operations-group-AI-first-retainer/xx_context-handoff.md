@@ -44,3 +44,24 @@ Retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is complete. Mart
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word, plus comments. Open it for her exact wording or style examples.
 - [[20260929_Madrid_Operations_Group_Client_Brief]]: background and problem register (P-001 to P-009). Updated 2026-10-07.
 - [[client-facing-deliverables/20260929_SOW_Madrid_Operations_Group_AI_First_Retainer]]: open only for terms questions.
+
+
+---
+
+## Update 2026-10-08
+**The architecture is now designed in full.** Read [[business/projects/internal/product/20261008_ai-native-operating-architecture]] (generalizable reference; MOG is the first build) and [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]] (AD-001 to AD-037, plus open items O-1 to O-8).
+
+**Short version:**
+- Notion = drafts, context, CRM, tasks, registers and dashboard (ten databases).
+- Drive = finals and files.
+- Gamma = decks.
+- QuickBooks + Wise = money (Notion keeps the register).
+- One ID everywhere: `MOG-26092901`.
+- Agents work across a client's projects, never across clients.
+- Scripted markdown backups; schema changes only with approval.
+- **D9 is resolved:** drafts and context live in Notion.
+
+**Next:**
+- Raise with Martina: one shared database across clients, her Notion plan, system and backup ownership, client codes.
+- Turn Phases 0–1 into the build plan for Martina, due Monday, Oct 12.
+- Pending tests: Notion lock (JC locks the scratch DB), backup → restore, Office file reads.

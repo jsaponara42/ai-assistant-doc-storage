@@ -132,3 +132,22 @@ Roadmap (intro) → Taxonomy design & migration (core paid engagement, main moat
 - [ ] Treat drift-checker pricing/positioning explicitly as bridge revenue, not a permanent product line.
 - [ ] Name the offering / offering stack.
 - [ ] Test native Claude/ChatGPT Projects (evergreen doc + scoped path instructions) against JC's own Drive setup — confirm the token/search-efficiency win is real before pricing it as part of Layer 1.5.
+
+
+---
+
+## Update 2026-10-08: the reference architecture
+
+The offering stack now has a concrete, generalizable reference design: [[business/projects/internal/product/20261008_ai-native-operating-architecture]] (decisions: [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]). It was built for MOG and is meant for any firm, eventually Blue Tusk itself.
+
+**How it maps to the layers:**
+- **Layer 1 (taxonomy):** the identity scheme (3-letter client codes, `{CLIENT}-{YYMMDDNN}` project IDs), client-first Drive structure, and naming by audience. The folder taxonomy is still decided per firm (the bespoke part).
+- **Layer 1.5 (navigation):** the System Registry, database ID tables, Drive INDEX, Summary properties for cheap catch-up, and a context-read skill (Company page + Project page).
+- **Layer 3 (working partner):** draft-and-confirm made concrete. Notion holds drafts (measured roughly 15–200x cheaper to edit than Google Docs), Google Docs hold finals, and skills (draft, finalize, promote, intake, catch-up) enforce the rules.
+
+**This answers the `_ai/` storage problem flagged above:** agent notes, handoffs and drafts live in Notion, not Drive.
+
+**Possible offering components:**
+- The reference architecture itself, as a productized build.
+- The scripted backup and restore. It's relation-preserving, which Notion's native export isn't.
+- Governance: System Registry, change protocol and locks, as the recurring "drift prevention" layer the free-tier note says stays paid.
