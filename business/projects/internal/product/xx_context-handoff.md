@@ -12,7 +12,7 @@ status: ok
 
 ## Where things stand
 The core offering is still **Information Taxonomy** (Roadmap → taxonomy design / migration → drift-checking → AI working-partner layer). On 2026-10-07 and 10-08 it gained a concrete, generalizable **AI-native operating architecture**, built first for MOG and meant for any firm, eventually Blue Tusk itself.
-- **Notion holds** drafts, context, CRM, tasks and registers (ten databases).
+- **Notion holds** drafts, context, CRM, tasks and registers (eleven databases, including Handoffs for session and project handoffs).
 - **Drive holds** finals and files.
 - **The system rests on:** one ID per entity (`{CLIENT}-{YYMMDDNN}`), agent rules, a skills list, scripted backups and governance.
 
@@ -22,7 +22,7 @@ A free lead magnet built from it is drafted.
 - **Connector tests:**
   - **Google Drive passes** everything needed, except moving files and editing `.md` in place.
   - **Notion editing** measured roughly 15–200x cheaper than Google Docs.
-- **Wrote the reference architecture and its decision log** (AD-001 to AD-041).
+- **Wrote the reference architecture and its decision log** (AD-001 to AD-042).
 - **Commercial decisions:**
   - Backup and restore is an **ongoing paid offering** that creates stickiness (AD-039).
   - **Feature additions** are Blue Tusk's ongoing role, through the governance layer (AD-040).
@@ -31,6 +31,11 @@ A free lead magnet built from it is drafted.
   - Client first, then project.
   - 3-letter client codes built into project IDs.
   - Agents may work across a client's projects, never across clients.
+
+- **Designed in-system context handoffs** (AD-042):
+  - A Handoffs core database: one row per session, append-only.
+  - A rewritten "Where things stand" section on each Project page.
+  - Handoff and resume skills.
 
 ## Open / next
 - **Lead magnet:** JC to edit. Decide the format (PDF, Notion template, or both), the title, how specific the numbers are, the call to action, gating, and whether to merge it with the free-tier taxonomy guide.

@@ -232,6 +232,14 @@ The scripted, relation-preserving backup and restore (AD-017), with drills and d
 **AD-041. A simplified version becomes a free lead magnet.** *Decided as direction (JC); content to be designed.*
 The principles and the shape of the system are given away; the build, customization, backup and governance stay paid. This matches the free-tier pattern in [[business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles]].
 
+**AD-042. Context handoffs: a Handoffs core database plus a "Where things stand" section on each Project.** *Decided (JC).*
+- **Person and session history:** an 11th database, **Handoffs**, with one row per working session (project relations, Summary, done / open / next, Written By = person or agent). **Append-only.** It's a timeline, which overwritten handoff notes lose. **Core database** (registered, locked, backed up).
+- **Project current state:** a fixed "Where things stand" section on each Project page, **rewritten** each session so it stays short.
+- **Recent activity is computed,** not written: Meeting Notes, AI Drafts, Tasks and Handoffs sorted by Last Edited.
+- **One handoff skill writes both:** one Handoffs row plus a rewrite of each touched project's section. A **resume** skill reads them back with property queries only.
+- **Known limit:** "Last Edited By" shows whoever connected the agent, so agent edits look like the person's. That's why Handoffs carry an explicit Written By property.
+- This replaces the vault's `xx_context-handoff.md` pattern inside client systems. The vault keeps its own until a vault migration (O-6, O-7).
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.

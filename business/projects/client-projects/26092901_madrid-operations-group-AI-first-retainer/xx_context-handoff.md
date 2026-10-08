@@ -16,7 +16,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is done, and 
 ## Last worked on (2026-10-07 → 10-08)
 - **Tested Google's connectors** and chose **Google Drive (D1)**.
 - **Designed the full architecture.** See the reference doc; short version:
-  - **Notion holds** drafts, client and project context, CRM, tasks, meeting notes, registers and the dashboard (ten databases).
+  - **Notion holds** drafts, client and project context, CRM, tasks, meeting notes, registers and the dashboard (eleven databases, including Handoffs).
   - **Drive holds** finals and files.
   - **Gamma** holds decks.
   - **QuickBooks + Wise** remain the source of truth for money; Notion keeps the register.
@@ -48,7 +48,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery is done, and 
 
 ## Key files
 - [[business/projects/internal/product/20261008_ai-native-operating-architecture]]: **start here for anything architecture-related.**
-- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-041 and open items O-1 to O-10.
+- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-042 and open items O-1 to O-10.
 - [[20261007_MOG_Current_State_Workflow_Map]]: MOG's workflows; the basis for the build plan.
 - [[20261007_MOG_AI_Native_Stack_Architecture]]: the earlier MOG-specific draft. Its 10-08 update section says what's superseded.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word.
