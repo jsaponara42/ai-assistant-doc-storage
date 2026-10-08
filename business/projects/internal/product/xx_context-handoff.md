@@ -1,6 +1,6 @@
 ---
 title: "Product — Context Handoff"
-date: 2026-08-14
+date: 2026-10-08
 tags: [handoff, project]
 ai: claude
 status: ok
@@ -11,49 +11,58 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the files linked below if the current task actually needs that level of detail — don't re-read everything by default.
 
 ## Where things stand
-Direction has shifted from an earlier "hosted AI company-brain" concept to **Information Taxonomy design & migration as the core, differentiated offering** — identified through a multi-round adversarial-analysis process as the actual moat (bespoke organizational judgment, not copyable AI/retrieval tech). The AI & Automation Roadmap stays the intro/attraction offer; taxonomy work is the upsell. Supporting marketing pain-points and a lead-magnet calculator idea are logged. Nothing client-facing has shipped yet — this is all internal strategy and planning.
+The core offering is still **Information Taxonomy** (Roadmap → taxonomy design / migration → drift-checking → AI working-partner layer). On 2026-10-07 and 10-08 it gained a concrete, generalizable **AI-native operating architecture**, built first for MOG and meant for any firm, eventually Blue Tusk itself.
+- **Notion holds** drafts, context, CRM, tasks and registers (ten databases).
+- **Drive holds** finals and files.
+- **The system rests on:** one ID per entity (`{CLIENT}-{YYMMDDNN}`), agent rules, a skills list, scripted backups and governance.
 
-## Last worked on (2026-08-14)
-- Ran adversarial analysis on the "hosted AI copilot" product direction — surfaced real gaps (security posture for finance clients, ops burden, dual-write race conditions, staleness vs. the "always current" pitch).
-- Landed on the Information Taxonomy offering stack (Roadmap → Taxonomy design/migration → drift-checker subscription → AI working-partner layer) as the replacement core bet — this has a real delegation seam (JC-only for sales/design, hireable PM for execution) that nothing else in this thread had.
-- Worked out why RAG/knowledge-graph improvement doesn't undercut this (filed as objection-handling material, not primary marketing — most buyers don't think in those terms yet).
-- Built out marketing pain points and headline angles for the taxonomy offering, grounded in cited McKinsey search-time-cost research.
-- Added an "Expansion surfaces" section to the taxonomy note: meeting transcripts prioritized over CRM as the next expansion surface — live-fed decision capture (transcript → drafted task/SOP update, human confirms) directly answers the staleness objection; positioned as Layer 3's flagship use case, not a new layer. CRM deprioritized (harder integration surface, platform vendors already building native AI there).
-- Captured two new lead magnet concepts — a file-chaos cost calculator, and a "What AI Sees" tool (paste a SharePoint/Drive link, see messy-AI-view vs. fixed-AI-view). Both were briefly logged as tasks, then moved into `business/marketing/offers/` to live alongside the other offer/lead-magnet content, with frontmatter cleaned up to match that folder's convention and removed from TASK-LOG.md.
+A free lead magnet built from it is drafted.
+
+## Last worked on (2026-10-07 → 10-08)
+- **Connector tests:**
+  - **Google Drive passes** everything needed, except moving files and editing `.md` in place.
+  - **Notion editing** measured roughly 15–200x cheaper than Google Docs.
+- **Wrote the reference architecture and its decision log** (AD-001 to AD-041).
+- **Commercial decisions:**
+  - Backup and restore is an **ongoing paid offering** that creates stickiness (AD-039).
+  - **Feature additions** are Blue Tusk's ongoing role, through the governance layer (AD-040).
+  - **A simplified version becomes a free lead magnet** (AD-041), now drafted.
+- **Mapped JC's own Blue Tusk Drive** and proposed a restructure:
+  - Client first, then project.
+  - 3-letter client codes built into project IDs.
+  - Agents may work across a client's projects, never across clients.
 
 ## Open / next
-- Migration execution strategy (big-bang vs. duplicate-and-parallel vs. incremental) is an unresolved, blocking question before the first taxonomy engagement — needs research, not decided yet.
-- Enterprise/PE sales-cycle objections from an earlier adversarial pass haven't been re-evaluated against this specific offering (lower hosting/security burden may change that calculus) — flagged but not revisited.
-- DIY taxonomy chart / free guide lead magnet — concept only, not drafted.
-- The offering stack itself needs a name.
-- Near-term vs. long-term resource split (how much of each service engagement goes toward reusable IP vs. billable delivery) still needs a concrete decision.
+- **Lead magnet:** JC to edit. Decide the format (PDF, Notion template, or both), the title, how specific the numbers are, the call to action, gating, and whether to merge it with the free-tier taxonomy guide.
+- **Pending tests:**
+  - Notion lock vs connector (JC locks "SCRATCH - AI Drafts Test" in the UI).
+  - Backup → restore with relations.
+  - Office file upload and read cost.
+  - Sheets edit cost.
+  - Billing webhooks (Stripe for Blue Tusk).
+- **Delete the scratch database** when testing is done.
+- **Blue Tusk Drive restructure:**
+  - Confirm client codes and the top-level structure.
+  - Clean up the `XX_Logins` folder (security).
+  - Moves must be done by a human or a script, since agents can't move files.
+- **Still open from August:**
+  - Migration strategy (big-bang vs incremental).
+  - Enterprise / PE objections not re-evaluated.
+  - Naming the offering stack.
+  - The reusable-IP vs billable split.
+- **Later:** align JC's vault to client-first IDs (O-7); decide whether the backup git repo becomes the cloud vault (O-6).
 
 ## Watch items
-- Drift-checker subscription is explicitly framed as **bridge revenue, not permanent** — platform vendors (Copilot, Gemini) will likely absorb that capability faster than the taxonomy-judgment work itself.
-- The illustrative cost-calculator math ($325K–$375K/year for a 20-person team) is labeled illustrative only — the loaded-cost-per-hour assumption needs verifying before it goes into any client-facing material.
+- **Drift-checking is bridge revenue,** not permanent. Platform AI will absorb it.
+- **The cost-calculator math** ($325K–$375K/year) is illustrative only. Verify it before any client-facing use.
+- **The lead magnet's token numbers** come from a small internal test. Present them as "in our tests."
 
 ## Key files
-- [[business/projects/internal/product/20260814_information-taxonomy-offering-stack]] — the full offering stack, moat reasoning, delegation case, migration-strategy options, RAG/KG objection-handling section, and the meeting-transcript/CRM expansion-surfaces section
-- [[business/marketing/offers/20260814_file-chaos-marketing-angles]] — pain points, headline options, cited cost research
-- [[business/marketing/offers/20260814_attraction-offer-concepts]] — earlier Hormozi-based attraction offer concepts (Giveaway, Decoy, etc.) for the Roadmap, still relevant as the intro-offer layer
-- [[business/marketing/offers/20260814_file-chaos-cost-calculator]] — lead magnet concept, still needs the loaded-cost assumption verified
-- [[business/marketing/offers/20260814_what-ai-sees-lead-magnet]] — lead magnet concept, still needs the illustrative-vs-real-access design question resolved
-- [[business/ideas/2026-07-10-scaling-vault-to-team]] — background on the internal team-scaling problem this offering's architecture deliberately avoids replicating
-
-
----
-
-## Update 2026-10-08
-New in this folder:
-- [[20261008_ai-native-operating-architecture]]: **the generalizable AI-native operating architecture (v1).** Notion = drafts, context and records; Drive = finals; ten databases; identity scheme; agent rules; skills list; backup design; governance. Built for MOG; meant for any firm, eventually Blue Tusk itself. **Start here for anything architecture-related.**
-- [[20261008_ai-native-architecture-decision-log]]: every decision with date and rationale (AD-001 to AD-037), plus open items.
-- [[20261007_google-drive-taxonomy-test-results]]: Drive and Notion connector tests, token costs, the unresolved-then-resolved `_ai/` storage question.
-
-**Pending tests:**
-- Notion lock vs connector (needs JC to lock "SCRATCH - AI Drafts Test" in the UI).
-- Backup → restore with relations.
-- Office file upload and read cost.
-- Sheets edit cost.
-- Billing webhooks.
-
-Delete the scratch database when testing is done.
+- [[20261008_ai-native-operating-architecture]]: **start here for the architecture.**
+- [[20261008_ai-native-architecture-decision-log]]: every decision and open item.
+- [[20261008_lead-magnet-ai-ready-workspace-draft]]: the free guide draft.
+- [[20261007_google-drive-taxonomy-test-results]]: all connector tests and token costs.
+- [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: JC's Drive map and proposed structure.
+- [[20260814_information-taxonomy-offering-stack]]: offering stack, moat, migration options.
+- [[20260818_File_Taxonomy_Free_Tier_Principles]]: free-tier rules (lead magnet source).
+- [[business/marketing/offers/20260814_file-chaos-marketing-angles]]: pain points and cited research.
