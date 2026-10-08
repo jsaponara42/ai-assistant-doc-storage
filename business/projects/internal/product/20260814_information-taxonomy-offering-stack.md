@@ -151,3 +151,9 @@ The offering stack now has a concrete, generalizable reference design: [[busines
 - The reference architecture itself, as a productized build.
 - The scripted backup and restore. It's relation-preserving, which Notion's native export isn't.
 - Governance: System Registry, change protocol and locks, as the recurring "drift prevention" layer the free-tier note says stays paid.
+
+
+### Commercial decisions (JC, 2026-10-08)
+- **Backup is an ongoing paid offering** (AD-039). It's scripted, relation-preserving, with restore drills and drift checks, and it gives Blue Tusk ongoing stickiness.
+- **Feature additions are Blue Tusk's ongoing role** (AD-040). Each build is customized, so Blue Tusk is the natural partner for new features, delivered through the governance layer (registry, change protocol, approved schema changes).
+- **A simplified version becomes a free lead magnet** (AD-041). It's the same reciprocation pattern as the free-tier taxonomy principles: give away the shape, sell the build and the upkeep. What it includes is still open (O-10).

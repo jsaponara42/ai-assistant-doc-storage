@@ -178,7 +178,9 @@ The main design choices:
    - Always sets properties: Project, Type, Audience, Status = draft, Summary, AI.
    - **Edits drafts in place** with find-and-replace or append-at-end (cheap), and refreshes Summary when content changes materially.
 2. **Finalize skill:**
-   - Creates the Google Doc **in the correct Drive folder the first time.**
+   - Creates the Google Doc **in the project's `in-progress/` folder, the first time** (AD-038). A deliverable stays there through formatting and review until it's truly final and sent.
+   - On send, the file becomes the record in `delivered/`. Agents can't move files, so this is a human drag (keeps the link) or an agent copy (new ID); the method is still open (O-9).
+   - The AI Drafts Status steps are draft (Notion) → in progress (Google file in `in-progress/`) → sent / published.
    - Names it by Audience (Section 3.3).
    - **Internal finals** carry the Notion draft URL inside the doc.
    - **Client-facing finals do not** (no internal links leak). The link lives only on the Notion side, in Final Link, and an agent finds the draft by querying Notion on that link.
@@ -257,8 +259,8 @@ The main design choices:
 │       ├── 00_Contracts/       ← signed MSA, NDA, SOWs (registered in Notion Contracts)
 │       └── {CLIENT}-{YYMMDDNN}_{project-slug}/
 │           ├── client-sent/    ← originals from the client (registered in Notion Documents)
-│           ├── delivered/      ← copies of what went to the client
-│           └── (finals as needed)
+│           ├── in-progress/    ← deliverables in final format, not yet final and sent
+│           └── delivered/      ← the record of what went to the client
 ├── 02_Pipeline/                ← proposal and outreach templates (prospects themselves live in Notion People)
 ├── 03_Marketing/
 ├── 04_Offers/                  ← offer definitions, delivery playbooks, blank templates

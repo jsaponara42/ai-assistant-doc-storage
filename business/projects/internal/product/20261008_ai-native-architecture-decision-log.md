@@ -97,7 +97,7 @@ Originally all finals were to carry the Notion URL. That was refined so internal
 **AD-015. One AI Drafts database across clients.** *Accepted (JC); to discuss with Martina.*
 JC is fine with one database, with isolation by filtered queries and agent rules rather than separate databases.
 
-**AD-016. Living client and project context lives in Notion.** *Accepted (JC proceeded to backup planning on this basis).*
+**AD-016. Living client and project context lives in Notion.** *Decided (JC, 2026-10-08).*
 - Base client context goes on the Company page; project context on the Project page.
 - **Why:** it changes constantly (the cheap-edit side), it's internal and candid, it gets queryable summaries, and the people already work in Notion.
 - Drive holds only a link.
@@ -212,6 +212,26 @@ The project page shows its meetings.
 - It's built for MOG and becomes the reference for any firm, eventually Blue Tusk itself.
 - Per-firm items are marked in the reference doc, Section 16.
 
+**AD-038. Project folders get an `in-progress/` folder.** *Decided (JC).*
+- A deliverable lives there once it's in its final format but not yet final and sent: formatting, client-ready polish, internal review, or anything that has to be built in Google (Sheets, layout-heavy docs).
+- **Flow:** draft in Notion (cheap) → the finalize skill creates the Google file in `in-progress/` → it's sent → it becomes the record in `delivered/`.
+- **Constraint (AD-006):** agents can't move files in the shared drive. Getting a file from `in-progress/` to `delivered/` is either:
+  - **a human drag in the Drive UI** (keeps the link and ID), or
+  - **an agent copy** into `delivered/` (new ID; the copy is the record of exactly what was sent), with the in-progress file then trashed or left in place.
+  Which one is still **open (O-9)**.
+- **Naming:** files in `in-progress/` already use their audience-correct name (AD-028), so nothing needs renaming at send time.
+- **AI Drafts Status gains a step:** draft (Notion) → in progress (Google file exists in `in-progress/`) → sent / published.
+
+**AD-039. Backup is an ongoing paid offering.** *Decided (JC).*
+The scripted, relation-preserving backup and restore (AD-017), with drills and drift checks, is a recurring service. It also gives Blue Tusk ongoing stickiness with each client.
+
+**AD-040. Feature additions are Blue Tusk's ongoing role.** *Decided (JC).*
+- Because each build is customized, Blue Tusk is the natural partner for any new features a client wants.
+- The governance layer (registry, change protocol, approved schema changes) is the mechanism. New features go through it, with Blue Tusk as the proposer and implementer.
+
+**AD-041. A simplified version becomes a free lead magnet.** *Decided as direction (JC); content to be designed.*
+The principles and the shape of the system are given away; the build, customization, backup and governance stay paid. This matches the free-tier pattern in [[business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles]].
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.
@@ -221,3 +241,5 @@ The project page shows its meetings.
 - **O-6:** Whether the backup git repo becomes the cloud vault (flagged, not decided).
 - **O-7:** Aligning JC's vault to client-first naming (`MOG-26092901_…`).
 - **O-8:** Tests pending: the Notion lock vs connector, backup → restore, Office file upload and read cost, Sheets edit cost, billing webhooks.
+- **O-9:** How a file gets from `in-progress/` to `delivered/`: human drag (keeps the link) or agent copy (new ID, exact record of what was sent).
+- **O-10:** What the free lead magnet includes vs what stays paid (AD-041).
