@@ -72,7 +72,8 @@ Item 1 on the out-of-scope list in [[business/projects/internal/product/20261008
 ### Answers (JC, 2026-10-09)
 - **CauseCrazy has one engagement with two SOWs** (2025-12-16 and 2026-03-04). Both belong to `CCZ-25121701`; no second project ID.
 - **The Capital Financing SOW is final;** it was signed on another platform. The Drive copy in `00_Contracts` is the record.
-- **The "duplicate" CauseCrazy SOW is a Drive shortcut,** not a copy: the original sits in the CCZ `00_Contracts` folder, and the shortcut in the project folder points to it. Proposed standard: **signed SOWs live in `00_Contracts`; each project folder gets a shortcut to its SOW.** Pending JC's OK (he'd first said to trash it).
+- **The "duplicate" CauseCrazy SOW is a Drive shortcut,** not a copy: the original sits in the CCZ `00_Contracts` folder, and the shortcut in the project folder points to it. **Decided (JC, 2026-10-09): one signed copy, scope on Notion.** The signed contract lives only in the client's `00_Contracts/`: no pricing-free copy, no shortcut in the project folder, no copy in Finance. Scope (deliverables, timeline, assumptions) lives on the Notion Project page; contract value lives on the restricted Notion Contracts row, which links to the signed file. This is the usual organizational pattern: one restricted legal record, and the team works from a scope summary. The CCZ shortcut was trashed, a `skip` rule was added for it, and the rule was written into CONVENTIONS section 5.
+- **Open for MOG:** check whether Google currently allows restricting one folder inside a shared drive. If not, contracts need their own small shared drive.
 
 ### Observations
 - Creating Google files from CSV and markdown uploads works in one call (CSV → Sheet, markdown → formatted Doc). A markdown table imports with an empty header row, so use lists in CONVENTIONS.
