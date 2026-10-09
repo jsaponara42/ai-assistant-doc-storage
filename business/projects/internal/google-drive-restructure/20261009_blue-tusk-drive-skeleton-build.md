@@ -53,8 +53,15 @@ Item 1 on the out-of-scope list in [[business/projects/internal/product/20261008
 - **Tested locally** on sample data: nested rules, skip, move_contents, renames, bad/duplicate rules, unmapped reporting all behave as intended. **Not yet run in Apps Script.**
 - **Rules pre-filled** (58) from the Oct 7 map. `XX_Logins` is set to `skip`. Anything the map got wrong shows as an ERROR row.
 
-### Left unmapped on purpose (JC to decide)
-`AGP`, `GhostOps`, `Business Development/Company Strategy`, `Marketing/Marketing Strategy`, `Sales/Sales Strategy`, `Product/`, `Project Resources`, `Legal/NDA`, `Legal/Contracts/Unsigned`, `Sales/Proposals + SOW/SOW` (Sold/Lost, client-specific), `Client Projects/AI Advisory - All` (loose files). Strategy and product material probably belongs in Notion rather than Drive.
+### Decisions on the leftover folders (JC, 2026-10-09)
+- **AGP** (agency course materials) and **Project Resources** → `04_Knowledge`. Rules added.
+- **GhostOps** → deleted. Trashed by Claude 2026-10-09; it held only a shortcut. Restorable from trash for 30 days.
+- **Signed NDAs are kept** and filed with the client they belong to: PineRun → `PRC_pine-run-construction/00_Contracts`, SyncScript → `99_Archive/01_Clients/SYN_syncscript`. The blank `Blue Tusk Mutual NDA.docx` → `00_Company/Legal`. Rules added.
+- **Sold SOWs stay as designed finals** in the client's `00_Contracts/` (the only one in Drive: CauseCrazy, 2025-12-16). Rule added. `Lost` is empty. **Every SOW gets a link from its Notion Project** via the Contracts database (SOW → Project relation, Drive link on the Contracts row). Do this in the Drive → Notion linking step.
+- **Strategy folders** (`Business Development/Company Strategy`, `Marketing/Marketing Strategy`, `Sales/Sales Strategy`) and probably `Product/` → **become Notion pages**, not Drive folders. They stay unmapped (untouched) until converted; then the empty folders get trashed.
+
+### Still unmapped (to review after the inventory)
+`Legal/Contracts/Unsigned`, `Client Projects/AI Advisory - All` (loose files), anything the Oct 7 map missed.
 
 ### Observations
 - Creating Google files from CSV and markdown uploads works in one call (CSV → Sheet, markdown → formatted Doc). A markdown table imports with an empty header row, so use lists in CONVENTIONS.
@@ -63,7 +70,8 @@ Item 1 on the out-of-scope list in [[business/projects/internal/product/20261008
 ## Next steps
 - [ ] **JC:** paste the script into the migration sheet, run 0 → 1 (inventory). Then Claude reviews the inventory and fixes the rules.
 - [ ] **JC:** run 2 (dry run), review the Plan with Claude, then 3 (execute), then 4/5 (empty folders).
-- [ ] **JC:** decide where the unmapped items go.
+- [ ] Convert the strategy folders (and probably `Product/`) into Notion pages, then trash the empty folders.
+- [ ] Drive → Notion step: link every SOW to its Notion Project through Contracts.
 - [ ] **JC:** move `XX_Logins` to a password manager and delete the folder.
 - [ ] Update architecture Section 6 (drop `04_Offers`; Sales-Collateral; 04_Knowledge).
 - [ ] Delete the `Taxonomy Test` folder once testing is done.
