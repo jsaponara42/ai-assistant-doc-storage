@@ -1,6 +1,6 @@
 ---
 title: "Product — Context Handoff"
-date: 2026-10-08
+date: 2026-10-09
 tags: [handoff, project]
 ai: claude
 status: ok
@@ -11,31 +11,32 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the files linked below if the current task actually needs that level of detail — don't re-read everything by default.
 
 ## Where things stand
-The AI-native operating architecture is designed (AD-001 to AD-054) and **the Notion half is built** as a sandbox in JC's workspace (Notion Business plan) by Notion AI, from the phased build spec (now v2.1). **Next session (2026-10-09): build everything the Notion spec left out**, starting with Google Drive, using JC's own Blue Tusk setup as the first real build and the template for MOG.
+The architecture is designed (AD-001 to AD-059). The Notion half exists as a sandbox. **The Drive half is now built and migrated on Blue Tusk's real shared drive** (2026-10-09): client-first skeleton, INDEX (Sheet) and CONVENTIONS (Doc), all 726 old items moved by the migration script with 0 errors, old folders gone. **Next up is the MOG build plan (due to Martina Mon Oct 12)**; Blue Tusk's remaining build items follow after.
 
-## Last worked on (2026-10-08)
-- Notion AI built all 3 phases in "Operating System (Sandbox)". Its feedback and test answers produced spec v2 and v2.1. Database and data source IDs are in the sandbox registry note.
-- Findings (AD-054): agent queries can't read formulas or rollups; search finds IDs in titles and text properties but not URLs; Notion AI can't lock databases; Created By shows the person; Notion AI didn't auto-load the enabled catch-up skill.
-- Decided: project titles start with the Project ID (AD-052); skills live in a private git repo as master (AD-045 to AD-048); navigation via project-as-folder pages, find-by-ID, training and a quick reference in Knowledge (AD-049 to AD-051).
+## Last worked on (2026-10-09)
+- Built the Drive skeleton and migrated everything with a person-run Apps Script (agents can't move files). Strategy and offer docs became **15 pages in the sandbox Knowledge database** (Type = guide, Summary starts "Strategy:"); originals copied to `99_Archive/00_Company/Strategy-Originals`.
+- Decided (AD-055 to AD-059): no Offers folder (offer sheets → `03_Marketing/Sales-Collateral`; templates → `04_Knowledge`); internal projects under `01_Clients/BTK_blue-tusk`; INDEX = Sheet; **one signed copy of each contract** in the client's `00_Contracts` (scope on the Notion Project, value on the restricted Contracts row); migration by script.
+- Wrote the reusable **Drive migration playbook** and stored the script in the vault.
+- Architecture Sections 5.5, 6 and 15 updated.
 
-## Open / next: the out-of-scope list (spec's "Out of scope" section)
-1. **Google Drive:** build the Blue Tusk skeleton (client-first, `00_Company` … `99_Archive`), CONVENTIONS and INDEX. Client and project folders follow `{CLIENT}_{slug}` / `{CLIENT}-{YYMMDDNN}_{slug}` with `client-sent/`, `in-progress/`, `delivered/`; client folders get `00_Contracts/`. **Agents can't move files,** so Claude builds the skeleton and JC drags content (or an Apps Script from a mapping table). First confirm client codes and top-level structure (drive restructure note), and clean up `XX_Logins`.
-2. **Link Drive to Notion:** Drive Folder URLs on Companies and Projects; INDEX lists Notion links.
-3. **Skills repo:** private GitHub repo laid out as a Claude plugin marketplace; move existing skills in; Claude Code marketplace (JC is on Claude Pro, so chat skills are manual uploads).
-4. **Scripts:** backup export to markdown (folder tree by client/project in the backup repo), Last Contacted header-only updater, Stripe webhook plus nightly reconciliation, drift checks. Decide where scripts run.
-5. **Manual Notion steps:** sandbox fix list in the spec; restricted teamspace for Contracts and Invoices (Business plan supports it); **lock test** (JC locks Projects, Notion AI tries a schema change).
-6. **Then:** migration spec for JC's active work; MOG build plan.
+## Open / next
+1. **MOG build plan for Oct 12** (see the MOG handoff note). Use the playbook and Blue Tusk run as the Phase 0 Drive template.
+2. **Link Drive to Notion:** Drive Folder URLs on Companies and Projects; Notion links in INDEX (column J); each SOW linked to its Project through Contracts.
+3. **Skills repo** (private GitHub, plugin-marketplace layout); first skill candidate: `drive-migration` (script + playbook).
+4. **Scripts:** backup export, Last Contacted updater, Stripe webhook + reconciliation, drift checks. Decide where scripts run.
+5. **Manual Notion steps:** sandbox fix list; restricted teamspace for Contracts/Invoices; **lock test**.
+6. **Small items:** add a `strategy` option to Knowledge Tags (schema change, needs JC's OK) and tag the 15 pages; check whether one folder inside a shared drive can be restricted (for `00_Contracts`) before MOG.
 
 ## Watch items
-- **Agents can't move Drive files;** create in the right folder first time.
+- **Agents can't move Drive files;** use the migration script, or create in the right folder first time.
 - **No backups where the Claude-connected account can see them.**
-- **The drive restructure note's update section predates `in-progress/`** (AD-038); the architecture doc is current.
-- The pasted web summary on Notion skills was partly wrong; check Notion's own docs.
+- **Notion pages for 5 long docs are summaries** (Landing Page, Quick Win, Meta Ads, Attraction Offers, Product Brainstorm); each links its full original.
+- The drive restructure note's early sections predate today's decisions; the build log and architecture doc are current.
 
 ## Key files
-- [[20261008_ai-native-operating-architecture]]: **start here** (Drive: Sections 3 and 6; backups: 11; skills: 8.1).
-- [[20261008_notion-build-spec-sandbox]]: Notion spec v2.1, out-of-scope list, sandbox fix list.
-- [[20261008_notion-sandbox-registry]]: sandbox database and page IDs.
-- [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: current Drive map, proposed structure, client codes to confirm.
-- [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-054, open items O-1 to O-13.
-- [[20261007_google-drive-taxonomy-test-results]]: what the Drive connector can and can't do.
+- [[20261008_ai-native-operating-architecture]]: **start here** (Drive: Sections 5.5, 6; backups: 11; skills: 8.1).
+- [[business/projects/internal/google-drive-restructure/xx_drive-migration-playbook]]: how to restructure and migrate a client drive; read before MOG's Drive work.
+- [[business/projects/internal/google-drive-restructure/xx_drive-migration-script]]: the Apps Script source.
+- [[business/projects/internal/google-drive-restructure/20261009_blue-tusk-drive-skeleton-build]]: Blue Tusk run log, decisions and key IDs (INDEX `1YVVuW421oLG-p_l8yv8Rxv_6ViLogVLLkJB7XgKBJq8`).
+- [[20261008_ai-native-architecture-decision-log]]: AD-001 to AD-059, open items.
+- [[20261008_notion-build-spec-sandbox]] and [[20261008_notion-sandbox-registry]]: Notion spec v2.1 and sandbox IDs.
