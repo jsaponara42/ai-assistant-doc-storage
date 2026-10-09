@@ -1,0 +1,979 @@
+{
+ "V003": {
+  "links": [
+   "business/marketing/overview\\|overview",
+   "business/research/2026-03-31-corporate-claws-strategy|2026-03-31-corporate-claws-strategy",
+   "business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit|2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp\\|2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [
+   "business/marketing/overview\\|overview",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp\\|2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V004": {
+  "links": [
+   "business/SKILLS/pi-firm-snapshot/SKILL.md",
+   "business/research/2026-04-30-zero-response-pipeline-diagnosis",
+   "business/sales/2026-03-30-audit-call-flow",
+   "business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp",
+   "business/sales/2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-14-audit-email-sequence",
+   "business/sales/2026-04-30-Social_Outbound_SOP_Free_Workflow_Waste_Audit"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V005": {
+  "links": [
+   "business/ideas/2026-06-01-reciprocation-lead-magnet"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V006": {
+  "links": [
+   "business/SKILLS/ai-roadmap-call-prep/SKILL.md",
+   "business/SOPs/2026-06-04-SOP-Warm-and-Cold-Reconnection-Outreach"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V007": {
+  "links": [
+   "business/projects/client-projects/26061201_capital-financing/call-prep/20260807_Capital-Financing_Department-1-on-1-Call-Prep_Christy-Danielle-Yasmine",
+   "business/projects/client-projects/26061201_capital-financing/call-prep/20260807_Capital-Financing_Financial-Consultant-Call-Prep",
+   "business/projects/client-projects/26061201_capital-financing/call-prep/20260807_Capital-Financing_Howie-Call-Prep_Time-Value-and-Wishlist"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V012": {
+  "links": [
+   "business/sales/2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-14-audit-email-sequence"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V018": {
+  "links": [
+   "2026-06-01-reciprocation-lead-magnet",
+   "20260728_build-free-until-value-fee-curve-asset"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V019": {
+  "links": [
+   "20250711_productizing-blue-tusk",
+   "20260423_marketing-to-lawyers",
+   "20260601_reciprocation-lead-magnet",
+   "20260910_capital-financing-opportunity-map-final",
+   "20260920_async-teardown-entry-offer",
+   "business/projects/client-projects/26061201_capital-financing/client-facing-deliverables/20260910_capital-financing-opportunity-map-final"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V020": {
+  "links": [
+   "20260910_capital-financing-opportunity-map-final",
+   "20260918_ai-power-user-course-funnel",
+   "20260922_close-q4-strong-entry-offer"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V023": {
+  "links": [
+   "2026-04-22-batch-1-raw-scripts",
+   "2026-04-22-instagram-modular-video-strategy",
+   "business/ABOUT-BLUE-TUSK",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V026": {
+  "links": [
+   "business/research/2026-04-30-zero-response-pipeline-diagnosis"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V027": {
+  "links": [
+   "business/marketing/offers/20260814_attraction-offer-concepts",
+   "business/marketing/offers/20260814_file-chaos-marketing-angles"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V028": {
+  "links": [
+   "business/marketing/offers/20260814_attraction-offer-concepts",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack"
+  ],
+  "in_table": [
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack"
+  ],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V029": {
+  "links": [
+   "business/marketing/offers/20260814_file-chaos-marketing-angles",
+   "tasks/jc-tasks/4-2026-08-14-build-file-chaos-cost-calculator"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V030": {
+  "links": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260910_capital-financing-opportunity-map-final",
+   "20260920_async-teardown-entry-offer",
+   "20260923_stage-1-intake-form-design"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V031": {
+  "links": [
+   "20260814_what-ai-sees-lead-magnet",
+   "20260922_close-q4-strong-entry-offer"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V032": {
+  "links": [
+   "20260920_async-teardown-entry-offer",
+   "20260922_close-q4-strong-entry-offer",
+   "20260923_stage-1-intake-form-design",
+   "adversarial-analysis"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V033": {
+  "links": [
+   "20260910_capital-financing-opportunity-map-final",
+   "20260920_async-teardown-entry-offer",
+   "20260922_close-q4-strong-entry-offer",
+   "20260923_stage-1-intake-form-design"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V034": {
+  "links": [
+   "00_linkedin-post-ideas",
+   "00_linkedin-post-ideas|LinkedIn Post Ideas"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V035": {
+  "links": [
+   "2026-03-31-corporate-claws-strategy",
+   "React to \"Corporate Claws\" article",
+   "business/marketing/writing/post-case-agency-data-cleanup|\"Before we could build anything smart, we had to make the data dumb-proof\"",
+   "business/marketing/writing/post-case-intake-bottleneck|\"A team was losing leads in the first 24 hours \u2014 here's what we fixed\"",
+   "business/marketing/writing/post-case-no-show-problem|\"No-shows were killing a firm's consultation rate \u2014 one automation changed that\"",
+   "business/marketing/writing/post-five-signs-manual-process|\"5 signs a manual process is costing you more than you think\"",
+   "business/marketing/writing/post-ge-ai-adoption-in-big-orgs|\"For those working in larger orgs \u2014 what's the biggest internal barrier to actually shipping AI tools? Budget, legal, IT, culture?\"",
+   "business/marketing/writing/post-ge-ai-tool-poll|\"What AI tool has actually stuck at your org \u2014 and what got abandoned after 30 days?\"",
+   "business/marketing/writing/post-ge-biggest-workflow-bottleneck|\"What's the one workflow you'd automate first if you could snap your fingers?\"",
+   "business/marketing/writing/post-ge-how-does-your-firm-handle-intake|\"How does your team handle lead or client follow-up after hours? Still manual?\"",
+   "business/marketing/writing/post-ge-intake-speed-benchmark|\"How fast does your team typically follow up with a new inquiry? Trying to understand what 'normal' looks like.\"",
+   "business/marketing/writing/post-ge-sop-question|\"Does your team run on documented SOPs, vibes, or something in between?\"",
+   "business/marketing/writing/post-howto-meeting-to-action|\"From Meeting Transcription to Real Action\"",
+   "business/marketing/writing/post-ht-ai-wont-save-bad-process|\"AI won't save your org. It'll just make your bad process faster.\"",
+   "business/marketing/writing/post-ht-automation-consultants-lie|\"Most automation consultants are lying to you \u2014 including the ones who don't know it\"",
+   "business/marketing/writing/post-ht-coo-before-automation|\"You need someone who thinks like a COO before you can automate anything meaningful\"",
+   "business/marketing/writing/post-ht-linkedin-one-subscription|\"LinkedIn tricks you into thinking you need more than one AI subscription\"",
+   "business/marketing/writing/post-ht-local-ai-reality|\"The Local AI Reality Check\"",
+   "business/marketing/writing/post-ht-machine-readability|\"Machine Readability Is Non-Negotiable\"",
+   "business/marketing/writing/post-ht-real-ai-is-boring|\"Real AI in business is boring \u2014 and that's how you know it's working\"",
+   "business/marketing/writing/post-ht-real-automation-is-boring|\"Real automation in business is boring. Stop watching the highlight reel.\"",
+   "business/marketing/writing/post-ht-unified-agent-systems|\"The End of Individual Automations\"",
+   "business/marketing/writing/post-ht-you-need-a-product-first|\"You don't have an AI product. You have a product with AI in it \u2014 maybe.\"",
+   "business/marketing/writing/post-instagram-content-strategy|\"My modular Instagram content strategy\"",
+   "business/marketing/writing/post-map-your-workflow|\"How to map a broken workflow in 20 minutes (no tools required)\"",
+   "business/marketing/writing/post-react-ai-legal-tool|React to a new AI tool built for a specific vertical (legal, comms, agency, etc.)",
+   "business/marketing/writing/post-react-benchmark-or-study|React to a benchmark, study, or stat about AI adoption in professional services",
+   "business/marketing/writing/post-react-google-notebooklm|React to a Google NotebookLM or Gemini update relevant to knowledge work",
+   "business/marketing/writing/post-react-new-zapier-ai|React to a new Zapier AI or Make.com feature drop",
+   "business/marketing/writing/post-react-openai-operator|\"How I use voice notes and AI to write SOPs fast\"",
+   "business/marketing/writing/post-react-openai-operator|React to OpenAI Operator (or similar agentic AI release)",
+   "business/marketing/writing/post-story-adversarial-analysis|\"I built a prompt that attacks my own ideas \u2014 and it makes everything better\"",
+   "business/marketing/writing/post-story-agent-adoption-via-team|\"The AI adoption tactic that actually worked: let the team deliver it\"",
+   "business/marketing/writing/post-story-ai-workflow-stack|\"My AI workflow stack: Claude, Obsidian, a local MCP server, and git\"",
+   "business/marketing/writing/post-story-client-skeptic|\"The most skeptical person in the room ended up being the one who got it fastest\"",
+   "business/marketing/writing/post-story-first-automation-win|\"The first automation I built at work that actually saved someone real time\"",
+   "business/marketing/writing/post-story-getting-into-ai|\"People keep asking me how to get into AI. Here's what I actually tell them.\"",
+   "business/marketing/writing/post-story-hallucination-politics|\"I got burned by an AI hallucination \u2014 and I use AI every single day\"",
+   "business/marketing/writing/post-story-innovating-in-a-big-org|\"What it's actually like to build new things inside a large agency\"",
+   "business/marketing/writing/post-story-interns-and-data-wrangling|\"The most valuable thing I ever used an intern for had nothing to do with AI\"",
+   "business/marketing/writing/post-story-iteration-not-plug-and-play|\"Everyone thinks AI is plug and play. Here's how many iterations it actually took.\"",
+   "business/marketing/writing/post-story-mistake-i-made|\"I automated the wrong thing first \u2014 and it cost me two weeks\"",
+   "business/marketing/writing/post-story-moment-i-got-it|\"The moment I understood what automation was actually for\"",
+   "business/marketing/writing/post-story-pausing-ambitious-project|\"I told a client to pause their automation project. It was the right call.\"",
+   "business/marketing/writing/post-story-rocky-team-instability|\"Our automation project stalled \u2014 and it wasn't the automation's fault\"",
+   "business/marketing/writing/post-story-scope-creep-vibe-coding|\"Vibe coding causes scope creep faster than anything I've ever seen\"",
+   "business/marketing/writing/post-story-task-prioritization|\"How I prioritize tasks across projects without losing my mind\"",
+   "business/marketing/writing/post-story-vibe-coding-early-feedback|\"Vibe coding lets you get real feedback before you've committed to anything\"",
+   "business/marketing/writing/post-story-vibe-coding-pitfalls|\"What I learned from vibe coding (and what I built wrong without knowing it)\"",
+   "business/marketing/writing/post-story-vibe-coding-restart|\"Sometimes it's faster to restart than to fix the code you already wrote\"",
+   "business/marketing/writing/post-story-voice-notes-ai|\"I use voice notes to make my AI use feel way more natural\"",
+   "business/marketing/writing/post-story-weekend-project|\"I spent a Saturday morning solving a problem that was taking someone 3 hours a week\"",
+   "business/marketing/writing/post-story-what-i-learned-discovery|\"What I've learned from doing discovery with teams that think they don't need automation\"",
+   "business/marketing/writing/post-story-what-sops-taught-me|\"I didn't understand SOPs until I had to automate without one\""
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V047": {
+  "links": [
+   "CONVENTIONS-FULL",
+   "README"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V062": {
+  "links": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V063": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V065": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "20260911_marketing_CMO_hire_reference",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V072": {
+  "links": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260617_Quick_SOP_Creation_Guide"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V073": {
+  "links": [
+   "20260617_Quick_SOP_Creation_Guide"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V074": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260714_Capital-Financing_SOP-Call-Prep_All-Teams",
+   "business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings",
+   "xx_context-handoff"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V075": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260714_Capital-Financing_SOP-Call-Prep_All-Teams",
+   "20260807_Capital-Financing_Department-1-on-1-Call-Prep_Christy-Danielle-Yasmine",
+   "business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V076": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "business/projects/client-projects/20251221_cause-crazy/xx_Project_Learnings",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V077": {
+  "links": [
+   "client-facing-deliverables/20261002_IT_Email_SharePoint_Permissions"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V081": {
+  "links": [
+   "20260710_claude-intro-training-capital-financing"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V083": {
+  "links": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260806_proposal-capital-financing-ai-automation-mapping",
+   "xx_Project_Learnings",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V087": {
+  "links": [
+   "call-prep/20261001_howie-sow-renewal-menu"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V088": {
+  "links": [
+   "20260612_discovery-brief-capital-financing",
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260915_ai_engineer_hire_recommendation",
+   "call-prep/20260807_Capital-Financing_Financial-Consultant-Call-Prep",
+   "client-facing-deliverables/20260910_capital-financing-opportunity-map-final",
+   "xx_howies_wants"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V089": {
+  "links": [
+   "20260915_ai_engineer_hire_recommendation",
+   "client-facing-deliverables/20260910_capital-financing-opportunity-map-final",
+   "client-facing-deliverables/20260929_capital-financing-opportunity-map-presentation",
+   "xx_Project_Learnings",
+   "xx_howies_wants",
+   "xx_pending-deliverable-revisions"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V090": {
+  "links": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Case & Expense Details Collected\\|W2 Core Step 2 \u2014 Case & Expense Details Collected",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Intake Collected\\|W1 Core Step 2 \u2014 Intake Collected",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Lead Assigned to Consultant\\|W4 Core Step 2 \u2014 Lead Assigned to Consultant",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 3 \u2014 Consultant Follow-Up\\|W4 Core Step 3 \u2014 Consultant Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Contact Loading & Segmentation\\|W5 Core Step 4 \u2014 Contact Loading & Segmentation",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Underwriting Assessment\\|W1 Core Step 4",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Underwriting Assessment\\|W1 Core Step 4 \u2014 Underwriting Assessment",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 5 \u2014 Assignment & Follow-Up\\|W5 Core Step 5 \u2014 Assignment & Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Cross-Workflow Observations \u2014 Organizational Context\\|Cross-Workflow Observations, item 8",
+   "20260616-Workflow-Map-Capital-Financing-merged#Marketing & Sales Operations\\|Marketing & Sales Operations",
+   "20260616-Workflow-Map-Capital-Financing-merged#Marketing & Sales Operations|Marketing & Sales Operations",
+   "20260616-Workflow-Map-Capital-Financing-merged#Process Trunks & Ownership (Christy's side)\\|Process Trunks \u2014 Julius, Inactive Account Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Reports & KPIs Howie wants to see \u2014 target-state catalog\\|Reports & KPIs Howie wants to see",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sales Performance & Accountability Framework (CEO Directive)\\|Sales Performance & Accountability Framework",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sales Performance & Accountability Framework (CEO Directive)\\|Sales Performance & Accountability Framework \u2014 KPI dashboard",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step A \u2014 Document Collection (VA layer)\\|Shared Sub-Layer, Sub-Step A \u2014 Document Collection",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step B \u2014 Underwriting Tiering (Christy's layer)\\|Shared Sub-Layer, Sub-Step B",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step C \u2014 Case-Expense Onboarding Calls (sales-adjacent, currently broken)\\|Shared Sub-Layer, Sub-Step C \u2014 Onboarding Calls",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step C \u2014 Strategy Call \u2192 Case-Expense Onboarding Calls (sales-adjacent, currently broken)|Shared Sub-Layer, Sub-Step C \u2014 Onboarding Calls",
+   "20260616-Workflow-Map-Capital-Financing-merged#Workflow 3 \u2014 Outbound Email & Social Cadence\\|W3 Core Step 6 \u2014 Social Media Posting",
+   "business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings",
+   "xx_Project_Learnings",
+   "xx_pending-deliverable-revisions"
+  ],
+  "in_table": [
+   "20260616-Workflow-Map-Capital-Financing-merged",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Case & Expense Details Collected\\|W2 Core Step 2 \u2014 Case & Expense Details Collected",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Intake Collected\\|W1 Core Step 2 \u2014 Intake Collected",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 2 \u2014 Lead Assigned to Consultant\\|W4 Core Step 2 \u2014 Lead Assigned to Consultant",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 3 \u2014 Consultant Follow-Up\\|W4 Core Step 3 \u2014 Consultant Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Contact Loading & Segmentation\\|W5 Core Step 4 \u2014 Contact Loading & Segmentation",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Underwriting Assessment\\|W1 Core Step 4",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 4 \u2014 Underwriting Assessment\\|W1 Core Step 4 \u2014 Underwriting Assessment",
+   "20260616-Workflow-Map-Capital-Financing-merged#Core Step 5 \u2014 Assignment & Follow-Up\\|W5 Core Step 5 \u2014 Assignment & Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Cross-Workflow Observations \u2014 Organizational Context\\|Cross-Workflow Observations, item 8",
+   "20260616-Workflow-Map-Capital-Financing-merged#Marketing & Sales Operations\\|Marketing & Sales Operations",
+   "20260616-Workflow-Map-Capital-Financing-merged#Marketing & Sales Operations|Marketing & Sales Operations",
+   "20260616-Workflow-Map-Capital-Financing-merged#Process Trunks & Ownership (Christy's side)\\|Process Trunks \u2014 Julius, Inactive Account Follow-Up",
+   "20260616-Workflow-Map-Capital-Financing-merged#Reports & KPIs Howie wants to see \u2014 target-state catalog\\|Reports & KPIs Howie wants to see",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sales Performance & Accountability Framework (CEO Directive)\\|Sales Performance & Accountability Framework",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sales Performance & Accountability Framework (CEO Directive)\\|Sales Performance & Accountability Framework \u2014 KPI dashboard",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step A \u2014 Document Collection (VA layer)\\|Shared Sub-Layer, Sub-Step A \u2014 Document Collection",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step B \u2014 Underwriting Tiering (Christy's layer)\\|Shared Sub-Layer, Sub-Step B",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step C \u2014 Case-Expense Onboarding Calls (sales-adjacent, currently broken)\\|Shared Sub-Layer, Sub-Step C \u2014 Onboarding Calls",
+   "20260616-Workflow-Map-Capital-Financing-merged#Sub-Step C \u2014 Strategy Call \u2192 Case-Expense Onboarding Calls (sales-adjacent, currently broken)|Shared Sub-Layer, Sub-Step C \u2014 Onboarding Calls",
+   "20260616-Workflow-Map-Capital-Financing-merged#Workflow 3 \u2014 Outbound Email & Social Cadence\\|W3 Core Step 6 \u2014 Social Media Posting",
+   "business/projects/client-projects/26061201_capital-financing/xx_Project_Learnings",
+   "xx_pending-deliverable-revisions"
+  ],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V091": {
+  "links": [
+   "client-facing-deliverables/20260910_capital-financing-opportunity-map-final"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V092": {
+  "links": [
+   "20260710_Upsell_Pricing_and_Pitch_Prep"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V093": {
+  "links": [
+   "20260616_discovery-brief-maycomb-capital",
+   "Maycomb_Capital_AP_Run_SOP",
+   "Maycomb_Capital_Budgeting_SOP",
+   "Maycomb_Capital_Legal_Bills_SOP",
+   "Maycomb_Capital_Quarterly_Invoicing_SOP"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V094": {
+  "links": [
+   "20260615_call-brief-maycomb-capital",
+   "20260616_SOW_Maycomb_Capital_AI_Roadmap",
+   "20260616_discovery-brief-maycomb-capital",
+   "20260619_Maycomb_AI_Playbook_Cheat_Sheet",
+   "20260619_Maycomb_AI_Playbook_Long_Form"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V095": {
+  "links": [
+   "20260710_Upsell_Pricing_and_Pitch_Prep",
+   "xx_Maycomb_AI_Automation_Roadmap_INTERNAL"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V101": {
+  "links": [
+   "20260615_call-brief-maycomb-capital",
+   "20260616_discovery-brief-maycomb-capital",
+   "20260619_Maycomb_AI_Playbook_Long_Form",
+   "20260624_outstanding-questions-answered",
+   "xx_outstanding-questions"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V102": {
+  "links": [
+   "20260707_Maycomb_Capital_AI_Roadmap_Client"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V103": {
+  "links": [
+   "20260616_discovery-brief-maycomb-capital",
+   "20260624-Workflow-Map-Maycomb-Capital",
+   "20260707_Maycomb_Capital_AI_Roadmap_Client",
+   "20260710_Maycomb_Capital_Roadmap_Presentation_Outline",
+   "20260710_Upsell_Pricing_and_Pitch_Prep",
+   "xx_outstanding-questions"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V109": {
+  "links": [
+   "20260616_SOW_Maycomb_Capital_AI_Roadmap",
+   "20260616_discovery-brief-maycomb-capital",
+   "20260619_Maycomb_AI_Playbook_Cheat_Sheet",
+   "20260619_Maycomb_AI_Playbook_Long_Form",
+   "20260624-Workflow-Map-Maycomb-Capital",
+   "20260624_outstanding-questions-answered",
+   "20260707_Maycomb_Value_Drivers_Call_Prep",
+   "xx_outstanding-questions"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V111": {
+  "links": [
+   "business/projects/client-projects/26061601_maycomb-capital/client-facing-deliverables/20260707_Maycomb_Capital_AI_Roadmap_Client",
+   "business/projects/client-projects/26061601_maycomb-capital/client-facing-deliverables/20260710_Maycomb_Capital_Roadmap_Presentation_Outline",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V112": {
+  "links": [
+   "20260615_call-brief-maycomb-capital",
+   "20260616_SOW_Maycomb_Capital_AI_Roadmap",
+   "20260616_discovery-brief-maycomb-capital",
+   "20260619_Maycomb_AI_Playbook_Cheat_Sheet",
+   "20260619_Maycomb_AI_Playbook_Long_Form",
+   "20260624_outstanding-questions-answered"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V114": {
+  "links": [
+   "2026-06-17-call-brief-neighborworks-capital"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V116": {
+  "links": [
+   "20260617_NeighborWorks_Capital_Brief"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V124": {
+  "links": [
+   "../../internal/product/20260818_File_Taxonomy_Free_Tier_Principles",
+   "20260818_Discovery_Brief_Ruthless_For_Good",
+   "client-facing-deliverables/20260818_Ruthless_For_Good_AI_Playbook",
+   "xx_outstanding-questions.md"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V125": {
+  "links": [
+   "20260818_Discovery_Brief_Ruthless_For_Good"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V128": {
+  "links": [
+   "20260814_attraction-offer-concepts",
+   "20261007_MOG_Current_State_Workflow_Map",
+   "SOPs/20261007_MOG_First_Steps_Discovery",
+   "client-facing-deliverables/20260929_SOW_Madrid_Operations_Group_AI_First_Retainer"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V129": {
+  "links": [
+   "20260929_Madrid_Operations_Group_Client_Brief",
+   "20261007_MOG_Current_State_Workflow_Map",
+   "SOPs/20261007_MOG_First_Steps_Discovery",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack",
+   "business/projects/internal/product/20260816_ai-file-integration-capability-reality-check",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture"
+  ],
+  "in_table": [
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results"
+  ],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V130": {
+  "links": [
+   "20260929_Madrid_Operations_Group_Client_Brief",
+   "SOPs/20261007_MOG_First_Steps_Discovery"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V131": {
+  "links": [
+   "../20261007_MOG_Current_State_Workflow_Map"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V133": {
+  "links": [
+   "20260929_Madrid_Operations_Group_Client_Brief",
+   "20261007_MOG_Current_State_Workflow_Map",
+   "SOPs/20261007_MOG_First_Steps_Discovery",
+   "business/projects/internal/google-drive-restructure/xx_drive-migration-playbook",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture",
+   "business/projects/internal/product/20261008_notion-build-spec-sandbox"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V135": {
+  "links": [
+   "2026-05-07-ghostops-cms-braindump"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V137": {
+  "links": [
+   "20261009_blue-tusk-drive-skeleton-build",
+   "business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V138": {
+  "links": [
+   "20261007_blue-tusk-drive-map-and-proposed-taxonomy",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture",
+   "business/projects/internal/product/20261008_notion-build-spec-sandbox"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V139": {
+  "links": [
+   "20261009_blue-tusk-drive-skeleton-build",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture",
+   "xx_drive-migration-script"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V140": {
+  "links": [
+   "xx_drive-migration-playbook"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V141": {
+  "links": [
+   "business/ideas/2026-07-10-scaling-vault-to-team",
+   "business/marketing/offers/20260814_attraction-offer-concepts",
+   "business/marketing/offers/20260814_file-chaos-marketing-angles",
+   "business/projects/internal/product/20260816_ai-file-integration-capability-reality-check",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture",
+   "business/projects/internal/product/overview"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V142": {
+  "links": [
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V143": {
+  "links": [
+   "../client-projects/26073101_ruthless-for-good/20260818_Discovery_Brief_Ruthless_For_Good",
+   "20260814_information-taxonomy-offering-stack"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V144": {
+  "links": [
+   "business/projects/client-projects/26092901_madrid-operations-group-AI-first-retainer/20261007_MOG_AI_Native_Stack_Architecture",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack",
+   "business/projects/internal/product/20260816_ai-file-integration-capability-reality-check",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V145": {
+  "links": [
+   "business/projects/internal/google-drive-restructure/xx_drive-migration-playbook",
+   "business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture",
+   "business/projects/internal/product/20261008_notion-build-spec-sandbox",
+   "wikilinks"
+  ],
+  "in_table": [],
+  "in_code": [
+   "wikilinks"
+  ],
+  "fenced": 0
+ },
+ "V146": {
+  "links": [
+   "business/projects/client-projects/26092901_madrid-operations-group-AI-first-retainer/20261007_MOG_AI_Native_Stack_Architecture",
+   "business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy",
+   "business/projects/internal/google-drive-restructure/xx_drive-migration-playbook",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack",
+   "business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles",
+   "business/projects/internal/product/20261007_google-drive-taxonomy-test-results",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "wikilinks"
+  ],
+  "in_table": [],
+  "in_code": [
+   "wikilinks"
+  ],
+  "fenced": 0
+ },
+ "V147": {
+  "links": [
+   "business/projects/internal/product/20260818_File_Taxonomy_Free_Tier_Principles",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V148": {
+  "links": [
+   "20261008_notion-sandbox-registry",
+   "business/projects/internal/product/20261008_ai-native-architecture-decision-log",
+   "business/projects/internal/product/20261008_ai-native-operating-architecture"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V149": {
+  "links": [
+   "business/projects/internal/product/20261008_notion-build-spec-sandbox",
+   "business/projects/internal/product/20261008_notion-sandbox-registry"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V150": {
+  "links": [
+   "business/projects/internal/product/20261009_Notion_OS_migration_prompts"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V151": {
+  "links": [
+   "business/ideas/2026-07-10-scaling-vault-to-team",
+   "business/projects/internal/product/20260814_information-taxonomy-offering-stack"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V152": {
+  "links": [
+   "20261008_ai-native-architecture-decision-log",
+   "20261008_ai-native-operating-architecture",
+   "20261008_notion-build-spec-sandbox",
+   "20261008_notion-sandbox-registry",
+   "business/projects/internal/google-drive-restructure/20261009_blue-tusk-drive-skeleton-build",
+   "business/projects/internal/google-drive-restructure/xx_drive-migration-playbook",
+   "business/projects/internal/google-drive-restructure/xx_drive-migration-script",
+   "business/projects/internal/product/20261009_Notion_OS_migration_prompts",
+   "business/projects/internal/product/20261009_Notion_migration_lessons_learned"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V158": {
+  "links": [
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp",
+   "business/sales/2026-04-14-audit-email-sequence",
+   "business/sales/2026-04-30-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-30-adversarial-analysis-social-outbound-sop"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V159": {
+  "links": [
+   "xx_Maycomb_AI_Automation_Roadmap_INTERNAL"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V161": {
+  "links": [
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V162": {
+  "links": [
+   "business/sales/2026-03-30-audit-email-variants|2026-03-30-audit-email-variants",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V163": {
+  "links": [
+   "business/sales/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V166": {
+  "links": [
+   "business/sales/2026-03-30-audit-call-flow|2026-03-30-audit-call-flow",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V168": {
+  "links": [
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V170": {
+  "links": [
+   "2026-04-14-social-outreach-persuasion-upgrades",
+   "business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V171": {
+  "links": [
+   "2026-04-14-social-outreach-persuasion-upgrades",
+   "business/sales/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V172": {
+  "links": [
+   "2026-04-14-social-outreach-persuasion-upgrades",
+   "business/sales/2026-04-03-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-03-free-workflow-audit-free-offer-creation-agp",
+   "business/sales/2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit",
+   "business/sales/2026-04-30-adversarial-analysis-social-outbound-sop"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V173": {
+  "links": [
+   "business/sales/2026-04-14-Social_Outbound_SOP_Free_Workflow_Waste_Audit"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ },
+ "V174": {
+  "links": [
+   "business/SKILLS/pi-firm-snapshot/SKILL.md",
+   "business/SOPs/2026-04-30-SOP-Cold-Outreach-PI-Firms",
+   "business/sales/2026-03-30-audit-call-flow",
+   "business/sales/2026-04-30-Social_Outbound_SOP_Free_Workflow_Waste_Audit"
+  ],
+  "in_table": [],
+  "in_code": [],
+  "fenced": 0
+ }
+}
