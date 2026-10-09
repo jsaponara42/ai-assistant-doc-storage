@@ -69,6 +69,26 @@ How the Obsidian vault gets copied into the Notion **Operating System**, so JC c
 7. **Log every note** on a Knowledge page "Migration log: vault to Operating System" (vault path | destination | new URL | notes). Unclear items get Needs Attention plus a line on the existing "Migration review list".
 8. **Never edit or delete vault notes** during the migration.
 
+### 4a. Inventory (2026-10-09)
+The vault MCP's tree view is depth-limited and hid the client `SOPs/`, `call-prep/` and `client-facing-deliverables/` folders. A frontmatter search found them. Notes to copy, excluding `_fit/`, `business/SKILLS/`, vault system files, `PERMANENT-NOTE.md` placeholders and completed tasks:
+
+| Area | Notes | Destination |
+|---|---|---|
+| Client projects: CAP 31, MAY 21, MOG 6, NWC 5, RFG 5, LFG 2, CCZ 1 | 71 | AI Drafts (~59); handoffs → Handoffs + Where things stand (5); learnings → Project pages (6); Howie's wants → Company page (1) |
+| Internal product, Drive restructure, Quick SOP guide | 19 | Knowledge (handoff → Handoffs; overview → Product project page) |
+| Sales-call prep, ghostops | 6 | AI Drafts |
+| Marketing: writing 26, offers 8, instagram 3, materials 1, overview 1 | 39 | Posts (23), scripts, one-pager → AI Drafts; guides, offers, ideas → Knowledge; offers handoff → Handoffs; overview → Marketing project page |
+| Sales (16), SOPs (5), ideas (13), research (3), About Blue Tusk (1) | 38 | Knowledge (sales overview → Sales project page; About → Blue Tusk company page) |
+| Open tasks | 3 | Tasks |
+| xx_needs-categorization (4) + _archived (5) | 9 | Sorted per note; _archived checked for duplicates |
+| Personal | 18 | Private "Personal" page |
+| **Total** | **~203** | |
+
+Some notes have no frontmatter (e.g. `20260918_LendForGood_Client_Brief.md`, `20260818_Discovery_Brief_Ruthless_For_Good.md`, `call-prep/20260615_call-brief-maycomb-capital.md`): dates come from the file name. Non-standard statuses (`final`, `source-document`, `ready`, `complete`, `active`, `draft`) map to published / archived / active.
+
+### 4b. Route for the bodies
+The Notion connector only accepts page content inline, so a direct copy means Claude re-types every note (~200 notes, several over 800 lines). That is slow and is where verbatim copies go wrong. **Preferred route:** Notion's own Markdown import (Settings → Import → Text & Markdown) brings the bodies in faithfully, tables included, into a staging page. Claude then moves each imported page into its database (move-pages), strips the frontmatter text, and sets properties, Summary and Vault Path. Claude builds the zip of exactly the notes in scope (with folder access to the vault on JC's Mac), and JC runs the import once.
+
 ### 5. Order of work
 1. Inventory pass: list every vault note with its destination per Section 1. Mark duplicates, exclusions and unclear items, and get the exact expected count per destination.
 2. JC answers the decisions (Section 7) and approves the schema additions.
@@ -95,7 +115,15 @@ How the Obsidian vault gets copied into the Notion **Operating System**, so JC c
 4. **Posts:** which LinkedIn posts in `marketing/writing/` were published? Default if unknown: draft, flagged.
 5. **Schema additions** in Section 3: approve?
 
+### Decided 2026-10-09 (JC)
+1. Personal notes go to a private top-level Notion page "Personal", outside the Operating System, as plain pages.
+2. Completed vault tasks are skipped.
+3. Capital Financing stays CAP-26061201, Stage done. Neighborworks set to proposal (done in Notion). LendForGood stays lost.
+4. Posts: default draft, flagged, unless the note says it was published.
+5. Schema additions approved and applied 2026-10-09; logged in the System Registry change log.
+
 ## Next steps
-- [ ] JC: answer Section 7.
+- [x] JC: answer Section 7.
 - [ ] Claude: inventory pass and expected counts.
-- [ ] Claude: schema additions, then pilot.
+- [x] Claude: schema additions.
+- [ ] Claude: pilot.
