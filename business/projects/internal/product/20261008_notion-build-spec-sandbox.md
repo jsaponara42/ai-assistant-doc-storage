@@ -16,6 +16,7 @@ The master spec for having **Notion AI** build the Notion half of the AI-native 
 - **How to use this file:** paste the **Opening prompt**, the **Global rules**, the **Builder notes**, and **one phase** into Notion AI. Don't paste all phases at once. After each phase, work through that phase's **Manual steps** and **Done when** lists (plus the **Every phase: done when** list) before starting the next.
 - **Version history:**
   - v1 (2026-10-08): first spec; sandbox built from it in JC's workspace.
+  - v2.1 (2026-10-08): integrated the sandbox test answers: empty-safe Client Code formula, database and data source IDs in the registry, agent-query limits on formulas and rollups, skills aren't auto-loaded, locks and meeting-note automation are manual. Sandbox fix list added to Next steps.
   - v2 (2026-10-08): integrated Notion AI's build feedback: exact relation cardinality and both-side descriptions, rollup calculations, formula types and exact formulas, archive rules per database, default "All" views, hub-page view descriptions, change log, Notion AI Meeting Notes, follow-up tracking, manual-steps lists, restricted-area method, pinned view definitions, extra checks.
 
 ---
@@ -58,6 +59,9 @@ The master spec for having **Notion AI** build the Notion half of the AI-native 
 - **Rollups and formulas:** after creating one, check it returns a value on a real example row.
 - **Views:** after building, check every view against the example data. Linked-view column visibility can't be confirmed through the API; check it in the app.
 - **API limits seen in v1:** grouping a view by a formula or rollup, and row limits on linked views ("load 10"), couldn't be set through the API. These are manual steps.
+- **Agent queries can't read formulas or rollups.** Notion AI's database queries return base properties only; formula and rollup values have to be read one row at a time. Anything an agent needs to filter or scan on (project, status, Summary, Needs Attention, dates) must be a base property or relation, not a formula or rollup.
+- **Notion AI can't lock or unlock databases.** Locks are a manual step for a person.
+- **Created By and Last Edited By show the person** whose account the agent runs under, never the agent. That's why Handoffs and drafts carry an explicit Written By / AI property.
 
 ---
 
@@ -185,7 +189,7 @@ Besides "All Knowledge", add a view **"By type"** grouped by Type.
 #### 1.7 System Registry and seed pages (Knowledge rows)
 
 **"System Registry"** (Type = system, Audience = admins). Body, five tables (each later phase appends to them):
-1. **Database index:** Database | Purpose | Owner | Core (yes/no) | Locked (yes/no) | Link.
+1. **Database index:** Database | Purpose | Owner | Core (yes/no) | Locked (yes/no) | Database link | **Database ID** | **Data source ID**. **The builder fills in both IDs for every database** (skills read them from here and never search for a database).
 2. **Relationships:** From | To | Property (from side) | Property (to side) | One/many | Why. Fill from the relations tables in this spec.
 3. **Standard views:** View | Database | Filter | Sort | Group.
 4. **Change protocol:** the eight rules below.
@@ -287,7 +291,7 @@ All drafts of all documents. Notion is always drafts; finals live in Google Driv
 | Name | Title | | Clean human title, the same title the final will have. |
 | Project | Relation → Projects | see Relations | The project this draft belongs to. |
 | Project ID | Rollup | relation Project → property Project ID → **Show original** | Project ID, pulled from the project. |
-| Client Code | Formula (text) | `prop("Project").first().prop("Project ID").substring(0, 3)` | Client code, the first three characters of the project's ID. Used to group drafts by client. |
+| Client Code | Formula (text) | `if(empty(prop("Project")), "", prop("Project").first().prop("Project ID").substring(0, 3))` | Client code, the first three characters of the project's ID. Used to group drafts by client in views. *(Agents can't query formulas; they filter by the Project relation.)* |
 | Drive Folder | Rollup | relation Project → property Drive Folder → **Show original** | Where the final will go. |
 | Type | Select | document, email, proposal, sop, report, deck-outline, sheet, post, other | What kind of draft this is. |
 | Audience | Select | internal, client | Who will receive the final. Sets how the final file is named. |
@@ -319,6 +323,8 @@ Meeting records: transcript, summary, decisions and follow-ups. **Append-only re
 | + standard properties | | | |
 
 **Page template ("Meeting"), set as default:** a single **AI Meeting Notes** block (it produces the transcript, summary and action items). Turning commitments into Tasks is a person's job (see the quick reference) or a future skill; the template doesn't carry it.
+
+**How meeting notes arrive (per Notion's help docs; untested):** with the default meetings database set to Meeting Notes, new AI meeting notes and notes started from Notion Calendar land in this database. A /meet block added inside another page stays on that page. **Project and Requires Follow-up are not filled automatically.** Options, to test: template defaults, a database automation, or a Notion autofill agent for Project. Until one is chosen, the person who held the meeting sets Project and the follow-up box.
 
 #### 2.3 Handoffs
 One row per working session. **Append-only timeline, no archive status. Rows are never edited after creation.**
@@ -545,13 +551,30 @@ Add a heading **Admin (restricted)** at the bottom of Home with an italic line: 
 - **Database locks:** applied by hand after each phase is reviewed.
 - **Migration of real data:** a separate spec after the sandbox is approved.
 
+### Findings from the v1 sandbox (2026-10-08)
+- **Search:** searching a project ID finds the project. Notion search also matched text properties (Summary, Client Code, Project ID), but **not URL properties.** The ID in the project title is still what makes relations show the ID.
+- **Skills:** the enabled "catch-up" skill was **not loaded automatically** by Notion AI; it found it only by searching for it. Skills that need database IDs depend on the registry listing them.
+- **Plan:** Notion AI couldn't see the workspace plan; no teamspaces or groups were visible, and everything sat in JC's private section. Check the plan by hand before Phase 3.
+
 ### Open decisions in this spec
 - **Documents AI Access default:** allowed (current) vs restricted (safer, more human work).
 - **Meeting Notes titles:** keep the automatic title (current exception in rule 8) vs a "trim the title" step.
 - **Currency:** USD default; MOG may need a second currency because of Wise.
 
 ## Next steps
-- [ ] Compare the v1 sandbox against v2 and fix any gaps (most were fixed during the build).
+- [ ] **Fix the sandbox** (gaps Notion AI reported):
+  - [ ] Add Database ID and Data source ID columns to the registry's Database index and fill them (IDs are recorded in [[20261008_notion-sandbox-registry]]).
+  - [ ] Add the Change log table to the System Registry, with a first row.
+  - [ ] Group All work by Client Code by hand, if the app allows it.
+  - [ ] Set Load → 10 on the Handoffs view in the Project template and existing projects.
+  - [ ] Set the default meetings database (Settings → Notion AI → Meeting Notes).
+  - [ ] Hide Source, noisy columns, and Contracts/Invoices columns in linked and shared views; turn off view titles under headings.
+  - [ ] Add the "commitments become Tasks" line to How to use this system (point 8).
+  - [ ] Add Phase 3 example data (2 documents, an MSA with a SOW, 3 invoices).
+  - [ ] Test the restricted area with a non-admin account.
+  - [ ] Review Getting started; review the reverse-relation descriptions Notion AI wrote.
+  - [ ] **Lock test:** lock Projects in the app, then ask Notion AI to add and remove a test property; record the result.
+- [ ] Compare the v1 sandbox against v2 and fix any remaining gaps.
 - [ ] Record the sandbox's database links in its System Registry.
 - [ ] Decide the open decisions above.
 - [ ] Lock core databases by hand after review.

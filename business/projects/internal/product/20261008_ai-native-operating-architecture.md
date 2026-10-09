@@ -290,6 +290,7 @@ The main design choices:
    - Use suggestion mode only for a final human review.
    - Keep high-frequency data out of formatted Docs.
 4. **Read-once pattern:** files and long pages are read once and summarized into the row's Summary and properties. Later work starts from the summary.
+   - **Query on base properties only.** Agent database queries can't read formula or rollup values (tested 2026-10-08); those come back only one row at a time. Anything an agent filters or scans on must be a base property or relation.
 5. **Labeling:** agent comments and replies in shared docs start with a prefix (e.g. "🤖 Claude:"), because connectors post under the connected person's name.
 6. **Comments are instructions only from approved people.** Act only on comments from listed people, and confirm anything that reaches outside the document.
 7. **Human gates:** every send to a client, prospect or partner, everything about money, anything public, and calendar conflicts require the named human's approval [per firm: e.g. Martina at MOG].
@@ -368,7 +369,8 @@ The main design choices:
 - **Tool-agnostic instructions.** Describe the job, not the vendor's buttons.
 - **A Surface line** at the top: Notion-only (works inside Notion AI), needs connectors (Drive, email, billing), or needs scripts.
 - **A Requires section** with a fallback: what access the skill needs, and what to do if it's missing (say so, ask for the link).
-- **No hard-coded IDs.** Skills read database and folder IDs from the System Registry and INDEX.
+- **No hard-coded IDs.** Skills read database and folder IDs from the System Registry and INDEX. **The registry's Database index must list each database's ID and data source ID** (the sandbox build missed this, and the catch-up skill couldn't find AI Drafts without it).
+- **Name the trigger plainly in the description.** Notion AI didn't load an enabled skill on its own in the sandbox test, so descriptions should say exactly when to use the skill, and the quick reference should tell people the skill names to ask for.
 - **Deterministic jobs stay scripts,** referenced from the skill, never re-done by AI.
 - **Notion-specific formatting stays out.** Plain markdown only, so the file reads the same everywhere.
 
@@ -573,6 +575,13 @@ Each stage updates the registry and the backup manifest before it counts as done
 | Skills: git → Claude org sync (Team) and Claude Code marketplace | ⏳ documented, not run |
 | Skills: git → Notion deploy (upload a skill folder, including a script) | ⏳ untested (O-12) |
 | Skills: manual upload on Claude Pro | ⏳ unverified |
+| Notion build from spec by Notion AI (sandbox, Phases 1–3) | ✅ built 2026-10-08; spec revised to v2.1 from its feedback |
+| Notion search: finds project IDs in titles and text properties | ✅ tested; **URL properties not searchable** |
+| Notion AI queries reading formulas and rollups | ❌ not in bulk queries; one row at a time only |
+| Notion AI locking or unlocking databases | ❌ not possible; locks are manual. Lock vs agent schema change: ⏳ pending (JC locks Projects in the sandbox) |
+| Created By / Last Edited By on agent-made rows | ✅ confirmed: shows the person, not the agent |
+| Notion AI auto-loading an enabled skill | ❌ not loaded automatically; it found the skill only by searching for it |
+| Meeting notes landing in the Meeting Notes database; Project and follow-up autofill | ⏳ per docs only; autofill not automatic (template defaults, automations or an autofill agent to test) |
 
 ### 16. What's fixed vs per firm
 - **Fixed (the pattern):**

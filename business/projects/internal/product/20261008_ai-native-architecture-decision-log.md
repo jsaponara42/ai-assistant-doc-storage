@@ -290,6 +290,25 @@ The nightly backup export is organized by client, project and type, which gives 
 - Linked from Home and every person's page; first read for new hires.
 - The change protocol's order of work now ends with updating the quick reference and training when a change affects how people use the system.
 
+**AD-052. Project titles start with the Project ID.** *Decided (JC).*
+- Format: `{Project ID} {Project name}`, e.g. `ACM-26100201 Operations Build`. The one exception to clean titles (plus automatic Meeting Notes titles).
+- **Why:** a Notion relation shows the related page's title, so every draft, task and meeting shows its project's ID. It also makes find-by-ID reliable.
+- The Project ID property stays the official value; an **ID Match** formula flags drift. A template can't fill the ID, so the creator (later the promotion skill) types it.
+
+**AD-053. The Notion half is built by Notion AI from a phased spec.** *Decided (JC); sandbox built 2026-10-08.*
+- JC's own workspace got a sandbox with example data, built from [[business/projects/internal/product/20261008_notion-build-spec-sandbox]] in three phases. Notion AI's feedback produced spec v2, and its test answers v2.1.
+- The spec is the reusable build artifact for every firm (MOG next). Each build ends with manual steps and a done-when checklist.
+- Next: migrate JC's active work into it with a separate migration spec.
+
+**AD-054. Findings from the sandbox build.** *Tested 2026-10-08.*
+- **Agent queries can't read formulas or rollups** in bulk, so anything agents filter on must be a base property or relation (agent rule added).
+- **Search** finds project IDs in titles and in text properties, but not in URL properties.
+- **Notion AI can't lock or unlock databases.** Whether a lock stops agent schema changes is still pending (O-8).
+- **Created By / Last Edited By show the person,** confirming the AD-042 limit.
+- **Notion AI didn't auto-load the enabled catch-up skill;** it found it by searching. This extends AD-044: neither Claude nor Notion AI reliably picks up a Notion-hosted skill on its own. Skill descriptions name their triggers plainly, and the registry must list database and data source IDs.
+- **Meeting notes:** per Notion's docs, the default meetings database receives new AI and Calendar meeting notes; Project and follow-up fields aren't filled automatically (options to test).
+- **Plan:** Notion AI couldn't see JC's workspace plan; no teamspaces were visible.
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.
@@ -298,7 +317,7 @@ The nightly backup export is organized by client, project and type, which gives 
 - **O-5:** Retention periods for invoices and contracts (per firm, ask the accountant).
 - **O-6:** Whether the backup git repo becomes the cloud vault (flagged, not decided).
 - **O-7:** Aligning JC's vault to client-first naming (`MOG-26092901_…`).
-- **O-8:** Tests pending: the Notion lock vs connector, backup → restore, Office file upload and read cost, Sheets edit cost, billing webhooks, Notion AI using an enabled skill from a plain prompt.
+- **O-8:** Tests pending: the Notion lock vs agent schema change (JC locks Projects in the sandbox, then Notion AI tries to add a property), backup → restore, Office file upload and read cost, Sheets edit cost, billing webhooks, meeting-note autofill for Project and follow-up. *(Notion AI using an enabled skill: tested, not auto-loaded, AD-054.)*
 - **O-9:** How a file gets from `in-progress/` to `delivered/`: human drag (keeps the link) or agent copy (new ID, exact record of what was sent).
 - **O-10:** What the free lead magnet includes vs what stays paid (AD-041).
 - **O-11:** Who owns each client's skills repo (Blue Tusk's GitHub or the client's), tied to O-4. For MOG: confirm the Owner on Martina's Claude Team plan, who connects the Claude GitHub App.
