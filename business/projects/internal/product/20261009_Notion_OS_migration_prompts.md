@@ -73,12 +73,14 @@ G. Projects. A table of all 26 projects: legacy title | Track | Status | Start D
    - Project ID format is {CLIENT}-{YYMMDDNN}.
    - If the legacy title starts with 8 digits (for example 26092901), keep them: 26092901 for Madrid Operation Group becomes MOG-26092901.
    - If it starts with 6 digits (260701 to 260799, internal quarterly projects), the new ID is BTK-YYMM01NN: 260701 becomes BTK-26070101 and 260799 becomes BTK-26070199.
-   - Cause Crazy uses the date 25122101 (the existing Drive and vault folder is dated 20251221): CCZ-25122101 (propose the code).
+   - Cause Crazy uses the number 25122101 (the existing Drive and vault folder is dated 20251221): CCZ-25122101. The number is confirmed; the code CCZ is a proposal. Cause Crazy is a closed project (Stage = done).
+   - Capital Financing already has its real project number (26061201), so CFN-26061201. The number is confirmed; the code CFN is a proposal.
+   - Neighborworks Capital (26061701) is a PROPOSAL, not a cancelled project: Stage = proposal, even though the legacy status is Canceled.
    - Ghost.Ops uses 26050701: propose GHO-26050701.
    - Any other project: use its Start Date as YYMMDD plus 01, 02 and so on for same-day collisions; if it has no Start Date use its Created time and mark the row "date guessed".
    - Proposed Name: the legacy title with the leading ID, any leading "NN_" prefix, and a leading "{client name}-" removed.
    - Area: External becomes client; Internal becomes internal, except names containing Admin or Finance become admin, and "Non-Business" becomes admin and flagged.
-   - Stage: 02_doing becomes active (internal ones become ongoing); 03_blocked becomes active and flagged; 05_complete_delivered becomes done; Canceled becomes lost; Archived becomes archived; empty status becomes proposal for external projects and ongoing for internal ones, and is flagged.
+   - Stage: 02_doing becomes active (internal ones become ongoing); 03_blocked becomes blocked (do NOT flag it: blocked means a longer-term blockage that is not immediately actionable, which is different from Needs Attention); 05_complete_delivered becomes done; Canceled becomes lost, EXCEPT Neighborworks Capital (proposal, see above); Archived becomes archived; empty status becomes proposal for external projects and ongoing for internal ones, and is flagged.
 H. Everything that does not fit. List legacy properties that have data but no home in the Operating System (for example Industry, Website, Location, Time Zone, Value Tier, Estimated Value/Year, Mutual Connections, Channel, Draft Message, Draft Status, Outreach Tier, Revenue fields, Priority, Role, Tags, Project Type, Completion Date), each with its fill rate.
 I. Decisions for JC. A numbered list of anything ambiguous.
 
@@ -97,6 +99,7 @@ ALL FIVE of Companies, People, Projects, Tasks, Meeting Notes:
 
 COMPANIES
 - Type: add the option "prospect" (organisation we are talking to but have no project with; gets a Client Code when promoted).
+- Status: add the option "dormant" (relationship has gone quiet and may be revived). The existing options stay: active, paused, past, archived.
 - Add if filled in legacy: "Website" (URL), "Industry" (text), "Location" (text), "Time Zone" (select, same values as CRM Master but lowercase where they are words).
 
 PEOPLE
@@ -106,10 +109,11 @@ PEOPLE
 - Add the relation "Referred By" (People to People, limit one) with the reverse "Referrals Given" (many).
 
 PROJECTS
+- Stage: add the option "blocked" (a longer-term blockage; not immediately actionable. Different from Needs Attention, which means someone can act on it now).
 - Add if filled: "Project Type" (select: ai and automation advisor, one off automation, ai rebuild, other), "Completed Date" (date), "Priority" (select: high, medium, low), "Tags" (multi-select, the legacy tag values lowercase).
 
 TASKS
-- Status: add the option "idea".
+- Status: add the options "idea" and "blocked" (blocked = a longer-term blockage; not immediately actionable).
 - Add if filled: "Role" (select, the legacy Role values lowercase), "Start Date" (date), "Completed Date" (date).
 
 MEETING NOTES
@@ -119,6 +123,13 @@ MEETING NOTES
 CONTRACTS (restricted area)
 - Add: "Monthly Retainer" (number, US dollars), "One-Time Fee" (number, US dollars), "Retainer Months" (number), "Revenue Model" (select: one-time fee, hybrid, non-revenue, monthly retainer).
 - Do not add these to Projects: money stays in the restricted area.
+
+VIEWS (because of the new "blocked" value):
+- Home, "Active projects": add blocked to the Stage filter so blocked projects still show.
+- Home: add a section "Blocked work" after "This week", with the description line "Longer-term blockages that nobody can act on right now. Check weekly whether any have cleared." It holds two linked views under the one heading: Projects where Stage is blocked, and Tasks where Status is blocked. Turn off the database titles on both.
+- Home, "This week" and the overdue half of "Tasks needing attention": exclude Status = blocked.
+- My page, "My tasks": keep blocked tasks (they are still yours).
+- Standard views in the System Registry: record these changes.
 
 Then: update the registry page for each database touched, add a Change log row per database (today's date | what was added | "needed to migrate legacy Notion data" | JC), and update the Relationships table for the new Referred By relation. Report what was added and what was skipped.
 ```
@@ -131,7 +142,7 @@ Then: update the registry page for each database touched, add a Change log row p
 Migrate CRM Master into Companies and People.
 
 COMPANIES: every CRM Master row with Type = Company (expected: 25), using the company table approved in the Migration plan (section F).
-- Name = Name. Client Code = approved code (blank for companies with no project). Type, Status: from the approved table; Status = past if Category is Past Client or legacy Status is Archived; paused if legacy Status is Dormant; otherwise active.
+- Name = Name. Client Code = approved code (blank for companies with no project). Type, Status: from the approved table; Status: archived if legacy Status is Archived; past if Category is Past Client; dormant if legacy Status is Dormant; otherwise active (first matching rule wins, in that order).
 - Owner = JC. Properties added in the schema step (Website, Industry, Location, Time Zone) = the legacy values.
 - Page body: use the Company template, and put the entire legacy page body (including any Touch Log) under the "History" heading, verbatim. Put the legacy "Personal Notes" under "Overview".
 - Summary = one line from the body or notes.
@@ -163,12 +174,12 @@ PROJECTS: every row with Type = Project (expected 26), using the approved table 
 - Start Date = Start Date. Target End = Due Date. Completed Date = Completion Date.
 - Project Type, Priority (P0 and P1 become high, P2 medium, P3 low), Tags: carry across if added.
 - If Doc Link is a Google Drive folder URL, put it in Drive Folder. Otherwise put Doc Link and SOP as links in the page body under "Scope".
-- Blocked projects (03_blocked): Needs Attention ticked, and say why in Summary.
+- Blocked projects (03_blocked): Stage = blocked. Do NOT tick Needs Attention. Say why it is blocked in Summary.
 - Page body: Project template; the legacy body goes under "Scope" verbatim; legacy "Notes" under "Where things stand / Current state". Summary on every row.
 
 TASKS: every row with Type = Task, plus the one row with an empty Type that has a Parent Project (expected 187 in total).
 - Name; Project = the new Projects row for the legacy Parent Project; Owner = legacy Responsible if it is a Notion user; Due = Due Date; Summary = legacy Summary.
-- Status: XX_idea becomes idea; 00_date_set becomes to do; 01_do_now becomes to do; 02_doing becomes doing; 03_blocked becomes waiting; 04_complete_not_delivered becomes done (add "complete, not delivered" to Summary); 05_complete_delivered becomes done; Canceled becomes cancelled; Archived becomes archived.
+- Status: XX_idea becomes idea; 00_date_set becomes to do; 01_do_now becomes to do; 02_doing becomes doing; 03_blocked becomes blocked; 04_complete_not_delivered becomes done (add "complete, not delivered" to Summary); 05_complete_delivered becomes done; Canceled becomes cancelled; Archived becomes archived.
 - Priority: P0 and P1 become high, P2 medium, P3 low.
 - Role, Start Date, Completed Date: carry across if added.
 - Body copied verbatim. Legacy "Notes" appended to the body under a heading "Notes". Doc Link and SOP become links at the top of the body.
@@ -176,7 +187,7 @@ TASKS: every row with Type = Task, plus the one row with an empty Type that has 
 
 CONTRACTS (restricted area): for every project that has a Monthly Retainer, One-Time Fee or Revenue Model value, create ONE Contracts row.
 - Name = "{Project ID} SOW (migrated terms)". Type = sow. Company and Project = the new rows. Monthly Retainer, One-Time Fee, Retainer Months, Revenue Model = the legacy values (Revenue Model lowercase). Value = One-Time Fee + Monthly Retainer x Retainer Months.
-- Status: project Stage active or ongoing becomes active; done becomes expired; proposal or discovery becomes draft; lost becomes terminated.
+- Status: project Stage active, ongoing or blocked becomes active; done becomes expired; proposal or discovery becomes draft; lost becomes terminated.
 - Body: "Migrated from Operations Master. No signed copy is attached. Replace with the real contract when it is filed in 00_Contracts."
 - Do NOT copy the legacy formulas (Contract Value, Active MRR, YTD Revenue, Project Health, Days Remaining, Completion). In the Migration plan, list which dashboard views used them.
 
@@ -212,12 +223,19 @@ THEN VERIFY, once all migrations are done:
 ### Decisions to confirm (these are baked in above)
 1. **Companies without projects are migrated** as Type = prospect with no Client Code (11 companies, e.g. The Injury Specialists, DR Injury Law). The architecture said Companies are only created on promotion, but dropping them would orphan their people. Codes are assigned at promotion.
 2. **Money fields go to the restricted Contracts database,** not Projects (architecture Section 5.5: contract value lives on the restricted row). Cost: Contracts will hold "migrated terms" rows that are not signed contracts. Alternative: add the fields to Projects.
-3. **Project IDs keep your existing numbers** with a client code in front (for example 26092901 becomes MOG-26092901). Codes for Capital Financing, Neighborworks, Cause Crazy and the older proposal clients are proposals only.
+3. **Project IDs keep your existing numbers** with a client code in front (for example 26092901 becomes MOG-26092901). The project NUMBERS are confirmed, including Capital Financing (26061201) and Cause Crazy (25122101, a closed project). Only the 3-letter codes for Capital Financing, Neighborworks, Cause Crazy and the older clients are still proposals. Neighborworks is a proposal (Stage = proposal), not a lost deal.
 4. **Internal quarterly projects** (260701 to 260799) become BTK-26070101 to BTK-26070199 (day set to 01).
 5. **Task statuses:** XX_idea gets its own option "idea"; 01_do_now collapses into "to do" (the "do now" signal is lost).
-6. **Blocked projects** become active with Needs Attention ticked (the new system has no blocked stage).
+6. SUPERSEDED 2026-10-09: blocked is now its own Stage (Projects) and Status (Tasks), not active plus Needs Attention. Needs Attention means someone can act now; blocked means a longer-term blockage. See "Confirmed 2026-10-09" below.
 7. **The Blue Tusk team-member row in CRM Master** is not migrated as a person (team members are Notion users).
 8. **Legacy stays untouched** until verification passes; each new row has a Legacy Link, removed afterwards.
+
+### Confirmed 2026-10-09 (JC)
+- Prospect company type: yes. Companies also get a "dormant" Status (archived already exists).
+- Revenue fields go in the restricted Contracts database.
+- Project numbers are kept. Capital Financing and Cause Crazy have real numbers. Cause Crazy is closed (done). Neighborworks is a proposal.
+- "01_do_now" collapsing into "to do" is fine.
+- Blocked is its own value (Projects Stage, Tasks Status), separate from Needs Attention, with its own Home section.
 
 ## Next steps
 - [ ] JC: run Prompt 1 (example data removal), then Prompt 2 (audit), and review the Migration plan page.
