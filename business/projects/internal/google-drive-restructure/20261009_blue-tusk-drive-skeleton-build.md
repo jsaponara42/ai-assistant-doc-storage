@@ -69,10 +69,10 @@ Item 1 on the out-of-scope list in [[business/projects/internal/product/20261008
 - Product's audit-offer kit → `04_Knowledge/Delivery-Templates/Audit-Partnership-Kit`; reference PDFs and calculators → `04_Knowledge`; old 2024 working docs → `99_Archive/00_Company`; 5-year P&L model → `Finance/Planning`.
 - **Inventory speed:** the shared-drive walk took several resume cycles (~10 minutes for 726 items). For a large client drive, expect it to run for a while; it finishes on its own.
 
-### Open questions
-- Is the CauseCrazy 2026-03-04 "AI & Automation Advisor" SOW a second project (`CCZ-26030401`)?
-- The Capital Financing SOW was in `Unsigned`. Is there a signed copy anywhere?
-- The CauseCrazy Dec 2025 SOW exists twice (Sold folder and project folder). Keep the `00_Contracts` copy, trash the other?
+### Answers (JC, 2026-10-09)
+- **CauseCrazy has one engagement with two SOWs** (2025-12-16 and 2026-03-04). Both belong to `CCZ-25121701`; no second project ID.
+- **The Capital Financing SOW is final;** it was signed on another platform. The Drive copy in `00_Contracts` is the record.
+- **The "duplicate" CauseCrazy SOW is a Drive shortcut,** not a copy: the original sits in the CCZ `00_Contracts` folder, and the shortcut in the project folder points to it. Proposed standard: **signed SOWs live in `00_Contracts`; each project folder gets a shortcut to its SOW.** Pending JC's OK (he'd first said to trash it).
 
 ### Observations
 - Creating Google files from CSV and markdown uploads works in one call (CSV → Sheet, markdown → formatted Doc). A markdown table imports with an empty header row, so use lists in CONVENTIONS.
