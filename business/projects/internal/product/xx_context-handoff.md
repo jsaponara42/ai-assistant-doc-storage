@@ -21,6 +21,7 @@ The core offering is still **Information Taxonomy** (Roadmap → taxonomy design
 - Earlier today: full reference architecture and decision log, commercial decisions (backup as paid offering, feature additions as ongoing role, free lead magnet), Handoffs database design, Blue Tusk Drive restructure proposal.
 
 ## Open / next
+- **Run the Notion build spec** in JC's workspace as a sandbox, one phase at a time ([[20261008_notion-build-spec-sandbox]]). Then write a migration spec for active work.
 - **Set up Blue Tusk's own skills repo** as the template; move existing Claude skills into it.
 - **Pending tests:** git → Notion skill deploy with a script (O-12); Notion AI using an enabled skill; Notion lock vs connector; backup → restore; Office file read cost; Sheets edit cost; Stripe webhooks.
 - **Decide:** Blue Tusk on Claude Team for automatic skill sync (O-13); client skills repo ownership (O-11).
@@ -38,6 +39,7 @@ The core offering is still **Information Taxonomy** (Roadmap → taxonomy design
 ## Key files
 - [[20261008_ai-native-operating-architecture]]: **start here for the architecture** (skills: Section 8.1).
 - [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-051, open items O-1 to O-13.
+- [[20261008_notion-build-spec-sandbox]]: the spec to paste into Notion AI (Phases 1–3).
 - [[20261008_lead-magnet-ai-ready-workspace-draft]]: the free guide draft.
 - [[20261007_google-drive-taxonomy-test-results]]: connector tests and token costs.
 - [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: JC's Drive map and proposed structure.
