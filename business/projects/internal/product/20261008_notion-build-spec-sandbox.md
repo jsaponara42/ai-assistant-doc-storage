@@ -351,20 +351,20 @@ Views: unsigned, active, renewing in 90 days, by company.
 #### 3.3 Invoices (restricted)
 The billing tool is the source of truth; this is the register. **Paid status and amounts are written only by scripts, never by people's AI agents.**
 
-| Property | Type | Options / notes | Description |
-|---|---|---|---|
-| Name | Title | | Invoice number. |
-| External ID | Text | | The invoice's ID in the billing tool. |
-| Billing System | Select | stripe, quickbooks, wise, other | Which tool issued it. |
-| Project | Relation → Projects | two-way; other side "Invoices" | Project billed. |
-| Company | Relation → Companies | two-way; other side "Invoices" | Company billed. |
-| Amount | Number | currency | Invoice amount. Set by script. |
-| Issued | Date | | Issue date. |
-| Due | Date | | Due date. |
-| Status | Select | draft, sent, paid, overdue, void | Payment status. Set by script. |
-| Paid Date | Date | | When it was paid. Set by script. |
-| Link | URL | | Link to the invoice in the billing tool. |
-| + standard properties | | | |
+| Property              | Type                 | Options / notes                  | Description                              |
+| --------------------- | -------------------- | -------------------------------- | ---------------------------------------- |
+| Name                  | Title                |                                  | Invoice number.                          |
+| External ID           | Text                 |                                  | The invoice's ID in the billing tool.    |
+| Billing System        | Select               | stripe, quickbooks, wise, other  | Which tool issued it.                    |
+| Project               | Relation → Projects  | two-way; other side "Invoices"   | Project billed.                          |
+| Company               | Relation → Companies | two-way; other side "Invoices"   | Company billed.                          |
+| Amount                | Number               | currency                         | Invoice amount. Set by script.           |
+| Issued                | Date                 |                                  | Issue date.                              |
+| Due                   | Date                 |                                  | Due date.                                |
+| Status                | Select               | draft, sent, paid, overdue, void | Payment status. Set by script.           |
+| Paid Date             | Date                 |                                  | When it was paid. Set by script.         |
+| Link                  | URL                  |                                  | Link to the invoice in the billing tool. |
+| + standard properties |                      |                                  |                                          |
 
 Views: unpaid, overdue, paid this month. Add restricted linked views of "Unpaid invoices" and "Contracts renewing" to an admin-only section of Home.
 
