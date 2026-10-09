@@ -137,3 +137,11 @@ The Notion connector only accepts page content inline, so a direct copy means Cl
 - [ ] Claude: inventory pass and expected counts.
 - [x] Claude: schema additions.
 - [ ] Claude: pilot.
+
+
+## 4d. Wikilink pass (done 2026-10-09)
+- 85 pages had wikilinks, and all 645 link rewrites were applied. Links now point to the Notion page as page mentions. A heading anchor (#section) links to the whole page.
+- 39 distinct link targets were never copied to Notion (vault-only). They are now plain text marked "(vault only)". These are mostly LinkedIn post-idea titles, plus README, CONVENTIONS-FULL, SKILL.md, the sandbox registry, audit-email-variants and adversarial-analysis.
+- **Importer glitch:** a list line shaped like `- [[note]]: description` was read as a markdown reference-link definition. The line came in blank, and other uses of that link pointed to a garbage URL. Three pages were affected (MOG handoff, Product handoff, MOG current-state map), and all three were repaired by hand from the vault text. A vault-wide scan found no other lines of this shape.
+- **Table glitch:** in table cells, the alias part of `[[note#heading|alias]]` was split off by the pipe. Two cells on Howie's Wants were fixed.
+- **Lesson for MOG and future imports:** before zipping, rewrite `[[x]]: text` as `[[x]] — text` and convert aliases inside tables.
