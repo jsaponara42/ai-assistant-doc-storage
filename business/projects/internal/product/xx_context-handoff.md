@@ -41,3 +41,13 @@ The architecture is designed (AD-001 to AD-059). The Notion half exists as a san
 - [[business/projects/internal/google-drive-restructure/20261009_blue-tusk-drive-skeleton-build]]: Blue Tusk run log, decisions and key IDs (INDEX `1YVVuW421oLG-p_l8yv8Rxv_6ViLogVLLkJB7XgKBJq8`).
 - [[20261008_ai-native-architecture-decision-log]]: AD-001 to AD-059, open items.
 - [[20261008_notion-build-spec-sandbox]] and [[20261008_notion-sandbox-registry]]: Notion spec v2.1 and sandbox IDs.
+
+
+## Update 2026-10-09 (afternoon): legacy Notion migrated; vault copy is next
+- **The sandbox is now the live system.** Top-level page renamed "Operating System" (no longer "(Sandbox)"); example data removed by Notion AI.
+- **Legacy Notion migrated** by Notion AI using [[business/projects/internal/product/20261009_Notion_OS_migration_prompts]]. Verified counts: Projects 26, Tasks 187, Companies 23, People 111, Meeting Notes 59 (pages moved, legacy database now empty), Contracts 5. JC checked all relations and trusts the current state.
+- **Decisions added:** company Status "dormant"; Company Type "prospect" (no Client Code until promoted); "blocked" is its own Project Stage and Task Status, separate from Needs Attention; revenue fields live in restricted Contracts; existing project numbers kept (CFN-26061201, CCZ-25122101 closed, NWC 26061701 is a proposal).
+- **Lessons and reusable checklist:** [[business/projects/internal/product/20261009_Notion_migration_lessons_learned]]. Use it as the playbook for MOG Phase 0.
+- **Order agreed:** vault → Notion copy next, THEN the git backup script (nothing worth backing up until the data is in). Take a manual Notion export meanwhile. Vault stays intact as the archive until a backup restore drill passes.
+- **Open in Notion:** Review list items (empty meeting types, Bill Kinnelly with no project, SyncScript lost vs done, "Add contacts to CRM" task); hide Source and Legacy Link on "All meetings"; remove Legacy Link properties after sign-off.
+- **Next:** write the vault migration spec (inventory, dedupe, mapping to databases, batch plan), Claude copies through the Notion connector.
