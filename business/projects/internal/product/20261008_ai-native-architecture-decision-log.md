@@ -309,6 +309,16 @@ The nightly backup export is organized by client, project and type, which gives 
 - **Meeting notes:** per Notion's docs, the default meetings database receives new AI and Calendar meeting notes; Project and follow-up fields aren't filled automatically (options to test).
 - **Plan:** Notion AI couldn't see JC's workspace plan; no teamspaces were visible. **JC confirmed he's on the Business plan** (2026-10-08), so teamspace permissions are available; none had been created yet. Contracts and Invoices can move to a restricted teamspace.
 
+**AD-055. No Offers folder in Drive.** *Decided (JC), 2026-10-09.* Offer definitions, playbooks and strategy are living internal documents and live in Notion. The only final offer material is a client-facing info sheet, which is sales collateral (`03_Marketing/Sales-Collateral`). Blank templates (proposal, SOW, delivery) live in `04_Knowledge` (renumbered from 05).
+
+**AD-056. Internal projects live under `01_Clients/{FIRM}_{slug}/`.** *Decided (JC), 2026-10-09.* Every project ID resolves the same way: code → client folder → project folder. Company legal stays in `00_Company/Legal`.
+
+**AD-057. INDEX is a Google Sheet; CONVENTIONS is a Google Doc.** *Decided (JC), 2026-10-09.*
+
+**AD-058. One signed copy of each contract.** *Decided (JC), 2026-10-09.* The signed SOW/MSA/NDA lives only in the client's `00_Contracts/`: no pricing-free copy, no shortcut in the project folder, no copy in Finance. Scope lives on the Notion Project page; contract value lives on the restricted Contracts row, which links to the file. This matches common practice: one restricted legal record, with the team working from a scope summary.
+
+**AD-059. Existing content is migrated by a rule-based Apps Script, not by hand or by agent.** *Decided (JC), tested 2026-10-09.* Agents can't move files; the person runs the script (inventory → Claude writes rules → dry run → execute → empty-folder cleanup). Blue Tusk: 726 items, 0 errors. Playbook: [[business/projects/internal/google-drive-restructure/xx_drive-migration-playbook]].
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.

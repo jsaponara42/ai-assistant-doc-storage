@@ -218,7 +218,13 @@ The main design choices:
 - **Links to files in a client's own workspace** are registered as links, not copied. Copy only when a point-in-time version is needed.
 
 **5.5 Contracts**
-- **Signed PDFs** are manually dropped into the client folder's `00_Contracts` subfolder and registered in **Contracts**.
+- **One signed copy only** (decided 2026-10-09), in the client folder's `00_Contracts` subfolder, registered in **Contracts**. No pricing-free copies, no shortcuts in project folders, no copy in a finance folder.
+  - **The team works from the scope, not the contract:** deliverables, timeline and assumptions are restated on the Notion Project page, without pricing.
+  - **Contract value** lives on the restricted Contracts row, which links to the signed file. The Project page shows its SOW through the Contracts relation.
+  - **Restricting `00_Contracts` in a shared drive** needs checking per firm: if Google can't limit one folder inside a shared drive, contracts get their own small shared drive. (Not an issue for a one-person firm.)
+  - Contracts signed on another platform (e.g. e-signature tool) are filed the same way; the Drive copy of the final is the record.
+- **Signed NDAs** go in the `00_Contracts` of the client or partner they're with; the blank NDA template lives in `00_Company/Legal`.
+- **Signed PDFs** are manually dropped into `00_Contracts`.
 - **An MSA relates to the Company; a SOW relates to its Project and to its parent MSA.**
 - **Views:** unsigned, active, renewing in 90 days, by company.
 - **Contracts is its own restricted database** (not a view of Documents), because a filtered view isn't a permission boundary. A legal or finance person can be given Contracts without seeing every client file.
@@ -267,15 +273,19 @@ The main design choices:
 │           ├── client-sent/    ← originals from the client (registered in Notion Documents)
 │           ├── in-progress/    ← deliverables in final format, not yet final and sent
 │           └── delivered/      ← the record of what went to the client
-├── 02_Pipeline/                ← proposal and outreach templates (prospects themselves live in Notion People)
-├── 03_Marketing/
-├── 04_Offers/                  ← offer definitions, delivery playbooks, blank templates
-├── 05_Knowledge/               ← blank formatted templates people copy (the instructions live in Notion Knowledge)
-└── 99_Archive/
+├── 02_Pipeline/                ← outreach material and partners (prospects themselves live in Notion People)
+├── 03_Marketing/               ← brand assets, content, lead magnets, Sales-Collateral (final client-facing offer sheets)
+├── 04_Knowledge/               ← blank formatted templates people copy (proposal, SOW, delivery), reference reading, tools;
+│                                  the instructions live in Notion Knowledge
+└── 99_Archive/                 ← mirrors the tree: past clients, lost proposals (99_Archive/02_Pipeline/Lost-Proposals), old material
 ```
 
 - **Client first, then project** (decided).
+- **No Offers folder** (decided 2026-10-09). Offer definitions, playbooks and strategy are living internal documents, so they live in Notion. The only offer material that's ever final is a client-facing info sheet, which is sales collateral (`03_Marketing/Sales-Collateral`). Blank templates live in `04_Knowledge`.
+- **Internal projects** get folders under `01_Clients/{FIRM}_{slug}/` (e.g. `BTK_blue-tusk`), so every project ID resolves the same way.
+- **INDEX is a Google Sheet** (one row per area, client and project: folder IDs for the folder, `00_Contracts`, `client-sent`, `in-progress`, `delivered`, plus Notion link and status). **CONVENTIONS is a Google Doc** (use lists, not markdown tables, when seeding it from markdown).
 - **Agents work from folder IDs listed in INDEX, never from full-text search.**
+- **Moving existing content in** uses the Drive migration script (inventory → dry run → execute → empty-folder cleanup), run by a person because agents can't move files. Playbook: [[business/projects/internal/google-drive-restructure/xx_drive-migration-playbook]].
 - **No secrets in Drive,** ever. Use a password manager.
 - **Sensitive HR records** go in a restricted folder the agent account can't access.
 
@@ -559,7 +569,10 @@ Each stage updates the registry and the backup manifest before it counts as done
 | Item | Status |
 |---|---|
 | Drive: shared drive create / read, native Docs and Sheets, edit in place, suggestion mode, comment loop, rename, trash | ✅ tested |
-| Drive: moving files | ❌ blocked (permission error, even with Manager access) |
+| Drive: moving files | ❌ blocked for the AI connector (permission error, even with Manager access). ✅ An Apps Script run by the person moves files and folders fine, keeping IDs and links (Blue Tusk migration, 2026-10-09). |
+| Drive: creating Sheets from CSV and Docs from markdown in one call | ✅ tested (INDEX, CONVENTIONS, migration sheet). Markdown tables import with an empty header row. |
+| Drive: rename and trash folders via connector | ✅ tested |
+| Bulk migration of an existing drive (726 items) | ✅ done for Blue Tusk with the migration script: 0 errors; inventory took ~10 minutes over several self-resumes |
 | Drive: editing `.md` in place | ❌ not possible with current connectors |
 | Notion: create database, create pages, catch-up queries, find-and-replace, append, property updates | ✅ tested (scratch DB "SCRATCH - AI Drafts Test") |
 | Notion lock vs connector; who can unlock | ⏳ untested (needs JC to lock the scratch DB) |
