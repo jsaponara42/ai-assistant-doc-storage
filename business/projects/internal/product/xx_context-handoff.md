@@ -17,6 +17,7 @@ The core offering is still **Information Taxonomy** (Roadmap → taxonomy design
 - **Skills portability (AD-043 to AD-048):**
   - Tested: a Notion skill downloads as a clean open-standard `SKILL.md` folder, with attached files bundled. Claude does **not** find Notion-hosted skills on its own (readable by page ID only).
   - Decided: **a private git repo is the master**, laid out as a Claude plugin marketplace. Syncs automatically to Claude on Team plans and via Claude Code; manual upload on Pro (**Blue Tusk is on Pro**); one-way deploy to Notion AI (untested). Skills are written tool-agnostic and registered. Reference doc Section 8.1.
+- **Navigation and training (AD-049 to AD-051):** no file tree in Notion, so Project pages act as folders, grouped "All work" views, a short sidebar hub, and find-by-ID. A literal folder tree exists only in the backup repo. Training (incl. SOPs) and a "How to use this system" quick reference page live in Notion Knowledge. Reference doc Sections 10.1 and 10.2.
 - Earlier today: full reference architecture and decision log, commercial decisions (backup as paid offering, feature additions as ongoing role, free lead magnet), Handoffs database design, Blue Tusk Drive restructure proposal.
 
 ## Open / next
@@ -36,7 +37,7 @@ The core offering is still **Information Taxonomy** (Roadmap → taxonomy design
 
 ## Key files
 - [[20261008_ai-native-operating-architecture]]: **start here for the architecture** (skills: Section 8.1).
-- [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-048, open items O-1 to O-13.
+- [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-051, open items O-1 to O-13.
 - [[20261008_lead-magnet-ai-ready-workspace-draft]]: the free guide draft.
 - [[20261007_google-drive-taxonomy-test-results]]: connector tests and token costs.
 - [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: JC's Drive map and proposed structure.

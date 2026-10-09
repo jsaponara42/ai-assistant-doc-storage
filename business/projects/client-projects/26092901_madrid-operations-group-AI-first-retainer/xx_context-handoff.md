@@ -23,6 +23,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery and the curre
 ## Open / next
 - **Write the Oct 12 build plan.**
   - **Phase 0:** IDs and codes, Drive skeleton + CONVENTIONS + INDEX, Notion Companies / People / Projects / Tasks, System Registry, **skills repo connected to her Claude Team plan.**
+  - Include a **"How to use this system" quick reference** and training pages in Notion Knowledge before the team starts (AD-051).
   - **Phase 1 quick win:** CRM with Last Contacted / Next Follow-up (needs her contact export), daily brief, Toggl trial.
 - **Raise with Martina:**
   - One shared database across her clients.
@@ -42,7 +43,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery and the curre
 
 ## Key files
 - [[business/projects/internal/product/20261008_ai-native-operating-architecture]]: **start here for anything architecture-related** (skills: Section 8.1).
-- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-048, open items O-1 to O-13.
+- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-051, open items O-1 to O-13.
 - [[20261007_MOG_Current_State_Workflow_Map]]: MOG's workflows; the basis for the build plan.
 - [[20261007_MOG_AI_Native_Stack_Architecture]]: earlier MOG-specific draft; its 10-08 update says what's superseded.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word.

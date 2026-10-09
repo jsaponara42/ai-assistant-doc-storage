@@ -275,6 +275,21 @@ The principles and the shape of the system are given away; the build, customizat
 **AD-048. Skills are registered.** *Decided.*
 Each skill gets a System Registry entry (name, version, surface, databases it reads and writes, owner), and the repo itself is listed there. The skills repo is its own versioned master and isn't part of the backup repo.
 
+**AD-049. Navigation is built from views, not folders.** *Decided (JC).*
+- Concern raised: a file system lets you see everything at once; Notion spreads content across databases and pages.
+- Answer: Project pages act as folders (a standard template of linked views filtered to the project); an "All work" view of AI Drafts grouped by client then project; a short sidebar hub (Home, Clients, Knowledge, personal page); and find-by-ID using client codes and project IDs.
+- Known limits: database-row breadcrumbs show the database, not the project; one view can't combine databases.
+- Reference doc Section 10.1.
+
+**AD-050. The literal folder tree lives only in the backup repo.** *Decided (JC).*
+The nightly backup export is organized by client, project and type, which gives a real file tree with wikilinks. Most people won't use it, so it stays in the GitHub backup repo and isn't promoted to users. Agents still can't see it (AD-018).
+
+**AD-051. Training and a quick reference page live in Notion Knowledge.** *Decided (JC).*
+- Training is a first-class part of the system and includes SOPs. Knowledge gains Type = training and Type = quick-reference.
+- Each firm gets one "How to use this system" quick reference page: where things live, how to find anything (including find-by-ID as a core tip), naming rules, agent rules and human gates, resume and handoff, how to request a change.
+- Linked from Home and every person's page; first read for new hires.
+- The change protocol's order of work now ends with updating the quick reference and training when a change affects how people use the system.
+
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).
 - **O-2:** Martina's Notion plan: Business is needed for unlimited SQL queries and teamspace permissions.

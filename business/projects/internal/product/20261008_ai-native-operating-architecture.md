@@ -106,7 +106,7 @@ The main design choices:
 | 7 | **Documents** | Register of files clients send (originals live in Drive) | Project, Company, sender (People), received date, Drive link, Summary, key facts, status (new / processed / needs action), AI access (allowed / restricted), Needs Attention | Can be sensitive |
 | 8 | **Contracts** | Register of MSAs, SOWs, NDAs and amendments (signed PDFs live in Drive) | Type, Company, Project, status, signed date, term end, renewal date, value, parent contract (SOW → MSA), Drive link | **Restricted** |
 | 9 | **Invoices** | Register of invoices (billing tool is the source of truth) | Invoice number / external ID, Billing System, Project, Company, amount, issued date, due date, status, paid date, link | **Restricted** |
-| 10 | **Knowledge** | Company-level living knowledge: SOPs, how-tos, writing guides, template instructions, HR policies, and the **System Registry** | Type (sop / guide / template-instructions / policy / system), department, audience, owner, Summary, last reviewed, status, Drive template link | Policies normal; system entries admin |
+| 10 | **Knowledge** | Company-level living knowledge: SOPs, how-tos, writing guides, template instructions, HR policies, **training and the system quick reference**, and the **System Registry** | Type (sop / guide / template-instructions / policy / training / quick-reference / system), department, audience, owner, Summary, last reviewed, status, Drive template link | Policies and training normal; system entries admin |
 | 11 | **Handoffs** | One row per working session: what a person (or agent) did, what's open, what's next. **Append-only timeline; rows are never edited.** **Core.** | Project(s) (relation), Created By (automatic), Written By (person / agent), Summary, body: done / open / next | Normal |
 
 **4.2 Property conventions (apply to every database)**
@@ -394,6 +394,34 @@ The main design choices:
   - contracts renewing (restricted)
 - **Per-person home template.** Every team member gets one page of linked views filtered to "me": their tasks, meeting notes and attention items, plus a private notes area. One template works for every new hire, with no edits. **Notion is the back end; people only need their home page.**
 - **Archive culture:** status-based archiving, with views hiding archived rows. A scheduled skill flags drafts untouched for 30 days as Needs Attention.
+
+**10.1 Navigating without a file tree** *(decided 2026-10-08, AD-049)*
+
+Notion databases are flat, so the "file tree" is built from views and relations, not folders. Four parts:
+1. **Project pages act as folders.** Every Project page uses the same template, with linked views filtered to that project: Drafts, Meetings, Tasks, Documents, Handoffs, plus the Drive folder link. Company pages do the same one level up and list their projects. The path is always Home → Client → Project → item.
+2. **Grouped views show everything at once.** An "All work" view of AI Drafts grouped by client, then project. Collapsible groups behave like folders. The single shared AI Drafts database is what makes this possible.
+3. **A short sidebar hub:** Home (open-item views), Clients (Projects grouped by company; active expanded, archived collapsed), Knowledge, and the person's own page. A handful of entries, not hundreds of pages.
+4. **Find by ID.** Typing a client code or project ID (e.g. `MOG-` or `MOG-26092901`) in search or a view filter jumps straight to that client's or project's work. Taught as a core tip in the quick reference and onboarding.
+
+**Known limits:**
+- Breadcrumbs on a database row show the database, not the project. The Project property is the breadcrumb.
+- A view can't combine several databases. Keeping most content in a few databases keeps this manageable.
+- Don't rely on the sidebar to list individual database rows.
+
+**A literal folder tree exists only in the backup repo** (AD-050). The nightly export is organized by client, project and type, so anyone who wants a file-tree view can open the GitHub backup repo (or a local clone in Obsidian). It isn't promoted to users, and it stays out of agents' reach (Section 11).
+
+**10.2 Training and the quick reference** *(decided 2026-10-08, AD-051)*
+
+- **Training is a first-class part of the system.** It lives in Notion **Knowledge**, alongside SOPs, as Type = training. It covers onboarding, how each workflow runs, and the SOPs people follow.
+- **One quick reference page per firm:** "How to use this system" (Type = quick-reference). One page, scannable, kept current. It covers:
+  - where things live (Notion vs Drive vs Gamma vs billing tool)
+  - how to find anything (Home, Clients, Project page, find by ID)
+  - naming rules in one line each
+  - what agents will and won't do, and the human gates
+  - how to start and end a working session (resume and handoff)
+  - where to ask for a change (the change protocol)
+- **Linked from Home and every person's page,** and the first thing a new hire reads.
+- **Kept current through the change protocol:** a change that affects how people use the system isn't done until the quick reference and any affected training are updated (added to the order of work in Section 12.3).
 - **Sensitive areas** live in restricted teamspaces. Check the firm's Notion plan for what it supports.
 
 ### 11. Backup and restore
@@ -456,7 +484,7 @@ The main design choices:
 3. **Every relation is two-way, named on both sides, with its reason logged.**
 4. **Every property gets a description.** Select values are lowercase.
 5. **Try it in a scratch copy first.**
-6. **Order of work:** registry → schema → skills → backup manifest → views/templates. A change isn't done until all five are.
+6. **Order of work:** registry → schema → skills → backup manifest → views/templates → quick reference and training (if people's use changes). A change isn't done until all of these are.
 7. **Sensitive data picks the location:** anything involving money, legal, HR or client confidentiality starts in a restricted teamspace.
 8. **Log every change:** date, what, why, who approved.
 9. **New-database checklist:** register it (with owner, core yes/no), add property descriptions, add it to the backup manifest, build its views, update affected skills.
@@ -517,7 +545,7 @@ The main design choices:
 3. **Registers:**
    - **Documents, Contracts, Invoices** (restricted).
    - Intake skill, billing webhook + reconciliation.
-4. **Knowledge** database (company knowledge and the registry live here from the start).
+4. **Knowledge** database (company knowledge and the registry live here from the start), including the **quick reference page** and first training pages before the team starts using the system.
 5. **Resilience:**
    - Backup script + manifest, the first restore drill, locks on core databases, drift check.
 6. **Growth:** change protocol in use; touchpoints and weekly-plan skills.
