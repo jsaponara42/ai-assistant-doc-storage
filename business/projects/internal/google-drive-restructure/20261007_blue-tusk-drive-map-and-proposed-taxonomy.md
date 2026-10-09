@@ -301,12 +301,12 @@ Per the offering-stack note's open question on migration, this is also a real-wo
 - [ ] **JC:** check the map in the Drive UI and add any folders the listing missed.
 - [ ] **JC:** explain `AGP`, `GhostOps`, `Project Resources`, and what the second shared drive is.
 - [x] **JC:** decide whether client folders group by client first or project first. **Decided 2026-10-07: client first (D-1), client codes in project IDs (D-2), AI isolation rule (D-3).**
-- [ ] **JC:** confirm or change the proposed client codes (D-2 table), confirm client-code-first in project IDs, and fill in the `[TO CONFIRM]` project dates.
+- [x] **JC:** confirm the proposed client codes and client-code-first IDs. **Confirmed 2026-10-09.** `[TO CONFIRM]` project dates for EHM, RWR, SYN, PRC still open.
 - [ ] **JC:** decide the rest of the top-level structure (Section 4).
 - [ ] Write the isolation rule (D-3) into the Drive `CONVENTIONS` file when it's built, and into the agent rules for MOG.
 - [ ] Later: decide whether to restructure the vault to client-first to match Drive.
 - [ ] **JC:** move `XX_Logins` contents into a password manager and delete the folder.
-- [ ] Decide the migration method (Section 5). If it's the skeleton approach, Claude builds the new folders plus CONVENTIONS and INDEX.
+- [x] Decide the migration method (Section 5). **Skeleton approach; built 2026-10-09:** [[20261009_blue-tusk-drive-skeleton-build]]. JC drags content in.
 - [ ] Revisit D9 before any vault-to-Drive move.
 
 
