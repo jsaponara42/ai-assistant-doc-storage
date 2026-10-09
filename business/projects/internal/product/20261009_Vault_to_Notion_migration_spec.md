@@ -92,6 +92,13 @@ Every business note (179) becomes an **AI Drafts** row on a project, replacing t
 ### 4b. Route for the bodies
 The Notion connector only accepts page content inline, so a direct copy means Claude re-types every note (~200 notes, several over 800 lines). That is slow and is where verbatim copies go wrong. **Preferred route:** Notion's own Markdown import (Settings → Import → Text & Markdown) brings the bodies in faithfully, tables included, into a staging page. Claude then moves each imported page into its database (move-pages), strips the frontmatter text, and sets properties, Summary and Vault Path. Claude builds the zip of exactly the notes in scope (with folder access to the vault on JC's Mac), and JC runs the import once.
 
+### 4c. Result (2026-10-09)
+- **176 business notes are in AI Drafts**, verified by query: every row has a Project and a Summary, no leftover V### or .md names. Status: 84 published, 84 draft, 7 archived, 1 sent; 83 flagged Needs Attention (mostly vault needs-attention notes and all unpublished posts).
+- **18 personal notes** are under the private Personal page.
+- **Import glitches:** Notion's first import left 50 pages empty for several minutes and then filled them late, after a retry zip had already been imported. The filed copies are the retry pages. The late import also reset 5 titles, which were fixed. V167 (Mini VSL) failed twice and was filled by Claude from the vault file.
+- **Left on the staging page, to delete by hand** (the connector can't trash pages): the 50 late-filled duplicates, 3 empty RFG folder placeholders (V119–V121), and the two empty import container pages.
+- **Wikilinks:** 455 links across 86 notes, 179 distinct targets, still plain text. Next pass converts them to Notion page links.
+
 ### 5. Order of work
 1. Inventory pass: list every vault note with its destination per Section 1. Mark duplicates, exclusions and unclear items, and get the exact expected count per destination.
 2. JC answers the decisions (Section 7) and approves the schema additions.
