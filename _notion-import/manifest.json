@@ -10,7 +10,9 @@
   "dest": "ai-drafts",
   "project": "CCZ-25122101",
   "extra": "sop|internal",
-  "chars": 17267
+  "chars": 17267,
+  "summary": "Client: Rocky Fisher / Cause Crazy Prepared by: Blue Tusk Version: 1.0 Date Created: April 1, 2026",
+  "has_summary": false
  },
  {
   "id": "V002",
@@ -23,7 +25,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|marketing",
-  "chars": 3382
+  "chars": 3382,
+  "summary": "Okay this is another recorded voice note meant to be sorted and categorized okay so I have to post more regularly on LinkedIn to talk about blue test to talk about the brand to talk about benefits automation AI essentially I have \u2026",
+  "has_summary": false
  },
  {
   "id": "V003",
@@ -36,7 +40,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|admin",
-  "chars": 7033
+  "chars": 7033,
+  "summary": "Central reference file for Blue Tusk LLC.",
+  "has_summary": true
  },
  {
   "id": "V004",
@@ -49,7 +55,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 6631
+  "chars": 6631,
+  "summary": "The current outreach method for generating pipeline from cold PI firm contacts.",
+  "has_summary": true
  },
  {
   "id": "V005",
@@ -62,7 +70,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 8207
+  "chars": 8207,
+  "summary": "This SOP governs how John-Carlos reaches out to both old connections (warm) and cold contacts for the purpose of customer discovery, relationship building, and eventual consulting pipeline development.",
+  "has_summary": true
  },
  {
   "id": "V006",
@@ -75,7 +85,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 9104
+  "chars": 9104,
+  "summary": "This SOP governs how to prepare for the initial intro call in the Free AI Roadmap Consultation offer.",
+  "has_summary": true
  },
  {
   "id": "V007",
@@ -88,7 +100,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 13105
+  "chars": 13105,
+  "summary": "This SOP governs how to prepare questionnaires for 1:1 discovery-phase calls with people inside a client organization \u2014 executives/owners, department leads, and individual contributors such as sales/BDR staff.",
+  "has_summary": true
  },
  {
   "id": "V008",
@@ -101,7 +115,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 4491
+  "chars": 4491,
+  "summary": "This file defines how SOPs are written and structured in business/SOPs/.",
+  "has_summary": false
  },
  {
   "id": "V009",
@@ -114,7 +130,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 805
+  "chars": 805,
+  "summary": "Notes on how to productize Blue Tusk's offerings by reducing skill barriers and creating repeatable, self-guided service flows.",
+  "has_summary": true
  },
  {
   "id": "V010",
@@ -127,7 +145,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 918
+  "chars": 918,
+  "summary": "It may be worthwhile to move the external llm-agent-skills GitHub repo into this vault so everything lives in one place.",
+  "has_summary": true
  },
  {
   "id": "V011",
@@ -140,7 +160,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 1181
+  "chars": 1181,
+  "summary": "Instead of exporting individual chat transcripts, create a scheduled daily summary of all Claude work done that day.",
+  "has_summary": true
  },
  {
   "id": "V012",
@@ -153,7 +175,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 2122
+  "chars": 2122,
+  "summary": "Ideas for improving the social outbound SOP and cold email sequence for the Free Workflow Waste Audit.",
+  "has_summary": true
  },
  {
   "id": "V013",
@@ -166,7 +190,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 2019
+  "chars": 2019,
+  "summary": "A conversation with a former paralegal surfaced a key insight: lawyers don't respond to ads \u2014 they respond to relationships and referrals.",
+  "has_summary": true
  },
  {
   "id": "V014",
@@ -179,7 +205,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 2188
+  "chars": 2188,
+  "summary": "Apply Cialdini's principle of reciprocation to generate consulting leads by giving away free, high-value insight upfront \u2014 creating a sense of obligation that converts to paid engagements.",
+  "has_summary": true
  },
  {
   "id": "V015",
@@ -192,7 +220,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 232
+  "chars": 232,
+  "summary": "One thing I think will be useful to ask is \"What processes exist because they truly drive value for the business, and what exists only because it is the precursor, or the fault of another process that requires input in a weird way\u2026",
+  "has_summary": false
  },
  {
   "id": "V016",
@@ -205,7 +235,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 6417
+  "chars": 6417,
+  "summary": "Brainstorm on options for scaling the current solo Obsidian + filesystem-MCP + git setup to a full team, all with Claude access.",
+  "has_summary": true
  },
  {
   "id": "V017",
@@ -218,7 +250,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 3328
+  "chars": 3328,
+  "summary": "Reference tables from an article on the \"sense-simulate-act\" framework for AI-driven organizational resilience, agentic AI's role in resilience capacities, typical business-metric uplifts from an integrated AI stack, and a 0-12 mo\u2026",
+  "has_summary": true
  },
  {
   "id": "V018",
@@ -231,7 +265,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 7975
+  "chars": 7975,
+  "summary": "A pricing narrative for the free-consultation offer: instead of just saying \"free,\" show prospects the shape of how the engagement fee evolves over time \u2014 free while barriers are cleared, then rising fast as measurable value compo\u2026",
+  "has_summary": true
  },
  {
   "id": "V019",
@@ -244,7 +280,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 17813
+  "chars": 17813,
+  "summary": "The current AI & Automation Roadmap offer is too high-ticket to advertise against directly, which caps volume and starves the sales-call pipeline.",
+  "has_summary": true
  },
  {
   "id": "V020",
@@ -257,7 +295,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 14018
+  "chars": 14018,
+  "summary": "The current working direction for Blue Tusk's low-ticket funnel entry point: a personalized business teardown, paid ($500 value), waived if the prospect qualifies and completes intake \"homework.\" Ends by pointing at the AI & Autom\u2026",
+  "has_summary": true
  },
  {
   "id": "V021",
@@ -270,7 +310,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|product",
-  "chars": 1963
+  "chars": 1963,
+  "summary": "Just watch the horror movie video alex hormozi where he was saying take the most valuable thing you know how to do and then just add a couple zeros to it what do you have to do to be able to deliver that and an idea I just had tha\u2026",
+  "has_summary": false
  },
  {
   "id": "V022",
@@ -283,7 +325,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|internal",
-  "chars": 34208
+  "chars": 34208,
+  "summary": "Revised first batch of modular video scripts.",
+  "has_summary": true
  },
  {
   "id": "V023",
@@ -296,7 +340,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|internal",
-  "chars": 9441
+  "chars": 9441,
+  "summary": "System prompt for generating modular talking-head Instagram scripts for Blue Tusk's Free Workflow Waste Audit offer targeting PI law firm owners.",
+  "has_summary": true
  },
  {
   "id": "V024",
@@ -309,7 +355,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 4219
+  "chars": 4219,
+  "summary": "A modular video content system for Instagram where individual hooks, middles, and CTAs are filmed once and stitched together programmatically to produce many unique videos from a small number of shoots.",
+  "has_summary": true
  },
  {
   "id": "V025",
@@ -322,7 +370,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "document|client",
-  "chars": 2287
+  "chars": 2287,
+  "summary": "Blue Tusk LLC \u2014 John-Carlos Saponara",
+  "has_summary": false
  },
  {
   "id": "V026",
@@ -335,7 +385,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 4270
+  "chars": 4270,
+  "summary": "Five attraction-offer concepts (adapted from Alex Hormozi's $100M Money Models framework) for driving booked sales calls on the AI & Automation Roadmap \u2014 now the flagship intro product upselling into a retainer, targeting Director\u2026",
+  "has_summary": true
  },
  {
   "id": "V027",
@@ -348,7 +400,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 1540
+  "chars": 1540,
+  "summary": "Build the file-chaos cost calculator flagged in business/marketing/offers/20260814file-chaos-marketing-angles \u2014 an interactive tool that estimates how much time/money a company loses to disorganized files, personalized by team siz\u2026",
+  "has_summary": true
  },
  {
   "id": "V028",
@@ -361,7 +415,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 5907
+  "chars": 5907,
+  "summary": "Present-tense, non-technical pain points and marketing angle options for the Information Taxonomy offering.",
+  "has_summary": true
  },
  {
   "id": "V029",
@@ -374,7 +430,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 1836
+  "chars": 1836,
+  "summary": "Build a lead magnet tool: prospect pastes a SharePoint/Google Drive folder or file link, and the tool shows a side-by-side \u2014 \"what AI sees\" (messy, current state) vs.",
+  "has_summary": true
  },
  {
   "id": "V030",
@@ -387,7 +445,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 18963
+  "chars": 18963,
+  "summary": "Reworking the async teardown entry offer under a new \"Close Q4 Strong\" positioning, aimed at non-technical, non-relationship-marketed business owners, using Alex Hormozi's $100M Offers / $100M Leads frameworks as the structuring l\u2026",
+  "has_summary": true
  },
  {
   "id": "V031",
@@ -400,7 +460,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 12271
+  "chars": 12271,
+  "summary": "Full design for the shared Stage 1 intake form that feeds both free magnets (Competitive Reality Check, Risk Exposure Map) and Stage 2 qualification.",
+  "has_summary": true
  },
  {
   "id": "V032",
@@ -413,7 +475,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 14893
+  "chars": 14893,
+  "summary": "Ran the full funnel through the adversarial-analysis skill in three rounds: positioning, the Stage 1 magnets and intake form, the Stage 2 Teardown, and the Stage 3 Roadmap handoff.",
+  "has_summary": true
  },
  {
   "id": "V033",
@@ -426,7 +490,9 @@
   "dest": "handoffs",
   "project": "BTK-26070101",
   "extra": "",
-  "chars": 2587
+  "chars": 2587,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V034",
@@ -439,7 +505,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "document|internal",
-  "chars": 1050
+  "chars": 1050,
+  "summary": "Central hub for Blue Tusk's marketing and thought leadership activities.",
+  "has_summary": true
  },
  {
   "id": "V035",
@@ -452,7 +520,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|marketing",
-  "chars": 16169
+  "chars": 16169,
+  "summary": "Evergreen tracker for LinkedIn post ideas.",
+  "has_summary": true
  },
  {
   "id": "V036",
@@ -465,7 +535,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 4395
+  "chars": 4395,
+  "summary": "This file governs how post drafts are created and structured in this folder.",
+  "has_summary": false
  },
  {
   "id": "V037",
@@ -478,7 +550,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|marketing",
-  "chars": 3936
+  "chars": 3936,
+  "summary": "This guide applies to all copy written for Blue Tusk LLC.",
+  "has_summary": false
  },
  {
   "id": "V038",
@@ -491,7 +565,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 318
+  "chars": 318,
+  "summary": "Meeting transcriptions are usually dead ends.",
+  "has_summary": true
  },
  {
   "id": "V039",
@@ -504,7 +580,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 380
+  "chars": 380,
+  "summary": "Running AI locally is getting better, but the math still favors cloud for most people.",
+  "has_summary": true
  },
  {
   "id": "V040",
@@ -517,7 +595,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2703
+  "chars": 2703,
+  "summary": "Most businesses are building workflows that AI can't touch.",
+  "has_summary": false
  },
  {
   "id": "V041",
@@ -530,7 +610,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 8226
+  "chars": 8226,
+  "summary": "The AI integrations that actually work are boring.",
+  "has_summary": false
  },
  {
   "id": "V042",
@@ -543,7 +625,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 401
+  "chars": 401,
+  "summary": "Building individual automations one by one is fading.",
+  "has_summary": true
  },
  {
   "id": "V043",
@@ -556,7 +640,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 4648
+  "chars": 4648,
+  "summary": "Editing is the part of content creation that kills the schedule.",
+  "has_summary": false
  },
  {
   "id": "V044",
@@ -569,7 +655,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 6700
+  "chars": 6700,
+  "summary": "Every time a new model drops, the posts flood in.",
+  "has_summary": false
  },
  {
   "id": "V045",
@@ -582,7 +670,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2745
+  "chars": 2745,
+  "summary": "AI has a default setting: it agrees with you.",
+  "has_summary": false
  },
  {
   "id": "V046",
@@ -595,7 +685,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2698
+  "chars": 2698,
+  "summary": "I've been building AI tools at Maslansky + Partners for a while now.",
+  "has_summary": false
  },
  {
   "id": "V047",
@@ -608,7 +700,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 17812
+  "chars": 17812,
+  "summary": "Fair warning: this one's a little inside baseball.",
+  "has_summary": false
  },
  {
   "id": "V048",
@@ -621,7 +715,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 4676
+  "chars": 4676,
+  "summary": "I get this career question a lot.",
+  "has_summary": false
  },
  {
   "id": "V049",
@@ -634,7 +730,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 4822
+  "chars": 4822,
+  "summary": "I got caught by a hallucination recently.",
+  "has_summary": false
  },
  {
   "id": "V050",
@@ -647,7 +745,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 7534
+  "chars": 7534,
+  "summary": "I spent months building an automation for a client.",
+  "has_summary": false
  },
  {
   "id": "V051",
@@ -660,7 +760,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2956
+  "chars": 2956,
+  "summary": "At some point in a project, a client found a way to be profitable without the automation we were building.",
+  "has_summary": false
  },
  {
   "id": "V052",
@@ -673,7 +775,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2562
+  "chars": 2562,
+  "summary": "One of the things AI and automation make possible is moving fast at the start of a project.",
+  "has_summary": false
  },
  {
   "id": "V053",
@@ -686,7 +790,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2906
+  "chars": 2906,
+  "summary": "There's a specific problem that happens when you build with AI in a room full of people.",
+  "has_summary": false
  },
  {
   "id": "V054",
@@ -699,7 +805,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2544
+  "chars": 2544,
+  "summary": "I work across multiple projects at any given time.",
+  "has_summary": false
  },
  {
   "id": "V055",
@@ -712,7 +820,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2435
+  "chars": 2435,
+  "summary": "One of the most underrated things about building with AI is how early you can get real feedback.",
+  "has_summary": false
  },
  {
   "id": "V056",
@@ -725,7 +835,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2105
+  "chars": 2105,
+  "summary": "AI lets you build fast.",
+  "has_summary": false
  },
  {
   "id": "V057",
@@ -738,7 +850,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 2162
+  "chars": 2162,
+  "summary": "At some point in a vibe coding project, the direction changed.",
+  "has_summary": false
  },
  {
   "id": "V058",
@@ -751,7 +865,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 9438
+  "chars": 9438,
+  "summary": "I don't type most of my big prompts anymore.",
+  "has_summary": false
  },
  {
   "id": "V059",
@@ -764,7 +880,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 6665
+  "chars": 6665,
+  "summary": "Here's something I've noticed doing discovery conversations with businesses.",
+  "has_summary": false
  },
  {
   "id": "V060",
@@ -777,7 +895,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "post|client",
-  "chars": 8308
+  "chars": 8308,
+  "summary": "Before you automate anything, write down how you do it now.",
+  "has_summary": false
  },
  {
   "id": "V061",
@@ -790,7 +910,9 @@
   "dest": "ai-drafts",
   "project": "CCZ-25122101",
   "extra": "document|internal",
-  "chars": 1817
+  "chars": 1817,
+  "summary": "Closed engagement.",
+  "has_summary": false
  },
  {
   "id": "V062",
@@ -803,7 +925,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|internal",
-  "chars": 50542
+  "chars": 50542,
+  "summary": "MSA: 26061201.",
+  "has_summary": false
  },
  {
   "id": "V063",
@@ -816,7 +940,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|internal",
-  "chars": 144446
+  "chars": 144446,
+  "summary": "Ghost.Ops | AI & Automation Advisory | Phase One Discovery Artifact",
+  "has_summary": false
  },
  {
   "id": "V064",
@@ -829,7 +955,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 21042
+  "chars": 21042,
+  "summary": "CAPITAL FINANCING",
+  "has_summary": false
  },
  {
   "id": "V065",
@@ -842,7 +970,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 5369
+  "chars": 5369,
+  "summary": "Recommendation to present to Howie: hire the outside AI engineer at the already-quoted ~$3,000/month rate for execution, and retain JC separately at $1,500/month as the engineer's manager and the strategic decision-maker on what g\u2026",
+  "has_summary": true
  },
  {
   "id": "V066",
@@ -855,7 +985,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 13262
+  "chars": 13262,
+  "summary": "Standard Operating Procedure (DRAFT \u2014 built from raw dictation) Business Development / Marketing \u2014 Conference Lead Handling",
+  "has_summary": false
  },
  {
   "id": "V067",
@@ -868,7 +1000,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 8973
+  "chars": 8973,
+  "summary": "Standard Operating Procedure (DRAFT \u2014 built from raw dictation) Financial Consulting Team \u2014 Task & Post-Call Follow-Up",
+  "has_summary": false
  },
  {
   "id": "V068",
@@ -881,7 +1015,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 15205
+  "chars": 15205,
+  "summary": "Standard Operating Procedure Sales \u2014 Daily Routine",
+  "has_summary": false
  },
  {
   "id": "V069",
@@ -894,7 +1030,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 22366
+  "chars": 22366,
+  "summary": "Standard Operating Procedure Operations \u2014 Post-Underwriting Case Flow",
+  "has_summary": false
  },
  {
   "id": "V070",
@@ -907,7 +1045,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 8313
+  "chars": 8313,
+  "summary": "Mighty Training Instructions:",
+  "has_summary": false
  },
  {
   "id": "V071",
@@ -920,7 +1060,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "sop|internal",
-  "chars": 52019
+  "chars": 52019,
+  "summary": "CAPITAL FINANCING",
+  "has_summary": false
  },
  {
   "id": "V072",
@@ -933,7 +1075,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 14800
+  "chars": 14800,
+  "summary": "Single combined prep doc for both sessions (replaces the three separate session-format / Thursday / Friday docs).",
+  "has_summary": true
  },
  {
   "id": "V073",
@@ -946,7 +1090,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 4229
+  "chars": 4229,
+  "summary": "The live-session script JC runs on both Thursday and Friday: walk each attendee through describing their workflow out loud (the \"Easy SOP\" method) while screen-sharing, then close with Claude Team setup \u2014 deferred to the end so se\u2026",
+  "has_summary": true
  },
  {
   "id": "V074",
@@ -959,7 +1105,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 15524
+  "chars": 15524,
+  "summary": "Prep questionnaires for the three individual 1-hour follow-up calls (post-reset) with Christy, Danielle, and Yasmine.",
+  "has_summary": true
  },
  {
   "id": "V075",
@@ -972,7 +1120,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 7115
+  "chars": 7115,
+  "summary": "One shared questionnaire for the individual 1-hour calls with the Financial Consultants \u2014 Audrey, Brian, and Victoria.",
+  "has_summary": true
  },
  {
   "id": "V076",
@@ -985,7 +1135,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 9402
+  "chars": 9402,
+  "summary": "Call prep for a 1:1 with Dr.",
+  "has_summary": true
  },
  {
   "id": "V077",
@@ -998,7 +1150,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "proposal|internal",
-  "chars": 12897
+  "chars": 12897,
+  "summary": "Quick-reference for the post-delivery call with Howie: how JC's role continues as CTO and strategist, and a priced menu to work through live.",
+  "has_summary": true
  },
  {
   "id": "V078",
@@ -1011,7 +1165,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|client",
-  "chars": 23493
+  "chars": 23493,
+  "summary": "Howie has set the whole team up on Claude Team.",
+  "has_summary": true
  },
  {
   "id": "V079",
@@ -1024,7 +1180,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 9585
+  "chars": 9585,
+  "summary": "Capital Financing: AI & Automation Opportunity Mapping - A focused, 2-month engagement",
+  "has_summary": false
  },
  {
   "id": "V080",
@@ -1037,7 +1195,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 12257
+  "chars": 12257,
+  "summary": "Narrower and more hands-on than the full intro doc (20260710claude-intro-training-capital-financing.md).",
+  "has_summary": true
  },
  {
   "id": "V081",
@@ -1050,7 +1210,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|client",
-  "chars": 9901
+  "chars": 9901,
+  "summary": "Condensed version of the full Claude training doc.",
+  "has_summary": true
  },
  {
   "id": "V082",
@@ -1063,7 +1225,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 38405
+  "chars": 38405,
+  "summary": "This maps where automation and AI can move the needle at Capital Financing, ranked by effort and impact.",
+  "has_summary": false
  },
  {
   "id": "V083",
@@ -1076,7 +1240,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 25566
+  "chars": 25566,
+  "summary": "This is the answer to \"where should we actually spend automation effort, and why.\" It's built from eight weeks of discovery \u2014 the full workflow map, the CEO's dictated wants, and direct 1:1s with the DOO, the Servicing/AR Lead, an\u2026",
+  "has_summary": false
  },
  {
   "id": "V084",
@@ -1089,7 +1255,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 10090
+  "chars": 10090,
+  "summary": "45 minutes of presentation, then 15 minutes for questions.",
+  "has_summary": false
  },
  {
   "id": "V085",
@@ -1102,7 +1270,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "email|client",
-  "chars": 4438
+  "chars": 4438,
+  "summary": "Forward-ready email from Howie to his IT team.",
+  "has_summary": true
  },
  {
   "id": "V086",
@@ -1115,7 +1285,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "report|client",
-  "chars": 4891
+  "chars": 4891,
+  "summary": "Companion to the Opportunity Map for the fractional PM.",
+  "has_summary": true
  },
  {
   "id": "V087",
@@ -1128,7 +1300,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "proposal|client",
-  "chars": 4402
+  "chars": 4402,
+  "summary": "Recap email promised to Howie at the end of the 10-05 call.",
+  "has_summary": true
  },
  {
   "id": "V088",
@@ -1141,7 +1315,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 40399
+  "chars": 40399,
+  "summary": "Running notes on what's working and what isn't across this engagement, unstructured, no format required.",
+  "has_summary": false
  },
  {
   "id": "V089",
@@ -1154,7 +1330,9 @@
   "dest": "handoffs",
   "project": "CAP-26061201",
   "extra": "",
-  "chars": 3449
+  "chars": 3449,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V090",
@@ -1167,7 +1345,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 57372
+  "chars": 57372,
+  "summary": "Running list of things Howie (CEO, Capital Financing) has dictated that he wants built, changed, or explored \u2014 ranked by ease of implementation/feasibility.",
+  "has_summary": true
  },
  {
   "id": "V091",
@@ -1180,7 +1360,9 @@
   "dest": "ai-drafts",
   "project": "CAP-26061201",
   "extra": "document|internal",
-  "chars": 9329
+  "chars": 9329,
+  "summary": "Running list of changes to the client-ready Opportunity Map, collected while reviewing the presentation, to be implemented together once the review pass is complete.",
+  "has_summary": false
  },
  {
   "id": "V092",
@@ -1193,7 +1375,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|internal",
-  "chars": 59430
+  "chars": 59430,
+  "summary": "Alternative asset manager / fund manager operating a management company structure over multiple fund vehicles, with an outsourced fund administrator handling back-office fund accounting.",
+  "has_summary": false
  },
  {
   "id": "V093",
@@ -1206,7 +1390,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|internal",
-  "chars": 53578
+  "chars": 53578,
+  "summary": "Blue Tusk | AI & Automation Advisory | Phase One Discovery Artifact",
+  "has_summary": false
  },
  {
   "id": "V094",
@@ -1219,7 +1405,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 17827
+  "chars": 17827,
+  "summary": "Answers pulled directly from the workflow deep dive call transcript (Danielle Schweitzer + Barry Porozni + JC, ~June 23\u201324, 2026).",
+  "has_summary": true
  },
  {
   "id": "V095",
@@ -1232,7 +1420,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|internal",
-  "chars": 6334
+  "chars": 6334,
+  "summary": "Execution plan for Track A (QW-1 through QW-4) once the upsell closes.",
+  "has_summary": true
  },
  {
   "id": "V096",
@@ -1245,7 +1435,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "sop|internal",
-  "chars": 16263
+  "chars": 16263,
+  "summary": "Standard Operating Procedure Finance & Operations \u2014 Biweekly Payment Cycle",
+  "has_summary": false
  },
  {
   "id": "V097",
@@ -1258,7 +1450,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "sop|internal",
-  "chars": 14371
+  "chars": 14371,
+  "summary": "Standard Operating Procedure Finance & Operations \u2014 Annual Planning & In-Year Right-Sizing",
+  "has_summary": false
  },
  {
   "id": "V098",
@@ -1271,7 +1465,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "sop|internal",
-  "chars": 3997
+  "chars": 3997,
+  "summary": "April 2026",
+  "has_summary": false
  },
  {
   "id": "V099",
@@ -1284,7 +1480,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "sop|internal",
-  "chars": 13778
+  "chars": 13778,
+  "summary": "Standard Operating Procedure Finance & Operations \u2014 Quarterly Interest & Payment Invoicing",
+  "has_summary": false
  },
  {
   "id": "V100",
@@ -1297,7 +1495,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|internal",
-  "chars": 10065
+  "chars": 10065,
+  "summary": "1.",
+  "has_summary": false
  },
  {
   "id": "V101",
@@ -1310,7 +1510,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 11416
+  "chars": 11416,
+  "summary": "Agenda and question bank for today's call.",
+  "has_summary": true
  },
  {
   "id": "V102",
@@ -1323,7 +1525,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 18197
+  "chars": 18197,
+  "summary": "Four upsell tracks, priced against Blue Tusk's existing pricing guide and the Cause Crazy comp, with a pitch built from Maycomb's own words rather than a generic sales case.",
+  "has_summary": true
  },
  {
   "id": "V103",
@@ -1336,7 +1540,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 8943
+  "chars": 8943,
+  "summary": "Two real jobs left for this call: close out Danielle's remaining loose ends while she's still available, and secure the right audience, specifically Andi Phillips, for the final readout.",
+  "has_summary": true
  },
  {
   "id": "V104",
@@ -1349,7 +1555,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|client",
-  "chars": 3095
+  "chars": 3095,
+  "summary": "Blue Tusk LLC & Maycomb Capital",
+  "has_summary": false
  },
  {
   "id": "V105",
@@ -1362,7 +1570,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|client",
-  "chars": 5178
+  "chars": 5178,
+  "summary": "The one-page version.",
+  "has_summary": false
  },
  {
   "id": "V106",
@@ -1375,7 +1585,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|client",
-  "chars": 31488
+  "chars": 31488,
+  "summary": "A practical guide to using Claude well, experimenting safely, and sharing what works.",
+  "has_summary": false
  },
  {
   "id": "V107",
@@ -1388,7 +1600,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|client",
-  "chars": 11586
+  "chars": 11586,
+  "summary": "Prepared for Maycomb Capital by Blue Tusk LLC July 2026",
+  "has_summary": false
  },
  {
   "id": "V108",
@@ -1401,7 +1615,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|client",
-  "chars": 6491
+  "chars": 6491,
+  "summary": "Built for Gamma.",
+  "has_summary": false
  },
  {
   "id": "V109",
@@ -1414,7 +1630,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "report|internal",
-  "chars": 29623
+  "chars": 29623,
+  "summary": "Prepared by Blue Tusk LLC Prepared for: Maycomb Capital (Martina Madrid Sebring, Interim/Fractional COO; Barry Porozni, IT) Date: July 7, 2026 Status: FIRST DRAFT \u2014 content complete, not yet formatted/branded.",
+  "has_summary": false
  },
  {
   "id": "V110",
@@ -1427,7 +1645,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 550
+  "chars": 550,
+  "summary": "Running notes on what's working and what isn't across this engagement, unstructured, no format required.",
+  "has_summary": false
  },
  {
   "id": "V111",
@@ -1440,7 +1660,9 @@
   "dest": "handoffs",
   "project": "MAY-26061601",
   "extra": "",
-  "chars": 3515
+  "chars": 3515,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V112",
@@ -1453,7 +1675,9 @@
   "dest": "ai-drafts",
   "project": "MAY-26061601",
   "extra": "document|internal",
-  "chars": 7938
+  "chars": 7938,
+  "summary": "A consolidated checklist of every open question, \"NEEDS INPUT\" flag, and unconfirmed item pulled from all documents in the Maycomb project folder as of 2026-06-23.",
+  "has_summary": true
  },
  {
   "id": "V113",
@@ -1466,7 +1690,9 @@
   "dest": "ai-drafts",
   "project": "NWC-26061701",
   "extra": "report|internal",
-  "chars": 7073
+  "chars": 7073,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V114",
@@ -1479,7 +1705,9 @@
   "dest": "ai-drafts",
   "project": "NWC-26061701",
   "extra": "document|internal",
-  "chars": 4721
+  "chars": 4721,
+  "summary": "Companion to: 2026-06-17-call-brief-neighborworks-capital Goal of this call: Win Tiana as champion.",
+  "has_summary": false
  },
  {
   "id": "V115",
@@ -1492,7 +1720,9 @@
   "dest": "ai-drafts",
   "project": "NWC-26061701",
   "extra": "report|internal",
-  "chars": 22940
+  "chars": 22940,
+  "summary": "A national nonprofit Community Development Financial Institution (CDFI) that lends to nonprofit affordable-housing developers within a closed network.",
+  "has_summary": false
  },
  {
   "id": "V116",
@@ -1505,7 +1735,9 @@
   "dest": "ai-drafts",
   "project": "NWC-26061701",
   "extra": "document|internal",
-  "chars": 20426
+  "chars": 20426,
+  "summary": "NeighborWorks Capital is beginning a structured, deliberate approach to AI adoption.",
+  "has_summary": false
  },
  {
   "id": "V117",
@@ -1518,7 +1750,9 @@
   "dest": "ai-drafts",
   "project": "NWC-26061701",
   "extra": "document|internal",
-  "chars": 1550
+  "chars": 1550,
+  "summary": "Running notes on what's working and what isn't across this engagement, unstructured, no format required.",
+  "has_summary": false
  },
  {
   "id": "V118",
@@ -1531,7 +1765,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "report|internal",
-  "chars": 36695
+  "chars": 36695,
+  "summary": "Early-stage venture fund (education, work, and access focus) transitioning from Fund I to a Fund II raise, currently building out back-office infrastructure before officially launching the raise.",
+  "has_summary": false
  },
  {
   "id": "V119",
@@ -1544,7 +1780,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "sop|internal",
-  "chars": 72
+  "chars": 72,
+  "summary": "Placeholder \u2014 delete once the first client SOP is added to this folder.",
+  "has_summary": false
  },
  {
   "id": "V120",
@@ -1557,7 +1795,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "document|internal",
-  "chars": 72
+  "chars": 72,
+  "summary": "Placeholder \u2014 delete once the first call brief is added to this folder.",
+  "has_summary": false
  },
  {
   "id": "V121",
@@ -1570,7 +1810,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "document|client",
-  "chars": 87
+  "chars": 87,
+  "summary": "Placeholder \u2014 delete once the first client-facing deliverable is added to this folder.",
+  "has_summary": false
  },
  {
   "id": "V122",
@@ -1583,7 +1825,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "document|client",
-  "chars": 11569
+  "chars": 11569,
+  "summary": "Prepared for Ruthless For Good by Blue Tusk LLC August 2026",
+  "has_summary": false
  },
  {
   "id": "V123",
@@ -1596,7 +1840,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "document|internal",
-  "chars": 552
+  "chars": 552,
+  "summary": "Running notes on what's working and what isn't across this engagement, unstructured, no format required.",
+  "has_summary": false
  },
  {
   "id": "V124",
@@ -1609,7 +1855,9 @@
   "dest": "handoffs",
   "project": "RFG-26073101",
   "extra": "",
-  "chars": 4334
+  "chars": 4334,
+  "summary": "RFG (Aaron Walker's early-stage VC fund, Fund II raise in prep) is in the free-engagement phase.",
+  "has_summary": false
  },
  {
   "id": "V125",
@@ -1622,7 +1870,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "document|internal",
-  "chars": 2738
+  "chars": 2738,
+  "summary": "Open questions and action items owed by Blue Tusk, surfaced from the 2026-08-18 email exchange between John-Carlos and Martina.",
+  "has_summary": false
  },
  {
   "id": "V126",
@@ -1635,7 +1885,9 @@
   "dest": "ai-drafts",
   "project": "LFG-26091801",
   "extra": "report|internal",
-  "chars": 20774
+  "chars": 20774,
+  "summary": "Australian crowdfunded small-business lending platform \u2014 connects lenders and borrowers, with LendForGood (\"LFG\") sitting in the middle administering the funding and repayment flow.",
+  "has_summary": false
  },
  {
   "id": "V127",
@@ -1648,7 +1900,9 @@
   "dest": "ai-drafts",
   "project": "LFG-26091801",
   "extra": "sop|internal",
-  "chars": 6447
+  "chars": 6447,
+  "summary": "LendForGood's SOP for generating and sending lender activity statements from Xero \u2014 a per-lender statement of loan payment history, sent to the lender with a short accompanying email.",
+  "has_summary": true
  },
  {
   "id": "V128",
@@ -1661,7 +1915,9 @@
   "dest": "ai-drafts",
   "project": "MOG-26092901",
   "extra": "report|internal",
-  "chars": 40622
+  "chars": 40622,
+  "summary": "Fractional COO practice founded by Martina Madrid Sebring, operating as \"Madrid Ops\" (madridops.com).",
+  "has_summary": false
  },
  {
   "id": "V129",
@@ -1674,7 +1930,9 @@
   "dest": "ai-drafts",
   "project": "MOG-26092901",
   "extra": "document|internal",
-  "chars": 29452
+  "chars": 29452,
+  "summary": "This is the first draft of the target architecture for MOG's AI-first rebuild.",
+  "has_summary": true
  },
  {
   "id": "V130",
@@ -1687,7 +1945,9 @@
   "dest": "ai-drafts",
   "project": "MOG-26092901",
   "extra": "report|internal",
-  "chars": 28532
+  "chars": 28532,
+  "summary": "Blue Tusk | AI-First Retainer | Discovery Artifact",
+  "has_summary": false
  },
  {
   "id": "V131",
@@ -1700,7 +1960,9 @@
   "dest": "ai-drafts",
   "project": "MOG-26092901",
   "extra": "sop|internal",
-  "chars": 21780
+  "chars": 21780,
+  "summary": "Full copy of the First Steps discovery doc, as completed by Martina, with every comment thread.",
+  "has_summary": true
  },
  {
   "id": "V132",
@@ -1713,7 +1975,9 @@
   "dest": "ai-drafts",
   "project": "MOG-26092901",
   "extra": "proposal|client",
-  "chars": 5293
+  "chars": 5293,
+  "summary": "Blue Tusk LLC & Madrid Operations Group",
+  "has_summary": false
  },
  {
   "id": "V133",
@@ -1726,7 +1990,9 @@
   "dest": "handoffs",
   "project": "MOG-26092901",
   "extra": "",
-  "chars": 3961
+  "chars": 3961,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V134",
@@ -1739,7 +2005,9 @@
   "dest": "ai-drafts",
   "project": "GHO-26050701",
   "extra": "document|internal",
-  "chars": 8785
+  "chars": 8785,
+  "summary": "Voice note brain dump outlining the initial product vision for GhostOps CMS \u2014 a case management system (CMS) targeting personal injury law firms, built on AWS with a Python backend, PostgreSQL database, and a unified \"notes as obj\u2026",
+  "has_summary": true
  },
  {
   "id": "V135",
@@ -1752,7 +2020,9 @@
   "dest": "ai-drafts",
   "project": "GHO-26050701",
   "extra": "document|internal",
-  "chars": 47470
+  "chars": 47470,
+  "summary": "Formal PRD for the GhostOps Case Management System (CMS) \u2014 a legal case management platform built for personal injury law firms, designed around a unified note-based data model, accessible via web UI, CLI, and REST API, and built \u2026",
+  "has_summary": true
  },
  {
   "id": "V136",
@@ -1765,7 +2035,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|operations",
-  "chars": 5507
+  "chars": 5507,
+  "summary": "A simple, repeatable method for creating a Standard Operating Procedure (SOP) quickly: record yourself walking through a workflow, then let an AI tool clean it up into a polished document.",
+  "has_summary": true
  },
  {
   "id": "V137",
@@ -1778,7 +2050,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|operations",
-  "chars": 21703
+  "chars": 21703,
+  "summary": "This maps the current folder structure of the Blue Tusk shared drive and proposes a new structure designed for AI agents to work in cheaply.",
+  "has_summary": true
  },
  {
   "id": "V138",
@@ -1791,7 +2065,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "system|operations",
-  "chars": 8810
+  "chars": 8810,
+  "summary": "On 2026-10-09 Claude built the new client-first skeleton in the existing Blue Tusk shared drive, plus INDEX (Google Sheet) and CONVENTIONS (Google Doc) at the root.",
+  "has_summary": true
  },
  {
   "id": "V139",
@@ -1804,7 +2080,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|operations",
-  "chars": 10259
+  "chars": 10259,
+  "summary": "How to restructure a firm's Google Drive into the client-first AI-ready taxonomy and move all existing content in, using Claude for design and the skeleton and a person-run Apps Script for the moves.",
+  "has_summary": true
  },
  {
   "id": "V140",
@@ -1817,7 +2095,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|operations",
-  "chars": 21432
+  "chars": 21432,
+  "summary": "Full source of the rule-based Drive migration script, tested on Blue Tusk's shared drive on 2026-10-09 (726 items, 0 errors).",
+  "has_summary": true
  },
  {
   "id": "V141",
@@ -1830,7 +2110,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|product",
-  "chars": 20347
+  "chars": 20347,
+  "summary": "New offering direction: the AI & Automation Roadmap stays the intro/attraction offer, but Information Taxonomy design & migration becomes the core, differentiated upsell \u2014 this is the real moat identified across a multi-turn strat\u2026",
+  "has_summary": true
  },
  {
   "id": "V142",
@@ -1843,7 +2125,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|product",
-  "chars": 9219
+  "chars": 9219,
+  "summary": "\u26a0\ufe0f Updated 2026-10-07: the Google Drive conclusion below is out of date.",
+  "has_summary": true
  },
  {
   "id": "V143",
@@ -1856,7 +2140,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|product",
-  "chars": 6656
+  "chars": 6656,
+  "summary": "The basics JC is comfortable giving away for free: how to name and structure files.",
+  "has_summary": false
  },
  {
   "id": "V144",
@@ -1869,7 +2155,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|product",
-  "chars": 19304
+  "chars": 19304,
+  "summary": "Hands-on test of Claude's Google connectors (Drive, Docs, Sheets, Slides) against a test folder in the Blue Tusk shared drive.",
+  "has_summary": true
  },
  {
   "id": "V145",
@@ -1882,7 +2170,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "system|product",
-  "chars": 25796
+  "chars": 25796,
+  "summary": "This is the dated, append-only record of every architecture decision behind business/projects/internal/product/20261008ai-native-operating-architecture.",
+  "has_summary": true
  },
  {
   "id": "V146",
@@ -1895,7 +2185,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "guide|product",
-  "chars": 56879
+  "chars": 56879,
+  "summary": "This is a reusable architecture for running a small firm with AI agents doing much of the drafting, filing, tracking and catch-up work, at a token cost the firm can afford.",
+  "has_summary": true
  },
  {
   "id": "V147",
@@ -1908,7 +2200,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070101",
   "extra": "document|client",
-  "chars": 9964
+  "chars": 9964,
+  "summary": "A first draft of the free lead magnet (decision AD-041), simplified from business/projects/internal/product/20261008ai-native-operating-architecture.",
+  "has_summary": true
  },
  {
   "id": "V148",
@@ -1921,7 +2215,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "system|product",
-  "chars": 45868
+  "chars": 45868,
+  "summary": "The master spec for having Notion AI build the Notion half of the AI-native operating architecture: databases, properties, relations, page templates, views and seed pages.",
+  "has_summary": true
  },
  {
   "id": "V149",
@@ -1934,7 +2230,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "system|product",
-  "chars": 24120
+  "chars": 24120,
+  "summary": "Six prompts, run in order, that have Notion AI (1) clear the example data from the Operating System, (2) audit the legacy Operations Master, CRM Master and Blue Tusk Meeting Notes, (3) add the properties the legacy data needs, the\u2026",
+  "has_summary": true
  },
  {
   "id": "V150",
@@ -1947,7 +2245,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "system|product",
-  "chars": 11780
+  "chars": 11780,
+  "summary": "Related: business/projects/internal/product/20261009NotionOSmigrationprompts (the prompts that ran this migration).",
+  "has_summary": false
  },
  {
   "id": "V151",
@@ -1960,7 +2260,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26080701",
   "extra": "document|internal",
-  "chars": 3250
+  "chars": 3250,
+  "summary": "Home for productization thinking \u2014 moving Blue Tusk from a pure time-for-money service business toward an owned, scalable product (client-facing \"company brain\" system and/or an operator-facing methodology/system product).",
+  "has_summary": true
  },
  {
   "id": "V152",
@@ -1973,7 +2275,9 @@
   "dest": "handoffs",
   "project": "BTK-26080701",
   "extra": "",
-  "chars": 5374
+  "chars": 5374,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V153",
@@ -1986,7 +2290,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070102",
   "extra": "report|internal",
-  "chars": 4676
+  "chars": 4676,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V154",
@@ -1999,7 +2305,9 @@
   "dest": "ai-drafts",
   "project": "RFG-26073101",
   "extra": "report|internal",
-  "chars": 4248
+  "chars": 4248,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V155",
@@ -2012,7 +2320,9 @@
   "dest": "ai-drafts",
   "project": "SRG-24041101",
   "extra": "report|internal",
-  "chars": 3925
+  "chars": 3925,
+  "summary": "",
+  "has_summary": false
  },
  {
   "id": "V156",
@@ -2025,7 +2335,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070102",
   "extra": "report|internal",
-  "chars": 18180
+  "chars": 18180,
+  "summary": "Decision-maker on the call?",
+  "has_summary": false
  },
  {
   "id": "V157",
@@ -2038,7 +2350,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "research|sales",
-  "chars": 1984
+  "chars": 1984,
+  "summary": "AI agents that run autonomously inside businesses \u2014 referred to here as \"Corporate Claws\" \u2014 are an emerging operational layer.",
+  "has_summary": true
  },
  {
   "id": "V158",
@@ -2051,7 +2365,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "research|sales",
-  "chars": 17812
+  "chars": 17812,
+  "summary": "After ~30 LinkedIn outreaches and ~400 cold emails, response rate is effectively 0.",
+  "has_summary": true
  },
  {
   "id": "V159",
@@ -2064,7 +2380,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "research|sales",
-  "chars": 4544
+  "chars": 4544,
+  "summary": "A sent client response addressing security concerns about connecting Claude to Microsoft 365 (data leaving the Microsoft boundary, prompt injection, vendor track record).",
+  "has_summary": true
  },
  {
   "id": "V160",
@@ -2077,7 +2395,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 6676
+  "chars": 6676,
+  "summary": "Skim their pre-call screening survey.",
+  "has_summary": false
  },
  {
   "id": "V161",
@@ -2090,7 +2410,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 5979
+  "chars": 5979,
+  "summary": "Subject Line: had a thought about your intake",
+  "has_summary": false
  },
  {
   "id": "V162",
@@ -2103,7 +2425,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 8199
+  "chars": 8199,
+  "summary": "Each variant tests a meaningfully different approach.",
+  "has_summary": false
  },
  {
   "id": "V163",
@@ -2116,7 +2440,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 2830
+  "chars": 2830,
+  "summary": "This skill converts a PI firm discovery call transcript or structured call notes into a complete, Notion-ready audit report in markdown format.",
+  "has_summary": false
  },
  {
   "id": "V164",
@@ -2129,7 +2455,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 2722
+  "chars": 2722,
+  "summary": "This prompt is passed to an AI to generate the instruction input for the blog writing prompt.",
+  "has_summary": false
  },
  {
   "id": "V165",
@@ -2142,7 +2470,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 11874
+  "chars": 11874,
+  "summary": "This is the full prompt passed to an AI writer to produce a complete Blue Tusk SEO article.",
+  "has_summary": false
  },
  {
   "id": "V166",
@@ -2155,7 +2485,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 4609
+  "chars": 4609,
+  "summary": "Attach this as a Calendly intake form on your audit booking page.",
+  "has_summary": false
  },
  {
   "id": "V167",
@@ -2168,7 +2500,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 2615
+  "chars": 2615,
+  "summary": "Visual:",
+  "has_summary": false
  },
  {
   "id": "V168",
@@ -2181,7 +2515,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 5307
+  "chars": 5307,
+  "summary": "Use this resource to store all SOPs and resources for the Social Outbound System for the Free Workflow Waste Audit offer.",
+  "has_summary": false
  },
  {
   "id": "V169",
@@ -2194,7 +2530,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 14197
+  "chars": 14197,
+  "summary": "- Positioning: A free, no-commitment audit that shows PI firms exactly where their intake and case management is leaking time and money \u2014 delivered in 3 days.",
+  "has_summary": false
  },
  {
   "id": "V170",
@@ -2207,7 +2545,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 5932
+  "chars": 5932,
+  "summary": "v1: business/sales/2026-04-03-SocialOutboundSOPFreeWorkflowWasteAudit Social Outbound SOP \u2014 Free Workflow Waste Audit",
+  "has_summary": false
  },
  {
   "id": "V171",
@@ -2220,7 +2560,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 5272
+  "chars": 5272,
+  "summary": "v1: business/sales/2026-03-30-audit-email-sequence|2026-03-30-audit-email-sequence v2 \u2014 Created 2026-04-14.",
+  "has_summary": false
  },
  {
   "id": "V172",
@@ -2233,7 +2575,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 8189
+  "chars": 8189,
+  "summary": "v1: business/sales/2026-04-03-SocialOutboundSOPFreeWorkflowWasteAudit v2: business/sales/2026-04-14-SocialOutboundSOPFreeWorkflowWasteAudit adversarial analysis: business/sales/2026-04-30-adversarial-analysis-social-outbound-sop",
+  "has_summary": false
  },
  {
   "id": "V173",
@@ -2246,7 +2590,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "template-instructions|sales",
-  "chars": 13291
+  "chars": 13291,
+  "summary": "The SOP is well-structured with a genuine personality and low-friction entry point.",
+  "has_summary": true
  },
  {
   "id": "V174",
@@ -2259,7 +2605,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "sop|sales",
-  "chars": 11577
+  "chars": 11577,
+  "summary": "This SOP combines the firm-specific research methodology from the Workflow Waste Snapshot approach with the LinkedIn social outbound follow-up system.",
+  "has_summary": true
  },
  {
   "id": "V175",
@@ -2272,7 +2620,9 @@
   "dest": "ai-drafts",
   "project": "BTK-26070102",
   "extra": "document|internal",
-  "chars": 2252
+  "chars": 2252,
+  "summary": "This project contains all operational and marketing assets for Blue Tusk's primary go-to-market motion: a Free Workflow Waste Audit that converts to a $2,500\u2013$5,000/month retainer.",
+  "has_summary": true
  },
  {
   "id": "V176",
@@ -2285,7 +2635,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 5695
+  "chars": 5695,
+  "summary": "Tiered practice plan for The Ellipsis Manual techniques, built from the book summary, the training planner, and JC's attempt history (Jun\u2013Dec 2025).",
+  "has_summary": true
  },
  {
   "id": "V177",
@@ -2298,7 +2650,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 4327
+  "chars": 4327,
+  "summary": "Ellipsis Daily - 2026-04-08",
+  "has_summary": true
  },
  {
   "id": "V178",
@@ -2311,7 +2665,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 684
+  "chars": 684,
+  "summary": "Rolling log of Ellipsis Manual technique attempts.",
+  "has_summary": true
  },
  {
   "id": "V179",
@@ -2324,7 +2680,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 261
+  "chars": 261,
+  "summary": "Archive of Ellipsis Manual technique attempts older than the last 10.",
+  "has_summary": true
  },
  {
   "id": "V180",
@@ -2337,7 +2695,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 5538
+  "chars": 5538,
+  "summary": "A comprehensive, science-backed breakdown of how to gain 20 lbs of muscle naturally, covering training volume/intensity, exercise selection, nutrition, and sleep.",
+  "has_summary": true
  },
  {
   "id": "V181",
@@ -2350,7 +2710,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 7268
+  "chars": 7268,
+  "summary": "A calorie-surplus nutrition plan tailored for a very lean beginner (5'7\", 125 lbs, hard gainer) focused on maximizing muscle growth.",
+  "has_summary": true
  },
  {
   "id": "V182",
@@ -2363,7 +2725,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 6528
+  "chars": 6528,
+  "summary": "A 3-day beginner training plan using the Intensity Method: low weekly sets (5\u20138 per muscle group) taken to absolute failure.",
+  "has_summary": true
  },
  {
   "id": "V183",
@@ -2376,7 +2740,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 3116
+  "chars": 3116,
+  "summary": "Finalized entertainment plan for a Tuscan hillside outdoor wedding at sunset.",
+  "has_summary": true
  },
  {
   "id": "V184",
@@ -2389,7 +2755,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 1366
+  "chars": 1366,
+  "summary": "Voice note capture about a psychological influence framework from The Ellipsis Manual by Chase Hughes.",
+  "has_summary": true
  },
  {
   "id": "V185",
@@ -2402,7 +2770,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 31038
+  "chars": 31038,
+  "summary": "Should knowledge of psychology's most persuasive techniques be closely guarded or used ethically to benefit society?",
+  "has_summary": false
  },
  {
   "id": "V186",
@@ -2415,7 +2785,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 4023
+  "chars": 4023,
+  "summary": "Reference map of human needs from The Ellipsis Manual.",
+  "has_summary": true
  },
  {
   "id": "V187",
@@ -2428,7 +2800,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 15185
+  "chars": 15185,
+  "summary": "Distilled skill and technique reference from Chase Hughes' Ellipsis Training Planner (the 52-week workbook companion to The Ellipsis Manual).",
+  "has_summary": true
  },
  {
   "id": "V188",
@@ -2441,7 +2815,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 970
+  "chars": 970,
+  "summary": "Notes on techniques for building genuine human connection quickly \u2014 covering name retention, active listening, emotional attunement, and identifying underlying needs.",
+  "has_summary": true
  },
  {
   "id": "V189",
@@ -2454,7 +2830,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 9969
+  "chars": 9969,
+  "summary": "Lavoro nel campo dell'intelligenza artificiale.,I work in the field of artificial intelligence.,Present (Presente) Gestisco la mia azienda da solo.,I run my company on my own.,Present (Presente) Parlo un po' di italiano.,I speak a\u2026",
+  "has_summary": false
  },
  {
   "id": "V190",
@@ -2467,7 +2845,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 9483
+  "chars": 9483,
+  "summary": "This is a context-first approach to learning Italian verb conjugation.",
+  "has_summary": true
  },
  {
   "id": "V191",
@@ -2480,7 +2860,9 @@
   "dest": "tasks",
   "project": "BTK-26070104",
   "extra": "",
-  "chars": 165
+  "chars": 165,
+  "summary": "Right now the PI firm snapshot gives its response in a widget format, but I want it just to write out the 3 email sequence directly in the chat in a markdown format.",
+  "has_summary": false
  },
  {
   "id": "V192",
@@ -2493,7 +2875,9 @@
   "dest": "tasks",
   "project": "RFG-26073101",
   "extra": "",
-  "chars": 951
+  "chars": 951,
+  "summary": "Martina asked for JC's read on the cleanest way to run a Claude-based inbox/calendar triage assistant against Ruthless For Good's Microsoft 365/Outlook setup, since Claude reads Gmail natively but not Exchange.",
+  "has_summary": true
  },
  {
   "id": "V193",
@@ -2506,7 +2890,9 @@
   "dest": "tasks",
   "project": "RFG-26073101",
   "extra": "",
-  "chars": 946
+  "chars": 946,
+  "summary": "Martina asked JC to spell out what \"doing it right from the start\" would involve for restructuring Ruthless For Good's SharePoint, and what oversight that requires from Blue Tusk.",
+  "has_summary": true
  },
  {
   "id": "V194",
@@ -2519,7 +2905,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 887
+  "chars": 887,
+  "summary": "I was thinking about why people hire Vegas women",
+  "has_summary": false
  },
  {
   "id": "V195",
@@ -2532,7 +2920,9 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 373
+  "chars": 373,
+  "summary": "This is a voice note I want to get better at the fundamentals and the basics of mergers and Acquisitions and corporate finance I want to be prepared for when eventually I will be either buying or selling a business I want to be ve\u2026",
+  "has_summary": false
  },
  {
   "id": "V196",
@@ -2545,7 +2935,9 @@
   "dest": "knowledge",
   "project": "",
   "extra": "idea|marketing",
-  "chars": 6681
+  "chars": 6681,
+  "summary": "This is a voice transcription these are some more LinkedIn post ideas that I think I'm just going to try and rattle off i have to kind of think through a little bit so some things that have happened to me recently let's see storie\u2026",
+  "has_summary": false
  },
  {
   "id": "V197",
@@ -2558,6 +2950,8 @@
   "dest": "personal",
   "project": "",
   "extra": "",
-  "chars": 6911
+  "chars": 6911,
+  "summary": "Okay this is a voice dictation so this will be bad punctuation and everything like that but this is instructions for how to take care of the dog first let's start with food and walks actually let's start with things to watch out f\u2026",
+  "has_summary": false
  }
 ]
