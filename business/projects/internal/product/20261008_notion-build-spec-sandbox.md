@@ -37,7 +37,7 @@ A build spec for **Notion AI** to build the Notion half of the AI-native operati
    - **Last Edited** (Last edited time): Set automatically. Never edit.
 6. **No orphan pages.** Every content page is a row in a database. The only free-standing pages are the top-level page, Home, Clients, and the person home template.
 7. **Archive with a status, never by deleting.** Default views hide archived rows.
-8. **Titles are clean human titles** with no dates or IDs in them (dates and IDs live in properties).
+8. **Titles are clean human titles** with no dates or IDs in them (dates and IDs live in properties). **One exception: Project titles start with the Project ID,** formatted `{Project ID} {Project name}` (e.g. `ACM-26100201 Operations Build`). This makes every relation to a project show its ID, and lets search find a project by its ID. The Project ID property stays the official value for filters and rollups; the two must always match.
 9. **Client codes** are 3 capital letters (e.g. `ACM`). **Project IDs** use the format `{CLIENT}-{YYMMDDNN}` (e.g. `ACM-26100101`): client code, then the date the project was opened as YYMMDD, then a two-digit sequence for that day. Assigned once, never changed.
 
 ---
@@ -91,7 +91,7 @@ Every unit of scoped work: client, internal and admin. Project context lives on 
 
 | Property | Type | Options / notes | Description |
 |---|---|---|---|
-| Name | Title | | Clean project name (no ID or date). |
+| Name | Title | `{Project ID} {Project name}` | Project ID followed by the project name, e.g. "ACM-26100201 Operations Build". The ID part must match the Project ID property exactly. The name part can change; the ID never does. |
 | Project ID | Text | `{CLIENT}-{YYMMDDNN}` | Permanent project ID. Assigned once at creation, never changed. Used in Drive folder names and file names. |
 | Area | Select | client, internal, admin | Which part of the business this project belongs to. |
 | Company | Relation → Companies | (other side of Companies.Projects) | The client or company this project is for. Internal and admin projects relate to the firm's own company row. |
@@ -167,8 +167,8 @@ Company-level living knowledge: SOPs, guides, training, policies, the quick refe
 **Quick reference outline ("How to use this system"):**
 1. **Where things live:** Notion = drafts, context, people, projects, tasks, knowledge. Google Drive = finals and files clients receive. Gamma = presentations. Billing tool = money.
 2. **How to find anything:** start at Home; Clients → company → project; every project page has its tasks, drafts, meetings and handoffs.
-3. **Tip: find by ID.** Type a client code (`ACM`) or project ID (`ACM-26100101`) into search or a view filter to jump straight to that client's or project's work.
-4. **Naming in one line each:** titles are clean; project IDs are `{CLIENT}-{YYMMDDNN}`; internal Drive files start `YYYYMMDD_{ID}_`; client-facing files get clean titles.
+3. **Tip: find by ID.** Every project's title starts with its ID, so typing a project ID (`ACM-26100101`) or a client code (`ACM-`) into search finds it straight away. The same works in any view's filter. Anywhere a project is linked, you'll see its ID.
+4. **Naming in one line each:** titles are clean, except project titles, which start with the project ID; project IDs are `{CLIENT}-{YYMMDDNN}`; internal Drive files start `YYYYMMDD_{ID}_`; client-facing files get clean titles.
 5. **Keep Summary current** and tick Needs Attention when someone needs to look.
 6. **What AI will and won't do:** drafts and prepares; never sends to clients, never touches money, never publishes, never changes the system without approval.
 7. **Start and end a session:** start by reading the project's "Where things stand"; end by writing a Handoff and updating "Where things stand" (Phase 2).
@@ -205,17 +205,19 @@ Company-level living knowledge: SOPs, guides, training, policies, the quick refe
   - "EXAMPLE Oakridge Logistics" — `OAK`, client, active.
 - **People:** two per client company (one with Relationship Stage = client), plus two prospects with no company (Stage = reached out and in conversation; one with Next Follow-up in the past).
 - **Projects:**
-  - "EXAMPLE Discovery and Roadmap" — `ACM-26100101`, Area client, Company Acme, Stage done.
-  - "EXAMPLE Operations Build" — `ACM-26100201`, client, Acme, active, with Main Contact and Decision Maker set.
-  - "EXAMPLE Logistics Proposal" — `OAK-26100501`, client, Oakridge, proposal.
-  - "EXAMPLE Outreach Q4" — `BTK-26100801`, internal, Blue Tusk, ongoing.
-  - "EXAMPLE Finance and Admin" — `BTK-26100802`, admin, Blue Tusk, ongoing.
+  - "ACM-26100101 EXAMPLE Discovery and Roadmap" — Project ID `ACM-26100101`, Area client, Company Acme, Stage done.
+  - "ACM-26100201 EXAMPLE Operations Build" — `ACM-26100201`, client, Acme, active, with Main Contact and Decision Maker set.
+  - "OAK-26100501 EXAMPLE Logistics Proposal" — `OAK-26100501`, client, Oakridge, proposal.
+  - "BTK-26100801 EXAMPLE Outreach Q4" — `BTK-26100801`, internal, Blue Tusk, ongoing.
+  - "BTK-26100802 EXAMPLE Finance and Admin" — `BTK-26100802`, admin, Blue Tusk, ongoing.
 - **Tasks:** 6–8 across the projects, with a mix of statuses, one overdue, one with Needs Attention checked.
 - Fill **Summary** on every example row and **Where things stand** on the active project.
 
 #### Phase 1 done when
 - [ ] Five databases exist with exactly the listed properties, types, options and descriptions.
 - [ ] All relations are two-way and named on both sides (including the four contact roles).
+- [ ] Every project title starts with its Project ID, and relations to projects show the ID (check a task's Project relation).
+- [ ] Searching a project ID (e.g. `ACM-26100201`) finds that project.
 - [ ] Company, Person and Project templates exist and are the defaults.
 - [ ] Home, Clients and the person home template work with the example data.
 - [ ] System Registry, one registry page per database, "How to use this system" and "Getting started" exist.
