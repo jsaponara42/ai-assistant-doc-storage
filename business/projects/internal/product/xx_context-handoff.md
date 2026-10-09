@@ -11,36 +11,31 @@ status: ok
 > Fresh-start note. Read this first. Only pull in the files linked below if the current task actually needs that level of detail — don't re-read everything by default.
 
 ## Where things stand
-The core offering is still **Information Taxonomy** (Roadmap → taxonomy design / migration → drift-checking → AI working-partner layer). It now has a concrete, generalizable **AI-native operating architecture**, built first for MOG and meant for any firm, eventually Blue Tusk itself: Notion as the working back end (eleven databases), Drive for finals, one ID per entity, agent rules, scripted backups, governance, and **skills in a git repo**. A free lead magnet built from it is drafted.
+The AI-native operating architecture is designed (AD-001 to AD-054) and **the Notion half is built** as a sandbox in JC's workspace (Notion Business plan) by Notion AI, from the phased build spec (now v2.1). **Next session (2026-10-09): build everything the Notion spec left out**, starting with Google Drive, using JC's own Blue Tusk setup as the first real build and the template for MOG.
 
 ## Last worked on (2026-10-08)
-- **Skills portability (AD-043 to AD-048):**
-  - Tested: a Notion skill downloads as a clean open-standard `SKILL.md` folder, with attached files bundled. Claude does **not** find Notion-hosted skills on its own (readable by page ID only).
-  - Decided: **a private git repo is the master**, laid out as a Claude plugin marketplace. Syncs automatically to Claude on Team plans and via Claude Code; manual upload on Pro (**Blue Tusk is on Pro**); one-way deploy to Notion AI (untested). Skills are written tool-agnostic and registered. Reference doc Section 8.1.
-- **Navigation and training (AD-049 to AD-051):** no file tree in Notion, so Project pages act as folders, grouped "All work" views, a short sidebar hub, and find-by-ID. A literal folder tree exists only in the backup repo. Training (incl. SOPs) and a "How to use this system" quick reference page live in Notion Knowledge. Reference doc Sections 10.1 and 10.2.
-- Earlier today: full reference architecture and decision log, commercial decisions (backup as paid offering, feature additions as ongoing role, free lead magnet), Handoffs database design, Blue Tusk Drive restructure proposal.
+- Notion AI built all 3 phases in "Operating System (Sandbox)". Its feedback and test answers produced spec v2 and v2.1. Database and data source IDs are in the sandbox registry note.
+- Findings (AD-054): agent queries can't read formulas or rollups; search finds IDs in titles and text properties but not URLs; Notion AI can't lock databases; Created By shows the person; Notion AI didn't auto-load the enabled catch-up skill.
+- Decided: project titles start with the Project ID (AD-052); skills live in a private git repo as master (AD-045 to AD-048); navigation via project-as-folder pages, find-by-ID, training and a quick reference in Knowledge (AD-049 to AD-051).
 
-## Open / next
-- **Sandbox is built** (all 3 phases) by Notion AI; spec revised to v2.1 from its feedback ([[20261008_notion-build-spec-sandbox]]). IDs in [[20261008_notion-sandbox-registry]]. Next: work the sandbox fix list in the spec, run the lock test (JC locks Projects, Notion AI tries a schema change), then write the migration spec for active work.
-- **Set up Blue Tusk's own skills repo** as the template; move existing Claude skills into it.
-- **Pending tests:** git → Notion skill deploy with a script (O-12); Notion AI using an enabled skill; Notion lock vs connector; backup → restore; Office file read cost; Sheets edit cost; Stripe webhooks.
-- **Decide:** Blue Tusk on Claude Team for automatic skill sync (O-13); client skills repo ownership (O-11).
-- **Lead magnet:** JC to edit; decide format, title, call to action, gating.
-- **Blue Tusk Drive restructure:** confirm codes and structure; clean up `XX_Logins` (security).
-- **Delete scratch Notion databases** when done: "SCRATCH - AI Drafts Test" and "SCRATCH - Skills Test".
-- Still open from August: migration strategy, PE objections, naming the stack, reusable-IP vs billable split.
+## Open / next: the out-of-scope list (spec's "Out of scope" section)
+1. **Google Drive:** build the Blue Tusk skeleton (client-first, `00_Company` … `99_Archive`), CONVENTIONS and INDEX. Client and project folders follow `{CLIENT}_{slug}` / `{CLIENT}-{YYMMDDNN}_{slug}` with `client-sent/`, `in-progress/`, `delivered/`; client folders get `00_Contracts/`. **Agents can't move files,** so Claude builds the skeleton and JC drags content (or an Apps Script from a mapping table). First confirm client codes and top-level structure (drive restructure note), and clean up `XX_Logins`.
+2. **Link Drive to Notion:** Drive Folder URLs on Companies and Projects; INDEX lists Notion links.
+3. **Skills repo:** private GitHub repo laid out as a Claude plugin marketplace; move existing skills in; Claude Code marketplace (JC is on Claude Pro, so chat skills are manual uploads).
+4. **Scripts:** backup export to markdown (folder tree by client/project in the backup repo), Last Contacted header-only updater, Stripe webhook plus nightly reconciliation, drift checks. Decide where scripts run.
+5. **Manual Notion steps:** sandbox fix list in the spec; restricted teamspace for Contracts and Invoices (Business plan supports it); **lock test** (JC locks Projects, Notion AI tries a schema change).
+6. **Then:** migration spec for JC's active work; MOG build plan.
 
 ## Watch items
-- **Drift-checking is bridge revenue;** platform AI will absorb it.
-- **Cost-calculator math** ($325K–$375K/year) is illustrative only.
-- **Token numbers** come from small internal tests; present as "in our tests."
-- **The pasted web summary on Notion skills was partly wrong** (no documented GitHub → Notion upload, no ZIP import of skills). Check Notion's own docs before relying on claims.
+- **Agents can't move Drive files;** create in the right folder first time.
+- **No backups where the Claude-connected account can see them.**
+- **The drive restructure note's update section predates `in-progress/`** (AD-038); the architecture doc is current.
+- The pasted web summary on Notion skills was partly wrong; check Notion's own docs.
 
 ## Key files
-- [[20261008_ai-native-operating-architecture]]: **start here for the architecture** (skills: Section 8.1).
+- [[20261008_ai-native-operating-architecture]]: **start here** (Drive: Sections 3 and 6; backups: 11; skills: 8.1).
+- [[20261008_notion-build-spec-sandbox]]: Notion spec v2.1, out-of-scope list, sandbox fix list.
+- [[20261008_notion-sandbox-registry]]: sandbox database and page IDs.
+- [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: current Drive map, proposed structure, client codes to confirm.
 - [[20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-054, open items O-1 to O-13.
-- [[20261008_notion-build-spec-sandbox]]: the spec to paste into Notion AI (Phases 1–3).
-- [[20261008_lead-magnet-ai-ready-workspace-draft]]: the free guide draft.
-- [[20261007_google-drive-taxonomy-test-results]]: connector tests and token costs.
-- [[business/projects/internal/google-drive-restructure/20261007_blue-tusk-drive-map-and-proposed-taxonomy]]: JC's Drive map and proposed structure.
-- [[20260814_information-taxonomy-offering-stack]]: offering stack, moat, migration options.
+- [[20261007_google-drive-taxonomy-test-results]]: what the Drive connector can and can't do.

@@ -554,7 +554,7 @@ Add a heading **Admin (restricted)** at the bottom of Home with an italic line: 
 ### Findings from the v1 sandbox (2026-10-08)
 - **Search:** searching a project ID finds the project. Notion search also matched text properties (Summary, Client Code, Project ID), but **not URL properties.** The ID in the project title is still what makes relations show the ID.
 - **Skills:** the enabled "catch-up" skill was **not loaded automatically** by Notion AI; it found it only by searching for it. Skills that need database IDs depend on the registry listing them.
-- **Plan:** Notion AI couldn't see the workspace plan; no teamspaces or groups were visible, and everything sat in JC's private section. Check the plan by hand before Phase 3.
+- **Plan:** Notion AI couldn't see the workspace plan; no teamspaces or groups were visible, and everything sat in JC's private section. JC is on **Business**, so teamspaces are available but hadn't been created. Check the plan by hand before Phase 3; for the sandbox, consider moving Contracts and Invoices into a restricted teamspace.
 
 ### Open decisions in this spec
 - **Documents AI Access default:** allowed (current) vs restricted (safer, more human work).

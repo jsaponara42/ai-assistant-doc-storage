@@ -307,7 +307,7 @@ The nightly backup export is organized by client, project and type, which gives 
 - **Created By / Last Edited By show the person,** confirming the AD-042 limit.
 - **Notion AI didn't auto-load the enabled catch-up skill;** it found it by searching. This extends AD-044: neither Claude nor Notion AI reliably picks up a Notion-hosted skill on its own. Skill descriptions name their triggers plainly, and the registry must list database and data source IDs.
 - **Meeting notes:** per Notion's docs, the default meetings database receives new AI and Calendar meeting notes; Project and follow-up fields aren't filled automatically (options to test).
-- **Plan:** Notion AI couldn't see JC's workspace plan; no teamspaces were visible.
+- **Plan:** Notion AI couldn't see JC's workspace plan; no teamspaces were visible. **JC confirmed he's on the Business plan** (2026-10-08), so teamspace permissions are available; none had been created yet. Contracts and Invoices can move to a restricted teamspace.
 
 ### Open (not yet decided)
 - **O-1:** Martina's view on one shared database across her clients (AD-015).

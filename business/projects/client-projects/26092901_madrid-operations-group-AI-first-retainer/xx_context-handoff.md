@@ -18,6 +18,7 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery and the curre
   - **Notion** holds drafts, context, CRM, tasks, meeting notes, registers and the dashboard (eleven databases).
   - **Drive** holds finals and files; **Gamma** holds decks; **QuickBooks + Wise** remain the money source of truth.
   - Agents work across a client's projects, never across clients. Backups are scripted. Schema changes need approval.
+- **Notion build spec v2.1** is proven on JC's sandbox (built by Notion AI) and is the artifact for MOG's Notion build. Drive, scripts and the skills repo are being built on Blue Tusk first (from 2026-10-09) as the template.
 - **Skills (new today, AD-043 to AD-048):** a private git repo is the master. **MOG is on Claude Team**, so Claude syncs skills automatically from the repo through organization settings. The deploy to Notion AI is untested.
 
 ## Open / next
@@ -43,7 +44,8 @@ The retainer is active: $1,500/month, Sep 29 – Dec 29. Discovery and the curre
 
 ## Key files
 - [[business/projects/internal/product/20261008_ai-native-operating-architecture]]: **start here for anything architecture-related** (skills: Section 8.1).
-- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-051, open items O-1 to O-13.
+- [[business/projects/internal/product/20261008_ai-native-architecture-decision-log]]: decisions AD-001 to AD-054, open items O-1 to O-13.
+- [[business/projects/internal/product/20261008_notion-build-spec-sandbox]]: the Notion build spec (v2.1) to run for MOG.
 - [[20261007_MOG_Current_State_Workflow_Map]]: MOG's workflows; the basis for the build plan.
 - [[20261007_MOG_AI_Native_Stack_Architecture]]: earlier MOG-specific draft; its 10-08 update says what's superseded.
 - [[SOPs/20261007_MOG_First_Steps_Discovery]]: Martina's answers word for word.
