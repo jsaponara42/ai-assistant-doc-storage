@@ -60,8 +60,19 @@ Item 1 on the out-of-scope list in [[business/projects/internal/product/20261008
 - **Sold SOWs stay as designed finals** in the client's `00_Contracts/` (the only one in Drive: CauseCrazy, 2025-12-16). Rule added. `Lost` is empty. **Every SOW gets a link from its Notion Project** via the Contracts database (SOW → Project relation, Drive link on the Contracts row). Do this in the Drive → Notion linking step.
 - **Strategy folders** (`Business Development/Company Strategy`, `Marketing/Marketing Strategy`, `Sales/Sales Strategy`) and probably `Product/` → **become Notion pages**, not Drive folders. They stay unmapped (untouched) until converted; then the empty folders get trashed.
 
-### Still unmapped (to review after the inventory)
-`Legal/Contracts/Unsigned`, `Client Projects/AI Advisory - All` (loose files), anything the Oct 7 map missed.
+### Inventory results (2026-10-09)
+- **726 items, 546 files, 180 folders.** All 97 rules resolve; the local dry run of the planner shows **0 errors, 126 moves covering 527 of 546 files.**
+- The remaining ~19 files are the strategy and offer documents meant for Notion (Company Strategy, Product Strategy, Marketing Strategy, Sales Strategy, Attraction Offers, Engagement cost curves, Tagline brainstorm, Product Descriptions, AI and Automation Advisor offering). They stay in place until converted. Plus `XX_Logins` (skipped).
+- **The Oct 7 map missed `Legal/Contracts/Signed`:** signed SOWs for MAY, NWC, MOG and a second CauseCrazy SOW (2026-03-04, "AI & Automation Advisor"). Each rule sends it to the client's `00_Contracts`.
+- **Client material in company folders caught:** a CauseCrazy T&C redline sat in `Legal/Contracts/Examples`; a rule sends it to CCZ `00_Contracts` instead of company Legal.
+- Created `99_Archive/02_Pipeline/Lost-Proposals` (`1eFD8uepMdnyf2pH1kwvUS3xrmeMRKtX-`); the Rudin Law proposed SOW goes there.
+- Product's audit-offer kit → `04_Knowledge/Delivery-Templates/Audit-Partnership-Kit`; reference PDFs and calculators → `04_Knowledge`; old 2024 working docs → `99_Archive/00_Company`; 5-year P&L model → `Finance/Planning`.
+- **Inventory speed:** the shared-drive walk took several resume cycles (~10 minutes for 726 items). For a large client drive, expect it to run for a while; it finishes on its own.
+
+### Open questions
+- Is the CauseCrazy 2026-03-04 "AI & Automation Advisor" SOW a second project (`CCZ-26030401`)?
+- The Capital Financing SOW was in `Unsigned`. Is there a signed copy anywhere?
+- The CauseCrazy Dec 2025 SOW exists twice (Sold folder and project folder). Keep the `00_Contracts` copy, trash the other?
 
 ### Observations
 - Creating Google files from CSV and markdown uploads works in one call (CSV → Sheet, markdown → formatted Doc). A markdown table imports with an empty header row, so use lists in CONVENTIONS.
